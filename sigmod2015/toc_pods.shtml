@@ -1,0 +1,603 @@
+
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>PODS '15- Proceedings of the 34th ACM Symposium on Principles of Database Systems</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+
+</head>
+
+
+<body>
+
+
+<div id="DLtoc">
+	<div id="DLheader">
+    	<h1>PODS '15- Proceedings of the 34th ACM Symposium on Principles of Database Systems</h1>
+        <a class="DLcitLink" href="http://dl.acm.org/citation.cfm?id=2745754" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="http://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+    </div>
+    <div id="DLcontent">
+    	<h2>SESSION: Keynote Address</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97912" title="Get the Full Text from the ACM Digital Library">Computational Thinking, Inferential Thinking and "Big Data"</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Michael I. Jordan</li>
+                          
+              </ul>
+        <h2>SESSION: Repairs and Ontologies</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97913" title="Get the Full Text from the ACM Digital Library">Dichotomies in the Complexity of Preferred Repairs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ronald Fagin</li>
+                          
+                          <li class="nameList">Benny Kimelfeld</li>
+                          
+                          <li class="nameList Last">Phokion G. Kolaitis</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97914" title="Get the Full Text from the ACM Digital Library">The Data Complexity of Consistent Query Answering for Self-Join-Free Conjunctive Queries Under Primary Key Constraints</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Paraschos Koutris</li>
+                          
+                          <li class="nameList Last">Jef Wijsen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97925" title="Get the Full Text from the ACM Digital Library">High-Level Why-Not Explanations using Ontologies</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Balder ten Cate</li>
+                          
+                          <li class="nameList">Cristina Civili</li>
+                          
+                          <li class="nameList">Evgeny Sherkhonov</li>
+                          
+                          <li class="nameList Last">Wang-Chiew Tan</li>
+                          
+              </ul>
+        <h2>SESSION: Awards Session</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97926" title="Get the Full Text from the ACM Digital Library">The ACM PODS Alberto O. Mendelzon Test-of-Time Award 2015</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Foto Afrati</li>
+                          
+                          <li class="nameList">Frank Neven</li>
+                          
+                          <li class="nameList Last">Dan Suciu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97927" title="Get the Full Text from the ACM Digital Library">Parallel-Correctness and Transferability for Conjunctive Queries</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tom J. Ameloot</li>
+                          
+                          <li class="nameList">Gaetano Geck</li>
+                          
+                          <li class="nameList">Bas Ketsman</li>
+                          
+                          <li class="nameList">Frank Neven</li>
+                          
+                          <li class="nameList Last">Thomas Schwentick</li>
+                          
+              </ul>
+        <h2>TUTORIAL SESSION: Tutorial Session 1</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97928" title="Get the Full Text from the ACM Digital Library">LogiQL: A Declarative Language for Enterprise Applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Todd J. Green</li>
+                          
+              </ul>
+        <h2>SESSION: Existential Rules and TGDs</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97929" title="Get the Full Text from the ACM Digital Library">Function Symbols in Tuple-Generating Dependencies: Expressive Power and Computability</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Georg Gottlob</li>
+                          
+                          <li class="nameList">Reinhard Pichler</li>
+                          
+                          <li class="nameList Last">Emanuel Sallinger</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97920" title="Get the Full Text from the ACM Digital Library">Default Negation for Non-Guarded Existential Rules</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Mario Alviano</li>
+                          
+                          <li class="nameList Last">Andreas Pieris</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97921" title="Get the Full Text from the ACM Digital Library">Chase Termination for Guarded Existential Rules</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Marco Calautti</li>
+                          
+                          <li class="nameList">Georg Gottlob</li>
+                          
+                          <li class="nameList Last">Andreas Pieris</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97922" title="Get the Full Text from the ACM Digital Library">Recovering Exchanged Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">G&#246;sta Grahne</li>
+                          
+                          <li class="nameList">Ali Moallemi</li>
+                          
+                          <li class="nameList Last">Adrian Onet</li>
+                          
+              </ul>
+        <h2>SESSION: Tree Structured Data</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97923" title="Get the Full Text from the ACM Digital Library">The (Almost) Complete Guide to Tree Pattern Containment</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Wojciech Czerwi&#324;ski</li>
+                          
+                          <li class="nameList">Wim Martens</li>
+                          
+                          <li class="nameList">Pawel Parys</li>
+                          
+                          <li class="nameList Last">Marcin Przybylko</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97924" title="Get the Full Text from the ACM Digital Library">Efficient Evaluation and Approximation of Well-designed Pattern Trees</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Pablo Barcelo</li>
+                          
+                          <li class="nameList">Reinhard Pichler</li>
+                          
+                          <li class="nameList Last">Sebastian Skritek</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97935" title="Get the Full Text from the ACM Digital Library">BonXai: Combining the simplicity of DTD with the expressiveness of XML Schema</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Wim Martens</li>
+                          
+                          <li class="nameList">Frank Neven</li>
+                          
+                          <li class="nameList">Matthias Niewerth</li>
+                          
+                          <li class="nameList Last">Thomas Schwentick</li>
+                          
+              </ul>
+        <h2>TUTORIAL SESSION: Tutorial Session 2</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97936" title="Get the Full Text from the ACM Digital Library">Compact Summaries over Large Datasets</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Graham Cormode</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97937" title="Get the Full Text from the ACM Digital Library">Defining Relations on Graphs: How Hard is it in the Presence of Node Partitions?</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">M. Praveen</li>
+                          
+                          <li class="nameList Last">B. Srivathsan</li>
+                          
+              </ul>
+        <h2>SESSION: Query Processing</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97938" title="Get the Full Text from the ACM Digital Library">Querying Big Data by Accessing Small Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Wenfei Fan</li>
+                          
+                          <li class="nameList">Floris Geerts</li>
+                          
+                          <li class="nameList">Yang Cao</li>
+                          
+                          <li class="nameList">Ting Deng</li>
+                          
+                          <li class="nameList Last">Ping Lu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97939" title="Get the Full Text from the ACM Digital Library">Skyline Queries with Noisy Comparisons</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Benoit Groz</li>
+                          
+                          <li class="nameList Last">Tova Milo</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97930" title="Get the Full Text from the ACM Digital Library">The Communication Complexity of Distributed Set-Joins with Applications to Matrix Multiplication</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Dirk Van Gucht</li>
+                          
+                          <li class="nameList">Ryan Williams</li>
+                          
+                          <li class="nameList">David P. Woodruff</li>
+                          
+                          <li class="nameList Last">Qin Zhang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97931" title="Get the Full Text from the ACM Digital Library">Joins via Geometric Resolutions: Worst-case and Beyond</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Mahmoud Abo Khamis</li>
+                          
+                          <li class="nameList">Hung Q. Ngo</li>
+                          
+                          <li class="nameList">Christopher R&#233;</li>
+                          
+                          <li class="nameList Last">Atri Rudra</li>
+                          
+              </ul>
+        <h2>SESSION: Streaming</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97932" title="Get the Full Text from the ACM Digital Library">External Memory Stream Sampling</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xiaocheng Hu</li>
+                          
+                          <li class="nameList">Miao Qiao</li>
+                          
+                          <li class="nameList Last">Yufei Tao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97933" title="Get the Full Text from the ACM Digital Library">Vertex and Hyperedge Connectivity in Dynamic Graph Streams</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sudipto Guha</li>
+                          
+                          <li class="nameList">Andrew McGregor</li>
+                          
+                          <li class="nameList Last">David Tench</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97934" title="Get the Full Text from the ACM Digital Library">Fast and Near-Optimal Algorithms for Approximating Distributions by Histograms</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jayadev Acharya</li>
+                          
+                          <li class="nameList">Ilias Diakonikolas</li>
+                          
+                          <li class="nameList">Chinmay Hegde</li>
+                          
+                          <li class="nameList">Jerry Zheng Li</li>
+                          
+                          <li class="nameList Last">Ludwig Schmidt</li>
+                          
+              </ul>
+        <h2>SESSION: Algorithms and Data Structures</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97945" title="Get the Full Text from the ACM Digital Library">On Top-k Range Reporting in 2D Space</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Saladi Rahul</li>
+                          
+                          <li class="nameList Last">Yufei Tao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97946" title="Get the Full Text from the ACM Digital Library">Dynamic Data Structures for Document Collections and Graphs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ian Munro</li>
+                          
+                          <li class="nameList">Yakov Nekrich</li>
+                          
+                          <li class="nameList Last">Jeffrey Scott Vitter</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97947" title="Get the Full Text from the ACM Digital Library">Join Dependency Testing, Loomis-Whitney Join, and Triangle Enumeration</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xiaocheng Hu</li>
+                          
+                          <li class="nameList">Miao Qiao</li>
+                          
+                          <li class="nameList Last">Yufei Tao</li>
+                          
+              </ul>
+        <h2>SESSION: Weights and Similarity</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97948" title="Get the Full Text from the ACM Digital Library">Private Multiplicative Weights Beyond Linear Queries</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Jonathan Ullman</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97949" title="Get the Full Text from the ACM Digital Library">Symmetric Weighted First-Order Model Counting</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Paul Beame</li>
+                          
+                          <li class="nameList">Guy Van den Broeck</li>
+                          
+                          <li class="nameList">Eric Gribkoff</li>
+                          
+                          <li class="nameList Last">Dan Suciu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97940" title="Get the Full Text from the ACM Digital Library">Smooth Tradeoffs between Insert and Query Complexity in Nearest Neighbor Search</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Michael Kapralov</li>
+                          
+              </ul>
+        <h2>SESSION: Erratum</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97941" title="Get the Full Text from the ACM Digital Library">Erratum for: Approximating and Testing <i>k</i>-Histogram Distributions in Sub-linear Time</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Piotr Indyk</li>
+                          
+                          <li class="nameList">Reut Levi</li>
+                          
+                          <li class="nameList Last">Ronitt Rubinfeld</li>
+                          
+              </ul>
+        
+    </div>
+</div>
+
+</body>
+</html>

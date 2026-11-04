@@ -1,0 +1,534 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2018 ACM SIGMOD/PODS Conference: Houston, USA - Accepted Tutorials </title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/Houston/skyline.jpg'
+
+theImages[1] = 'images/Houston/welovehouston.jpg'
+
+theImages[2] = 'images/Houston/bayou.jpg'
+
+theImages[3] = 'images/Houston/lazyriver.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Houston Skyline'
+
+theImageDescriptions[1] = 'We Love Houston'
+
+theImageDescriptions[2] = 'Buffalo Bayou Park'
+
+theImageDescriptions[3] = 'Marriott Marquis Houston'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[1] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[2] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[3] = 'http://www.marriott.com/hotels/travel/houmq-marriott-marquis-houston/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterHouston.png" alt="June 3 - June 8, 2018, Houston, TX, USA" width="742" height="33" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  <img src="images/sigmod_2018_NEW.png" alt="ACM SIGMOD City, Country, Year" width="170" height="69" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="http://sigmod2016.org/rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://sigmod18contest.db.in.tum.de/index.shtml" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="https://www.regonline.com/sigmodpods2018" title="Registration">Registration</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="program_pods.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_invited.shtml#keynote" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_invited.shtml#tutorial" title="Invited Tutorials">Invited Tutorials</a></li>
+<li><a href="pods_awards.shtml" title="Award Talks">Award Talks</a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</a></li>
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Award Talks">Award Talks</a></li>
+ <li><a href="sigmod_special_session.shtml" title="Special Session">Special Session</a></li>
+  <!--
+  <li><a href="sigmod_undergraduate_list.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="sigmod_tods_posters.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2018">Tweets by sigmod2018</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+<h1>SIGMOD 2018: Accepted Tutorials</h1>
+
+
+<!--	<hr width="50%"> -->
+
+<div>
+<a name="tutorial1"/></a>
+<ul>
+
+<li>
+<strong>Tutorial 1: Evaluating Interactive Data Systems: Workloads, Metrics, & Guidelines</strong></a><br/>
+Lilong Jiang (Twitter, Inc.); Protiva Rahman (The Ohio State University); Arnab Nandi (The Ohio State University)<br/>
+<a style="color: #CC6600; text-decoration: none;"href="schedule_overview.shtml#tuesday" title="">TUESDAY, June 12, 2018 (11:00 - 12:30)</a>
+<!--
+</br></br>
+Highly interactive query interfaces have become a popular tool for ad-hoc data analysis and exploration, posing a new kind of workload to the underlying data infrastructure. Compared with traditional systems that are optimized for throughput or batched performance, ad-hoc and interactive data exploration systems focus more on user-centric interactivity, which raises a new class of performance challenges. Further, with the advent of new interaction devices~(e.g., touch, gesture) and different query interface paradigms~(e.g., sliders), maintaining interactive performance becomes even more challenging. Thus, when building interactive data systems, there is a clear need to articulate the design space. </br>
+In this tutorial, we will describe unique characteristics of interactive workloads for a variety of user input devices and query interfaces. We will catalog popular metrics based on an extensive survey of current literature. Through two case studies, we will not only walk through previously defined metrics using real-world user traces but also highlight where these defined metrics are inadequate. Further, we will introduce some new metrics that are required to capture a complete picture of interactivity. In each case study, we also demonstrate how the behavior analyses on users' trace and performance experiments can provide guidelines to help researchers and developers design better interactive data systems.
+-->
+</li>
+
+<li>
+<strong>Tutorial 2: Data Integration and Machine Learning: A Natural Synergy</strong></a><br/>
+Xin Luna Dong (Amazon); Theodoros Rekatsinas (University of Wisconsin-Madison)</br>
+<a style="color: #CC6600; text-decoration: none;"href="schedule_overview.shtml#tuesday" title="">TUESDAY, June 12, 2018 (14:00 - 16:00)</a>
+<!--
+</br></br>
+There is now more data to analyze than ever before. As data volume and variety have increased, so have the ties between machine learning and data integration become stronger. For machine learning to be effective, one must utilize data from the greatest possible variety of sources; and this is why data integration plays a key role. At the same time machine learning is driving automation in data integration, resulting in overall reduction of integration costs and improved accuracy. This tutorial focuses on three aspects of the synergistic relationship between data integration and machine learning: (1) we survey how state-of-the-art data integration solutions rely on machine learning-based approaches for accurate results and effective human-in-the-loop pipelines, (2) we review how end-to-end machine learning applications rely on data integration to identify accurate, clean, and relevant data for their analytics exercises, and (3) we discuss open research challenges and opportunities that span across data integration and machine learning.
+-->
+</li>
+
+<li>
+<strong>Tutorial 3: Modern Recommender Systems: from Computing Matrices to Thinking with Neurons</strong></a><br/>
+Georgia Koutrika (Athena Research Center)</br>
+<a style="color: #CC6600; text-decoration: none;"href="schedule_overview.shtml#tuesday" title="">TUESDAY, June 12, 2018 (16:00 - 18:00)</a>
+<!--
+</br></br>
+Starting with the Netflix Prize, which fueled much recent progress in the field of collaborative filtering, recent years have witnessed rapid development of new recommendation algorithms and increasingly more complex systems, which greatly differ from their early content-based and collaborative filtering systems. Modern recommender systems leverage several novel algorithmic approaches: from matrix factorization methods and multi-armed bandits to deep neural networks. In this tutorial, we will cover recent algorithmic advances in recommender systems, highlight their capabilities, and their impact. We will give many examples of industrial-scale recommender systems that define the future of the recommender systems area. We will discuss related evaluation issues, and outline future research directions. The ultimate goal of the tutorial is to encourage the application of novel recommendation approaches to solve problems that go beyond user consumption and to further promote research in the intersection of recommender systems and databases.
+-->
+</li>
+
+
+<li>
+<strong>Tutorial 4, 5: Privacy at Scale: Local Differential Privacy in Practice</strong></a><br/>
+Graham Cormode (University of Warwick); Somesh Jha (University of Wisconsin-Madison); Tejas Kulkarni (University of Wisconsin-Madison); Ninghui Li (Purdue University); Divesh Srivastava (AT&T Labs-Research); Tianhao Wang (Purdue University)
+</br>
+<a style="color: #CC6600; text-decoration: none;"href="schedule_overview.shtml#wednesday" title="">WEDNESDAY, June 13, 2018 (11:00 - 12:30), (14:00 - 15:30)</a>
+<!--
+</br></br>
+Local differential privacy (LDP), where users randomly perturb their inputs to provide plausible deniability of their data without the need for a trusted party, has been adopted recently by several major technology organizations, including Google, Apple and Microsoft.  This tutorial aims to introduce the key technical underpinnings of these deployed systems, to survey current research that addresses related problems within the LDP model, and to identify relevant open problems and research directions for the community.
+-->
+</li>
+
+
+
+<li>
+<strong>Tutorial 6: Algorithmic Aspects of Parallel Query Processing</strong></a><br/>
+Paris Koutris (University of Wisconsin-Madison); Semih Salihoglu (University of Waterloo); Dan Suciu (University of Washington)</br>
+<a style="color: #CC6600; text-decoration: none;"href="schedule_overview.shtml#thursday" title="">THURSDAY, June 14, 2018 (14:00 - 15:30)</a>
+<!--
+</br></br>
+In the last decade we have witnessed a growing interest in process- ing large data sets on large-scale distributed clusters. A big part of the complex data analysis pipelines performed by these systems consists of a sequence of relatively simple query operations, such as joining two or more tables, or sorting. This tutorial discusses several recent algorithmic developments for data processing in such large distributed clusters. It uses as a model of computation the Massively Parallel Computation (MPC) model, a simplification of the BSP model, where the only cost is given by the amount of communication and the number of communication rounds. Based on the MPC model, we study and analyze several algorithms for three core data processing tasks: multiway join queries, sorting and matrix multiplication. We discuss the common algorithmic techniques across all tasks, relate the algorithms to what is used in practical systems, and finally present open problems for future research.
+-->
+</li>
+
+
+
+
+
+<!--
+<li>
+<a href="sigmod_tutorial10.shtml"><strong>Semistructured Models, Queries and Algebras in the Big Data Era</strong></a><br /> (3:30pm -  5:00pm) [Tutorial 10]<br/>
+Yannis Papakonstantinou (University of California, San Diego)</li>
+-->
+
+</ul>
+
+
+</div>
+
+
+
+<!--endMainContent -->
+</div>
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

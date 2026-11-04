@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!--[if IE]>
+        <meta name="X-UA-Compatible" content="IE=edge" >
+        <![endif]-->
+        <title>PODS program &laquo;  SIGMOD/PODS 2017</title>
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/ie8.css" />
+        <![endif]-->
+        <!--[if lte IE 7]>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/bootstrap-ie7.css" />
+        <style type="text/css">
+            .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.input-group,.row,.content{
+                box-sizing:border-box;behavior:url(http://sigmod2017.org/wp-content/themes/Tyler/js/boxsizing.htc)
+            }
+        </style>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/ie7.css" />
+        <![endif]-->
+        <!-- HTML5 Shim, Respond.js and PIE.htc IE8 support of HTML5 elements, media queries and CSS3 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <style type="text/css">
+            .speakers .speaker .speaker-inner, .speakers .photo img, .connect, .sessions .session .speaker img,
+            .connect .links a:hover:before, .sessions .session .session-inner, .location .explore, .location .map,
+            .articles article .image, .facebook .fb-event, .facebook .fb-view, .twitter .view, .twitter .tweet,
+            .sidebar .widget_latest_comments li a,.sidebar h2, .articles article .image, .comments-area h2,
+            .commentlist .comment .comment-content,.commentlist .comment .comment-content:after,
+            .timecounter, input[type=text], textarea, .landing .box, h1 img.img-circle {
+                behavior: url("http://sigmod2017.org/wp-content/themes/Tyler/js/pie/PIE.htc");
+            }
+        </style>
+        <![endif]-->
+        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/sigmod2017.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=1c31560d246502a7fe2c533aebd31644"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://sigmod2017.org/wp-content/plugins/captcha/css/front_end_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://sigmod2017.org/wp-includes/css/dashicons.min.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_desktop_style-css'  href='http://sigmod2017.org/wp-content/plugins/captcha/css/desktop_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-google-font-css'  href='//fonts.googleapis.com/css?family=Ubuntu%3A300%2C400%2C500%2C700&#038;ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-bootstrap-css'  href='../wp-content/themes/Tyler/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-blueimp-gallery-css'  href='../wp-content/themes/Tyler/css/blueimp-gallery.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-jquery-scrollpane-css'  href='../wp-content/themes/Tyler/css/jquery.scrollpane.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-icons-css'  href='../wp-content/themes/Tyler/css/icon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-layout-css'  href='../wp-content/themes/Tyler/css/layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-layout-mobile-css'  href='../wp-content/themes/Tyler/css/layout-mobile.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-style-css'  href='http://sigmod2017.org/wp-content/themes/Tyler/style.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='london-scheme-css'  href='http://sigmod2017.org/wp-content/themes/Tyler/css/schemes/london/layout.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='../wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sigmod2017.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="./" />
+<link rel='shortlink' href='../' />
+<link rel="alternate" type="application/json+oembed" href="http://sigmod2017.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsigmod2017.org%2Fpods-program%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://sigmod2017.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsigmod2017.org%2Fpods-program%2F&#038;format=xml" />
+
+    <script type="text/javascript">
+
+        var ajaxurl = 'http://sigmod2017.org/datalearnstofly/admin-ajax.php';
+        var pois = [{"poi_address":"<strong>The Cinema<\/strong><br\/>Renoir Cinema, London","poi_latitude":"51.5112139","poi_longitude":"-0.1198244","poi_title":"The Cinema"},{"poi_address":"<strong>The Restaurant<\/strong><br\/>The Restaurant, London","poi_latitude":"51.4965633","poi_longitude":"-0.175881","poi_title":"The Restaurant"},{"poi_address":"<strong>The Hotel<\/strong><br\/>The Hotel, London","poi_latitude":"51.5066791","poi_longitude":"-0.1523359","poi_title":"The Hotel"},{"poi_address":"<strong>Camden Town<\/strong><br\/>Camden Town, London","poi_latitude":"51.5390111","poi_longitude":"-0.1425553","poi_title":"Camden Town"},{"poi_address":"<strong>O2<\/strong><br\/>O2, London","poi_latitude":"51.5171878","poi_longitude":"-0.1168787","poi_title":"O2"},{"poi_address":"<strong>Oxford Square<\/strong><br\/>Oxford Square, London","poi_latitude":"51.5154787","poi_longitude":"-0.16747","poi_title":"Oxford Square"},{"poi_address":"<strong>Hyde Park<\/strong><br\/>Hyde Park, London","poi_latitude":"51.5072682","poi_longitude":"-0.1657303","poi_title":"Hyde Park"},{"poi_address":"<strong>Trafalgar Square<\/strong><br\/>Trafalgar Square, London","poi_latitude":"51.5080391","poi_longitude":"-0.1280693","poi_title":"Trafalgar Square"},{"poi_address":"<strong>Brick Lane<\/strong><br\/>Brick Lane, London","poi_latitude":"51.5214253","poi_longitude":"-0.0717604","poi_title":"Brick Lane"},{"poi_address":"<strong>Westminster Abbey<\/strong><br\/>Westminster Abbey","poi_latitude":"51.4995308","poi_longitude":"-0.1284551","poi_title":"Westminster Abbey"},{"poi_address":"<strong>Big Ben<\/strong><br\/>Big Ben","poi_latitude":"51.5007046","poi_longitude":"-0.1245748","poi_title":"Big Ben"},{"poi_address":"<strong>Parliament<\/strong><br\/>The Parliament, London","poi_latitude":"51.4995281","poi_longitude":"-0.125076","poi_title":"Parliament"},{"poi_address":"<strong>Tower Bridge<\/strong><br\/>tower bridge, london","poi_latitude":"51.5041846","poi_longitude":"-0.0763221","poi_title":"Tower Bridge"},{"poi_address":"<strong>The London Eye<\/strong><br\/>the london eye","poi_latitude":"51.5034001","poi_longitude":"-0.1195192","poi_title":"The London Eye"}];
+        var poi_marker = 'http://sigmod2017.org/wp-content/themes/Tyler/images/schemes/london/icon-map-pointer.png';
+        var contact_missingfield_error = "Sorry! You've entered an invalid email.";
+        var contact_wrongemail_error = "This field must be filled out.";
+    </script><meta name="twitter:partner" content="tfwp" /><style type="text/css"></style>
+<meta name="twitter:card" content="summary" /><meta name="twitter:title" content="PODS program" /><meta name="twitter:image" content="http://sigmod2017.org/wp-content/uploads/2017/03/yike-web.jpg" />
+    </head>
+    <body class="page-template-default page page-id-835">
+        <header class="nav transition">
+            <a href="../" id="logo">
+                <img src="../wp-content/uploads/2017/04/SIGMOD_PODS_logo_2017.jpg" alt="Logo SIGMOD/PODS 2017" title="SIGMOD/PODS 2017" />
+            </a>
+            <nav class="navbar" role="navigation">
+                <!-- mobile navigation -->
+                <div class="navbar-header visible-sm visible-xs">
+                    <button type="button" class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target="#tyler-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="icon-header"></i>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse text-fit" id="tyler-navigation">
+                    <div class="menu-sigmod-container"><ul id="menu-primary" class="transition"><li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-258"><a href="../">Home</a></li>
+<li id="menu-item-1137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1137"><a href="../schedule-overview/">Schedule</a>
+<ul class="sub-menu">
+	<li id="menu-item-1371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1371"><a href="../schedule-overview/">Schedule</a></li>
+	<li id="menu-item-1369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1369"><a href="../live/">Live streaming</a></li>
+	<li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="../video/">Talk videos</a></li>
+</ul>
+</li>
+<li id="menu-item-856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-856"><a href="#">SIGMOD</a>
+<ul class="sub-menu">
+	<li id="menu-item-929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a href="../sigmod-program/">SIGMOD program</a></li>
+	<li id="menu-item-861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-861"><a href="../sigmod-accepted-papers/">SIGMOD proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-857" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-857"><a href="#">PODS</a>
+<ul class="sub-menu">
+	<li id="menu-item-889" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-835 current_page_item menu-item-889"><a href="./">PODS program</a></li>
+	<li id="menu-item-860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-860"><a href="../pods-accepted-papers/">PODS proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-356"><a href="#">Call for contributions</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="../deadlines/">Important Dates</a></li>
+	<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="../sigmod-general-call-for-contributions/">SIGMOD general call for contributions</a></li>
+	<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="../sigmod-call-for-research-papers/">SIGMOD call for research papers</a></li>
+	<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="../pods-general-call-for-contributions/">PODS general call for contributions</a></li>
+	<li id="menu-item-677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="../sigmod-call-for-industrial-track-papers/">SIGMOD Call for Industrial Track Papers</a></li>
+	<li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="../sigmod-call-for-tutorial-proposals/">SIGMOD Call for tutorial proposals</a></li>
+	<li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="../sigmod-call-for-demonstration-proposals/">SIGMOD Call for demonstration proposals</a></li>
+	<li id="menu-item-554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-554"><a href="../sigmod-call-for-workshop-proposals/">SIGMOD call for workshop proposals</a></li>
+	<li id="menu-item-683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683"><a href="../student-research-competition/">SIGMOD student research competition (ACM SRC)</a></li>
+</ul>
+</li>
+<li id="menu-item-278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-278"><a href="#">Organization</a>
+<ul class="sub-menu">
+	<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a href="../conference-officers/">Conference Officers</a></li>
+	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="../sigmod-program-committee/">SIGMOD PC</a></li>
+	<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="../pods-pc/">PODS PC</a></li>
+	<li id="menu-item-652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-652"><a href="../demonstrations/">SIGMOD demo PC</a></li>
+	<li id="menu-item-676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-676"><a href="../sigmod-industry-pc/">SIGMOD industry PC</a></li>
+	<li id="menu-item-701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="../tutorials/">SIGMOD tutorial PC</a></li>
+	<li id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="../student-research-competition/">SIGMOD ACM SRC PC</a></li>
+	<li id="menu-item-585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-585"><a href="#">Conference volunteers</a></li>
+	<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="../sponsoring/">Sponsor opportunities</a></li>
+	<li id="menu-item-588" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-588"><a href="http://sigmod2016.org/">SIGMOD 2016</a></li>
+	<li id="menu-item-587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-587"><a href="http://sigmod.org/">ACM Sigmod Online</a></li>
+</ul>
+</li>
+<li id="menu-item-579" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-579"><a href="#">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1116" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-1116"><a href="./#gems">Gems of PODS</a></li>
+	<li id="menu-item-784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-784"><a href="../programming-contest/">Programming Contest</a></li>
+	<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="../workshops/">Workshops</a></li>
+	<li id="menu-item-678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678"><a href="../new-researcher-symposium/">New Researcher Symposium</a></li>
+	<li id="menu-item-679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679"><a href="../tutorials/">SIGMOD Tutorials</a></li>
+	<li id="menu-item-787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-787"><a href="../student-research-competition/">SIGMOD Student Research Competition</a></li>
+</ul>
+</li>
+<li id="menu-item-593" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-593"><a href="#">Participating             </a>
+<ul class="sub-menu">
+	<li id="menu-item-910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-910"><a href="https://www.regonline.com/sigmodpods2017">Registration</a></li>
+	<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="../attending-the-conference/">Attending the conference</a></li>
+	<li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="../banquet/">Banquet</a></li>
+	<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="../accomodations/">Accomodations</a></li>
+	<li id="menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792"><a href="../visa-information/">Visa information</a></li>
+	<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="../student-travel-awards/">Student Travel Awards</a></li>
+	<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="../conference-venue/">Conference Venue</a></li>
+	<li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812"><a href="../restaurants-attractions/">Restaurants &#038; Attractions</a></li>
+	<li id="menu-item-813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813"><a href="../transportation/">Transportation</a></li>
+	<li id="menu-item-1330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1330"><a href="https://drive.google.com/file/d/0BwMzqILSnejkUi1OQVQ2S0FfVWc/view?usp=sharing">Conference booklet (60 MB PDF)</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+            </nav>
+        </header>        <div class="heading">
+        <div class="container">
+            <h1>PODS program</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                                <h1>Proceedings</h1>
+<p>PODS 2017 papers will be accessed <a href="../pods-accepted-papers/">here</a>.</p>
+<h1>Conference Program: PODS Sessions</h1>
+<p>This page describes the complete PODS Conference program.</p>
+<ul>
+<li><a href="#keynote">Keynote Talk</a></li>
+<li><a href="#gems">Gems of PODS Session</a></li>
+<li><a href="#research">Research Sessions</a></li>
+<li><a href="#posters">Posters</a></li>
+<li><a href="#tutorial">Tutorials</a></li>
+<li><a href="#podswelcome">PODS Welcome Reception</a></li>
+<li><a href="#podsbusiness">PODS Business Meeting</a></li>
+</ul>
+<p>The PODS 2017 program will also be available at <a href="http://confer.csail.mit.edu/sigmod2017/"> http://confer.csail.mit.edu/sigmod2017</a>. Confer is a conference program management tool with a crowd-sourcing component that automatically groups papers into sessions to maximize the number of papers each attendee likes that he or she will get to see.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="keynote" class="jump">PODS Keynote Talk</h1>
+<p>Monday 8:15-9:40<br />
+Location: ♛Continental A<br />
+Session Chair: Jan Van den Bussche (Hasselt University)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37857"><strong>Data Citation: a Computational Challenge</strong></a> (pods313sd)<br />
+Susan Davidson (University of Pennsylvania)<br />
+Abstract: Most information is now published in complex, structured, evolving datasets or databases. As such, there is increasing demand that this digital information should be treated in the same way as conventional publications and cited appropriately. Unlike traditional publications, however, which have a fixed granularity to which citations can be attached (e.g. a paper in a conference proceedings, or chapter in a book), the granularity of data varies when retrieved by a query over a database. Since there are a potentially infinite number of queries, each accessing and generating different subsets of the database, it is impossible to explicitly attach a citation to every possible result set and/or query. Data citation is therefore a computational challenge, whose solution draws on two well-studied problems in database theory: query answering using views, and provenance. In this talk, I will give an overview of what is being done in data citation and highlight several open research problems, both practical and theoretical.<a href="http://sigmod2017.org/wp-content/uploads/2017/04/SusanDavidson-e1493046503395.jpg"><img class="alignleft size-medium wp-image-1226" src="http://sigmod2017.org/wp-content/uploads/2017/04/SusanDavidson-199x300.jpg" alt="" width="99" height="150" /></a><br />
+Bio: Susan B. Davidson received the B.A. degree in Mathematics from Cornell University in 1978, and the M.A. and Ph.D. degrees in Electrical Engineering and Computer Science from Princeton University in 1980 and 1982. Dr. Davidson is the Weiss Professor of Computer and Information Science (CIS) at the University of Pennsylvania, where she has been since 1982, and currently serves as Chair of the board of the Computing Research Association. Dr. Davidson&#8217;s research interests include database and web-based systems, scientific data management, provenance, crowdsourcing, and data citation. Dr. Davidson was the founding co-director of the Penn Center for Bioinformatics from 1997-2003, and the founding co-director of the Greater Philadelphia Bioinformatics Alliance. She served as Deputy Dean of the School of Engineering and Applied Science from 2005-2007 and Chair of CIS from 2008-2013. Her awards include: ACM Fellow, Corresponding Fellowship of the Royal Society of Edinburgh (2015), Lenore Rowe Williams Award (2002), Fulbright Scholar and recipient of a Hitachi Chair (2004), Trustees&#8217; Council of Penn Women/Provost Award (April 2015) for her work on advancing women in engineering, and IEEE TCDE Impact Award (2017).</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="research" class="jump">RESEARCH SESSIONS</h1>
+<p>&nbsp;</p>
+<h3 id="psessions1" class="jump">Session 1: New formal frameworks</h3>
+<p>Monday 9:40-10:30<br />
+Location: ♛Continental A<br />
+Session Chair: Paris Koutris (University of Wisconsin-Madison)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37858"><strong>A Relational Framework for Classifier Engineering</strong></a> (pods047)<br />
+Benny Kimelfeld (Technion) and Christopher Ré (Stanford University)</li>
+<li><a href="http://dl.acm.org/authorize?N37859"><strong>Querying Probabilistic Preferences in Databases</strong></a> (pods094)<br />
+Batya Kenig (Technion), Benny Kimelfeld (Technion), Haoyue Ping (Drexel University) and Julia Stoyanovich (Drexel University)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="psessions2" class="jump">Session 2: Algorithms, data structures, benchmarking</h3>
+<p>Monday 11:00-12:40<br />
+Location: ♛Continental A<br />
+Session Chair: Floris Geerts (University of Antwerp)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37850"><strong>Benchmarking the chase</strong> </a>(pods043)<br />
+Michael Benedikt (University of Oxford), George Konstantinidis (University of Oxford), Giansalvatore Mecca (University of Basilicata), Boris Motik (University of Oxford), Paolo Papotti (Arizona State University), Donatello Santoro (University of Basilicata) and Efthymia Tsamoura (University of Oxford)</li>
+<li><a href="http://dl.acm.org/authorize?N37851"><strong>Efficient and Provable Multi-Query Optimization</strong> </a>(pods040)<br />
+Tarun Kathuria (Microsoft Research) and S Sudarshan (Indian Institute of Technology)</li>
+<li><a href="http://dl.acm.org/authorize?N37852"><strong>Write-Optimized Skip Lists</strong></a> (pods118)<br />
+Michael Bender (Stony Brook University), Martín Farach-Colton (Rutgers University), Rob Johnson (Stony Brook University), Simon Mauras (ENS Lyon), Tyler Mayer (Stony Brook University), Cynthia Phillips (Sandia National Laboratories) and Helen Xu (MIT)</li>
+<li><a href="http://dl.acm.org/authorize?N37853"><strong>Output-optimal Parallel Algorithms for Similarity Joins</strong></a> (pods085)<br />
+Xiao Hu (HKUST), Yufei Tao (University of Queensland) and Ke Yi (HKUST)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="gems" class="jump">Gems of PODS and Test-of-Time Award</h3>
+<p>Monday 14:00-15:30<br />
+Location: ♛Continental A<br />
+Session Chair: Floris Geerts (University of Antwerp)</p>
+<ul>
+<li><strong><a href="http://dl.acm.org/authorize?N37865">The Semiring Framework for Database Provenance</a> (ToT Award)<br />
+</strong> (pods319vt)<br />
+Val Tannen (University of Pennsylvania)<br />
+Abstract: Imagine a computational process that uses a complex input consisting of multiple “items” (e.g., files, tables, tuples, parameters, configuration rules) The provenance analysis of such a process allows us to understand how the different input items affect the output of the computation. It can be used, for example, to derive confidence in the output (given confidences in the input items), to derive the minimum access clearance for the output (given input items with different classifications), to minimize the cost of obtaining the output (given a complex input item pricing scheme). It also applies to probabilistic reasoning about an output (given input item distributions), as well as to output maintenance, and to debugging.<br />
+Provenance analysis for queries, views, database ETL tools, and schema mappings is strongly influenced by their declarative nature, providing mathematically nice descriptions of the output-inputs correlation. In a series of papers starting with PODS 2007 we have developed an algebraic framework for describing such provenance based on commutative semirings and semimodules over such semirings. So far, the framework has exploited usefully the observation that, for database provenance, data use has two flavors: joint and alternative.<br />
+Here, we have selected several insights that we consider essential for the appreciation of this framework&#8217;s nature and effectiveness and we also give some idea of its applicability.<br />
+<a href="http://sigmod2017.org/wp-content/uploads/2017/04/ValTannen-e1493046681609.jpeg"><img class="alignleft size-full wp-image-1228" src="http://sigmod2017.org/wp-content/uploads/2017/04/ValTannen-e1493046681609.jpeg" alt="" width="99" height="150" /> </a><br />
+Bio: Val Tannen is a professor in the Department of Computer and Information Science of the University of Pennsylvania. He joined Penn after receiving his PhD from the Massachusetts Institute of Technology in 1987. After working for a time in Programming Languages, his current research interests are in Databases. Moreover, he has always been interested in applications of Logic to Computer Science and since 1994 he has also worked in Bioinformatics, leading a number of interdisciplinary projects. In Databases, he and his students and collaborators have worked on query language design and on models and systems for query optimization, parallel query processing, and data integration. More recently their work has focused on models and systems for data sharing, data provenance, the management of uncertain information and algorithmic provisioning for what-if analysis. Tannen has received the 20 year Test-of-Time Award from ICDT and the 10 year Test-of-Time Award from PODS. He is an ACM Fellow.</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37866"><strong>Data Integration: After the Teenage Years</strong></a> (pods316ah)<br />
+Alon Halevy (Recruit Institute of Technology)<br />
+Abstract: Twenty five years ago, data integration was a concern mainly for large enterprises with many autonomous data sources. Since then, while data integration became even more important to enterprises, the technology has ventured out into new areas, such as the Web and recently into voice-activated consumer devices that answer a plethora of questions in your home. At the core of these systems is a mechanism for describing the semantics and capabilities of individual data sources. Database theory has made important contributions to the area of modeling data sources and query answering in data integration systems. I this talk I will cover some of the main developments in the field of data integration since the mid-90’s, and discuss the challenges that lie ahead.<br />
+<a href="http://sigmod2017.org/wp-content/uploads/2017/04/AlonHalevy-e1493046617620.jpg"><img class="alignleft wp-image-1222" src="../wp-content/uploads/2017/04/AlonHalevy-300x253.jpg" alt="" width="99" height="150" /></a><br />
+Bio: Alon Halevy is the C.E.O of the Recruit Institute of Technology. From 2005 to 2015 he headed the Structured Data Management Research group at Google. Prior to that, he was a professor of Computer Science at the University of Washington in Seattle, where he founded the Database Group. In 1999, Dr. Halevy co-founded Nimble Technology, one of the first companies in the Enterprise Information Integration space, and in 2004, Dr. Halevy founded Transformic, a company that created search engines for the deep web, and was acquired by Google. Dr. Halevy is a Fellow of the Association for Computing Machinery, the author of the book “The Infinite Emotions of Coffee”, and co-author of the book “Principles of Data Integration”.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="psessions3" class="jump">PODS Session 3: Concurrency, JSON, learning and privacy</h3>
+<p>Monday 16:00-18:05<br />
+Location: ♛Continental A<br />
+Session Chair: Stijn Vansummeren (Université Libre de Bruxelles)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37867"><strong>How Fast can a Distributed Transaction Commit?</strong></a> (pods050)<br />
+Rachid Guerraoui (EPFL) and Jingjing Wang (EPFL)</li>
+<li><a href="http://dl.acm.org/authorize?N37868"><strong>JSON: data model, query languages and schema specification</strong> </a>(pods130)<br />
+Pierre Bourhis (INRIA Lille), Juan L. Reutter (PUC Chile), Fernando Suárez (PUC Chile) and Domagoj Vrgoč (PUC Chile)</li>
+<li><a href="http://dl.acm.org/authorize?N37869"><strong>J-Logic: Logical foundations for JSON querying</strong></a> (pods064)<br />
+Jan Hidders (Free University Brussels), Jan Paredaens (University of Antwerp) and Jan Van den Bussche (Hasselt University)</li>
+<li><a href="http://dl.acm.org/authorize?N37860"><strong>Reverse Engineering SPJ-Queries from Examples</strong></a> (pods096)<br />
+Yaacov Y. Weiss (Hebrew University of Jerusalem) and Sara Cohen (Hebrew University of Jerusalem)</li>
+<li><a href="http://dl.acm.org/authorize?N37861"><strong>Private Incremental Regression</strong></a> (pods042)<br />
+Shiva Kasiviswanathan (Samsung Research America), Kobbi Nissim (Georgetown University) and Hongxia Jin (Samsung Research America)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="psessions4" class="jump">PODS Session 4: Best paper award, ontologies and probabilistic databases</h3>
+<p>Tuesday 14:00-15:40<br />
+Location: ♛Continental A<br />
+Session Chair: Andreas Pieris (University of Edinburgh)</p>
+<ul>
+<li><strong>Best paper award: <a href="http://dl.acm.org/authorize?N37863">Dichotomies in Ontology-Mediated Querying with the Guarded Fragment</a></strong> (pods074)<br />
+André Hernich (University of Liverpool), Carsten Lutz (University of Bremen), Fabio Papacchini (University of Liverpool) and Frank Wolter (University of Liverpool)</li>
+<li><a href="http://dl.acm.org/authorize?N37864"><strong>The Complexity of Ontology-Based Data Access with OWL2QL and Bounded Treewidth Queries</strong></a> (pods039)<br />
+Meghyn Bienvenu (CNRS, University of Montpellier), Stanislav Kikot (Birkbeck University of London), Roman Kontchakov (Birkbeck University of London), Vladimir V. Podolskii (Steklov Mathematical Institute, National Research University Higher School of Economics), Vladislav Ryzhikov (Free University of Bozen-Bolzano) and Michael Zakharyaschev (Birkbeck University of London)</li>
+<li><a href="http://dl.acm.org/authorize?N37875"><strong>Conjunctive Queries on Probabilistic Graphs: Combined Complexity</strong></a> (pods131)<br />
+Antoine Amarilli (Télécom Paris Tech), Mikael Monet (Télécom Paris Tech) and Pierre Senellart (École normale supérieure PSL Research University, INRIA Paris)</li>
+<li><a href="http://dl.acm.org/authorize?N37876"><strong>Circuit Treewidth, Sentential Decision, and Query Compilation</strong></a> (pods010)<br />
+Simone Bova (TU Wien) and Stefan Szeider (TU Wien)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="psessions5" class="jump">PODS Session 5: Enumeration problems</h3>
+<p>Tuesday 16:00-18:05<br />
+Location: ♛Continental A<br />
+Session Chair: Ke Yi (Hong Kong University of Science and Technology)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37877"><strong>2-3 Cuckoo Filters for Faster Triangle Listing and Set Intersection</strong></a> (pods104)<br />
+David Eppstein (University of California, Irvine), Michael T. Goodrich (University of California, Irvine), Michael Mitzenmacher (Harvard University) and Manuel R. Torres (University of California, Irvine)</li>
+<li><a href="http://dl.acm.org/authorize?N37878"><strong>On Asymptotic Cost of Triangle Listing in Random Graphs</strong></a> (pods038)<br />
+Di Xiao (Texas A&amp;M University), Yi Cui (Texas A&amp;M University), Daren Cline (Texas A&amp;M University) and Dmitri Loguinov (Texas A&amp;M University)</li>
+<li><a href="http://dl.acm.org/authorize?N37879"><strong>Efficiently Enumerating Minimal Triangulation</strong></a> (pods083)<br />
+Nofar Carmeli (Technion), Batya Kenig (Technion) and Benny Kimelfeld (Technion)</li>
+<li><a href="http://dl.acm.org/authorize?N37870"><strong>Counting and Enumerating (Preferred) Database Repairs</strong> </a>(pods071)<br />
+Ester Livshits (Technion) and Benny Kimelfeld (Technion)</li>
+<li><a href="http://dl.acm.org/authorize?N37871"><strong>Answering Conjunctive Queries under Updates</strong></a> (pods027)<br />
+Christoph Berkholz (Humboldt-Universität zu Berlin), Jens Keppeler (Humboldt-Universität zu Berlin) and Nicole Schweikardt (Humboldt-Universität zu Berlin)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="psessions6" class="jump">PODS Session 6: Best student paper, streaming and sketches</h3>
+<p>Wednesday 14:00-15:40<br />
+Location: ♛Continental A<br />
+Session Chair: Yufei Tao (University of Queensland)</p>
+<ul>
+<li><strong>Best student paper award: <a href="http://dl.acm.org/authorize?N37873">Tight Space-Approximation Tradeoff for the Multi-Pass Streaming Set Cover Problem</a></strong> (pods105)<br />
+Sepehr Assadi (University of Pennsylvania)</li>
+<li><a href="http://dl.acm.org/authorize?N37874"><strong>Streaming Algorithms for Measuring H-Impact</strong></a> (pods126)<br />
+Priya Govindan (Rutgers University), Morteza Monemizadeh (Rutgers University) and S Muthukrishnan (Rutgers University)</li>
+<li><a href="http://dl.acm.org/authorize?N37885"><strong>Efficient Matrix Sketching over Distributed Data</strong></a> (pods129)<br />
+Zengfeng Huang (UNSW), Xuemin Lin (UNSW), Wenjie Zhang (UNSW) and Ying Zhang (UTS)</li>
+<li><a href="http://dl.acm.org/authorize?N37886"><strong>BPTree: an L2 heavy hitters algorithm using constant memory</strong> </a>(pods049)<br />
+Vladimir Braverman (John Hopkins University), Stephen Chestnut (ETH Zurich), Nikita Ivkin (John Hopkins University), Jelani Nelson (Harvard University), Zhengyu Wang (Harvard University) and David Woodruff (IBM Research)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="psessions7" class="jump">PODS Session 7: Dependencies, graphs and query evaluation</h3>
+<p>Wednesday 16:00-18:05<br />
+Location: ♛Continental A<br />
+Session Chair: Angela Bonifati (Université de Lyon)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37887"><strong>Stable Model Semantics for Tuple-Generating Dependencies Revisited</strong></a> (pods041)<br />
+Mario Alviano (University of Calabria), Michael Morak (TU Wien) and Andreas Pieris (University of Edinburgh)</li>
+<li><a href="http://dl.acm.org/authorize?N37888"><strong>Schema Mappings for Data Graphs</strong></a> (pods098)<br />
+Nadime Francis (University of Edinburgh) and Leonid Libkin (University of Edinburgh)</li>
+<li><a href="http://dl.acm.org/authorize?N37889"><strong>Dependencies for Graphs</strong></a> (pods101)<br />
+Wenfei Fan (University of Edinburgh) and Ping Lu (Beihang University)</li>
+<li><a href="http://dl.acm.org/authorize?N37880"><strong>A Worst-Case Optimal Multi-Round Algorithm for Parallel Computation of Conjunctive Queries</strong></a> (pods014)<br />
+Bas Ketsman (Hasselt University) and Dan Suciu (University of Washington)</li>
+<li><a href="http://dl.acm.org/authorize?N37881"><strong>What do Shannon-type inequalities, submodular width, and disjunctive datalog have to do with one another?</strong></a> (pods055)<br />
+Mahmoud Abo Khamis (LogicBlox Inc), Hung Ngo (LogicBlox Inc) and Dan Suciu (LogicBlox Inc, University of Washington)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="posters" class="jump">POSTER SESSIONS</h1>
+<p>&nbsp;</p>
+<h3 id="posters1" class="jump">SIGMOD/PODS Poster &amp; Demo Session 1</h3>
+<p>Tuesday 16:00-18:00<br />
+Location: ⚓Stevens Salon D</p>
+<ul>
+<li>All papers from PODS Research Sessions  3, 4 and 7</li>
+<li>All SIGMOD papers from Tuesday: SIGMOD Research Sessions 1-10</li>
+<li>SIGMOD demos</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="posters2" class="jump">SIGMOD/PODS Poster &amp; Demo Session 2</h3>
+<p>Wednesday 16:00-18:00<br />
+Location: ⚓Stevens Salon D</p>
+<ul>
+<li>All papers from PODS Research Sessions 1, 2, 5 and 6</li>
+<li>All SIGMOD papers from Wednesday: SIGMOD Research Sessions 11-20</li>
+<li>SIGMOD demos</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="tutorial" class="jump">TUTORIAL SESSIONS</h1>
+<p>&nbsp;</p>
+<h3 id="ptutorial1" class="jump">Invited Tutorial 1</h3>
+<p>Tuesday 11:00-12:20<br />
+Location: ♛Continental A<br />
+Session Chair: Benny Kimelfeld (Technion)</p>
+<ul>
+<li><strong>Random Sampling on Big Data: Techniques and Applications</strong><br />
+Ke Yi (Hong Kong University of Science and Technology)<br />
+Abstract: Random sampling is a powerful tool for big data analytics. It can be used whenever complete accuracy is not required, while offering order-of-magnitude improvements in query efficiency. Random sampling has been extensively studied in both the statistics and computer science literature. This tutorial will take a &#8220;sample&#8221; of this huge literature, by focusing on those techniques that are most relevant to the database community. This includes sampling over streaming and distributed data, importance sampling, merge-reduce sampling, and sampling for approximate query processing.<a href="http://sigmod2017.org/wp-content/uploads/2017/03/yike-web.jpg"><img class="alignleft wp-image-1388 size-full" src="http://sigmod2017.org/wp-content/uploads/2017/03/yike-web.jpg" alt="" width="130" height="176" /></a><br />
+Bio: Ke Yi is an Associate Professor in the Department of Computer Science and Engineering, Hong Kong University of Science and Technology. He obtained his Bachelor&#8217;s degree from Tsinghua University (2001) and PhD from Duke University (2006), both in computer science. His research spans theoretical computer science and database systems. He has received a Google Faculty Research Award (2010), the Young Investigator Research Award from HKUST (2012), a SIGMOD Best Demonstration Award (2015), and the SIGMOD Best Paper Award (2016). He currently serves as an Associate Editor of ACM Transactions on Database Systems and IEEE Transactions on Knowledge and Data Engineering.</p>
+<p><a href="http://sigmod2017.org/wp-content/uploads/2017/03/Random-Sampling-on-Big-Data.pptx">Tutorial 1 slides (3MB).pptx</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 id="ptutorial2" class="jump">Invited Tutorial 2</h3>
+<p>Wednesday 11:00-12:20<br />
+Location: ♛Continental A<br />
+Session Chair: Semih Salihoglu (University of Waterloo)</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37872"><strong>Communication Cost in Parallel Query Processing &#8212; A Tutorial</strong></a> (pods322ds)<br />
+Dan Suciu (University of Washington)<br />
+Abstract: Populating a relational schema from textual content, a problem commonly known as Information Extraction, is pervasive in We consider the following problem: what is the amount of communication required to compute a query in parallel on p servers, over a large input database? To study this problem we define a variant of Valiant&#8217;s BSP, where servers are infinitely powerful and where the cost is given by the maximum communication per server, and the number of rounds. Query evaluation in this model has been studied for full conjunctive queries. A simple lower bound on the communication per server and number of rounds is expressed in terms of the fractional edge covering number of the query&#8217;s hypergraph, and it follows from Atserias, Grohe, and Marx&#8217; (AGM) upper bound on the query size; however, no matching algorithm is known for this lower bound.<br />
+Algorithms for computing full conjunctive queries are based on hash partitioning the input data, and the key difficulty is that they can only be applied when each partitioning step is applied to skew-free data. We will start by discussing the case when the computation is limited to a single round of communication. In this case, if the data is skew-fee, then a tight bound is given in terms of the fractional vertex covering number of the query&#8217;s hypergraph, and this result can be used to also derive a tight bound on arbitrary input data. Next, we consider the multi-round case. Here, the key algorithmic ingredient is a technique that uses additional rounds in order to handle skewed values in the data. Using this technique it has been shown recently that the tight bound for evaluating a query where all relations have arity at most two is given by the general bound derived from the AGM inequality. The case when the input relations have arbitrary arities remains open; it is not even known whether this bound is given in terms of fractional edge cover, or the fractional vertex cover.<br />
+<a href="http://sigmod2017.org/wp-content/uploads/2017/04/DanSuciu.jpg"><img class="alignleft size-full wp-image-1223" src="http://sigmod2017.org/wp-content/uploads/2017/04/DanSuciu.jpg" alt="" width="99" height="150" /></a><br />
+Bio: Dan Suciu is a Professor in Computer Science at the University of Washington. He received his Ph.D. from the University of Pennsylvania in 1995, was a principal member of the technical staff at AT&amp;T Labs and joined the University of Washington in 2000. Suciu is conducting research in data management, with an emphasis on topics related to Big Data and data sharing, such as probabilistic data, data pricing, parallel data processing, data security. He is a co-author of two books Data on the Web: from Relations to Semistructured Data and XML, 1999, and Probabilistic Databases, 2011. He is a Fellow of the ACM, holds twelve US patents, received the best paper award in SIGMOD 2000 and ICDT 2013, the ACM PODS Alberto Mendelzon Test of Time Award in 2010 and in 2012, the 10 Year Most Influential Paper Award in ICDE 2013, the VLDB Ten Year Best Paper Award in 2014, and is a recipient of the NSF Career Award and of an Alfred P. Sloan Fellowship. Suciu serves on the VLDB Board of Trustees, and is an associate editor for JACM, VLDBJ, ACM TWEB, and Information Systems and is a past associate editor for ACM TODS and ACM TOIS. Suciu&#8217;s PhD students Gerome Miklau, Christopher Re and Paris Koutris received the ACM SIGMOD Best Dissertation Award in 2006, 2010, and 2016 respectively, and Nilesh Dalvi was a runner up in 2008.</p>
+<p><a href="http://sigmod2017.org/wp-content/uploads/2017/05/Communication-Cost-in-Parallel-Query-Processing.pptx">Tutorial 2 slides (2MB).pptx<br />
+</a><br />
+<code> </code></li>
+</ul>
+<p>&nbsp;</p>
+<h1 id="podswelcome" class="jump">PODS Welcome Reception</h1>
+<p>Sunday 18:00-20:00<br />
+Location: International South</p>
+<p>&nbsp;</p>
+<h1 id="podsbusiness" class="jump">PODS Business Meeting</h1>
+<p>Monday 19:00-20:00<br />
+Location: ♛Continental A</p>
+                
+<div id="comments" class="comments-area">
+
+
+	
+
+    <hr/>
+	
+</div><!-- #comments .comments-area -->            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <div class="row row-sm">
+                    </div>
+    </div>
+    <div class="credits">
+                <div class="footer-tyler-event pbs">
+        	Powered by <a href="http://eventmanagerblog.com/event-wordpress-theme-tyler">Powered by Tyler by Showthemes</a>
+        </div>
+    </div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72897406-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript' src='../wp-content/themes/Tyler/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/blueimp-gallery.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/jquery.mousewheel.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/jquery.jscrollpane.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/main.js'></script>
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/comment-reply.min.js?ver=1c31560d246502a7fe2c533aebd31644'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js'></script>
+
+<!-- SCROLL UP BTN -->
+<a href="#" id="scroll-up">UP</a>
+
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<!-- backdrop -->
+<div id="backdrop"></div>
+
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1538931240 -->

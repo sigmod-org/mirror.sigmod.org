@@ -1,0 +1,787 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2014 ACM SIGMOD/PODS Conference: Snowbird, Utah, USA - Call for Papers: SIGMOD Research</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/utah/022-3-0138_jpegs_slc.jpg'
+
+theImages[1] = 'images/utah/Snowbird_SummerTram_A.jpg'
+
+theImages[2] = 'images/utah/022-3-0254_jpegs_Zion_national_park.jpg'
+
+theImages[3] = 'images/utah/022-3-0005_jpegs_art_event.jpg'
+
+theImages[4] = 'images/utah/022-3-0126_jpegs_slcskyline.jpg'
+
+theImages[5] = 'images/utah/Snowbird_CliffLodge_Summer_E.jpg'
+
+theImages[6] = 'images/utah/022-3-0187_jpegs_interior_snowbird.jpg'
+
+theImages[7] = 'images/utah/022-3-0111_jpegs_temple_square.jpg'
+
+theImages[8] = 'images/utah/022-3-0442_jpegs_trax_light_rail.jpg'
+
+
+theImageDescriptions[0] = 'Salt Lake Valley, Buildings at Daytime with mountains in the background, Credit to Adam Barker'
+
+theImageDescriptions[1] = 'Snowbird Tram, Credit to Adam Barker'
+
+theImageDescriptions[2] = 'Zion National Park, Credit to Douglas Pulsipher'
+
+theImageDescriptions[3] = 'The Utah Arts Festival at Library Square, Credit to Dana Sohm'
+
+theImageDescriptions[4] = 'Salt Lake City Skyline, Credit to Douglas Pulsipher'
+
+theImageDescriptions[5] = 'Exterior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[6] = 'Interior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[7] = 'Temple Square at Christmas, Credit to Steve Greenwood'
+
+theImageDescriptions[8] = 'TRAX light-rail, Credit to Steve Greenwood'
+
+theImageURLs[0] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[1] = 'http://www.snowbird.com/summer/activities/tram/'
+
+theImageURLs[2] = 'http://www.nps.gov/zion/index.htm'
+
+theImageURLs[3] = 'http://uaf.org/'
+
+theImageURLs[4] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[5] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[6] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[7] = 'http://en.wikipedia.org/wiki/Temple_Square'
+
+theImageURLs[8] = 'http://en.wikipedia.org/wiki/TRAX_(light_rail)'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2014, Salt Lake City, Utah, USA" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/sigmod14-logo.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+	
+<div id="wrap">
+			
+<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+ <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+   <li><a href="https://www.regonline.com/acmsigmodpods2014" title="Registration" target="_blank">Registration</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+ 
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li> 
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodation and Transportation</a></li>
+    
+    <!-- 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitsaltlake.com/" title="Visitor Information">Visit Salt Lake City</a></li>
+    <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Leonid Libkin">
+Keynote: Leonid Libkin (University of Edinburgh) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Peter J. Haas ">Tutorial 1: Peter J. Haas (IBM Almaden Research Center)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Benny Kimelfeld">Tutorial 2: Benny Kimelfeld (LogicBlox)</a></li>
+<!--  <li><a href="awards_pods.shtml">Awards</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+ <li><a href="keynote_1.shtml" title="Eric Sedlar" >Keynote 1:
+      Eric Sedlar (Oracle Labs)</a></li>
+
+  <li><a href="keynote_2.shtml" title="Maurice Herlihy" >Keynote 2:
+   Maurice Herlihy (Brown University)</a></li>
+   <!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations
+   </a></li> -->
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Papers</a></li>
+  <!--  <li><a href="awards_sigmod.shtml">Awards</a></li> -->
+</ul>
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+			
+<div id="maincontent">
+				  <h1>SIGMOD 2014 CALL FOR RESEARCH PAPERS</h1>
+
+<p>
+  The annual ACM SIGMOD conference is a leading international forum for database
+  researchers, practitioners, developers, and users to explore cutting-edge ideas and
+  results, and to exchange techniques, tools, and experiences.
+
+  We invite the submission of original research contributions relating to all aspects of
+  data management defined broadly, and particularly encourage submissions on topics of
+  emerging interest in the research and development communities.
+</p>
+
+
+
+<h3>TOPICS OF INTEREST</h3>
+<p>
+Topics of interest include but are not limited to the following:</p>
+
+<p>
+<ul>
+<!-- <li>Benchmarking and performance evaluation</li> -->
+<!-- <li>Data analytics</li> -->
+<!-- <li>Data cleaning, integration, and provenance</li> -->
+<!-- <li>Data mining and knowledge discovery</li> -->
+<!-- <li>Data models, semantics, and query languages</li> -->
+<!-- <li>Data privacy and security</li> -->
+<!-- <li>Data streams and sensor networks</li> -->
+<!-- <li>Data visualization</li> -->
+<!-- <li>Database monitoring and tuning</li> -->
+<!-- <li>Databases for emerging hardware</li> -->
+<!-- <li>Distributed and parallel databases</li> -->
+<!-- <li>Indexing and physical database design</li> -->
+<!-- <li>Information extraction</li> -->
+<!-- <li>Information retrieval and text mining</li> -->
+<!-- <li>Mobile databases</li> -->
+<!-- <li>Modeling approximation and uncertainty in databases</li> -->
+<!-- <li>Query processing and optimization</li> -->
+<!-- <li>Scientific databases</li> -->
+<!-- <li>Semi-structured data</li> -->
+<!-- <li>Service-oriented computing and cloud data management</li> -->
+<!-- <li>Social networks and graph databases</li> -->
+<!-- <li>Storage systems</li> -->
+<!-- <li>Transaction management</li> -->
+<li>Storage, indexing, and physical database design</li>
+<li>Query processing and optimization</li>
+<li>Text database, XML, keyword search</li>
+<li>Cloud computing, MapReduce, parallel and distributed data management</li>
+<li>Security, privacy, authenticated query processing</li>
+<li>Aggregation, data warehouses, OLAP, analytics</li>
+<li>Streams, sensor networks, complex event processing</li>
+<li>Knowledge discovery, data mining, clustering</li>
+<li>Spatial, temporal, multimedia and scientific databases</li>
+<li>Graph management, RDF, social networks</li>
+<li>Systems, performance, transaction processing</li>
+<li>Database models, uncertainty, schema matching, data integration, crowd souring</li>
+
+</ul>
+</p>
+<p>
+<!--
+In addition, we especially welcome papers addressing <I>emerging database environments and applications</I>. An External Review Committee will assist in reviewing papers in several multi-disciplinary areas of particular interest to this edition of PODS -- the areas of interest and names of External Review Committee members are listed futher below.
+-->
+<!--
+<h3>Organization</h3>
+<p><strong>General Chairs</strong><br />
+	K. Sel&ccedil;uk Candan (Arizona State University, USA) <br> 
+	Yi Chen (Arizona State University, USA) </p>
+<p><strong>General Vice-Chair</strong><br />
+	Richard Snodgrass (University of Arizona, USA) </p>
+<p><strong>Program Chair</strong><br />
+	Luis Gravano (Columbia University, USA)</p>
+<p><strong>Program Committee Group Leaders:</strong><br />
+	Anastasia Ailamaki (EPFL, Switzerland) <br/>
+	Philip Bernstein (Microsoft Research, USA)<br/>
+	Elisa Bertino (Purdue University, USA) <br/>
+	Umeshwar Dayal (HP Labs, USA)<br/>
+	Juliana Freire (NYU-Poly, USA)<br/>
+	Minos Garofalakis (Technical University of Crete, Greece)<br/>
+	Donald Kossmann (ETHZ, Switzerland)<br/>
+	Tova Milo (Tel Aviv University, Israel)<br/>
+	Divesh Srivastava (AT&T Labs-Research, USA)<br/>
+	Gerhard Weikum (Max-Planck Institute for Informatics, Germany)<br/>
+<p><strong>Proceedings Chair</strong><br />
+	Ariel Fuxman (Microsoft Research, USA) </p>
+<p><strong>Tutorial Chair</strong><br />
+	Alon Halevy (Google Research, USA) </p>
+<p><strong>Keynote and Panel Chair</strong><br />
+	Surajit Chaudhuri (Microsoft Research, USA)<br /></p>
+<p><strong>Industrial Program Chair</strong><br />
+	AnHai Doan (University of Wisconsin-Madison and @WalmartLabs, USA) </p>
+<p><strong>Demonstration Chair</strong><br />
+	Magdalena Balazinska (University of Washington, USA) </p>
+<p><strong>Workshop Chair</strong><br />
+	Christian S. Jensen (Aarhus University, Denmark) </p>
+<p><strong>Undergraduate Research Program Chair</strong><br />
+	Christopher R&eacute; (University of Wisconsin-Madison, USA) </p>
+<p><strong>Finance Chairs</strong><br />
+	Egemen Tanin (University of Melbourne, Australia) <br />
+ Junichi Tatemura (NEC Labs, USA)</p>
+<p><strong>Publicity/Social Media Chairs</strong><br />
+ Lei Chen (HKUST, China) <br />
+Maria Luisa Sapino  (University of Torino, Italy) </p>
+<p><strong>Sponsorship Chairs</strong><br />
+Divyakant Agrawal (University of California at Santa Barbara, USA)<br/> 
+Vasilis Vassalos (Athens U. of Economics and Business, Greece) </p>
+<p><strong>Exhibit Chairs</strong><br />
+Wen-Syan Li (SAP, China) <br />
+Berthold Reinwald (IBM Almaden Research Center, USA)</p>
+<p><strong>Local Arrangements Chair</strong><br />
+Suzanne Dietrich (Arizona State University, USA) </p>
+<p><strong>Registration Chairs</strong><br />
+Ziyang Liu (NEC Labs, USA) <br>
+Bongki Moon (University of Arizona, USA)</p>
+<p><strong>Demonstration and Workshop Local Arrangements Chair</strong><br />
+Hasan Davulcu (Arizona State University, USA) </p>
+<p><strong>Web/Information Chairs</strong><br />
+Huiping Cao (New Mexico State University, USA) <br>  
+Yan Qi (Turn Inc., USA) </p>
+-->
+
+<h3>SUBMISSION GUIDELINES</h3>
+<p>
+All aspects of the submission and notification process will be handled electronically.
+Submissions must adhere to the paper formatting instructions. Research papers will
+be judged for quality and relevance through double-blind reviewing,
+where the identities of the authors are withheld from the reviewers.
+Thus, author names and affiliations must not appear in the papers,
+and bibliographic references must be adjusted to preserve author anonymity.
+Submissions should be uploaded at
+<A style="color:
+#CC6600; text-decoration: none;" HREF="https://cmt.research.microsoft.com/SIGMOD2014/">
+https://cmt.research.microsoft.com/SIGMOD2014/</A>.
+</p>
+
+<h3>SUBMISSION DEADLINE (all on 4:59 p.m. PST)</h3>
+<p>
+<!-- Important details about the submission guidelines and requirements, as well as about the -->
+<!-- reviewing process, are included below. --> Research papers: unlike previous SIGMOD
+conferences, there are <b>two submission deadlines</b> as below.  Each submission cycle involves
+two rounds of reviewing to allow for minor revisions.  Papers rejected in the first cycle
+are not allowed to be re-submitted in the second cycle.
+</p>
+
+<p>
+<b>FIRST SUBMISSION DATES: </b><br/>
+
+	<strong>September 9, 2013 </strong>: Research paper abstracts due<br/>
+	<strong>September 16, 2013</strong>: Research paper submissions due<br/>	
+	<strong>November 19, 2013 </strong>: Notification<br/>
+	<strong>December 19, 2013</strong>: Revised Submission<br/>
+	<strong>January 25, 2014 </strong>: Notification<br/>
+	<strong>February 12, 2014</strong>: Camera-ready due<br/>
+<br/>
+<b>SECOND SUBMISSION DATES: </b><br/>
+
+  	<strong>December 3, 2013 </strong>: Research paper abstracts due<br/>
+	<strong>December 10, 2013</strong>: Research paper submissions due<br/>	
+	<strong>February 12, 2013 </strong>: Notification<br/>
+	<strong>March 13, 2013</strong>: Revised Submission<br/>
+	<strong>April 19, 2014 </strong>: Notification<br/>
+	<strong>May 8, 2014</strong>: Camera-ready due<br/>
+</p>
+
+<h3>PROCEEDINGS AVAILABILITY</h3>
+<p>
+  The proceedings will be publicly available from the ACM digital library 15 days before
+  the start of the conference.  Therefore, the official publication date for papers will
+  be 9 June 2014.  the proceedings will remain open for one year and will be accessible
+  from ACM DL using Author-izer links.
+</p>
+
+
+<h3>CONFLICTS OF INTEREST</h3>
+<p>During submission of a research paper, the submission site will request
+information about conflicts of interest of the paper's authors with
+program committee (PC) members. It is the full responsibility of all
+authors of a paper to identify all and only their potential
+conflict-of-interest PC members, according to the following definition:
+
+<p>
+<i>
+A paper author has a conflict of interest with a PC member when and only
+when one or more of the following conditions holds:
+<ul>
+	<li>The PC member is a co-author of the paper.
+	<li>The PC member has been a co-worker in the same company or university within the past two years.
+	<li>The PC member has been a collaborator within the past two years.
+	<li>The PC member is or was the author's primary thesis advisor, no matter how long ago.
+	<li>The author is or was the PC member's primary thesis advisor, no matter how long ago.
+	<li>The PC member is a relative or close personal friend of the author.
+</ul>
+
+<p>Papers with incorrect or incomplete conflict of interest information as
+of the submission closing time are subject to immediate rejection.
+</i>
+
+<!--
+<h3>Duplicate Submissions</h3>
+<p>A research paper submitted to SIGMOD 2012 cannot be under review for any
+other publishing forum or presentation venue, including conferences,
+workshops, and journals, during the time it is being considered for
+SIGMOD. Furthermore, after you submit a research paper to SIGMOD, you
+must await the response from SIGMOD and only resubmit elsewhere if your
+paper is rejected--or withdrawn at your request--from SIGMOD.
+<i>Any violation of this policy will result in the immediate
+rejection of the submission, as well as in notification to the members
+of the SIGMOD Executive Committee, the members of the SIGMOD PC, and the
+editors or chairs of any other forums involved.</i>
+This restriction applies to identical papers as well as to papers with a
+substantial overlap in scientific content and results.
+-->
+
+<h3>DUPLICATE SUBMISSIONS AND NOVELTY REQUIREMENTS</h3>
+
+<p>A research paper submitted to SIGMOD 2014 cannot be under review for any other publishing forum or presentation venue, including conferences, workshops, and journals, during the time it is being considered for SIGMOD. Furthermore, after you submit a research paper to SIGMOD, you must await the response from SIGMOD and only resubmit elsewhere if your paper is rejected--or withdrawn at your request--from SIGMOD.  This restriction applies to identical papers as well as to papers with a substantial overlap in scientific content and results.</p>
+
+<p>Every research paper submitted to SIGMOD 2014 must present substantial novel research not described in any prior publication. In this context, a <i>prior publication</i> is (a) a paper of five pages or more presented, or accepted for presentation, at a refereed conference or workshop with proceedings; or (b) an article published, or accepted for publication, in a refereed journal. If a SIGMOD 2014 submission has overlap with a prior publication, the submission must cite the prior publication, along with all other relevant published work, following the guidelines in the <b>Anonymity Requirements for Double-Blind Reviewing</b> section below.</p>
+
+<p><i>Any violation of this policy will result in the immediate
+rejection of the submission, as well as in notification to the members
+of the SIGMOD Executive Committee, the members of the SIGMOD PC, and the
+editors or chairs of any other forums involved.</i>
+</p>
+
+
+<h3>LENGTH, FILE TYPE, AND FORMATTING</h3>
+<p>
+<B>Length:</B> All submitted research papers must be formatted according
+to the instructions below, and must be no more than <B>12 pages</B> in
+length. This page limit includes all parts of the paper: title,
+abstract, body, bibliography, and appendices.
+<p>
+<B>File type:</B> Each research paper is to be submitted as a single PDF
+file, formatted for 8.5" x 11" paper and no more than 5 MB in file size.
+(Larger files will be rejected by the submission site.) Submitted papers
+must print without difficulty on a variety of printers, using <a style="color: #CC6600; text-decoration: none;" href="http://get.adobe.com/reader/">Adobe Acrobat Reader</a>. It is the responsibility of the authors to ensure that their submitted PDF file will print easily on simple
+default configurations.
+<p>
+<B>Formatting:</B> Research papers must follow the ACM Proceedings
+Format, using one of the templates provided at <a style="color: #CC6600; text-decoration: none;" href="http://www.acm.org/sigs/pubs/proceed/template.html">http://www.acm.org/sigs/pubs/proceed/template.html</a> for Word and LaTeX (version 2e). (For LaTeX, both Option 1 and Option 2 are acceptable.) The font size, margins, inter-column spacing, and line spacing in the templates must be kept unchanged.
+<p>
+<i>
+Any submitted paper violating the length, file type, or formatting
+requirements will be rejected without review.
+</i>
+
+<h3> ANONYMITY REQUIREMENTS FOR DOUBLE-BLIND REVIEWING </h3>
+<p>
+Every research paper submitted to SIGMOD 2014 will undergo a
+"double-blind" reviewing process: the PC members and referees who review
+the paper will not know the identity of the authors. To ensure anonymity
+of authorship, authors must prepare their manuscript as follows:
+<ul>
+<li> Authors' names and affiliations must not appear on the title page or
+elsewhere in the paper.
+<li> Funding sources must not be acknowledged on the title page or
+elsewhere in the paper.
+<li> Research group members, or other colleagues or collaborators, must not
+be acknowledged anywhere in the paper.
+<li> The paper's file name must not identify the authors of the paper. It
+is strongly suggested that the submitted file be named with the assigned
+submission number. For example, if your assigned paper number is 352,
+then name your submission file 352.pdf.
+<li> Source file naming must also be done with care, to avoid identifying
+the authors' name in the paper's associated metadata. For example, if
+your name is Jane Smith and you submit a PDF file generated from a .dvi
+file called Jane-Smith.dvi, your authorship could be inferred by looking
+into the PDF file.
+</ul>
+<p>
+You must also use care in referring to related past work, particularly
+your own, in the paper. For example, if you are Jane Smith, the
+following text gives away the authorship of the submitted paper:
+<BLOCKQUOTE>
+<i>
+In our previous work [1, 2], we presented two algorithms for ... In this
+paper, we build on that work by ...
+</i></BLOCKQUOTE>
+<BLOCKQUOTE>
+<B>Bibliography</B></br>
+<i>
+[1] Jane Smith, "A Simple Algorithm for ...," Proceedings of ACM SIGMOD
+1997, pp. 1 - 10. </br>
+[2] Jane Smith, "A More Complicated Algorithm for ...," Proceedings of
+ACM SIGMOD 1998, pp. 34 - 44.</br>
+</i></BLOCKQUOTE>
+<p>
+The solution is to reference your past work in the third person (just as
+you would any other piece of work that is related to the submitted
+paper). This allows you to set the context for the submitted paper,
+while at the same time preserving anonymity:
+<BLOCKQUOTE><i>
+In previous work [1, 2], algorithms were presented for ... In this
+paper, we build on that work by ...
+</i></BLOCKQUOTE>
+<BLOCKQUOTE>
+<B>Bibliography</B></br>
+<i>
+[1] Jane Smith, "A Simple Algorithm for ...," Proceedings of ACM SIGMOD
+1997, pp. 1 - 10.</br>
+[2] Jane Smith, "A More Complicated Algorithm for ...," Proceedings of
+ACM SIGMOD 1998, pp. 34 - 44.</br>
+</i></BLOCKQUOTE>
+<p>
+Despite the anonymity requirements, you should still include all
+relevant work of your own in the references, using the above style;
+omitting them could potentially reveal your identity by negation.
+However, self-references should be limited to the essential ones, and
+extended versions of the submitted paper (e.g., technical reports or
+URLs for downloadable versions) must not be referenced.
+<p>
+Common sense and careful writing can go a long way toward preserving
+anonymity without diminishing the quality or impact of a paper. The goal
+is to preserve anonymity while still allowing the reader to fully grasp
+the context (related past work, including your own) of the submitted
+paper. In past years this goal has been achieved successfully by
+hundreds of papers.
+<p>
+<i>
+It is the responsibility of authors to do their very best to preserve
+anonymity. Papers that do not follow the guidelines here, or otherwise
+potentially reveal the identity of the authors, are subject to immediate
+rejection.
+</i>
+
+<h3>REVIEWING PROCESS</h3>
+<p>
+Every research paper submitted to SIGMOD 2014 will undergo a
+"double-blind" reviewing process, as discussed above. Additional
+important aspects of the reviewing process are as follows:
+<ul>
+<li> <B>Author feedback</B>: The reviewing process will incorporate a limited form
+of author feedback. Specifically, the authors of research papers may
+have the chance to answer concrete clarification questions from the
+reviewers from January 19 through January 26, 2014, 5 p.m. PST. Only
+papers with concrete reviewer-solicited clarification questions will
+participate in the author feedback phase.
+<li> <B>Number of accepted papers and implications</B>: The number of accepted
+research papers will not be capped.  We will accept all papers meeting
+the high quality and innovation standards of SIGMOD, and all accepted
+papers will be incorporated into the conference program. To this end,
+SIGMOD 2014 will continue to include "Research Plenary Sessions," where
+every accepted research paper will be presented as a "research poster."
+The Research Plenary Sessions will be the main forum for presentation of
+all research papers, and an accepted paper may not necessarily be chosen
+for a "traditional" presentation slot during the conference. However,
+the presentation decisions will not be reflected in the conference
+proceedings, which are the persistent, archival record of the conference.
+</ul>
+<!--
+<h3>Awards</h3>
+<p><strong>Best Paper Award</strong>: An award will be given to the best submission, as judged by the PC.</p>
+
+<p><strong>Best Student Paper Award</strong>: There will also be an
+award for the best submission, as judged by the PC, written
+exclusively by a student or students. An author is considered as a
+student if at the time of submission, the author is enrolled in a
+program at a university or institution leading to a
+doctoral/master's/bachelor's degree. More details concerning
+eligibility criteria are posted at the PODS pages (<A style="color:
+#CC6600; text-decoration: none;" HREF="http://www.sigmod.org/sigmod/pods/index.html">http://www.sigmod.org/sigmod/pods/index.html</A>).         
+-->
+</div>
+
+<!--endMainContent --> 
+		
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2014 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

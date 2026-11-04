@@ -1,0 +1,585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2015 ACM SIGMOD/PODS Conference: Melbourne, Australia - Call for Papers: PODS Research</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/melbourne/1.jpg'
+
+theImages[1] = 'images/melbourne/2.jpg'
+
+theImages[2] = 'images/melbourne/3.jpg'
+
+theImages[3] = 'images/melbourne/4.jpg'
+
+theImages[4] = 'images/melbourne/5.jpg'
+
+theImages[5] = 'images/melbourne/6.jpg'
+
+theImages[6] = 'images/melbourne/7.jpg'
+
+theImages[7] = 'images/melbourne/8.jpg'
+
+
+theImageDescriptions[0] = 'Overview of Melbourne'
+
+theImageDescriptions[1] = 'Overview of Melbourne'
+
+theImageDescriptions[2] = 'Overview of Melbourne'
+
+theImageDescriptions[3] = 'Overview of Melbourne'
+
+theImageDescriptions[4] = 'Overview of Melbourne'
+
+theImageDescriptions[5] = 'Overview of Melbourne'
+
+theImageDescriptions[6] = 'Overview of Melbourne'
+
+theImageDescriptions[7] = 'Overview of Melbourne'
+
+theImageURLs[0] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[1] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[2] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[3] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[4] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[5] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[6] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[7] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter_melb.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2015, Melbourne, Victoria, Australia" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/logo_sigmod_slc.jpg" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="https://iceaustralia.eventsair.com/sigmodpods2015/registration" title="Registration" target="_blank">Registration</a></li>
+  
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_tutorial_pc.shtml" title="Tutorial Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewer">SIGMOD External Reviewers</a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>  
+  <li><a href="org_sigmod_workshops.shtml"  title="Workshops">Affiliated Workshops</a></li>
+  
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+<!--
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+-->
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li> 
+
+</ul>
+ 
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <!-- temporarily REMOVED  <li><a href="students.shtml"
+    title="Students" target="_blank">For Students</a></li> -->
+	<li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Venue and Accommodations</a></li>
+	<li><a href="http://db.in.tum.de/sigmod15contest/">ACM SIGMOD 2015 Programming Contest</a></li>
+    <!-- <li><a href="http://regonline.com/sigmod2012" title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li> 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitmelbourne.com/" title="Visitor Information">Visit Melbourne</a></li>
+  <!--  <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+--> 
+     <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+  
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program </a></li>
+
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Michael I. Jordan (University of California, Berkeley, USA)">
+Keynote: Michael I. Jordan (University of California, Berkeley, USA) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Graham Cormode (University of Warwick, UK)">Tutorial 1: Graham Cormode (University of Warwick, UK)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Todd J. Green (LogicBlox, USA)">Tutorial 2: Todd J. Green (LogicBlox, USA)</a></li>
+ <!--<li><a href="awards_pods.shtml">Awards</a></li> -->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+<!--  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+-->
+<li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="sigmod_industry_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+<li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+<li><a href="sigmod_tutorial_list.shtml" title="Tutorial Papers">Tutorial Papers</a></li>
+<li><p><a href="keynote_1.shtml">Keynote 1:
+  Jignesh Patel (University of Wisconsin)</a></p></li>
+<li><p><a href="keynote_2.shtml">Keynote 2:
+   Laura Haas (IBM)</a></p></li>
+<li><a href="program_sigmod.shtml#panel">SIGMOD Panel</a></li>
+<!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li><div id="sidebar">
+
+
+-->
+
+
+</div>
+
+
+
+
+			
+<div id="maincontent">
+<h1>PODS 2015 CALL FOR RESEARCH PAPERS</h1>
+<p>
+The PODS symposium series,
+held in conjunction with the SIGMOD conference series,
+provides a premier annual forum for the communication of new advances
+in the theoretical foundations of data management,
+traditional or non-traditional
+(see <a style="color: #CC6600; text-decoration: none;" href="http://www.sigmod.org/the-pods-pages">http://www.sigmod.org/the-pods-pages</a>).
+</p>
+
+<h3>Topics of Interest</h3>
+<p>For the 34th edition, <b>PODS aims at broadening its scope</b>, and calls for research papers providing original, substantial contributions along one or more of the following aspects:</p>
+<ul>
+<li><b>deep theoretical exploration of topical areas central to data management</b></li>
+<li><b>new formal frameworks that aim at providing the basis for deeper theoretical
+  investigation of important emerging issues in data management</b></li>
+<li><b>validation of theoretical approaches from the lens of practical
+  applicability in data management</b></li>
+ </ul>
+
+<p>
+Topics that fit the interests of the symposium include the following:
+</p>
+
+<ul>
+<li> design, semantics, and optimization of query and database languages</li>
+<li> data modeling; data structures and algorithms for data management</li>
+<li> query languages and models for tree- and graph-structured data (including RDF)</li>
+<li> search query languages (including techniques from information retrieval)</li>
+<li> approximate query answering</li>
+<li> model theory, logics, algebras and computational complexity</li>
+<li> dynamic aspects of databases (updates, views)</li>
+<li> foundations of "big data" and "small data", and support for data analytics</li>
+<li> streaming data; real-time and sensor data</li>
+<li> data-centric (business) process management, workflows, web services</li>
+<li> automated verification and synthesis of data-driven and data-centric systems</li>
+<li> incompleteness, inconsistency, and uncertainty in databases</li>
+<li> constraint specification, reasoning, and mining</li>
+<li> metadata management; querying and reasoning over data and metadata</li>
+<li> semantic, linked, networked, and crowdsourced data</li>
+<li> data and knowledge integration and exchange</li>
+<li> distributed and parallel data management and query processing; cloud computing</li>
+<li> domain-specific databases (multi-media, scientific, spatial, temporal, text)</li>
+<li> mining and learning of data models and queries</li>
+<li> schema and query extraction</li>
+<li> privacy; security; provenance</li>
+</ul>
+
+<!--
+<p>
+In addition, we especially welcome papers addressing <i>emerging database environments and applications</i>.
+ An External Review Committee will assist in reviewing papers in several
+ multi-disciplinary areas of particular interest to this edition of PODS
+ -- the areas of interest and names of External Review Committee members
+ are listed futher below.
+-->
+
+</p><h3>Organization</h3>
+
+<p><strong>Program Chair</strong> <br>
+Diego Calvanese (Free University of Bozen-Bolzano, Italy) <br>
+
+</p>
+
+<p><strong>Program Committee</strong> <br>
+Peyman Afshani   (Aarhus University, Denmark) <br>
+Edith Cohen   (Microsoft Research, USA) <br>
+Cynthia Dwork   (Microsoft Research, USA)<br>
+Minos Garofalakis   (Technical University of Crete, Greece)<br>
+Lukasz Golab   (University of Waterloo, Canasa)<br>
+Gianluigi Greco   (University of Calabria, Italy)<br>
+Benny Kimelfeld   (LogicBlox, USA)<br>
+Leonid Libkin   (University of Edinbourgh, UK)<br>
+Carsten Lutz  (University of Bremen, Germany)<br>
+Ioana Manolescu   (INRIA Saclay Ile-de-France, France) <br>
+Yakov Nekrich   (University of Waterloo, Canada)<br>
+Dan Olteanu   (University of Oxford, UK)<br>
+Jeff M. Phillips   (University of Utah, USA)<br>
+Reinhard Pichler   (Technical University Vienna, Austria)<br>
+Riccardo Rosati (Sapienza University of Rome, Italy)<br>
+Mantas Simkus   (Technical University Vienna, Austria)<br>
+Cristina Sirangelo  (ENS Cachan, France) <br>
+Jianwen Su   (University of California Santa Barbara, USA)<br>
+Yannis Theodoridis   (University of Pyraeus, Greece)<br>
+Stijn Vansummeren   (University Libre De Bruxelles, Belgium) <br>
+Rossano Venturini   (University of Pisa, Italy)<br>
+Limsoon Wong   (National University of Singapore, Singapore)
+
+</p><p><strong>PODS General Chair</strong> <br>
+Tova Milo (Tel Aviv University, Israel) <br>
+
+</p><p><strong>Proceedings &amp; Publicity Chair</strong> <br>
+Marco Montali (Free University of Bozen-Bolzano, Italy)
+
+</p><h3>Submission Guidelines</h3>
+<p>
+Submitted papers should be at most twelve pages, including bibliography,
+using reasonable page layout and font size of at least 10pt (note that the SIGMOD style file can be followed, provided that you insert in your latex document the two commands "\fontsize{10pt}{10.2pt} \selectfont").
+<!--
+(Note that the SIGMOD style is 9pt and is therefore not permitted.
+ Instead, we recommend the following alternate 10pt style file:
+ <a style="color: #CC6600; text-decoration: none;"
+    href="http://conferences.sigcomm.org/imc/2009/sig-alternate-10pt.cls">http://conferences.sigcomm.org/imc/2009/sig-alternate-10pt.cls</a>).
+-->
+Additional details may be included in an appendix,
+which, however, will be read at the discretion of the PC.
+<em>
+  Papers longer than twelve pages (excluding the appendix)
+  or in font size smaller than 10pt
+  risk rejection without consideration of their merits.
+</em>
+The submission process will be through the easychair website:
+ <a style="color:#CC6600; text-decoration: none;" href="https://www.easychair.org/conferences/?conf=pods2015">https://www.easychair.org/conferences/?conf=pods2015</a>
+</p>
+
+<p>
+Note that, unlike the SIGMOD conference, PODS does not use double-blind
+reviewing, and therefore PODS submissions should have the names and
+affiliations of authors listed on the paper.
+</p>
+
+<p>
+The results must be unpublished and not submitted elsewhere,
+including the formal proceedings of other symposia or workshops.
+Authors of an accepted paper will be expected to sign copyright release forms,
+and one author is expected to present it at the conference.
+</p>
+
+<h3>Important Dates</h3>
+<p>Unlike previous PODS conferences, there are two submission deadlines as below.  The first submission cycle involves two rounds of reviewing to allow for revisions, while the second submission cycle involves a single round of reviewing, as for previous PODS conferences.  Papers submitted in the first cycle are not allowed to be re-submitted in the second cycle.</p>
+
+<p>First submission cycle:<br>
+<b>October 3, 2014:</b> Research paper abstracts due <br>
+<b>October 10, 2014:</b> Research paper submissions due <br>
+<b>December 19, 2014:</b> Notification of acceptance, rejection, or resubmission <br>
+<b>January 30, 2015:</b> Revised submissions due <br>
+<b>March 9, 2015:</b> Notification of acceptance or rejection <br>
+<b>March 22, 2015:</b> Camera-ready due <br>
+
+<p>Second submission cycle:<br>
+<b>November 28, 2014:</b> Research paper abstracts due <br>
+<b>December 5, 2014:</b> Research paper submissions due <br>
+<b>February 20, 2015:</b> Notification of acceptance or rejection <br>
+<b>March 22, 2015:</b> Camera-ready due <br>
+
+<p> *All deadlines are valid anywhere in the world, i.e., for timezone UTC-12 </p>
+
+<h3>Awards</h3>
+<p><strong>Best Paper Award</strong>:
+An award will be given to the best submission, as judged by the PC.</p>
+
+<p><strong>Best Student Paper Award</strong>:
+There will also be an award for the best submission, as judged by the PC,
+written by a student or exclusively by students.
+An author is considered as a student if at the time of submission,
+the author is enrolled in a program at a university or institution
+leading to a doctoral/master's/bachelor's degree.</p>
+
+<p>
+The PC reserves the right to give both awards to the same paper,
+not to give an award, or to split an award among several papers.
+Papers authored or co-authored by PC members are not eligible for an award.
+</p>
+</div>
+
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2015 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

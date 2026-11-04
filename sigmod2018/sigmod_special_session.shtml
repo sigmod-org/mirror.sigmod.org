@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2018 ACM SIGMOD/PODS Conference: Houston, USA - SIGMOD Keynote</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/Houston/skyline.jpg'
+
+theImages[1] = 'images/Houston/welovehouston.jpg'
+
+theImages[2] = 'images/Houston/bayou.jpg'
+
+theImages[3] = 'images/Houston/lazyriver.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Houston Skyline'
+
+theImageDescriptions[1] = 'We Love Houston'
+
+theImageDescriptions[2] = 'Buffalo Bayou Park'
+
+theImageDescriptions[3] = 'Marriott Marquis Houston'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[1] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[2] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[3] = 'http://www.marriott.com/hotels/travel/houmq-marriott-marquis-houston/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterHouston.png" alt="June 3 - June 8, 2018, Houston, TX, USA" width="742" height="33" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  <img src="images/sigmod_2018_NEW.png" alt="ACM SIGMOD City, Country, Year" width="170" height="69" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="http://sigmod2016.org/rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://sigmod18contest.db.in.tum.de/index.shtml" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="https://www.regonline.com/sigmodpods2018" title="Registration">Registration</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="program_pods.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_invited.shtml#keynote" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_invited.shtml#tutorial" title="Invited Tutorials">Invited Tutorials</a></li>
+<li><a href="pods_awards.shtml" title="Award Talks">Award Talks</a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</a></li>
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Award Talks">Award Talks</a></li>
+ <li><a href="sigmod_special_session.shtml" title="Special Session">Special Session</a></li>
+  <!--
+  <li><a href="sigmod_undergraduate_list.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="sigmod_tods_posters.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2018">Tweets by sigmod2018</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+<h1>SIGMOD 2018: Special Session</h1>
+
+
+<h3>A Technical Research Agenda in Data Ethics and Responsible Data Management</h3>
+<h3>Moderator: Julia Stoyanovich (Drexel University)</h3>
+<h3>Speakers:</h3>
+<ul><strong>
+<li>Krishna Gummadi (MPI Software Systems)</li>
+<li>Bill Howe (University of Washington)</li>
+<li>HV Jagadish (University of Michigan)</li>
+<li>Alexandra Meliou (University of Massachusetts Amherst)</li>
+</ul></strong>
+
+
+<h3>Abstract</h3>
+<p>
+Recently, there has begun a movement towards fairness, accountability, and transparency (FAT) in algorithmic decision-making,
+and in data science more broadly. The database community has not been significantly involved in this movement, despite
+''owning'' the models, languages, and systems that produce the input to the machine learning applications that are often the focus
+in data science. If training data are biased, or have errors, it stands to reason that the algorithmic result will also be unfair or
+erroneous. Similarly, transparency of just the algorithm is usually insufficient to understand why certain results were obtained:
+one needs also to know the data used. In short, fairness, accountability and transparency depend not just on the algorithm, but
+also on the data.
+What are the core data management issues to which the objectives of fairness, accountability and transparency give rise? What
+role should the database community play in this movement? Will emphasis on these topics dilute our core competency in
+techniques and technologies for data, or can it reinforce our central role in technology stacks ranging from startups to the
+enterprise, and from local non-profits to the federal government? This special session features leading researchers who are doing
+exciting technical work in FAT. The goal of this session is to outline a technical research agenda in data management foundations
+and systems around data ethics and responsible data management.
+</p>
+
+
+<h3>Bio</h3>
+<p>
+<img src="images/KrishnaGummadi.jpg" width="100" height="100" hspace="6" align="left">
+<strong>Krishna Gummadi</strong> is a tenured faculty member and head of the Networked Systems research group at the
+Max Planck Institute for Software Systems (MPI-SWS) in Germany. He also holds an honorary professorship
+at the University of Saarland. Krishna's research interests are in the measurement, analysis, design, and
+evaluation of complex Internet-scale systems. His current projects focus on understanding and building social
+computing systems, tackling the challenges associated with (i) assessing the credibility of information shared
+by anonymous online crowds, (ii) understanding and controlling privacy risks for users sharing data on online
+forums, (iii) understanding, predicting and influencing human behaviors on social media sites, and (iv)
+understanding biases and enhancing fairness and transparency in machine learning-based (data-driven)
+decision making. Krishna's works have been widely cited and his papers have received numerous awards,
+including SIGCOMM Test of Time, IW3C2 WWW Best Paper Honorable Mention, and Best Papers at NIPS
+ML & Law Symposium, ACM COSN, ACM/Usenix SOUPS, AAAI ICWSM, Usenix OSDI, ACM SIGCOMM IMC, and SPIE
+MMCN. He received an ERC Advanced Grant in 2017 for investigating ''Foundations for Fair Social Computing''.
+</p>
+
+<p>
+<img src="images/BillHowe.jpg" width="100" height="100" hspace="6" align="left">
+<strong>Bill Howe</strong> is Associate Professor in the Information School, Adjunct Associate Professor in Computer
+Science & Engineering, Senior Data Science Fellow and Founding Associate Director of the UW eScience
+Institute, Director of the UW Urbanalytics Group, and Founding Chair of the UW Data Science Masters
+Degree. He has received two Jim Gray Seed Grant awards from Microsoft Research for work on managing
+scientific data, has had two papers selected for VLDB Journal's Best of Conference issues, and co-authored
+what are currently the most-cited papers from both VLDB 2010 and ACM SIGMOD 2012. Howe developed
+a first MOOC on data science that attracted over 200,000 students across two offerings, and founded UW's
+Data Science for Social Good program. He has a Ph.D. in Computer Science from Portland State University
+and a Bachelor's degree in Industrial & Systems Engineering from Georgia Tech.
+</p>
+
+<p>
+<img src="images/HVJagadish.jpg" width="100" height="100" hspace="6" align="left">
+<strong>HV Jagadish</strong> is the Bernard A Galler Collegiate Professor of Electrical Engineering and Computer Science,
+and Distinguished Scientist at the Institute for Data Science, at the University of Michigan in Ann Arbor.
+Prior to 1999, he was Head of the Database Research Department at AT&T Labs, Florham Park, NJ. He is
+a fellow of the ACM (since 2003), fellow of AAAS (since 2018) and serves on the board of the Computing
+Research Association (since 2009). He has been an Associate Editor for the ACM Transactions on Database
+Systems (1992-1995), Program Chair of the ACM SIGMOD annual conference (1996), Program Chair of the
+ISMB conference (2005), a trustee of the VLDB foundation (2004-2009), Founding Editor-in-Chief of the
+Proceedings of the VLDB Endowment (2008-2014), and Program Chair of the VLDB Conference (2014).
+Since 2016, he is Editor of the Morgan & Claypool ''Synthesis'' Lecture Series on Data Management. Among
+his many awards are the 2013 ACM SIGMOD Contributions Award and the 2008 David E Liddle Research Excellence Award
+(at the University of Michigan). He has developed a popular MOOC on Data Science Ethics that is carried by Coursera and
+EdX.
+</p>
+
+<p>
+<img src="images/AlexandraMeliou.jpg" width="100" height="100" hspace="6" align="left">
+<strong>Alexandra Meliou</strong> is an Assistant Professor in the College of Information and Computer Science, at the
+University of Massachusetts, Amherst. Prior to that, she was a Post-Doctoral Research Associate at the
+University of Washington, working with Dan Suciu. Alexandra received her PhD degree from the Electrical
+Engineering and Computer Sciences Department at the University of California, Berkeley. She has received
+recognitions for research and teaching, including a CACM Research Highlight, an ACM SIGMOD Research
+Highlight Award, an ACM SIGSOFT Distinguished Paper Award, an NSF CAREER Award, a Google Faculty
+Research Award, and a Lilly Fellowship for Teaching Excellence. Her research focuses on data provenance,
+causality, explanations, data quality, and algorithmic and data fairness.
+</p>
+
+<p>
+<img src="images/JuliaStoyanovich.jpg" width="100" height="100" hspace="6" align="left">
+<strong>Julia Stoyanovich (moderator)</strong> is an Assistant Professor of Computer Science at Drexel University, and
+an affiliated faculty at the Center for Information Technology Policy at Princeton. She is a recipient of an
+NSF CAREER award and of an NSF/CRA CI Fellowship. Julia's research focuses on responsible data
+management and analysis practices: on operationalizing fairness, diversity, transparency, and data
+protection in all stages of the data acquisition and processing lifecycle. She established the Data, Responsibly
+consortium, serves on the ACM task force to revise the Code of Ethics and Professional Conduct, and is active
+in the New York City algorithmic transparency effort. In addition to data ethics, Julia works on management
+and analysis of preference data, and on querying large evolving graphs. She holds M.S. and Ph.D. degrees
+in Computer Science from Columbia University, and a B.S. in Computer Science and in Mathematics and
+Statistics from the University of Massachusetts at Amherst.
+</p>
+
+
+<!--endMainContent -->
+</div>
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

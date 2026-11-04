@@ -1,0 +1,253 @@
+
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>SIGMOD '15 PhD Symposium- Proceedings of the 2015 ACM SIGMOD on PhD Symposium</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+
+
+<body>
+
+<div id="DLtoc">
+	<div id="DLheader">
+    	<h1>SIGMOD '15 PhD Symposium- Proceedings of the 2015 ACM SIGMOD on PhD Symposium</h1>
+        <a class="DLcitLink" href="http://dl.acm.org/citation.cfm?id=2744680" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="http://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+    </div>
+    <div id="DLcontent">
+    	<h2>SESSION: Keynote Address</h2> 
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Pablo Barcel&#243;</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97942" title="Get the Full Text from the ACM Digital Library">From Good Research to Good Papers: A Personal Journey</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Tova Milo</li>
+                          
+              </ul>
+        <h2>SESSION: Mining and Analytics</h2> 
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Heng Tao Shen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97943" title="Get the Full Text from the ACM Digital Library">Generating Actionable Knowledge from Big Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Xiu Susie Fang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97944" title="Get the Full Text from the ACM Digital Library">The Relational Way To Dam The Flood Of Genome Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Sebastian Dorok</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97055" title="Get the Full Text from the ACM Digital Library">Towards Window Analytics over Large-scale Graphs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Qi Fan</li>
+                          
+                          <li class="nameList Last">Kian-Lee Tan</li>
+                          
+              </ul>
+        <h2>SESSION: Querying and Recommendation</h2> 
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Heng Tao Shen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97056" title="Get the Full Text from the ACM Digital Library">Efficient Query Processing in Time Series</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Yuhong Li</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97057" title="Get the Full Text from the ACM Digital Library">Flexible Query Answering over Graph-modeled Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Antonio Maccioni</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97058" title="Get the Full Text from the ACM Digital Library">Recommending Tours and Places-of-Interest based on User Interests from Geo-tagged Photos</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Kwan Hui Lim</li>
+                          
+              </ul>
+        <h2>SESSION: Uncertainty, Provenance, and Heterogeneity</h2> 
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Pablo Barcel&#243;</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97059" title="Get the Full Text from the ACM Digital Library">Structurally Tractable Uncertain Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Antoine Amarilli</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97050" title="Get the Full Text from the ACM Digital Library">Provenance-Driven Data Curation Workflow Analysis</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Tianhong Song</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97051" title="Get the Full Text from the ACM Digital Library">Adaptive Reprogramming for Databases on Heterogeneous Processors</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">David Broneske</li>
+                          
+              </ul>
+        
+    </div>
+</div>
+
+</body>
+</html>

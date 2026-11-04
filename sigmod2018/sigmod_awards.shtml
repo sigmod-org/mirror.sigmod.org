@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2018 ACM SIGMOD/PODS Conference: Houston, USA - Gems of PODS</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/Houston/skyline.jpg'
+
+theImages[1] = 'images/Houston/welovehouston.jpg'
+
+theImages[2] = 'images/Houston/bayou.jpg'
+
+theImages[3] = 'images/Houston/lazyriver.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Houston Skyline'
+
+theImageDescriptions[1] = 'We Love Houston'
+
+theImageDescriptions[2] = 'Buffalo Bayou Park'
+
+theImageDescriptions[3] = 'Marriott Marquis Houston'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[1] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[2] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[3] = 'http://www.marriott.com/hotels/travel/houmq-marriott-marquis-houston/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterHouston.png" alt="June 3 - June 8, 2018, Houston, TX, USA" width="742" height="33" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  <img src="images/sigmod_2018_NEW.png" alt="ACM SIGMOD City, Country, Year" width="170" height="69" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="http://sigmod2016.org/rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://sigmod18contest.db.in.tum.de/index.shtml" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="https://www.regonline.com/sigmodpods2018" title="Registration">Registration</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="program_pods.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_invited.shtml#keynote" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_invited.shtml#tutorial" title="Invited Tutorials">Invited Tutorials</a></li>
+<li><a href="pods_awards.shtml" title="Award Talks">Award Talks</a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</a></li>
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Award Talks">Award Talks</a></li>
+ <li><a href="sigmod_special_session.shtml" title="Special Session">Special Session</a></li>
+  <!--
+  <li><a href="sigmod_undergraduate_list.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="sigmod_tods_posters.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2018">Tweets by sigmod2018</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+
+Awards pictures can be found <a style="color: #CC6600; text-decoration: none;"href="awards.shtml">here</a>
+</br></br>
+
+<h1>Edgar F. Codd Innovations Award</h1>
+
+<p>
+Presented to Raghu Ramakrishnan for his pioneering work in deductive databases and their application to
+relational databases in practice.
+</p>
+
+<h3>Bio</h3>
+<p>
+<img src="images/Ramakrishnan-Raghu.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Raghu Ramakrishnan</Strong> is CTO for Data, and a Technical Fellow at Microsoft. He has previously served as
+Chief Scientist at Yahoo! and Professor at the University of Wisconsin-Madison, in addition to being founder
+and CTO of QUIQ, an early online crowd-sourced question-answering company. He graduated from IIT
+Madras and received his PhD from the University of Texas at Austin.
+At Wisconsin, he wrote the text ''Database Management Systems'' and led the development of the widelydistributed
+CORAL deductive database, as well as projects on data mining, information integration, image
+databases, and querying ordered data. This early work influenced commercial query optimizers as well as
+the design of window functions in SQL:1999, and has received the SIGMOD Test-of-Time Award for a paper
+on clustering and the ICDT Test-of-Time Award for a paper on nearest-neighbor indexing. At Yahoo!, he led
+the research for major initiatives, including the CORE project that was the foundation for Yahoo's personalized portal pages, the
+PNUTS geo-replicated cloud service deployed in 18+ regions world-wide, and Yahoo!'s web-scale information extraction for
+semantic results in Yahoo! Search. At Microsoft, he founded the CISL applied research team and led the development of Azure
+Data Lake, Microsoft's exabyte-scale storage and analytics platform, with research contributions to scale-out tiered storage and
+resource management in YARN.
+Ramakrishnan has received the ACM SIGKDD Innovations Award, the ACM SIGMOD Contributions Award, a Distinguished
+Alumnus Award from IIT Madras, a Packard Foundation Fellowship and the NSF Presidential Young Investigator Award. He is
+a Fellow of the ACM and IEEE. He has served on the boards of ACM SIGKDD, the VLDB Foundation, and ACM SOCC, and is
+a past chair of ACM SIGMOD.
+</p>
+
+
+
+<h1>SIGMOD Contributions Award</h1>
+
+<p>
+Presented to Z. Meral &Ouml;zsoyo&#287lu for dedicated service to the database community, especially as editor in chief
+for ACM TODS and PVLDB, the VLDB Endowment and acting as PC chair for VLDB PC and PODS.
+</p>
+
+<h3>Bio</h3>
+<p>
+<img src="images/meral.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Zehra Meral &Ouml;zsoyo&#287lu</Strong> is currently Andrew R. Jennings Professor Emeritus of Computer Science at
+Case Western Reserve University, in Cleveland, Ohio, where she has been a professor of Computer
+Science since 1980. She has also served as department chair of Electrical Engineering and Computer
+Science Department. Meral &Ouml;zsoyo&#287lu's primary work and research interests are in the areas of query
+languages and query processing, data models, and index structures in databases, including scientific
+databases, bioinformatics and medical informatics. More recently, she has been working in querying
+databases with graph query templates. Meral &Ouml;zsoyo&#287lu has served in a variety of leadership roles in the
+computer science research community, more specifically in database research, including the program
+chair of international conferences VLDB 2012, IEEE ICDE 2004, ACM PODS 1997 and SSDBM 1999.
+She also served in many conference program committees. She has been the Editor-in-Chief of ACM Transactions of Database
+Systems 2007-2014, and the Editor-in-Chief of PVLDB, Vol. 5, 2011-2012. She has been a trustee of the VLDB Endowment 2005-
+2011, an Associate Editor of ACM TODS, 2000-2007, Vice Chair of ACM SIGMOD, 1997-2001, Associate Editor of IEEE TKDE
+journal, 1999-2002, and Editor of IEEE Data Engineering Bulletin. She is an ACM Fellow, recipient of the IBM Faculty Award,
+NSF Faculty Award for Women, a Distinguished Alumni Award from University of Alberta, Spotlight on Women Scholarship in
+Engineering award, and Faculty Distinguished Research Award, Case Western Reserve University (2013) and awards from
+IEEE and ACM for contributions to program committees of conferences. She received her BSc in Electrical Engineering, and
+MSc in Computer Science from the Middle East Technical University, Ankara, Turkey and PhD in Computer Science from the
+University of Alberta, Edmonton, Canada.
+</p>
+
+
+
+<h1>SIGMOD Test-of-Time Award</h1>
+
+<p>
+<strong>Serializable isolation for snapshot databases</strong>
+</p>
+
+<p>Michael Cahill (MongoDB), Uwe Roehm (University of Sydney, Australia), Alan Fekete (University of Sydney,
+Australia)</p>
+
+<p>
+Many popular database management systems implement a multiversion concurrency control algorithm called snapshot isolation
+rather than providing full serializability based on locking. There are well-known anomalies permitted by snapshot isolation that
+can lead to violations of data consistency by interleaving transactions that would maintain consistency if run serially. Until now,
+the only way to prevent these anomalies was to modify the applications by introducing explicit locking or artificial update
+conflicts, following careful analysis of conflicts between all pairs of transactions.This article describes a modification to the
+concurrency control algorithm of a database management system that automatically detects and prevents snapshot isolation
+anomalies at runtime for arbitrary applications, thus providing serializable isolation. The new algorithm preserves the properties
+that make snapshot isolation attractive, including that readers do not block writers and vice versa. An implementation of the
+algorithm in a relational DBMS is described, along with a benchmark and performance study, showing that the throughput
+approaches that of snapshot isolation in most cases.
+</p>
+
+<h3>Bio</h3>
+<p>
+<img src="images/cahill.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Dr. Michael Cahill</Strong> is the VP Engineering (Storage) at MongoDB. He was a founder and architect at
+WiredTiger before its acquisition by MongoDB. Prior to that, he was an architect of Berkeley DB at Sleepycat
+Software and Oracle Corp., responsible for design and implementation of multiversion concurrency control,
+as well as SQL interfaces and programming language APIs. Previously, Dr. Cahill was CTO at Bullant
+Technology, which grew tenfold and raised over US$30 million from investors including Intel Capital and JP
+Morgan during his three year tenure. Dr. Cahill's PhD from the University of Sydney is in the area of
+transaction processing and concurrency control. His work on a new algorithm for implementing serializable
+isolation received an ACM SIGMOD Best Paper award in 2008 and was added to PostgreSQL 9.1.
+</p>
+
+<p>
+<img src="images/uwe.png" width="100" height="100" hspace="6" align="left">
+<Strong>Uwe Roehm</Strong>  is Associate Professor in Database Systems at the University of Sydney. He is a computer
+science graduate from the University of Passau, Germany, and completed his PhD at ETH Zurich under
+Professor Hans-Joerg Schek in the area of combining OLTP/OLAP workloads in a cluster of databases. Much
+of his research has dealt with transaction management and replication, especially how to ensure sufficient
+freshness in values read. He has also worked on optimising database systems for multi-core servers. Another
+agenda in Uwe's research is in-database support of bioinformatics and other biomedically-important
+computations. He has been a visiting researcher at Microsoft, and held visiting positions at the University of
+Queensland, at the Karlsruhe Institute of Technology (KIT), and at TU Munich.
+</p>
+
+<p>
+<img src="images/alanfekete.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Alan Fekete</Strong> is Professor of Enterprise Software Systems at the University of Sydney in Australia. He
+completed a BSc from University of Sydney, then a PhD from Harvard University, and he has held visiting
+positions at Cornell, MIT, U Washington, Microsoft Research, and UC Berkeley. Alan has an extensive history
+of work on the topic of transaction management. His research focus is currently on how to help application
+programmers understand and exploit the properties and performance of data management services that offer
+lower support for consistency or isolation. He also has published on theory of distributed computing
+(especially consensus techniques), formal methods for software engineering, and computing education. Alan
+has been recognized as ACM Distinguished Scientist.
+</p>
+
+
+
+<h1>SIGMOD Jim Gray Doctoral Dissertation Award</h1>
+
+<p>
+ACM SIGMOD is pleased to present the 2018 SIGMOD Jim Gray Doctoral Dissertation Award to <strong>Viktor Leis</strong>. Viktor
+completed his dissertation titled "Query Processing and Optimization in Modern Database Systems" at the Technical University
+of Munich under the supervision of Thomas Neumann and Alfons Kemper.
+</p>
+
+<h3>Bio</h3>
+
+<p>
+<img src="images/ViktorLeis.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Viktor Leis</Strong> is a postdoctoral researcher at the Technical University of Munich, where he received a doctorate
+in Computer Science in 2016, advised by Thomas Neumann and Alfons Kemper. Much of his research, which
+includes work on query processing, query optimization, concurrency control, index structures, and storage,
+has been integrated into the HyPer database system, which was acquired by Tableau in 2016. He received
+the biennial dissertation award of the German-speaking database community (GI DBIS) and best paper
+awards at ICDE 2014 and ICDE 2018.
+</p>
+
+
+<h3>SIGMOD Jim Gray Doctoral Dissertation Award (Honorable Mention)</h3>
+
+<p>
+ACM SIGMOD is pleased to recognize <strong>Luis Gal&aacute;rraga</strong> with an Honorable Mention for the 2018 SIGMOD Jim Gray Doctoral
+Dissertation Award. Luis completed his dissertation titled ''Rule Mining in Knowledge Bases'' at Telecom ParisTech under the
+supervision of Fabian Suchanek.
+</p>
+
+<p>
+<img src="images/luis.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Luis Gal&aacute;rraga</Strong> is an Inria researcher working at the IRISA research center in Rennes. In 2008 he obtained
+his bachelor's degree in Computer Engineering at ESPOL (Escuela Superior Politenica del Litoral) in
+Ecuador. Then he pursued a master in computer science at Saarland University in Germany. In 2012 he was
+granted an IMPRS scholarship to pursue his PhD studies and joined the Ontologies Group, leaded by Fabian
+Suchanek, at the Max Planck Institute for Informatics in Saarbrucken. The group eventually moved to Telecom
+ParisTech in France, where Luis obtained his doctoral degree in September 2016 for his work on rule mining
+on knowledge bases. Right after, he joined the Computer Science Department of Aalborg University as a postdoctoral
+researcher where he worked with Katja Hose. Luis' research work and interests fall within the
+domains of semantic web, SPARQL query optimization, knowledge management, and data mining. He is
+currently part of the team LACODAM specialized in pattern mining at IRISA.
+</p>
+
+
+
+<h3>SIGMOD Jim Gray Doctoral Dissertation Award (Honorable Mention)</h3>
+
+<p>
+ACM SIGMOD is also pleased to recognize <strong>Yongjoo Park</strong> with an Honorable Mention for the 2018 SIGMOD Jim Gray Doctoral
+Dissertation Award. Yongjoo completed his dissertation titled "Fast Data Analytics by Learning" at the University of Michigan
+under the supervision of Michael Cafarella and Barzan Mozafari.
+</p>
+
+<p>
+<img src="images/Yongjoo.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Yongjoo Park</Strong> is a Research Fellow in Computer Science and Engineering at the University of Michigan,
+Ann Arbor. His research interests are developing algorithms and building systems for large-scale data
+analytics. His Ph.D. study mainly focused on building fast Approximate Query Processing systems by applying
+machine learning. He received a Ph.D. from the University of Michigan, Ann Arbor, advised by Michael
+Cafarella and Barzan Mozafari. He received a B.S. from Seoul National University. He is a recipient of
+Jeongsong Graduate Study Fellowship and Kwanjeong Ph.D. Fellowship.
+</p>
+
+
+
+<h1>SIGMOD  Best Paper Award</h1>
+
+<p>
+<strong>SuRF: Practical Range Query Filtering with Fast Succinct Tries</strong>
+</p>
+
+<h3>Bio</h3>
+
+<p>Huanchen Zhang (Carnegie Mellon University), Hyeontaek Lim (Carnegie Mellon University), Viktor Leis (TUM),
+David Andersen (Carnegie Mellon University), Michael Kaminsky (Intel Labs), Kimberly Keeton (Hewlett
+Packard Labs), Andrew Pavlo (Carnegie Mellon University)</p>
+
+<p>
+<img src="images/HuanchenZhang.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Huanchen Zhang</Strong> is a fifth-year Ph.D. student in the Computer Science Department at Carnegie Mellon
+University. He received his B.S. degrees in Computer Engineering, Computer Sciences, and Mathematics
+from University of Wisconsin-Madison. His research interests center on database and storage systems. He
+has a particular interest in building space-efficient and high-performance in-memory search structures.
+</p>
+
+<p>
+<img src="images/HyeontaekLim.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Hyeontaek Lim</Strong> is a Post Doctoral Fellow in the Computer Science Department at Carnegie Mellon
+University. He received a Ph.D. in Computer Science from Carnegie Mellon University and received a B.S.
+in Computer Science from KAIST.
+</p></br>
+
+<p>
+<img src="images/ViktorLeis.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Viktor Leis</Strong> is a postdoctoral researcher at the Technical University of Munich, where he received a
+doctorate in Computer Science in 2016, advised by Thomas Neumann and Alfons Kemper. Much of his
+research, which includes work on query processing, query optimization, concurrency control, index structures,
+and storage, has been integrated into the HyPer database system, which was acquired by Tableau in 2016.
+He received the biennial dissertation award of the German-speaking database community (GI DBIS) and best
+paper awards at ICDE 2014 and ICDE 2018.
+</p>
+
+<p>
+<img src="images/DavidAndersen.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>David Andersen</Strong> is an associate professor in the Computer Science department at Carnegie Mellon
+University. He received his Ph.D. and M.S. degrees from MIT, and received B.S. degrees in Computer Science
+and Biology from the University of Utah. Before joining MIT, he was a co-founder and CTO of an Internet
+Service Provider in Salt Lake City. His research interests center on computer systems in the networked
+environment.
+</p>
+
+<p>
+<img src="images/MichaelKaminsky.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Michael Kaminsky</Strong> is a senior research scientist in Intel Labs and an adjunct faculty member of the
+Computer Science Department at Carnegie Mellon University. He is currently part of the Intel Science and
+Technology Center for Visual Cloud Systems (ISTC-VCS), based in Pittsburgh, PA at Carnegie Mellon.
+Michael joined Intel in Summer 2004 after completing his Ph.D. in Computer Science at MIT. His research
+interests include distributed systems, operating systems, and networking.
+</p>
+
+<p>
+<img src="images/kimkeeton.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Dr. Kimberly Keeton</Strong> is a Distinguished Technologist at Hewlett Packard Labs. She earned her Ph.D. and
+M.S. in Computer Science from the University of California at Berkeley and her B.S. in Computer Engineering
+and Engineering and Public Policy from Carnegie Mellon. Her recent research is in the areas of NVM-aware
+data stores and data analytics frameworks in the context of The Machine project at HPE. She has also worked
+in the areas of storage and information management, NoSQL databases, storage dependability, intelligent
+storage, and workload characterization. She was a co-architect of the Express Query database, which
+provides metadata services for HPE's StoreAll file archiving solution. She is an ACM Distinguished Scientist
+and a Senior Member of the IEEE, and has served as Technical Program Committee Chair for USENIX OSDI,
+ACM EuroSys, ACM SIGMETRICS, USENIX FAST and IEEE/IFIP DSN/Performance and Dependability
+Symposium.
+</p>
+
+<p>
+<img src="images/AndyPavlo.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Andy Pavlo</Strong> is an Assistant Professor of Databaseology in the Computer Science Department at Carnegie
+Mellon University. He also used to raise clams.
+</p></br></br></br>
+
+
+<h1>SIGMOD Software Systems Award: The Hive and PIG Database Systems</h1>
+
+<p>
+For developing seminal software systems that served to bring relational-style declarative programming to the
+Hadoop ecosystem.
+</p>
+<p>
+<strong>Hive</strong>
+</p>
+
+<p>Jeff Hammerbacher (MUSC), Ashish Thusoo (Qubole), Joydeep Sen Sarma (Qubole)</p>
+
+<h3>Bio</h3>
+
+<p>
+<img src="images/JeffHammerbacher.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Jeff Hammerbacher</Strong>  is an Assistant Professor at MUSC, an investor at Techammer, and a board member
+at Ciox and Cytel. Previously, Jeff was an Assistant Professor at Mount Sinai, a founder and Chief Scientist
+of Cloudera, an Entrepreneur in Residence at Accel Partners, manager of the Data team at Facebook, and a
+fixed income quant at Bear Stearns. He earned his Bachelor's Degree in Mathematics from Harvard
+University.
+</p>
+
+<p>
+<img src="images/AshishThusoo.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Ashish Thusoo</Strong> is the CEO and co-founder of Qubole, a cloud-native big data activation platform that selfmanages,
+self-optimizes, and learns to improve automatically in order to vastly simplify the operationalization
+of enterprise data lakes using the cloud. Before co-founding Qubole, Ashish ran Facebook's Data
+Infrastructure team; under his leadership the team built one of the largest data processing and analytics
+platforms in the world. At Facebook Ashish co-created Apache Hive and brought SQL capabilities to the new
+age data processing architectures and in the process helped to create the big data industry.
+</p>
+
+<p>
+<img src="images/JoydeepSenSarma.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Joydeep Sen Sarma</Strong> is CTO and co-founder at Qubole - one of the largest providers of Big-Data-as-aService
+- where he leads technology initiatives with a particular focus on building cloud-native data
+processing technologies and autonomous computing. Joydeep was an early engineer at Facebook where he
+brought up their Hadoop based data infrastructure, started what became Apache Hive, managed the Data
+Infrastructure team, and was a key architect on FB Messages. Joydeep graduated from IIT-Delhi and the
+University of Pittsburgh and worked on databases, file systems, high availability, and behavioral targeting
+and recommender systems at Oracle, Netapp and Yahoo.
+</p>
+
+<p>
+<strong>Pig</strong>
+</p>
+
+<p>Christopher Olston (Google), Benjamin Reed (Facebook), Utkarsh Srivastava (Google)</p>
+
+<h3>Bio</h3>
+
+<p>
+<img src="images/ChristopherOlston.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Christopher Olston</Strong> is a staff research scientist at Google, specializing in machine-learning infrastructure.
+His past research focused on large-scale data management and web data techniques (e.g. crawling). He
+delivered a keynote talk at the 2011 ACM Symposium on Cloud Computing, and won the 2009 ACM SIGMOD
+Best Paper Award. Olston holds computer science degrees from Stanford (Ph.D., M.S.) and UC Berkeley
+(B.S.).
+</p>
+
+<p>
+<img src="images/BenjaminReed.png" width="100" height="100" hspace="6" align="left">
+<Strong>Benjamin Reed</Strong> is working in the area of mobile computing and core infrastructure systems at Facebook to
+help make the world more open and connected. Before joining Facebook, Benjamin worked on Pig at Yahoo!
+Research. He received a PhD in computer science from the University of California, Santa Cruz in 2000. In
+the fall of 2018 he will join the faculty of the San Jose State University Department of Computer Science to
+teach and research distributed systems and data management.
+</p>
+
+<p>
+<img src="images/UtkarshSrivastava.jpg" width="100" height="100" hspace="6" align="left">
+<Strong>Utkarsh Srivastava</Strong> has held engineering leadership positions at Google and Twitter where he has helped
+to build large-scale systems for content serving and ranking. Prior to that, Utkarsh helped to build Yahoo's
+first multi-data-center distributed database, and Pig, a high-level query language over Hadoop. Utkarsh
+holds a PhD from Stanford and a bachelors from IIT Kanpur.
+</p>
+
+<!--endMainContent -->
+</div>
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

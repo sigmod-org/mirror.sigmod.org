@@ -1,0 +1,618 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2016 ACM SIGMOD/PODS Conference: San Francisco, USA - Transportation</title>
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/SanFrancisco/CableCar3.jpg'
+
+theImages[1] = 'images/SanFrancisco/SFORS2.jpg'
+
+theImages[2] = 'images/SanFrancisco/Alcatraz.jpg'
+
+theImages[3] = 'images/SanFrancisco/GolbenGate.jpg'
+
+theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Cable Car'
+
+theImageDescriptions[1] = 'Hyatt Regency, San Francisco'
+
+theImageDescriptions[2] = 'Alcatraz Island'
+
+theImageDescriptions[3] = 'Golden Gate Bridge'
+
+theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'http://sanfranciscoregency.hyatt.com/en/hotel/home.html'
+
+theImageURLs[1] = 'http://sanfranciscoregency.hyatt.com/en/hotel/home.html'
+
+theImageURLs[2] = 'http://www.nps.gov/alca/index.htm'
+
+theImageURLs[3] = 'http://www.goldengatebridge.org/'
+
+theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterSF.jpg" alt="ACM SIGMOD/PODS, June 26 - July 1, 2016, San Francisco, USA" width="742" height="45" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  
+  <img src="images/SIGMODPODS2016-logo.jpg" alt="ACM SIGMOD City, Country, Year" width="113" height="65" /></a></div>
+  
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  
+
+
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+  
+  
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorials PC </a></li>
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li> 
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+
+<!-- 
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+</ul>
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="calls_papers_sigmod_undergrad_poster.shtml" title="UndergraduateCompetition">Undergraduate Competition</a></li>
+  <li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>
+  <li><a href="http://dsg.uwaterloo.ca/sigmod16contest/" title="ProgrammingContest">Programming Contest</a></li>
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="http://dbweb.enst.fr/events/sigmod2016nrs/" title="NewResearchers">New Researcher Symposium</a></li>
+</ul>
+
+
+
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">	
+	<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>
+	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="https://www.regonline.com/builder/site/?eventid=1789063" title="Registration">Registration</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>		
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>	
+</ul>
+
+
+
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+
+
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+ 
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Moshe Vardi">Keynote: Moshe Vardi (Rice Univ.)</a></li>
+<li><a href="pods_invited.shtml#tutorial1" title="Invited Tutorial: Sara Cohen">Invited Tutorial 1: Sara Cohen (Hebrew Univ. of Jerusalem)</a></li>
+<li><a href="pods_invited.shtml#tutorial2" title="Invited Tutorial: Frank Neven">Invited Tutorial 2: Frank Neven (Hasselt Univ.)</a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</a></li>
+
+</ul>
+
+
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+  <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>  
+  <li><a href="sigmod_undergraduate_list.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="sigmod_tods_posters.shtml" title="TODS Posters">TODS Posters</a></li>
+  <li><a href="sigmod_keynote.shtml" title="Jeff Dean">Keynote: Jeff Dean (Google)</a></li>
+  <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+
+<!--
+  <li><a href="awards_sigmod.shtml">Awards</a></li> 
+-->
+</ul>
+
+
+
+
+
+
+
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/acmsigmod2016" data-widget-id="611222132543102976" height="400">Tweets by @acmsigmod2016</a>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1> 
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+
+
+
+
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+			
+<div id="maincontent">
+				  
+<h1>Transportation</h1>
+
+<h2>Airports</h2>
+
+<p><b>San Francisco International Airport (SFO)</b></p>
+
+<p>SFO is the largest airport in the Bay Area, and the closest to the conference venue, located about 14 miles south of San Francisco.</p>
+
+<p>Transportation from SFO to Conference Venue:</p>
+
+<p><u>Bay Area Rapid Transit (BART)</u><br />
+The Pittsburg/Bay Point - SFIA/Millbrae line runs every 15-20 minutes, between SFO and Embarcadero. There is a BART station located inside the airport. It is a short walk from United Airlines Terminal 3, and about 5 minutes away via AirTrain from Domestic Terminals 1, 2 and 3. Exit at Embarcadero station. Hotel is located directly outside the station. Tickets can be purchased at the station, at the price of $8.65 each way. Travel time between airport and Hyatt Regency is approximately 45 minutes. 
+</p>
+
+<p>
+BART Operating Hours:<br />
+Mon to Fri: 4:23a.m. - 12:26a.m.<br />
+Saturday: 6:00a.m. - 12:26a.m.<br />
+Sunday: 8:00a.m. - 12:26a.m.<br />
+</p>
+
+<p>For more information, visit: <a style="color: #CC6600; text-decoration: none;" href="https://www.bart.gov/" target="_blank">https://www.bart.gov/</a> 
+</p>
+
+<p><u>Super Shuttle Van Service</u><br />
+This is the largest airport transfer shuttle service in San Francisco. It operates 24 hours/seven days a week. Door-to-door service is provided between San Francisco and the SFO Airport. From the Airport, go to the arrivals level and look for the blue and yellow van. Price is $17 one way per person. For more information and reservations, visit: <a style="color: #CC6600; text-decoration: none;" href="http://supershuttle.rideflyreservations.com/" target="_blank">http://supershuttle.rideflyreservations.com/</a>
+</p>
+
+<p><u>San Francisco Lorries Shuttle</u><br />
+Operates 4:00a.m. - 11:30p.m., seven days a week. Provides door-to-door service between SFO Airport and Hyatt. Price is $17 per person, each way. At the airport, look for the White and Green Vans with lettering that says Go Lorrie's at the shuttle pickup area in the arrivals level. Reservations can be made online via Hyatt's website: <a style="color: #CC6600; text-decoration: none;" href="http://gosfovan.hudsonltd.net/res?USERIDENTRY=HYATTREG&LOGON=GO" target="_blank">http://gosfovan.hudsonltd.net/res?USERIDENTRY=HYATTREG&LOGON=GO</a>
+</p>
+
+<p><u>Taxi</u><br />
+Taxis are located in the arrivals level. Estimated cost to Hyatt Regency is $40 - $45. Travel time is approximately 25 minutes.
+</p>
+
+
+
+<p><b>San Jose International Airport (SJC)</b></p>
+
+<p>San Jose Airport is much smaller compared to San Francisco, with fewer options for people flying internationally.</p>
+
+<p>Transportation from SJC to Conference Venue:</p>
+
+<p><u>Caltrain</u><br />
+Caltrain runs about twice an hour between San Jose Diridon station and San Francisco 4th and King stop. From the airport, take a taxi to Diridon Station, or Santa Clara Station (note that from Santa Clara, the train runs every hour). Take Caltrain all the way to the last stop in San Francisco, on 4th and King.  The station is a 10 minutes taxi ride to Hyatt Regency. Taxis are located outside of the Caltrain station. Caltrain tickets can be purchased at the station. Overall estimated travel time is 2.5 hours, and estimated price is $30.
+</p>
+
+<p>Caltrain Operating Hours:<br />
+Mon to Fri: 4:30a.m. - 10:30p.m.<br />
+Saturday/Sunday: 7:00a.m. - 10:30p.m.
+</p>
+
+<p>For more information, visit: <a style="color: #CC6600; text-decoration: none;" href="http://www.caltrain.com/" target="_blank">http://www.caltrain.com/</a> 
+</p>
+
+<p>* Public transportation options from SJC to San Francisco are limited and inconvenient, thus not recommended.
+</p>
+
+<p><u>Super Shuttle Van Service</u><br />
+Super shuttle provides door-to-door transportation from San Jose Airport to San Francisco. It operates 24 hours/seven days a week. Price is $105. Travel time is about 1 hour, and may vary depending on traffic. For more information and reservations, visit: <a style="color: #CC6600; text-decoration: none;" href="http://supershuttle.rideflyreservations.com" target="_blank">http://supershuttle.rideflyreservations.com</a>
+</p>
+
+<br />
+
+
+
+<h2>San Francisco Local Transportation</h2>
+
+<p><u>MUNI</u><br />
+Multiple MUNI lines provide convenient transportation from/to Embarcadero, Downtown, Hayes Valley, Haight Ashbury, Castro, and Golden Gate Park. 
+</p>
+
+<p>
+MUNI Operating Hours:<br />
+Mon to Fri: 5:00a.m. - 12:15a.m.<br />
+Saturday/Sunday: 6:00a.m. - 12:15a.m.
+</p>
+
+<p><u>Cable Car</u><br />
+There are three cable car lines that provide transportation around Downtown, Nob Hill, Russian Hill, and Fisherman's Wharf. A cable car stop is located at the intersection of Market & Drumm Street, right next to Hyatt hotel. Tickets can be purchased in cash, for the amount of $7, as you board.
+</p>
+
+<p>Operating Hours: 7 days a week, 6:00a.m. - 12:30a.m.
+</p>
+
+<p><u>Taxi</u><br />
+San Francisco is a very compact city. Many tourist attractions and dining options are a 5-10 minute drive away from the conference venue.  
+</p>
+
+<p>
+Uber and Lyft have been offering a great and conveniently priced service for local transportation in San Francisco, and they are highly recommended if you have internet access on your mobile phone. Payment options are Credit Card and PayPal.
+</p>
+
+<br />
+
+
+<h2>Bay Area Transportation</h2>
+
+<p>Public Transit options outside of San Francisco are limited. If interested in exploring the Bay Area, we recommend renting a car at the Hyatt Regency Hotel.
+</p>
+
+<p><u>Avis/Budget Rental Car</u> <br />
+Located on the street level in Hyatt Regency San Francisco<br />
+Phone: 415-433-3717<br />
+Mon-Fri 7:30a.m. - 5:30p.m.<br />
+Sat 8:00a.m. - 1:00p.m.<br />
+Sun 8:00a.m. - 1:00p.m.<br />
+</p>
+
+<p>Please note this location does accept Drop-Off Cars. There is a $15 after hour return fee for hotel guests ($25 for non-hotel guests).
+</p>
+
+<br />
+
+
+
+<h2>Parking</h2>
+
+<p>If you are driving yourself from the Bay Area to the conference venue, we do not recommend street parking around the hotel due to the tight enforcement regulations. We advise you consider the following options.
+</p>
+
+<p><u>Embarcadero Center Parking</u><br />
+Parking is available at the Embarcadero Center, one block from the venue. Daily rate is $34, from 5:00a.m. to 5:00p.m. Evening rate is $3/hour, after 5:00p.m. For more information, visit: <a style="color: #CC6600; text-decoration: none;" href="http://embarcaderocenter.com/location/parking" target="_blank">http://embarcaderocenter.com/location/parking</a>
+</p>
+
+
+<!-- 
+<p><u>Hyatt Valet Parking</u><br />
+<b>TBC</b>
+</p>
+-->
+
+
+
+
+  </div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2016 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

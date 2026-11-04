@@ -1,0 +1,684 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2020 ACM SIGMOD/PODS Conference: Portland, Oregon, USA - Call for Papers: SIGMOD Research</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/oregon/oldtown-1.jpg'
+
+theImages[1] = 'images/oregon/downtown.jpg'
+
+theImages[2] = 'images/oregon/LanSuGarden.jpg'
+
+theImages[3] = 'images/oregon/JapaneseGarden.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Old Town'
+
+theImageDescriptions[1] = 'Downtown, Portland'
+
+theImageDescriptions[2] = 'Lan Su Garden'
+
+theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.travelportland.com/'
+
+theImageURLs[1] = 'https://www.travelportland.com/'
+
+theImageURLs[2] = 'https://www.travelportland.com/'
+
+theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterPortland.png" alt="June 14 - June 19, 2020, Portland, Oregon, USA" width="742"/>');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+<!-- <div id="masthead" style="height:auto"><img src="images/2020-SIGMOD-WebBanner.png" alt="top banner" width="750"/></div> -->
+
+<!-- <div style="font-size:0.8em;text-align:center;color: #485b81;font-weight: bold;"><p style="margin:0">ACM SIGMOD/PODS International Conference on Management of Data&nbsp&nbsp&nbsp&nbsp June 14 - June 19, 2020&nbsp&nbsp&nbsp Portland, OR, USA</p>
+</div> <br> June 14 - June 19, 2020   Portland, OR, USA-->
+
+
+
+
+
+<div id="logoACMSIGMOD" style="margin:0px;height:84px"><a href="index.shtml">
+
+<img src="images/2020Sigmod-LOGO.png" alt="ACM SIGMOD City, Country, Year" height="85" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+
+<div id="wrap">
+
+<!-- the ssi code needs to stay here - do not delete or move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+ <li><a href="report.pdf" title="Experience Report">Experience Report</a></li>
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="online-webpage.shtml" title="Full Conference Program Now Available"><font color="red">Full Conference Program Now Available</font></a></li>
+    <li><a href="covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>
+    <li><a href="http://www.cvent.com/d/yhqjj1" title="Registration">Registration</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award <font color="red">(canceled) </font></a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="info-coming-soon" title="Banquet">Banquet</a></li>
+	<li><a href="info-coming-soon.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="info-coming-soon.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+<!-- the ssi code needs to stay here - do not delete move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="online-webpage.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_tutorials.shtml" title="Invited Tutorials">Invited Tutorials</a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="online-webpage.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Awards">Awards</a></li>
+ <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/leaders.html" title="Programming Contest">Programming Contest</a></li>
+ <li><a href="social/sigmod_social_event.shtml" title="Social Events">Social Events</a></li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2020">Tweets by sigmod2020</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+	<h1>SIGMOD 2020 CALL FOR RESEARCH PAPERS</h1>
+
+<p>
+Portland, Oregon, USA, June 14-19, 2020, https://sigmod2020.org
+</p>
+
+<p align="justify">
+  The annual ACM SIGMOD conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences. We invite the submission of original research contributions relating to all aspects of data management defined broadly, and particularly encourage submissions on topics of emerging interest in the research and development communities.
+</p>
+
+
+<h3>HIGHLIGHTS</h3>
+<p align="justify">
+  <ul>
+  <li>Abstract submission deadline: Tue July 9 (Round 1), Tue Oct 15 (Round 2)</li>
+  <li>Paper submission deadline: Tue July 16 (Round 1), Tue Oct 22 (Round 2)</li>
+  <li>Submission website: <a style="color: #CC6600; text-decoration: none;" href="https://cmt3.research.microsoft.com/SIGMOD2020">https://cmt3.research.microsoft.com/SIGMOD2020</a> (open for submission starting Jun 9 for Round 1 and Sep 15 for Round 2).</li>
+  <li>Submissions must use the latest ACM format, and must be at most 14 pages plus an unlimited number of pages for citations. <strong style="color: red;">No appendix is allowed, and the font size must be 10 pts. Please refer to formatting instructions below on how to change the font size to 10 pts.
+</strong>
+</li>
+</ul>
+</p>
+
+
+<h3>TOPICS OF INTEREST</h3>
+<p align="justify">
+Topics of interest include but are not limited to the following:</p>
+
+<p align="justify">
+  <ul>
+
+		<li>Benchmarking and performance evaluation</li>
+		<li>Crowd sourcing</li>
+		<li>Data models, semantics, query languages</li>
+		<li>Data provenance</li>
+		<li>Data visualization</li>
+		<li>Data warehousing, OLAP, SQL Analytics</li>
+		<li>Database monitoring and tuning</li>
+		<li>Database security, privacy, access control</li>
+		<li>Database usability</li>
+		<li>Databases for emerging hardware</li>
+		<li>Distributed and parallel databases</li>
+		<li>Graph data management, RDF, social networks</li>
+		<li>Information extraction</li>
+		<li>Information retrieval and text mining</li>
+		<li>Knowledge discovery, clustering, data mining</li>
+		<li>Query processing and optimization</li>
+		<li>Schema matching, data integration, and data cleaning</li>
+		<li>Scientific databases</li>
+		<li>Semi-structured data</li>
+		<li>Spatio-temporal databases</li>
+		<li>Storage, indexing, and physical database design</li>
+		<li>Streams, sensor networks, complex event processing</li>
+		<li>Transaction processing</li>
+		<li>Uncertain, probabilistic, and approximate databases</li>
+           <li> Machine learning for data management and vice versa </li>
+</ul>
+</p>
+
+<p align="justify">
+SIGMOD welcomes submissions on inter-disciplinary work, as long as there are clear contributions to management of data.
+</p>
+
+<h3>SUBMISSION GUIDELINES</h3>
+<p align="justify">
+All aspects of the submission and notification process will be handled electronically. Submissions must adhere to the paper formatting instructions. Research papers will be judged for quality and relevance through double-blind reviewing, where the identities of the authors are withheld from the reviewers. Author names and affiliations must not appear in the papers, and bibliographic references must be adjusted to preserve author anonymity. Submissions should be uploaded at:
+<A style="color:
+#CC6600; text-decoration: none;" HREF="https://cmt3.research.microsoft.com/SIGMOD2020">
+https://cmt3.research.microsoft.com/SIGMOD2020</A> (which will be open for submission starting June 9, 2019 for Round 1 and starting Sept 15 for Round 2).
+
+</p>
+
+<h3>IMPORTANT DATES </h3>
+<p align="justify">
+Research papers: as in the previous two SIGMOD conferences, there are two submission cycles. Each submission cycle involves two rounds of reviewing to allow for minor revisions. Papers rejected in the first cycle are not allowed to be re-submitted in the second cycle. All notification dates are approximate.
+</p>
+
+
+<p align="justify">
+<b>RESEARCH PAPER FIRST SUBMISSION CYCLE (All Deadlines are 5:00pm Pacific Time) </b><br/>
+
+	July 9, 2019 : Abstract submission <br/>
+July 16, 2019: Paper submission<br/>
+September 4-5, 2019: Author responses <br/>
+October 3, 2019: Notification of accept/revise/reject <br/>
+November 4, 2019: Revised Submission <br/>
+November 25, 2019: Notification of revision decision <br/>
+
+<p align="justify">
+<b>RESEARCH PAPER SECOND SUBMISSION CYCLE (All Deadlines are 5:00pm Pacific Time) </b><br/>
+
+October 15, 2019 : Abstract submission <br/>
+October 22, 2019: Paper submission<br/>
+December 10 - 11, 2019: Author responses <br/>
+January 17, 2020: Notification of accept/revise/reject <br/>
+February 19, 2020: Revised Submission <br/>
+March 13, 2020: Notification of revision decision <br/>
+
+
+<h3>PROCEEDINGS AVAILABILITY</h3>
+<p align="justify">
+  The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+<!--
+<br> Note that the official publication date affects the deadline for any patent filings related to published work.
+-->
+</p>
+
+
+<h3>CONFLICTS OF INTEREST</h3>
+<p align="justify">During submission of a research paper, the submission site will request information about conflicts of interest of the paper’s authors with program committee (PC) members. It is the full responsibility of all authors of a paper to identify all and only their potential conflict-of-interest PC members, according to the following definition:
+
+<p align="justify">
+<i>A paper author has a conflict of interest with a PC member when, and only when, one or more of the following conditions holds:
+<ul>
+	<li>The PC member is a co-author of the paper.</li>
+	<li>The PC member has been a co-worker in the same company or university within the past two years.</li>
+	<li>The PC member has been a collaborator within the past two years.</li>
+	<li>The PC member is or was the author's primary thesis advisor, no matter how long ago.</li>
+	<li>The author is or was the PC member's primary thesis advisor, no matter how long ago.</li>
+	<li>The PC member is a relative or close personal friend of the author.</li>
+</ul>
+</i>
+</p>
+
+<p align="justify"><i>Papers with incorrect or incomplete conflict of interest information as
+of the submission closing time are subject to immediate rejection. </i>
+</p>
+
+
+
+<h3><a name="submissionpolicy">DUPLICATE SUBMISSIONS AND NOVELTY REQUIREMENT</a></h3>
+
+<p align="justify">A research paper submitted to SIGMOD 2020 cannot be under review for any other publishing forum or presentation venue, including conferences, workshops, and journals, during the time it is being considered for SIGMOD. Furthermore, after you submit a research paper to SIGMOD, you must await the response from SIGMOD and only re-submit elsewhere if your paper is rejected - or withdrawn at your request - from SIGMOD. This restriction applies not only to identical papers but also to papers with a substantial overlap in scientific content and results.</p>
+
+<p align="justify">Every research paper submitted to SIGMOD 2020 must present substantial novel research not described in any prior publication. In this context, a prior publication is (a) a paper of five pages or more presented, or accepted for presentation, at a refereed conference or workshop with proceedings; or (b) an article published, or accepted for publication, in a refereed journal. If a SIGMOD 2020 submission has overlap with a prior publication, the submission must cite the prior publication, along with all other relevant published work, following the guidelines in the Anonymity Requirements for Double-Blind Reviewing section below.</p>
+
+<p align="justify"><i>Any violation of this policy will result in the immediate rejection of the submission, as well as in notification to the members of the SIGMOD Executive Committee, the members of the SIGMOD PC, and the editors or chairs of any other forums involved. </i>
+</p>
+
+
+<h3><a name="formatting">LENGTH, FILE TYPE, AND FORMATTING</a></h3>
+
+<p align="justify">
+<B>The ACM template changed in 2017. Make sure you are using the latest version.</B>
+
+<p align="justify">
+Length: All submitted research papers must be formatted according to the instructions below. The main content of the paper must be no more than 14 pages in length, although we will allow an unlimited number of pages for the bibliography. No appendix will be allowed. 
+</p>
+
+<p align="justify">
+File type: Each research paper is to be submitted as a single PDF file, formatted for 8.5" x 11" paper and no more than 5 MB in file size. (Larger files will be rejected by the submission site.) Submitted papers must print without difficulty on a variety of printers, using Adobe Acrobat Reader. It is the responsibility of the authors to ensure that their submitted PDF file will print easily on simple default configurations.
+</p>
+
+<p align="justify">
+Formatting: Research papers must follow the ACM Proceedings Format, using either the <b>sample-sigconf.tex</b> or <b>Interim layout.docx</b> template provided at <a style="color: #CC6600; text-decoration: none;" href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a> for LaTeX (version 2e) or Word, respectively. <strong style="color: red;"> Note that the font size has to be changed to 10 pts. For sample-sigconf.tex, you can change the font size to 10 pts by changing one line in the file from<br/> \documentclass[sigconf]{acmart}<br /> to <br /> \documentclass[10pt,sigconf]{acmart}.</strong><br />The margins, inter-column spacing, and line spacing in the templates must be kept unchanged. <i> Any submitted paper violating the length, file type, or formatting requirements will be rejected without review.</i>
+
+
+<h3> ANONYMITY REQUIREMENTS FOR DOUBLE-BLIND REVIEWING </h3>
+<p align="justify">
+Every research paper submitted to SIGMOD 2018 will undergo a ''double-blind'' reviewing process: the PC members and referees who review the paper will not know the identity of the authors. To ensure anonymity of authorship, authors must at least do the following:
+<ul>
+<li> Authors' names and affiliations must not appear on the title page or elsewhere in the paper.
+<li> Funding sources must not be acknowledged anywhere in the paper.
+<li> Research group members, or other colleagues or collaborators, must not be acknowledged anywhere in the paper.
+<li> The paper’s file name must not identify the authors of the paper.
+<li> Source file naming must also be done with care, to avoid identifying the authors’ names in the paper’s associated metadata. For example, if your name is Jane Smith and you submit a PDF file generated from a .dvi file called Jane-Smith.dvi, your authorship could be inferred by looking into the PDF file.
+</ul>
+
+<p align="justify">
+You must also use care in referring to related past work, particularly
+your own, in the paper. For example, if you are Jane Smith, the
+following text gives away the authorship of the submitted paper:
+<BLOCKQUOTE>
+<i>
+In our previous work [1, 2], we presented two algorithms for ... In this
+paper, we build on that work by ...
+</i></BLOCKQUOTE>
+<BLOCKQUOTE>
+<B>Bibliography</B></br>
+<i>
+[1] Jane Smith, "A Simple Algorithm for ...," Proceedings of ACM SIGMOD
+1997, pp. 1 - 10. </br>
+[2] Jane Smith, "A More Complicated Algorithm for ...," Proceedings of
+ACM SIGMOD 1998, pp. 34 - 44.</br>
+</i></BLOCKQUOTE>
+
+<p align="justify">
+The solution is to reference your past work in the third person (just as you would any other work that is related to your submitted paper). This allows you to set the context for your
+submission, while at the same time preserving anonymity:
+<BLOCKQUOTE><i>
+In previous work [1, 2], algorithms were presented for ... In this
+paper, we build on that work by ...
+</i></BLOCKQUOTE>
+<BLOCKQUOTE>
+<B>Bibliography</B></br>
+<i>
+[1] Jane Smith, "A Simple Algorithm for ...," Proceedings of ACM SIGMOD
+1997, pp. 1 - 10.</br>
+[2] Jane Smith, "A More Complicated Algorithm for ...," Proceedings of
+ACM SIGMOD 1998, pp. 34 - 44.</br>
+</i></BLOCKQUOTE>
+
+<p align="justify">
+Despite the anonymity requirements, you should still include all relevant work of your own in the references, using the above style; omitting them could potentially reveal your identity by negation. However, self-references should be limited to the essential ones, and extended versions of the submitted paper (e.g., technical reports or URLs for downloadable versions) must not be referenced.
+<p align="justify">
+Common sense and careful writing can go a long way toward preserving anonymity without diminishing the quality or impact of a paper. The goal is to preserve anonymity while still allowing the reader to fully grasp the context (related past work, including your own) of the submitted paper. In past years, this goal has been achieved successfully by thousands of papers.
+<p align="justify">
+<i>It is the responsibility of authors to do their very best to preserve anonymity. Papers that do not follow the guidelines here, or otherwise potentially reveal the identity of the authors, are subject to immediate rejection. </i>
+
+
+<h3>REVIEWING PROCESS</h3>
+<p align="justify">
+Number of reviews: All papers will receive at least three reviews. Papers for which the three reviews do not converge to an acceptance may receive additional reviews. </p>
+
+<p align="justify">Rebuttals: Before final decisions are made, authors will have 48 hours to read the reviews and submit an optional short rebuttal. The sole purpose of the rebuttal is to clarify misunderstandings and factual errors through pointers to specific text in the submitted paper. As an example, a reviewer may have overlooked a part of the discussion in the paper and state that the paper fails to compare with a certain method; an example rebuttal will be of the form "see Section 2.4, paragraph 3". If no factual errors exist in the reviews, a rebuttal is not needed.</p>
+
+<p align="justify"> Revisions: Some papers will be invited to submit a revised version of their paper. Authors will have less than a month to prepare their revision. The program committee will invite revisions at their discretion. The revision process is intended to be a constructive partnership between reviewers and authors. To this end, reviewers will be instructed to request revisions only in constructive scenarios with specific requests. In turn, authors bear the responsibility of attempting to meet those requests within the stated time frame, or of withdrawing the paper from submission. Common revision requests can include ''justify a crucial assumption'', ''present a real(istic) scenario where the defined problem occurs'', ''clean up notation'', ''tighten presentation'', ''compare against some relevant previous system'', ''show experimental results with better data, such as at larger scale or from a real system''. Revisions will not be requested to address lack of technical depth or novelty or where the revised paper will address a substantially different problem from the original. </p>
+
+<p align="justify">
+Number of accepted papers and implications: The number of accepted research papers will not be capped. We will accept all papers meeting the high quality and innovation standards of SIGMOD, and all accepted papers will be incorporated into the conference program. </p>
+
+<h3>PRESENTATION AND DISSEMINATION</h3>
+<p align="justify">
+The main forum for presentation at SIGMOD 2020 will continue to be the ''Research Plenary Sessions'', where every accepted research paper will be presented as a ''research poster''. Accepted papers will not necessarily be chosen for a ''traditional'' presentation slot during the conference: the PC may decide to select only a few papers for presentation. However, all accepted papers will be treated equally in the conference proceedings, which are the persistent, archival record of the conference. 
+
+</div>
+
+<!--endMainContent -->
+
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2014 ACM SIGMOD/PODS Conference: Snowbird, Utah, USA - Organization: SIGMOD Demonstration Track Program Committee</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/melbourne/1.jpg'
+
+theImages[1] = 'images/melbourne/2.jpg'
+
+theImages[2] = 'images/melbourne/3.jpg'
+
+theImages[3] = 'images/melbourne/4.jpg'
+
+theImages[4] = 'images/melbourne/5.jpg'
+
+theImages[5] = 'images/melbourne/6.jpg'
+
+theImages[6] = 'images/melbourne/7.jpg'
+
+theImages[7] = 'images/melbourne/8.jpg'
+
+
+theImageDescriptions[0] = 'Overview of Melbourne'
+
+theImageDescriptions[1] = 'Overview of Melbourne'
+
+theImageDescriptions[2] = 'Overview of Melbourne'
+
+theImageDescriptions[3] = 'Overview of Melbourne'
+
+theImageDescriptions[4] = 'Overview of Melbourne'
+
+theImageDescriptions[5] = 'Overview of Melbourne'
+
+theImageDescriptions[6] = 'Overview of Melbourne'
+
+theImageDescriptions[7] = 'Overview of Melbourne'
+
+theImageURLs[0] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[1] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[2] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[3] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[4] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[5] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[6] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[7] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter_melb.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2015, Melbourne, Victoria, Australia" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/logo_sigmod_slc.jpg" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="https://iceaustralia.eventsair.com/sigmodpods2015/registration" title="Registration" target="_blank">Registration</a></li>
+  
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_tutorial_pc.shtml" title="Tutorial Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewer">SIGMOD External Reviewers</a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>  
+  <li><a href="org_sigmod_workshops.shtml"  title="Workshops">Affiliated Workshops</a></li>
+  
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+<!--
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+-->
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li> 
+
+</ul>
+ 
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <!-- temporarily REMOVED  <li><a href="students.shtml"
+    title="Students" target="_blank">For Students</a></li> -->
+	<li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Venue and Accommodations</a></li>
+	<li><a href="http://db.in.tum.de/sigmod15contest/">ACM SIGMOD 2015 Programming Contest</a></li>
+    <!-- <li><a href="http://regonline.com/sigmod2012" title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li> 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitmelbourne.com/" title="Visitor Information">Visit Melbourne</a></li>
+  <!--  <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+--> 
+     <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+  
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program </a></li>
+
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Michael I. Jordan (University of California, Berkeley, USA)">
+Keynote: Michael I. Jordan (University of California, Berkeley, USA) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Graham Cormode (University of Warwick, UK)">Tutorial 1: Graham Cormode (University of Warwick, UK)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Todd J. Green (LogicBlox, USA)">Tutorial 2: Todd J. Green (LogicBlox, USA)</a></li>
+ <!--<li><a href="awards_pods.shtml">Awards</a></li> -->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+<!--  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+-->
+<li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="sigmod_industry_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+<li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+<li><a href="sigmod_tutorial_list.shtml" title="Tutorial Papers">Tutorial Papers</a></li>
+<li><p><a href="keynote_1.shtml">Keynote 1:
+  Jignesh Patel (University of Wisconsin)</a></p></li>
+<li><p><a href="keynote_2.shtml">Keynote 2:
+   Laura Haas (IBM)</a></p></li>
+<li><a href="program_sigmod.shtml#panel">SIGMOD Panel</a></li>
+<!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li><div id="sidebar">
+
+
+-->
+
+
+</div>
+
+
+
+			
+			<div id="maincontent">
+				  
+				  <h1> Organization: SIGMOD Demonstration Program Committee</h1>
+
+<p> 
+<strong>Chairs</strong><br />
+Vanessa Braganholo (Universidade Federal Fluminense, Brazil)<br/>
+Juliana Freire (NYU, USA) </p>
+
+<p><strong>PC Members</strong> <br/>
+Amr El Abbadi	(UC Santa Barbara, USA) <br/>
+Serge Abiteboul	(INRIA, France) <br/>
+Medha Atre	(University of Pennsylvania, USA)<br/> 
+Luciano Barbosa	(IBM Research, Brazil) <br/>
+Yi Chen	(New Jersey Institute of Technology, USA) <br/>
+Sara Cohen 	(The Hebrew University of Jerusalem, Israel) <br/>
+Eli Cortez	(Microsoft Research, USA) <br/>
+Lois Delcambre 	(Portland State, USA) <br/>
+Boris Glavic	(IIT Chicago, USA) <br/>
+Todd Green 	(LogicBlox, USA) <br/>
+Carmem Hara 	(Universidade Federal do Parana, Brazil) <br/>
+Thomas Heinis	(Imperial College, UK) <br/>
+Stratos Idreos 	(Harvard, USA) <br/>
+Dmitri V. Kalashnikov	(UC Irvine, USA) <br/>
+Verena Kantere	(University of Geneva, Switzerland) <br/>
+Yannis Katsis	(UC San Diego, USA)<br/>
+David Koop 	(NYU, USA) <br/>
+Flip Korn	(Google Research)<br/>
+Georgia Koutrika	(HP Labs, USA)<br/>
+Chao Li 	(Google Inc., USA)<br/>
+Ashwin Machanavajjhala	(Duke University, USA) <br/>
+Ioana Manolescu 	(INRIA, France) <br/>
+Yannis Manolopoulos	(Aristotle University of Thessaloniki, Greece) <br/>
+Paolo Merialdo 	(Universita Roma Tre, Italy) <br/>
+Mirella Moro	(Universidade Federal de Minas Gerais, Brazil) <br/>
+Yasin N. Silva	(Arizona State University, USA) <br/>
+Mario Nascimento	(University of Alberta, Canada) <br/>
+Eduardo Ogasawara	(CEFET/RJ, Brazil) <br/>
+Daniel Oliveira	(Universidade Federal Fluminense, Brazil) <br/>
+Andy Pavlo 	(Carnegie Mellon University, USA)<br/>
+Lucian Popa	(IBM Research, USA) <br/>
+Maya Ramanath 	(IIT Delhi, India) <br/>
+Sudeepa Roy 	(University of Washington, USA) <br/>
+Emad Soroush 	(GraphLab Inc, USA) <br/>
+Valeria Times 	(Universidade Federal de Pernambuco, Brazil) <br/>
+Ricardo Torres 	(UNICAMP, Brazil) <br/>
+Pinar Tozun 	(EPFL, Switzerland) <br/>
+Huy Vo	(NYU, USA) <br/>
+Xiaochun Yang	(Northeastern University, China) <br/>
+Wenchao Zhou 	(Georgetown University, USA)<br/>
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2015 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

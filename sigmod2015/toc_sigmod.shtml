@@ -1,0 +1,3407 @@
+
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>SIGMOD '15- Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+
+
+<body>
+
+<div id="DLtoc">
+	<div id="DLheader">
+    	<h1>SIGMOD '15- Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data</h1>
+        <a class="DLcitLink" href="http://dl.acm.org/citation.cfm?id=2723372" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="http://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+    </div>
+    <div id="DLcontent">
+    	<h2>SESSION: Keynote 1</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97024" title="Get the Full Text from the ACM Digital Library">From Data to Insights @ Bare Metal Speed</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Jignesh M. Patel</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 1 - Cloud: Parallel Execution</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97035" title="Get the Full Text from the ACM Digital Library">Distributed Outlier Detection using Compressive Sensing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ying Yan</li>
+                          
+                          <li class="nameList">Jiaxing Zhang</li>
+                          
+                          <li class="nameList">Bojun Huang</li>
+                          
+                          <li class="nameList">Xuzhan Sun</li>
+                          
+                          <li class="nameList">Jiaqi Mu</li>
+                          
+                          <li class="nameList">Zheng Zhang</li>
+                          
+                          <li class="nameList Last">Thomas Moscibroda</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97036" title="Get the Full Text from the ACM Digital Library">Locality-aware Partitioning in Parallel Database Systems</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Erfan Zamanian</li>
+                          
+                          <li class="nameList">Carsten Binnig</li>
+                          
+                          <li class="nameList Last">Abdallah Salama</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97037" title="Get the Full Text from the ACM Digital Library">ByteSlice: Pushing the Envelop of Main Memory Data Processing with a New Storage Layout</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ziqiang Feng</li>
+                          
+                          <li class="nameList">Eric Lo</li>
+                          
+                          <li class="nameList">Ben Kao</li>
+                          
+                          <li class="nameList Last">Wenjian Xu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97038" title="Get the Full Text from the ACM Digital Library">Implicit Parallelism through Deep Language Embedding</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Alexander Alexandrov</li>
+                          
+                          <li class="nameList">Andreas Kunft</li>
+                          
+                          <li class="nameList">Asterios Katsifodimos</li>
+                          
+                          <li class="nameList">Felix Sch&#252;ler</li>
+                          
+                          <li class="nameList">Lauritz Thamsen</li>
+                          
+                          <li class="nameList">Odej Kao</li>
+                          
+                          <li class="nameList">Tobias Herb</li>
+                          
+                          <li class="nameList Last">Volker Markl</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97039" title="Get the Full Text from the ACM Digital Library">From Theory to Practice: Efficient Join Query Evaluation in a Parallel Database System</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Shumo Chu</li>
+                          
+                          <li class="nameList">Magdalena Balazinska</li>
+                          
+                          <li class="nameList Last">Dan Suciu</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 2 - Matrix and Array Computations</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97030" title="Get the Full Text from the ACM Digital Library">sPCA: Scalable Principal Component Analysis for Big Data on Distributed Platforms</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tarek Elgamal</li>
+                          
+                          <li class="nameList">Maysam Yabandeh</li>
+                          
+                          <li class="nameList">Ashraf Aboulnaga</li>
+                          
+                          <li class="nameList">Waleed Mustafa</li>
+                          
+                          <li class="nameList Last">Mohamed Hefeeda</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97031" title="Get the Full Text from the ACM Digital Library">Exploiting Matrix Dependency for Efficient Distributed Matrix Computation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Lele Yu</li>
+                          
+                          <li class="nameList">Yingxia Shao</li>
+                          
+                          <li class="nameList Last">Bin Cui</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97032" title="Get the Full Text from the ACM Digital Library">LEMP: Fast Retrieval of Large Entries in a Matrix Product</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Christina Teflioudi</li>
+                          
+                          <li class="nameList">Rainer Gemulla</li>
+                          
+                          <li class="nameList Last">Olga Mykytiuk</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97033" title="Get the Full Text from the ACM Digital Library">Skew-Aware Join Optimization for Array Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jennie Duggan</li>
+                          
+                          <li class="nameList">Olga Papaemmanouil</li>
+                          
+                          <li class="nameList">Leilani Battle</li>
+                          
+                          <li class="nameList Last">Michael Stonebraker</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97034" title="Get the Full Text from the ACM Digital Library">Resource Elasticity for Large-Scale Machine Learning</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Botong Huang</li>
+                          
+                          <li class="nameList">Matthias Boehm</li>
+                          
+                          <li class="nameList">Yuanyuan Tian</li>
+                          
+                          <li class="nameList">Berthold Reinwald</li>
+                          
+                          <li class="nameList">Shirish Tatikonda</li>
+                          
+                          <li class="nameList Last">Frederick R. Reiss</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 3 - Security and Access Control</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97045" title="Get the Full Text from the ACM Digital Library">SEMROD: Secure and Efficient MapReduce Over HybriD Clouds</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Kerim Yasin Oktay</li>
+                          
+                          <li class="nameList">Sharad Mehrotra</li>
+                          
+                          <li class="nameList">Vaibhav Khadilkar</li>
+                          
+                          <li class="nameList Last">Murat Kantarcioglu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97046" title="Get the Full Text from the ACM Digital Library">Authenticated Online Data Integration Services</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Qian Chen</li>
+                          
+                          <li class="nameList">Haibo Hu</li>
+                          
+                          <li class="nameList Last">Jianliang Xu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97047" title="Get the Full Text from the ACM Digital Library">ENKI: Access Control for Encrypted Query Processing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Isabelle Hang</li>
+                          
+                          <li class="nameList">Florian Kerschbaum</li>
+                          
+                          <li class="nameList Last">Ernesto Damiani</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97048" title="Get the Full Text from the ACM Digital Library">Collaborative Access Control in WebdamLog</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Vera Zaychik Moffitt</li>
+                          
+                          <li class="nameList">Julia Stoyanovich</li>
+                          
+                          <li class="nameList">Serge Abiteboul</li>
+                          
+                          <li class="nameList Last">Gerome Miklau</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97049" title="Get the Full Text from the ACM Digital Library">Automatic Enforcement of Data Use Policies with DataLawyer</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Prasang Upadhyaya</li>
+                          
+                          <li class="nameList">Magdalena Balazinska</li>
+                          
+                          <li class="nameList Last">Dan Suciu</li>
+                          
+              </ul>
+        <h2>SESSION: Industry Session 1 - Streaming/Real-Time/Active</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97040" title="Get the Full Text from the ACM Digital Library">TencentRec: Real-time Stream Recommendation in Practice</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yanxiang Huang</li>
+                          
+                          <li class="nameList">Bin Cui</li>
+                          
+                          <li class="nameList">Wenyu Zhang</li>
+                          
+                          <li class="nameList">Jie Jiang</li>
+                          
+                          <li class="nameList Last">Ying Xu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97041" title="Get the Full Text from the ACM Digital Library">Twitter Heron: Stream Processing at Scale</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sanjeev Kulkarni</li>
+                          
+                          <li class="nameList">Nikunj Bhagat</li>
+                          
+                          <li class="nameList">Masong Fu</li>
+                          
+                          <li class="nameList">Vikas Kedigehalli</li>
+                          
+                          <li class="nameList">Christopher Kellogg</li>
+                          
+                          <li class="nameList">Sailesh Mittal</li>
+                          
+                          <li class="nameList">Jignesh M. Patel</li>
+                          
+                          <li class="nameList">Karthik Ramasamy</li>
+                          
+                          <li class="nameList Last">Siddarth Taneja</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97042" title="Get the Full Text from the ACM Digital Library">Analytics in Motion: High Performance Event-Processing AND Real-Time Analytics in the Same Database</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Lucas Braun</li>
+                          
+                          <li class="nameList">Thomas Etter</li>
+                          
+                          <li class="nameList">Georgios Gasparis</li>
+                          
+                          <li class="nameList">Martin Kaufmann</li>
+                          
+                          <li class="nameList">Donald Kossmann</li>
+                          
+                          <li class="nameList">Daniel Widmer</li>
+                          
+                          <li class="nameList">Aharon Avitzur</li>
+                          
+                          <li class="nameList">Anthony Iliopoulos</li>
+                          
+                          <li class="nameList">Eliezer Levy</li>
+                          
+                          <li class="nameList Last">Ning Liang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97043" title="Get the Full Text from the ACM Digital Library">Why Big Data Industrial Systems Need Rules and What We Can Do About It</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Paul Suganthan G.C.</li>
+                          
+                          <li class="nameList">Chong Sun</li>
+                          
+                          <li class="nameList">Krishna Gayatri K.</li>
+                          
+                          <li class="nameList">Haojun Zhang</li>
+                          
+                          <li class="nameList">Frank Yang</li>
+                          
+                          <li class="nameList">Narasimhan Rampalli</li>
+                          
+                          <li class="nameList">Shishir Prasad</li>
+                          
+                          <li class="nameList">Esteban Arcaute</li>
+                          
+                          <li class="nameList">Ganesh Krishnan</li>
+                          
+                          <li class="nameList">Rohit Deep</li>
+                          
+                          <li class="nameList">Vijay Raghavendra</li>
+                          
+                          <li class="nameList Last">AnHai Doan</li>
+                          
+              </ul>
+        <h2>TUTORIAL SESSION: Tutorial 1</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97044" title="Get the Full Text from the ACM Digital Library">Overview of Data Exploration Techniques</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Stratos Idreos</li>
+                          
+                          <li class="nameList">Olga Papaemmanouil</li>
+                          
+                          <li class="nameList Last">Surajit Chaudhuri</li>
+                          
+              </ul>
+        <h2>PANEL SESSION: Panel</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97155" title="Get the Full Text from the ACM Digital Library">Machine Learning and Databases: The Sound of Things to Come or a Cacophony of Hype?</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Christopher R&#233;</li>
+                          
+                          <li class="nameList">Divy Agrawal</li>
+                          
+                          <li class="nameList">Magdalena Balazinska</li>
+                          
+                          <li class="nameList">Michael Cafarella</li>
+                          
+                          <li class="nameList">Michael Jordan</li>
+                          
+                          <li class="nameList">Tim Kraska</li>
+                          
+                          <li class="nameList Last">Raghu Ramakrishnan</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 4 - Cloud: Fault Tolerance, Reconfiguration</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97156" title="Get the Full Text from the ACM Digital Library">Cost-based Fault-tolerance for Parallel Data Processing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Abdallah Salama</li>
+                          
+                          <li class="nameList">Carsten Binnig</li>
+                          
+                          <li class="nameList">Tim Kraska</li>
+                          
+                          <li class="nameList Last">Erfan Zamanian</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97157" title="Get the Full Text from the ACM Digital Library">Squall: Fine-Grained Live Reconfiguration for Partitioned Main Memory Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Aaron J. Elmore</li>
+                          
+                          <li class="nameList">Vaibhav Arora</li>
+                          
+                          <li class="nameList">Rebecca Taft</li>
+                          
+                          <li class="nameList">Andrew Pavlo</li>
+                          
+                          <li class="nameList">Divyakant Agrawal</li>
+                          
+                          <li class="nameList Last">Amr El Abbadi</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97158" title="Get the Full Text from the ACM Digital Library">Madeus: Database Live Migration Middleware under Heavy Workloads for Cloud Environment</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Takeshi Mishima</li>
+                          
+                          <li class="nameList Last">Yasuhiro Fujiwara</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97159" title="Get the Full Text from the ACM Digital Library">Lineage-driven Fault Injection</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Peter Alvaro</li>
+                          
+                          <li class="nameList">Joshua Rosen</li>
+                          
+                          <li class="nameList Last">Joseph M. Hellerstein</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 5 - Keyword Search and Text</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97150" title="Get the Full Text from the ACM Digital Library">Diversity-Aware Top-k Publish/Subscribe for Text Stream</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Lisi Chen</li>
+                          
+                          <li class="nameList Last">Gao Cong</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97151" title="Get the Full Text from the ACM Digital Library">Diverse and Proportional Size-l Object Summaries for Keyword Search</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Georgios Fakas</li>
+                          
+                          <li class="nameList">Zhi Cai</li>
+                          
+                          <li class="nameList Last">Nikos Mamoulis</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97152" title="Get the Full Text from the ACM Digital Library">Local Filtering: Improving the Performance of Approximate Queries on String Collections</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xiaochun Yang</li>
+                          
+                          <li class="nameList">Yaoshu Wang</li>
+                          
+                          <li class="nameList">Bin Wang</li>
+                          
+                          <li class="nameList Last">Wei Wang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97153" title="Get the Full Text from the ACM Digital Library">Exact Top-k Nearest Keyword Search in Large Networks</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Minhao Jiang</li>
+                          
+                          <li class="nameList">Ada Wai-Chee Fu</li>
+                          
+                          <li class="nameList Last">Raymond Chi-Wing Wong</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97154" title="Get the Full Text from the ACM Digital Library">Efficient Algorithms for Answering the m-Closest Keywords Query</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tao Guo</li>
+                          
+                          <li class="nameList">Xin Cao</li>
+                          
+                          <li class="nameList Last">Gao Cong</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 6 - Graph Primitives</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97165" title="Get the Full Text from the ACM Digital Library">Minimum Spanning Trees in Temporal Graphs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Silu Huang</li>
+                          
+                          <li class="nameList">Ada Wai-Chee Fu</li>
+                          
+                          <li class="nameList Last">Ruifeng Liu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97166" title="Get the Full Text from the ACM Digital Library">Efficient Enumeration of Maximal k-Plexes</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Devora Berlowitz</li>
+                          
+                          <li class="nameList">Sara Cohen</li>
+                          
+                          <li class="nameList Last">Benny Kimelfeld</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97167" title="Get the Full Text from the ACM Digital Library">Divide &#38; Conquer: I/O Efficient Depth-First Search</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Zhiwei Zhang</li>
+                          
+                          <li class="nameList">Jeffrey Xu Yu</li>
+                          
+                          <li class="nameList">Lu Qin</li>
+                          
+                          <li class="nameList Last">Zechao Shang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97168" title="Get the Full Text from the ACM Digital Library">Index-based Optimal Algorithms for Computing Steiner Components with Maximum Connectivity</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Lijun Chang</li>
+                          
+                          <li class="nameList">Xuemin Lin</li>
+                          
+                          <li class="nameList">Lu Qin</li>
+                          
+                          <li class="nameList">Jeffrey Xu Yu</li>
+                          
+                          <li class="nameList Last">Wenjie Zhang</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 7 - Data Mining</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97169" title="Get the Full Text from the ACM Digital Library">COMMIT: A Scalable Approach to Mining Communication Motifs from Dynamic Networks</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Saket Gurukar</li>
+                          
+                          <li class="nameList">Sayan Ranu</li>
+                          
+                          <li class="nameList Last">Balaraman Ravindran</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97160" title="Get the Full Text from the ACM Digital Library">LASH: Large-Scale Sequence Mining with Hierarchies</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Kaustubh Beedkar</li>
+                          
+                          <li class="nameList Last">Rainer Gemulla</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97161" title="Get the Full Text from the ACM Digital Library">Twister Tries: Approximate Hierarchical Agglomerative Clustering for Average Distance in Linear Time</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Michael Cochez</li>
+                          
+                          <li class="nameList Last">Hao Mou</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97162" title="Get the Full Text from the ACM Digital Library">DBSCAN Revisited: Mis-Claim, Un-Fixability, and Approximation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Junhao Gan</li>
+                          
+                          <li class="nameList Last">Yufei Tao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97163" title="Get the Full Text from the ACM Digital Library">The TagAdvisor: Luring the Lurkers to Review Web Items</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Azade Nazi</li>
+                          
+                          <li class="nameList">Mahashweta Das</li>
+                          
+                          <li class="nameList Last">Gautam Das</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 8 - Uncertainty and Linking</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97164" title="Get the Full Text from the ACM Digital Library">Supporting Data Uncertainty in Array Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Liping Peng</li>
+                          
+                          <li class="nameList Last">Yanlei Diao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97175" title="Get the Full Text from the ACM Digital Library">Identifying the Extent of Completeness of Query Answers over Partially Complete Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Simon Razniewski</li>
+                          
+                          <li class="nameList">Flip Korn</li>
+                          
+                          <li class="nameList">Werner Nutt</li>
+                          
+                          <li class="nameList Last">Divesh Srivastava</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97176" title="Get the Full Text from the ACM Digital Library">k-Hit Query: Top-k Query with Probabilistic Utility Function</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Peng Peng</li>
+                          
+                          <li class="nameList Last">Raymong Chi-Wing Wong</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97177" title="Get the Full Text from the ACM Digital Library">Linking Temporal Records for Profiling Entities</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Furong Li</li>
+                          
+                          <li class="nameList">Mong Li Lee</li>
+                          
+                          <li class="nameList">Wynne Hsu</li>
+                          
+                          <li class="nameList Last">Wang-Chiew Tan</li>
+                          
+              </ul>
+        <h2>SESSION: Industry Session 2 - Applications</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97178" title="Get the Full Text from the ACM Digital Library">Telco Churn Prediction with Big Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yiqing Huang</li>
+                          
+                          <li class="nameList">Fangzhou Zhu</li>
+                          
+                          <li class="nameList">Mingxuan Yuan</li>
+                          
+                          <li class="nameList">Ke Deng</li>
+                          
+                          <li class="nameList">Yanhua Li</li>
+                          
+                          <li class="nameList">Bing Ni</li>
+                          
+                          <li class="nameList">Wenyuan Dai</li>
+                          
+                          <li class="nameList">Qiang Yang</li>
+                          
+                          <li class="nameList Last">Jia Zeng</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97179" title="Get the Full Text from the ACM Digital Library">The LDBC Social Network Benchmark: Interactive Workload</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Orri Erling</li>
+                          
+                          <li class="nameList">Alex Averbuch</li>
+                          
+                          <li class="nameList">Josep Larriba-Pey</li>
+                          
+                          <li class="nameList">Hassan Chafi</li>
+                          
+                          <li class="nameList">Andrey Gubichev</li>
+                          
+                          <li class="nameList">Arnau Prat</li>
+                          
+                          <li class="nameList">Minh-Duc Pham</li>
+                          
+                          <li class="nameList Last">Peter Boncz</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97170" title="Get the Full Text from the ACM Digital Library">Rethinking Data-Intensive Science Using Scalable Analytics Systems</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Frank Austin Nothaft</li>
+                          
+                          <li class="nameList">Matt Massie</li>
+                          
+                          <li class="nameList">Timothy Danford</li>
+                          
+                          <li class="nameList">Zhao Zhang</li>
+                          
+                          <li class="nameList">Uri Laserson</li>
+                          
+                          <li class="nameList">Carl Yeksigian</li>
+                          
+                          <li class="nameList">Jey Kottalam</li>
+                          
+                          <li class="nameList">Arun Ahuja</li>
+                          
+                          <li class="nameList">Jeff Hammerbacher</li>
+                          
+                          <li class="nameList">Michael Linderman</li>
+                          
+                          <li class="nameList">Michael J. Franklin</li>
+                          
+                          <li class="nameList">Anthony D. Joseph</li>
+                          
+                          <li class="nameList Last">David A. Patterson</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97171" title="Get the Full Text from the ACM Digital Library">QMapper for Smart Grid: Migrating SQL-based Application to Hive</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yue Wang</li>
+                          
+                          <li class="nameList">Yingzhong Xu</li>
+                          
+                          <li class="nameList">Yue Liu</li>
+                          
+                          <li class="nameList">Jian Chen</li>
+                          
+                          <li class="nameList Last">Songlin Hu</li>
+                          
+              </ul>
+        <h2>SESSION: ACM-W Athena Lecturer Award</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97172" title="Get the Full Text from the ACM Digital Library">Three Favorite Results</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Jennifer Widom</li>
+                          
+              </ul>
+        <h2>SESSION: Keynote 2</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97173" title="Get the Full Text from the ACM Digital Library">The Power Behind the Throne: Information Integration in the Age of Data-Driven Discovery</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Laura M. Haas</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 9 - Transactional Architectures</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97174" title="Get the Full Text from the ACM Digital Library">On the Design and Scalability of Distributed Shared-Data Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Simon Loesing</li>
+                          
+                          <li class="nameList">Markus Pilman</li>
+                          
+                          <li class="nameList">Thomas Etter</li>
+                          
+                          <li class="nameList Last">Donald Kossmann</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97185" title="Get the Full Text from the ACM Digital Library">Fast Serializable Multi-Version Concurrency Control for Main-Memory Database Systems</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Thomas Neumann</li>
+                          
+                          <li class="nameList">Tobias M&#252;hlbauer</li>
+                          
+                          <li class="nameList Last">Alfons Kemper</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97186" title="Get the Full Text from the ACM Digital Library">FOEDUS: OLTP Engine for a Thousand Cores and NVRAM</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Hideaki Kimura</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97187" title="Get the Full Text from the ACM Digital Library">Let's Talk About Storage &#38; Recovery Methods for Non-Volatile Memory Database Systems</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Joy Arulraj</li>
+                          
+                          <li class="nameList">Andrew Pavlo</li>
+                          
+                          <li class="nameList Last">Subramanya R. Dulloor</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 10 - Privacy</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97188" title="Get the Full Text from the ACM Digital Library">Private Release of Graph Statistics using Ladder Functions</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jun Zhang</li>
+                          
+                          <li class="nameList">Graham Cormode</li>
+                          
+                          <li class="nameList">Cecilia M. Procopiuc</li>
+                          
+                          <li class="nameList">Divesh Srivastava</li>
+                          
+                          <li class="nameList Last">Xiaokui Xiao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97189" title="Get the Full Text from the ACM Digital Library">Bayesian Differential Privacy on Correlated Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Bin Yang</li>
+                          
+                          <li class="nameList">Issei Sato</li>
+                          
+                          <li class="nameList Last">Hiroshi Nakagawa</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97180" title="Get the Full Text from the ACM Digital Library">Modular Order-Preserving Encryption, Revisited</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Charalampos Mavroforakis</li>
+                          
+                          <li class="nameList">Nathan Chenette</li>
+                          
+                          <li class="nameList">Adam O'Neill</li>
+                          
+                          <li class="nameList">George Kollios</li>
+                          
+                          <li class="nameList Last">Ran Canetti</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97181" title="Get the Full Text from the ACM Digital Library">Chiaroscuro: Transparency and Privacy for Massive Personal Time-Series Clustering</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tristan Allard</li>
+                          
+                          <li class="nameList">Georges H&#233;brail</li>
+                          
+                          <li class="nameList">Florent Masseglia</li>
+                          
+                          <li class="nameList Last">Esther Pacitti</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 11 - Streams</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97182" title="Get the Full Text from the ACM Digital Library">Persistent Data Sketching</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Zhewei Wei</li>
+                          
+                          <li class="nameList">Ge Luo</li>
+                          
+                          <li class="nameList">Ke Yi</li>
+                          
+                          <li class="nameList">Xiaoyong Du</li>
+                          
+                          <li class="nameList Last">Ji-Rong Wen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97183" title="Get the Full Text from the ACM Digital Library">Scalable Distributed Stream Join Processing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Qian Lin</li>
+                          
+                          <li class="nameList">Beng Chin Ooi</li>
+                          
+                          <li class="nameList">Zhengkui Wang</li>
+                          
+                          <li class="nameList Last">Cui Yu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97184" title="Get the Full Text from the ACM Digital Library">SCREEN: Stream Data Cleaning under Speed Constraints</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Shaoxu Song</li>
+                          
+                          <li class="nameList">Aoqian Zhang</li>
+                          
+                          <li class="nameList">Jianmin Wang</li>
+                          
+                          <li class="nameList Last">Philip S. Yu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97195" title="Get the Full Text from the ACM Digital Library">Location-Aware Pub/Sub System: When Continuous Moving Queries Meet Dynamic Event Streams</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Long Guo</li>
+                          
+                          <li class="nameList">Dongxiang Zhang</li>
+                          
+                          <li class="nameList">Guoliang Li</li>
+                          
+                          <li class="nameList">Kian-Lee Tan</li>
+                          
+                          <li class="nameList Last">Zhifeng Bao</li>
+                          
+              </ul>
+        <h2>DEMONSTRATION SESSION: Demo A</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97196" title="Get the Full Text from the ACM Digital Library">CE-Storm: Confidential Elastic Processing of Data Streams</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Nick R. Katsipoulakis</li>
+                          
+                          <li class="nameList">Cory Thoma</li>
+                          
+                          <li class="nameList">Eric A. Gratta</li>
+                          
+                          <li class="nameList">Alexandros Labrinidis</li>
+                          
+                          <li class="nameList">Adam J. Lee</li>
+                          
+                          <li class="nameList Last">Panos K. Chrysanthis</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97197" title="Get the Full Text from the ACM Digital Library">A SQL Debugger Built from Spare Parts: Turning a SQL: 1999 Database System into Its Own Debugger</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Benjamin Dietrich</li>
+                          
+                          <li class="nameList Last">Torsten Grust</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97198" title="Get the Full Text from the ACM Digital Library">Exploratory Keyword Search with Interactive Input</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Zhifeng Bao</li>
+                          
+                          <li class="nameList">Yong Zeng</li>
+                          
+                          <li class="nameList">H.V. Jagadish</li>
+                          
+                          <li class="nameList Last">Tok Wang Ling</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97199" title="Get the Full Text from the ACM Digital Library">QE3D: Interactive Visualization and Exploration of Complex, Distributed Query Plans</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Daniel Scheibli</li>
+                          
+                          <li class="nameList">Christian Dinse</li>
+                          
+                          <li class="nameList Last">Alexander Boehm</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97190" title="Get the Full Text from the ACM Digital Library">DataXFormer: An Interactive Data Transformation Tool</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">John Morcos</li>
+                          
+                          <li class="nameList">Ziawasch Abedjan</li>
+                          
+                          <li class="nameList">Ihab Francis Ilyas</li>
+                          
+                          <li class="nameList">Mourad Ouzzani</li>
+                          
+                          <li class="nameList">Paolo Papotti</li>
+                          
+                          <li class="nameList Last">Michael Stonebraker</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97191" title="Get the Full Text from the ACM Digital Library">Quality-Driven Continuous Query Execution over Out-of-Order Data Streams</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yuanzhen Ji</li>
+                          
+                          <li class="nameList">Hongjin Zhou</li>
+                          
+                          <li class="nameList">Zbigniew Jerzak</li>
+                          
+                          <li class="nameList">Anisoara Nica</li>
+                          
+                          <li class="nameList">Gregor Hackenbroich</li>
+                          
+                          <li class="nameList Last">Christof Fetzer</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97192" title="Get the Full Text from the ACM Digital Library">MoDisSENSE: A Distributed Spatio-Temporal and Textual Processing Platform for Social Networking Services</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ioannis Mytilinis</li>
+                          
+                          <li class="nameList">Ioannis Giannakopoulos</li>
+                          
+                          <li class="nameList">Ioannis Konstantinou</li>
+                          
+                          <li class="nameList">Katerina Doka</li>
+                          
+                          <li class="nameList">Dimitrios Tsitsigkos</li>
+                          
+                          <li class="nameList">Manolis Terrovitis</li>
+                          
+                          <li class="nameList">Lampros Giampouras</li>
+                          
+                          <li class="nameList Last">Nectarios Koziris</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97193" title="Get the Full Text from the ACM Digital Library">DocRicher: An Automatic Annotation System for Text Documents Using Social Media</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Qiang Hu</li>
+                          
+                          <li class="nameList">Qi Liu</li>
+                          
+                          <li class="nameList">Xiaoli Wang</li>
+                          
+                          <li class="nameList">Anthony K.H. Tung</li>
+                          
+                          <li class="nameList">Shubham Goyal</li>
+                          
+                          <li class="nameList Last">Jisong Yang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97194" title="Get the Full Text from the ACM Digital Library">A Demonstration of Rubato DB: A Highly Scalable NewSQL Database System for OLTP and Big Data Applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Li-Yan Yuan</li>
+                          
+                          <li class="nameList">Lengdong Wu</li>
+                          
+                          <li class="nameList">Jia-Huai You</li>
+                          
+                          <li class="nameList Last">Yan Chi</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97105" title="Get the Full Text from the ACM Digital Library">G-OLA: Generalized On-Line Aggregation for Interactive Analysis on Big Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Kai Zeng</li>
+                          
+                          <li class="nameList">Sameer Agarwal</li>
+                          
+                          <li class="nameList">Ankur Dave</li>
+                          
+                          <li class="nameList">Michael Armbrust</li>
+                          
+                          <li class="nameList Last">Ion Stoica</li>
+                          
+              </ul>
+        <h2>TUTORIAL SESSION: Tutorial 2</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97106" title="Get the Full Text from the ACM Digital Library">Mining and Forecasting of Big Time-series Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yasushi Sakurai</li>
+                          
+                          <li class="nameList">Yasuko Matsubara</li>
+                          
+                          <li class="nameList Last">Christos Faloutsos</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 12 - Spatial data</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97107" title="Get the Full Text from the ACM Digital Library">Optimal Spatial Dominance: An Effective Search of Nearest Neighbor Candidates</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xiaoyang Wang</li>
+                          
+                          <li class="nameList">Ying Zhang</li>
+                          
+                          <li class="nameList">Wenjie Zhang</li>
+                          
+                          <li class="nameList">Xuemin Lin</li>
+                          
+                          <li class="nameList Last">Muhammad Aamir Cheema</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97108" title="Get the Full Text from the ACM Digital Library">THERMAL-JOIN: A Scalable Spatial Join for Dynamic Workloads</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Farhan Tauheed</li>
+                          
+                          <li class="nameList">Thomas Heinis</li>
+                          
+                          <li class="nameList Last">Anastasia Ailamaki</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97109" title="Get the Full Text from the ACM Digital Library">Indexing Metric Uncertain Data for Range Queries</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Lu Chen</li>
+                          
+                          <li class="nameList">Yunjun Gao</li>
+                          
+                          <li class="nameList">Xinhan Li</li>
+                          
+                          <li class="nameList">Christian S. Jensen</li>
+                          
+                          <li class="nameList">Gang Chen</li>
+                          
+                          <li class="nameList Last">Baihua Zheng</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97100" title="Get the Full Text from the ACM Digital Library">Efficient Route Planning on Public Transportation Networks: A Labelling Approach</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sibo Wang</li>
+                          
+                          <li class="nameList">Wenqing Lin</li>
+                          
+                          <li class="nameList">Yi Yang</li>
+                          
+                          <li class="nameList">Xiaokui Xiao</li>
+                          
+                          <li class="nameList Last">Shuigeng Zhou</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 13- Crowdsourcing</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97101" title="Get the Full Text from the ACM Digital Library">The Importance of Being Expert: Efficient Max-Finding in Crowdsourcing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Aris Anagnostopoulos</li>
+                          
+                          <li class="nameList">Luca Becchetti</li>
+                          
+                          <li class="nameList">Adriano Fazzone</li>
+                          
+                          <li class="nameList">Ida Mele</li>
+                          
+                          <li class="nameList Last">Matteo Riondato</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97102" title="Get the Full Text from the ACM Digital Library">Minimizing Efforts in Validating Crowd Answers</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Nguyen Quoc Viet Hung</li>
+                          
+                          <li class="nameList">Duong Chi Thang</li>
+                          
+                          <li class="nameList">Matthias Weidlich</li>
+                          
+                          <li class="nameList Last">Karl Aberer</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97103" title="Get the Full Text from the ACM Digital Library">iCrowd: An Adaptive Crowdsourcing Framework</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ju Fan</li>
+                          
+                          <li class="nameList">Guoliang Li</li>
+                          
+                          <li class="nameList">Beng Chin Ooi</li>
+                          
+                          <li class="nameList">Kian-lee Tan</li>
+                          
+                          <li class="nameList Last">Jianhua Feng</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97104" title="Get the Full Text from the ACM Digital Library">QASCA: A Quality-Aware Task Assignment System for Crowdsourcing Applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yudian Zheng</li>
+                          
+                          <li class="nameList">Jiannan Wang</li>
+                          
+                          <li class="nameList">Guoliang Li</li>
+                          
+                          <li class="nameList">Reynold Cheng</li>
+                          
+                          <li class="nameList Last">Jianhua Feng</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97115" title="Get the Full Text from the ACM Digital Library">tDP: An Optimal-Latency Budget Allocation Strategy for Crowdsourced MAXIMUM Operations</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Vasilis Verroios</li>
+                          
+                          <li class="nameList">Peter Lofgren</li>
+                          
+                          <li class="nameList Last">Hector Garcia-Molina</li>
+                          
+              </ul>
+        <h2>DEMONSTRATION SESSION: Demo B</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97116" title="Get the Full Text from the ACM Digital Library">Thrifty: Offering Parallel Database as a Service using the Shared-Process Approach</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Petrie Wong</li>
+                          
+                          <li class="nameList">Zhian He</li>
+                          
+                          <li class="nameList">Ziqiang Feng</li>
+                          
+                          <li class="nameList">Wenjian Xu</li>
+                          
+                          <li class="nameList Last">Eric Lo</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97117" title="Get the Full Text from the ACM Digital Library">BenchPress: Dynamic Workload Control in the OLTP-Bench Testbed</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Dana Van Aken</li>
+                          
+                          <li class="nameList">Djellel E. Difallah</li>
+                          
+                          <li class="nameList">Andrew Pavlo</li>
+                          
+                          <li class="nameList">Carlo Curino</li>
+                          
+                          <li class="nameList Last">Philippe Cudr&#233;-Mauroux</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97118" title="Get the Full Text from the ACM Digital Library">Demonstrating "Data Near Here": Scientific Data Search</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">V.M. Megler</li>
+                          
+                          <li class="nameList Last">David Maier</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97119" title="Get the Full Text from the ACM Digital Library">Slider: An Efficient Incremental Reasoner</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jules Chevalier</li>
+                          
+                          <li class="nameList">Julien Subercaze</li>
+                          
+                          <li class="nameList">Christophe Gravier</li>
+                          
+                          <li class="nameList Last">Fr&#233;d&#233;rique Laforest</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97110" title="Get the Full Text from the ACM Digital Library">WANalytics: Geo-Distributed Analytics for a Data Intensive World</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ashish Vulimiri</li>
+                          
+                          <li class="nameList">Carlo Curino</li>
+                          
+                          <li class="nameList">Philip Brighten Godfrey</li>
+                          
+                          <li class="nameList">Thomas Jungblut</li>
+                          
+                          <li class="nameList">Konstantinos Karanasos</li>
+                          
+                          <li class="nameList">Jitendra Padhye</li>
+                          
+                          <li class="nameList Last">George Varghese</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97111" title="Get the Full Text from the ACM Digital Library">FTT: A System for Finding and Tracking Tourists in Public Transport Services</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Huayu Wu</li>
+                          
+                          <li class="nameList">Jo-Anne Tan</li>
+                          
+                          <li class="nameList">Wee Siong Ng</li>
+                          
+                          <li class="nameList">Mingqiang Xue</li>
+                          
+                          <li class="nameList Last">Wei Chen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97112" title="Get the Full Text from the ACM Digital Library">SharkDB: An In-Memory Storage System for Massive Trajectory Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Haozhou Wang</li>
+                          
+                          <li class="nameList">Kai Zheng</li>
+                          
+                          <li class="nameList">Xiaofang Zhou</li>
+                          
+                          <li class="nameList Last">Shazia Sadiq</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97113" title="Get the Full Text from the ACM Digital Library">Ringo: Interactive Graph Analytics on Big-Memory Machines</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yonathan Perez</li>
+                          
+                          <li class="nameList">Rok Sosi&#269;</li>
+                          
+                          <li class="nameList">Arijit Banerjee</li>
+                          
+                          <li class="nameList">Rohan Puttagunta</li>
+                          
+                          <li class="nameList">Martin Raison</li>
+                          
+                          <li class="nameList">Pararth Shah</li>
+                          
+                          <li class="nameList Last">Jure Leskovec</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97114" title="Get the Full Text from the ACM Digital Library">STORM: Spatio-Temporal Online Reasoning and Management of Large Spatio-Temporal Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Robert Christensen</li>
+                          
+                          <li class="nameList">Lu Wang</li>
+                          
+                          <li class="nameList">Feifei Li</li>
+                          
+                          <li class="nameList">Ke Yi</li>
+                          
+                          <li class="nameList">Jun Tang</li>
+                          
+                          <li class="nameList Last">Natalee Villa</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97125" title="Get the Full Text from the ACM Digital Library">PAXQuery: Parallel Analytical XML Processing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jes&#250;s Camacho-Rodr&#237;guez</li>
+                          
+                          <li class="nameList">Dario Colazzo</li>
+                          
+                          <li class="nameList">Ioana Manolescu</li>
+                          
+                          <li class="nameList Last">Juan A.M. Naranjo</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 14 - Indexing &#38; Performance</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97126" title="Get the Full Text from the ACM Digital Library">Cache-Efficient Aggregation: Hashing Is Sorting</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ingo M&#252;ller</li>
+                          
+                          <li class="nameList">Peter Sanders</li>
+                          
+                          <li class="nameList">Arnaud Lacurie</li>
+                          
+                          <li class="nameList">Wolfgang Lehner</li>
+                          
+                          <li class="nameList Last">Franz F&#228;rber</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97127" title="Get the Full Text from the ACM Digital Library">Efficient Similarity Join and Search on Multi-Attribute Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Guoliang Li</li>
+                          
+                          <li class="nameList">Jian He</li>
+                          
+                          <li class="nameList">Dong Deng</li>
+                          
+                          <li class="nameList Last">Jian Li</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97128" title="Get the Full Text from the ACM Digital Library">Holistic Indexing in Main-memory Column-stores</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Eleni Petraki</li>
+                          
+                          <li class="nameList">Stratos Idreos</li>
+                          
+                          <li class="nameList Last">Stefan Manegold</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97129" title="Get the Full Text from the ACM Digital Library">CliffGuard: A Principled Framework for Finding Robust Database Designs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Barzan Mozafari</li>
+                          
+                          <li class="nameList">Eugene Zhen Ye Goh</li>
+                          
+                          <li class="nameList Last">Dong Young Yoon</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97120" title="Get the Full Text from the ACM Digital Library">Exploiting Correlations for Expensive Predicate Evaluation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Manas Joglekar</li>
+                          
+                          <li class="nameList">Hector Garcia-Molina</li>
+                          
+                          <li class="nameList">Aditya Parameswaran</li>
+                          
+                          <li class="nameList Last">Christopher Re</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 15 - Data Cleaning</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97121" title="Get the Full Text from the ACM Digital Library">Query-Oriented Data Cleaning with Oracles</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Moria Bergman</li>
+                          
+                          <li class="nameList">Tova Milo</li>
+                          
+                          <li class="nameList">Slava Novgorodov</li>
+                          
+                          <li class="nameList Last">Wang-Chiew Tan</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97122" title="Get the Full Text from the ACM Digital Library">BigDansing: A System for Big Data Cleansing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Zuhair Khayyat</li>
+                          
+                          <li class="nameList">Ihab F. Ilyas</li>
+                          
+                          <li class="nameList">Alekh Jindal</li>
+                          
+                          <li class="nameList">Samuel Madden</li>
+                          
+                          <li class="nameList">Mourad Ouzzani</li>
+                          
+                          <li class="nameList">Paolo Papotti</li>
+                          
+                          <li class="nameList">Jorge-Arnulfo Quian&#233;-Ruiz</li>
+                          
+                          <li class="nameList">Nan Tang</li>
+                          
+                          <li class="nameList Last">Si Yin</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97123" title="Get the Full Text from the ACM Digital Library">Data X-Ray: A Diagnostic Tool for Data Errors</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xiaolan Wang</li>
+                          
+                          <li class="nameList">Xin Luna Dong</li>
+                          
+                          <li class="nameList Last">Alexandra Meliou</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97124" title="Get the Full Text from the ACM Digital Library">KATARA: A Data Cleaning System Powered by Knowledge Bases and Crowdsourcing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xu Chu</li>
+                          
+                          <li class="nameList">John Morcos</li>
+                          
+                          <li class="nameList">Ihab F. Ilyas</li>
+                          
+                          <li class="nameList">Mourad Ouzzani</li>
+                          
+                          <li class="nameList">Paolo Papotti</li>
+                          
+                          <li class="nameList">Nan Tang</li>
+                          
+                          <li class="nameList Last">Yin Ye</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97135" title="Get the Full Text from the ACM Digital Library">Crowd-Based Deduplication: An Adaptive Approach</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sibo Wang</li>
+                          
+                          <li class="nameList">Xiaokui Xiao</li>
+                          
+                          <li class="nameList Last">Chun-Hee Lee</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 16- Transactions</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97136" title="Get the Full Text from the ACM Digital Library">Minimizing Commit Latency of Transactions in Geo-Replicated Data Stores</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Faisal Nawab</li>
+                          
+                          <li class="nameList">Vaibhav Arora</li>
+                          
+                          <li class="nameList">Divyakant Agrawal</li>
+                          
+                          <li class="nameList Last">Amr El Abbadi</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97137" title="Get the Full Text from the ACM Digital Library">Optimizing Optimistic Concurrency Control for Tree-Structured, Log-Structured Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Philip A. Bernstein</li>
+                          
+                          <li class="nameList">Sudipto Das</li>
+                          
+                          <li class="nameList">Bailu Ding</li>
+                          
+                          <li class="nameList Last">Markus Pilman</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97138" title="Get the Full Text from the ACM Digital Library">The Homeostasis Protocol: Avoiding Transaction Coordination Through Program Analysis</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sudip Roy</li>
+                          
+                          <li class="nameList">Lucja Kot</li>
+                          
+                          <li class="nameList">Gabriel Bender</li>
+                          
+                          <li class="nameList">Bailu Ding</li>
+                          
+                          <li class="nameList">Hossein Hojjat</li>
+                          
+                          <li class="nameList">Christoph Koch</li>
+                          
+                          <li class="nameList">Nate Foster</li>
+                          
+                          <li class="nameList Last">Johannes Gehrke</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97139" title="Get the Full Text from the ACM Digital Library">Feral Concurrency Control: An Empirical Investigation of Modern Application Integrity</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Peter Bailis</li>
+                          
+                          <li class="nameList">Alan Fekete</li>
+                          
+                          <li class="nameList">Michael J. Franklin</li>
+                          
+                          <li class="nameList">Ali Ghodsi</li>
+                          
+                          <li class="nameList">Joseph M. Hellerstein</li>
+                          
+                          <li class="nameList Last">Ion Stoica</li>
+                          
+              </ul>
+        <h2>SESSION: Industry Session 3 - Novel Systems</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97130" title="Get the Full Text from the ACM Digital Library">REEF: Retainable Evaluator Execution Framework</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Markus Weimer</li>
+                          
+                          <li class="nameList">Yingda Chen</li>
+                          
+                          <li class="nameList">Byung-Gon Chun</li>
+                          
+                          <li class="nameList">Tyson Condie</li>
+                          
+                          <li class="nameList">Carlo Curino</li>
+                          
+                          <li class="nameList">Chris Douglas</li>
+                          
+                          <li class="nameList">Yunseong Lee</li>
+                          
+                          <li class="nameList">Tony Majestro</li>
+                          
+                          <li class="nameList">Dahlia Malkhi</li>
+                          
+                          <li class="nameList">Sergiy Matusevych</li>
+                          
+                          <li class="nameList">Brandon Myers</li>
+                          
+                          <li class="nameList">Shravan Narayanamurthy</li>
+                          
+                          <li class="nameList">Raghu Ramakrishnan</li>
+                          
+                          <li class="nameList">Sriram Rao</li>
+                          
+                          <li class="nameList">Russel Sears</li>
+                          
+                          <li class="nameList">Beysim Sezgin</li>
+                          
+                          <li class="nameList Last">Julia Wang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97131" title="Get the Full Text from the ACM Digital Library">Apache Tez: A Unifying Framework for Modeling and Building Data Processing Applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Bikas Saha</li>
+                          
+                          <li class="nameList">Hitesh Shah</li>
+                          
+                          <li class="nameList">Siddharth Seth</li>
+                          
+                          <li class="nameList">Gopal Vijayaraghavan</li>
+                          
+                          <li class="nameList">Arun Murthy</li>
+                          
+                          <li class="nameList Last">Carlo Curino</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97132" title="Get the Full Text from the ACM Digital Library">Design and Implementation of the LogicBlox System</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Molham Aref</li>
+                          
+                          <li class="nameList">Balder ten Cate</li>
+                          
+                          <li class="nameList">Todd J. Green</li>
+                          
+                          <li class="nameList">Benny Kimelfeld</li>
+                          
+                          <li class="nameList">Dan Olteanu</li>
+                          
+                          <li class="nameList">Emir Pasalic</li>
+                          
+                          <li class="nameList">Todd L. Veldhuizen</li>
+                          
+                          <li class="nameList Last">Geoffrey Washburn</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97133" title="Get the Full Text from the ACM Digital Library">Spark SQL: Relational Data Processing in Spark</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Michael Armbrust</li>
+                          
+                          <li class="nameList">Reynold S. Xin</li>
+                          
+                          <li class="nameList">Cheng Lian</li>
+                          
+                          <li class="nameList">Yin Huai</li>
+                          
+                          <li class="nameList">Davies Liu</li>
+                          
+                          <li class="nameList">Joseph K. Bradley</li>
+                          
+                          <li class="nameList">Xiangrui Meng</li>
+                          
+                          <li class="nameList">Tomer Kaftan</li>
+                          
+                          <li class="nameList">Michael J. Franklin</li>
+                          
+                          <li class="nameList">Ali Ghodsi</li>
+                          
+                          <li class="nameList Last">Matei Zaharia</li>
+                          
+              </ul>
+        <h2>DEMONSTRATION SESSION: Demo C</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97134" title="Get the Full Text from the ACM Digital Library">Graft: A Debugging Tool For Apache Giraph</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Semih Salihoglu</li>
+                          
+                          <li class="nameList">Jaeho Shin</li>
+                          
+                          <li class="nameList">Vikesh Khanna</li>
+                          
+                          <li class="nameList">Ba Quan Truong</li>
+                          
+                          <li class="nameList Last">Jennifer Widom</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97145" title="Get the Full Text from the ACM Digital Library">Even Metadata is Getting Big: Annotation Summarization using InsightNotes</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Dongqing Xiao</li>
+                          
+                          <li class="nameList">Armir Bashllari</li>
+                          
+                          <li class="nameList">Tyler Menard</li>
+                          
+                          <li class="nameList Last">Mohamed Eltabakh</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97146" title="Get the Full Text from the ACM Digital Library">StoryPivot: Comparing and Contrasting Story Evolution</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Anja Gruenheid</li>
+                          
+                          <li class="nameList">Donald Kossmann</li>
+                          
+                          <li class="nameList">Theodoros Rekatsinas</li>
+                          
+                          <li class="nameList Last">Divesh Srivastava</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97147" title="Get the Full Text from the ACM Digital Library">The Flatter, the Better: Query Compilation Based on the Flattening Transformation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Alexander Ulrich</li>
+                          
+                          <li class="nameList Last">Torsten Grust</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97148" title="Get the Full Text from the ACM Digital Library">D2WORM: A Management Infrastructure for Distributed Data-centric Workflows</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Martin Jergler</li>
+                          
+                          <li class="nameList">Mohammad Sadoghi</li>
+                          
+                          <li class="nameList Last">Hans-Arno Jacobsen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97149" title="Get the Full Text from the ACM Digital Library">NL<sub>2</sub>CM: A Natural Language Interface to Crowd Mining</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yael Amsterdamer</li>
+                          
+                          <li class="nameList">Anna Kukliansky</li>
+                          
+                          <li class="nameList Last">Tova Milo</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97140" title="Get the Full Text from the ACM Digital Library">Optimistic Recovery for Iterative Dataflows in Action</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sergey Dudoladov</li>
+                          
+                          <li class="nameList">Chen Xu</li>
+                          
+                          <li class="nameList">Sebastian Schelter</li>
+                          
+                          <li class="nameList">Asterios Katsifodimos</li>
+                          
+                          <li class="nameList">Stephan Ewen</li>
+                          
+                          <li class="nameList">Kostas Tzoumas</li>
+                          
+                          <li class="nameList Last">Volker Markl</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97141" title="Get the Full Text from the ACM Digital Library">A Secure Search Engine for the Personal Cloud</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Saliha Lallali</li>
+                          
+                          <li class="nameList">Nicolas Anciaux</li>
+                          
+                          <li class="nameList">Iulian Sandu Popa</li>
+                          
+                          <li class="nameList Last">Philippe Pucheral</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97142" title="Get the Full Text from the ACM Digital Library">IReS: Intelligent, Multi-Engine Resource Scheduler for Big Data Analytics Workflows</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Katerina Doka</li>
+                          
+                          <li class="nameList">Nikolaos Papailiou</li>
+                          
+                          <li class="nameList">Dimitrios Tsoumakos</li>
+                          
+                          <li class="nameList">Christos Mantas</li>
+                          
+                          <li class="nameList Last">Nectarios Koziris</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97143" title="Get the Full Text from the ACM Digital Library">Just can't get enough: Synthesizing Big Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tilmann Rabl</li>
+                          
+                          <li class="nameList">Manuel Danisch</li>
+                          
+                          <li class="nameList">Michael Frank</li>
+                          
+                          <li class="nameList">Sebastian Schindler</li>
+                          
+                          <li class="nameList Last">Hans-Arno Jacobsen</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 17 - Hardware-Aware Query Processing</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97144" title="Get the Full Text from the ACM Digital Library">Rack-Scale In-Memory Join Processing using RDMA</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Claude Barthels</li>
+                          
+                          <li class="nameList">Simon Loesing</li>
+                          
+                          <li class="nameList">Gustavo Alonso</li>
+                          
+                          <li class="nameList Last">Donald Kossmann</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97255" title="Get the Full Text from the ACM Digital Library">Self-Tuning, GPU-Accelerated Kernel Density Models for Multidimensional Selectivity Estimation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Max Heimel</li>
+                          
+                          <li class="nameList">Martin Kiefer</li>
+                          
+                          <li class="nameList Last">Volker Markl</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97256" title="Get the Full Text from the ACM Digital Library">Rethinking SIMD Vectorization for In-Memory Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Orestis Polychroniou</li>
+                          
+                          <li class="nameList">Arun Raghavan</li>
+                          
+                          <li class="nameList Last">Kenneth A. Ross</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97257" title="Get the Full Text from the ACM Digital Library">A Padded Encoding Scheme to Accelerate Scans by Leveraging Skew</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yinan Li</li>
+                          
+                          <li class="nameList">Craig Chasseur</li>
+                          
+                          <li class="nameList Last">Jignesh M. Patel</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 18 - Graph Propagation, Influence, Mining</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97258" title="Get the Full Text from the ACM Digital Library">GetReal: Towards Realistic Selection of Influence Maximization Strategies in Competitive Networks</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Hui Li</li>
+                          
+                          <li class="nameList">Sourav S. Bhowmick</li>
+                          
+                          <li class="nameList">Jiangtao Cui</li>
+                          
+                          <li class="nameList">Yunjun Gao</li>
+                          
+                          <li class="nameList Last">Jianfeng Ma</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97259" title="Get the Full Text from the ACM Digital Library">Influence Maximization in Near-Linear Time: A Martingale Approach</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Youze Tang</li>
+                          
+                          <li class="nameList">Yanchen Shi</li>
+                          
+                          <li class="nameList Last">Xiaokui Xiao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97250" title="Get the Full Text from the ACM Digital Library">Community Level Diffusion Extraction</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Zhiting Hu</li>
+                          
+                          <li class="nameList">Junjie Yao</li>
+                          
+                          <li class="nameList">Bin Cui</li>
+                          
+                          <li class="nameList Last">Eric Xing</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97251" title="Get the Full Text from the ACM Digital Library">BEAR: Block Elimination Approach for Random Walk with Restart on Large Graphs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Kijung Shin</li>
+                          
+                          <li class="nameList">Jinhong Jung</li>
+                          
+                          <li class="nameList">Sael Lee</li>
+                          
+                          <li class="nameList Last">U. Kang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97252" title="Get the Full Text from the ACM Digital Library">The Minimum Wiener Connector Problem</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Natali Ruchansky</li>
+                          
+                          <li class="nameList">Francesco Bonchi</li>
+                          
+                          <li class="nameList">David Garc&#237;a-Soriano</li>
+                          
+                          <li class="nameList">Francesco Gullo</li>
+                          
+                          <li class="nameList Last">Nicolas Kourtellis</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 19 - Social Networks</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97253" title="Get the Full Text from the ACM Digital Library">From Group Recommendations to Group Formation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Senjuti Basu Roy</li>
+                          
+                          <li class="nameList">Laks V.S. Lakshmanan</li>
+                          
+                          <li class="nameList Last">Rui Liu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97254" title="Get the Full Text from the ACM Digital Library">Real-Time Multi-Criteria Social Graph Partitioning: A Game Theoretic Approach</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Nikos Armenatzoglou</li>
+                          
+                          <li class="nameList">Huy Pham</li>
+                          
+                          <li class="nameList">Vasilis Ntranos</li>
+                          
+                          <li class="nameList">Dimitris Papadias</li>
+                          
+                          <li class="nameList Last">Cyrus Shahabi</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97265" title="Get the Full Text from the ACM Digital Library">Utility-Aware Social Event-Participant Planning</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jieying She</li>
+                          
+                          <li class="nameList">Yongxin Tong</li>
+                          
+                          <li class="nameList Last">Lei Chen</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97266" title="Get the Full Text from the ACM Digital Library">Online Video Recommendation in Sharing Community</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xiangmin Zhou</li>
+                          
+                          <li class="nameList">Lei Chen</li>
+                          
+                          <li class="nameList">Yanchun Zhang</li>
+                          
+                          <li class="nameList">Longbing Cao</li>
+                          
+                          <li class="nameList">Guangyan Huang</li>
+                          
+                          <li class="nameList Last">Chen Wang</li>
+                          
+              </ul>
+        <h2>SESSION: Industry Session 4 - Performance</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97267" title="Get the Full Text from the ACM Digital Library">Large-scale Predictive Analytics in Vertica: Fast Data Transfer, Distributed Model Creation, and In-database Prediction</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Shreya Prasad</li>
+                          
+                          <li class="nameList">Arash Fard</li>
+                          
+                          <li class="nameList">Vishrut Gupta</li>
+                          
+                          <li class="nameList">Jorge Martinez</li>
+                          
+                          <li class="nameList">Jeff LeFevre</li>
+                          
+                          <li class="nameList">Vincent Xu</li>
+                          
+                          <li class="nameList">Meichun Hsu</li>
+                          
+                          <li class="nameList Last">Indrajit Roy</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97268" title="Get the Full Text from the ACM Digital Library">Oracle Workload Intelligence</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Quoc Trung Tran</li>
+                          
+                          <li class="nameList">Konstantinos Morfonios</li>
+                          
+                          <li class="nameList Last">Neoklis Polyzotis</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97269" title="Get the Full Text from the ACM Digital Library">Purity: Building Fast, Highly-Available Enterprise Flash Storage from Commodity Components</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">John Colgrove</li>
+                          
+                          <li class="nameList">John D. Davis</li>
+                          
+                          <li class="nameList">John Hayes</li>
+                          
+                          <li class="nameList">Ethan L. Miller</li>
+                          
+                          <li class="nameList">Cary Sandvig</li>
+                          
+                          <li class="nameList">Russell Sears</li>
+                          
+                          <li class="nameList">Ari Tamches</li>
+                          
+                          <li class="nameList">Neil Vachharajani</li>
+                          
+                          <li class="nameList Last">Feng Wang</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97260" title="Get the Full Text from the ACM Digital Library">On Improving User Response Times in Tableau</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Pawel Terlecki</li>
+                          
+                          <li class="nameList">Fei Xu</li>
+                          
+                          <li class="nameList">Marianne Shaw</li>
+                          
+                          <li class="nameList">Valeri Kim</li>
+                          
+                          <li class="nameList Last">Richard Wesley</li>
+                          
+              </ul>
+        <h2>TUTORIAL SESSION: Tutorial 3</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97261" title="Get the Full Text from the ACM Digital Library">Data Management in Non-Volatile Memory</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Stratis D. Viglas</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 20 - Information Extraction and Record Linking</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97262" title="Get the Full Text from the ACM Digital Library">TEGRA: Table Extraction by Global Record Alignment</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xu Chu</li>
+                          
+                          <li class="nameList">Yeye He</li>
+                          
+                          <li class="nameList">Kaushik Chakrabarti</li>
+                          
+                          <li class="nameList Last">Kris Ganjam</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97263" title="Get the Full Text from the ACM Digital Library">Mining Quality Phrases from Massive Text Corpora</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jialu Liu</li>
+                          
+                          <li class="nameList">Jingbo Shang</li>
+                          
+                          <li class="nameList">Chi Wang</li>
+                          
+                          <li class="nameList">Xiang Ren</li>
+                          
+                          <li class="nameList Last">Jiawei Han</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97264" title="Get the Full Text from the ACM Digital Library">Mining Subjective Properties on the Web</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Immanuel Trummer</li>
+                          
+                          <li class="nameList">Alon Halevy</li>
+                          
+                          <li class="nameList">Hongrae Lee</li>
+                          
+                          <li class="nameList">Sunita Sarawagi</li>
+                          
+                          <li class="nameList Last">Rahul Gupta</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97275" title="Get the Full Text from the ACM Digital Library">Microblog Entity Linking with Social Temporal Context</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Wen Hua</li>
+                          
+                          <li class="nameList">Kai Zheng</li>
+                          
+                          <li class="nameList Last">Xiaofang Zhou</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 21 - RDF and SPARQL</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97276" title="Get the Full Text from the ACM Digital Library">Graph-Aware, Workload-Adaptive SPARQL Query Caching</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Nikolaos Papailiou</li>
+                          
+                          <li class="nameList">Dimitrios Tsoumakos</li>
+                          
+                          <li class="nameList">Panagiotis Karras</li>
+                          
+                          <li class="nameList Last">Nectarios Koziris</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97277" title="Get the Full Text from the ACM Digital Library"><i>Left Bit Right</i>: For SPARQL Join Queries with OPTIONAL Patterns (Left-outer-joins)</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList Last">Medha Atre</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97278" title="Get the Full Text from the ACM Digital Library">How to Build Templates for RDF Question/Answering: An Uncertain Graph Similarity Join Approach</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Weiguo Zheng</li>
+                          
+                          <li class="nameList">Lei Zou</li>
+                          
+                          <li class="nameList">Xiang Lian</li>
+                          
+                          <li class="nameList">Jeffrey Xu Yu</li>
+                          
+                          <li class="nameList">Shaoxu Song</li>
+                          
+                          <li class="nameList Last">Dongyan Zhao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97279" title="Get the Full Text from the ACM Digital Library">RBench: Application-Specific RDF Benchmarking</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Shi Qiao</li>
+                          
+                          <li class="nameList Last">Z. Meral &#214;zsoyo&#287;lu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97270" title="Get the Full Text from the ACM Digital Library">ALEX: Automatic Link Exploration in Linked Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ahmed El-Roby</li>
+                          
+                          <li class="nameList Last">Ashraf Aboulnaga</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 22 - Time Series &#38; Graph Processing</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97271" title="Get the Full Text from the ACM Digital Library">k-Shape: Efficient and Accurate Clustering of Time Series</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">John Paparrizos</li>
+                          
+                          <li class="nameList Last">Luis Gravano</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97272" title="Get the Full Text from the ACM Digital Library">SMiLer: A Semi-Lazy Time Series Prediction System for Sensors</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jingbo Zhou</li>
+                          
+                          <li class="nameList Last">Anthony K.H. Tung</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97273" title="Get the Full Text from the ACM Digital Library">SQLGraph: An Efficient Relational-Based Property Graph Store</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Wen Sun</li>
+                          
+                          <li class="nameList">Achille Fokoue</li>
+                          
+                          <li class="nameList">Kavitha Srinivas</li>
+                          
+                          <li class="nameList">Anastasios Kementsietsidis</li>
+                          
+                          <li class="nameList">Gang Hu</li>
+                          
+                          <li class="nameList Last">Guotong Xie</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97274" title="Get the Full Text from the ACM Digital Library">Updating Graph Indices with a One-Pass Algorithm</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Dayu Yuan</li>
+                          
+                          <li class="nameList">Prasenjit Mitra</li>
+                          
+                          <li class="nameList">Huiwen Yu</li>
+                          
+                          <li class="nameList Last">C. Lee Giles</li>
+                          
+              </ul>
+        <h2>SESSION: Industry Session 5 - Usability</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97285" title="Get the Full Text from the ACM Digital Library">Amazon Redshift and the Case for Simpler Data Warehouses</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Anurag Gupta</li>
+                          
+                          <li class="nameList">Deepak Agarwal</li>
+                          
+                          <li class="nameList">Derek Tan</li>
+                          
+                          <li class="nameList">Jakub Kulesza</li>
+                          
+                          <li class="nameList">Rahul Pathak</li>
+                          
+                          <li class="nameList">Stefano Stefani</li>
+                          
+                          <li class="nameList Last">Vidhya Srinivasan</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97286" title="Get the Full Text from the ACM Digital Library">ShareInsights: An Unified Approach to Full-stack Data Processing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Mukund Deshpande</li>
+                          
+                          <li class="nameList">Dhruva Ray</li>
+                          
+                          <li class="nameList">Sameer Dixit</li>
+                          
+                          <li class="nameList Last">Avadhoot Agasti</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 23 - Advanced Query Processing</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97287" title="Get the Full Text from the ACM Digital Library">An Incremental Anytime Algorithm for Multi-Objective Query Optimization</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Immanuel Trummer</li>
+                          
+                          <li class="nameList Last">Christoph Koch</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97288" title="Get the Full Text from the ACM Digital Library">Output-sensitive Evaluation of Prioritized Skyline Queries</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Niccolo' Meneghetti</li>
+                          
+                          <li class="nameList">Denis Mindolin</li>
+                          
+                          <li class="nameList">Paolo Ciaccia</li>
+                          
+                          <li class="nameList Last">Jan Chomicki</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97289" title="Get the Full Text from the ACM Digital Library">Learning Generalized Linear Models Over Normalized Data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Arun Kumar</li>
+                          
+                          <li class="nameList">Jeffrey Naughton</li>
+                          
+                          <li class="nameList Last">Jignesh M. Patel</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97280" title="Get the Full Text from the ACM Digital Library">Utilizing IDs to Accelerate Incremental View Maintenance</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yannis Katsis</li>
+                          
+                          <li class="nameList">Kian Win Ong</li>
+                          
+                          <li class="nameList">Yannis Papakonstantinou</li>
+                          
+                          <li class="nameList Last">Kevin Keliang Zhao</li>
+                          
+              </ul>
+        <h2>SESSION: Research Session 24 - New Models</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97281" title="Get the Full Text from the ACM Digital Library">S4: Top-k Spreadsheet-Style Search for Query Discovery</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Fotis Psallidas</li>
+                          
+                          <li class="nameList">Bolin Ding</li>
+                          
+                          <li class="nameList">Kaushik Chakrabarti</li>
+                          
+                          <li class="nameList Last">Surajit Chaudhuri</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97282" title="Get the Full Text from the ACM Digital Library">Proactive Annotation Management in Relational Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Karim Ibrahim</li>
+                          
+                          <li class="nameList">Xiao Du</li>
+                          
+                          <li class="nameList Last">Mohamed Eltabakh</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97283" title="Get the Full Text from the ACM Digital Library">Weighted Coverage based Reviewer Assignment</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ngai Meng Kou</li>
+                          
+                          <li class="nameList">Leong Hou U.</li>
+                          
+                          <li class="nameList">Nikos Mamoulis</li>
+                          
+                          <li class="nameList Last">Zhiguo Gong</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97284" title="Get the Full Text from the ACM Digital Library">Distributed Online Tracking</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Mingwang Tang</li>
+                          
+                          <li class="nameList">Feifei Li</li>
+                          
+                          <li class="nameList Last">Yufei Tao</li>
+                          
+              </ul>
+        <h2>TUTORIAL SESSION: Tutorial 4</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97295" title="Get the Full Text from the ACM Digital Library">Knowledge Curation and Knowledge Fusion: Challenges, Models and Applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Xin Luna Dong</li>
+                          
+                          <li class="nameList Last">Divesh Srivastava</li>
+                          
+              </ul>
+        <h2>SESSION: Undergraduate Abstracts</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97296" title="Get the Full Text from the ACM Digital Library">Smooth Task Migration in Apache Storm</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Mansheng Yang</li>
+                          
+                          <li class="nameList Last">Richard T.B. Ma</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97297" title="Get the Full Text from the ACM Digital Library">JAFAR: Near-Data Processing for Databases</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Oreoluwatomiwa O. Babarinsa</li>
+                          
+                          <li class="nameList Last">Stratos Idreos</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97298" title="Get the Full Text from the ACM Digital Library">Job Scheduling with Minimizing Data Communication Costs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Trevor Clinkenbeard</li>
+                          
+                          <li class="nameList Last">Anisoara Nica</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97299" title="Get the Full Text from the ACM Digital Library">One Loop Does Not Fit All</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Styliani Pantela</li>
+                          
+                          <li class="nameList Last">Stratos Idreos</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97290" title="Get the Full Text from the ACM Digital Library">DunceCap: Compiling Worst-Case Optimal Query Plans</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Adam Perelman</li>
+                          
+                          <li class="nameList Last">Christopher R&#233;</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N97291" title="Get the Full Text from the ACM Digital Library">DunceCap: Query Plans Using Generalized Hypertree Decompositions</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Susan Tu</li>
+                          
+                          <li class="nameList Last">Christopher R&#233;</li>
+                          
+              </ul>
+        
+    </div>
+</div>
+
+</body>
+</html>

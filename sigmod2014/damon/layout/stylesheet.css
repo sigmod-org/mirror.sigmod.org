@@ -1,0 +1,79 @@
+#navigation {
+	float: left;
+	margin-top: 1.2em;
+	margin-right: 1em;
+}
+
+
+.title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; MARGIN: 0px; COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.damon {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; MARGIN: 0px; COLOR: #990101; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.title1b {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; MARGIN: 0px; COLOR: navy; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.title1c {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; MARGIN: 0px; COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.title2 {
+	FONT-WEIGHT: bold; COLOR: #990101; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.title3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.text1 {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.text2 {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.text3 {
+	FONT-SIZE: 8pt; COLOR: #990101; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.text4 {
+	FONT-SIZE: 9pt; COLOR: #990101; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.text5 {
+	FONT-SIZE: 12pt; FONT-WEIGHT: bold; COLOR: #003080; 
+}
+.bar1 {
+	FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Verdana,Arial,Helvetica; BACKGROUND-COLOR: #990101
+}
+.bar2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.bar2on {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.table1 {
+	BORDER-RIGHT: black thin solid; BORDER-TOP: black thin solid; BORDER-LEFT: black thin solid; BORDER-BOTTOM: black thin solid
+}
+.nav1 A:link {
+	COLOR: purple; TEXT-DECORATION: none
+}
+.nav1 A:visited {
+	COLOR: purple; TEXT-DECORATION: none
+}
+.nav1 A:active {
+	COLOR: purple; TEXT-DECORATION: none
+}
+.nav1 A:hover {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+.hbar1 {
+	COLOR: #990101
+}
+.list1 {
+	COLOR: #990101
+}
+.item1 {
+	FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.item2 {
+	FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}
+.item3 {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana,Arial,Helvetica
+}

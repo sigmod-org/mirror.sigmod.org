@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2018 ACM SIGMOD/PODS Conference: Houston, USA - Accepted PODS Papers </title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/Houston/skyline.jpg'
+
+theImages[1] = 'images/Houston/welovehouston.jpg'
+
+theImages[2] = 'images/Houston/bayou.jpg'
+
+theImages[3] = 'images/Houston/lazyriver.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Houston Skyline'
+
+theImageDescriptions[1] = 'We Love Houston'
+
+theImageDescriptions[2] = 'Buffalo Bayou Park'
+
+theImageDescriptions[3] = 'Marriott Marquis Houston'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[1] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[2] = 'https://www.visithoustontexas.com/'
+
+theImageURLs[3] = 'http://www.marriott.com/hotels/travel/houmq-marriott-marquis-houston/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterHouston.png" alt="June 3 - June 8, 2018, Houston, TX, USA" width="742" height="33" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  <img src="images/sigmod_2018_NEW.png" alt="ACM SIGMOD City, Country, Year" width="170" height="69" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="http://sigmod2016.org/rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://sigmod18contest.db.in.tum.de/index.shtml" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="https://www.regonline.com/sigmodpods2018" title="Registration">Registration</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="program_pods.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_invited.shtml#keynote" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_invited.shtml#tutorial" title="Invited Tutorials">Invited Tutorials</a></li>
+<li><a href="pods_awards.shtml" title="Award Talks">Award Talks</a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</a></li>
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="schedule_overview.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Award Talks">Award Talks</a></li>
+ <li><a href="sigmod_special_session.shtml" title="Special Session">Special Session</a></li>
+  <!--
+  <li><a href="sigmod_undergraduate_list.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="sigmod_tods_posters.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2018">Tweets by sigmod2018</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+<h1>PODS 2018: Accepted Papers</h1>
+
+
+<!--	<hr width="50%"> -->
+
+<div>
+<ul>
+
+
+<li>
+<strong>In-Database Learning with Sparse Tensors</strong></br>Mahmoud  Abo Khamis (RelationalAI, Inc); Hung Q. Ngo (RelationalAI, Inc); XuanLong  Nguyen (University of Michigan); Dan  Olteanu (University of Oxford); Maximilian  Schleich (University of Oxford)</li>
+<li>
+<strong>Enumeration of MSO Queries on Strings with Constant Delay and Logarithmic Updates</strong></br>Matthias  Niewerth (Bayreuth University); Luc  Segoufin (INRIA and ENS Ulm)</li>
+<li>
+<strong>General and Fractional Hypertree Decompositions: Hard and Easy Cases</strong></br>Wolfgang  Fischl (TU Wien); Georg  Gottlob (University of Oxford); Reinhard  Pichler (TU Wien)</li>
+<li>
+<strong>Containment for Rule-Based Ontology-Mediated Queries</strong></br>Pablo  Barcelo (University of Chile); Gerald  Berger (TU Wien); Andreas  Pieris (University of Edinburgh)</li>
+<li>
+<strong>Distributed Statistical Estimation of Matrix Products with Applications</strong></br>David P. Woodruff (Carnegie Mellon University); Qin  Zhang (Indiana University)</li>
+<li>
+<strong>When Can We Answer Queries Using Result-Bounded Data Interfaces?</strong></br>Antoine  Amarilli (Telecom ParistTech); Michael  Benedikt (Oxford University)</li>
+<li>
+<strong>An Operational Approach to Consistent Query Answering</strong></br>Marco  Calautti (University of Edinburgh); Leonid  Libkin (University of Edinburgh); Andreas  Pieris (University of Edinburgh)</li>
+<li>
+<strong>Joining Extractions of Regular Expressions</strong></br>Dominik D. Freydenberger (Loughborough University); Benny  Kimelfeld (Technion ); Liat  Peterfreund (Technion)</li>
+<li>
+<strong>Document Spanners for Extracting Incomplete Information: Expressiveness and Complexity</strong></br>Francisco  Maturana (Carnegie Mellon University); Cristian  Riveros (Pontificia Universidad Catolica de Chile); Domagoj  Vrgoc (Pontificia Universidad Catolica de Chile)</li>
+<li>
+<strong>Improvements on the k-center Problem for Uncertain Data</strong></br>Sharareh  Alipour (Institute for Research in Fundamental Sciences); Amir  Jafari (Sharif University of Technology and School of Mathematics & Institute for research in fundamental sciences)</li>
+<li>
+<strong>First-Order Query Evaluation with Cardinality Conditions</strong></br>Martin  Grohe (RWTH Aachen University); Nicole  Schweikardt (Humboldt-University Berlin)</li>
+<li>
+<strong>Enumeration for FO Queries over Nowhere Dense Graphs</strong></br>Nicole  Schweikardt (Humboldt-Universität zu Berlin); Luc  Segoufin (INRIA and ENS Ulm); Alexandre  Vigny (Université Paris Diderot)</li>
+<li>
+<strong>Subtrajectory Clustering: Models and Algorithms</strong></br>Pankaj K. Agarwal (Duke University); Kyle  Fox (University of Texas at Dallas); Kamesh  Munagala (Duke University); Abhinandan  Nath (Duke University); Jiangwei  Pan (Facebook); Erin  Taylor (Duke University)</li>
+<li>
+<strong>The Tractability Frontier of Well-designed SPARQL Queries</strong></br>Miguel  Romero (University of Oxford)</li>
+<li>
+<strong>Active Learning of GAV Schema Mappings</strong></br>Balder  ten Cate (Google Inc.); Phokion G Kolaitis (University of California, Santa Cruz & IBM Research - Almaden); Kun  Qian (IBM Research - Almaden); Wang-Chiew  Tan (Recruit Institute of Technology, Inc)</li>
+<li>
+<strong>Explanations and Transparency in Collaborative Workflows</strong></br>Serge  Abiteboul (Inria-Paris & ENS Paris); Pierre  Bourhis (CNRS & University Lille, Inria Lille); Victor  Vianu (University of California, San Diego & INRIA Paris, ENS Paris)</li>
+<li>
+<strong>Distance-Sensitive Hashing</strong></br>Martin  Aumüller (BARC & IT University of Copenhagen); Tobias  Christiani (BARC & IT University of Copenhagen); Rasmus  Pagh (BARC & IT University of Copenhagen); Francesco  Silvestri (University of Padova)</li>
+<li>
+<strong>Optimal Differentially Private Algorithms for k-Means Clustering</strong></br>Zhiyi  Huang (University of Hong Kong); Jinyan  Liu (University of Hong Kong)</li>
+<li>
+<strong>Distinct Sampling on Streaming Data with Near-Duplicates</strong></br>Jiecao  Chen (Indiana University Bloomington); Qin  Zhang (Indiana University Bloomington)</li>
+<li>
+<strong>Compressed Representations of Conjunctive Query Results</strong></br>Shaleen  Deep (University of Wisconsin-Madison); Paraschos  Koutris (University of Wisconsin-Madison)</li>
+<li>
+<strong>Computing Optimal Repairs for Functional Dependencies</strong></br>Ester  Livshits (Technion); Benny  Kimelfeld (Technion); Sudeepa  Roy (Duke University)</li>
+<li>
+<strong>Heavy Hitters and the Structure of Local Privacy</strong></br>Mark  Bun (Princeton University); Jelani  Nelson (Harvard University); Uri  Stemmer (Weizmann Institute )</li>
+<li>
+<strong>Consistent Query Answering for Primary Keys and Conjunctive Queries with Negated Atoms</strong></br>Paraschos  Koutris (University of Wisconsin-Madison); Jef  Wijsen (Université de Mons)</li>
+<li>
+<strong>Certain Answers Meet Zero-One Laws</strong></br>Leonid  Libkin (University of Edinburgh)</li>
+<li>
+<strong>Entity Matching with Active Monotone Classification</strong></br>Yufei  Tao (Chinese University of Hong Kong )</li>
+<li>
+<strong>Set Similarity Search for Skewed Data</strong></br>Samuel  McCauley (BARC and IT U. Copenhagen); Jesper W. Mikkelsen (IT U. Copenhagen); Rasmus  Pagh (BARC and IT U. Copenhagen)</li>
+<li>
+<strong>Data Streams with Bounded Deletions</strong></br>Rajesh  Jayaram (Carnegie Mellon University); David P. Woodruff (Carnegie Mellon University)</li>
+<li>
+<strong>Constant Delay Algorithms for Regular Document Spanners</strong></br>Fernando  Florenzano (Pontificia Universidad Católica de Chile); Cristian  Riveros (Pontificia Universidad Católica de Chile); Martin  Ugarte (Université Libre de Bruxelles); Stijn  Vansummeren (Université Libre de Bruxelles); Domagoj  Vrgoc (Pontificia Universidad Católica de Chile)</li>
+<li>
+<strong>Reconciling Graphs and Sets of Sets</strong></br>Michael  Mitzenmacher (Harvard University); Tom  Morgan (Harvard University)</li>
+
+</ul>
+</div>
+
+
+
+<!--endMainContent -->
+</div>
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

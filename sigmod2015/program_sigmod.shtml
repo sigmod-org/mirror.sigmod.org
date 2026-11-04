@@ -1,0 +1,1051 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2015 ACM SIGMOD/PODS Conference: Melbourne, Victoria, AU - Conference Program:  SIGMOD Sessions</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/melbourne/1.jpg'
+
+theImages[1] = 'images/melbourne/2.jpg'
+
+theImages[2] = 'images/melbourne/3.jpg'
+
+theImages[3] = 'images/melbourne/4.jpg'
+
+theImages[4] = 'images/melbourne/5.jpg'
+
+theImages[5] = 'images/melbourne/6.jpg'
+
+theImages[6] = 'images/melbourne/7.jpg'
+
+theImages[7] = 'images/melbourne/8.jpg'
+
+
+theImageDescriptions[0] = 'Overview of Melbourne'
+
+theImageDescriptions[1] = 'Overview of Melbourne'
+
+theImageDescriptions[2] = 'Overview of Melbourne'
+
+theImageDescriptions[3] = 'Overview of Melbourne'
+
+theImageDescriptions[4] = 'Overview of Melbourne'
+
+theImageDescriptions[5] = 'Overview of Melbourne'
+
+theImageDescriptions[6] = 'Overview of Melbourne'
+
+theImageDescriptions[7] = 'Overview of Melbourne'
+
+theImageURLs[0] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[1] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[2] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[3] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[4] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[5] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[6] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[7] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter_melb.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2015, Melbourne, Victoria, Australia" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/logo_sigmod_slc.jpg" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="https://iceaustralia.eventsair.com/sigmodpods2015/registration" title="Registration" target="_blank">Registration</a></li>
+  
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_tutorial_pc.shtml" title="Tutorial Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewer">SIGMOD External Reviewers</a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>  
+  <li><a href="org_sigmod_workshops.shtml"  title="Workshops">Affiliated Workshops</a></li>
+  
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+<!--
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+-->
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li> 
+
+</ul>
+ 
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <!-- temporarily REMOVED  <li><a href="students.shtml"
+    title="Students" target="_blank">For Students</a></li> -->
+	<li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Venue and Accommodations</a></li>
+	<li><a href="http://db.in.tum.de/sigmod15contest/">ACM SIGMOD 2015 Programming Contest</a></li>
+    <!-- <li><a href="http://regonline.com/sigmod2012" title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li> 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitmelbourne.com/" title="Visitor Information">Visit Melbourne</a></li>
+  <!--  <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+--> 
+     <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+  
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program </a></li>
+
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Michael I. Jordan (University of California, Berkeley, USA)">
+Keynote: Michael I. Jordan (University of California, Berkeley, USA) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Graham Cormode (University of Warwick, UK)">Tutorial 1: Graham Cormode (University of Warwick, UK)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Todd J. Green (LogicBlox, USA)">Tutorial 2: Todd J. Green (LogicBlox, USA)</a></li>
+ <!--<li><a href="awards_pods.shtml">Awards</a></li> -->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+<!--  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+-->
+<li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="sigmod_industry_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+<li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+<li><a href="sigmod_tutorial_list.shtml" title="Tutorial Papers">Tutorial Papers</a></li>
+<li><p><a href="keynote_1.shtml">Keynote 1:
+  Jignesh Patel (University of Wisconsin)</a></p></li>
+<li><p><a href="keynote_2.shtml">Keynote 2:
+   Laura Haas (IBM)</a></p></li>
+<li><a href="program_sigmod.shtml#panel">SIGMOD Panel</a></li>
+<!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li><div id="sidebar">
+
+
+-->
+
+
+</div>
+
+
+
+			
+<div id="maincontent">
+<h1>Conference Program: SIGMOD Sessions</h1> 
+<p>This page describes the complete SIGMOD Conference program. Please use the following links to skip to the sessions of interest:
+<ul>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#keynote">Keynote Talks</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#panel">Panel</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#research">Research Sessions</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#tutorial">Tutorials</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#industry">Industry Sessions</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#demo">Demonstrations</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#industry_career"> Career in Industry</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#research_symp"> New Researcher Symposium</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#plenaryposter">SIGMOD/PODS Poster Sessions</a>
+<!--
+				  <li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#keynote">Keynote Talks</a> 
+				  <li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#Plenary 1">Research Plenary 1 Sessions</a> 
+-->
+
+<!--
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#Plenary 1poster">Poster Sessions</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#undergraduate">Undergraduate Research Poster Competition</a>
+ <li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#research_symp"> New Researcher Symposium</a>
+ -->
+</ul>
+<p>&nbsp;</p> 
+<h1><strong><a name="keynote" id="keynote"></a>SIGMOD KEYNOTE TALKS</strong></h1> 
+
+<h2>Keynote Talks</h2>
+<h3>Keynote 1 - From Data to Insights @ Bare Metal Speed </h3>
+<p>Jignesh Patel	<br />
+Tuesday, 8:20-10:00<br/>
+<span class="location">Location: Plenary 1</span></br>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #keynote1</span></br> -->
+Session Chair: Susan Davidson <br />
+</p>
+
+<h3>Keynote 2 -  The Power Behind the Throne: Information Integration in the Age of Data-Driven Discovery </h3>
+<p>Laura Haas	<br />
+Wednesday, 8:20-10:00<br/>
+<span class="location">Location: Plenary 1</span></br>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #keynote1</span></br> -->
+Session Chair: Zack Ives <br />
+
+<h3>ACM-W Athena Lecturer Award  - Three Favorite Results </h3>
+<p>Jennifer Widom<br />
+Tuesday, 17:30-18:15<br/>
+<span class="location">Location: Plenary 1</span></br>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #keynote1</span></br> -->
+Session Chair: Magda Balazinska <br />
+
+</p>
+
+<h1><strong><a name="panel" id="panel"></a>SIGMOD PANEL</strong></h1> 
+
+
+<h3>Machine Learning and Databases: The Sound of Things to Come or a Cacophony of Hype?</h3>
+<p>
+Tuesday, 13:30 - 15:10 <br/>
+<span class="location">Location: MR106</span></br>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #keynote1</span></br> -->
+Panel Chair: Christopher Re (Stanford University) <br />
+Presenters: Divyakant Agrawal, Magdalena Balazinska, Michael Cafarella, Michael Jordan, Tim Kraska, and Raghu Ramakrishnan 
+</p>
+
+<h1><a name="research" id="research"></a>SIGMOD RESEARCH SESSIONS </h1> 
+
+
+<h3>	<a name="res1" id="res1"></a> Research Session 1 -  Cloud: Parallel Execution </h3>
+<p>Tuesday, 10:30-12:10<br/>
+<span class="location">Location: MR106</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R1Px</span><br/> -->
+Session Chair:		Yanlei Diao	<br />
+<ul>
+<li><strong>	Distributed Outlier Detection using Compressive Sensing	</strong><br />			
+<li><strong>	Locality-aware Partitioning Design in Parallel Database Systems	</strong><br />		
+<li><strong>	ByteSlice: Pushing the Envelop of Main Memory Data Processing with a New Storage Layout	</strong><br />		
+<li><strong>	Implicit Parallelism through Deep Language Embedding	</strong><br />	
+<li><strong>	From Theory to Practice: Efficient Join Query Evaluation in a Parallel Database System	</strong><br />	
+</ul>
+
+<h3><a name="res2" id="res2"></a> Research Session 2 - Matrix and Array Computations </h3>
+<p>Tuesday, 10:30-12:10<br/>
+<span class="location">Location: MR101&102</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R2Px</span><br/> -->
+Session Chair: Florin Rusu 	<br />
+<ul>
+<li><strong>	sPCA: Scalable Principal Component Analysis for Big Data	</strong><br />    
+<li><strong>	Exploiting matrix dependency for efficient distributed matrix computation	</strong><br />    
+<li><strong>	LEMP: Fast Retrieval of Large Entries in a Matrix Product	</strong><br />    
+<li><strong>	Skew-Aware Join Optimization for Array Databases	</strong><br />    
+<li><strong>	Resource Elasticity for Large-Scale Machine Learning	</strong><br />    
+</ul>
+</p>
+
+<h3><a name="res3" id="res3"></a>Research Session 3 - Security and Access Control</h3>
+<p>Tuesday, 10:30-12:10<br/>
+<span class="location">Location: MR104</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R3Px</span><br/> -->
+Session Chair: Lei Chen
+<ul>
+<li><strong> SEMROD: Secure and Efficient MapReduce over HybriD Clouds </strong><br />     
+<li><strong> Authenticated Online Data Integration Services </strong><br />     
+<li><strong> ENKI: Access Control for Encrypted Query Processing </strong><br />     
+<li><strong> Collaborative Access Control in WebdamLog </strong><br />     
+<li><strong> Automatic Enforcement of Data Use Policies with DataLawyer </strong><br />     
+</ul>
+</p>
+
+<h3><a name="res4" id="res4"></a> Research Session 4 - Cloud: Fault Tolerance, Reconfiguration </h3>
+<p>Tuesday, 13:30-15:10<br/>
+<span class="location">Location: MR101&102</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R4Px</span><br/> -->
+ Session Chair:		Alexandros Labrinidis	<br />
+<ul>
+<li><strong>	Cost-based Fault-tolerance for Parallel Data Processing	</strong><br />		
+<li><strong>	Squall: Fine-Grained Live Reconfiguration for Partitioned Main Memory Databases	</strong><br />		
+<li><strong>	Madeus: A Database Live Migration Middleware under Heavy Workloads for Cloud Environment	</strong><br />		
+<li><strong>	Lineage-driven Fault Injection	</strong><br />		
+</ul>
+</p>
+
+<h3>	<a name="res5" id="res5"></a> Research Session 5 - Keyword Search and Text	 </h3>
+<p>Tuesday, 13:30-15:10<br/>
+<span class="location">Location: MR103</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R5Px</span><br/> -->
+Session Chair:		K. Selcuk Candan <br />
+<ul>
+<li><strong>	Diversity-Aware Top-K Publish/Subscribe for Text Stream	</strong><br />		
+<li><strong>	Diverse and Proportional Size-l Object Summaries for Keyword Search	</strong><br />		
+<li><strong>	Local Filtering: Improving Performance of Approximate Queries on String Collections	</strong><br />		
+<li><strong>	Exact Top-k Nearest Keyword Search on Large Networks	</strong><br />		
+<li><strong>	Efficient Algorithms for Answering the m-Closest Keywords Query	</strong><br />		
+</ul>
+</p>
+
+<h3><a name="res6" id="res6"></a> Research Session 6 - Graph Primitives 	 </h3>
+<p>Tuesday, 15:40-17:20<br/>
+<span class="location">Location: MR101&102 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R6Px</span><br/> -->
+Session Chair:	Ke Yi	<br />
+<ul>
+<li><strong>	Minimum Spanning Trees in Temporal Graphs	</strong><br />		
+<li><strong>	Efficient Enumeration of Maximal k-Plexes	</strong><br />		
+<li><strong>	Divide & Conquer: I/O Efficient Depth-First Search	</strong><br />		
+<li><strong>	Index-based Optimal Algorithms for Computing Steiner Components with Maximum Connectivity	</strong><br />		
+</ul>
+</p>
+
+<h3><a name="res" id="res7"></a> Research Session 7 - Data Mining	 </h3>
+<p>Tuesday, 15:40-17:20<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R7Px</span><br/> -->
+Session Chair:		Julia Stoyanovich	<br />
+<ul>
+<li><strong>	COMMIT: A Scalable Approach to Mining Communication Motifs from Dynamic Networks	</strong><br />		
+<li><strong>	LASH: Large-Scale Sequence Mining with Hierarchies	</strong><br />		
+<li><strong>	Twister Tries: Approximate Hierarchical Agglomerative Clustering for Average Distance in Linear Time	</strong><br />		
+<li><strong>	DBSCAN Revisited: Mis-Claim, Un-Fixability, and Approximation	</strong><br />		
+<li><strong>	The TagAdvisor: Luring the Lurkers to Review Web Items	</strong><br />		
+</ul>
+</p>
+
+<h3><a name="res8" id="res8"></a> Research Session 8 - Uncertainty and Linking </h3>
+<p>Tuesday, 15:40-17:20<br/>
+<span class="location">Location: MR104</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R8Px</span><br/> -->
+Session Chair:		Pierre Senellart	<br />
+<ul>
+<li><strong>	Supporting Data Uncertainty in Array Databases	</strong><br />		
+<li><strong>	Identifying the Extent of Completeness of Query Answers over Partially Complete Databases	</strong><br />		
+<li><strong>	k-Hit Query: Top-k Query with Probabilistic Utility Function	</strong><br />		
+<li><strong>	Linking Temporal Records for Profiling Entities	</strong><br />		
+</ul>
+</p>
+
+<h3><a name="res9" id="res9"></a> Research Session 9 - Transactional Architectures</h3>
+<p>Wednesday, 10:30-12:10<br/>
+<span class="location">Location: MR103</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R9Px</span><br/> -->
+Session Chair:		Feifei Li	<br />
+<ul>
+<li><strong>	On the Design and Scalability of Distributed Shared-Data Databases	</strong><br />		
+<li><strong>	Fast Serializable Multi-Version Concurrency Control for Main-Memory Database Systems	</strong><br />		
+<li><strong>	FOEDUS: OLTP Engine for a Thousand Cores and NVRAM	</strong><br />		
+<li><strong>	Let’s Talk About Storage & Recovery Methods for Non-Volatile Memory Database Systems	</strong><br />		
+</ul>
+</p>
+
+<h3><a name="res10" id="res10"></a> Research Session 10 - Privacy</h3>
+<p>Wednesday, 10:30-12:10<br/>
+<span class="location">Location: MR104</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R10Px</span><br/> -->
+Session Chair:	Wang-Chiew Tan	<br />
+<ul>
+<li><strong>	Private Release of Graph Statistics using Ladder Functions	</strong><br />		
+<li><strong>	Bayesian Differential Privacy on Correlated Data	</strong><br />		
+<li><strong>	Modular Order Preserving Encryption, Revisited	</strong><br />		
+<li><strong>	Chiaroscuro: Transparency and Privacy for Massive Personal Time Series Clustering	</strong><br />		
+</ul>
+</p>
+
+<h3><a name="res11" id="res11"></a> Research Session 11 - Streams	 </h3>
+<p>Wednesday, 10:30-12:10<br/>
+<span class="location">Location: MR101&102 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R11Px</span><br/> -->
+Session Chair:		Jorge Quiané-Ruiz	<br />
+<ul>
+<li><strong>	Persistent Data Sketching	</strong><br />		
+<li><strong>	Scalable Distributed Stream Join Processing	</strong><br />		
+<li><strong>	SCREEN: Stream Data Cleaning under Speed Constraints	</strong><br />		 
+<li><strong>	Location-Aware Pub/Sub System: When Continuous Moving Queries Meet Dynamic Event Streams	</strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res12" id="res12"></a> Research Session 12 - Spatial data	 </h3>
+<p>Wednesday, 15:20-17:00<br/>
+<span class="location">Location: MR103</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R12Px</span><br/> -->
+Session Chair:		Cyrus Shahabi	<br />
+<ul>
+<li><strong>	Optimal Spatial Dominance: An effective search of Nearest Neighbor Candidates	</strong><br />		 
+<li><strong>	THERMAL-JOIN: Scalable Spatial Join for Dynamic Workloads	</strong><br />		 
+<li><strong>	Indexing Metric Uncertain Data for Range Queries	</strong><br />		 
+<li><strong>	Efficient Route Planning on Public Transportation Networks: A Labelling Approach	</strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res13" id="res13"></a> Research Session 13 - Crowdsourcing 	 </h3>
+<p>Wednesday, 15:20-17:00<br/>
+<span class="location">Location: MR104</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R13Px</span><br/> -->
+Session Chair:		Dimitrios Tsoumakos	<br />
+<ul>
+<li><strong>	The Importance of Being Expert: Efficient Max-Finding in Crowdsourcing	</strong><br />		 
+<li><strong>	Minimizing Efforts in Validating Crowd Answers	</strong><br />		 
+<li><strong>	iCrowd: An Adaptive Crowdsourcing Framework	</strong><br />		 
+<li><strong>	QASCA: A Quality-Aware Task Assignment System for Crowdsourcing Applications	</strong><br />		 
+<li><strong>	tDP: An Optimal-Latency Budget Allocation strategy for Crowdsourced MAXIMUM operations	</strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res14" id="res14"></a> Research Session 14 - Indexing & Performance	 </h3>
+<p>Wednesday, 17:10-18:50<br/>
+<span class="location">Location: MR101&102 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R14Px</span><br/> -->
+Session Chair:		Yufei Tao	<br />
+<ul>
+<li><strong>	Cache-Efficient Aggregation: Hashing is Sorting	</strong><br />		 
+<li><strong>	Efficient Similarity Join and Search on Multi-Attribute Data </strong><br />		 
+<li><strong>	Holistic Indexing in Main-memory Column-stores	</strong><br />		 
+<li><strong>	CliffGuard: A Principled Framework for Finding Robust Database Designs	</strong><br />		 
+<li><strong>	Exploiting Correlations for Queries with Expensive Predicates </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res15" id="res15"></a> Research Session 15 - Data Cleaning </h3>
+<p>Wednesday, 17:10-18:50<br/>
+<span class="location">Location: MR103 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R15Px</span><br/> -->
+Session Chair:		Mohamad Sharaf 	<br />
+<ul>
+<li><strong>	Query-Oriented Data Cleaning with Oracles	</strong><br />		 
+<li><strong>	BigDansing: A System for Big Data Cleansing	</strong><br />		 
+<li><strong>	Data X-Ray: A diagnostic tool for data errors	</strong><br />		 
+<li><strong>	KATARA: A Data Cleaning System Powered by Knowledge Bases and Crowdsourcing	</strong><br />		 
+<li><strong>	Crowd-based Deduplication: an Adaptive Approach	</strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res16" id="res16"></a> Research Session 16 - Transactions	 </h3>
+<p>Wednesday, 17:10-18:50<br/>
+<span class="location">Location: MR104 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Ashraf Aboulnaga	<br />
+<ul>
+<li><strong>	Minimizing Commit Latency of Transactions in Geo-Replicated Data Stores </strong><br />		 
+<li><strong>	Optimizing Optimistic Concurrency Control for Tree-Structured, Log-Structured Databases </strong><br />		 
+<li><strong>	The Homeostasis Protocol: Avoiding Transaction Coordination Through Program Analysis </strong><br />		 
+<li><strong>	Feral Concurrency Control: An Empirical Investigation of Modern Application Integrity </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res17" id="res17"></a> Research Session 17 - Hardware-Aware Query Processing	 </h3>
+<p>Thursday, 10:30-12:10<br/>
+<span class="location">Location: MR103 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Spyros Blanas	<br />
+<ul>
+<li><strong>	Rack-Scale Join Processing using RDMA </strong><br />		 
+<li><strong>	Self-Tuning, GPU-Accelerated Kernel Density Models for Multidimensional Selectivity Estimation </strong><br />		 
+<li><strong>	Rethinking SIMD Vectorization for In-Memory Databases </strong><br />		 
+<li><strong>	A Padded Encoding Scheme to Accelerate Scans by Leveraging Skew </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res18" id="res18"></a> Research Session 18 - Graph Propagation, Influence, Mining	 </h3>
+<p>Thursday, 10:30-12:10<br/>
+<span class="location">Location: MR101&102 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Panagiotis Karras	<br />
+<ul>
+<li><strong>	GetReal: Towards Realistic Selection of Influence Maximization Strategies in Competitive Networks </strong><br />		 
+<li><strong>	Influence Maximization in Near-Linear Time: A Martingale Approach </strong><br />		 
+<li><strong>	Community Level Diffusion Extraction </strong><br />		 
+<li><strong>	BEAR: Block Elimination Approach for Random Walk with Restart on Large Graphs </strong><br />		 
+<li><strong>	The Minimum Wiener Connector Problem </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res19" id="res19"></a> Research Session 19 - Social Networks	 </h3>
+<p>Thursday, 10:30-12:10<br/>
+<span class="location">Location: MR104 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Chengfei Liu	<br />
+<ul>
+<li><strong>	From Group Recommendations to Group Formation </strong><br />		 
+<li><strong>	Real-Time Multi-Criteria Social Graph Partitioning: A Game Theoretic Approach </strong><br />		 
+<li><strong>	Utility-Aware Social Event-Participant Planning </strong><br />		 
+<li><strong>	Online Video Recommendation in Sharing Community </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res20" id="res20"></a> Research Session 20 - Information Extraction and Record Linking	 </h3>
+<p>Thursday, 13:30-15:10<br/>
+<span class="location">Location: MR103 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Guoliang Li 	<br />
+<ul>
+<li><strong>	TEGRA: Table Extraction by Global Record Alignment </strong><br />		 
+<li><strong>	Mining Quality Phrases from Massive Text Corpora </strong><br />		 
+<li><strong>	Mining Subjective Properties on the Web </strong><br />		 
+<li><strong>	Microblog Entity Linking with Social Temporal Context </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res21" id="res21"></a> Research Session 21 - RDF and SPARQL	 </h3>
+<p>Thursday, 13:30-15:10<br/>
+<span class="location">Location: MR101&102 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Nikos Mamoulis	<br />
+<ul>
+<li><strong>	Graph-Aware, Workload-Adaptive SPARQL Query Caching </strong><br />		 
+<li><strong>	Left Bit Right: For SPARQL Join Queries with OPTIONAL Patterns (Left-outer-joins) </strong><br />		 
+<li><strong>	How to Build Templates for RDF Question/Answering --An Uncertain Graph Similarity Join Approach  </strong><br />		 
+<li><strong>	RBench: Application-Specific RDF Benchmarking  </strong><br />		 
+<li><strong>	ALEX: Automatic Link Exploration in Linked Data </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res22" id="res22"></a> Research Session 22 - Time Series & Graph Processing	 </h3>
+<p>Thursday, 13:30-15:10<br/>
+<span class="location">Location: MR104 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Alan Fekete	<br />
+<ul>
+<li><strong>	k-Shape: Efficient and Accurate Clustering of Time Series </strong><br />		 
+<li><strong>	SMiLer: A Semi-Lazy Time Series Prediction System for Sensors </strong><br />		 
+<li><strong>	SQLGraph: An Efficient Relational-Based Property Graph Store </strong><br />		 
+<li><strong>	Updating Graph Indices with a One-Pass Algorithm </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res23" id="res23"></a> Research Session 23 - Advanced Query Processing	 </h3>
+<p>Thursday, 15:40-17:20<br/>
+<span class="location">Location: MR103 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Sharad Mehrotra	<br />
+<ul>
+<li><strong>	An Incremental Anytime Algorithm for Multi-Objective Query Optimization </strong><br />		 
+<li><strong>	Output-sensitive Evaluation of Prioritized Skyline Queries </strong><br />		 
+<li><strong>	Learning Generalized Linear Models Over Normalized Data </strong><br />		 
+<li><strong>	Utilizing IDs to Accelerate Incremental View Maintenance </strong><br />		 
+</ul>
+</p>
+
+<h3><a name="res24" id="res24"></a> Research Session 24 - New Models	 </h3>
+<p>Thursday, 15:40-17:20<br/>
+<span class="location">Location: MR104 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #R16Px</span><br/> -->
+Session Chair:		Jiaheng Lu 	<br />
+<ul>
+<li><strong>	Top-k Spreadsheet-Style Search for Query Discovery </strong><br />		 
+<li><strong>	Proactive Annotation Management in Relational Databases </strong><br />		 
+<li><strong>	Weighted Coverage based Reviewer Assignment </strong><br />		 
+<li><strong>	Distributed Online Tracking </strong><br />		 
+</ul>
+</p>
+
+<h1><strong><a name="tutorial" id="tutorial"></a>SIGMOD TUTORIAL SESSIONS</strong></h1> 
+<p>
+<ul>
+<li><STRONG><a name="tutorial1" id="tutorial1"></a> Tutorial 1 -  Overview of Data Exploration Techniques 	</STRONG>
+  <BR />
+<p>Tuesday, 10:30-12:10<br/>
+Tuesday, 13:30-15:10<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #tutorial1</span><br/> 
+ Presenters: Daniel Deutch, Ben Gurion University; Tova Milo, Tel Aviv University<BR /> -->
+ 
+ <li><STRONG><a name="tutorial1" id="tutorial2"></a> Tutorial 2 -  Mining and Forecasting of Big Time-series Data 	</STRONG>
+  <BR />
+  <p>Wednesday, 10:30-12:10<br/>
+Wednesday, 15:20-17:00<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #tutorial1</span><br/> 
+ Presenters: Daniel Deutch, Ben Gurion University; Tova Milo, Tel Aviv University<BR /> -->
+ 
+ <li><STRONG><a name="tutorial1" id="tutorial3"></a> Tutorial 3 -  Data management in non-volatile memory 	</STRONG>
+  <BR />
+  <p>Thursday, 10:30-12:10<br/>
+Thursday, 13:30-15:10<br/>
+<span class="location">Location: Plenary 1</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #tutorial1</span><br/> 
+ Presenters: Daniel Deutch, Ben Gurion University; Tova Milo, Tel Aviv University<BR /> -->
+
+  <li><STRONG><a name="tutorial1" id="tutorial4"></a> Tutorial 4 -  Knowledge Curation and Knowledge Fusion: Challenges, Models, and Applications 	</STRONG>
+  <BR />
+  <p>Thursday, 15:40-17:20<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #tutorial1</span><br/> 
+ Presenters: Daniel Deutch, Ben Gurion University; Tova Milo, Tel Aviv University<BR /> -->
+ 
+</ul>
+</p> 
+
+<h1><strong><a name="industry" id="industry"></a>SIGMOD INDUSTRY SESSIONS</strong></h1> 
+
+<h3><a name="ind1" id="ind1"></a> Industry Session 1 - Streaming/Real-Time/Active </h3>
+<p>Tuesday, 10:30-12:10<br/>
+<span class="location">Location: MR103</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #I1Px</span><br/> -->
+Session Chair: Tyson Condie <br />  
+<ul>	
+<li><STRONG> TencentRec: Real-time Stream Recommendation in Practice </STRONG><BR />	  
+<li><STRONG> Twitter Heron: Stream Processing at Scale </STRONG><BR />	 
+<li><STRONG> Analytics in Motion - High Performance Event-Processing AND Real-Time Analytics in the Same Database </STRONG><BR />	  
+<li><STRONG> Why Big Data Industrial Systems Need Rules and What We Can Do About It </STRONG><BR />	  
+</ul></p>
+
+<h3><a name="ind1" id="ind1"></a> Industry Session 2 - Applications </h3>
+<p>Tuesday, 15:40-17:20<br/>
+<span class="location">Location: MR103</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #I1Px</span><br/> -->
+Session Chair: Jignesh Patel <br />  
+<ul>	
+<li><STRONG> Telco Churn Prediction with Big Data </STRONG><BR />	  	
+<li><STRONG> The LDBC Social Network Benchmark: Interactive Workload </STRONG><BR />	  
+<li><STRONG> Rethinking Data-Intensive Science Using Scalable Analytics Systems </STRONG><BR />	  
+<li><STRONG> QMapper for Smart Grid: Migrating SQL-based Application to Hive </STRONG><BR />	 
+</ul></p>
+
+<h3><a name="ind1" id="ind1"></a> Industry Session 3 - Novel Systems </h3>
+<p>Wednesday, 17:10-18:50<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #I1Px</span><br/> -->
+Session Chair: Theo Vassilakis <br />  
+<ul>	
+<li><STRONG> REEF: Retainable Evaluator Execution Framework </STRONG><BR />	  	
+<li><STRONG> Apache Tez: A Unifying Framework for Modeling and Building Data Processing Applications </STRONG><BR />	
+<li><STRONG> Design and Implementation of the LogicBlox System </STRONG><BR />	  
+<li><STRONG> Spark SQL: Relational Data Processing in Spark </STRONG><BR />	  	
+</ul></p>
+
+<h3><a name="ind1" id="ind1"></a> Industry Session 4 - Performance </h3>
+<p>Thursday, 10:30-12:10<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #I1Px</span><br/> -->
+Session Chair: Yanlei Diao <br />  
+<ul>	
+<li><STRONG> Large-scale Predictive Analytics in Vertica: Fast Data Transfer, Distributed Model Creation, and In-database Prediction </STRONG><BR />	  
+<li><STRONG> Oracle Workload Intelligence </STRONG><BR />	  	<br /> 
+<li><STRONG> Purity: Building Fast, Highly-Available Enterprise Flash Storage from Commodity Components </STRONG><BR />	  	
+<li><STRONG> On Improving User Response Times in Tableau </STRONG><BR />	  	
+</ul></p>
+
+<h3><a name="ind1" id="ind1"></a> Industry Session 5 - Usability </h3>
+<p>Thursday, 13:30-15:10<br/>
+<span class="location">Location: MR105</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #I1Px</span><br/> -->
+Session Chair: Magda Balazinska <br />  
+<ul>	
+<li><STRONG> Amazon Redshift and the Case for Simpler Data Warehouses </STRONG><BR />	  	
+<li><STRONG> ShareInsights - An Unified Approach to Full-stack Data Processing </STRONG><BR />	  	
+</ul></p>
+
+
+<h1><strong><a name="demo" id="demo"></a>SIGMOD DEMONSTRATION SESSIONS</strong></h1>
+<h3><a name="demoa" id="demoa"></a> Demo A </h3>
+<p>Wednesday, 10:30-12:10<br/>
+Thursday, 15:40-17:20<br/>
+<span class="location">Location: MR106</span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #demoAx</span><br/> -->
+ </p>
+<ul>
+<li><strong> CE-Storm: Confidential Elastic Processing of Data Streams  </strong></br>     
+<li><strong> IReS: Intelligent, Multi-Engine Resource Scheduler for Big Data Analytics Workflows  </strong></br>    
+<li><strong> Exploratory Keyword Search with Interactive Input  </strong></br>     
+<li><strong> QE3D: Interactive Visualization and Exploration of Complex, Distributed Query Plans  </strong></br>     
+<li><strong> DataXFormer: An Interactive Data Transformation Tool  </strong></br>     
+<li><strong> Quality-Driven Continuous Query Execution over Out-of-Order Data Streams  </strong></br>     
+<li><strong> MoDisSENSE: A Distributed Spatio-Temporal and Textual Processing Platform for Social Networking Services  </strong></br>     
+<li><strong> DocRicher: An Automatic Annotation System for Text Documents Using Social Media  </strong></br>     
+<li><strong> A Demonstration of Rubato DB: A Highly Scalable NewSQL Database System for OLTP and Big Data Applications  </strong></br>     
+<li><strong> G-OLA: Generalized Online Aggregation for Interactive Analysis on Big Data  </strong></br>     
+</ul>
+
+<h3><a name="demob" id="demob"></a>Demo B </h3>
+<p>Wednesday, 15:20-17:00<br/>
+Thursday, 10:30-12:10<br/>
+<span class="location">Location: MR106 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #demoBx</span><br/> -->
+</p>
+<ul>
+<li><strong> Thrifty: Offering Parallel Database as a Service using the Shared-Process Approach  </strong></br>     
+<li><strong> BenchPress: Dynamic Workload Control in the OLTP-Bench Tesbed  </strong></br>     
+<li><strong> Demonstrating Data Near Here - Scientific Data Search  </strong></br>     
+<li><strong> Slider: an Efficient Incremental Reasoner </strong></br>     
+<li><strong> WANalytics: Geo-Distributed Analytics for a Data Intensive World  </strong></br>     
+<li><strong> FTT: a System for Finding and Tracking Tourists in Public Transport Services  </strong></br>     
+<li><strong> SharkDB: An In-Memory Storage System for Massive Trajectory Data  </strong></br>     
+<li><strong> Ringo: Interactive Graph Analytics on Big-Memory Machines  </strong></br>     
+<li><strong> STORM: Spatio-Temporal Online Reasoning and Management of Large Spatio-Temporal Data  </strong></br>     
+<li><strong> PAXQuery: Parallel Analytical XML Processing </strong></br>     
+</ul>
+</p>
+
+<h3><a name="democ" id="democ"></a>Demo C </h3>
+<p>Wednesday, 17:10-18:50<br/>
+Thursday, 13:30-15:10<br/>
+<span class="location">Location: MR106 </span><br/>
+<!-- <span class="hashtag">Hashtag: #sigmod12 #demoBx</span><br/> -->
+</p>
+<ul>
+<li><strong> Graft: A Debugging Tool For Apache Giraph  </strong></br>     
+<li><strong> Even Metadata is Getting Big: Annotation Summarization using InsightNotes  </strong></br>     
+<li><strong> StoryPivot: Comparing and Contrasting Story Evolution  </strong></br>     
+<li><strong> The Flatter, the Better — Query Compilation Based on the Flattening Transformation </strong></br>     
+<li><strong> D2WORM: A Management Infrastructure for Distributed Data-centric Workflows  </strong></br>     
+<li><strong> NL2CM: A Natural Language Interface to Crowd Mining  </strong></br>     
+<li><strong> Optimistic Recovery for Iterative Dataflows in Action  </strong></br>     
+<li><strong> A Secure Search Engine for the Personal Cloud  </strong></br>     
+ 
+<li><strong> Just can't get enough - Synthesizing Big Data </strong></br> 
+<li><strong> A SQL Debugger Built from Spare Parts - Turning a SQL:1999 Database System into Its Own Debugger  </strong></br>     
+</ul>
+</p>
+
+<h1><a name="industry_career" id="industry_career"></a>CAREERS IN INDUSTRY</h1>
+<p><strong>Careers in Industry</strong><br/>
+Tuesday 18:30 - 19:30<br/>
+<span class="location">Location: MR106 </span></br>
+<span class="hashtag">Hashtag: #sigmod2015 #industry_career</span></br>
+Session Chair: Feifei Li (University of Utah) <br/>
+Please click here to check out the <a style="color: rgb(204, 102, 0);text-decoration: none;" href="career_industry_panel.shtml">Panelist</a>.
+<br><br/>
+Every year, the SIGMOD Conference also includes industry sessions and
+industry sponsors from industry leaders on big data management,
+database systems, and data management in general. Many students after
+graduation will join these companies and start an exciting career in
+industry. This year, the SIGMOD Conference organizes a career in
+industry panel event to address various aspects of starting a career
+in the data management industry. Each platinum or gold sponsor of the
+conference will send a representative to participate this panel. This
+year’s event consists of representatives from Facebook, Google, IBM, Oracle, SAP,
+Tableau, and Twitter. This event  is geared towards undergraduate
+and graduate students and junior researchers, but we expect it to
+attract a very broad audience because it will be both informative and
+entertaining. Each panelist gives a short introduction, based on their
+personal experiences and perspectives gained over the years. After the
+introduction, an informal discussion ensues, where questions are
+welcomed from the audience.
+<br>
+The panel will discuss various aspects of preparing, planning out, and
+executing a successful industry career. This topic is of particular
+interest to undergraduate and graduate students, but is relevant to
+the entire data management community.
+</p>
+
+
+<h1><a name="research_symp" id="research_symp"></a>SIGMOD NEW RESEARCHER SYMPOSIUM</h1>
+<p><strong>How to fail</strong><br/>
+Wednesday 13:20 - 14:50<br/>
+<span class="location">Location: Plenary 1 </span></br>
+<span class="hashtag">Hashtag: #sigmod15 #nrs</span></br>
+Session Chairs: Alexandra Meliou (University of Massachusetts Amherst); Julia Stoyanovich (Drexel University)
+<br><br/>
+Every year, the SIGMOD Conference includes an exciting symposium
+addressing various aspects of starting a career in the data management
+community. These symposia are geared towards graduate students and
+junior researchers, but they attract a very broad audience because
+they are both informative and entertaining. Each panelist gives a
+10-minute presentation, based on their personal experiences and
+perspectives gained over the years. After the presentations, an
+informal discussion ensues, where questions are welcomed from the
+audience.
+<br>
+This year's panel will address the topic: “How to fail.”  The panel will discuss various aspects of overcoming and learning from failure.  This topic is of particular interest to graduate students and junior researchers, but is relevant to the entire data management community. The issues discussed in the presentation may include, but are not limited to: <br/>
+  —	Bad research ideas: How to recognize them, avoid them, and abandon them. Can you transform a bad research direction into a good one? <br/>
+  — Whom should you ask for advice and should you always follow it?<br/>
+  —	How should you balance your time across different responsibilities?  Which responsibilities should you say "no" to? Is it OK to drop tasks that you committed to?<br/>
+  — What is the proper level of multitasking?  How many research directions should you pursue at a time?<br/>
+  — When should you give up on a student, an advisor, or a topic?<br/>
+
+</p>
+
+<h1><a name="plenaryposter" id="plenaryposter"></a>SIGMOD/PODS POSTER SESSIONS</h1> 
+<p>
+<ul>
+<li><strong><a name="plenary1" id="plenary1"></a>PODS Research Poster Session </strong><br />
+  Monday 12:10 - 13:30<br/>
+<span class="location">Location: Level 1 Foyer</span></br>
+Papers from PODS Sessions 1 to 4.
+<li><strong><a name="plenary1" id="plenary1"></a>Undergraduate Research Poster Session</strong><br />
+  Monday 19:15 - 21:15<br/>
+<span class="location">Location: Polly Woodside Tall Ship reception area </span></br>
+Papers from Undergraduate Research Posters.
+<li><strong><a name="plenary1" id="plenary1"></a>SIGMOD/PODS Research Poster Session 1</strong><br />
+  Tuesday 12:10 - 13:30<br/>
+<span class="location">Location: Level 1 Foyer</span></br>
+Papers from PODS Sessions 5 to 7 and SIGMOD Sessions 1 to 8.
+<li><strong><a name="plenary2" id="plenary2"></a>SIGMOD/PODS Research Poster Session 2</strong><br />
+  Wednesday 12:10 - 13:30<br/>
+<span class="location">Location: Level 1 Foyer</span></br>
+Papers from PODS Sessions 8 to 10 and SIGMOD Sessions 9 to 16.
+<li><strong><a name="plenary3" id="plenary3"></a>SIGMOD/PODS Research Poster Session 3</strong><br />
+  Thursday 12:10 - 13:30<br/>
+<span class="location">Location: Level 1 Foyer</span></br>
+Papers from SIGMOD Sessions 17 to 24.
+
+</ul>
+</p>
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2015 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

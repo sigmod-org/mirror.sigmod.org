@@ -1,0 +1,1300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2016 ACM SIGMOD/PODS Conference: San Francisco, USA - Conference Program:  SIGMOD Sessions</title>
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/SanFrancisco/CableCar3.jpg'
+
+theImages[1] = 'images/SanFrancisco/SFORS2.jpg'
+
+theImages[2] = 'images/SanFrancisco/Alcatraz.jpg'
+
+theImages[3] = 'images/SanFrancisco/GolbenGate.jpg'
+
+theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Cable Car'
+
+theImageDescriptions[1] = 'Hyatt Regency, San Francisco'
+
+theImageDescriptions[2] = 'Alcatraz Island'
+
+theImageDescriptions[3] = 'Golden Gate Bridge'
+
+theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'http://sanfranciscoregency.hyatt.com/en/hotel/home.html'
+
+theImageURLs[1] = 'http://sanfranciscoregency.hyatt.com/en/hotel/home.html'
+
+theImageURLs[2] = 'http://www.nps.gov/alca/index.htm'
+
+theImageURLs[3] = 'http://www.goldengatebridge.org/'
+
+theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterSF.jpg" alt="ACM SIGMOD/PODS, June 26 - July 1, 2016, San Francisco, USA" width="742" height="45" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  
+  <img src="images/SIGMODPODS2016-logo.jpg" alt="ACM SIGMOD City, Country, Year" width="113" height="65" /></a></div>
+  
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  
+
+
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+  
+  
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorials PC </a></li>
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li> 
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+
+<!-- 
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+</ul>
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="calls_papers_sigmod_undergrad_poster.shtml" title="UndergraduateCompetition">Undergraduate Competition</a></li>
+  <li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>
+  <li><a href="http://dsg.uwaterloo.ca/sigmod16contest/" title="ProgrammingContest">Programming Contest</a></li>
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="http://dbweb.enst.fr/events/sigmod2016nrs/" title="NewResearchers">New Researcher Symposium</a></li>
+</ul>
+
+
+
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">	
+	<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>
+	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="https://www.regonline.com/builder/site/?eventid=1789063" title="Registration">Registration</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>		
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>	
+</ul>
+
+
+
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+
+
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+ 
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Moshe Vardi">Keynote: Moshe Vardi (Rice Univ.)</a></li>
+<li><a href="pods_invited.shtml#tutorial1" title="Invited Tutorial: Sara Cohen">Invited Tutorial 1: Sara Cohen (Hebrew Univ. of Jerusalem)</a></li>
+<li><a href="pods_invited.shtml#tutorial2" title="Invited Tutorial: Frank Neven">Invited Tutorial 2: Frank Neven (Hasselt Univ.)</a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</a></li>
+
+</ul>
+
+
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+  <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>  
+  <li><a href="sigmod_undergraduate_list.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="sigmod_tods_posters.shtml" title="TODS Posters">TODS Posters</a></li>
+  <li><a href="sigmod_keynote.shtml" title="Jeff Dean">Keynote: Jeff Dean (Google)</a></li>
+  <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+
+<!--
+  <li><a href="awards_sigmod.shtml">Awards</a></li> 
+-->
+</ul>
+
+
+
+
+
+
+
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/acmsigmod2016" data-widget-id="611222132543102976" height="400">Tweets by @acmsigmod2016</a>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1> 
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+
+
+
+
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+			
+			<div id="maincontent">
+
+<h1>Proceedings</h1>
+
+<p>SIGMOD 2016 papers  can be accessed <a style="color: #CC6600; text-decoration: none;"href="http://dl.acm.org/citation.cfm?id=2882903&CFID=633293443&CFTOKEN=82466983">here</a>.
+</p>
+
+
+			
+			
+<h1>Conference Program:  SIGMOD Sessions</h1>
+
+<p>This page describes the complete SIGMOD Conference program.
+<ul>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#keynote">Keynote Talk</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#research">Research Sessions</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#demos">Demos</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#posters">Posters</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#tutorial">Tutorials</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#awards">Award Talks</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#industry_career"> Careers in Industry Panel</a>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#business">Business Meeting</a>
+</ul>
+
+<p>
+The SIGMOD 2016 program is also available at <a style="color: #CC6600; text-decoration: none;" href=" http://confer.csail.mit.edu/sigmod2016/schedule"> http://confer.csail.mit.edu/sigmod2016/schedule</a>. 
+Confer is a conference program management tool with a crowd-sourcing component that automatically groups papers into sessions to maximize the number of papers each attendee likes that he or she will get to see. 
+</p>
+
+
+
+<p>
+<h1><a name="keynote" id="keynote"></a>SIGMOD Keynote</h1>
+<h3>Building Machine Learning Systems that Understand</h3>
+<p>Tuesday 8:30-10:00<br/>
+<span class="location">Location: Grand Ballroom</span><br/>
+Jeff Dean<br />
+<!-- Session Chair: Tova Milo<br /> -->
+</p>
+
+
+
+
+
+<h1><a name="research" id="research"></a>RESEARCH SESSIONS </h1> 
+
+<h3><a name="ssession1"></a>Session 1: Scalable Analytics and Machine Learning</h3>
+<p>Tuesday 10:30-12:15<br />
+<span class="location">Bayview</span><br/>
+Session Chair: Sihem Amer-Yahia (CNRS/LIG)
+<ul>
+<li><strong>Learning Linear Regression Models over Factorized Joins</strong><br/>Dan Olteanu; Maximilian Schleich; Radu Ciucanu</li>
+<li><strong>To Join or Not to Join? Thinking Twice about Joins before Feature Selection</strong><br/>Arun Kumar; Jeffrey Naughton; Jignesh Patel; Xiaojin Zhu</li>
+<li><strong>Real-time Video Recommendation Exploration</strong><br/>Yanxiang Huang; Bin Cui; Jie Jiang; Kunqiang Hong; Wenyu Zhang; Yiran Xie</li>
+<li><strong>Towards Globally Optimal Crowdsourcing Quality Management: The Uniform Worker Setting</strong><br/>Akash Das Sarma; Aditya Parameswaran; Jennifer Widom</li>
+<li><strong>Building the Enterprise Fabric for Big Data with Vertica and Spark Integration</strong><br/>Jeff LeFevre; Rui Liu; Edward Ma; Malu Castellanos; Cornelio Inigo; Lupita Paz; Meichun Hsu</li>
+<li><strong>Truss Decomposition of Probabilistic Graphs: Semantics and Algorithms</strong><br/>Xin Huang; Wei Lu; Laks Lakshmanan</li>
+<li><strong>Efficient and Progressive Group Steiner Tree Search</strong><br/>Rong-Hua LI; Lu Qin; Jeffrey Xu Yu; Rui Mao</li>
+</ul>
+</p>
+
+<h3><a name="ssession2"></a>Session 2: Privacy and Security</h3>
+<p>Tuesday 10:30-12:15<br />
+<span class="location">Grand Ballroom C</span><br/>
+Session Chair: Gerome Miklau (UMass Amherst)
+<ul>
+<li><strong>Publishing Attributed Social Graphs with Formal Privacy Guarantees</strong><br/>Zachary Jorgensen; Ting Yu; Graham Cormode</li>
+<li><strong>Publishing Graph Degree Distribution with Node Differential Privacy</strong><br/>Wei-Yen Day; Ninghui Li; Min Lyu</li>
+<li><strong>Principled evaluation of differentially private algorithms using DPBench</strong><br/>Michael Hay; Ashwin Machanavajjhala; Gerome Miklau; Yan Chen; Dan Zhang</li>
+<li><strong>PrivTree: A Differentially Private Algorithm for Hierarchical Decompositions</strong><br/>Jun Zhang; Xiaokui Xiao; Xing Xie</li>
+<li><strong>Adaptive Indexing over Encrypted Numeric Data</strong><br/>Panagiotis Karras; Artyom Nikitin; Muhammad Saad; Rudrika Bhatt; Denis Antyukhov; Stratos Idreos</li>
+<li><strong>Practical Private Range Search Revisited</strong><br/>Ioannis Demertzis; Stavros Papadopoulos; Odysseas Papapetrou; Antonios Deligiannakis; Minos Garofalakis</li>
+<li><strong>Privacy Preserving Subgraph Matching on Large Graphs in Cloud</strong><br/>Zhao Chang; Lei Zou; Feifei Li</li>
+</ul>
+</p>
+
+<h3><a name="ssession3"></a>Session 3: Logical and Physical Database Design</h3>
+<p>Tuesday 10:30-12:15<br />
+<span class="location">Seacliffs</span><br/>
+Session Chair: Carsten Binnig (Brown University)
+<ul>
+<li><strong>The Snowflake Elastic Data Warehouse</strong><br/>Benoit Dageville; Thierry Cruanes; Marcin Zukowski; Vadim Antonov; Artin Avanes; Jon Bock; Jonathan Claybaugh; Daniel Engovatov; Martin Hentschel; Jiansheng Huang; Allison Lee; Ashish Motivala; Abdul Munir; Steven Pelley; Peter Povinec; Greg Rahn; Spyridon Triantafyllis; Philipp Unterbrunner</li>
+<li><strong>Closing the Functional and Performance Gap between SQL and NoSQL</strong><br/>Zhen Hua Liu; Beda Hammerschmidt; doug. Mcmahon; ying Lu; hui Chang</li>
+<li><strong>Have Your Data and Query It Too: From Key-Value Caching to Big Data Management</strong><br/>Dipti Borkar; Ravi Mayurum; Gerald Sangudi; Michael Carey</li>
+<li><strong>Ambry: LinkedIn's Scalable Geo-Distributed Object Store</strong><br/>Shadi Abdollahian Noghabi; Sriram Subramanian; Priyesh Narayanan; Sivabalan Narayanan; Gopalakrishna Holla; Mammad Zadeh; Tianwei Li; Indranil Gupta; Roy Campbell</li>
+<li><strong>SQL Schema Design: Foundations, Normal Forms, and Normalization</strong><br/>Henning Koehler; Sebastian Link</li>
+<li><strong>SQLShare: Results from a Multi-Year SQL-as-a-Service Experiment</strong><br/>Shrainik Jain; Bill Howe; Dominik Moritz; Ed Lazowska; Dan Halperin</li>
+<li><strong>Automatic Generation of Normalized Relational Schemas from Nested Key-Value Data</strong><br/>Daniel Abadi; Michael DiScala</li>
+</ul>
+</p>
+
+<h3><a name="ssession4"></a>Session 4: New Storage and Network Architectures</h3>
+<p>Tuesday 1:30-3:00<br />
+<span class="location">Bayview</span><br/>
+Session Chair: Daniel Abadi (Yale)
+<ul>
+<li><strong>Data Blocks: Hybrid OLTP and OLAP on Compressed Storage using both Vectorization and Compilation</strong><br/>Harald Lang; Tobias Muehlbauer; Florian Funke; Peter Boncz; Thomas Neumann; Alfons Kemper</li>
+<li><strong>GeckoFTL: Scalable Flash Translation Techniques For Very Large Flash Devices</strong><br/>Niv Dayan; Philippe Bonnet; Stratos Idreos</li>
+<li><strong>SHARE Interface in Flash Storage for Relational and NoSQL Databases</strong><br/>Gihwan Oh; Chiyoung Seo; Ravi Mayuram; Yang-Suk Kee; Sang-Won Lee</li>
+<li><strong>Accelerating Relational Databases by Leveraging Remote Memory and RDMA</strong><br/>Feng Li; Sudipto Das; Manoj Syamala; Vivek Narasayya</li>
+<li><strong>FPTree: A Hybrid SCM-DRAM Persistent and Concurrent B-Tree for Storage Class Memory</strong><br/>Ismail Oukid; Johan Lasperas; Anisoara Nica; Thomas Willhalm; Wolfgang Lehner</li>
+<li><strong>Micro-architectural Analysis of In-memory OLTP</strong><br/>Utku Sirin; Pinar Tozun; Danica Porobic; Anastasia Ailamaki</li>
+</ul>
+</p>
+
+<h3><a name="ssession5"></a>Session 5: Graphs 1: Infrastructure and Processing on Modern Hardware</h3>
+<p>Tuesday 1:30-3:00<br />
+<span class="location">Grand Ballroom C</span><br/>
+Session Chair: Tyson Condie (UCLA)
+<ul>
+<li><strong>iBFS: Concurrent Breadth-First Search on GPUs</strong><br/>Hang Liu; Howie Huang; Yang Hu</li>
+<li><strong>Tornado: A System for Real-Time Iterative Analysis over Evolving Data</strong><br/>Xiaogang Shi; Bin Cui; Yingxia Shao; Yunhai Tong</li>
+<li><strong>EmptyHeaded: A Relational Engine for Graph Processing</strong><br/>Christopher Aberger; Susan Tu; Kunle Olukotun; Christopher Re</li>
+<li><strong>GTS: A Fast and Scalable Graph Processing Method based on Streaming Topology to GPUs</strong><br/>Min-Soo Kim; Kyu-Hyeon An; Himchan Park; Hyunseok Seo; Jinwook Kim</li>
+<li><strong>Graph Analytics Through Fine-Grained Parallelism</strong><br/>Zechao Shang; Feifei Li; Jeffrey Xu Yu; Zhiwei Zhang; Hong Cheng</li>
+<li><strong>Hybrid Pulling/Pushing for I/O-Efficient Distributed and Iterative Graph Computing</strong><br/>Zhigang Wang; Yu Gu; Yubin Bao; Ge Yu; Jeffrey Xu Yu</li>
+</ul>
+</p>
+
+<h3><a name="ssession6"></a>Session 6: Streaming 1: Systems and Outlier Detection</h3>
+<p>Tuesday 1:30-3:00<br />
+<span class="location">Seacliffs</span><br/>
+Session Chair: Alvin Cheung (University of Washington)
+<ul>
+<li><strong>Scalable Pattern Sharing on Event Streams</strong><br/>Medhabi Ray; Chuan Lei; Elke Rundensteiner</li>
+<li><strong>How to win a hot dog eating contest</strong><br/>Milos Nikolic; Christoph Koch; Mohammad Dashti</li>
+<li><strong>Sharing-Aware Outlier Analytics over High-Volume Data Streams</strong><br/>Lei Cao; Jiayuan Wang; Elke Rundensteiner</li>
+<li><strong>THEMIS: Fairness in Federated Stream Processing under Overload</strong><br/>Evangelia Kalyvianaki; Marco Fiscato; Theodoros Salonidis; Peter Pietzuch</li>
+<li><strong>SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures</strong><br/>Alexandros Koliousis; Matthias Weidlich; Raul Castro Fernandez; Paolo Costa; Alexander Wolf; Peter Pietzuch</li>
+<li><strong>Range Thresholding on Streams</strong><br/>Miao Qiao; Junhao Gan; Yufei Tao</li>
+</ul>
+</p>
+
+<h3><a name="ssession7"></a>Session 7: Approximate Query Processing</h3>
+<p>Wednesday 8:30-10:00<br />
+<span class="location">Bayview</span><br/>
+Session Chair: Amol Deshpande (University of Maryland)
+<ul>
+<li><strong>An Effective Syntax for Bounded Relational Queries</strong><br/>Yang Cao; Wenfei Fan</li>
+<li><strong>Wander Join: Online Aggregation via Random Walks</strong><br/>Feifei Li; Bin Wu; Ke Yi; Zhuoyue Zhao</li>
+<li><strong>Quickr: Lazily Approximating Complex AdHoc Queries in BigData Clusters</strong><br/>Srikanth Kandula; Anil Shanbhag; Aleksandar Vitorovic; Matt Olma; Robert Grandl; Surajit Chaudhuri; Bolin Ding</li>
+<li><strong>A Study of Sorting Algorithms on Approximate Memory</strong><br/>Bingsheng He; Shunning Jiang; Shuang Chen; Xueyan Tang</li>
+<li><strong>Distributed Wavelet Thresholding for Maximum Error Metrics</strong><br/>Ioannis Mytilinis; Dimitrios Tsoumakos; Necarios Koziris</li>
+<li><strong>Sample + Seek: Approximating Aggregates with Distribution Precision Guarantee</strong><br/>Bolin Ding; Silu Huang; Surajit Chaudhuri; Kaushik Chakrabarti; Chi Wang</li>
+</ul>
+</p>
+
+<h3><a name="ssession8"></a>Session 8: Networks and the Web</h3>
+<p>Wednesday 8:30-10:00<br />
+<span class="location">Grand Ballroom C</span><br/>
+Session Chair: Aditya Parameswaran (University of Illinois)
+<ul>
+<li><strong>Stop-and-Stare: Optimal Sampling Algorithms for Viral Marketing in Billion-scale Networks</strong><br/>Hung Nguyen; My Thai; Thang Dinh</li>
+<li><strong>Spheres of Influence for More Effective Viral Marketing</strong><br/>Yasir Mehmood; Francesco Bonchi; David Garcia-Soriano</li>
+<li><strong>Continuous Influence Maximization: What Discounts Should We Offer to Social Network Users?</strong><br/>Yu Yang; Xiangbo Mao; Jian Pei; Xiaofei He</li>
+<li><strong>Holistic Influence Maximization: Combining Scalability and Efficiency with Opinion-Aware Models</strong><br/>Sainyam Galhotra; Akhil Arora; Shourya Roy</li>
+<li><strong>Potential and Pitfalls of Domain-Specific Information Extraction at Web Scale</strong><br/>Astrid Rheinländer; Mario Lehmann; Anja Kunkel; Jürg Meier; Ulf Leser</li>
+<li><strong>Robust and Noise Resistant Wrapper Induction</strong><br/>Tim Furche; Jinsong Guo; Sebastian Maneth; Christian Schallhart</li>
+</ul>
+</p>
+
+<h3><a name="ssession9"></a>Session 9: Data Discovery and Extraction</h3>
+<p>Wednesday 8:30-10:00<br />
+<span class="location">Seacliffs</span><br/>
+Session Chair: Paolo Papotti (Arizona State University)
+<ul>
+<li><strong>Goods: Organizing Google's Datasets</strong><br/>Sudip Roy; Neoklis Polyzotis; Natasha Noy; Steven Whang; Christopher Olston; Alon Halevy; Flip Korn</li>
+<li><strong>Multi-Source Uncertain Entity Resolution at Yad Vashem</strong><br/>Tomer Sagi; Avigdor Gal; Omer Barkol; Ruth Bergman; Alexander Avram</li>
+<li><strong>A Hybrid Approach to Functional Dependency Discovery</strong><br/>Thorsten Papenbrock; Felix Naumann</li>
+<li><strong>Ontological Pathfinding: Mining First-Order Knowledge from Large Knowledge Bases</strong><br/>Yang Chen; Sean Goldberg; Daisy Zhe Wang; Soumitra Siddharth Johri</li>
+<li><strong>Extracting Databases from Dark Data with DeepDive</strong><br/>Ce Zhang; Jaeho Shin; Christopher Re; Michael Cafarella; Feng Niu</li>
+<li><strong>Estimating the Impact of Unknown Unknowns on Aggregate Query Results</strong><br/>Yeounoh Chung; Tim Kraska; Carsten Binnig; Michael Lind Mortensen</li>
+</ul>
+</p>
+
+<h3><a name="ssession10"></a>Session 10: Data Integration / Cleaning</h3>
+<p>Wednesday 10:30-12:15<br />
+<span class="location">Bayview</span><br/>
+Session Chair: Alexandra Meliou (University of Massachusetts, Amherst)
+<ul>
+<li><strong>Constraint-Variance Tolerant Data Repairing</strong><br/>Shaoxu Song; Han Zhu; Jianmin Wang</li>
+<li><strong>Interactive and Deterministic Data Cleaning</strong><br/>Jian He; Enzo Veltri; Donatello Santoro; Guoliang Li; Gianni Mecca; Paolo Papotti; Nan Tang</li>
+<li><strong>Sequential Data Cleaning: A Statistical Approach</strong><br/>Aoqian Zhang; Shaoxu Song; Jianmin Wang</li>
+<li><strong>Learning-Based Cleansing for Indoor RFID Data</strong><br/>Asif iqbal Baba; Manfred Jaeger; Hua Lu; Torben Bach Pedersen; Wei-Shinn Ku; Xike Xie</li>
+<li><strong>PrivateClean: Data Cleaning and Differential Privacy</strong><br/>Sanjay Krishnan; Jiannan Wang; Tim Kraska; Ken Goldberg; Michael Franklin</li>
+<li><strong>RDFind: Scalable Conditional Inclusion Dependency Discovery in RDF Datasets</strong><br/>Sebastian Kruse; Anja Jentzsch; Thorsten Papenbrock; Zoi Kaoudi; Jorge Quiané-Ruiz; Felix Naumann</li>
+<li><strong>Cost-Effective Crowdsourced Entity Resolution: A Partial-Order Approach</strong><br/>Chengliang Chai; Guoliang Li; Jian Li; Dong Deng; Jianhua Feng</li>
+</ul>
+</p>
+
+<h3><a name="ssession11"></a>Session 11: Spatio / Temporal Databases</h3>
+<p>Wednesday 10:30-12:15<br />
+<span class="location">Grand Ballroom C</span><br/>
+Session Chair: Daisy Zhe Wang (University of Florida)
+<ul>
+<li><strong>Topic Exploration in Spatio-Temporal Document Collections</strong><br/>Kaiqi Zhao; Lisi Chen; Gao Cong</li>
+<li><strong>ParTime: Parallel Temporal Aggregation</strong><br/>Markus Pilman; Florian Kühl; Martin Kaufmann; Donald Kossmann; Damien Profeta</li>
+<li><strong>Data Polygamy: The Many-Many Relationships among Urban Spatio-Temporal Data Sets</strong><br/>Fernando Chirigati; Harish Doraiswamy; Theodoros Damoulas; Juliana Freire</li>
+<li><strong>Distributed Evaluation of Top-k Temporal Joins</strong><br/>Julien Pilourdault; Sihem Amer-Yahia; Vincent Leroy</li>
+<li><strong>AT-GIS: Highly Parallel Spatial Query Processing with Associative Transducers</strong><br/>Peter Ogden; Peter Pietzuch; David Thomas</li>
+<li><strong>Towards Best Region Search for Data Exploration</strong><br/>Kaiyu Feng; Gao Cong; Sourav S Bhowmick; Wen-Chih Peng; Chunyan Miao</li>
+<li><strong>Simba: Efficient In-Memory Spatial Analytics</strong><br/>Dong Xie; Feifei Li; Bin Yao; Gefei Li; Liang Zhou; Minyi Guo</li>
+</ul>
+</p>
+
+<h3><a name="ssession12"></a>Session 12: Distributed Data Processing</h3>
+<p>Wednesday 1:30-3:00<br />
+<span class="location">Bayview</span><br/>
+Session Chair: Peter Bailis (Stanford University)
+<ul>
+<li><strong>Realtime Data Processing at Facebook</strong><br/>Guoqiang Jerry Chen; Janet L. Wiener; Shridhar Iyer; Anshul Jaiswal; Ran Lei Nikhil Simha; Wei Wang; Kevin Wilfong; Tim Williamson; Serhat Yilmaz</li>
+<li><strong>SparkR: Scaling R Programs with Spark</strong><br/>Shivaram Venkataraman; Zongheng Yang; Davies Liu; Eric Liang; Hossein Falaki; Xiangrui Meng; Reynold Xin; Ali Ghodsi; Michael Franklin; Ion Stoica; Matei Zaharia</li>
+<li><strong>VectorH: taking SQL-on-Hadoop to the next level</strong><br/>Andrei Costea; Adrian Ionescu; Bogdan Raducanu; Michal Switakowski; Cristian Barca; Juliusz Sompolski; Alicja Luszczak; Michal Szafranski; Giel De Nijs; Peter Boncz</li>
+<li><strong>Adaptive Logging: Optimizing Logging and Recovery Costs in Distributed In-memory Databases</strong><br/>Chang Yao; Divyakant Agrawal; Gang Chen; Beng Chin Ooi; Sai Wu</li>
+<li><strong>Big Data Analytics with Datalog Queries on Spark</strong><br/>Alexander Shkapsky; Mohan Yang; Matteo Interlandi; Hsuan Chiu; Tyson Condie; Carlo Zaniolo</li>
+<li><strong>An Efficient MapReduce Cube Algorithm for Varied Data Distributions</strong><br/>Eyal Altshuler; Tova Milo</li>
+</ul>
+</p>
+
+<h3><a name="ssession13"></a>Session 13: Graphs 2: Subgraph-based Optimization Techniques</h3>
+<p>Wednesday 1:30-3:00<br />
+<span class="location">Grand Ballroom C</span><br/>
+Session Chair: Feifei Li (University of Utah)
+<ul>
+<li><strong>Diversified Top-k Subgraph Querying in a Large Graph</strong><br/>Yang Zhengwei; Ada Wai-Chee Fu; Ruifeng Liu</li>
+<li><strong>Graph Indexing for Shortest-Path Finding over Dynamic Sub-Graphs</strong><br/>Mohamed Hassan; Walid Aref; Ahmed Aly</li>
+<li><strong>Efficient Subgraph Matching by Postponing Cartesian Products</strong><br/>Fei Bi; Lijun Chang; Xuemin Lin; Lu Qin; Wenjie Zhang</li>
+<li><strong>Adding Counting Quantifiers to Graph Patterns</strong><br/>Wenfei Fan; YINGHUI WU; Jingbo Xu</li>
+<li><strong>DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine</strong><br/>Hyeonji Kim; JuneYoung Lee; Sourav S Bhowmick; Wook-Shin Han; Jeong Hoon Lee; Seongyun Ko; Moath Jarrah</li>
+<li><strong>Distributed Set Reachability</strong><br/>Sairam Gurajada; Martin  Theobald</li>
+</ul>
+</p>
+
+<h3><a name="ssession14"></a>Session 14: Main Memory Analytics</h3>
+<p>Wednesday 1:30-3:00<br />
+<span class="location">Seacliffs</span><br/>
+Session Chair: Holger Pirk (MIT)
+<ul>
+<li><strong>Fast Multi-column Sorting in Main-Memory Column-Stores</strong><br/>Wenjian Xu; Ziqiang Feng; Eric Lo</li>
+<li><strong>Elastic Pipelining In an In-Memory Database Cluster</strong><br/>Li Wang; Zhou Minqi; Zhenjie Zhang; Yin Yang; Aoying Zhou</li>
+<li><strong>Page As You Go: Piecewise Columnar Access In SAP HANA</strong><br/>Reza Sherkat; Colin Florendo; Mihnea Andrei; Anil Goel; Anisoara Nica; Peter Bumbulis; Ivan Schreter; Guenter Radestock; Christian  Bensberg; Daniel Booss; Heiko Gerwens</li>
+<li><strong>Hybrid Garbage Collection for Multi-Version Concurrency Control in SAP HANA</strong><br/>Juchang Lee; Hyungyu Shin; Chang Gyoo Park; Seongyun Ko; Yongjae Chuh; Jaeyun Noh; Wolfgang Stephan; Wook-Shin Han</li>
+<li><strong>Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</strong><br/>Joy Arulraj; Andy Pavlo; Prashanth Menon</li>
+<li><strong>UpBit: Scalable In-Memory Updatable Bitmap Indexing</strong><br/>Manos Athanassoulis; Zheng Yan; Stratos Idreos</li>
+</ul>
+</p>
+
+<h3><a name="ssession15"></a>Session 15: Interactive Analytics</h3>
+<p>Thursday 10:30-12:00<br />
+<span class="location">Grand Ballroom A</span><br/>
+Session Chair: Eugene Wu (Columbia University)
+<ul>
+<li><strong>FluxQuery: An Execution Framework for Highly Interactive Query Workloads</strong><br/>Roee Ebenstein; Niranjan Kamat; Arnab Nandi</li>
+<li><strong>iOLAP: Managing Uncertainty for Efficient Incremental OLAP</strong><br/>Kai Zeng; Sameer Agarwal; Ion Stoica</li>
+<li><strong>Dynamic Prefetching of Data Tiles for Interactive Visualization</strong><br/>Leilani Battle; Michael Stonebraker; Remco Chang</li>
+<li><strong>Expressive Query Construction through Direct Manipulation of Nested Relational Results</strong><br/>Eirik Bakke; David Karger</li>
+<li><strong>Shasta: Interactive Reporting At Scale</strong><br/>Gokul Nath Babu Manoharan; Stephan Ellner; Karl Schnaitter; Sridatta Chegu; Alejandro Estrella Balderrama; Stephan Gudmundson; Apurv Gupta; Ben Handy; Bart Samwel; Chad Whipkey; Larysa Aharkava; Himani Apte; Nitin Gangahar; Jun Xu; Shivakumar Venkataraman; Divyakant Agrawal; Jeffrey D. Ullman</li>
+<li><strong>Datometry Hyper-Q: Bridging the Gap Between Real-Time and Historical Analytics</strong><br/>Lyublena Antova; Rhonda Baldwin; Derrick Bryant; Tuan Cao; Michael Duller; John Eshleman; Zhongxian Gu; Entong Shen; Mohamed Soliman; F. Michael Waas</li>
+</ul>
+</p>
+
+<h3><a name="ssession16"></a>Session 16: Streaming 2: Sketches</h3>
+<p>Thursday 10:30-12:00<br />
+<span class="location">Grand Ballroom BC</span><br/>
+Session Chair: Amelie Marian (Rutgers University)
+<ul>
+<li><strong>Time Adaptive Sketches (Ada-Sketches) for Summarizing Data Streams</strong><br/>Anshumali Shrivastava; Christian Konig; Mikhail Bilenko</li>
+<li><strong>Streaming Algorithms for Robust Distinct Elements</strong><br/>Di Chen; Qin Zhang</li>
+<li><strong>Augmented Sketch: Faster and More Accurate Stream Processing</strong><br/>Pratanu Roy; Arijit Khan; Gustavo Alonso</li>
+<li><strong>Matrix Sketching Over Sliding Windows</strong><br/>Zhewei Wei; Xuancheng Liu; Feifei Li; Shuo Shang; Xiaoyong Du; Ji-Rong Wen</li>
+<li><strong>Graph Stream Summarization</strong><br/>Nan Tang; Qing Chen; Prasenjit Mitra</li>
+<li><strong>Scalable Approximate Query Tracking over Highly Distributed Data Streams</strong><br/>Nikos Giatrakos; Antonios Deligiannakis; Minos Garofalakis</li>
+</ul>
+</p>
+
+<h3><a name="ssession17"></a>Session 17: Transaction Processing</h3>
+<p>Thursday 10:30-12:00<br />
+<span class="location">Seacliffs</span><br/>
+Session Chair: Justin Levandoski (Microsoft Research)
+<ul>
+<li><strong>A Hybrid B+-Tree as Solution for In-Memory Indexing on CPU-GPU Heterogeneous Computing Platforms</strong><br/>Amirhesam Shahvarani; Hans-Arno Jacobsen</li>
+<li><strong>Low-Overhead Asynchronous Checkpointing in Main-Memory Database Systems</strong><br/>Kun Ren; Thaddeus Diamond; Daniel Abadi; Alexander Thomson</li>
+<li><strong>T-Part: Partitioning of Transactions for Forward-Pushing in Deterministic Database Systems</strong><br/>Shan-Hung Wu; Tsai-Yu Feng; Meng-Kai Liao; Shao-Kan Pi; Yu-Shan Lin</li>
+<li><strong>Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes</strong><br/>Huanchen Zhang; David Andersen; Andy Pavlo; Michael Kaminsky; Lin Ma; Rui Shen</li>
+<li><strong>Design Principles for Scaling Multi-core OLTP Under High Contention</strong><br/>Kun Ren; Jose Faleiro; Daniel Abadi</li>
+<li><strong>DBSherlock: A Performance Diagnostic Tool for Transactional Databases</strong><br/>Dong Young Yoon; Ning Niu; Barzan Mozafari</li>
+</ul>
+</p>
+
+<h3><a name="ssession18"></a>Session 18: Transactions and Consistency</h3>
+<p>Thursday 1:30-3:00<br />
+<span class="location">Grand Ballroom A</span><br/>
+Session Chair: Andy Pavlo (CMU)
+<ul>
+<li><strong>TARDiS: A Branch-and-Merge Approach To Weak Consistency</strong><br/>Natacha Crooks; Youer Pu; Nancy Estrada; Trinabh Gupta; Lorenzo Alvisi; Allen Clement</li>
+<li><strong>TicToc: Time Traveling Optimistic Concurrency Control</strong><br/>Xiangyao Yu; Andy Pavlo; Daniel Sanchez; Srinivas Devadas</li>
+<li><strong>Scaling Multicore Databases via Constrained Parallel Execution</strong><br/>Zhaoguo Wang; Yang Cui; Han Yi; Shuai Mu; haibo Chen; Jinyang Li</li>
+<li><strong>Towards a Non-2PC Transaction Management in Distributed Database Systems</strong><br/>Qian Lin; Pengfei Chang; Gang Chen; Beng Chin Ooi; Kian-Lee Tan; Zhengkui Wang</li>
+<li><strong>ERMIA: Fast memory-optimized database system for heterogeneous workloads</strong><br/>Kangnyeon Kim; Tianzheng Wang; Ryan Johnson; Ippokratis Pandis</li>
+<li><strong>Transaction Healing: Scaling Optimistic Concurrency Control on Multicores</strong><br/>Yingjun Wu; Chee Yong Chan; Kian-Lee Tan</li>
+</ul>
+</p>
+
+<h3><a name="ssession19"></a>Session 19: Query Optimization</h3>
+<p>Thursday 1:30-3:00<br />
+<span class="location">Grand Ballroom BC</span><br/>
+Session Chair: Stratos Idreos (Harvard University)
+<ul>
+<li><strong>Enabling Incremental Query Re-Optimization</strong><br/>Mengmeng Liu; Zachary Ives; Boon Loo</li>
+<li><strong>Sampling-Based Query Re-Optimization</strong><br/>Wentao Wu; Jeffrey Naughton; Harneet Singh</li>
+<li><strong>A Fast Randomized Algorithm for Multi-Objective Query Optimization</strong><br/>Immanuel Trummer; Christoph Koch</li>
+<li><strong>Operator and Query Progress Estimation in Microsoft SQL Server Live Query Statistics</strong><br/>Kukjin Lee; Christian Konig; Vivek Narasayya; Bolin Ding; Surajit Chaudhuri; Brent Ellwein; Alexey Eksarevskiy; Manbeen  Kohli; Praneeta Prakash; Jacob Wyant; Jiexing Li; Rimma Nehme; Jeffrey Naughton</li>
+<li><strong>Optimization of Nested Queries using the NF2 Algebra</strong><br/>J&uuml;rgen H&ouml;lsch; Michael Grossniklaus; Marc Scholl</li>
+<li><strong>Extracting Equivalent SQL From Imperative Code in Database Applications</strong><br/>Venkatesh Emani; Karthik Ramachandra; S. Sudarshan; Subhro Bhattacharya</li>
+</ul>
+</p>
+
+<h3><a name="ssession20"></a>Session 20: Graphs 3: Potpourri</h3>
+<p>Thursday 1:30-3:00<br />
+<span class="location">Seacliffs</span><br/>
+Session Chair: Bill Howe (University of Washington)
+<ul>
+<li><strong>Generating Preview Tables for Entity Graphs</strong><br/>Ning Yan; Sona Hasani; Abolfazl Asudeh; Chengkai Li</li>
+<li><strong>Speedup Graph Processing by Graph Ordering</strong><br/>Hao Wei; Jeffrey Xu Yu; Can LU; Xuemin Lin</li>
+<li><strong>ROLL: Fast In-Memory Generation of Gigantic Scale-free Networks</strong><br/>Ali Hadian; Sadegh Nobari; Behrouz Minaei-Bidgoli; Qiang Qu</li>
+<li><strong>Functional Dependencies for Graphs</strong><br/>Wenfei Fan; Yinghui Wu; Jingbo Xu</li>
+<li><strong>SLING: A Near-Optimal Index Structure for SimRank</strong><br/>Boyu Tian; Xiaokui Xiao</li>
+<li><strong>Query Planning for Evaluating SPARQL Property Paths</strong><br/>Nikolay Yakovets; Parke Godfrey; Jarek Gryz</li>
+</ul>
+</p>
+
+<h3><a name="ssession21"></a>Session 21: Hardware Acceleration and Query Compilation</h3>
+<p>Thursday 3:30-5:00<br />
+<span class="location">Grand Ballroom A</span><br/>
+Session Chair: Thomas Neumann (TU Munich)
+<ul>
+<li><strong>Robust Query Processing in Co-Processor-accelerated Databases</strong><br/>Sebastian Breß; Henning Funke; Jens Teubner</li>
+<li><strong>How to Architect a Query Compiler</strong><br/>Amir Shaikhha; Yannis Klonatos; lionel Parreaux; Lewis Brown; Mohammad Dashti; Christoph Koch</li>
+<li><strong>Automated Demand-driven Resource Scaling in Relational Database-as-a-Service</strong><br/>Sudipto Das; Feng Li; Vivek Narasayya; Christian Konig</li>
+<li><strong>GPL: A GPU-based Pipelined Query Processing Engine</strong><br/>Jiong He; Paul Johns; Bingsheng He</li>
+<li><strong>Towards a Hybrid Design for Fast Query Processing in DB2 with BLU Acceleration Using Graphical Processing Units</strong><br/>Sina Meraji; Berni Schiefer; Lan Pham; Lee Chu; Peter Kokosielis; Adam Storm; Wayne Young; Chang Ge; Geoffrey Ng; Kajan Kanagaratnam</li>
+<li><strong>An Experimental Comparison of Thirteen Relational Equi-Joins in Main Memory</strong><br/>Stefan Schuh; Jens Dittrich; Xiao Chen</li>
+</ul>
+</p>
+
+<h3><a name="ssession22"></a>Session 22: Nearest Neighbors and Similarity Search</h3>
+<p>Thursday 3:30-5:00<br />
+<span class="location">Grand Ballroom BC</span><br/>
+Session Chair: Kyriakos Mouratidis (Singapore Management University)
+<ul>
+<li><strong>Top-k Relevant Semantic Place Retrieval on Spatial RDF Data</strong><br/>Jieming Shi; Dingming Wu; Nikos Mamoulis</li>
+<li><strong>Local Similarity Search for Unstructured Text</strong><br/>Pei Wang; Chuan Xiao; Jianbin Qin; Wei Wang; Xiaoyang Zhang; Yoshiharu Ishikawa</li>
+<li><strong>Similarity Join over Array Data</strong><br/>Weijie Zhao; Florin Rusu; Bin Dong; John Wu</li>
+<li><strong>LazyLSH: Approximate Nearest Neighbor Search for Multiple Distance Functions with a Single Index</strong><br/>Yuxin Zheng; Qi Guo; Anthony Tung; Sai Wu</li>
+<li><strong>Set-based Similarity Search for Time Series</strong><br/>Jinglin Peng; Hongzhi Wang; Jianzhong Li; Hong Gao</li>
+<li><strong>Range-based Obstructed Nearest Neighbor Queries</strong><br/>Huaijie Zhu; Xiaochun Yang; bin wang; Wang-Chien Lee</li>
+</ul>
+</p>
+
+
+
+
+
+<h1><a name="demos" id="demos"></a>DEMOS SESSIONS </h1> 
+
+<h3><a name="demossession1"></a>Session 1</h3>
+<p>Tuesday 3:30-5:00<br />
+<span class="location">Garden Room</span><br/>
+<ul>
+<li>1 - PerNav: A Route Summarization Framework for Personalized Navigation</li> 
+<li>2 - Exploring Privacy-Accuracy Tradeoffs using DPComp</li> 
+<li>3 - Constance: An Intelligent Data Lake System</li> 
+<li>4 - Energy Elasticity on Heterogeneous Hardware using Adaptive Resource Reconfiguration LIVE</li> 
+<li>5 - Web-based Benchmarks for Forecasting Systems - The ECAST Platform</li> 
+<li>6 - REACT: Context-Sensitive Recommendations for Data Analysis</li> 
+<li>7 - QUEPA: QUerying and Exploring a Polystore by Augmentation</li> 
+<li>8 - Making the Case for Query-by-Voice with EchoQuery</li> 
+<li>9 - FERARI: A Prototype for Complex Event Processing over Streaming Multi-cloud Platforms</li> 
+<li>10 - Emma in Action: Declarative Dataflows for Scalable Data Analysis</li> 
+<li>11 - CLAMS: Bringing Quality to Data Lakes</li> 
+<li>12 - The CloudMdsQL Multistore System</li> 
+<li>13 - ReproZip: Computational Reproducibility With Ease</li> 
+<li>14 - PerfEnforce Demonstration: Data Analytics with Performance Guarantees</li> 
+<li>15 - DB-Risk: The Game of Global Database Placement</li> 
+<li>16 - Efficient Query Processing on Many-core Architectures: A Case Study with Intel Xeon Phi Processor</li> 
+<li>17 - What Makes a Good Physical plan? — Experiencing Hardware-Conscious Query Optimization with Candomble</li> 
+<li>18 - RxSpatial: Reactive Spatial Library for Real-Time Location Tracking and Processing</li> 
+<li>19 - High-Performance Geospatial Analytics in HyPerSpace</li> 
+<li>20 - Wander Join: Online Aggregation for Joins</li> 
+<li>21 - Rheem: Enabling Multi-Platform Task Execution</li> 
+</ul>
+</p>
+
+<h3><a name="demossession2"></a>Session 2</h3>
+<p>Wednesday 3:30-5:00<br />
+<span class="location">Garden Room</span><br/>
+<ul> 
+<li>1 - Ontology-Based Integration of Streaming and Static Relational Data with Optique</li> 
+<li>2 - CoDAR: Revealing the Generalized Procedure & Recommending Algorithms of Community Detection</li> 
+<li>3 - QFix: Demonstrating error diagnosis in query histories</li> 
+<li>4 - Constance: An Intelligent Data Lake System</li> 
+<li>5 - Web-based Benchmarks for Forecasting Systems - The ECAST Platform</li> 
+<li>6 - Energy Elasticity on Heterogeneous Hardware using Adaptive Resource Reconfiguration LIVE</li> 
+<li>7 - CLAMS: Bringing Quality to Data Lakes</li> 
+<li>8 - QUEPA: QUerying and Exploring a Polystore by Augmentation</li> 
+<li>9 - FERARI: A Prototype for Complex Event Processing over Streaming Multi-cloud Platforms</li> 
+<li>10 - BART in Action: Error Generation and Empirical Evaluations of Data-Cleaning Systems</li> 
+<li>11 - Quegel: A General-Purpose System for Querying Big Graphs</li> 
+<li>13 - The CloudMdsQL Multistore System</li> 
+<li>14 - PerfEnforce Demonstration: Data Analytics with Performance Guarantees</li> 
+<li>15 - SourceSight: Enabling Effective Source Selection</li> 
+<li>16 - Interactive Search and Exploration of Waveform Data with Searchlight</li> 
+<li>17 - DB-Risk: The Game of Global Database Placement</li> 
+<li>18 - Wildfire: Concurrent Blazing Data Ingest and Analytics</li> 
+<li>19 - SnappyData: Streaming, Transactions, and Interactive Analytics in a Single Cluster</li> 
+<li>20 - ActiveClean: Interactive Data Cleaning For Modern Machine Learning</li> 
+<li>21 - Rheem: Enabling Multi-Platform Task Execution</li> 
+</ul>
+</p>
+
+<h3><a name="demossession3"></a>Session 3</h3>
+<p>Thursday 3:30-5:00<br />
+<span class="location">Garden Room</span><br/>
+<ul> 
+<li>1 - PerNav: A Route Summarization Framework for Personalized Navigation</li> 
+<li>2 - Ontology-Based Integration of Streaming and Static Relational Data with Optique</li> 
+<li>3 - CoDAR: Revealing the Generalized Procedure & Recommending Algorithms of Community Detection</li> 
+<li>4 - Exploring Privacy-Accuracy Tradeoffs using DPComp</li> 
+<li>5 - QFix: Demonstrating error diagnosis in query histories</li> 
+<li>6 - REACT: Context-Sensitive Recommendations for Data Analysis</li> 
+<li>7 - Making the Case for Query-by-Voice with EchoQuery</li> 
+<li>8 - Emma in Action: Declarative Dataflows for Scalable Data Analysis</li> 
+<li>9 - BART in Action: Error Generation and Empirical Evaluations of Data-Cleaning Systems</li> 
+<li>10 - Quegel: A General-Purpose System for Querying Big Graphs</li> 
+<li>11 - ReproZip: Computational Reproducibility With Ease</li> 
+<li>12 - SourceSight: Enabling Effective Source Selection</li> 
+<li>13 - Interactive Search and Exploration of Waveform Data with Searchlight</li> 
+<li>14 - Wildfire: Concurrent Blazing Data Ingest and Analytics</li> 
+<li>15 - Efficient Query Processing on Many-core Architectures: A Case Study with Intel Xeon Phi Processor</li> 
+<li>16 - SnappyData: Streaming, Transactions, and Interactive Analytics in a Single Cluster</li> 
+<li>17 - ActiveClean: Interactive Data Cleaning For Modern Machine Learning</li> 
+<li>18 - What Makes a Good Physical plan? — Experiencing Hardware-Conscious Query Optimization with Candomble</li> 
+<li>19 - RxSpatial: Reactive Spatial Library for Real-Time Location Tracking and Processing</li> 
+<li>20 - High-Performance Geospatial Analytics in HyPerSpace</li> 
+<li>21 - Wander Join: Online Aggregation for Joins</li> 
+</ul>
+</p>
+
+
+
+
+
+
+<h1><a name="posters" id="posters"></a>POSTER SESSIONS </h1> 
+
+<h3><a name="posterssession1"></a>Session 1</h3>
+<p>Tuesday 3:30-5:00<br />
+<span class="location">Grand Ballroom A</span><br/>
+<ul>
+<li>1 - Learning Linear Regression Models over Factorized Joins</li> 
+<li>2 - To Join or Not to Join? Thinking Twice about Joins before Feature Selection</li> 
+<li>3 - Real-time Video Recommendation Exploration</li> 
+<li>4 - Towards Globally Optimal Crowdsourcing Quality Management</li> 
+<li>5 - Building the Enterprise Fabric for Big Data with Vertica and Spark Integration</li> 
+<li>6 - Probabilistic Truss Decomposition: Concepts and Algorithms</li> 
+<li>7 - Efficient and Progressive Group Steiner Tree Search</li> 
+<li>8 - Publishing Attributed Social Graphs with Formal Privacy Guarantees</li> 
+<li>9 - Publishing Graph Degree Distribution with Node Differential Privacy</li> 
+<li>10 - Principled evaluation of differentially private algorithms using DPBench</li> 
+<li>11 - PrivTree: A Differentially Private Algorithm for Hierarchical Decompositions</li> 
+<li>12 - Adaptive Indexing over Encrypted Data</li> 
+<li>13 - Practical Private Range Search Revisited</li> 
+<li>14 - Privacy Preserving Subgraph Matching on Large Graphs in Cloud</li> 
+<li>15 - The Snowflake Elastic Data Warehouse</li> 
+<li>16 - Closing the Schema and Performance Gap between SQL and NoSQL</li> 
+<li>17 - Have Your Data and Query It Too: From Key-Value Caching to Big Data Management</li> 
+<li>18 - Ambry: LinkedIn's Scalable Geo-Distributed Object Store</li> 
+<li>19 - SQL Schema Design</li> 
+<li>20 - TableShare: Results from a Multi-Year SQL-as-a-Service Experiment</li> 
+<li>21 - Automatic Generation of Normalized Relational Schemas from Key-Value Data</li> 
+<li>22 - Data Blocks: Hybrid OLTP and OLAP on Compressed Storage using both Vectorization and Compilation</li> 
+<li>23 - GeckoFTL: Scalable Flash Translation Techniques For Very Large Flash Devices</li> 
+<li>24 - SHARE Interface in Flash Storage for Databases</li> 
+<li>25 - Accelerating Relational Databases by Leveraging Remote Memory and RDMA</li> 
+<li>26 - FPTree: A Hybrid SCM-DRAM Persistent and Concurrent B-Tree for Storage Class Memory</li> 
+<li>27 - Micro-architectural Analysis of In-memory OLTP</li> 
+<li>28 - iBFS: Concurrent Breadth-First Graph Traversal on GPUs</li> 
+<li>29 - Tornado: A System for Real-Time Iterative Analysis over Evolving Data</li> 
+<li>30 - System-X: A Relational Engine for Graph Processing</li> 
+<li>31 - GTS: A Fast and Scalable Graph Processing Method based on Streaming Topology to GPUs</li> 
+<li>32 - Graph Analytics Through Fine-Grained Parallelism</li> 
+<li>33 - Hybrid Pulling/Pushing for I/O-Efficient Distributed and Iterative Graph Computing</li> 
+<li>34 - Scalable Pattern Sharing over Event Streams</li> 
+<li>35 - How to win a hot dog eating contest</li> 
+<li>36 - Sharing-Aware Outlier Analytics over High-Volume Data Streams</li> 
+<li>37 - THEMIS: Fairness in Federated Stream Processing under Overload</li> 
+<li>38 - SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures</li> 
+<li>39 - Range Thresholding on Streams</li> 
+<li>40 - Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</li> 
+<li>41 - An Effective Syntax for Bounded Relational Queries</li> 
+<li>42 - Wander Join: Online Aggregation via Random Walks</li> 
+<li>43 - Lazily Approximating Complex AdHoc Queries in Big Data Clusters</li> 
+<li>44 - A Study of Sorting Algorithms on Approximate Memory</li> 
+<li>45 - Distributed Wavelet Thresholding for Maximum Error Metrics</li> 
+<li>46 - Sample + Seek: Approximating Aggregates with Distribution Precision Guarantee</li> 
+<li>47 - Stop-and-Stare: Optimal Sampling Algorithms for Viral Marketing in Billion-scale Networks</li> 
+<li>48 - Spheres of Influence for More Effective Viral Marketing</li> 
+<li>49 - Continuous Influence Maximization: What Discounts Should We Offer to Social Network Users?</li> 
+<li>50 - Holistic Influence Maximization: Combining Scalability and Efficiency with Opinion-Aware Models</li> 
+<li>51 - Potential and Pitfalls of Domain-Specific Information Extraction at Web Scale</li> 
+<li>52 - Robust and Noise Resistant Wrapper Induction</li> 
+<li>53 - Goods: Organizing Google's Datasets</li> 
+<li>54 - Multi-Source Uncertain Entity Resolution at Yad Vashem: Transforming Holocaust Victim Reports into People</li> 
+<li>55 - A Hybrid Approach to Functional Dependency Discovery</li> 
+<li>56 - Ontological Pathfinding: Mining First-Order Knowledge from Large Knowledge Bases</li> 
+<li>57 - Extracting Databases from Dark Data with DeepDive</li> 
+<li>58 - Estimating the Impact of Unknown Unknowns on Aggregate Query Results</li> 
+<li>59 - Constraint-Variance Tolerant Data Repairing</li> 
+<li>60 - Interactive and Deterministic Data Cleaning</li> 
+<li>61 - Sequential Data Cleaning: A Statistical Approach</li> 
+<li>62 - Learning-Aided Cleansing for Indoor RFID Data</li> 
+<li>63 - PrivateClean: Data Cleaning and Differential Privacy</li> 
+<li>64 - RDFind: Scalable Conditional Inclusion Dependency Discovery in RDF Datasets</li> 
+<li>65 - Cost-Effective Crowdsourced Entity Resolution: A Partial-Order Approach</li> 
+<li>66 - Topic Exploration in Spatio-Temporal Document Collections</li> 
+<li>67 - ParTime: Parallel Temporal Aggregation</li> 
+<li>68 - Data Polygamy: The Many-Many Relationships among Urban Spatio-Temporal Data Sets</li> 
+<li>69 - Distributed Top-k Temporal Joins</li> 
+<li>70 - AT-GIS: Highly Parallel Spatial Query Processing with Associative Transducers</li> 
+<li>71 - Towards Best Region Search with Submodular Monotone Aggregate Function</li> 
+<li>72 - Simba: Efficient In-Memory Spatial Analytics</li> 
+<li>73 - Realtime Data Processing at Facebook</li> 
+<li>74 - SparkR: Scaling R Programs with Spark</li> 
+<li>UG-A - CodeOntology: a Java semantic database</li> 
+<li>UG-B - Constructing Join Histograms from Histograms with q-error Guarantees</li> 
+<li>UG-C - Vectorizing an In Situ Query Engine</li> 
+<li>UG-D - M3: Scaling Up Machine Learning via Memory Mapping</li> 
+<li>UG-E - Minimizing Average Regret Ratio in Database</li> 
+<li>UG-F - Graph Summarization for Geo-correlated Trends Detection in Social Networks</li> 
+<li>UG-G - K-means Split Revisited: Well-grounded Approach and Experimental Evaluation</li> 
+<li>UG-H - Research Contribution as a Measure of Influence</li> 
+<li>UG-I - Adaptive Denormalization</li> 
+<li>UG-J - Adaptive Data Skipping in Main-Memory Systems</li> 
+<li>UG-K - Exploring Visualization of Data Transforms</li> 
+<li>UG-L - Searching Web Data using MinHash LSH</li>
+<li>P1 - Minimization of Tree Pattern Queries</li>
+<li>P2 - Incremental View Maintenance For Collection Programming</li>
+<li>P3 - Aggregations over Generalized Hypertree Decompositions</li>
+<li>P4 - Bounded Query Rewriting Using Views</li>
+<li>P5 - Red Spider Meets a Rainworm: Conjunctive Query Finite Determinacy Is Undecidable</li>
+<li>P6 - Towards a Worst-Case I/O-Optimal Algorithm for Acyclic Joins</li>
+<li>P7 - On the Complexity of Inner Product Similarity Join</li>
+<li>P8 - Verification of Hierarchical Artifact Systems</li>
+<li>P9 - Recency-Bounded Verification of Dynamic Database-Driven Systems</li>
+<li>P10 - Making SQL Queries Correct on Incomplete Databases: A Feasibility Study</li>
+<li>P11 - Designing a Query Language for RDF: Marrying Open and Closed Worlds</li>
+<li>P12 - Towards Tight Bounds for the Streaming Set Cover Problem</li>
+<li>P13 - An Optimal Algorithm for Heavy Hitters in Insertion Streams and Related Problems</li>
+<li>P14 - Better Algorithms for Counting Triangles in Data Streams</li>
+<li>P15 - Locating a Small Cluster Privately</li>
+</ul>
+</p>
+
+
+
+<h3><a name="posterssession2"></a>Session 2</h3>
+<p>Wednesday 3:30-5:00<br />
+<span class="location">Grand Ballroom A</span><br/>
+<ul>
+<li>75 - VectorH: taking SQL-on-Hadoop to the next level</li> 
+<li>76 - Adaptive Logging: Optimizing Logging and Recovery Costs in Distributed In-memory Databases</li> 
+<li>77 - Big Data Analytics with Datalog Queries on Spark</li> 
+<li>78 - An Efficient MapReduce Cube Algorithm for Varied Data Distributions</li> 
+<li>79 - Diversified Subgraph Querying in a Large Graph</li> 
+<li>80 - Graph Indexing for Shortest-Path Finding over Dynamic Sub-Graphs</li> 
+<li>81 - Efficient Subgraph Matching by Postponing Cartesian Products</li> 
+<li>82 - Adding Counting Quantifiers to Graph Patterns</li> 
+<li>83 - DualSim: Parallel Subgraph Enumeration in a Massive Graph on a Single Machine</li> 
+<li>84 - Distributed Set Reachability</li> 
+<li>85 - Fast Multi-column Sorting in Main-Memory Column-Stores</li> 
+<li>86 - Elastic Pipelining In an In-Memory Database Cluster</li> 
+<li>87 - Page As You Go: Piecewise Columnar Access In SAP HANA</li> 
+<li>88 - Hybrid Garbage Collection for Multi-Version Concurrency Control in SAP HANA</li> 
+<li>89 - Bridging the Archipelago between Row-Stores and Column-Stores for Hybrid Workloads</li> 
+<li>90 - UpBit: Scalable In-Memory Updatable Bitmap Indexing</li> 
+<li>91 - FluxQuery: An Execution Framework for Highly Interactive Query Workloads</li> 
+<li>92 - iOLAP: Incremental OLAP for Interactive Analysis on Big Data</li> 
+<li>93 - Dynamic Prefetching of Data Tiles for Interactive Visualization</li> 
+<li>94 - Expressive Query Construction through Direct Manipulation of Nested Relational Results</li> 
+<li>95 - Shasta: Interactive Reporting At Scale</li> 
+<li>96 - Datometry Hyper-Q: Bridging the Gap Between Real Time and Historical Analytics</li> 
+<li>97 - Time Adaptive Sketches (Ada-Sketches) for Summarizing Data Streams</li> 
+<li>98 - Streaming Algorithms for Robust Distinct Elements</li> 
+<li>99 - Augmented Sketch: Faster and More Accurate Stream Processing</li> 
+<li>100 - Matrix Sketching Over Sliding Windows</li> 
+<li>101 - Graph Stream Summarization: From Big Bang to Big Crunch</li> 
+<li>102 - Scalable Approximate Query Tracking over Highly Distributed Data Streams</li> 
+<li>103 - A Hybrid B+-Tree as Solution for In-Memory Indexing on CPU-GPU Heterogeneous Computing Platforms</li> 
+<li>104 - Low-Overhead Asynchronous Checkpointing in Main-Memory Database Systems</li> 
+<li>105 - T-Part: Partitioning of Transactions for Onward-Pushing in Deterministic Database Systems</li> 
+<li>106 - Reducing the Storage Overhead of Main-Memory OLTP Databases with Hybrid Indexes</li> 
+<li>107 - Scaling Multi-core OLTP Under High Contention</li> 
+<li>108 - DBSherlock: A Performance Diagnostic Tool for Transactional Databases</li> 
+<li>109 - TARDiS: Making Sense of Weak Consistency</li> 
+<li>110 - TicToc: Time-Traveling Optimistic Concurrency Control</li> 
+<li>111 - Unleashing Parallelism in Multi-core Databases via Dependency Tracking</li> 
+<li>112 - Towards a Non-2PC Transaction Management in Distributed Database Systems</li> 
+<li>113 - ERMIA: Fast memory-optimized database system for heterogeneous workloads</li> 
+<li>114 - Transaction Healing: Scaling Optimistic Concurrency Control on Multicores</li> 
+<li>115 - Enabling Incremental Query Re-Optimization</li> 
+<li>116 - Sampling-Based Query Re-Optimization</li> 
+<li>117 - A Fast Randomized Algorithm for Multi-Objective Query Optimization</li> 
+<li>118 - Operator and Query Progress Estimation in Microsoft SQL Server Live Query Statistics</li> 
+<li>119 - Optimization of Nested Queries using the NF2 Algebra</li> 
+<li>120 - Extracting Equivalent SQL From Imperative Code in Database Applications</li> 
+<li>121 - Generating Preview Tables for Entity Graphs</li> 
+<li>122 - Speedup Graph Processing by Graph Ordering</li> 
+<li>123 - ROLL: Fast In-Memory Generation of Gigantic Scale-free Networks</li> 
+<li>124 - Functional Dependencies for Graphs</li> 
+<li>125 - SLING: A Near-Optimal Index Structure for SimRank</li> 
+<li>126 - Query Planning for Evaluating SPARQL Property Paths</li> 
+<li>127 - Robust Query Processing in Co-Processor-accelerated Databases</li> 
+<li>128 - How to Architect a Query Compiler</li> 
+<li>129 - Automated Demand-driven Resource Scaling in Relational Database-as-a-Service</li> 
+<li>130 - GPL: A GPU-based Pipelined Query Processing Engine</li> 
+<li>131 - Towards a Hybrid Design for Fast Query Processing in DB2 with BLU Acceleration</li> 
+<li>132 - An Experimental Comparison of Thirteen Relational Equi-Joins in Main Memory</li> 
+<li>133 - Top-k Relevant Semantic Place Retrieval on Spatial RDF Data</li> 
+<li>134 - Local Similarity Search for Unstructured Text</li> 
+<li>135 - Similarity Join over Array Data</li> 
+<li>136 - LazyLSH: Approximate Nearest Neighbor Search for Multiple Distance Functions with a Single Index</li> 
+<li>137 - Set-based Similarity Search for Time Series</li> 
+<li>138 - Range-based Obstructed Nearest Neighbor Queries</li> 
+<li>139 - Data Cleaning: Overview and Emerging Challenges</li> 
+<li>140 - Big Graph Analytics Systems</li> 
+<li>141 - Microblogs Data Management Systems: Querying, Analysis, and Visualization</li> 
+<li>142 - Design Tradeoffs of Data Access Methods</li> 
+<li>143 - The Challenges of Global-scale Data Management</li> 
+<li>144 - Provenance: On and Behind the Screens</li> 
+<li>145 - Querying Geo-Textual Data: Spatial Keyword Queries and Beyond</li> 
+<li>146 - Introduction to Spark 2.0 for Database Researchers</li> 
+<li>147 - Automatic Entity Recognition and Typing in Massive Text Data</li> 
+<li>148 - Semistructured Models, Queries and Algebras in the Big Data Era</li> 
+<li>TODS-A - Workload-Driven Antijoin Cardinality Estimation</li> 
+<li>TODS-B - Reducing Layered Database Applications to their Essence through Vertical Integration</li> 
+<li>TODS-C - BEVA: An Efficient Query Processing Algorithm for Error Tolerant Autocompletion</li> 
+<li>TODS-D - Synchronization of Queries and Views Upon Schema Evolutions: A Survey</li> 
+<li>TODS-E - The Exact Complexity of the First-Order Logic Definability Problem</li> 
+<li>PROG-A - SIGMOD Programming Contest Finalist/Peking University</li> 
+<li>PROG-B - SIGMOD Programming Contest Finalist/University of Engineering and Technology – Vietnam National University</li> 
+<li>PROG-C - SIGMOD Programming Contest Finalist/The University of Tokyo</li> 
+<li>PROG-D - SIGMOD Programming Contest Finalist/National and Kapodistrian University of Athens</li> 
+<li>PROG-E - SIGMOD Programming Contest Finalist/Technische Universitat Munchen</li>
+<li>P16 - FAQ: Questions Asked Frequently</li>
+<li>P17 - Shortest Paths and Distances with Differential Privacy</li>
+<li>P18 - Schema validation via streaming circuits</li>
+<li>P19 - Variability in data streams</li>
+<li>P20 - Streaming Space Complexity of Nearly All Functions of One Variable on Frequency Vectors</li>
+<li>P21 - Efficient Top-k Indexing via General Reductions</li>
+<li>P22 - Anti-Persistence on Persistent Storage: History-Independent Sparse Arrays and Dictionaries</li>
+<li>P23 - Counting Answers to Existential Positive Queries: A Complexity Classification</li>
+<li>P24 - Worst-case Optimal Algorithms for Conjunctive Queries with Functional Dependencies</li>
+<li>P25 - Semantic Acyclicity Under Constraints</li>
+<li>P26 - Tractable Lineages on Treelike Instances: Limits and Extensions</li>
+<li>P27 - Parallel Algorithms for Constructing Range and Nearest-Neighbor Searching Data Structures</li>
+<li>P28 - Space Lower Bounds for Itemset Frequency Sketches</li>
+<li>P29 - Are Few Bins Enough: Testing Histogram Distributions</li>
+<li>P30 - Range-Max Queries on Uncertain Data</li>
+<li>P31 - Fast Algorithms for Parsing Sequences of Parentheses with Few Errors</li>
+</ul>
+</p>
+
+
+
+
+<h1><a name="tutorial" id="tutorial"></a>TUTORIAL SESSIONS </h1>  
+
+<h3><a name="stutorial1"></a>Tutorial 1 </h3>
+<p>Sunday 8:30-12:00 <br/>
+<span class="location">Location: Seacliff D </span><br/>
+<ul>  
+<li><strong>Data Cleaning: Overview and Emerging Challenges</strong><br/> Xu Chu; Ihab F. Ilyas; Sanjay Krishnan; Jiannan Wang</li>
+</ul>
+ 
+<h3><a name="stutorial2"></a>Tutorial 2 </h3>
+<p>Sunday 13:30-17:00 <br/>
+<span class="location">Location: Seacliff D </span><br/>
+<ul>  
+<li><strong>Big Graph Analytics Systems</strong><br/> Da Yan; Yingyi Bu; Yuanyuan Tian; Amol Deshpande; James Cheng</li>
+</ul>
+ 
+<h3><a name="stutorial3"></a>Tutorial 3 </h3>
+<p>Monday 10:30-12:00 <br/>
+<span class="location">Location: Seacliff C </span><br/>
+<ul>  
+<li><strong>Microblogs Data Management Systems: Querying, Analysis, and Visualization</strong><br/> Mohamed F. Mokbel; Amr Magdy</li>
+</ul>
+
+<h3><a name="stutorial4"></a>Tutorial 4 </h3>
+<p>Monday 15:30-17:00 <br/>
+<span class="location">Location: Seacliff C </span><br/>
+<ul>  
+<li><strong>Design Tradeoffs of Data Access Methods</strong><br/> Manos Athanassoulis; Stratos Idreos</li>
+</ul>
+
+<h3><a name="stutorial5"></a>Tutorial 5 </h3>
+<p>Friday 8:30-12:00 <br/>
+<span class="location">Location: Bayview A </span><br/>
+<ul>  
+<li><strong>The Challenges of Global-scale Data Management</strong><br/> Faisal Nawab; Divyakant Agrawal; Amr El Abbadi</li>
+</ul>
+
+<h3><a name="stutorial6"></a>Tutorial 6 </h3>
+<p>Friday 8:30-10:00 <br/>
+<span class="location">Location: Bayview B </span><br/>
+<ul>  
+<li><strong>Provenance: On and Behind the Screens</strong><br/> Melanie Herschel; Marcel Hlawatsch</li>
+</ul>
+
+<h3><a name="stutorial7"></a>Tutorial 7 </h3>
+<p>Friday 10:30-12:00 <br/>
+<span class="location">Location: Bayview B </span><br/>
+<ul>  
+<li><strong>Querying Geo-Textual Data: Spatial Keyword Queries and Beyond</strong><br/> Gao Cong; Christian S. Jensen</li>
+</ul>
+
+<h3><a name="stutorial8"></a>Tutorial 8 </h3>
+<p>Friday 13:30-17:00 <br/>
+<span class="location">Location: Bayview A </span><br/>
+<ul>  
+<li><strong>Introduction to Spark 2.0 for Database Researchers</strong><br/> Michael Armbrust; Doug Bateman; Reynold Xin; Matei Zaharia</li>
+</ul>
+
+<h3><a name="stutorial9"></a>Tutorial 9 </h3>
+<p>Friday 13:30-15:00 <br/>
+<span class="location">Location: Bayview B </span><br/>
+<ul>  
+<li><strong>Automatic Entity Recognition and Typing in Massive Text Data</strong><br/> Xiang Ren; Ahmed El-Kishky; Heng Ji; Jiawei Han</li>
+</ul>
+
+<h3><a name="stutorial10"></a>Tutorial 10 </h3>
+<p>Friday 15:30-17:00 <br/>
+<span class="location">Location: Bayview B </span><br/>
+<ul>  
+<li><strong>Semistructured Models, Queries and Algebras in the Big Data Era</strong><br/> Yannis Papakonstantinou</li>
+</ul>
+
+
+
+
+<p>
+<h1><a name="awards" id="awards"></a>Award Talks</h1>
+<p>Thursday 8:30-10:00<br/>
+<span class="location">Location: Grand Ballroom A</span><br/>
+<h3>8:30 Award Announcements</h3>
+<ul>
+<li>Undergraduate Awards</li>
+<li>Programming Contest Award</li>
+<li>Best Demonstration Award</li>
+<li>SIGMOD Best Paper Award</li>
+<li>PODS Best Paper Award</li>  
+<li>PODS Test of Time Award</li> 
+<li>PODS Student Paper Award</li>  
+<li>SIGMOD Systems Award</li>  
+<li>Contributions Award</li>
+</ul>
+<h3>9:00 Awards and Presentations</h3>
+<ul>
+<li>Jim Gray Doctoral Dissertation Awards</li>
+<li>Test-of-Time Award</li>
+<li>Edgar F. Codd Innovations Award</li>
+</ul>
+</p>
+
+
+
+<p>
+<h1><a name="industry_career" id="industry_career"></a>Careers in Industry Panel</h1>
+<p>Wednesday 10:30-12:15<br/>
+<span class="location">Location: Seacliffs</span><br/>
+Moderator: Guy Lohman (IBM Research)<br />
+Panelists: 
+<ul>
+<li>Alon Halevy (Recruit)</li>
+<li>Andrew Witkowski (Oracle)</li>
+<li>Divesh Srivastava(ATT)</li>
+<li>Ganapathy Subramanian (Infosys)</li>
+<li>Janet Wiener (Facebook)</li>
+<li>Kate Morris (Tableau)</li>
+<li>Latha Colby (Platfora)</li>
+<li>Marcin Zukowski (Snowflake)</li>
+<li>Pinar T&ouml;z&uuml;n (IBM Research)</li>
+<li>Siuling Ku (Salesforce)</li>
+<li>Surajit Chaudhuri (Microsoft)</li> 
+</ul>
+</p>
+
+
+
+
+
+
+<p>
+<h1><a name="business" id="business"></a>Business Meeting</h1>
+<p>Tuesday 17:30-19:00<br/>
+<span class="location">Location: Seacliffs</span><br/>
+<ul>
+<li>Chair's Report - Donald Kossman</li>
+<li>Vice Chair's Report - Anastasia Ailamaki</li>
+<li>Secretary/Treasurer's Report - Magdalena Balazinska</li>
+<li>SIGMOD General Chairs' report - Fatma &Ouml;zcan and Georgia Koutrika</li>
+<li>PODS General Chair's Report - Tova Milo</li>
+<li>SIGMOD PC Chair's Report – Samuel Madden</li>
+<li>Advertisement for SIGMOD 2017 - Rada Chirkova and Jun Yang</li>
+</ul>
+</p>
+
+
+
+
+
+
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2016 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

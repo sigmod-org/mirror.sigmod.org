@@ -1,0 +1,563 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2020 ACM SIGMOD/PODS Conference: Portland, Oregon, USA - Organization: PODS Program Committee</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/oregon/oldtown-1.jpg'
+
+theImages[1] = 'images/oregon/downtown.jpg'
+
+theImages[2] = 'images/oregon/LanSuGarden.jpg'
+
+theImages[3] = 'images/oregon/JapaneseGarden.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Old Town'
+
+theImageDescriptions[1] = 'Downtown, Portland'
+
+theImageDescriptions[2] = 'Lan Su Garden'
+
+theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.travelportland.com/'
+
+theImageURLs[1] = 'https://www.travelportland.com/'
+
+theImageURLs[2] = 'https://www.travelportland.com/'
+
+theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterPortland.png" alt="June 14 - June 19, 2020, Portland, Oregon, USA" width="742"/>');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+<!-- <div id="masthead" style="height:auto"><img src="images/2020-SIGMOD-WebBanner.png" alt="top banner" width="750"/></div> -->
+
+<!-- <div style="font-size:0.8em;text-align:center;color: #485b81;font-weight: bold;"><p style="margin:0">ACM SIGMOD/PODS International Conference on Management of Data&nbsp&nbsp&nbsp&nbsp June 14 - June 19, 2020&nbsp&nbsp&nbsp Portland, OR, USA</p>
+</div> <br> June 14 - June 19, 2020   Portland, OR, USA-->
+
+
+
+
+
+<div id="logoACMSIGMOD" style="margin:0px;height:84px"><a href="index.shtml">
+
+<img src="images/2020Sigmod-LOGO.png" alt="ACM SIGMOD City, Country, Year" height="85" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+ <li><a href="report.pdf" title="Experience Report">Experience Report</a></li>
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="online-webpage.shtml" title="Full Conference Program Now Available"><font color="red">Full Conference Program Now Available</font></a></li>
+    <li><a href="covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>
+    <li><a href="http://www.cvent.com/d/yhqjj1" title="Registration">Registration</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award <font color="red">(canceled) </font></a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="info-coming-soon" title="Banquet">Banquet</a></li>
+	<li><a href="info-coming-soon.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="info-coming-soon.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="online-webpage.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_tutorials.shtml" title="Invited Tutorials">Invited Tutorials</a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="online-webpage.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Awards">Awards</a></li>
+ <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/leaders.html" title="Programming Contest">Programming Contest</a></li>
+ <li><a href="social/sigmod_social_event.shtml" title="Social Events">Social Events</a></li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2020">Tweets by sigmod2020</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+			<div id="maincontent">
+				  <h1> Organization: SIGMOD Program Committee</h1>
+
+<p class="p2"><span class="s1"><b>General Chairs</b><br>
+David Maier (Portland State University) <br>
+Rachel Pottinger (University of British Columbia, Canada)<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"><b>Program co-Chairs</b><br>
+Anhai Doan (University of Wisconsin)<br>
+Wang-Chiew Tan (Megagon Labs)</span></p>
+<p class="p2"><span class="s1"><b>Group Leaders</b><br>
+Aditya G Parameswaran (UC Berkeley) <br>
+Andrew Pavlo (Carnegie Mellon University)<br>
+Anthony Tung (National University of Singapore)<br>
+Evimaria Terzi (Boston University)<br>
+Gerome Miklau (University of Massachusetts Amherst)<br>
+Jeff Naughton (Google)<br>
+Jeffrey Xu Yu (Chinese University of Hong Kong)<br>
+Jens Dittrich (Saarland University)<br>
+Johannes Gehrke (Microsoft)<br>
+Kian-Lee Tan (National University of Singapore)<br>
+Neoklis Polyzotis (Google)<br>
+Pinar Tozun (ITU)<br>
+Prithviraj Sen (IBM Almaden Research Center)<br>
+Ren&eacutee J. Miller (Northeastern University)<br>
+Tamer Ozsu (University of Waterloo)<br>
+Tova Milo (Tel Aviv University)<br>
+Yunyao Li (IBM Almaden Research Center)<br>
+</span></p>
+
+<p class="p2"><span class="s1"><b>PC Members</b><br>
+Aaron J Elmore (University of Chicago)<br>
+Abdussalam Alawini (University of Illinois at Urbana-Champaign) <br>
+Alan Fekete (University of Sydney)<br>
+Alex Beutel (Google) <br>
+Alexander Boehm (SAP SE) <br>
+Alexandra Meliou (University of Massachusetts Amherst)<br>
+Alexandros Labrinidis (University of Pittsburgh)<br>
+Alin Deutsch (UCSD) <br>
+Alvin Cheung (UC Berkeley)<br>
+Anja Gruenheid (Google Inc.) <br>
+Antonios Deligiannakis (Technical University of Crete) <br>
+Arijit Khan (Nanyang Technological University) <br>
+Aristides Gionis (Aalto University) <br>
+Arun Kumar (University of California, San Diego) <br>
+Arvind Arasu (Microsoft) <br>
+Ashraf Aboulnaga (Qatar Computing Research Institute, HBKU) <br>
+Assaf Schuster (Technion) <br>
+Avigdor Gal (Technion) <br>
+Avrilia Floratou (Microsoft) <br>
+Babak Salimi (University of Washington) <br>
+Badrish Chandramouli (Microsoft) <br>
+Bailu Ding (Microsoft Research) <br>
+Beng Chin Ooi (NUS) <br>
+Bill Howe (University of Washington) <br>
+Bin Cui (Peking University) <br>
+Bingsheng He (National University of Singapore)<br>
+Bolin Ding (Data Analytics and Intelligence Lab, Alibaba Group) <br>
+Boon Thau Loo (Univ. of Pennsylvania) <br>
+Boris Glavic (Illinois Institute of Technology) <br>
+Byron Choi (Hong Kong Baptist University, SAR China)<br>
+Çağatay Demiralp (Megagon Labs) <br>
+Carsten Binnig (TU Darmstadt) <br>
+Ce Zhang (ETH) <br>
+Chen Chen (Megagon Labs) <br>
+Chen Li (UC Irvine) <br>
+Chengkai Li (The University of Texas at Arlington) <br>
+Chris De Sa (Cornell) <br>
+Chris Jermaine (Rice University)<br>
+Christoph Koch (EPFL, Switzerland) <br>
+Chuan Lei (IBM Research - Almaden) <br>
+Cong Yu (Google) <br>
+Da Yan (University of Alabama at Birmingham)<br>
+Daisy Zhe Wang (University of Florida) <br>
+Daniel Kifer (Pennsylva State University, USA) <br>
+Danica Porobic (Oracle) <br>
+Daniel Deutch (Tel Aviv University)<br>
+Dimitris Papadias (HKUST) <br>
+Doug Burdick (IBM Research) <br>
+Eduard Dragut (Temple Univ.) <br>
+Erhard Rahm (University of Leipzig) <br>
+Faisal Nawab (UC Santa Cruz) <br>
+Feifei Li (University of Utah) <br>
+Felix Schuhknecht (Saarland University) <br>
+Flip Korn (Google, USA) <br>
+Florin Rusu (UC Merced) <br>
+Gabriela Jacques-Silva (Facebook) <br>
+Gao Cong (Nanyang Technological Univesity) <br>
+Gautam Das (University of Texas at Arlington) <br>
+Georgios Fakas (Uppsala University) <br>
+George Kollios (Boston University) <br>
+Gerhard Weikum (Max-Planck-Institut fur Informatik) <br>
+Glenn M Fung (American Family Insurance) <br>
+Goetz Graefe (Google) <br>
+Goncalo Simoes (Google) <br>
+Graham Cormode (University of Warwick) <br>
+Guoliang Li (Tsinghua University ) <br>
+Haixun Wang (WeWork Research) <br>
+Han Li (Amazon)<br>
+Holger Pirk (Imperial College, UK) <br>
+Huanchen Zhang (Carnegie Mellon University) <br>
+Immanuel Trummer (Cornell ) <br>
+Ippokratis Pandis (Amazon) <br>
+James Cheng (CUHK) <br>
+Jana Giceva (Imperial College London) <br>
+Jennie Rogers (Northwestern University) <br>
+Jens Teubner (TU Dortmund University <br>
+Jian Pei (Simon Fraser University ) <br>
+Jiannan Wang (Simon Fraser University) <br>
+Jignesh Patel (UW - Madison) <br>
+Jinfeng Li (Megagon Labs) <br>
+Jose M Faleiro (</span><span class="s2">UC Berkeley</span><span class="s1">) <br>
+Joy Arulraj (Georgia Tech) <br>
+Ju Fan (Renmin University of China) <br>
+Jun Yang (Duke University ) <br>
+Justin Levandoski (Amazon Web Services) <br>
+Karthik Ramachandra (Microsoft Gray Systems Lab) <br>
+Kaushik Chakrabarti (Microsoft Research) <br>
+Ke Yi (Hong Kong University of Science and Technology, Hong Kong) <br>
+Khuzaima Daudjee (University of Waterloo) <br>
+Kyuseok Shim (Seoul National University) <br>
+Laks V.S. Lakshmanan (The University of British Columbia) <br>
+Leilani Battle (University of Maryland) <br>
+Li Xiong (Emory University) <br>
+Makoto Onizuka (Osaka University) <br>
+Manos Athanassoulis (Boston University)<br>
+Marco Serafini (University of Massachusetts Amherst) <br>
+Matthias Boehm (Graz University of Technology) <br>
+Michael Hay (Colgate University) <br>
+Mirek Riedewald (Northeastern University) <br>
+Mohamed Mokbel (University of Minnesota - Twin Cities) <br>
+Mohammad Sadoghi (University of California-Davis) <br>
+Mourad Ouzzani (Qatar Computing Research Institute, HBKU) <br>
+Nan Tang (Qatar Computing Research Institute, HBKU) <br>
+Nesime Tatbul (Intel Labs and MIT) <br>
+Nick Koudas (University of Toronto) <br>
+Nikita Bhutani (Megagon Labs) <br>
+Nikos Mamoulis (University of Ioannina) <br>
+Oliver A Kennedy (University at Buffalo, SUNY) <br>
+Orestis Polychroniou (Amazon) <br>
+Paolo Papotti (Eurecom) <br>
+Paraschos Koutris (University of Wisconsin-Madison) <br>
+Paul Suganthan (Google) <br>
+Peter Alvaro (UC Santa Cruz) <br>
+Peter Boncz (CWI) <br>
+Peter Pietzuch (Imperial College London) <br>
+Pradap Konda (Facebook) <br>
+Qiong Luo (Hong Kong University of Science and Technology)<br>
+Raghav Kaushik (Microsoft) <br>
+Raymond Chi-Wing Wong (Hong Kong University of Science and Technology) <br>
+Rebecca Taft (Cockroach Labs) <br>
+Renata Borovica-Gajic (University of Melbourne) <br>
+S. Sudarshan (IIT Bombay) <br>
+Sanjay Krishnan (University of Chicago) <br>
+Sara Cohen (The Hebrew University of Jerusalem) <br>
+Saravanan Thirumuruganathan (QCRI) <br>
+Sebastian Schelter (New York University) <br>
+Semih Salihoglu (University of Waterloo) <br>
+Sergey Melnik (Google, USA) <br>
+Sharad Mehrotra (U.C. Irvine) <br>
+Shivaram Venkataraman (University of Wisconsin, Madison) <br>
+Sidharth Mudgal (Google) <br>
+Slava Novgorodov (eBay Research) <br>
+Sourav S Bhowmick (Nanyang Technological University) <br>
+Sriram Rao (Microsoft) <br>
+Steven Whang (KAIST) <br>
+Stratos Idreos (Harvard) <br>
+Sudeepa Roy (Duke University, USA) <br>
+Sudip Roy (Google) <br>
+Sudipto Das (Amazon Web Services) <br>
+Themis Palpanas (Paris Descartes University) <br>
+Theodoros Rekatsinas (University of Wisconsin-Madison) <br>
+Thomas Neumann (TUM) <br>
+Tim Kraska (MIT) <br>
+Vagelis Hristidis (UC Riverside) <br>
+Viktor Leis (Friedrich Schiller University Jena) <br>
+Vivek Narasayya (Microsoft Research) <br>
+Walid Aref (Purdue Univ., USA) <br>
+Wei Wang (University of New South Wales) <br>
+Wei-Shinn Ku (Auburn University) <br>
+Wenfei Fan (Univ. of Edinburgh &amp; Beihang Univ.) <br>
+Wentao Wu (Microsoft Research) <br>
+Wolfgang Gatterbauer (Northeastern University) <br>
+Xi He (University of Waterloo) <br>
+Xi Wu (Google) <br>
+Xiangyao Yu (MIT) <br>
+Xiaokui Xiao (National University of Singapore) <br>
+Xiaolan Wang (University of Massachusetts Amherst) <br>
+Xu Chu (GATECH) <br>
+Xuemin Lin (University of New South Wales) <br>
+Yael Amsterdamer (Bar-Ilan University) <br>
+Yannis Katsis (IBM Research Almaden) <br>
+Yannis Velegrakis (Utrecht University) <br>
+Yeye He (Microsoft Research) <br>
+Yongjoo Park (University of Michigan) <br>
+Yash Govind (University of Wisconsin - Madison) <br>
+Yuanyuan Tian (IBM Research - Almaden) <br>
+Yuliang Li (UC San Diego) <br>
+Ziawasch Abedjan (TU Berlin) <br>
+</span></p>
+</body>
+</html>

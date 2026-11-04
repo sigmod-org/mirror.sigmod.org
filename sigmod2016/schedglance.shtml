@@ -1,0 +1,1688 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2016 ACM SIGMOD/PODS Conference: San Francisco, USA - Program: Overview</title>
+
+
+
+
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+              table.day{
+			font-family: Sans-Serif;
+			border-width: 0px;
+			border-spacing: 1px;
+			border-color: black;
+			width: 430pt;            
+		}
+		table.day td {
+			line-height: 110%;
+			border-width: 1px 1px 1px 1px;
+			padding: 2px 0px 2px 0px;
+			border-style: dotted;
+			border-color: gray gray gray gray;
+			background-color: white;
+			text-align: center;
+			vertical-align: middle;
+		}
+		table.day td.header{
+			font-size: 130%;
+			font-weight: bold;
+			padding: 8px;
+			background-color: #383838;
+			color: white;           
+		}
+		table.day td.keynote{
+			background-color: #f4cae4;
+			color: black;           
+		}
+		table.day td.time{
+			width: 6%;          
+		}
+		table.day td.nosession{
+			background-color:   #F0F0F0 ;
+			color:  #989898; 
+			width: 5%;           
+		}
+		table.day td.lunch{
+			background-color: #C0C0C0;
+			color: black;           
+		}
+		table.day td.pods{
+			background-color: #cdebc6;
+		}
+		table.day td.sigmod{
+			background-color: #c6d9f1;          
+		}
+		table.day td.tutorial{
+			background-color: #d9d9d9;
+		}
+		table.day td.workshop{
+			background-color: #8dd3c7;          
+		}
+		
+		table.day td.event{
+			background-color: #b9ece3;          
+		}
+		
+		table.day td.reception{
+			background-color: #ffccaa; <!-- #fb8072; -->         
+		}
+		table.day td.industrial{
+			background-color: #ffffb3;           
+		}       
+		table.day td.demo{
+			background-color: #e6f5c9;                  
+		}
+		table.day td.poster{
+			background-color: #9aa97e;                  
+		}
+		table.day td.business{
+			background-color: #ffc000;                  
+		}  
+		table.day td.welcome{
+			background-color: #fdcdac;                  
+		}
+		table.day td.inv{
+			background-color: #fde9d9;                  
+		}
+		li.program_item{
+			margin-bottom: 5px;
+			line-height: 1.3em;
+		}
+		h3.session{
+			margin-bottom: 0px;
+			padding-top:10px;
+			padding-bottom:1px;
+			padding-left: 10px;
+			line-height: 1em;
+		}
+		p.chair{
+			color: #006697;
+			padding-left: 10px;			
+			margin-top:-1px;
+		}
+
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/SanFrancisco/CableCar3.jpg'
+
+theImages[1] = 'images/SanFrancisco/SFORS2.jpg'
+
+theImages[2] = 'images/SanFrancisco/Alcatraz.jpg'
+
+theImages[3] = 'images/SanFrancisco/GolbenGate.jpg'
+
+theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Cable Car'
+
+theImageDescriptions[1] = 'Hyatt Regency, San Francisco'
+
+theImageDescriptions[2] = 'Alcatraz Island'
+
+theImageDescriptions[3] = 'Golden Gate Bridge'
+
+theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'http://sanfranciscoregency.hyatt.com/en/hotel/home.html'
+
+theImageURLs[1] = 'http://sanfranciscoregency.hyatt.com/en/hotel/home.html'
+
+theImageURLs[2] = 'http://www.nps.gov/alca/index.htm'
+
+theImageURLs[3] = 'http://www.goldengatebridge.org/'
+
+theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterSF.jpg" alt="ACM SIGMOD/PODS, June 26 - July 1, 2016, San Francisco, USA" width="742" height="45" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  
+  <!-- <img src="images/sigmod16-logo_b.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div> -->
+  
+  <img src="images/SIGMODPODS2016-logo.jpg" alt="ACM SIGMOD City, Country, Year" width="113" height="65" /></a></div>
+  
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+<div id="wrap">
+			
+		<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  
+
+
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+  
+  
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorials PC </a></li>
+  <li><a href="org_conference_volunteers.shtml" title="Conference Volunteers">Conference Volunteers </a></li> 
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+
+<!-- 
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+</ul>
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="calls_papers_sigmod_undergrad_poster.shtml" title="UndergraduateCompetition">Undergraduate Competition</a></li>
+  <li><a href="fagin_event.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>
+  <li><a href="http://dsg.uwaterloo.ca/sigmod16contest/" title="ProgrammingContest">Programming Contest</a></li>
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="http://dbweb.enst.fr/events/sigmod2016nrs/" title="NewResearchers">New Researcher Symposium</a></li>
+</ul>
+
+
+
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">	
+	<li><a href="attending.shtml" title="Attending">Attending the Conference</a></li>
+	<li><a href="banquet.shtml" title="Banquet">Banquet</a></li>
+	<li><a href="https://www.regonline.com/builder/site/?eventid=1789063" title="Registration">Registration</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="nearbyrestaurants.pdf" title="Restaurants">Nearby Restaurants</a></li>		
+	<li><a href="aboutSF.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="transportation.shtml" title="Transportation">Transportation</a></li>	
+</ul>
+
+
+
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+
+
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="programcontent"> 
+
+<a name="top" id="top"></a>
+<h1>SIGMOD/PODS 2016 Program Overview</h1>
+<!--
+<p>				  
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="index.shtml">Back to homepage</a>
+</p><br/>
+-->
+
+
+<!--
+<p>&nbsp;&nbsp;&nbsp;
+<strong>Registration Hours:</strong>
+<ul>
+<li>Sunday: 7:30 - 18:00 </li>
+<li>Monday: 7:30 - 19:00 </li>
+<li>Tuesday: 7:30 - 18:30 </li>
+<li>Wednesday: 8:00 - 16:00 </li>
+<li>Thursday: 8:00 - 12:00 </li>
+<li>Friday: 8:00 - 12:00 </li>
+</ul>
+</p>
+-->
+
+
+<!--
+<p>&nbsp;&nbsp;&nbsp; 
+Several exciting changes are introduced this year. The number of concurrent<br /> 
+&nbsp;&nbsp;&nbsp; tracks is smaller. SIGMOD 2016 will only have 3 parallel tracks. Tutorials are<br /> 
+&nbsp;&nbsp;&nbsp; pulled out of the main SIGMOD program, and they will be held on Sunday,<br /> 
+&nbsp;&nbsp;&nbsp; Monday and Friday. Finally, industrial papers will be mixed with SIGMOD<br /> 
+&nbsp;&nbsp;&nbsp; research papers, so they are included in the SIGMOD paper sessions.
+</p>
+-->
+
+<div style="margin-left: 5px;" style="margin-right: 5px;">
+<p>
+&nbsp;&nbsp;&nbsp;Several exciting changes are introduced this year.
+<ul>
+<li>The number of concurrent tracks is smaller. <br /> SIGMOD 2016 will only have 3 parallel tracks.</li>
+<li>Tutorials are pulled out of the main SIGMOD program, <br /> and they will be held on Sunday, Monday and Friday.</li>
+<li>Industrial papers will be mixed with SIGMOD research <br /> papers, and included in the SIGMOD paper sessions.</li>
+</ul>
+</p>
+</div>
+
+<div style="margin-left: 5px;" style="margin-right: 5px;">
+<p>
+&nbsp;&nbsp;&nbsp;Try out <a style="color: #CC6600; text-decoration: none;" href=" http://confer.csail.mit.edu/sigmod2016/schedule">Confer</a>, our online interactive conference program.
+</p>
+</div>
+
+
+
+
+<p>&nbsp;&nbsp;&nbsp;<strong>Conference Days:</strong> 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#sunday">Sunday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#monday">Monday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#tuesday">Tuesday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#wednesday">Wednesday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#thursday">Thursday</a> |
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#friday">Friday</a>
+</p>
+
+
+<p> </p>
+
+
+
+
+<div style="margin-left: 5px;">
+<a name="sunday"> </a>
+<table class="day" width="550" >
+   <tr>
+      <td class="header" colspan="7">
+      <p align="center"><strong>SUNDAY<br/></strong></p>
+      </td>
+    </tr>
+  <tr>
+    <td width="30">
+    <p align="center">8:30-10:00</p>
+    </td>
+    
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://www.dbs.ifi.lmu.de/georich16/program.php">
+   <strong>GeoRich</strong></a><br/>
+      Golden Gate
+      </p></td>    
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://cis-linux1.temple.edu/~edragut/sigmodphdsymposium2016/program.html">
+   <strong>PhD<br /> Symp.</strong></a><br/>
+      Seacliff B</p></td>
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://hilda.io/2016/">
+   <strong>HILDA</strong></a><br/>
+      Seacliff A</p></td>
+   
+    <td colspan="1" class="workshop"><a style="color: rgb(204, 102, 0);
+text-decoration: none;"
+      href="http://webdb2016.technion.ac.il/program.html"><strong>WebDB</strong></a><br/>
+    Marina</td>
+
+      <td colspan="1" class="tutorial" width="72">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial1"><strong>SIGMOD</br> Tutorial 1</strong></a><br/>Seacliff D<br /></p>
+      </td>
+
+    
+    <td colspan="1" class=""><br/></td>
+  </tr>
+
+
+
+ <tr>
+    <td width="30">
+    <p align="center">10:00-10:30</p>
+    </td>
+    <td colspan="6" width="62"><strong>Coffee Break (Seacliff Foyer)</strong></td> 
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+  <tr>
+    <td width="30">
+    <p align="center">10:30-12:00</p>
+    </td>
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://www.dbs.ifi.lmu.de/georich16/program.php">
+   <strong>GeoRich</strong></a><br/>
+      Golden Gate
+      </p></td>    
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://cis-linux1.temple.edu/~edragut/sigmodphdsymposium2016/program.html">
+   <strong>PhD<br /> Symp.</strong></a><br/>
+      Seacliff B</p></td>
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://hilda.io/2016/">
+   <strong>HILDA</strong></a><br/>
+      Seacliff A</p></td>
+   
+    <td colspan="1" class="workshop"><a style="color: rgb(204, 102, 0);
+text-decoration: none;"
+      href="http://webdb2016.technion.ac.il/program.html"><strong>WebDB</strong></a><br/>
+    Marina</td>
+
+      <td colspan="1" class="tutorial" width="72">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial1"><strong>SIGMOD</br> Tutorial 1</strong></a><br/>Seacliff D<br /></p>
+      </td>
+
+
+    <td colspan="1" class=""><br/></td>      
+
+    
+  </tr>
+
+
+
+  
+
+ <tr>
+    <td width="30">
+    <p align="center">12:00-13:30</p>
+    </td>
+    <td colspan="6" width="62">Lunch on your own<br/></td> 
+  </tr>
+
+
+
+
+
+
+  <tr>
+    <td width="30">
+    <p align="center">13:30-15:00</p>
+    </td>
+    
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://www.dbs.ifi.lmu.de/georich16/program.php">
+   <strong>GeoRich</strong></a><br/>
+      Golden Gate
+      </p></td>    
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://cis-linux1.temple.edu/~edragut/sigmodphdsymposium2016/program.html">
+   <strong>PhD<br /> Symp.</strong></a><br/>
+      Seacliff B</p></td>
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://hilda.io/2016/">
+   <strong>HILDA</strong></a><br/>
+      Seacliff A</p></td>
+   
+    <td colspan="1" class="workshop"><a style="color: rgb(204, 102, 0);
+text-decoration: none;"
+      href="http://webdb2016.technion.ac.il/program.html"><strong>WebDB</strong></a><br/>
+    Marina</td>
+
+      <td colspan="1" class="tutorial" width="72">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial2"><strong>SIGMOD</br> Tutorial 2</strong></a><br/>Seacliff D<br /></p>
+      </td>
+
+
+    <td rowspan="2" class="event">
+    <a style="color: rgb(204, 102, 0); text-decoration: none;" href="fagin_event.shtml"><strong>Ron Fagin<br /> Event</strong></a><br/>
+    (start: 14.00) Bayview B</td>
+
+ </tr>
+
+
+
+
+
+
+  <tr>
+    <td width="30">
+    <p align="center">15:00-15:30</p>
+    </td>
+    <td colspan="5" width="62"><strong>Coffee Break (Seacliff Foyer)</td> 
+  </tr>
+
+
+
+
+
+  <tr>
+    <td width="30">
+    <p align="center">15:30-17:00</p>
+    </td>
+    
+    
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://www.dbs.ifi.lmu.de/georich16/program.php">
+   <strong>GeoRich</strong></a><br/>
+      Golden Gate
+      </p></td>    
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://cis-linux1.temple.edu/~edragut/sigmodphdsymposium2016/program.html">
+   <strong>PhD<br /> Symp.</strong></a><br/>
+      Seacliff B</p></td>
+
+    <td colspan="1" class="workshop">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://hilda.io/2016/">
+   <strong>HILDA</strong></a><br/>
+      Seacliff A</p></td>
+   
+    <td colspan="1" class="workshop"><a style="color: rgb(204, 102, 0);
+text-decoration: none;"
+      href="http://webdb2016.technion.ac.il/program.html"><strong>WebDB</strong></a><br/>
+    Marina</td>
+
+      <td colspan="1" class="tutorial" width="72">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial2"><strong>SIGMOD</br> Tutorial 2</strong></a><br/>Seacliff D<br /></p>
+      </td>
+
+
+    <td rowspan="2" class="event">Break (Bayview Foyer) <br /> <hr> <br />
+    <a style="color: rgb(204, 102, 0); text-decoration: none;" href="fagin_event.shtml"><strong>Ron Fagin<br /> Event</strong></a><br/>
+    (end: 18.00) Bayview B</td>
+
+</tr>
+
+
+
+
+
+
+ <tr>
+    <td width="34">
+    <p align="center">17:00-18:00</p>
+    </td>
+
+    <td colspan="5" class="td.nosession"><br/></td>  
+    
+    
+  </tr>
+  
+  
+  
+  
+  
+   <tr>
+    <td width="34">
+    <p align="center">18:00-20:00</p>
+    </td>
+    <td colspan="7" class="reception" width="62">
+      <strong>PODS Reception</strong><br /> Waterfront CDE
+      </td> 
+  </tr>
+
+</table>
+
+
+
+
+
+
+
+
+<p align="left"> <a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+
+<a name="monday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="4">
+      <p align="center"><strong>MONDAY<br/></strong></p>
+      </td>
+    </tr>
+
+    
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+
+    <td colspan="3" width="437"><p align="center"><strong>Light Breakfast (Grand Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+
+  <tr> 
+
+    <td width="34"><p align="center">8:30-10.00</p></td> 
+<!--
+    <td colspan="1" class="workshop"width="150"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://daslab.seas.harvard.edu/damon2016/program.html"><strong>DAMON</strong></a><br/> Seacliff AB</td>
+-->
+
+
+
+    <td colspan="3" class="keynote" width="320"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#keynote"><strong>PODS Keynote</strong></a><br />Grand Ballroom BC<br/>
+</p></td> 
+
+  </tr> 
+
+
+
+
+
+  <tr> 
+    <td width="34"><p align="center">10:00-10:30</p></td> 
+    <td colspan="4" width="437"><p align="center"><strong>Coffee
+    Break (Grand Foyer + Market Foyer)</strong>
+</p></td> 
+  </tr> 
+
+
+
+
+  <tr> 
+    <td width="34"><p align="center">10:30-12:00</p></td> 
+    
+     <td colspan="1" class="workshop"width="150"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://daslab.seas.harvard.edu/damon2016/program.html"><strong>DAMON</strong></a><br/> Seacliff AB<br /> (start: 10.15)</td>
+
+
+      <td colspan="1" class="tutorial" width="150">
+<!--      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial2"><strong>SIGMOD</br> Tutorial 2</strong></a><br/>Seacliff D<br /></p>
+-->
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial3"><strong>SIGMOD</br> Tutorial 3</strong></a><br/>Seacliff C<br /></p>
+      </td>
+   
+    
+    <td class="pods" colspan="1" width="320">
+<!--    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="program_pods.shtml#pods1"><strong>PODS 1</strong></a><br/>Web Queries and Big Data<br />Grand Ballroom BC<br/></p>
+-->
+    
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="program_pods.shtml#pawards"><strong>PODS Award talks + 1 regular paper</strong></a><br />Grand Ballroom BC<br/></p>
+
+    </td> 
+
+  </tr> 
+
+
+
+
+
+  <tr> 
+    <td width="34"><p align="center">12:00-13:30</p></td> 
+    <td colspan="4" width="437"><p align="center">Lunch on your own</p></td> 
+  </tr> 
+
+
+
+
+  <tr> 
+    <td width="34"><p align="center">13:30-15:00</p></td> 
+
+     <td colspan="1" class="workshop"width="150"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://daslab.seas.harvard.edu/damon2016/program.html"><strong>DAMON</strong></a><br/> Seacliff AB</td>
+
+
+   
+    
+    <td class="pods" colspan="2" width="320">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#gems"><strong>Gems of PODS talks</strong></a><br />Grand Ballroom BC<br/></p>
+    </td> 
+
+  </tr> 
+
+
+
+  <tr> 
+    <td width="34"><p align="center">15:00-15:30</p></td> 
+    <td colspan="4" width="437"><p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong>
+    </p></td> 
+  </tr> 
+  
+  
+  
+  
+  
+  
+  
+ <tr> 
+    <td width="34"><p align="center">15:30-17:00</p></td> 
+
+     <td colspan="1" class="workshop"width="150"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://daslab.seas.harvard.edu/damon2016/program.html"><strong>DAMON</strong></a><br/> Seacliff AB</td>
+
+
+      <td colspan="1" class="tutorial" width="150">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial4"><strong>SIGMOD</br> Tutorial 4</strong></a><br/>Seacliff C<br /></p>
+      </td>
+   
+    
+    <td class="pods" colspan="1" width="320">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#psession1"><strong>PODS Session 1</strong></a><br />Grand Ballroom BC<br/>(end: 17.45)</p>
+    </td> 
+
+  </tr> 
+
+
+
+ <tr>
+    <td width="34">
+    <p align="center">17:00-18:30</p>
+    </td>
+
+    <td colspan="3" class="td.nosession"><br/></td>    
+  </tr>
+
+
+<tr> 
+    <td width="34"><p align="center">18:30-19:30</p></td> 
+    <td colspan="3" class="business" width="437"><p
+    align="center"><strong>PODS Business Meeting</strong><br />
+      Seacliff B
+</p></td> 
+  </tr> 
+
+
+    <tr>
+      <td width="34">
+      <p align="center">19:30-21:30</p>
+      </td>
+      <td colspan="3" class="reception" width="437">
+      <p align="center"><strong>SIGMOD Welcome Reception</strong><br /> Waterfront CDE
+     </p>
+      </td>
+    </tr>
+    
+    
+    
+    
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p align="left"><a style="color: rgb(204, 102, 0);" href="#top">top</a><p/>
+
+<a name="tuesday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="5">
+      <p align="center"><strong>TUESDAY<br/></strong></p>
+      </td>
+    </tr>
+    
+    
+
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+
+    <td colspan="4" width="437"><p align="center"><strong>Light Breakfast (Grand Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+    
+
+    <tr>
+      <td width="75">
+      <p align="center">8:30-10:00</p>
+      </td>
+      <td width="437" colspan="4" class="keynote" >
+      <p align="center"><a style="color: rgb(204, 102, 0);text-decoration: none;" href="./program_sigmod.shtml#keynote"><strong>SIGMOD Opening + Keynote</strong></a><br/>
+	Grand Ballroom
+      </p>
+      </td>
+    </tr>
+
+
+    
+    <tr>
+      <td width="34">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td width="437" colspan="4">
+      <p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong></p>
+      </td>
+    </tr>
+
+
+
+
+    <tr>
+      <td width="34"><p align="center">10:30-12:00</p></td>
+
+      <td class="tutorial" width="140">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+	text-decoration: none;" href="./program_pods.shtml#ptutorial1"><strong>PODS</br>
+	Tutorial 1</strong></a><br/>Grand Ballroom B
+      </p>
+      </td>
+
+      
+      
+      <td class="sigmod" width="100">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession1"><strong>SIGMOD<br /> Session 1</strong></a><br/>Bayview<br /> (end: 12.15)
+      </p>
+      </td>
+      
+      <td class="sigmod" width="100">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession2"><strong>SIGMOD<br /> Session 2</strong></a><br/>Grand Ballroom C<br /> (end: 12.15)
+      </p>
+      </td>
+      
+      <td class="sigmod" width="100">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession3"><strong>SIGMOD<br /> Session 3</strong></a><br/>Seacliffs<br /> (end: 12.15)
+      </p>
+      </td>
+         
+   </tr>
+
+
+
+
+  <tr> 
+    <td width="34"><p align="center">12:00-13:30</p></td> 
+    <td colspan="4" width="437"><p align="center"><strong>Lunch in Waterfront (Atrium Level)</strong>
+  </tr> 
+
+
+
+
+
+
+    <tr>
+      <td width="34"><p align="center">13:30-15:00</p></td>
+
+    <td class="pods" colspan="1" width="120">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#psession2"><strong>PODS Session 2</strong></a><br />Grand Ballroom B</p>
+    </td> 
+      
+      
+      <td class="sigmod" width="100">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession4"><strong>SIGMOD<br /> Session 4</strong></a><br/>Bayview<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="100">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession5"><strong>SIGMOD<br /> Session 5</strong></a><br/>Grand Ballroom C<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="100">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession6"><strong>SIGMOD<br /> Session 6</strong></a><br/>Seacliffs<br />
+      </p>
+      </td>
+         
+   </tr>
+
+
+    <tr>
+      <td width="34">
+      <p align="center">15:00-15:30</p>
+      </td>
+      <td colspan="4" width="437">
+      <p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong></p>
+      </td>
+    </tr>
+
+
+    <tr>
+      <td width="34"><p align="center">15:30-17:00</p></td>
+
+    <td class="pods" colspan="1" width="120">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#psession3"><strong>PODS Session 3</strong></a><br />Grand Ballroom B<br /> (end: 17.20)</p>
+    </td> 
+      
+      
+      <td colspan="2" class="poster">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#posterssession1"><strong>Plenary Posters - Session 1</strong></a><br/>Grand Ballroom A
+      </p>
+      </td>
+      
+      
+      <td class="demo" width="110">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#demossession1"><strong>Demos - Session 1</strong></a><br/>Garden Room 
+      </p>
+      </td>
+         
+   </tr>
+
+
+    
+ <tr>
+    <td width="34">
+    <p align="center">17:00-17:30</p>
+    </td>
+
+    <td colspan="5" class="td.nosession"><br/></td>    
+  </tr>
+    
+    
+    
+    <tr>
+      <td width="34">
+      <p align="center">17.30-19:00</p>
+      </td>
+
+      <td colspan="2" class="business" width="437">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#business"><strong>Business Meeting</a></strong><br/>Seacliffs
+	</p>
+      </td>
+
+ 
+      <td colspan="2" class="sigmod" width="437">
+      <p align="center"> <a style="color: rgb(204, 102, 0);text-decoration: none;" href="http://dbweb.enst.fr/events/sigmod2016nrs/"> <strong>SIGMOD New Researcher Symposium</strong></a><br/>Grand Ballroom C
+      </p>
+      </td>
+    </tr>
+ 
+
+     <tr>
+      <td width="34"><p align="center">19:00-21:30</p>
+      </td>
+      <td colspan="4" class="reception" width="473">
+      <p align="center"><strong>Salesforce Reception</strong> <br /> <a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://www.exploratorium.edu/"><strong>Exploratorium</strong></a></p>
+      </td>
+    </tr>
+
+
+ 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<p align="left"><a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+
+<a name="wednesday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="5">
+      <p align="center"><strong>WEDNESDAY<br/> </strong></p>
+      </td>
+    </tr>
+
+
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+
+    <td colspan="4" width="437"><p align="center"><strong>Light Breakfast (Grand Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+
+    <tr>
+      <td width="34"><p align="center">8:30-10:00</p></td>
+
+      <td class="tutorial" width="150">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+	text-decoration: none;" href="./program_pods.shtml#ptutorial1"><strong>PODS</br>
+	Tutorial 2</strong></a><br/>Grand Ballroom B
+      </p>
+      </td>
+      
+      <td class="sigmod" width="130">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession7"><strong>SIGMOD<br /> Session 7</strong></a><br/>Bayview<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="130">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession8"><strong>SIGMOD<br /> Session 8</strong></a><br/>Grand Ballroom C<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="130">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession9"><strong>SIGMOD<br /> Session 9</strong></a><br/>Seacliffs<br />
+      </p>
+      </td>
+         
+   </tr>
+
+
+  <tr> 
+    <td width="75"><p align="center">10:00-10:30</p></td> 
+
+    <td colspan="4" width="437"><p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+    <tr>
+      <td width="34"><p align="center">10:30-12:00</p></td>
+
+    <td class="pods" colspan="1" width="150">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#psession4"><strong>PODS Session 4</strong></a><br />Grand Ballroom B</p>
+    </td> 
+      
+      
+      <td class="sigmod" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession10"><strong>SIGMOD<br /> Session 10</strong></a><br/>Bayview<br /> (end: 12.15)
+      </p>
+      </td>
+      
+      <td class="sigmod" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession11"><strong>SIGMOD<br /> Session 11</strong></a><br/>Grand Ballroom C<br /> (end: 12.15)
+      </p>
+      </td>
+      
+      <td class="sigmod" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#industry_career"><strong>Careers in Industry Panel</strong></a><br/>Seacliffs<br /> (end: 12.15)
+      </p>
+      </td>
+         
+   </tr>
+
+
+
+  <tr> 
+    <td width="34"><p align="center">12:00-13:30</p></td> 
+    <td colspan="4" width="437"><p align="center"><strong>Lunch in Waterfront (Atrium Level)</strong>
+    </p></td> 
+  </tr> 
+
+
+    
+    <tr>
+      <td width="34"><p align="center">13:30-15:00</p></td>
+
+    <td class="pods" colspan="1" width="150">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#psession5"><strong>PODS Session 5</strong></a><br />Grand Ballroom B</p>
+    </td> 
+      
+      
+      <td class="sigmod" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession12"><strong>SIGMOD<br /> Session 12</strong></a><br/>Bayview<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession13"><strong>SIGMOD<br /> Session 13</strong></a><br/>Grand Ballroom C<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession14"><strong>SIGMOD<br /> Session 14</strong></a><br/>Seacliffs<br />
+      </p>
+      </td>
+         
+   </tr>
+
+
+  <tr> 
+    <td width="75"><p align="center">15:00-15:30</p></td> 
+
+    <td colspan="4" width="437"><p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+
+    <tr>
+      <td width="34"><p align="center">15:30-17:00</p></td>
+
+    <td class="pods" colspan="1" width="200">
+    <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_pods.shtml#psession6"><strong>PODS Session 6</strong></a><br />Grand Ballroom B<br /> (end: 17.20)</p>
+    </td> 
+      
+      
+      <td colspan="2" class="poster">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#posterssession2"><strong>Plenary Posters - Session 2</strong></a><br/>Grand Ballroom A
+      </p>
+      </td>
+      
+      
+      <td class="demo" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#demossession2"><strong>Demos - Session 2</strong></a><br/>Garden Room 
+      </p>
+      </td>
+         
+   </tr>
+
+
+ <tr>
+    <td width="34">
+    <p align="center">17:00-18:00</p>
+    </td>
+
+    <td colspan="5" class="td.nosession"><br/></td>    
+  </tr>
+
+
+     <tr>
+      <td width="34"><p align="center">18:00-19:00</p>
+      </td>
+      <td colspan="4" class="reception" width="473">
+      <p align="center"><strong>Buses to Banquet</strong></p>
+      </td>
+    </tr>
+
+
+
+     <tr>
+      <td width="34"><p align="center">19:00-22:30</p>
+      </td>
+      <td colspan="4" class="reception" width="473">
+      <p align="center"><strong>Conference Banquet</strong> <br /> <a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://www.calacademy.org/"><strong>California Academy of Science</strong></a></p>
+      </td>
+    </tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+<p align="left"><a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+<br />
+<a name="thursday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="4">
+      <p align="center"><strong> THURSDAY<br/></strong></p>
+      </td>
+    </tr>
+    
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+
+    <td colspan="3" width="437"><p align="center"><strong>Light Breakfast (Grand Foyer)</strong><br />
+    </td> 
+  </tr> 
+  
+   <tr>
+      <td width="75">
+      <p align="center">8:30-10:00</p>
+      </td>
+      <td colspan="3" class="keynote" width="439">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#awards"><strong>SIGMOD Award Talks</strong></a> </br>Grand Ballroom A
+      </p>
+      </td>
+    </tr>
+
+  <tr> 
+    <td width="75"><p align="center">10:00-10:30</p></td> 
+
+    <td colspan="3" width="437"><p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+  
+    
+   <tr>
+      <td width="33">
+      <p align="center">10:30-12:00</p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#ssession15"><strong>SIGMOD <br /> Session 15</strong></a><br/>
+	Grand Ballroom A
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#ssession16"><strong>SIGMOD <br />
+	Session 16</strong></a><br/> Grand Ballroom BC
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#ssession17"><strong>SIGMOD <br /> Session 17</strong></a><br/> Seacliffs 
+      </p>
+      </td>
+    </tr>
+	
+	
+	
+  <tr> 
+    <td width="34"><p align="center">12:00-13:30</p></td> 
+    <td colspan="3" width="437"><p align="center">Lunch on your own</p></td> 
+  </tr> 
+	
+	
+	
+   <tr>
+      <td width="33">
+      <p align="center">13:30-15:00</p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#ssession18"><strong>SIGMOD <br /> Session 18</strong></a><br/>
+	Grand Ballroom A
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#ssession19"><strong>SIGMOD <br />
+	Session 19</strong></a><br/> Grand Ballroom BC
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#ssession20"><strong>SIGMOD <br /> Session 20</strong></a><br/> Seacliffs
+      </p>
+      </td>
+    </tr>
+	
+		
+  <tr> 
+    <td width="75"><p align="center">15:00-15:30</p></td> 
+
+    <td colspan="3" width="437"><p align="center"><strong>Coffee Break (Grand Foyer + Market Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+	
+	
+    <tr>
+      <td width="34"><p align="center">15:30-17:00</p></td>
+
+      
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#ssession21"><strong>SIGMOD <br /> Session 21</strong></a><br/>
+	Grand Ballroom A
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#ssession22"><strong>SIGMOD <br />
+	Session 22</strong></a><br/> Grand Ballroom BC
+      </p>
+      </td>
+      
+      
+      <td class="demo" width="150">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#demossession3"><strong>Demos - Session 3</strong></a><br/>Garden Room
+      </p>
+      </td>
+         
+   </tr>
+
+
+ <tr>
+    <td width="34">
+    <p align="center">17:00-18:30</p>
+    </td>
+
+    <td colspan="4" class="td.nosession"><br/></td>    
+  </tr>
+	
+</table>
+
+
+
+
+
+
+
+
+
+
+<p align="left"> <a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+<br />
+
+<a name="friday">
+<table class="day" width="550" style="word-break: keep-all">
+   <tr>
+      <td class="header" colspan="8">
+      <p align="center"><strong>FRIDAY<br/></strong></p>
+      </td>
+    </tr>
+
+
+ <tr>
+    <td width="33">
+    <p align="center">8:30-10:00</p>
+    </td>
+    
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/beyondmr2016/program">
+   <strong>BeyondMR</strong></a><br/>Seacliff A</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://wiki.umiacs.umd.edu/clip/datascience/index.php/Main_Page#Schedule_2">
+   <strong>DSMM</strong></a><br/>Seacliff B</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/exploredb2016/program">
+   <strong>ExploreDB</strong></a><br/>Seacliff C</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/networkdataanalytics2016/program">
+   <strong>NDA</strong></a><br/>Seacliff D</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://www.ifis.uni-luebeck.de/~groppe/sbd/program">
+   <strong>SBD</strong></a><br/>Marina</p></td>    
+
+    <td colspan="1" class="tutorial" width="72">
+	<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;"  href="./program_sigmod.shtml#stutorial5"><strong>SIGMOD</br> Tutorial 5</strong></a><br/>Bayview A<br /></p></td>
+
+    <td colspan="1" class="tutorial" width="72">
+	<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;"  href="./program_sigmod.shtml#stutorial6"><strong>SIGMOD</br> Tutorial 6</strong></a><br/>Bayview B<br /></p></td>
+   
+</tr>
+
+
+  <tr> 
+    <td width="75"><p align="center">10:00-10:30</p></td> 
+
+    <td colspan="7" width="437"><p align="center"><strong>Coffee Break (Seacliff Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+ <tr>
+    <td width="33">
+    <p align="center">10:30-12:00</p>
+    </td>
+    
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/beyondmr2016/program">
+   <strong>BeyondMR</strong></a><br/>Seacliff A</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://wiki.umiacs.umd.edu/clip/datascience/index.php/Main_Page#Schedule_2">
+   <strong>DSMM</strong></a><br/>Seacliff B</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/exploredb2016/program">
+   <strong>ExploreDB</strong></a><br/>Seacliff C</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/networkdataanalytics2016/program">
+   <strong>NDA</strong></a><br/>Seacliff D</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://www.ifis.uni-luebeck.de/~groppe/sbd/program">
+   <strong>SBD</strong></a><br/>Marina</p></td>    
+
+    <td colspan="1" class="tutorial" width="72">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;"  href="./program_sigmod.shtml#stutorial5"><strong>SIGMOD</br> Tutorial 5</strong></a><br/>Bayview A<br /></p></td>
+
+    <td colspan="1" class="tutorial" width="72">
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;"  href="./program_sigmod.shtml#stutorial7"><strong>SIGMOD</br> Tutorial 7</strong></a><br/>Bayview B<br /></p></td>
+   
+</tr>
+
+
+  <tr> 
+    <td width="75"><p align="center">12:00-13:30</p></td> 
+
+    <td colspan="7" width="437"><p align="center">Lunch on your own<br />
+    </td> 
+  </tr> 
+
+
+ <tr>
+    <td width="33">
+    <p align="center">13:30-15:00</p>
+    </td>
+    
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/beyondmr2016/program">
+   <strong>BeyondMR</strong></a><br/>Seacliff A</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://wiki.umiacs.umd.edu/clip/datascience/index.php/Main_Page#Schedule_2">
+   <strong>DSMM</strong></a><br/>Seacliff B</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/exploredb2016/program">
+   <strong>ExploreDB</strong></a><br/>Seacliff C</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/networkdataanalytics2016/program">
+   <strong>NDA</strong></a><br/>Seacliff D</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://www.ifis.uni-luebeck.de/~groppe/sbd/program">
+   <strong>SBD</strong></a><br/>Marina</p></td>    
+
+    <td colspan="1" class="tutorial" width="72">
+	<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;"  href="./program_sigmod.shtml#stutorial8"><strong>SIGMOD</br> Tutorial 8</strong></a><br/>Bayview A<br /></p></td>
+
+    <td colspan="1" class="tutorial" width="72">
+	<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;"  href="./program_sigmod.shtml#stutorial9"><strong>SIGMOD</br> Tutorial 9</strong></a><br/>Bayview B<br /></p></td>
+   
+</tr>
+
+
+  <tr> 
+    <td width="75"><p align="center">15:00-15:30</p></td> 
+
+    <td colspan="7" width="437"><p align="center"><strong>Coffee Break (Seacliff Foyer)</strong><br />
+    </td> 
+  </tr> 
+
+
+ <tr>
+    <td width="33">
+    <p align="center">15:30-17:00</p>
+    </td>
+    
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/beyondmr2016/program">
+   <strong>BeyondMR</strong></a><br/>Seacliff A</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://wiki.umiacs.umd.edu/clip/datascience/index.php/Main_Page#Schedule_2">
+   <strong>DSMM</strong></a><br/>Seacliff B</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/exploredb2016/program">
+   <strong>ExploreDB</strong></a><br/>Seacliff C</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="https://sites.google.com/site/networkdataanalytics2016/program">
+   <strong>NDA</strong></a><br/>Seacliff D</p></td>    
+
+    <td colspan="1" class="workshop"><p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="http://www.ifis.uni-luebeck.de/~groppe/sbd/program">
+   <strong>SBD</strong></a><br/>Marina</p></td>    
+
+    <td colspan="1" class="tutorial" width="72">
+	<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial8"><strong>SIGMOD</br> Tutorial 8</strong></a><br/>Bayview A<br /></p></td>
+
+    <td colspan="1" class="tutorial" width="72">
+	<p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" href="./program_sigmod.shtml#stutorial10"><strong>SIGMOD</br> Tutorial 10</strong></a><br/>Bayview B<br /></p></td>
+   
+</tr>
+
+
+
+
+
+  
+
+
+</table>
+<p align="left"> <a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+</div>
+</div><!--endProgramMainContent -->
+<!-- div for wrap -->
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2016 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+<!-- footer -->
+</div><!-- end of wrap --> </a>
+
+<!--
+<p>				  
+<a style="color: rgb(204, 102, 0);
+a style="color: rgb(204, 102, 0); text-decoration: none;" href="index.shtml">Back to homepage</a>
+</p>
+<br />-->
+
+
+
+
+
+</body>
+</html>

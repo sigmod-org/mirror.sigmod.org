@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2020 ACM SIGMOD/PODS Conference: Portland, OR- SIGMOD Accepted Research Papers</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/oregon/oldtown-1.jpg'
+
+theImages[1] = 'images/oregon/downtown.jpg'
+
+theImages[2] = 'images/oregon/LanSuGarden.jpg'
+
+theImages[3] = 'images/oregon/JapaneseGarden.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Old Town'
+
+theImageDescriptions[1] = 'Downtown, Portland'
+
+theImageDescriptions[2] = 'Lan Su Garden'
+
+theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.travelportland.com/'
+
+theImageURLs[1] = 'https://www.travelportland.com/'
+
+theImageURLs[2] = 'https://www.travelportland.com/'
+
+theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterPortland.png" alt="June 14 - June 19, 2020, Portland, Oregon, USA" width="742"/>');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+<!-- <div id="masthead" style="height:auto"><img src="images/2020-SIGMOD-WebBanner.png" alt="top banner" width="750"/></div> -->
+
+<!-- <div style="font-size:0.8em;text-align:center;color: #485b81;font-weight: bold;"><p style="margin:0">ACM SIGMOD/PODS International Conference on Management of Data&nbsp&nbsp&nbsp&nbsp June 14 - June 19, 2020&nbsp&nbsp&nbsp Portland, OR, USA</p>
+</div> <br> June 14 - June 19, 2020   Portland, OR, USA-->
+
+
+
+
+
+<div id="logoACMSIGMOD" style="margin:0px;height:84px"><a href="index.shtml">
+
+<img src="images/2020Sigmod-LOGO.png" alt="ACM SIGMOD City, Country, Year" height="85" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+ <li><a href="report.pdf" title="Experience Report">Experience Report</a></li>
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="online-webpage.shtml" title="Full Conference Program Now Available"><font color="red">Full Conference Program Now Available</font></a></li>
+    <li><a href="covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>
+    <li><a href="http://www.cvent.com/d/yhqjj1" title="Registration">Registration</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award <font color="red">(canceled) </font></a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="info-coming-soon" title="Banquet">Banquet</a></li>
+	<li><a href="info-coming-soon.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="info-coming-soon.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="online-webpage.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_tutorials.shtml" title="Invited Tutorials">Invited Tutorials</a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="online-webpage.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Awards">Awards</a></li>
+ <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/leaders.html" title="Programming Contest">Programming Contest</a></li>
+ <li><a href="social/sigmod_social_event.shtml" title="Social Events">Social Events</a></li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2020">Tweets by sigmod2020</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+<h1>SIGMOD 2020: Accepted Research Papers</h1>
+(144 papers, both regular and short, in no particular order)
+
+<div>
+<ul>
+
+
+
+<li><strong>QUAD: Quadratic-Bound-based Kernel Density Visualization</strong></br>Tsz Nam Chan (The University of Hong Kong), Reynold Cheng (The University of Hong Kong), Man Lung Yiu (The Hong Kong Polytechnic University)</li>
+
+<li><strong>Densely Connected User Community and Location Cluster Search in Location-Based Social Networks</strong></br>Junghoon Kim (Nanyang Technological University), Tao Guo (Google), Kaiyu Feng (Nanyang Technological University), Gao Cong (Nanyang Technological University), Arijit Khan (Nanyang Technological University), Farhana Choudhury (University of Melbourne)</li>
+
+<li><strong>Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs</strong></br>Yingxia Shao (Beijing Univeristy of Posts and Telecommunications), Shiyue Huang (Peking University), Xupeng Miao (Peking University), Bin Cui (Peking University), Lei Chen (Hong Kong University of Science and Technology)</li>
+
+<li><strong>BinDex: A Two-Layered Index for Fast and Robust Scans</strong></br>Linwei Li (Fudan University), Kai Zhang (Fudan University), Jiading Guo (Fudan University), Wen He (Fudan University), Zhenying He (Fudan University), Yinan Jing (Fudan University), Weili Han (Fudan University), X. Wang (Fudan University)</li>
+
+<li><strong>The Solution Distribution of Influence Maximization: A High-level Experimental Study on Three Algorithmic Approaches</strong></br>Naoto Ohsaka (NEC Corporation)</li>
+
+<li><strong>SPRINTER: A Fast n-ary Join Query Processing Method for Complex OLAP Queries</strong></br>Yoon-Min Nam (Daegu Gyeongbuk Institute of Science and Technology), Donghyoung Han (Daegu Gyeongbuk Institute of Science and Technology), Min-Soo Kim (Korea Advanced Institute of Science and Technology)</li>
+
+<li><strong>Approximate Pattern Matching  in Massive Graphs with Precision and Recall Guarantees</strong></br>Tashin Reza (University of British Columbia), Matei Ripeanu (University of British Columbia), Geoffrey Sanders (Lawrence Livermore National Laboratory), Roger Pearce (Lawrence Livermore National Laboratory)</li>
+
+<li><strong>Analysis of Indexing Structures for Immutable Data</strong></br>Cong Yue (National University of Singapore), Zhongle Xie (National University of Singapore), Meihui Zhang (Beijing Institute of Technology), Gang Chen (Zhejiang University), Beng Chin Ooi (National University of Singapore), Sheng Wang (Alibaba Group), Xiaokui Xiao (National University of Singapore)</li>
+
+<li><strong>On the Optimization of Recursive Relational Queries: Application to Graph Queries</strong></br>Louis Jachiet (LTCI, Télécom Paris), Pierre Genevès (Univ. Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG), Nils Gesbert (Univ. Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG), Nabil Layaida (Univ. Grenoble Alpes, CNRS, Inria, Grenoble INP, LIG)</li>
+
+<li><strong>SCODED: Statistical Constraint Oriented Data Error Detection</strong></br>Jing Nathan Yan (Cornell University), Oliver Schulte (Simon Fraser University), MoHan Zhang (Simon Fraser University), Jiannan Wang (Simon Fraser University), Reynold Cheng (The University of Hong Kong)</li>
+
+<li><strong>SAGMA: Secure Aggregation Grouped by Multiple Attributes</strong></br>Timon Hackenjos (FZI Research Center for Information Technology), Florian Hahn (University of Twente), Florian Kerschbaum (University of Waterloo)</li>
+
+<li><strong>Monotonic Cardinality Estimation of Similarity Selection: A Deep Learning Approach</strong></br>Yaoshu Wang (Shenzhen University), Chuan Xiao (Osaka University & Nagoya University), Jianbin Qin (Shenzhen University), Xin Cao (The University of New South Wales), Yifang Sun (The University of New South Wales), Wei Wang (The University of New South Wales), Makoto Onizuka (Osaka University)</li>
+
+<li><strong>PrIU: A Provenance-Based Approach for Incrementally Updating Regression Models</strong></br>Yinjun Wu (University of Pennsylvania), Val Tannen (University of Pennsylvania), Susan Davidson (University of Pennsylvania)</li>
+
+<li><strong>Learning to Validate the Predictions of Black Box Classifiers on Unseen Data</strong></br>Sebastian Schelter (New York University), Tammo Rukat (Amazon Research), Felix Biessmann (Beuth University Berlin)</li>
+
+<li><strong>Towards Interpretable and Learnable Risk Analysis for Entity Resolution</strong></br>Zhaoqiang Chen (Northwestern Polytechnical University), Qun Chen (Northwestern Polytechnical University), Boyi Hou (Northwestern Polytechnical University), Zhanhuai Li (Northwestern Polytechnical University), Guoliang Li (Tsinghua University)</li>
+
+<li><strong>Organizing Data Lakes for Navigation</strong></br>Fatemeh Nargesian (University of Rochester), Ken Pu (University of Ontario Institute of Technology), Erkang Zhu (Microsoft Research), Bahar Ghadiri Bashardoost (University of Toronto), Renée Miller (Northeastern University)</li>
+
+<li><strong>Sample Debiasing in the Themis Open World Database System</strong></br>Laurel Orr (University of Washington), Magda Balazinska (University of Washington), Dan Suciu (University of Washington)</li>
+
+<li><strong>Mining Approximate Acyclic Schemes from Relations</strong></br>Batya Kenig (University of Washington), Pranay Mundra (University of Washington), Guna Prasad (University of Washington), Babak Salimi (University of Washington), Dan Suciu (University of Washington)</li>
+
+<li><strong>IDEBench: A Benchmark for Interactive Data Exploration</strong></br>Philipp Eichmann (Brown University), Emanuel Zgraggen (MIT), Carsten Binnig (TU Darmstadt), Tim Kraska (MIT)</li>
+
+<li><strong>DB4ML - An In-Memory Database Kernel with Machine Learning Support</strong></br>Matthias Jasny (TU Darmstadt), Tobias Ziegler (TU Darmstadt), Tim Kraska (MIT), Uwe Roehm (The University of Sydney), Carsten Binnig (TU Darmstadt)</li>
+
+<li><strong>Parallel Index-based Stream Join on a Multicore CPU</strong></br>Amirhesam Shahvarani (Technische Universität München), Hans-Arno Jacobsen (Technische Universität München)</li>
+
+<li><strong>Fast Join Project Query Evaluation using Matrix Multiplication</strong></br>Shaleen Deep (University of Wisconsin-Madison), Xiao Hu (Duke University), Paraschos Koutris (University of Wisconsin-Madison)</li>
+
+<li><strong>Factorized Graph Representations for Semi-Supervised Learning from Sparse Data</strong></br>Krishna Kumar P. (IIT Madras), Paul Langton (Northeastern University), Wolfgang Gatterbauer (Northeastern University)</li>
+
+<li><strong>Equivalence-Invariant Algebraic Provenance for Hyperplane Update Queries</strong></br>Pierre Bourhis (CNRS, UMR 9189 - CRIStAL), Daniel Deutch (Tel Aviv University), Yuval Moskovitch (Tel Aviv University)</li>
+
+<li><strong>Learning Multi-Dimensional Indexes</strong></br>Vikram Nathan (Massachusetts Institute of Technology), Jialin Ding (Massachusetts Institute of Technology), Mohammad Alizadeh (Massachusetts Institute of Technology), Tim Kraska (Massachusetts Institute of Technology)</li>
+
+<li><strong>RID: Deduplicating Snapshot Computations</strong></br>Nikos Tsikoudis (Brandeis University), Liuba Shrira (Brandeis University)</li>
+
+<li><strong>Web Data Extraction using Hybrid Program Synthesis: A Combination of Top-down and Bottom-up Inference</strong></br>Mohammad Raza (Microsoft Corporation), Sumit Gulwani (Microsoft Corporation)</li>
+
+<li><strong>In-Memory Subgraph Matching: An In-depth Study</strong></br>Shixuan Sun (Hong Kong University of Science and Technology), Qiong Luo (Hong Kong University of Science and Technology)</li>
+
+<li><strong>Theoretically-Efficient and Practical Parallel DBSCAN</strong></br>Yiqiu Wang (Massachusetts Institute of Technology), Yan Gu (University of California, Riverside), Julian Shun (Massachusetts Institute of Technology)</li>
+
+<li><strong>Order-Preserving Key Compression for In-Memory Search Trees</strong></br>Huanchen Zhang (Carnegie Mellon University), Xiaoxuan Liu (Carnegie Mellon University), David Andersen (Carnegie Mellon University), Michael Kaminsky (BrdgAI), Kimberly Keeton (Hewlett Packard Labs), Andrew Pavlo (Carnegie Mellon University)</li>
+
+<li><strong>Cost Models for Big Data Query Processing: Learning, Retrofitting, and Our Findings</strong></br>Tarique Siddiqui (Microsoft & University of Illinois at Urbana-Champaign), Alekh Jindal (Microsoft), Shi Qiao (Microsoft), Hiren Patel (Microsoft), Wangchao Le (Microsoft)</li>
+
+<li><strong>A GPU-friendly Geometric Data Model and Algebra for Spatial Queries</strong></br>Harish Doraiswamy (New York University), Juliana Freire (New York University)</li>
+
+<li><strong>Extending Graph Patterns with Conditions</strong></br>Grace Fan (Brown University), Wenfei Fan (University of Edinburgh, Beihang University & Shenzhen University), Yuanhao Li (University of Edinburgh & Shenzhen University), Ping Lu (Beihang University), Chao Tian (Alibaba Group), Jingren Zhou (Alibaba Group)</li>
+
+<li><strong>Cleaning Denial Constraint Violations through Relaxation</strong></br>Stella Giannakopoulou (EPFL), Manos Karpathiotakis (Facebook), Anastasia Ailamaki (EPFL)</li>
+
+<li><strong>Maintaining Acyclic Foreign-Key Joins under Updates</strong></br>Qichen Wang (Hong Kong University of Science and Technology), Ke Yi (Hong Kong University of Science and Technology)</li>
+
+<li><strong>Truss-based Community Search over Large Directed Graphs</strong></br>Qing Liu (Hong Kong Baptist University), Minjun Zhao (Zhejiang University), Xin Huang (Hong Kong Baptist University), Jianliang Xu (Hong Kong Baptist University), Yunjun Gao (Zhejiang University)</li>
+
+<li><strong>Tree-Encoded Bitmaps</strong></br>Harald Lang (Technical University of Munich), Alexander Beischl (Technical University of Munich), Viktor Leis (Friedrich Schiller University Jena), Peter Boncz (Centrum Wiskunde & Informatica), Thomas Neumann (Technical University of Munich), Alfons Kemper (Technical University of Munich)</li>
+
+<li><strong>DBPal: A Fully Pluggable NL2SQL Training Pipeline</strong></br>Nathaniel Weir (Johns Hopkins University), Prasetya Utama (Technische Universität Darmstadt), Alex Galakatos (Brown University), Andrew Crotty (Brown University), Amir Ilkhechi (Brown University), Shekar Ramaswamy (Brown University), Rohin Bhushan (Brown University), Nadja Geisler (Technische Universität Darmstadt), Benjamin Hättasch (Technische Universität Darmstadt), Steffen Eger (Technische Universität Darmstadt), Ugur Cetintemel (Brown University), Carsten Binnig (Technische Universität Darmstadt)</li>
+
+<li><strong>Pensieve: Skewness-Aware Version Switching for Efficient Graph Processing</strong></br>Tangwei Ying (Huazhong University of Science and Technology), Hanhua Chen (Huazhong University of Science and Technology), Hai Jin (Huazhong University of Science and Technology)</li>
+
+<li><strong>Black or White: How to Develop an AutoTuner for Memory-based Analytics</strong></br>Mayuresh Kunjir (Duke University), Shivnath Babu (Unravel Data Systems)</li>
+
+<li><strong>GOGGLES: Automatic Image Labeling with Affinity Coding</strong></br>Nilaksh Das (Georgia Institute of Technology), Sanya Chaba (Georgia Institute of Technology), Renzhi Wu (Georgia Institute of Technology), Sakshi Gandhi (Georgia Institute of Technology), Duen Horng Chau (Georgia Institute of Technology), Xu Chu (Georgia Institute of Technology)</li>
+
+<li><strong>ChronoCache: Predictive and Adaptive Mid-Tier Query Result Caching</strong></br>Bradley Glasbergen (University of Waterloo), Kyle Langendoen (University of Waterloo), Michael Abebe (University of Waterloo), Khuzaima Daudjee (University of Waterloo)</li>
+
+<li><strong>FalconDB: Blockchain-based Collaborative Database</strong></br>Yanqing Peng (University of Utah), Min Du (University of California, Berkeley), Feifei Li (University of Utah), Raymond Cheng (University of California, Berkeley), Dawn Song (University of California, Berkeley)</li>
+
+<li><strong>A Study of the Fundamental Performance Characteristics of GPUs and CPUs for Database Analytics</strong></br>Anil Shanbhag (Massachusetts Institute of Technology), Samuel Madden (Massachusetts Institute of Technology), Xiangyao Yu (University of Wisconsin-Madison)</li>
+
+<li><strong>Starling: A Scalable Query Engine on Cloud Functions</strong></br>Matthew Perron (Massachusetts Institute of Technology), Raul Castro Fernandez (University of Chicago), David DeWitt (Massachusetts Institute of Technology), Samuel Madden (Massachusetts Institute of Technology)</li>
+
+<li><strong>Crypt: Crypto-Assisted Differential Privacy on Untrusted Servers</strong></br>Amrita Roy Chowdhury (University of Wisconsin-Madison), Chenghong Wang (Duke University), Xi He (University of Waterloo), Ashwin Machanavajjhala (Duke University), Somesh Jha (University of Wisconsin-Madison)</li>
+
+<li><strong>A Comprehensive Benchmark Framework for Active Learning Methods in Entity Matching</strong></br>Venkata Vamsikrishna Meduri (Arizona State University), Lucian Popa (IBM Research, Almaden), Prithviraj Sen (IBM Research, Almaden), Mohamed Sarwat (Arizona State University)</li>
+
+<li><strong>Timely Reporting of Heavy Hitters using External Memory</strong></br>Prashant Pandey (Carnegie Mellon University), Shikha Singh (Wellesley College), Michael Bender (Stony Brook University), Jonathan Berry (Sandia National Laboratories), Martín Farach-Colton (Rutgers University), Rob Johnson (VMware Research), Thomas Kroeger (Sandia National Laboratories), Cynthia Phillips (Sandia National Laboratories)</li>
+
+<li><strong>Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental Study</strong></br>Farahnaz Akrami (University of Texas at Arlington), Mohammed Samiul Saeef (University of Texas at Arlington), Qingheng Zhang (Nanjing University), Wei Hu (Nanjing University), Chengkai Li (University of Texas at Arlington)</li>
+
+<li><strong>Improving Approximate Nearest Neighbor Search through Learned Adaptive Early Termination</strong></br>Conglong Li (Carnegie Mellon University), Minjia Zhang (Microsoft AI and Research), David Andersen (Carnegie Mellon University), Yuxiong He (Microsoft AI and Research)</li>
+
+<li><strong>Continuously Adaptive Similarity Search</strong></br>Huayi Zhang (Worcester Polytechnic Institute), Lei Cao (Massachusetts Institute of Technology), Yizhou Yan (Worcester Polytechnic Institute), Samuel Madden (Massachusetts Institute of Technology), Elke Rundensteiner (Worcester Polytechnic Institute)</li>
+
+<li><strong>Facilitating SQL Query Composition and Analysis</strong></br>Zainab Zolaktaf (University of British Columbia), Mostafa Milani (University of British Columbia), Rachel Pottinger (University of British Columbia)</li>
+
+<li><strong>MIRIS: Fast Object Track Queries in Video</strong></br>Favyen Bastani (Massachusetts Institute of Technology), Songtao He (Massachusetts Institute of Technology), Arjun Balasingam (Massachusetts Institute of Technology), Karthik Gopalakrishnan (Massachusetts Institute of Technology), Mohammad Alizadeh (Massachusetts Institute of Technology), Hari Balakrishnan (Massachusetts Institute of Technology), Michael Cafarella (Massachusetts Institute of Technology), Tim Kraska (Massachusetts Institute of Technology), Sam Madden (Massachusetts Institute of Technology)</li>
+
+<li><strong>A Transactional Perspective on Execute-order-validate Blockchains</strong></br>Pingcheng Ruan (National University of Singapore), Dumitrel Loghin (National University of Singapore), Quang-Trung Ta (National University of Singapore), Meihui Zhang (Beijing Institute of Technology), Gang Chen (Zhejiang University), Beng Chin Ooi (National University of Singapore)</li>
+
+<li><strong>Causality-Guided Adaptive Interventional Debugging</strong></br>Anna Fariha (University of Massachusetts Amherst), Suman Nath (Microsoft Research), Alexandra Meliou (University of Massachusetts Amherst)</li>
+
+<li><strong>Duoquest: A Dual-Specification System for Expressive SQL Queries</strong></br>Christopher Baik (University of Michigan – Ann Arbor), Zhongjun Jin (University of Michigan – Ann Arbor), Michael Cafarella (University of Michigan – Ann Arbor), H. Jagadish (University of Michigan – Ann Arbor)</li>
+
+<li><strong>SPARQL Rewriting: Towards Desired Results</strong></br>Xun Jian (The Hong Kong University of Science and Technology), Yue Wang (Shenzhen Institute of Computing Sciences, Shenzhen University), Xiayu Lei (The Hong Kong University of Science and Technology), Libin Zheng (The Hong Kong University of Science and Technology), Lei Chen (The Hong Kong University of Science and Technology)</li>
+
+<li><strong>Complaint-driven Training Data Debugging for Query 2.0</strong></br>Weiyuan Wu (Simon Fraser University), Lampros Flokas (Columbia University), Eugene Wu (Columbia University), Jiannan Wang (Simon Fraser University)</li>
+
+<li><strong>Efficient Algorithms for Densest Subgraph Discovery on Large Directed Graphs</strong></br>Chenhao Ma (The University of Hong Kong), Yixiang Fang (University of New South Wales), Reynold Cheng (The University of Hong Kong), Laks Lakshmanan (The University of British Columbia), Wenjie Zhang (University of New South Wales), Xuemin Lin (University of New South Wales)</li>
+
+<li><strong>Cheetah: Accelerating Database Queries with Switch Pruning</strong></br>Muhammad Tirmazi (Harvard University), Ran Ben Basat (Harvard University), Jiaqi Gao (Harvard University), Minlan Yu (Harvard University)</li>
+
+<li><strong>GPU-Accelerated Subgraph Enumeration on Partitioned Graphs</strong></br>Wentian Guo (National University of Singapore), Yuchen Li (Singapore Management University), Mo Sha (National University of Singapore), Bingsheng He (National University of Singapore), Xiaokui Xiao (National University of Singapore), Kian-Lee Tan (National University of Singapore)</li>
+
+<li><strong>Estimating Numerical Distributions under Local Differential Privacy</strong></br>Zitao Li (Purdue University), Tianhao Wang (Purdue University), Milan Lopuhaä-Zwakenberg (Eindhoven University of Technology), Ninghui Li (Purdue University), Boris &#352;kori&#263; (Eindhoven University of Technology)</li>
+
+<li><strong>Architecting a Query Compiler for Spatial Workloads</strong></br>Ruby Tahboub (Purdue University), Tiark Rompf (Purdue University)</li>
+
+<li><strong>G-CARE: A Framework for Performance Benchmarking of Cardinality Estimation Techniques for Subgraph Matching</strong></br>Yeonsu Park (POSTECH), Seongyun Ko (POSTECH), Sourav Bhowmick (NTU), Kyoungmin Kim (POSTECH), Kijae Hong (POSTECH), Wook-Shin Han (POSTECH)</li>
+
+<li><strong>LISA: A Learned Index Structure for Spatial Data</strong></br>Pengfei Li (Zhejiang University), Hua Lu (Roskilde University), Qian Zheng (Nanyang Technological University), Long Yang (Zhejiang University), Gang Pan (Zhejiang University)</li>
+
+<li><strong>Learning a Partitioning Advisor for Cloud Databases</strong></br>Benjamin Hilprecht (TU Darmstadt), Carsten Binnig (TU Darmstadt), Uwe Röhm (The University of Sydney)</li>
+
+<li><strong>Pump Up the Volume: Processing Large Data on GPUs with Fast Interconnects</strong></br>Clemens Lutz (DFKI GmbH), Sebastian Breß (TU Berlin), Steffen Zeuch (DFKI GmbH), Tilmann Rabl (HPI, University of Potsdam), Volker Markl (DFKI GmbH, TU Berlin)</li>
+
+<li><strong>Reliable Data Distillation on Graph Convolutional Network</strong></br>Wentao Zhang (Peking University; National Engineering Laboratory for Big Data Analysis and Applications), Xupeng Miao (Peking University), Yingxia Shao (Beijing University of Posts and Telecommunications, BUPT), Jiawei Jiang (ETH Zurich), Lei Chen (Hong Kong University of Science and Technology), Olivier Ruas (Peking University), Bin Cui (Peking University; National Engineering Laboratory for Big Data Analysis and Applications)</li>
+
+<li><strong>Functional-Style SQL UDFs With a Capital 'F'</strong></br>Christian Duta (University of Tübingen), Torsten Grust (University of Tübingen)</li>
+
+<li><strong>SpeakQL: Towards Speech-driven Multimodal Querying of Structured Data</strong></br>Vraj Shah (University of California, San Diego), Side Li (University of California, San Diego), Arun Kumar (University of California, San Diego), Lawrence Saul (University of California, San Diego)</li>
+
+<li><strong>Learning Over Dirty Data Without Cleaning</strong></br>Jose Picado (Oregon State University), John Davis (Oregon State University), Arash Termehchy (Oregon State University), Ga Young Lee (Oregon State University)</li>
+
+<li><strong>Locality-Sensitive Hashing Scheme based on Longest Circular Co-Substring</strong></br>Yifan Lei (National University of Singapore), Qiang Huang (National University of Singapore), Mohan Kankanhalli (National University of Singapore), Anthony Tung (National University of Singapore)</li>
+
+<li><strong>Vista: Optimized System for Declarative Feature Transfer from Deep CNNs at Scale</strong></br>Supun Nakandala (University of California, San Diego), Arun Kumar (University of California, San Diego)</li>
+
+<li><strong>Transactional Causal Consistency for Serverless Computing</strong></br>Chenggang Wu (University of California, Berkeley), Vikram Sreekanti (University of California, Berkeley), Joseph Hellerstein (University of California, Berkeley)</li>
+
+<li><strong>ALEX: An Updatable Adaptive Learned Index</strong></br>Jialin Ding (Massachusetts Institute of Technology), Umar Farooq Minhas (Microsoft Research), Jia Yu (Arizona State University & Microsoft Research), Chi Wang (Microsoft Research), Jaeyoung Do (Microsoft Research), Yinan Li (Microsoft Research), Hantian Zhang (Georgia Institute of Technology & Microsoft Research), Badrish Chandramouli (Microsoft Research), Johannes Gehrke (Microsoft), Donald Kossmann (Microsoft Research), David Lomet (Microsoft Research), Tim Kraska (Massachusetts Institute of Technology)</li>
+
+<li><strong>Automating Incremental and Asynchronous Evaluation for Recursive Aggregate Data Processing</strong></br>Qiange Wang (Northeastern University), Yanfeng Zhang (Northeastern University), Hao Wang (Ohio State University), Liang Geng (Northeastern University), Rubao Lee (Ohio State University), Xiaodong Zhang (Ohio State University), Ge Yu (Northeastern University)</li>
+
+<li><strong>Prompt: Dynamic Data-Partitioning for Distributed Micro-batch Stream Processing Systems</strong></br>Ahmed Abdelhamid (Purdue University), Ahmed Mahmood (Purdue University), Anas Daghistani (Purdue University), Walid Aref (Purdue University)</li>
+
+<li><strong>Long-lived Transactions Made Less Harmful</strong></br>Jongbin Kim (Hanyang University), Hyunsoo Cho (Hanyang University), Kihwang Kim (Hanyang University), Jaeseon Yu (Hanyang University), Sooyong Kang (Hanyang University), Hyungsoo Jung (Hanyang University)</li>
+
+<li><strong>Optimizing Machine Learning Workloads in Collaborative Environments</strong></br>Behrouz Derakhshan (DFKI GmbH), Alireza Rezaei Mahdiraji (DFKI GmbH), Ziawasch Abedjan (TU Berlin), Tilmann Rabl (Hasso Plattner Institute & University of Potsdam), Volker Markl (DFKI GmbH & TU Berlin)</li>
+
+<li><strong>Rethinking Logging, Checkpoints, and Recovery for High-Performance Storage Engines</strong></br>Michael Haubenschild (Tableau Software), Caetano Sauer (Tableau Software), Thomas Neumann (Technische Universität München), Viktor Leis (Friedrich-Schiller-Universität Jena)</li>
+
+<li><strong>Automatically Generating Data Exploration Sessions Using Deep Reinforcement Learning</strong></br>Ori Bar El (Tel Aviv University), Tova Milo (Tel Aviv University), Amit Somech (Tel Aviv University)</li>
+
+<li><strong>Efficient Join Synopsis Maintenance for Data Warehouse</strong></br>Zhuoyue Zhao (University of Utah), Feifei Li (University of Utah), Yuxi Liu (University of Utah)</li>
+
+<li><strong>Architecture-Intact Oracle for Fastest Path and Time Queries on Dynamic Spatial Networks</strong></br>Victor Junqiu Wei (Noah's Ark Lab, Huawei Technologies), Raymond Chi-Wing Wong (The Hong Kong University of Science and Technology), Cheng Long (Nanyang Technological University)</li>
+
+<li><strong>Recommending Deployment Strategies for Collaborative Tasks</strong></br>Dong Wei (New Jersey Institute of Technology), Senjuti Basu Roy (New Jersey Institute of Technology), Sihem Amer-Yahia (CNRS, Univ. Grenoble Alpes)</li>
+
+<li><strong>TRACER: A Framework for Facilitating Accurate and Interpretable Analytics for High Stakes Applications</strong></br>Kaiping Zheng (National University of Singapore), Shaofeng Cai (National University of Singapore), Horng Ruey Chua (National University Health System), Wei Wang (National University of Singapore), Kee Yuan Ngiam (National University Health System), Beng Chin Ooi (National University of Singapore)</li>
+
+<li><strong>On Multiple Semantics for Declarative Database Repairs</strong></br>Amir Gilad (Tel Aviv University), Daniel Deutch (Tel Aviv University), Sudeepa Roy (Duke University)</li>
+
+<li><strong>ShapeSearch: A Flexible and Efficient System for Shape-based Exploration of Trendlines</strong></br>Tarique Siddiqui (University of Illinois, Urbana Champaign (UIUC)), Paul Luh (University of Illinois, Urbana Champaign (UIUC)), Zesheng Wang (University of Illinois, Urbana Champaign (UIUC)), Karrie Karahalios (University of Illinois, Urbana Champaign (UIUC)), Aditya Parameswaran (UC Berkeley)</li>
+
+<li><strong>Rhino: Efficient Management of Very Large Distributed State for Stream Processing Engines</strong></br>Bonaventura Del Monte (Technische Universität Berlin & DFKI GmbH), Steffen Zeuch (Technische Universität Berlin & DFKI GmbH), Tilmann Rabl (Hasso Plattner Institute, University of Potsdam), Volker Markl (Technische Universität Berlin & DFKI GmbH)</li>
+
+<li><strong>Chiller: Contention-centric Transaction Execution and Data Partitioning for Modern Networks</strong></br>Erfan Zamanian (Brown University), Julian Shun (Massachusetts Institute of Technology), Carsten Binnig (TU Darmstadt), Tim Kraska (Massachusetts Institute of Technology)</li>
+
+<li><strong>Robust Performance of Main Memory Data Structures by Configuration</strong></br>Tiemo Bang (Technical University of Darmstadt; SAP SE), Ismail Oukid (Snowflake Inc.), Norman May (SAP SE), Ilia Petrov (Reutlingen University), Carsten Binnig (Technical University of Darmstadt)</li>
+
+<li><strong>Finding Related Tables in Data Lakes for Interactive Data Science</strong></br>Yi Zhang (University of Pennsylvania), Zachary Ives (University of Pennsylvania)</li>
+
+<li><strong>QuickSel: Quick Selectivity Learning with Mixture Models</strong></br>Yongjoo Park (University of Illinois at Urbana-Champaign), Shucheng Zhong (University of Michigan – Ann Arbor), Barzan Mozafari (University of Michigan – Ann Arbor)</li>
+
+<li><strong>MONSOON: Multi-Step Optimization and Execution of Queries with Partially Obscured Predicates</strong></br>Sourav Sikdar (Rice University), Chris Jermaine (Rice University)</li>
+
+<li><strong>External Merge Sort for Top-K Queries</strong></br>Yannis Chronis (University of Wisconsin-Madison), Thanh Do (Google Inc), Goetz Graefe (Google Inc), Keith Peters (Google Inc)</li>
+
+<li><strong>Marviq: Quality-Aware Geospatial Visualization of Range-Selection Queries Using Materialization</strong></br>Liming Dong (Tsinghua University), Qiushi Bai (University of California Irvine), Taewoo Kim (University of California Irvine), Taiji Chen (University of California Irvine), Weidong Liu (Tsinghua University), Chen Li (University of California Irvine)</li>
+
+<li><strong>Rosetta: A Robust Space-Time Optimized Range Filter for Key-Value Stores</strong></br>Siqiang Luo (Harvard University), Subarna Chatterjee (Harvard University), Rafael Ketsetsidis (Harvard University), Niv Dayan (Harvard University), Wilson Qin (Harvard University), Stratos Idreos (Harvard University)</li>
+
+<li><strong>CHASSIS: Conformity Meets Online Information Diffusion</strong></br>Hui Li (Nanyang Technological University), Hui Li (Xidian University), Sourav Bhowmick (Nanyang Technological University)</li>
+
+<li><strong>Database Benchmarking for Supporting Real-Time Interactive Querying of Large Data</strong></br>Leilani Battle (University of Maryland), Philipp Eichmann (Brown University), Marco Angelini (University of Rome “La Sapienza”), Tiziana Catarci (University of Rome “La Sapienza”), Giuseppe Santucci (University of Rome “La Sapienza”), Yukun Zheng (University of Maryland), Carsten Binnig (Technical University of Darmstadt), Jean-Daniel Fekete (Inria, Univ. Paris-Saclay, CNRS), Dominik Moritz (University of Washington)</li>
+
+<li><strong>Regular Path Query Evaluation on Streaming Graphs</strong></br>Anil Pacaci (University of Waterloo), Angela Bonifati (Lyon 1University), Tamer M. Özsu (University of Waterloo)</li>
+
+<li><strong>Exact Single-Source SimRank Computation on Large Graphs</strong></br>Hanzhi Wang (Renmin University of China), Zhewei Wei (Renmin University of China), Ye Yuan (Beijing Institute of Technology), Xiaoyong Du (Renmin University of China), Ji-Rong Wen (Renmin University of China)</li>
+
+<li><strong>DeepSqueeze: Deep Semantic Compression for Tabular Data</strong></br>Amir Ilkhechi (Brown University), Andrew Crotty (Brown University), Alex Galakatos (Brown University), Yicong Mao (Brown University), Grace Fan (Brown University), Xiran Shi (Brown University), Ugur Cetintemel (Brown University)</li>
+
+<li><strong>Distributed Processing of k Shortest Path Queries over Dynamic Road Networks</strong></br>Ziqiang Yu (Yantai University), Xiaohui Yu (York University), Nick Koudas (University of Toronto), Yang Liu (Wilfrid Laurier University), Yifan Li (York University; Key Laboratory of Urban Land Resources Monitoring and Simulation, MNR), Yueting Chen (York University), Dingyu Yang (Alibaba Group)</li>
+
+<li><strong>Benchmarking Spreadsheet Systems</strong></br>Sajjadur Rahman (University of Illinois at Urbana-Champaign), Kelly Mack (University of Washington), Mangesh Bendre (VISA Research), Ruilin Zhang (University of Southern California), Karrie Karahalios (University of Illinois at Urbana-Champaign), Aditya Parameswaran (University of California, Berkeley)</li>
+
+<li><strong>Aggify: Lifting the Curse of Cursor Loops using Custom Aggregates</strong></br>Surabhi Gupta (Microsoft Research India), Sanket Purandare (Harvard University), Karthik Ramachandra (Microsoft Research India)</li>
+
+<li><strong>Hub Labeling for Shortest Path Counting</strong></br>Yikai Zhang (Chinese University of Hong Kong), Jeffrey Xu Yu (Chinese University of Hong Kong)</li>
+
+<li><strong>Auto-Suggest: Learning-to-Recommend Data Preparation Steps Using Data Science Notebooks</strong></br>Cong Yan (University of Washington), Yeye He (Microsoft Research)</li>
+
+<li><strong>Grizzly: Efficient Stream Processing Through Adaptive Query Compilation</strong></br>Philipp Grulich (Technische Universität Berlin), Breß Sebastian (Technische Universität Berlin), Steffen Zeuch (Technische Universitat Berlin & DFKI GmbH), Jonas Traub (Technische Universität Berlin), Janis von Bleichert (Technische Universität Berlin), Zongxiong Chen (DFKI GmbH), Tilmann Rabl (HPI, University of Potsdam), Volker Markl (Technische Universitat Berlin & DFKI GmbH)</li>
+
+<li><strong>Influence Maximization Revisited: Efficient Reverse Reachable Set Generation with Bound Tightened</strong></br>Qintian Guo (The Chinese University of Hong Kong), Sibo Wang (The Chinese University of Hong Kong), Zhewei Wei (Renmin University of China), Ming Chen (Renmin University of China)</li>
+
+<li><strong>Deep Learning Models for Selectivity Estimation of Multi-Attribute Queries</strong></br>Shohedul Hasan (University of Texas at Arlington), Saravanan Thirumuruganathan (QCRI, HBKU), Jees Augustine (University of Texas at Arlington), Nick Koudas (University of Toronto), Gautam Das (University of Texas at Arlington)</li>
+
+<li><strong>Creating Embeddings of Heterogeneous Relational Datasets for Data Integration Tasks</strong></br>Riccardo Cappuzzo (EURECOM), Paolo Papotti (EURECOM), Saravanan Thirumuruganathan (QCRI, HBKU)</li>
+
+<li><strong>ZeroER: Entity Resolution using Zero Labeled Examples</strong></br>Renzhi Wu (Georgia Institute of Technology), Sanya Chaba (Georgia Institute of Technology), Saurabh Sawlani (Georgia Institute of Technology), Xu Chu (Georgia Institute of Technology), Saravanan Thirumuruganathan (QCRI, HBKU)</li>
+
+<li><strong>Global Reinforcement of Social Networks: The Anchored Coreness Problem</strong></br>Qingyuan Linghu (University of New South Wales), Fan Zhang (Guangzhou University), Xuemin Lin (University of New South Wales), Wenjie Zhang (University of New South Wales), Ying Zhang (University of Technology Sydney)</li>
+
+<li><strong>Application Driven Graph Partitioning</strong></br>Wenfei Fan (University of Edinburgh, Beihang University & Shenzhen University), Ruochun Jin (University of Edinburgh), Muyang Liu (University of Edinburgh), Ping Lu (BDBC, Beihang University), Xiaojian Luo (Alibaba Group), Ruiqi Xu (University of Edinburgh), Qiang Yin (Alibaba Group), Wenyuan Yu (Alibaba Group), Jingren Zhou (Alibaba Group)</li>
+
+<li><strong>Progressive Top-K Nearest Neighbors Search in Large Road Networks</strong></br>Dian Ouyang (University of Sydney), Dong Wen (University of Technology Sydney), Lu Qin (University of Technology Sydney), Lijun Chang (University of Sydney), Ying Zhang (University of Technology Sydney), Xuemin Lin (University of New South Wales)</li>
+
+<li><strong>A Relational Matrix Algebra and its Implementation in a Column Store</strong></br>Oksana Dolmatova (University of Zürich), Nikolaus Augsten (University of Salzburg), Michael Böhlen (University of Zürich)</li>
+
+<li><strong>Scaling Up Distance Labeling on Graphs with Core-Periphery Properties</strong></br>Wentao Li (CAI, FEIT, University of Technology Sydney), Miao Qiao (University of Auckland), Lu Qin (CAI, FEIT, University of Technology Sydney), Ying Zhang (CAI, FEIT, University of Technology Sydney), Lijun Chang (University of Sydney), Xuemin Lin (University of New South Wales)</li>
+
+<li><strong>A Statistical Perspective on Discovering Functional Dependencies in Noisy Data</strong></br>Yunjia Zhang (University of Wisconsin-Madison), Zhihan Guo (University of Wisconsin-Madison), Theodoros Rekatsinas (University of Wisconsin-Madison)</li>
+
+<li><strong>Adaptive HTAP through Elastic Resource Scheduling</strong></br>Aunn Raza (Ecole Polytechnique Fédérale de Lausanne), Periklis Chrysogelos (Ecole Polytechnique Fédérale de Lausanne), Angelos Christos Anadiotis (Ecole Polytechnique), Anastasia Ailamaki (Ecole Polytechnique Fédérale de Lausanne)</li>
+
+<li><strong>Querying Shared Data with Security Heterogeneity</strong></br>Yang Cao (University of Edinburgh), Wenfei Fan (University of Edinburgh, Shenzhen University, & Beihang University), Yanghao Wang (University of Edinburgh), Ke Yi (Hong Kong University of Scienc)</li>
+
+<li><strong>Near-Optimal Distributed Band-Joins through Recursive Partitioning</strong></br>Rundong Li (Google), Wolfgang Gatterbauer (Northeastern University), Mirek Riedewald (Northeastern University)</li>
+
+<li><strong>Data Series Progressive Similarity Search with Probabilistic Quality Guarantees</strong></br>Anna Gogolou (Université Paris-Saclay, Inria, CNRS, LRI & LIPADE, University of Paris), Theophanis Tsandilas (Université Paris-Saclay, Inria, CNRS, LRI), Karima Echihabi (IRDA, Rabat IT Center, ENSIAS, Mohammed V University), Anastasia Bezerianos (Université Paris-Saclay, CNRS, Inria, LRI), Themis Palpanas (LIPADE, University of Paris & French University Institute (IUF))</li>
+
+<li><strong>The Case for a Learned Sorting Algorithm</strong></br>Ani Kristo (Brown University), Kapil Vaidya (Massachusetts Institute of Technology), Ugur Çetintemel (Brown University), Sanchit Misra (Intel Labs), Tim Kraska (Massachusetts Institute of Technology)</li>
+
+<li><strong>LightSaber: Efficient Window Aggregation on Multi-core Processors</strong></br>Georgios Theodorakis (Imprerial College London), Alexandros Koliousis (Graphcore Research), Peter Pietzuch (Imprerial College London), Holger Pirk (Imprerial College London)</li>
+
+<li><strong>SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns</strong></br>Prashanth Dintyala (Georgia Institute of Technology), Arpit Narechania (Georgia Institute of Technology), Joy Arulraj (Georgia Institute of Technology)</li>
+
+<li><strong>Minimization of Classifier Construction Cost for Search Queries</strong></br>Shay Gershtein (Tel Aviv University), Tova Milo (Tel Aviv University), Gefen Morami (Tel Aviv University), Slava Novgorodov (eBay Research)</li>
+
+<li><strong>Fast and Reliable Missing Data Contingency Analysis with Predicate-Constraints</strong></br>Xi Liang (University of Chicago), Zechao Shang (University of Chicago), Sanjay Krishnan (University of Chicago), Aaron Elmore (University of Chicago), Michael Franklin (University of Chicago)</li>
+
+<li><strong>Thrifty Query Execution via Incrementability</strong></br>Dixin Tang (University of Chicago), Zechao Shang (University of Chicago), Aaron Elmore (University of Chicago), Sanjay Krishnan (University of Chicago), Michael Franklin (University of Chicago)</li>
+
+<li><strong>Lethe: A Tunable Delete-Aware LSM Engine</strong></br>Subhadeep Sarkar (Boston University), Tarikul Papon (Boston University), Dimitris Staratzis (Boston University), Manos Athanassoulis (Boston University)</li>
+
+<li><strong>Lambada: Interactive Data Analytics on Cold Data Using Serverless Cloud Infrastructure</strong></br>Ingo Müller (ETH Zürich), Renato Marroquín (ETH Zürich), Gustavo Alonso (ETH Zürich)</li>
+
+<li><strong>Causal Relational Learning</strong></br>Babak Salimi (University of Washington), Harsh Parikh (Duke University), Moe Kayali (University of Washington), Lise Getoor (University of California, Santa Cruz), Sudeepa Roy (Duke University), Dan Suciu (University of Washington)</li>
+
+<li><strong>Debunking Four Long-Standing Misconceptions of Time-Series Distance Measures</strong></br>John Paparrizos (University of Chicago), Chunwei Liu (University of Chicago), Aaron Elmore (University of Chicago), Michael Franklin (University of Chicago)</li>
+
+<li><strong>SLIM: Scalable Linkage of Mobility Data</strong></br>Fuat Basik (Amazon Web Services), Hakan Ferhatosmanoglu (University of Warwick), Bugra Gedik (Bilkent University)</li>
+
+<li><strong>Computing Local Sensitivities of Counting Queries with Joins</strong></br>Yuchao Tao (Duke University), Xi He (University of Waterloo), Ashwin Machanavajjhala (Duke University), Sudeepa Roy (Duke University)</li>
+
+<li><strong>BugDoc: Algorithms to Debug Computational Processes</strong></br>Raoni Lourenço (New York University), Juliana Freire (New York University), Dennis Shasha (New York University)</li>
+
+<li><strong>Handling Highly Contended OLTP Workloads Using Fast Dynamic Partitioning</strong></br>Guna Prasaad (University of Washington), Alvin Cheung (University of California, Berkeley), Dan Suciu (University of Washington)</li>
+
+<li><strong>Stochastic Package Queries in Probabilistic Databases</strong></br>Matteo Brucato (University of Massachusetts Amherst), Nishant Yadav (University of Massachusetts Amherst), Azza Abouzied (New York University Abu Dhabi), Peter Haas (University of Massachusetts Amherst), Alexandra Meliou (University of Massachusetts Amherst)</li>
+
+<li><strong>A Method for Optimizing Opaque Filter Queries</strong></br>Wenjia He (University of Michigan, Ann Arbor), Michael Anderson (University of Michigan, Ann Arbor), Maxwell Strome (University of Michigan, Ann Arbor), Michael Cafarella (University of Michigan, Ann Arbor)</li>
+
+<li><strong>QueryVis: Logic-based Diagrams help Users Understand Complicated SQL Queries Faster</strong></br>Aristotelis Leventidis (Northeastern University), Jiahui Zhang (Northeastern University), Cody Dunne (Northeastern University), Wolfgang Gatterbauer (Northeastern University), H.V. Jagadish (University of Michigan), Mirek Riedewald (Northeastern University)</li>
+
+<li><strong>Discovery Algorithms for Embedded Functional Dependencies</strong></br>Ziheng Wei (The University of Auckland), Sven Hartmann (Clausthal University of Technology), Sebastian Link (The University of Auckland)</li>
+
+<li><strong>Active Learning for ML Enhanced Database Systems</strong></br>Lin Ma (Carnegie Mellon University), Bailu Ding (Microsoft Research), Sudipto Das (Amazon Web Services), Adith Swaminathan (Microsoft Research)</li>
+
+<li><strong>Bitvector-aware Query Optimization for Decision Support Queries</strong></br>Bailu Ding (Microsoft Research), Surajit Chaudhuri (Microsoft Research), Vivek Narasayya (Microsoft Research)</li>
+
+<li><strong>Qd-tree: Learning Data Layouts for Big Data Analytics</strong></br>Zongheng Yang (University of California, Berkeley), Badrish Chandramouli (Microsoft Research), Chi Wang (Microsoft Research), Johannes Gehrke (Microsoft), Yinan Li (Microsoft Research), Umar Farooq Minhas (Microsoft Research), Per-Åke Larson (Microsoft Research), Donald Kossmann (Microsoft Research), Rajeev Acharya (Microsoft)</li>
+
+<li><strong>Effective Travel Time Estimation: When Historical Trajectories over Road Networks Matter</strong></br>Haitao Yuan (Tsinghua University), Guoliang Li (Tsinghua University), Zhifeng Bao (RMIT University), Ling Feng (Tsinghua University)</li>
+
+<li><strong>Human-in-the-loop Outlier Detection</strong></br>Chengliang Chai (Tsinghua University), Lei Cao (CSAIL, MIT), Guoliang Li (Tsinghua University), Jian Li (Tsinghua University), Yuyu Luo(Tsinghua University), Samuel Madden (CSAIL, MIT)</li>
+
+</ul>
+</div>
+
+
+
+<!--endMainContent -->
+</div>
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

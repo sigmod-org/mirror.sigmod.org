@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!--[if IE]>
+        <meta name="X-UA-Compatible" content="IE=edge" >
+        <![endif]-->
+        <title>SIGMOD program &laquo;  SIGMOD/PODS 2017</title>
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/ie8.css" />
+        <![endif]-->
+        <!--[if lte IE 7]>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/bootstrap-ie7.css" />
+        <style type="text/css">
+            .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.input-group,.row,.content{
+                box-sizing:border-box;behavior:url(http://sigmod2017.org/wp-content/themes/Tyler/js/boxsizing.htc)
+            }
+        </style>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/ie7.css" />
+        <![endif]-->
+        <!-- HTML5 Shim, Respond.js and PIE.htc IE8 support of HTML5 elements, media queries and CSS3 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <style type="text/css">
+            .speakers .speaker .speaker-inner, .speakers .photo img, .connect, .sessions .session .speaker img,
+            .connect .links a:hover:before, .sessions .session .session-inner, .location .explore, .location .map,
+            .articles article .image, .facebook .fb-event, .facebook .fb-view, .twitter .view, .twitter .tweet,
+            .sidebar .widget_latest_comments li a,.sidebar h2, .articles article .image, .comments-area h2,
+            .commentlist .comment .comment-content,.commentlist .comment .comment-content:after,
+            .timecounter, input[type=text], textarea, .landing .box, h1 img.img-circle {
+                behavior: url("http://sigmod2017.org/wp-content/themes/Tyler/js/pie/PIE.htc");
+            }
+        </style>
+        <![endif]-->
+        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/sigmod2017.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=1c31560d246502a7fe2c533aebd31644"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://sigmod2017.org/wp-content/plugins/captcha/css/front_end_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://sigmod2017.org/wp-includes/css/dashicons.min.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_desktop_style-css'  href='http://sigmod2017.org/wp-content/plugins/captcha/css/desktop_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-google-font-css'  href='//fonts.googleapis.com/css?family=Ubuntu%3A300%2C400%2C500%2C700&#038;ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-bootstrap-css'  href='../wp-content/themes/Tyler/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-blueimp-gallery-css'  href='../wp-content/themes/Tyler/css/blueimp-gallery.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-jquery-scrollpane-css'  href='../wp-content/themes/Tyler/css/jquery.scrollpane.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-icons-css'  href='../wp-content/themes/Tyler/css/icon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-layout-css'  href='../wp-content/themes/Tyler/css/layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-layout-mobile-css'  href='../wp-content/themes/Tyler/css/layout-mobile.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-style-css'  href='http://sigmod2017.org/wp-content/themes/Tyler/style.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='london-scheme-css'  href='http://sigmod2017.org/wp-content/themes/Tyler/css/schemes/london/layout.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='../wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sigmod2017.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="./" />
+<link rel='shortlink' href='../' />
+<link rel="alternate" type="application/json+oembed" href="http://sigmod2017.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsigmod2017.org%2Fsigmod-program%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://sigmod2017.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsigmod2017.org%2Fsigmod-program%2F&#038;format=xml" />
+
+    <script type="text/javascript">
+
+        var ajaxurl = 'http://sigmod2017.org/datalearnstofly/admin-ajax.php';
+        var pois = [{"poi_address":"<strong>The Cinema<\/strong><br\/>Renoir Cinema, London","poi_latitude":"51.5112139","poi_longitude":"-0.1198244","poi_title":"The Cinema"},{"poi_address":"<strong>The Restaurant<\/strong><br\/>The Restaurant, London","poi_latitude":"51.4965633","poi_longitude":"-0.175881","poi_title":"The Restaurant"},{"poi_address":"<strong>The Hotel<\/strong><br\/>The Hotel, London","poi_latitude":"51.5066791","poi_longitude":"-0.1523359","poi_title":"The Hotel"},{"poi_address":"<strong>Camden Town<\/strong><br\/>Camden Town, London","poi_latitude":"51.5390111","poi_longitude":"-0.1425553","poi_title":"Camden Town"},{"poi_address":"<strong>O2<\/strong><br\/>O2, London","poi_latitude":"51.5171878","poi_longitude":"-0.1168787","poi_title":"O2"},{"poi_address":"<strong>Oxford Square<\/strong><br\/>Oxford Square, London","poi_latitude":"51.5154787","poi_longitude":"-0.16747","poi_title":"Oxford Square"},{"poi_address":"<strong>Hyde Park<\/strong><br\/>Hyde Park, London","poi_latitude":"51.5072682","poi_longitude":"-0.1657303","poi_title":"Hyde Park"},{"poi_address":"<strong>Trafalgar Square<\/strong><br\/>Trafalgar Square, London","poi_latitude":"51.5080391","poi_longitude":"-0.1280693","poi_title":"Trafalgar Square"},{"poi_address":"<strong>Brick Lane<\/strong><br\/>Brick Lane, London","poi_latitude":"51.5214253","poi_longitude":"-0.0717604","poi_title":"Brick Lane"},{"poi_address":"<strong>Westminster Abbey<\/strong><br\/>Westminster Abbey","poi_latitude":"51.4995308","poi_longitude":"-0.1284551","poi_title":"Westminster Abbey"},{"poi_address":"<strong>Big Ben<\/strong><br\/>Big Ben","poi_latitude":"51.5007046","poi_longitude":"-0.1245748","poi_title":"Big Ben"},{"poi_address":"<strong>Parliament<\/strong><br\/>The Parliament, London","poi_latitude":"51.4995281","poi_longitude":"-0.125076","poi_title":"Parliament"},{"poi_address":"<strong>Tower Bridge<\/strong><br\/>tower bridge, london","poi_latitude":"51.5041846","poi_longitude":"-0.0763221","poi_title":"Tower Bridge"},{"poi_address":"<strong>The London Eye<\/strong><br\/>the london eye","poi_latitude":"51.5034001","poi_longitude":"-0.1195192","poi_title":"The London Eye"}];
+        var poi_marker = 'http://sigmod2017.org/wp-content/themes/Tyler/images/schemes/london/icon-map-pointer.png';
+        var contact_missingfield_error = "Sorry! You've entered an invalid email.";
+        var contact_wrongemail_error = "This field must be filled out.";
+    </script><meta name="twitter:partner" content="tfwp" /><style type="text/css"></style>
+<meta name="twitter:card" content="summary" /><meta name="twitter:title" content="SIGMOD program" /><meta name="twitter:image" content="http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo.jpg" />
+    </head>
+    <body class="page-template-default page page-id-852">
+        <header class="nav transition">
+            <a href="../" id="logo">
+                <img src="../wp-content/uploads/2017/04/SIGMOD_PODS_logo_2017.jpg" alt="Logo SIGMOD/PODS 2017" title="SIGMOD/PODS 2017" />
+            </a>
+            <nav class="navbar" role="navigation">
+                <!-- mobile navigation -->
+                <div class="navbar-header visible-sm visible-xs">
+                    <button type="button" class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target="#tyler-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="icon-header"></i>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse text-fit" id="tyler-navigation">
+                    <div class="menu-sigmod-container"><ul id="menu-primary" class="transition"><li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-258"><a href="../">Home</a></li>
+<li id="menu-item-1137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1137"><a href="../schedule-overview/">Schedule</a>
+<ul class="sub-menu">
+	<li id="menu-item-1371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1371"><a href="../schedule-overview/">Schedule</a></li>
+	<li id="menu-item-1369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1369"><a href="../live/">Live streaming</a></li>
+	<li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="../video/">Talk videos</a></li>
+</ul>
+</li>
+<li id="menu-item-856" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-856"><a href="#">SIGMOD</a>
+<ul class="sub-menu">
+	<li id="menu-item-929" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-852 current_page_item menu-item-929"><a href="./">SIGMOD program</a></li>
+	<li id="menu-item-861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-861"><a href="../sigmod-accepted-papers/">SIGMOD proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-857"><a href="#">PODS</a>
+<ul class="sub-menu">
+	<li id="menu-item-889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-889"><a href="../pods-program/">PODS program</a></li>
+	<li id="menu-item-860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-860"><a href="../pods-accepted-papers/">PODS proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-356"><a href="#">Call for contributions</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="../deadlines/">Important Dates</a></li>
+	<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="../sigmod-general-call-for-contributions/">SIGMOD general call for contributions</a></li>
+	<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="../sigmod-call-for-research-papers/">SIGMOD call for research papers</a></li>
+	<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="../pods-general-call-for-contributions/">PODS general call for contributions</a></li>
+	<li id="menu-item-677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="../sigmod-call-for-industrial-track-papers/">SIGMOD Call for Industrial Track Papers</a></li>
+	<li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="../sigmod-call-for-tutorial-proposals/">SIGMOD Call for tutorial proposals</a></li>
+	<li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="../sigmod-call-for-demonstration-proposals/">SIGMOD Call for demonstration proposals</a></li>
+	<li id="menu-item-554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-554"><a href="../sigmod-call-for-workshop-proposals/">SIGMOD call for workshop proposals</a></li>
+	<li id="menu-item-683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683"><a href="../student-research-competition/">SIGMOD student research competition (ACM SRC)</a></li>
+</ul>
+</li>
+<li id="menu-item-278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-278"><a href="#">Organization</a>
+<ul class="sub-menu">
+	<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a href="../conference-officers/">Conference Officers</a></li>
+	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="../sigmod-program-committee/">SIGMOD PC</a></li>
+	<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="../pods-pc/">PODS PC</a></li>
+	<li id="menu-item-652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-652"><a href="../demonstrations/">SIGMOD demo PC</a></li>
+	<li id="menu-item-676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-676"><a href="../sigmod-industry-pc/">SIGMOD industry PC</a></li>
+	<li id="menu-item-701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="../tutorials/">SIGMOD tutorial PC</a></li>
+	<li id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="../student-research-competition/">SIGMOD ACM SRC PC</a></li>
+	<li id="menu-item-585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-585"><a href="#">Conference volunteers</a></li>
+	<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="../sponsoring/">Sponsor opportunities</a></li>
+	<li id="menu-item-588" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-588"><a href="http://sigmod2016.org/">SIGMOD 2016</a></li>
+	<li id="menu-item-587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-587"><a href="http://sigmod.org/">ACM Sigmod Online</a></li>
+</ul>
+</li>
+<li id="menu-item-579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-579"><a href="#">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1116"><a href="../pods-program/#gems">Gems of PODS</a></li>
+	<li id="menu-item-784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-784"><a href="../programming-contest/">Programming Contest</a></li>
+	<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="../workshops/">Workshops</a></li>
+	<li id="menu-item-678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678"><a href="../new-researcher-symposium/">New Researcher Symposium</a></li>
+	<li id="menu-item-679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679"><a href="../tutorials/">SIGMOD Tutorials</a></li>
+	<li id="menu-item-787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-787"><a href="../student-research-competition/">SIGMOD Student Research Competition</a></li>
+</ul>
+</li>
+<li id="menu-item-593" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-593"><a href="#">Participating             </a>
+<ul class="sub-menu">
+	<li id="menu-item-910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-910"><a href="https://www.regonline.com/sigmodpods2017">Registration</a></li>
+	<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="../attending-the-conference/">Attending the conference</a></li>
+	<li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="../banquet/">Banquet</a></li>
+	<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="../accomodations/">Accomodations</a></li>
+	<li id="menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792"><a href="../visa-information/">Visa information</a></li>
+	<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="../student-travel-awards/">Student Travel Awards</a></li>
+	<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="../conference-venue/">Conference Venue</a></li>
+	<li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812"><a href="../restaurants-attractions/">Restaurants &#038; Attractions</a></li>
+	<li id="menu-item-813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813"><a href="../transportation/">Transportation</a></li>
+	<li id="menu-item-1330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1330"><a href="https://drive.google.com/file/d/0BwMzqILSnejkUi1OQVQ2S0FfVWc/view?usp=sharing">Conference booklet (60 MB PDF)</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+            </nav>
+        </header>        <div class="heading">
+        <div class="container">
+            <h1>SIGMOD program</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                                <style type="text/css">
+.jump:before {content: "";display: block;padding-top: 90px; margin-top: -50px; }</style>
+<h1>Proceedings</h1>
+<p>SIGMOD 2017 papers will be accessed here (TBD).</p>
+<h1>Conference Program: SIGMOD Sessions</h1>
+<p>This page describes the complete SIGMOD Conference program.</p>
+<ul>
+<li><a href="#keynote">Keynote Talks</a></li>
+<li><a href="#teaser">Teaser Talks</a></li>
+<li><a href="#research">Research Sessions</a></li>
+<li><a href="#posters">Posters and Demos</a></li>
+<li><a href="#tutorial">Tutorials</a></li>
+<li><a href="#awards">Award Talks</a></li>
+<li><a href="#industry">Career in Industry Panel</a></li>
+<li><a href="#business">Business Lunch</a></li>
+<li><a href="#newresearchers">New Researcher Symposium</a></li>
+<li><a href="#researchcompetition">Student Research Competition</a></li>
+</ul>
+<p>The SIGMOD 2017 program will also be available at <a href="http://confer.csail.mit.edu/sigmod2017/"> http://confer.csail.mit.edu/sigmod2017</a>. Confer is a conference program management tool with a crowd-sourcing component that automatically groups papers into sessions to maximize the number of papers each attendee likes that he or she will get to see.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="keynote" class="jump">SIGMOD Keynote Talks</h1>
+<h3 id="keynote1" class="jump">Keynote Session 1: Grand Challenges in Data Management: Transactions</h3>
+<p>Tuesday 8:15-9:50<br />
+Location: International North<br />
+Session Chair: Magda Balazinska</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37608"><strong>The Next 700 Transaction Processing Engines</strong></a> (sgm171k)<br />
+Anastasia Ailamaki (EPFL)</li>
+<li><a href="http://dl.acm.org/authorize?N37609"><strong>What Are We Doing With Our Lives? Nobody Cares About Our Research on Transactions</strong></a> (sgm272k)<br />
+Andy Pavlo (CMU)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="keynote2" class="jump">Keynote Session 2: Grand Challenges in Data Management: Approximate Query Processing</h3>
+<p>Wednesday 8:15-9:50<br />
+Location: International North<br />
+Session Chair: Dan Suciu</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37633"><strong>Approximate Query Processing: No Silver Bullet</strong></a> (sgm373k)<br />
+Surajit Chaudhuri, Bolin Ding, Srikanth Kandula (Microsoft Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37634"><strong>Approximate Query Engines: Commercial Challenges and Research Opportunities</strong></a> (sgm474k)<br />
+Barzan Mozafari (University of Michigan)</li>
+<li><a href="http://dl.acm.org/authorize?N37645"><strong>Approximate Query Processing for Interactive Data Science</strong></a> (sgm575k)<br />
+Tim Kraska (Brown University)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="teaser" class="jump">TEASER Talks</h1>
+<h3>Teaser Talks 1 (1’ per paper)</h3>
+<p>Tuesday 9:50-10:30<br />
+Location: International North<br />
+Session Chair: Magda Balazinska<br />
+<a href="../wp-content/uploads/2017/03/SIGMOD-2017-Teaser-Talks-1-Tuesday-May-16th-2017.pdf">Slides Teaser Talks 1.pdf</a></p>
+<p>&nbsp;</p>
+<h3>Teaser Talks 2 (1’ per paper)</h3>
+<p>Wednesday 9:50-10:30<br />
+Location: International North<br />
+Session Chair: Dan Suciu<br />
+<a href="../wp-content/uploads/2017/03/SIGMOD-2017-Teaser-Talks-2-Wednesday-May-17th-2017.pdf">Slides Teaser Talks 2.pdf</a></p>
+<p>&nbsp;</p>
+<h3>Teaser Talks 3 (1’ per paper)</h3>
+<p>Thursday 9:50-10:30<br />
+Location: International North<br />
+Session Chair: Dan Olteanu<br />
+<a href="../wp-content/uploads/2017/05/SIGMOD-2017-Teaser-Talks-3-Thursday-May-18th-2017.pdf">Slides Teaser Talks 3.pdf</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="researcher" class="jump">RESEARCH SESSIONS</h1>
+<h3 id="ssession1" class="jump">Session 1: Concurrency (1)</h3>
+<p>Tuesday 11:00-12:15<br />
+Location: ♜Continental B<br />
+Session Chair: Alan Fekete</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37600"><strong>ACIDRain: Concurrency-Related Attacks on Database-Backed Web Applications</strong></a> (sidm528)<br />
+Todd Warszawski (Stanford University); Peter Bailis (Stanford University)</li>
+<li><a href="http://dl.acm.org/authorize?N37601"><strong>Cicada: Dependably Fast Multi-Core In-Memory Transactions</strong></a> (sidm383)<br />
+Hyeontaek Lim (Carnegie Mellon University); Michael Kaminsky (Intel Labs); David G. Andersen (Carnegie Mellon University)</li>
+<li><a href="http://dl.acm.org/authorize?N37602"><strong>BatchDB: Efficient Isolated Execution of Hybrid OLTP+OLAP Workloads</strong></a> (sidm267)<br />
+Darko Makreshanski (ETH Zurich); Jana Giceva (ETH Zurich); Claude Barthels (ETH Zurich); Gustavo Alonso (ETH Zurich)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession2" class="jump">Session 2: Storage and Distribution (1)</h3>
+<p>Tuesday 11:00-12:15<br />
+Location: ♞Continental C<br />
+Session Chair: Sadoghi Hamedani</p>
+<ul>
+<li>(Industrial) <a href="http://dl.acm.org/authorize?N37603"><strong>Azure Data Lake Store: A Hyperscale Distributed File Service for Big Data Analytics</strong></a> (sgm161)<br />
+Raghu Ramakrishnan, Baskar Sridharan, John R. Douceur, Pavan Kasturi, Balaji Krishnamachari-Sampath, Karthick Krishnamoorthy, Peng Li, Mitica Manu, Spiro Michaylov, Rogério Ramos, Neil Sharman, Zee Xu, Youssef Barakat, Chris Douglas, Richard Draves, Shrikant S Naidu, Shankar Shastry, Atul Sikaria, Simon Sun, Ramarathnam Venkatesan (Microsoft)</li>
+<li><a href="http://dl.acm.org/authorize?N37604"><strong>OctopusFS: A Distributed File System with Tiered Storage Management</strong></a> (sidm435)<br />
+Elena Kakoulli (Cyprus University of Technology); Herodotos Herodotou (Cyprus University of Technology)</li>
+<li><a href="http://dl.acm.org/authorize?N37615"><strong>Monkey: Optimal Navigable Key-Value Store</strong></a> (sidm653)<br />
+Niv Dayan (Harvard University); Manos Athanassoulis (Harvard University); Stratos Idreos (Harvard University)<br />
+Video: <a href="https://www.youtube.com/watch?v=auI8BTws-f8">https://www.youtube.com/watch?v=auI8BTws-f8</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession3" class="jump">Session 3: Streams</h3>
+<p>Tuesday 11:00-12:15<br />
+Location: ♝Buckingham<br />
+Session Chair: Bongki Moon</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37616"><strong>Enabling Signal Processing over Data Streams</strong></a> (sidm106)<br />
+Milos Nikolic (University of Oxford); Badrish Chandramouli (Microsoft Research); Jonathan Goldstein (Microsoft Research)</li>
+<li><strong><a href="http://dl.acm.org/authorize?N37617">Complete Event Trend Detection in High-Rate Event Streams</a> </strong>(sidm165)<br />
+Olga Poppe (WPI); Chuan Lei (NEC Labs America); Salah Ahmed (WPI); Elke Rundensteiner (WPI)</li>
+<li>(Industrial) <a href="http://dl.acm.org/authorize?N37618"><strong>LittleTable: A Time-Series Database and Its Uses</strong></a> (sgm163)<br />
+Sean Rhea, Eric Wang, Edmund Wong, Ethan Atkins, and Nat Storer</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession4" class="jump">Session 4: Versions and Incremental Maintenance</h3>
+<p>Tuesday 11:00-12:15<br />
+Location: ☼Lake Michigan<br />
+Session Chair: Arun Kumar</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37619"><strong>Incremental View Maintenance over Array Data</strong></a> (sidm549)<br />
+Weijie Zhao (University of California, Merced); Florin Rusu (University of California, Merced); Bin Dong (Lawrence Berkeley National Laboratory); Kesheng Wu (Lawrence Berkeley National Laboratory); Peter Nugent (Lawrence Berkeley National Laboratory)<br />
+Video: <a href="https://www.youtube.com/watch?v=KZBAkupToR0">https://www.youtube.com/watch?v=KZBAkupToR0</a></li>
+<li><a href="http://dl.acm.org/authorize?N37610"><strong>Incremental Graph Computations: Doable and Undoable</strong></a> (sidm142)<br />
+Wenfei Fan (Univ. of Edinburgh); Chunming Hu (Beihang Univ.); Chao Tian (Univ. of Edinburgh)</li>
+<li><a href="http://dl.acm.org/authorize?N37611"><strong>DEX: Query Execution in a Delta-based Storage System</strong></a> (sidm693)<br />
+Amit Chavan (University of Maryland, College Park); Amol Deshpande (University of Maryland at College Park)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession5" class="jump">Session 5: Parallel and Distributed Query Processing (1)</h3>
+<p>Tuesday 11:00-12:15<br />
+Location: ☽Lake Erie<br />
+Session Chair: Holger Pirk</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37612"><strong>Massively Parallel Processing of Whole Genome Sequence Data: An In-Depth Performance Study</strong></a> (sidm606)<br />
+Abhishek Roy (University of Massachusetts Amherst); Yanlei Diao (University of Massachusetts Amherst &amp; École Polytechnique); Uday Evani (New York Genome Center); Avinash Abhyankar (New York Genome Center); Clinton Howarth (New York Genome Center); Rémi Le Priol (École Polytechnique); Toby Bloom (New York Genome Center)</li>
+<li><a href="http://dl.acm.org/authorize?N37613"><strong>Distributed Provenance Compression</strong></a> (sidm039)<br />
+Chen Chen (Univ. of Pennsylvania); Harshal Tushar Lehri (Univ. of Pennsylvania); Lay Kuan Loh (CMU); Anupam Alur (Univ. of Pennsylvania); Limin Jia (CMU); Boon Thau Loo (Univ. Of Pennsylvania); Wenchao Zhou (Georgetown Univ.)</li>
+<li><a href="http://dl.acm.org/authorize?N37614"><strong>ROBUS: Fair Cache Allocation for Data-parallel Workloads</strong></a> (sidm407)<br />
+Mayuresh Kunjir (Duke University); Brandon Fain (Duke University); Kamesh Munagala (Duke University); Shivnath Babu (Duke University)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession6" class="jump">Session 6: Concurrency (2)</h3>
+<p>Tuesday 14:00-15:40<br />
+Location: ♜Continental B<br />
+Session Chair: Phil Bernstein</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37625"><strong>Transaction Repair for Multi-Version Concurrency Control</strong></a> (sidm006)<br />
+Mohammad Dashti (École polytechnique fédérale de Lausanne); Sachin Basil John (École polytechnique fédérale de Lausanne); Amir Shaikhha (École polytechnique fédérale de Lausanne); Christoph Koch (École polytechnique fédérale de Lausanne)<br />
+Video: <a href="https://youtu.be/SZSJ9HLYXeM">https://youtu.be/SZSJ9HLYXeM</a></li>
+<li><a href="http://dl.acm.org/authorize?N37626"><strong>Concerto: A High Concurrency Key-Value Store with Integrity</strong> </a>(sidm497)<br />
+Arvind Arasu (Microsoft); Ken Eguro (Microsoft); Raghav Kaushik (Microsoft); Donald Kossmann (Microsoft); Pingfan Meng (Intel Labs); Vineet Pandey (UCSD); Ravi Ramamurthy (Microsoft)</li>
+<li><a href="http://dl.acm.org/authorize?N37627"><strong>Fast Failure Recovery for Main-Memory DBMSs on Multicores</strong> </a>(sidm370)<br />
+Yingjun Wu (National University of Singapore); Wentian Guo (National University of Singapore); Chee-Yong Chan (National University of Singapore); Kian-Lee Tan (National University of Singapore)</li>
+<li><a href="http://dl.acm.org/authorize?N37628"><strong>Bringing Modular Concurrency Control to the Next Level</strong></a> (sidm502)<br />
+Chunzhi Su (The University of Texas at Austin); Natacha Crooks (The University of Texas at Austin); Cong Ding (Cornell University); Lorenzo Alvisi (The University of Texas at Austin and Cornell University); Chao Xie (The University of Texas at Austin)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession7" class="jump">Session 7: Storage and Distribution (2)</h3>
+<p>Tuesday 14:00-15:40<br />
+Location: ♞Continental C<br />
+Session Chair: Mehul Shah</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37629"><strong>Wide Table Layout Optimization based on Column Ordering and Duplication</strong></a> (sidm060)<br />
+Haoqiong Bian (DEKE Key Lab (MOE), Renmin Univ. of China); Ying Yan (Microsoft Research); Wenbo Tao (MIT); Liang Chen (Microsoft Research); Yueguo Chen (Renmin Univ. of China); Xiaoyong Du (Renmin Univ. of China); Thomas Moscibroda (Microsoft Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37620"><strong>Query Centric Partitioning and Allocation for Partially Replicated Database Systems</strong></a> (sidm630)<br />
+Tilmann Rabl (Technische Universität Berlin); Hans-Arno Jacobsen (University of Toronto)</li>
+<li>(Industrial) <a href="http://dl.acm.org/authorize?N37621"><strong>Spanner: Becoming a SQL System</strong></a> (sgm164)<br />
+David F. Bacon, Nathan Bales, Nico Bruno, Brian F. Cooper, Adam Dickinson, Andrew Fikes, Campbell Fraser, Andrey Gubarev, Milind Joshi, Eugene Kogan, Alexander Lloyd, Sergey Melnik, Christopher Taylor, Rajesh Rao, David Shue, Dale Woodford, Marcel van der Holst</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession8" class="jump">Session 8: Tree &amp; Graph Processing (1)</h3>
+<p>Tuesday 14:00-15:40<br />
+Location: ♝Buckingham<br />
+Session Chair: Semih Salihoglu</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37622"><strong>Landmark indexing for evaluation of label-constrained reachability queries</strong></a> (sidm221)<br />
+Lucien Valstar (Eindhoven Univ. of Technology); George H. L. Fletcher (Eindhoven Univ. of Technology); Yuichi Yoshida (National Institute of Informatics and Preferred Infrastructure, Inc.)</li>
+<li><a href="http://dl.acm.org/authorize?N37623"><strong>Efficient Ad-Hoc Graph Inference and Matching in Biological Databases</strong></a> (sidm051)<br />
+Xiang Lian (Kent State University); Dongchul Kim (University of Texas Rio Grande Valley)</li>
+<li><a href="http://dl.acm.org/authorize?N37624"><strong>DAG Reduction: Fast Answering Reachability Queries</strong></a> (sidm041)<br />
+Junfeng Zhou (Donghua Univ.); Shijie Zhou (Yanshan Univ.); Jeffrey Xu Yu (Chinese Univ. of Hong Kong); Hao Wei (Chinese Univ. of Hong Kong); Ziyang Chen (Shanghai Lixin Univ. of Commerce); Xian Tang (Yanshan Univ.)</li>
+<li><a href="http://dl.acm.org/authorize?N37635"><strong>Flexible and Feasible Support Measures for Mining Frequent Patterns in Large Labeled Graphs</strong></a> (sidm111)<br />
+Jinghan Meng (Univ. of South Florida); Yicheng Tu (Univ. of South Florida)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession9" class="jump">Session 9: New Hardware</h3>
+<p>Tuesday 14:00-15:40<br />
+Location: ☼Lake Michigan<br />
+Session Chair: Mohamed Mokbel</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37636"><strong>Accelerating Pattern Matching Queries in Hybrid CPU-FPGA Architectures</strong></a> (sidm213)<br />
+David Sidler (ETH Zurich); Zsolt Istvan (ETH Zurich); Muhsen Owaida (ETH Zurich); Gustavo Alonso (ETH Zurich)</li>
+<li><a href="http://dl.acm.org/authorize?N37637"><strong>A Memory Bandwidth-Efficient Hybrid Radix Sort on GPUs</strong></a> (sidm569)<br />
+Elias Stehle (Technical University of Munich (TUM)); Hans-Arno Jacobsen (Technical University of Munich (TUM))</li>
+<li><a href="http://dl.acm.org/authorize?N37638"><strong>FPGA-based Data Partitioning</strong></a> (sidm156)<br />
+Kaan Kara (ETH Zuirch); Jana Giceva (ETH Zurich); Gustavo Alonso (ETH Zurich)</li>
+<li><a href="http://dl.acm.org/authorize?N37639"><strong>Template Skycube Algorithms for Heterogeneous Parallelism on Multicore and GPU Architectures</strong></a> (sidm306)<br />
+Kenneth S. Bøgh (Aarhus Univ.); Sean Chester (NTNU); Darius idlauskas (EPFL); Ira Assent (Aarhus Univ.)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession10" class="jump">Session 10: Parallel and Distributed Query Processing (2)</h3>
+<p>Tuesday 14:00-15:40<br />
+Location: ☽Lake Erie<br />
+Session Chair: Boris Glavic</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37630"><strong>Heterogeneity-aware Distributed Parameter Servers</strong></a> (sidm091)<br />
+Jiawei Jiang (Peking Univ.); Bin Cui (Peking Univ.); Ce Zhang (ETH Zurich); Lele Yu (Peking Univ.)</li>
+<li><a href="http://dl.acm.org/authorize?N37631"><strong>Distributed Algorithms on Exact Personalized PageRank</strong></a> (sidm015)<br />
+Tao Guo (NTU); Xin Cao (UNSW); Gao Cong (NTU); Jiaheng Lu (Universtiy of Helsinki); Xuemin Lin (UNSW)</li>
+<li>(Best paper award)<a href="http://dl.acm.org/authorize?N37632"><strong> Parallelizing Sequential Graph Computations</strong> </a>(sidm138)<br />
+Wenfei Fan (Univ. of Edinburgh); Jingbo Xu (Univ. of Edinburgh); Yinghui Wu (Washington state Univ.); Jiaxin Jiang (Hong Kong Baptist Univ.); Zeyu Zheng (Peking Univ.); Bohan Zhang (Peking Univ.); Yang Cao (Univ. of Edinburgh); Chao Tian (Univ. of Edinburgh)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession11" class="jump">Session 11: Interactive Data Exploration and AQP (1)</h3>
+<p>Wednesday 11:00-12:15<br />
+Location: ♜Continental B<br />
+Session Chair: Mohamed Sarwat</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37646"><strong>Controlling False Discoveries During Interactive Data Exploration</strong></a> (sidm408)<br />
+Zheguang Zhao (Brown University); Lorenzo De Stefani (Brown University); Emanuel Zgraggen (Brown University); Carsten Binnig (Brown University); Eli Upfal (Brown University); Tim Kraska (Brown University)</li>
+<li><a href="http://dl.acm.org/authorize?N37647"><strong>MacroBase: Prioritizing Attention in Fast Data</strong></a> (sidm042)<br />
+Peter Bailis (Stanford InfoLab); Edward Gan (Stanford InfoLab); Samuel Madden (MIT); Deepak Narayanan (Stanford InfoLab); Kexin Rong (Stanford InfoLab); Sahaana Suri (Stanford InfoLab)</li>
+<li><a href="http://dl.acm.org/authorize?N37648"><strong>Data Canopy: Accelerating Exploratory Statistical Analysis</strong></a> (sidm623)<br />
+Abdul Wasay (Harvard University); Xinding Wei (Harvard University); Niv Dayan (Harvard University); Stratos Idreos (Harvard University)<br />
+Video: <a href="https://youtu.be/EwtOFVAuUVU">https://youtu.be/EwtOFVAuUVU</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession12" class="jump">Session 12: Beliefs, Conflicts, Knowledge</h3>
+<p>Wednesday 11:00-12:15<br />
+Location: ♞Continental C<br />
+Session Chair: Reynold Cheng</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37649"><strong>Beta Probabilistic Databases: A Scalable Approach to Belief Updating and Parameter Learning</strong></a> (sidm455)<br />
+Niccolo' Meneghetti (HPE Vertica); Oliver Kennedy (University at Buffalo); Wolfgang Gatterbauer (Carnegie Mellon University)</li>
+<li><a href="http://dl.acm.org/authorize?N37640"><strong>Database Learning: Toward a Database that Becomes Smarter Every Time</strong></a> (sidm378)<br />
+Yongjoo Park (University of Michigan, Ann Arbor); Ahmad Shahab Tajik (University of Michigan, Ann Arbor); Michael Cafarella (University of Michigan, Ann Arbor); Barzan Mozafari (University of Michigan, Ann Arbor)</li>
+<li><a href="http://dl.acm.org/authorize?N37641"><strong>Staging User Feedback toward Rapid Conflict Resolution in Data Fusion</strong></a> (sidm133)<br />
+Romila Pradhan (Purdue Univ.); Siarhei Bykau (Bloomberg L.P..); Sunil Prabhakar (Purdue Univ.)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession13" class="jump">Session 13: Influence in Social Networks</h3>
+<p>Wednesday 11:00-12:15<br />
+Location: ♝Buckingham<br />
+Session Chair: Pierre Senellart</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37642"><strong>Discovering Your Selling Points: Personalized Social Influential Tag Exploration</strong></a> (sidm201)<br />
+Yuchen Li (National Univ. of Singapore); Ju Fan (Renmin Univ. of China); Dongxiang Zhang (Univ. of Electronic Science and Technology of China); Kian-Lee Tan (National Univ. of Singapore)</li>
+<li><a href="http://dl.acm.org/authorize?N37643"><strong>Coarsening Massive Influence Networks for Scalable Diffusion Analysis</strong></a> (sidm577)<br />
+Naoto Ohsaka (The University of Tokyo); Tomohiro Sonobe (National Institute of Informatics); Sumio Fujita (Yahoo Japan Corporation); Ken-Ichi Kawarabayashi (National Institute of Informatics)</li>
+<li><a href="http://dl.acm.org/authorize?N37644"><strong>Debunking the Myths of Influence Maximization: An In-Depth Benchmarking Study</strong></a> (sidm029)<br />
+Akhil Arora (Xerox Research Centre India); Sainyam Galhotra (UMass Amherst); Sayan Ranu (IIT Delhi)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession14" class="jump">Session 14: Mappings, Transformations, Pricing</h3>
+<p>Wednesday 11:00-12:15<br />
+Location: ☼Lake Michigan<br />
+Session Chair: Arash Termehchy</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37755"><strong>Interactive Mapping Specification with Exemplar Tuples</strong></a> (sidm473)<br />
+Angela Bonifati (University Lyon 1 and CNRS Liris); Ugo Comignani (University Lyon 1 and CNRS Liris); Emmanuel Coquery (University Lyon 1 and CNRS Liris); Romuald Thion (University Lyon 1 and CNRS Liris)<br />
+Video: <a href="https://youtu.be/2ZxmgzGkjb8">https://youtu.be/2ZxmgzGkjb8</a></li>
+<li><a href="http://dl.acm.org/authorize?N37756"><strong>Foofah: Transforming Data By Example</strong></a> (sidm521)<br />
+Zhongjun Jin (University of Michigan); Michael R. Anderson (University of Michigan); Michael Cafarella (University of Michigan); H. V. Jagadish (University of Michigan)</li>
+<li><a href="http://dl.acm.org/authorize?N37757"><strong>QIRANA: a Framework for Scalable Query Pricing</strong></a> (sidm387)<br />
+Shaleen Deep (University of Wisconsin - Madison); Paraschos Koutris (University of Wisconsin-Madison)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession15" class="jump">Session 15: Optimization and Performance (1)</h3>
+<p>Wednesday 11:00-12:15<br />
+Location: ☽Lake Erie<br />
+Session Chair: Hank Korth</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37758"><strong>Access Path Selection in Main-Memory Optimized Data Systems: Should I Scan or Should I Probe?</strong></a> (sidm609)<br />
+Michael Kester (Harvard University); Manos Athanassoulis (Harvard University); Stratos Idreos (Harvard University)<br />
+Video: <a href="https://www.youtube.com/watch?v=45aWbq_d-l4">https://www.youtube.com/watch?v=45aWbq_d-l4</a></li>
+<li><a href="http://dl.acm.org/authorize?N37759"><strong>Optimization of Disjunctive Predicates for Main Memory Column Stores</strong></a> (sidm430)<br />
+Fisnik Kastrati (University of Mannheim); Guido Moerkotte (University of Mannheim)</li>
+<li><a href="http://dl.acm.org/authorize?N37750"><strong>A Top-Down Approach to Achieving Performance Predictability in Database Systems</strong></a> (sidm384)<br />
+Jiamin Huang (University of Michigan); Barzan Mozafari (University of Michigan); Thomas Wenisch (University of Michigan); Grant Schoenebeck (University of Michigan)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession16" class="jump">Session 16: Interactive Data Exploration and AQP (2)</h3>
+<p>Wednesday 14:00-15:40<br />
+Location: ♜Continental B<br />
+Session Chair: Florin Rusu</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37751"><strong>Two-Level Sampling for Join Size Estimation</strong></a> (sidm020)<br />
+Yu Chen (HKUST); Ke Yi (HKUST)</li>
+<li><a href="http://dl.acm.org/authorize?N37752"><strong>A General-Purpose Counting Filter: Making Every Bit Count</strong></a> (sidm327)<br />
+Prashant Pandey (Stony Brook Univ.); Michael A. Bender (Stony Brook Univ.); Rob Johnson (Stony Brook Univ.); Rob Patro (Stony Brook Univ.)</li>
+<li><a href="http://dl.acm.org/authorize?N37753"><strong>BePI: Fast and Memory-Efficient Method for Billion-Scale Random Walk with Restart</strong></a> (sidm197)<br />
+Jinhong Jung (Seoul National Univ.); Namyong Park (Seoul National Univ.); Sael Lee (State Univ. of New York (SUNY) Korea); U Kang (Seoul National Univ.)<br />
+Video: <a href="https://youtu.be/fTznISEkDJY">https://youtu.be/fTznISEkDJY</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession17" class="jump">Session 17: User Preferences</h3>
+<p>Wednesday 14:00-15:40<br />
+Location: ♞Continental C<br />
+Session Chair: Julia Stoyanovich</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37754"><strong>Determining the Impact Regions of Competing Options in Preference Space</strong></a> (sidm572)<br />
+Bo Tang (Hong Kong Polytechnic University); Kyriakos Mouratidis (Singapore Management University); Man Lung Yiu (Hong Kong Polytechnic University)</li>
+<li><a href="http://dl.acm.org/authorize?N37765"><strong>Efficient Computation of Regret-ratio Minimizing Set: A Compact Maxima Representative</strong></a> (sidm087)<br />
+Abolfazl Asudeh (Univ. of Texas at Arlington); Azade Nazi (Univ. of Texas at Arlington); Nan Zhang (George Washington Univ.); Gautam Das (Univ. of Texas at Arlington)</li>
+<li><a href="http://dl.acm.org/authorize?N37766"><strong>FEXIPRO: Fast and Exact Inner Product Retrieval in Recommender Systems</strong></a> (sidm362)<br />
+Hui Li (The University of Hong Kong); Tsz Nam Chan (Hong Kong Polytechnic University); Man Lung Yiu (Hong Kong Polytechnic University); Nikos Mamoulis (The University of Hong Kong)</li>
+<li><a href="http://dl.acm.org/authorize?N37767"><strong>Feedback-Aware Social Event-Participant Arrangement</strong></a> (sidm412)<br />
+Jieying She (HKUST); Lei Chen (Hong Kong University of Science and Technology);Yongxin Tong (Beihang University); Tianshu Song (Beihang University)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession18" class="jump">Session 18: Tree &amp; Graph Processing (2)</h3>
+<p>Wednesday 14:00-15:40<br />
+Location: ♝Buckingham<br />
+Session Chair: Vincent Oria</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37768"><strong>Exploiting Common Patterns for Tree-Structured Data</strong></a> (sidm244)<br />
+Zhiyi Wang (ICT CAS); Shimin Chen (ICT CAS)</li>
+<li><a href="http://dl.acm.org/authorize?N37769"><strong>Extracting and Analyzing Hidden Graphs from Relational Databases</strong> </a>(sidm193)<br />
+Konstantinos Xirogiannopoulos (Univ. of Maryland, College Park); Amol Deshpande (Univ. of Maryland, College Park)</li>
+<li><a href="http://dl.acm.org/authorize?N37760"><strong>TrillionG: A Trillion-scale Synthetic Graph Generator using a Recursive Vector Model</strong></a> (sidm380)<br />
+Himchan Park (DGIST); Min-Soo Kim (DGIST)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession19" class="jump">Session 19: Machine Learning</h3>
+<p>Wednesday 14:00-15:40<br />
+Location: ☼Lake Michigan<br />
+Session Chair: Theodoros Rekatsinas</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37761"><strong>Schema Independent Relational Learning</strong></a> (sidm028)<br />
+Jose Picado (Oregon State Univ.); Arash Termehchy (Oregon State Univ.); Alan Fern (Oregon State Univ.); Parisa Ataei (Oregon State Univ.)<br />
+Video: <a href="https://youtu.be/woxVz5MyePQ">https://youtu.be/woxVz5MyePQ</a></li>
+<li><a href="http://dl.acm.org/authorize?N37762"><strong>Scalable Kernel Density Classification using Threshold-Based Pruning</strong></a> (sidm524)<br />
+Edward Gan (Stanford University); Peter Bailis (Stanford University)</li>
+<li><a href="http://dl.acm.org/authorize?N37763"><strong>The BUDS Language for Distributed Machine Learning</strong></a> (sidm116)<br />
+Zekai J. Gao (Rice Univ.); Shangyu Luo (Rice Univ.); Luis Perez (Rice Univ.); Chris Jermaine (Rice Univ.)</li>
+<li><a href="http://dl.acm.org/authorize?N37764"><strong>A Cost-based Optimizer for Gradient Descent Optimization</strong></a> (sidm567)<br />
+Zoi Kaoudi (Qatar Computing Research Institute); Jorge Arnulfo Quiane Ruiz (Qatar Computing Research Institute); Saravanan Thirumuruganathan (Qatar Computing Research Institute); Sanjay Chawla (Qatar Computing Research Institute); Divy Agrawal (UC Santa Barbara)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession20" class="jump">Session 20: Optimization and Performance (2)</h3>
+<p>Wednesday 14:00-15:40<br />
+Location: ☽Lake Erie<br />
+Session Chair: Eugen Wu</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37775"><strong>An Experimental Study of Bitmap Compression vs. Inverted List Compression</strong></a> (sidm338) Jianguo Wang (UC San Diego); Chunbin Lin (UC San Diego); Yannis Papakonstantinou (UC San Diego); Steven Swanson (UC San Diego)</li>
+<li><a href="http://dl.acm.org/authorize?N37776"><strong>Automatic Database Management System Tuning Through Large-scale Machine Learning</strong> </a>(sidm488)<br />
+Dana Van Aken (Carnegie Mellon University); Andrew Pavlo (Carnegie Mellon University); Geoffrey J. Gordon (Carnegie Mellon University); Bohan Zhang (Peking University)</li>
+<li><a href="http://dl.acm.org/authorize?N37777"><strong>Solving the Join Ordering Problem via Mixed Integer Linear Programming</strong></a> (sidm534)<br />
+Immanuel Trummer (Cornell University); Christoph Koch (EPFL)</li>
+<li>(Industrial) <a href="http://dl.acm.org/authorize?N37778"><strong>Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases</strong></a> (sgm162)<br />
+Alexandre Verbitski, Anurag Gupta, Debanjan Saha, Murali Brahmadesam, Kamal Gupta, Raman Mittal, Sailesh Krishnamurthy, Sandor Maurice, Tengiz Kharatishvili, Xiaofeng Bao</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession21" class="jump">Session 21: Encryption</h3>
+<p>Thursday 11:00-12:15<br />
+Location: ♜Continental B<br />
+Session Chair: Arvind Arasu</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37779"><strong>Fast Searchable Encryption with Tunable Locality</strong></a> (sidm696)<br />
+Ioannis Demertzis (University of Maryland); Charalampos Papamanthou (University of Maryland)</li>
+<li><a href="http://dl.acm.org/authorize?N37770"><strong>Cryptanalysis of Comparable Encryption in SIGMOD'16</strong></a> (sidm180)<br />
+Caleb Horst (Univ. of Washington Tacoma); Ryo Kikuchi (NTT Secure Platform Laboratories); Keita Xagawa (NTT Secure Platform Laboratories)</li>
+<li><a href="http://dl.acm.org/authorize?N37771"><strong>BLOCKBENCH: A Framework for Analyzing Private Blockchains</strong></a> (sidm519)<br />
+Tien Tuan Anh Dinh (National University of Singapore); Ji Wang (National University of Singapore); Gang Chen (Zhejiang University); Rui Liu (National University of Singapore); Beng Chin Ooi (National University of Singapore); Kian-Lee Tan (National University of Singapore)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession22" class="jump">Session 22: Cleaning, Versioning, Fusion (1)</h3>
+<p>Thursday 11:00-12:15<br />
+Location: ♞Continental C<br />
+Session Chair: George Konstantinidis</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37772"><strong>Living in Parallel Realities -- Co-Existing Schema Versions with a Bidirectional Database Evolution Language</strong></a> (sidm580)<br />
+Kai Herrmann (TU Dresden); Hannes Voigt (TU Dresden); Andreas Behrend (University of Bonn); Jonas Rausch (TU Dresden); Wolfgang Lehner (TU Dresden)<br />
+Video: <a href="https://youtu.be/mzZNnpla_n4">https://youtu.be/mzZNnpla_n4</a></li>
+<li><a href="http://dl.acm.org/authorize?N37773"><strong>Synthesizing Mapping Relationship Using Table Corpus</strong></a> (sidm363)<br />
+Yue Wang (University of Massachusetts Amherst); Yeye He (Microsoft Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37774"><strong>Waldo: An Adaptive Human Interface for Crowd Entity Resolution</strong></a> (sidm067)<br />
+Vasilis Verroios (Stanford Univ.); Hector Garcia-Molina (Stanford Univ.); Yannis Papakonstantinou (UC San Diego)<br />
+Video: <a href="https://youtu.be/X_6KNG-EDec">https://youtu.be/X_6KNG-EDec</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession23" class="jump">Session 23: Tree &amp; Graph Processing (3)</h3>
+<p>Thursday 11:00-12:15<br />
+Location: ♝Buckingham<br />
+Session Chair: Yufei Tao</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37785"><strong>ZipG: A Memory-efficient Graph Store for Interactive Queries</strong> </a>(sidm373)<br />
+Anurag Khandelwal (UC Berkeley); Zongheng Yang (UC Berkeley); Evan Ye (UC Berkeley); Rachit Agarwal (Cornell University); Ion Stoica (UC Berkeley)</li>
+<li><a href="http://dl.acm.org/authorize?N37786"><strong>All-in-One: Graph Processing in RDBMSs Revisited</strong> </a>(sidm141)<br />
+Kangfei Zhao (The Chinese Univ. of Hong Kong); Jeffrey Xu Yu (The Chinese Univ. of Hong Kong)</li>
+<li><a href="http://dl.acm.org/authorize?N37787"><strong>Computing A Near-Maximum Independent Set in Linear Time by Reducing-Peeling</strong></a> (sidm127)<br />
+Lijun Chang (Univ. of New South Wales); Wei Li (Univ. of New South Wales); Wenjie Zhang (Univ. of New South Wales)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession24" class="jump">Session 24: Spatial and Multidimensional Data (1)</h3>
+<p>Thursday 11:00-12:15<br />
+Location: ☼Lake Michigan<br />
+Session Chair: Guoliang Li</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37788"><strong>Utility-Aware Ridesharing on Road Networks</strong></a> (sidm356)<br />
+Peng Cheng (Hong Kong University of Science and Technology); Hao Xin (Hong Kong University of Science and Technology); Lei Chen (Hong Kong University of Science and Technology)</li>
+<li><a href="http://dl.acm.org/authorize?N37789"><strong>Distance Oracle on Terrain Surface</strong></a> (sidm529)<br />
+Victor Junqiu Wei (The Hong Kong University of Science and Technology); Raymond Chi-Wing Wong (the Hong Kong University of Science and Technology); Cheng Long (Queen's University Belfast); David Mount (University of Maryland)</li>
+<li><a href="http://dl.acm.org/authorize?N37780"><strong>Efficient Computation of Top-k Frequent Terms over Spatio-Temporal Ranges</strong></a> (sidm514)<br />
+Pritom Ahmed (University of California, Riverside); Mahbub Hasan (University of California, Riverside); Abhijith Kashyap (University of California, Riverside); Vagelis Hristidis (University of California, Riverside); Vassilis J. Tsotras (University of California, Riverside)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession25" class="jump">Session 25: Optimization and Main Memory (1)</h3>
+<p>Thursday 11:00-12:15<br />
+Location: ☽Lake Erie<br />
+Session Chair: Gautam Das</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37781"><strong>Optimizing Iceberg Queries with Complex Joins</strong></a> (sidm638)<br />
+Brett Walenz (Duke University); Sudeepa Roy (Duke University); Jun Yang (Duke University)</li>
+<li><a href="http://dl.acm.org/authorize?N37782"><strong>The Dynamic Yannakakis Algorithm: Compact and Efficient Query Processing Under Updates</strong></a> (sidm471)<br />
+Muhammad Idris (Université Libre de Bruxelles and Technische Universität Dresden); Stijn Vansummeren (Université Libre de Bruxelles); Martin Ugarte (Université Libre de Bruxelles)</li>
+<li><a href="http://dl.acm.org/authorize?N37783"><strong>Revisiting Reuse in Main Memory Database Systems</strong></a> (sidm245)<br />
+Kayhan Dursun (Brown Univ.); Carsten Binnig (Brown Univ.); Ugur Cetintemel (Brown Univ.); Tim Kraska (Brown Univ.)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession26" class="jump">Session 26: Privacy</h3>
+<p>Thursday 14:00-15:40<br />
+Location: ★ Lake Huron<br />
+Session Chair: Michael Hay</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37784"><strong>Pufferfish Privacy Mechanisms for Correlated Data</strong></a> (sidm452)<br />
+Shuang Song (University of California San Diego); Yizhen Wang (University of California San Diego); Kamalika Chaudhuri (University of California San Diego)</li>
+<li><a href="http://dl.acm.org/authorize?N37795"><strong>Bolt-on Differential Privacy for Scalable Sotchastic Gradient Descent-based Analytics</strong></a> (sidm604)<br />
+Xi Wu (University of Wisconsin-Madison); Fengan Li (University of Wisconsin-Madison); Arun Kumar (UCSD); Kamalika Chaudhuri (UCSD); Somesh Jha (University of Wisconsin-Madison); Jeffrey Naughton (University of Wisconsin-Madison)</li>
+<li><a href="http://dl.acm.org/authorize?N37796"><strong>Pythia: Data Dependent Differentially Private Algorithm Selection</strong></a> (sidm155)<br />
+Ios Kotsogiannis (Duke Univ.); Ashwin Machanavajjhala (Duke Univ.); Michael Hay (Colgate Univ.); Gerome Miklau (Univ. of Massachusetts Amherst)</li>
+<li><a href="http://dl.acm.org/authorize?N37797"><strong>Utility Cost of Formal Privacy for Releasing National Employer-Employee Statistics</strong></a> (sidm129)<br />
+Samuel Haney (Duke Univ.); Ashwin Machanavajjhala (Duke Univ.); John Abowd (U.S. Census Bureau); Matthew Graham (U.S. Census Bureau); Mark Kutzbach (U.S. Census Bureau); Lars Vilhuber (Cornell Univ.)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession27" class="jump">Session 27: Cleaning, Versioning, Fusion (2)</h3>
+<p>Thursday 14:00-15:40<br />
+Location: ♒ Lake Ontario<br />
+Session Chair: Paris Koutris</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37798"><strong>Online Deduplication for Databases</strong></a> (sidm124)<br />
+Lianghong Xu (CMU); Andrew Pavlo (CMU); Sudipta Sengupta (Microsoft Research); Gregory Ganger (CMU)</li>
+<li><a href="http://dl.acm.org/authorize?N37799"><strong>QFix: Diagnosing errors through query histories</strong> </a>(sidm032)<br />
+Xiaolan Wang (University of Massachusetts Amherst); Alexandra Meliou (University of Massachusetts Amherst); Eugene Wu (Columbia University)</li>
+<li><a href="http://dl.acm.org/authorize?N37790"><strong>UGuide - User-Guided Discovery of FD-Detectable Errors</strong></a> (sidm438)<br />
+Saravanan Thirumuruganathan (QCRI, HBKU); Laure Berti-Equille (QCRI, HBKU); Mourad Ouzzani (QCRI, HBKU); Jorge-Arnulfo Quiane-Ruiz (QCRI, HBKU); Nan Tang (QCRI, HBKU)</li>
+<li><a href="http://dl.acm.org/authorize?N37791"><strong>SLiMFast: Guaranteed Results for Data Fusion and Source Reliability</strong></a> (sidm199)<br />
+Theodoros Rekatsinas (Stanford Univ.); Manas Joglekar (Stanford Univ.); Hector Garcia-Molina (Stanford Univ.); Aditya Parameswaran (Univ. of Illinois (UIUC)); Christopher Re (Stanford Univ.)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession28" class="jump">Session 28: Crowdsourcing</h3>
+<p>Thursday 14:00-15:40<br />
+Location: ♝Buckingham<br />
+Session Chair: Jiannan Wang</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37792"><strong>Crowdsourced Top-k Queries by Confidence-Aware Pairwise Judgments</strong></a> (sidm210)<br />
+Ngai Meng Kou (Univ. of Macau); Yan Li (Univ. of Macau); Hao Wang (Nanjing Univ.); Leong Hou U (Univ. of Macau); Zhiguo Gong (Univ. of Macau)</li>
+<li><a href="http://dl.acm.org/authorize?N37793"><strong>Falcon: Scaling Up Hands-Off Crowdsourced Entity Matching to Build Cloud Services</strong></a> (sidm284)<br />
+Sanjib Das (University of Wisconsin-Madison); Paul Suganthan G. C. (University of Wisconsin-Madison); AnHai Doan (University of Wisconsin-Madison); Jeffrey F. Naughton (Google); Ganesh Krishnan (@WalmartLabs); Rohit Deep (@WalmartLabs); Esteban Arcaute (@WalmartLabs); Vijay Raghavendra (@WalmartLabs); Youngchoon Park (Johnson Controls)</li>
+<li><a href="http://dl.acm.org/authorize?N37794"><strong>CrowdDQS: Dynamic Question Selection in Crowdsourcing Systems</strong></a> (sidm663)<br />
+Asif R. Khan (Stanford University); Hector Garcia-Molina (Stanford University)</li>
+<li><a href="http://dl.acm.org/authorize?N37705"><strong>CDB: A Crowd-Powered Database System</strong></a> (sidm526)<br />
+Guoliang Li (Tsinghua University); Chengliang Chai (Tsinghua University); Xueping Weng (Tsinghua University); Ju Fan (Renmin University); Jian Li (Tsinghua University); Yudian Zheng (Unviersity of Hong Kong); Yuanbing Li (Tsinghua Unviersity); Xiang Yu (Tsinghua University); Xiaohang Zhang (Tsinghua University); Haitao Yuan (Tsinghua University)<br />
+Video: <a href="http://v.youku.com/v_show/id_XMjc1MzM2NjE0OA">http://v.youku.com/v_show/id_XMjc1MzM2NjE0OA</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession29" class="jump">Session 29: Spatial and Multidimensional Data (2)</h3>
+<p>Thursday 14:00-15:40<br />
+Location: ☼Lake Michigan<br />
+Session Chair: Walid Aref</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37706"><strong>Scaling Locally Linear Embedding</strong></a> (sidm414)<br />
+Yasuhiro Fujiwara (NTT Communication Science Laboratories); Naoki Marumo (NTT Communication Science Laboratories); Mathieu Blondel (NTT Communication Science Laboratories); Koh Takeuchi (NTT Communication Science Laboratories); Hideaki Kim (NTT Communication Science Laboratories); Iwata Tomoharu (NTT Communication Science Laboratories); Naonori Ueda (NTT Communication Science Laboratories)<br />
+Video: <a href="https://youtu.be/K8R_TzNzf1A">https://youtu.be/K8R_TzNzf1A</a></li>
+<li><a href="http://dl.acm.org/authorize?N37707"><strong>Dynamic Density Based Clustering</strong></a> (sidm615)<br />
+Junhao Gan (University of Queensland); Yufei Tao (University of Queensland)</li>
+<li><a href="http://dl.acm.org/authorize?N37708"><strong>Extracting Top-K Insights from Multi-dimensional Data</strong></a> (sidm022)<br />
+Bo Tang (The Hong Kong Polytechnic Univ.); Shi Han (Microsoft Research); Man Lung Yiu (Hong Kong Polytechnic Univ.); Rui Ding (Microsoft Research); Dongmei Zhang (Microsoft Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37709"><strong>QUILTS: Multidimensional Data Partitioning Framework Based on Query-Aware and Skew-Tolerant Space-Filling Curves</strong></a> (sidm099)<br />
+Shoji Nishimura (NEC Corporation); Haruo Yokota (Tokyo Institute of Technology)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="ssession30" class="jump">Session 30: Optimization and Main Memory (2)</h3>
+<p>Thursday 14:00-15:40<br />
+Location: ☽Lake Erie<br />
+Session Chair: Thomas Neuman</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37700"><strong>Leveraging Re-costing for Online Optimization of Parameterized Queries with Guarantees</strong></a> (sidm536)<br />
+Anshuman Dutt (Microsoft Research); Vivek Narasayya (Microsoft Research); Surajit Chaudhuri (Microsoft Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37701"><strong>Handling Environments in a Nested Relational Algebra with Combinators and an Implementation in a Verified Query Compiler</strong> </a>(sidm294)<br />
+Joshua Auerbach (IBM Research); Martin Hirzel (IBM Research); Louis Mandel (IBM Research); Avraham Shinnar (IBM Research); Jerome Simeon (IBM Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37702"><strong>From In-Place Updates to In-Place Appends: Revisiting Out-of-Place Updates on Flash</strong></a> (sidm263)<br />
+Sergey Hardock (Technische Universität Darmstadt); Ilia Petrov (Reutlingen Univ.); Robert Gottstein (Technische Universität Darmstadt); Alejandro Buchmann (Technische Universität Darmstadt)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="posters" class="jump">POSTER AND DEMO SESSIONS</h1>
+<h3 id="posters1" class="jump">SIGMOD/PODS Poster &amp; Demo Session 1</h3>
+<p>Tuesday 16:00-18:00<br />
+Location: ⚓Stevens Salon D</p>
+<p>&nbsp;</p>
+<p><a href="../wp-content/uploads/2017/03/poster-demo.jpg"><img class="aligncenter wp-image-1432" src="../wp-content/uploads/2017/03/poster-demo-791x1024.jpg" alt="" width="500" height="647" srcset="http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-791x1024.jpg 791w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-232x300.jpg 232w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-768x994.jpg 768w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-164x212.jpg 164w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-189x245.jpg 189w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-182x236.jpg 182w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-145x188.jpg 145w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-331x428.jpg 331w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-301x389.jpg 301w" sizes="(max-width: 500px) 100vw, 500px" /></a>Posters:</p>
+<ul>
+<li>All SIMOD papers from Tuesday: Research Sessions 1-10</li>
+<li>All PODS papers from Research Sessions 3, 4, 7</li>
+</ul>
+<p>Posters of SIGMOD Programming Contest Finalists:</p>
+<ul>
+<li><strong>DVA</strong><br />
+Hyeonseok Oh and Jongbin Kim (Hanyang University, South Korea)</li>
+<li><strong>gStreamPKU</strong><br />
+Jiaze Chen and Shuo Han (Peking University, China)</li>
+<li><strong>Mccree</strong><br />
+Xupeng Li, Xuecan Yan, and Yiru Chen (Peking University, China)</li>
+<li><strong>OZero</strong><br />
+Jan Böttcher, Timo Kersten, Moritz Kaufmann, and Andreas Kipf (TU Munich, Germany)</li>
+<li><strong>PartTimeContestants</strong><br />
+Frank Tetzel, Ismail Oukid, and Thomas Bach (TU Dresden and Ruprecht-Karls Universitaet Heidelberg, Germany)</li>
+</ul>
+<p>Demonstrations:</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37703"><strong>Visual Graph Query Construction and Refinement</strong></a><br />
+Robert Pienta (Georgia Institute of Technology), Fred Hohman (Georgia Institute of Technology), Acar Tamersoy (Georgia Institute of Technology), Alex Endert (Georgia Institute of Technology), Shamkant Navathe (Georgia Institute of Technology), Hanghang Tong (Arizona State University), Duen Horng Chau (Georgia Institute of Technology)</li>
+<li><a href="http://dl.acm.org/authorize?N37704"><strong>Demonstration of the Cosette Automated SQL Prover</strong></a><br />
+Shumo Chu (University of Washington), Daniel Li (University of Washington), Chenglong Wang (University of Washington), Alvin Cheung (University of Washington), Dan Suciu (University of Washington)</li>
+<li><a href="http://dl.acm.org/authorize?N37715"><strong>Interactive Time Series Analytics Powered by ONEX</strong></a><br />
+Rodica Neamtu (Worcester Polytechnic Institute), Ramoza Ahsan (Worcester Polytechnic Institute), Charles Lovering (Worcester Polytechnic Institute), Cuong Nguyen (Worcester Polytechnic Institute), Elke Rundensteiner (Worcester Polytechnic Institute), Gabor Sarkozy (Worcester Polytechnic Institute)</li>
+<li><a href="http://dl.acm.org/authorize?N37717"><strong>A Demonstration of Lusail – Querying Linked Data at Scale</strong></a><br />
+Essam Mansour (HBKU), Ibrahim Abdelaziz (King Abdullah University of Science &amp; Technology), Mourad Ouzzani (HBKU), Ashraf Aboulnaga (HBKU), Panos Kalnis (King Abdullah University of Science &amp; Technology)</li>
+<li><a href="http://dl.acm.org/authorize?N37718"><strong>Foofah: A Programming-By-Example System for Synthesizing Data Transformation Programs</strong></a><br />
+Zhongjun Jin (University of Michigan), Michael R Anderson (University of Michigan), Michael Cafarella (University of Michigan), H. V Jagadish (University of Michigan)</li>
+<li><a href="http://dl.acm.org/authorize?N37719"><strong>Virtualized Network Service Topology Exploration Using Nepal</strong></a><br />
+Pramod Jamkhedkar (AT&amp;T Labs - Research), Theodore Johnson (AT&amp;T Labs - Research), Yaron Kanza (AT&amp;T Labs - Research), Aman Shaikh (AT&amp;T Labs - Research), N.K. Shankarnarayanan (AT&amp;T Labs - Research), Vladislav Shkapenyuk (AT&amp;T Labs - Research), Gordon Woodhull (AT&amp;T Labs - Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37710"><strong>VisualCloud Demonstration: A DBMS for Virtual Reality</strong></a><br />
+Brandon Haynes (University of Washington), Artem Minyaylov (University of Washington), Magdalena Balazinska (University of Washington), Luis Ceze (University of Washington), Alvin Cheung (University of Washington)</li>
+<li><a href="http://dl.acm.org/authorize?N37711"><strong>The Best of Both Worlds: Big Data Programming with Both Productivity and Performance</strong></a><br />
+Fan Yang (The Chinese University of Hong Kong), Yuzhen Huang (The Chinese University of Hong Kong), Yunjian Zhao (The Chinese University of Hong Kong), Jinfeng Li (The Chinese University of Hong Kong), Guanxian Jiang (The Chinese University of Hong Kong), James Cheng (The Chinese University of Hong Kong)</li>
+<li><a href="http://dl.acm.org/authorize?N37713"><strong>Debugging Big Data Analytics in Spark with BigDebug</strong></a><br />
+Muhammad Ali Gulzar (University of California, Los Angeles), Matteo Interlandi (University of California, Los Angeles), Tyson Condie (University of California, Los Angeles), Miryung Kim (University of California, Los Angeles)</li>
+<li><a href="http://dl.acm.org/authorize?N37714"><strong>Interactive Query Synthesis from Input-Output Examples</strong></a><br />
+Chenglong Wang (University of Washington), Alvin Cheung (University of Washington), Rastislav Bodik (University of Washington)</li>
+<li><a href="http://dl.acm.org/authorize?N37725"><strong>Generating Concise Entity Matching Rules</strong></a><br />
+Rohit Singh (CSAIL, MIT), Vamsi Meduri (Arizona State University), Ahmed Elmagarmid (Qatar Computing Research Institute, HBKU), Samuel Madden (CSAIL, MIT), Paolo Papotti (Arizona State University), Jorge-Arnulfo Quiané-Ruiz (Qatar Computing Research Institute, HBKU), Armando Solar-Lezama (CSAIL, MIT), Nan Tang (Qatar Computing Research Institute, HBKU)</li>
+<li><a href="http://dl.acm.org/authorize?N37726"><strong>A Demo of the Data Civilizer System</strong></a><br />
+Raul Castro Fernandez (Massachusetts Institute of Technology), Dong Deng (Massachusetts Institute of Technology), Essam Mansour (HBKU), Abdulhakim A Qahtan (HBKU), Wenbo Tao (Massachusetts Institute of Technology), Ziawasch Abedjan (TU Berlin), Ahmed Elmagarmid (HBKU), Ihab F Ilyas (University of Waterloo), Samuel Madden (Massachusetts Institute of Technology), Mourad Ouzzani (HBKU), Michael Stonebraker (Massachusetts Institute of Technology), Nan Tang (HBKU)</li>
+<li><a href="http://dl.acm.org/authorize?N37727"><strong>Querying and Exploring Polygamous Relationships in Urban Spatio-Temporal Data Sets</strong></a><br />
+Yeuk-Yin Chan (New York University). Fernando Chirigati (New York University), Harish Doraiswamy (New York University) Cláudio T. Silva (New York University), Juliana Freire (New York University)</li>
+<li><a href="http://dl.acm.org/authorize?N37728"><strong>Graph Data Mining with Arabesque</strong></a><br />
+Eslam Hussein (Qatar Computing Research Institute - HBKU), Abdurrahman Ghanem (Qatar Computing Research Institute - HBKU), Vinicius Vitor dos Santos Dias (Universidade Federal de Minas Gerais), Carlos H. C. Teixeira (Universidade Federal de Minas Gerais), Ghadeer AbuOda (College of Science and Engineering - HBKU), Marco Serafini (Qatar Computing Research Institute - HBKU), Georgos Siganos (Qatar Computing Research Institute - HBKU), Gianmarco De Francisci Morales (Qatar Computing Research Institute - HBKU), Ashraf Aboulnaga (Qatar Computing Research Institute - HBKU), Mohammed Zaki (Rensselaer Polytechnic<br />
+Institute)</li>
+<li><a href="http://dl.acm.org/authorize?N37729"><strong>Alpine: Efficient In-Situ Data Exploration in the Presence of Updates</strong></a><br />
+Antonios Anagnostou (Aristotle University of Thessaloniki), Matthaios Olma (Ecole Polytechnique Federal Lausanne), Anastasia Ailamaki (Ecole Polytechnique Federal Lausanne)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="posters2" class="jump">SIGMOD/PODS Poster &amp; Demo Session 2</h3>
+<p>Wednesday 16:00-18:00<br />
+Location: ⚓Stevens Salon D</p>
+<p><a href="../wp-content/uploads/2017/03/poster-demo.jpg"><img class="aligncenter wp-image-1432" src="../wp-content/uploads/2017/03/poster-demo-791x1024.jpg" alt="" width="500" height="647" srcset="http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-791x1024.jpg 791w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-232x300.jpg 232w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-768x994.jpg 768w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-164x212.jpg 164w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-189x245.jpg 189w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-182x236.jpg 182w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-145x188.jpg 145w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-331x428.jpg 331w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-301x389.jpg 301w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>Posters:</p>
+<ul>
+<li>All SIGMOD papers from Wednesday: Research Sessions 11-20</li>
+<li>All PODS papers from Research Sessions 1, 2, 5, 6</li>
+</ul>
+<p>Demonstrations:</p>
+<ul>
+<li><a href="http://dl.acm.org/authorize?N37716"><strong>The VADA Architecture for Cost-Effective Data Wrangling</strong></a><br />
+Nikolaos Konstantinou (University of Manchester), Martin Koehler (University of Manchester), Edward Abel (University of Manchester), Cristina Civili (University of Edinburgh), Bernd Neumayr (University of Oxford), Emanuel Sallinger (University of Oxford), Alvaro A. A. Fernandes (University of Manchester), Georg Gottlob (University of Oxford), John A. Keane (University of Manchester), Leonid Libkin (University of Edinburgh), Norman Paton (University of Manchester)</li>
+<li><a href="http://dl.acm.org/authorize?N37712"><strong>In-Browser Interactive SQL Analytics with Afterburner</strong></a><br />
+Kareem El Gebaly (University of Waterloo), Jimmy Lin (University of Waterloo)</li>
+<li><a href="http://dl.acm.org/authorize?N37720"><strong>OrpheusDB: A Lightweight Approach to Relational Dataset Versioning</strong></a><br />
+Liqi Xu (University of Illinois Urbana-Champaign), Silu Huang (University of Illinois Urbana-Champaign), Sili Hui (University of Illinois Urbana-Champaign), Aaron J. Elmore (University of Chicago), Aditya Parameswaran (University of Illinois Urbana-Champaign)</li>
+<li><a href="http://dl.acm.org/authorize?N37721"><strong>doppioDB: A Hardware Accelerated Database</strong></a><br />
+David Sidler (ETH Zurich), Zsolt Istvan (ETH Zurich), Muhsen Owaida (ETH Zurich), Kaan Kara (ETH Zurich), Gustavo Alonso (ETH Zurich)</li>
+<li><a href="http://dl.acm.org/authorize?N37722"><strong>DBridge: Translating Imperative Code to SQL</strong></a><br />
+K. Venkatesh Emani (Indian Institute of Technology, Bombay), Tejas Deshpande (Indian Institute of Technology, Bombay &amp; Microsoft IDC), Karthik Ramachandra (Indian Institute of Technology, Bombay &amp; Microsoft Gray Systems Lab), S. Sudarshan (Indian Institute of Technology, Bombay)</li>
+<li><a href="http://dl.acm.org/authorize?N37723"><strong>BEAS: Bounded Evaluation of SQL Queries</strong></a><br />
+Yang Cao (University of Edinburgh &amp; Beihang University), Wenfei Fan (University of Edinburgh &amp; Beihang University), Yanghao Wang (University of Edinburgh), Tengfei Yuan (University of Edinburgh), Yanchao Li (Nanjing University of Science and Technology), Laura Yu Chen (Huawei America Research Center)</li>
+<li><a href="http://dl.acm.org/authorize?N37724"><strong>Safe Visual Data Exploration</strong></a><br />
+Zheguang Zhao (Brown University), Emanuel Zgraggen (Brown University), Lorenzo De Stefani (Brown University), Carsten Binnig (Brown University), Eli Upfal (Brown University), Tim Kraska (Brown University)</li>
+<li><a href="http://dl.acm.org/authorize?N37735"><strong>Optimizing Data-Intensive Applications Automatically By Leveraging Parallel Data Processing Frameworks</strong></a><br />
+Maaz Bin Safeer Ahmad (University of Washington), Alvin Cheung (University of Washington)</li>
+<li><a href="http://dl.acm.org/authorize?N37736"><strong>DIAS: Differentially Private Interactive Algorithm Selection using Pythia</strong></a><br />
+Ios Kotsogiannis (Duke University), Michael Hay (Colgate University), Ashwin Machanavajjhala (Duke University), Gerome Miklau (University of Massachusetts Amherst), Margaret Orr (Colgate University)</li>
+<li><a href="http://dl.acm.org/authorize?N37737"><strong>Snorkel: Fast Training Set Generation for Information Extraction</strong></a><br />
+Alexander J. Ratner (Stanford University), Stephen H. Bach (Stanford University), Henry R. Ehrenberg (Stanford University), Chris Ré (Stanford University)</li>
+<li><a href="http://dl.acm.org/authorize?N37738"><strong>Synthesizing Extraction Rules from User Examples with SEER</strong></a><br />
+Maeda F. Hanafi (New York University - Abu Dhabi), Azza Abouzied (New York University - Abu Dhabi), Laura Chiticariu (IBM Research - Almaden), Yunyao Li (IBM Research - Almaden)</li>
+<li><a href="http://dl.acm.org/authorize?N37739"><strong>Scout: A GPU-Aware System for Interactive Spatio-temporal Data Visualization</strong></a><br />
+Harshada Chavan (University of Minnesota), Mohamed F Mokbel (University of Minnesota)</li>
+<li><a href="http://dl.acm.org/authorize?N37730"><strong>Graphflow: An Active Graph Database</strong></a><br />
+Chathura Kankanamge (University of Waterloo), Siddhartha Sahu (University of Waterloo), Amine Mhedbhi (University of Waterloo), Jeremy Chen (University of Waterloo), Semih Salihoglu (University of Waterloo)</li>
+<li><a href="http://dl.acm.org/authorize?N37731"><strong>Demonstration: MacroBase, A Fast Data Analysis Engine</strong></a><br />
+Peter Bailis (Stanford University), Edward Gan (Stanford University), Kexin Rong (Stanford University), Sahaana Suri (Stanford University)</li>
+<li><a href="http://dl.acm.org/authorize?N37732"><strong>Q*cert: A Platform for Implementing and Verifying Query Compilers</strong></a><br />
+Joshua S. Auerbach (IBM Research), Martin Hirzel (IBM Research), Louis Mandel (IBM Research), Avraham Shinnar (IBM Research), Jérôme Siméon (IBM Research)</li>
+<li><a href="http://dl.acm.org/authorize?N37733"><strong>A Demonstration of Interactive Analysis of Performance Measurements with Viska</strong></a><br />
+Helga Gudmundsdottir (University of Washington), Babak Salimi (University of Washington), Magdalena Balazinska (University of Washington), Dan R. K. Ports (University of Washington), Dan Suciu (University of Washington)</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="posters3" class="jump">SIGMOD Poster 3 &amp; Best of Demo Session</h3>
+<p>Thursday 16:00-18:00<br />
+Location: ⚓Stevens Salon D</p>
+<ul>
+<li>All papers from Thursday: Research Sessions 21-30</li>
+<li>The Goal Behind the Action: Toward Goal-Aware Systems and Applications<br />
+Dimitra Papadimitriou, Georgia Koutrika, John Mylopoulos, Yannis Velegrakis (from TODS 2016)</li>
+<li>Best of Demo</li>
+</ul>
+<p><a href="../wp-content/uploads/2017/03/poster-demo.jpg"><img class="aligncenter wp-image-1432" src="../wp-content/uploads/2017/03/poster-demo-791x1024.jpg" alt="" width="500" height="647" srcset="http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-791x1024.jpg 791w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-232x300.jpg 232w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-768x994.jpg 768w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-164x212.jpg 164w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-189x245.jpg 189w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-182x236.jpg 182w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-145x188.jpg 145w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-331x428.jpg 331w, http://sigmod2017.org/wp-content/uploads/2017/03/poster-demo-301x389.jpg 301w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="tutorial" class="jump">TUTORIAL SESSIONS</h1>
+<h3 id="stutorial1" class="jump">Tutorial 1: <a href="http://dl.acm.org/authorize?N37734">Crowdsourced Data Management: Overview and Challenges</a></h3>
+<p>Sunday 9:00-10:30, 11:00-12:30<br />
+Location: ♜Continental B<br />
+Guoliang Li, Yudian Zheng, Ju Fan, Jiannan Wang and Reynold Cheng<br />
+<a href="http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/sigmod17-tutorial-crowd.pdf">Tutorial 01 slides (35 MB).pdf<br />
+</a><a href="https://www.youtube.com/watch?v=-45JkIVYhvo">SIGMOD Tutorial 1 (Part 1), Sunday May 14, 9 AM (video)</a><a href="https://www.youtube.com/watch?v=ADAp7XMGtjw"><br />
+SIGMOD Tutorial 1 (Part 2), Sunday May 14, 11 AM (video)</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial2" class="jump">Tutorial 2: <a href="http://dl.acm.org/authorize?N37748">Graph Querying Meets HCI: State of the Art and Future Directions</a></h3>
+<p>Sunday 09:00-10:30<br />
+Location: ♞Continental C<br />
+Sourav S Bhowmick, Byron Choi and Chengkai Li<br />
+<a href="../wp-content/uploads/2017/05/02-Graph-Querying-Meets-HCI-State-of-the-Art-and-Future-Directions.pdf">Tutorial 02 slides (11MB).pdf</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial3" class="jump">Tutorial 3: <a href="http://dl.acm.org/authorize?N37749">Graph Exploration: From the User to Large Graphs</a></h3>
+<p>Sunday 11:00-12:30<br />
+Location: ♞Continental C<br />
+Davide Mottin and Emmanuel Müller<br />
+<a href="../wp-content/uploads/2017/05/03-Graph-Exploration-From-the-User-to-Large-Graphs.pptx">Tutorial 03 slides (16MB).pptx</a><br />
+<a href="https://www.youtube.com/watch?v=9VtrmSXdGlM">SIGMOD Tutorial 3, Sunday May 14, 11 AM (video) </a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial4" class="jump">Tutorial 4: <a href="http://dl.acm.org/authorize?N37747">Differential Privacy in the Wild:  A tutorial on current practices &amp; open challenges</a></h3>
+<p>Sunday 14:00–15:30, 16:00–18:00<br />
+Location: ♜Continental B<br />
+Ashwin Machanavajjhala, Xi He and Michael Hay<br />
+<a href="../wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf">Tutorial 04 slides 1/2 (21MB).pdf</a><br />
+<a href="../wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf">Tutorial 04 slides 2/2 (25MB).pdf</a><br />
+<a href="https://www.youtube.com/watch?v=rfI-I3e_LFs">SIGMOD Tutorial 4 (Part 1), Sunday May 14, 2 PM (video)<br />
+</a><a href="https://www.youtube.com/watch?v=Uhh7QCbnE9o">SIGMOD Tutorial 4 (Part 2), Sunday May 14, 4 PM (video)</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial5" class="jump">Tutorial 5: <a href="http://dl.acm.org/authorize?N37742">How to Build a Non-Volatile Memory Database Management System</a></h3>
+<p>Sunday 14:00-15:30<br />
+Location: ♞Continental C<br />
+Joy Arulraj and Andrew Pavlo<br />
+<a href="../wp-content/uploads/2017/05/05-How-to-Build-a-Non-Volatile-Memory-Database-Management-System.pdf">Tutorial 05 slides (2MB).pdf<br />
+</a><a href="https://www.youtube.com/watch?v=ljrpXVlkQ84">SIGMOD Tutorial 5, Sunday May 14, 2 PM (video)<br />
+</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial6" class="jump">Tutorial 6: <a href="http://dl.acm.org/authorize?N37743">Data Structures Engineering For Byte-Addressable Non-Volatile Memory</a></h3>
+<p>Sunday 16:00-18:00<br />
+Location: ♞Continental C<br />
+Ismail Oukid and Wolfgang Lehner<br />
+<a href="../wp-content/uploads/2017/05/06-Data-Structures-Engineering-For-Byte-Addressable-Non-Volatile-Memory.pdf">Tutorial 06 slides (7MB).pdf</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial7" class="jump">Tutorial 7: <a href="http://dl.acm.org/authorize?N37740">Building Structured Databases of Factual Knowledge from Massive Text Corpora</a></h3>
+<p>Friday 9:00-10:30<br />
+Location: ✵Stevens Salon C-5<br />
+Xiang Ren, Meng Jiang, Jingbo Shang and Jiawei Han<br />
+<a href="http://xren7.web.engr.illinois.edu/sigmod17tutorial.html">Tutorial 07 web page<br />
+</a><a href="https://www.youtube.com/watch?v=kuJCbLmL2pI">SIGMOD Tutorial 7, Friday, May 19, 9 AM (video) </a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial8" class="jump">Tutorial 8: <a href="http://dl.acm.org/authorize?N37741">Data Profiling</a></h3>
+<p>Friday 11:00-12:30<br />
+Location: ✵Stevens Salon C-5<br />
+Ziawasch Abedjan, Lukasz Golab and Felix Nauman<br />
+<a href="https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/publications/2017/SIGMOD_2017_Tutorial_Data_Profiling.pdf">Tutorial 08 slides (12MB).pdf</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial9" class="jump">Tutorial 9: <a href="http://dl.acm.org/authorize?N37745">Data Management in Machine Learning: Challenges, Techniques, and Systems</a></h3>
+<p>Friday 9:00-10:30<br />
+Location: ✵Stevens Salon C-6<br />
+Arun Kumar, Matthias Boehm and Jun Yang<br />
+<a href="../wp-content/uploads/2017/03/09-Data-Management-in-Machine-Learning.pdf">Tutorial 09 slides (5MB).pdf</a><br />
+<a href="https://www.youtube.com/watch?v=U8J0Dd_Z5wo">SIGMOD Tutorial 9, Friday, May 19, 9 AM (video)</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial10" class="jump">Tutorial 10: <a href="http://dl.acm.org/authorize?N37746">Data Management Challenges in Production Machine Learning</a></h3>
+<p>Friday 11:00-12:30<br />
+Location: ✵Stevens Salon C-6<br />
+Neoklis Polyzotis, Sudip Roy, Steven Whang and Martin Zinkevich</p>
+<p>&nbsp;</p>
+<h3 id="stutorial11" class="jump">Tutorial 11: <a href="http://dl.acm.org/authorize?N37744">Natural Language Data Management and Interfaces: Recent Development and Open Challenges</a></h3>
+<p>Friday 14:00 – 15:30, 16:00 – 18:00<br />
+Location: ✵Stevens Salon C-5<br />
+Yunyao Li and Davood Rafiei<br />
+<a href="https://www.youtube.com/watch?v=EJVFXshz1GU">SIGMOD Tutorial 11 (Part 1), Friday, May 19, 2 PM (video)<br />
+</a><a href="https://www.youtube.com/watch?v=IsUCM16OI_M">SIGMOD Tutorial 11 (Part 2), Friday, May 19, 4 PM (video)</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial12" class="jump">Tutorial 12: <a href="http://dl.acm.org/authorize?N37855">Hybrid Transactional/Analytical Processing: A Survey</a></h3>
+<p>Friday 14:00-15:30<br />
+Location: ✵Stevens Salon C-6<br />
+Fatma Ozcan, Yuanyuan Tian and Pinar Tozun<br />
+<a href="https://www.youtube.com/watch?v=PG4acu9M65w">SIGMOD Tutorial 12, Friday, May 19, 2 PM (video)</a></p>
+<p>&nbsp;</p>
+<h3 id="stutorial13" class="jump">Tutorial 13: <a href="http://dl.acm.org/authorize?N37856">Query Processing Techniques for Big Spatial-Keyword Data</a></h3>
+<p>Friday 16:00-18:00<br />
+Location: ✵Stevens Salon C-6<br />
+Ahmed Mahmood and Walid Aref<br />
+<a href="../wp-content/uploads/2017/03/13-Query-Processing-Techniques-for-Big-Spatial-Keyword-Data.pptx">Tutorial 13 slides (17MB).pptx<br />
+</a><a href="https://www.youtube.com/watch?v=fVpsVML8cLI">SIGMOD Tutorial 13, Friday, May 19, 4 PM (video)</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="awards" class="jump">AWARD Talks</h1>
+<h3 id="awardlunch" class="jump">Lunch with Award Announcements</h3>
+<p>Tuesday 12:15-14:00<br />
+Location: International North<br />
+Session Chair: Donald Kossman</p>
+<ul>
+<li>Programming Contest Award</li>
+<li>Distinguished PC members</li>
+<li>Reproducibility Awards</li>
+<li>SIGMOD Best Paper Award</li>
+<li>PODS Best Student Paper</li>
+<li>PODS Best Paper Award</li>
+<li>PODS Test of Time Award</li>
+<li>Research Highlights</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id="awardtalks" class="jump">SIGMOD Awards Talks</h3>
+<p>Thursday 8:15-9:50<br />
+Location: International North<br />
+Session Chair: Donald Kossman</p>
+<ul>
+<li>Best Demonstration Award Announcement</li>
+<li>Jim Gray Doctoral Dissertation Award and Talk</li>
+<li>System Award and Talk</li>
+<li>Contributions Award Announcement</li>
+<li>Test-of-Time Award and Talk</li>
+<li>Edgar F. Codd Innovations Award and Talk</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="industry" class="jump">Career in Industry Panel</h1>
+<p>Wednesday 16:00-18:00<br />
+Location: ♜Continental B<br />
+Session Chair: Badrish Chandramouli</p>
+<ul>
+<li>Donald Kossmann (Microsoft)</li>
+<li>C. Mohan (IBM)</li>
+<li>Sailesh Krishnamurthy (Amazon)</li>
+<li>John Cieslewicz (Google)</li>
+<li>Shasank Chavan (Oracle)</li>
+<li>Jianjun Chen (Huawei)</li>
+<li>Mostafa Mokhtar (Cloudera)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="business" class="jump">SIGMOD Business Lunch</h1>
+<p>Wednesday 12:15-14:00<br />
+Location: International North</p>
+<ul>
+<li>Student Research Competition Winners</li>
+<li>SIGMOD Chair's Report</li>
+<li>SIGMOD Vice Chair's Report</li>
+<li>SIGMOD Secretary/Treasurer's Report</li>
+<li>SIGMOD PC Chair's Report</li>
+<li>Advertisement for SIGMOD 2018</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="newresearchers" class="jump">New Researcher Symposium</h1>
+<p>Tuesday 18:15-20:15<br />
+Location: ♜Continental B<br />
+<a style="color: #cc6600; text-decoration: none;" href="../new-researcher-symposium/">Details</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1 id="researchcompetition" class="jump">Student Research Competition</h1>
+<p>Tuesday 18:15-20:15<br />
+Location: ♞Continental C</p>
+                
+<div id="comments" class="comments-area">
+
+
+	
+
+    <hr/>
+	
+</div><!-- #comments .comments-area -->            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <div class="row row-sm">
+                    </div>
+    </div>
+    <div class="credits">
+                <div class="footer-tyler-event pbs">
+        	Powered by <a href="http://eventmanagerblog.com/event-wordpress-theme-tyler">Powered by Tyler by Showthemes</a>
+        </div>
+    </div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72897406-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript' src='../wp-content/themes/Tyler/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/blueimp-gallery.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/jquery.mousewheel.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/jquery.jscrollpane.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/main.js'></script>
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/comment-reply.min.js?ver=1c31560d246502a7fe2c533aebd31644'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js'></script>
+
+<!-- SCROLL UP BTN -->
+<a href="#" id="scroll-up">UP</a>
+
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<!-- backdrop -->
+<div id="backdrop"></div>
+
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1538930927 -->

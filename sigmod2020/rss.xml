@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>SIGMOD PODS 2016 - News</title>
+<link>http://sigmod2016.org/news.shtml</link>
+<description>
+ACM SIGMOD/PODS 2016 - Latest news and site updates.
+</description> 
+<item>
+<title>Proceedings</title>
+<link>http://sigmod2016.org/</link>
+<guid>http://sigmod2016.org/</guid>
+<pubDate>Sun, 19 Jun 2016 12:15:12 GMT</pubDate>
+<description>June 19, 2016: SIGMOD 2016 papers can be accessed <a style="color: #CC6600; text-decoration: none;"href="http://dl.acm.org/citation.cfm?id=2882903&CFID=633293443&CFTOKEN=82466983">here</a>.</description>
+</item>
+<item>
+<title>Proceedings</title>
+<link>http://sigmod2016.org/</link>
+<guid>http://sigmod2016.org/</guid>
+<pubDate>Sun, 19 Jun 2016 12:15:12 GMT</pubDate>
+<description>June 19, 2016: PODS 2016 papers can be accessed <a style="color: #CC6600; text-decoration: none;"href="http://dl.acm.org/citation.cfm?id=2902251&CFID=633293443&CFTOKEN=82466983">here</a>.</description>
+</item>
+<item>
+<title>Registrations</title>
+<link>http://sigmod2016.org/</link>
+<guid>http://sigmod2016.org/</guid>
+<pubDate>Fri, 10 Jun 2016 12:15:12 GMT</pubDate>
+<description>June 10, 2016: SIGMOD 2016 already hit a new record of over 900 registered people!</description>
+</item>
+<item>
+<title>Accommodations</title>
+<link>http://sigmod2016.org/accommodations.shtml</link>
+<guid>http://sigmod2016.org/accommodations.shtml</guid>
+<pubDate>Fri, 3 Jun 2016 12:15:12 GMT</pubDate>
+<description>The Hyatt Regency hotel rooms have all been reserved. You can find a list of close by hotels <a style="color: #CC6600; text-decoration: none;"href="http://sigmod2016.org/accommodations.shtml" title="accommodations">here</a>.</description>
+</item>
+<item>
+<title>Salesforce Reception</title>
+<link>http://sigmod2016.org/</link>
+<guid>http://sigmod2016.org/</guid>
+<pubDate>Sat, 28 May 2016 2:15:12 GMT</pubDate>
+<description>Salesforce is excited to host an Evening at the <a style="color: #CC6600; text-decoration: none;"href="http://www.exploratorium.edu/" title="Exploratorium">Exploratorium</a>, Tuesday, June 28th from 7:00-9:30pm for all SIGMOD attendees. Join us for a night of networking, drinks, heavy apps, and entertainment in the East Gallery overlooking the San Francisco Bay. Must <a style="color: #CC6600; text-decoration: none;"href="https://www.eventbrite.com/e/evening-at-the-exploratorium-tickets-25723665175">register</a> and bring your badge for entry.</description>
+</item> 
+<item>
+<title>Attendance Information</title>
+<link>http://sigmod2016.org/attending.shtml</link>
+<guid>http://sigmod2016.org/attending.shtml</guid>
+<pubDate>Fri, 13 May 2016 2:15:12 GMT</pubDate>
+<description>Useful attendance information has been announced.</description>
+</item>
+<item>
+<title>Undergraduate Research Competition</title>
+<link>http://sigmod2016.org/sigmod_undergraduate_list.shtml</link>
+<guid>http://sigmod2016.org/sigmod_undergraduate_list.shtml</guid>
+<pubDate>Sun, 24 Apr 2016 2:15:12 GMT</pubDate>
+<description>The accepted posters of the SIGMOD 2016 Undergraduate Research Competition have been announced.</description>
+</item>
+<item>
+<title>Gems of PODS</title>
+<link>http://sigmod2016.org/pods_gems.shtml</link>
+<guid>http://sigmod2016.org/pods_gems.shtml</guid>
+<pubDate>Tue, 19 Apr 2016 2:15:12 GMT</pubDate>
+<description>The Gems of PODS talks have been announced.</description>
+</item>
+<item>
+<title>SIGMOD Research Papers</title>
+<link>http://www.sigmod2016.org/sigmod_research_list.shtml</link>
+<guid>http://www.sigmod2016.org/sigmod_research_list.shtml</guid>
+<pubDate>Thu, 7 Apr 2016 2:15:12 GMT</pubDate>
+<description>Accepted SIGMOD Research Papers have been posted.</description>
+</item>
+<item>
+<title>SIGMOD Tutorials</title>
+<link>http://sigmod2016.org/sigmod_tutorials.shtml</link>
+<guid>http://sigmod2016.org/sigmod_tutorials.shtml</guid>
+<pubDate>Mon, 4 Apr 2016 2:15:12 GMT</pubDate>
+<description>Accepted SIGMOD Tutorials have been posted.</description>
+</item>
+<item>
+<title>PODS Papers</title>
+<link>http://sigmod2016.org/pods_list.shtml</link>
+<guid>http://sigmod2016.org/pods_list.shtml</guid>
+<pubDate>Sat, 2 Apr 2016 2:15:12 GMT</pubDate>
+<description>Accepted PODS Papers have been posted.</description>
+</item>
+<item>
+<title>PODS Keynote</title>
+<link>http://sigmod2016.org/pods_invited.shtml#keynote</link>
+<guid>http://sigmod2016.org/pods_invited.shtml#keynote</guid>
+<pubDate>Fri, 1 Apr 2016 12:15:12 GMT</pubDate>
+<description>We are glad to announce that Moshe Vardi, Rice University, is the PODS 2016 keynote speaker.</description>
+</item>
+<item>
+<title>PODS tutorials</title>
+<link>http://sigmod2016.org/pods_invited.shtml#tutorial1</link>
+<guid>http://sigmod2016.org/pods_invited.shtml#tutorial1</guid>
+<pubDate>Fri, 1 Apr 2016 12:15:12 GMT</pubDate>
+<description>Information about the invited PODS tutorials has been posted.</description>
+</item>
+<item>
+<title> Industrial Papers </title>
+<link>http://sigmod2016.org/sigmod_industrial_list.shtml</link>
+<guid>http://sigmod2016.org/sigmod_industrial_list.shtml</guid>
+<pubDate>Tue, 29 Mar 2016 12:15:12 GMT</pubDate>
+<description>Accepted Industrial Papers have been posted.</description>
+</item>
+<item>
+<title> Demo Papers </title>
+<link>http://sigmod2016.org/sigmod_demo_list.shtml</link>
+<guid>http://sigmod2016.org/sigmod_demo_list.shtml</guid>
+<pubDate>Sat, 26 Mar 2016 12:15:12 GMT</pubDate>
+<description>Accepted Demo Papers have been posted.</description>
+</item>
+<item>
+<title> Schedule </title>
+<link>http://www.sigmod2016.org/schedglance.shtml</link>
+<guid>http://www.sigmod2016.org/schedglance.shtml</guid>
+<pubDate>Sat, 26 Mar 2016 12:15:12 GMT</pubDate>
+<description>The overview of the program has been posted.</description>
+</item>
+<item>
+<title> Registration </title>
+<link>https://www.regonline.com/builder/site/?eventid=1789063</link>
+<guid>https://www.regonline.com/builder/site/?eventid=1789063</guid>
+<pubDate>Thu, 3 Mar 2016 12:15:12 GMT</pubDate>
+<description>Registration site is open.</description>
+</item>
+<item>
+<title>Accommodations</title>
+<link>http://sigmod2016.org/accommodations.shtml</link>
+<guid>http://sigmod2016.org/accommodations.shtml</guid>
+<pubDate>Thu, 3 Mar 2016 12:15:12 GMT</pubDate>
+<description>Information about accommodations has been posted.</description>
+</item>
+</channel>
+</rss>

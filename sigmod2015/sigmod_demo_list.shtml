@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2015 ACM SIGMOD/PODS Conference: Melbourne, Victoria, Australia - SIGMOD Accepted Demo Papers</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+}
+</style>
+
+
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/melbourne/1.jpg'
+
+theImages[1] = 'images/melbourne/2.jpg'
+
+theImages[2] = 'images/melbourne/3.jpg'
+
+theImages[3] = 'images/melbourne/4.jpg'
+
+theImages[4] = 'images/melbourne/5.jpg'
+
+theImages[5] = 'images/melbourne/6.jpg'
+
+theImages[6] = 'images/melbourne/7.jpg'
+
+theImages[7] = 'images/melbourne/8.jpg'
+
+
+theImageDescriptions[0] = 'Overview of Melbourne'
+
+theImageDescriptions[1] = 'Overview of Melbourne'
+
+theImageDescriptions[2] = 'Overview of Melbourne'
+
+theImageDescriptions[3] = 'Overview of Melbourne'
+
+theImageDescriptions[4] = 'Overview of Melbourne'
+
+theImageDescriptions[5] = 'Overview of Melbourne'
+
+theImageDescriptions[6] = 'Overview of Melbourne'
+
+theImageDescriptions[7] = 'Overview of Melbourne'
+
+theImageURLs[0] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[1] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[2] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[3] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[4] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[5] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[6] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[7] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter_melb.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2015, Melbourne, Victoria, Australia" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+
+
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/logo_sigmod_slc.jpg" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<div id="wrap">
+			
+<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="https://iceaustralia.eventsair.com/sigmodpods2015/registration" title="Registration" target="_blank">Registration</a></li>
+  
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_tutorial_pc.shtml" title="Tutorial Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewer">SIGMOD External Reviewers</a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>  
+  <li><a href="org_sigmod_workshops.shtml"  title="Workshops">Affiliated Workshops</a></li>
+  
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+<!--
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+-->
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li> 
+
+</ul>
+ 
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <!-- temporarily REMOVED  <li><a href="students.shtml"
+    title="Students" target="_blank">For Students</a></li> -->
+	<li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Venue and Accommodations</a></li>
+	<li><a href="http://db.in.tum.de/sigmod15contest/">ACM SIGMOD 2015 Programming Contest</a></li>
+    <!-- <li><a href="http://regonline.com/sigmod2012" title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li> 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitmelbourne.com/" title="Visitor Information">Visit Melbourne</a></li>
+  <!--  <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+--> 
+     <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+  
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program </a></li>
+
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Michael I. Jordan (University of California, Berkeley, USA)">
+Keynote: Michael I. Jordan (University of California, Berkeley, USA) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Graham Cormode (University of Warwick, UK)">Tutorial 1: Graham Cormode (University of Warwick, UK)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Todd J. Green (LogicBlox, USA)">Tutorial 2: Todd J. Green (LogicBlox, USA)</a></li>
+ <!--<li><a href="awards_pods.shtml">Awards</a></li> -->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+<!--  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+-->
+<li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="sigmod_industry_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+<li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+<li><a href="sigmod_tutorial_list.shtml" title="Tutorial Papers">Tutorial Papers</a></li>
+<li><p><a href="keynote_1.shtml">Keynote 1:
+  Jignesh Patel (University of Wisconsin)</a></p></li>
+<li><p><a href="keynote_2.shtml">Keynote 2:
+   Laura Haas (IBM)</a></p></li>
+<li><a href="program_sigmod.shtml#panel">SIGMOD Panel</a></li>
+<!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li><div id="sidebar">
+
+
+-->
+
+
+</div>
+
+
+
+<div id="maincontent">
+
+<h1 align="center">2015 ACM SIGMOD Accepted Demo Papers</h1>
+<ul>
+<li>Thrifty: Offering Parallel Database as a Service using the Shared-Process Approach<br/>	Petrie	Wong	(The University of Hong Kong);
+	Zhian	He	(The Hong Kong Polytechnic University);
+	Ziqiang	Feng	(The Hong Kong Polytechnic University);
+	Wenjian	Xu	(The Hong Kong Polytechnic University);
+	Eric	Lo	(The Hong Kong Polytechnic University);
+<li>Graft: A Debugging Tool For Apache Giraph<br/>	Semih	Salihoglu	(Stanford University);
+	Jaeho	Shin	(Stanford University);
+	Vikesh	Khanna	(Stanford University);
+	Ba Quan	Truong	(Stanford University);
+	Jennifer	Widom	(Stanford University);
+<li>BenchPress: Dynamic Workload Control in the OLTP-Bench Testbed<br/>	Dana	Van Aken	(Carnegie Mellon University);
+	Djellel	Difallah	(University of Fribourg);
+	Andrew	Pavlo	(Carnegie Mellon University);
+	Carlo	Curino	(Microsoft Corporation);
+	Philippe	Cudre-Mauroux	(University of Fribourg);
+<li>Even Metadata is Getting Big: Annotation Summarization using InsightNotes<br/>	Dongqing	Xiao	(Worcester Polytechnic Institute);
+	Armir	Bashllari	(Worcester Polytechnic Institute);
+	Tyler	Menard	(Worcester Polytechnic Institute);
+	Mohamed	Eltabakh	(Worcester Polytechnic Institute);
+<li>StoryPivot: Comparing and Contrasting Story Evolution<br/>	Anja	Gruenheid	(ETH Zurich);
+	Donald	Kossmann	(ETH Zurich);
+	Theodoros	Rekatsinas	(University of Maryland);
+	Divesh	Srivastava	(AT&T Labs-Research);
+<li>CE-Storm: Confidential Elastic Processing of Data Streams<br/>	Nick	Katsipoulakis	(University of Pittsburgh);
+	Cory	Thoma	(University of Pittsburgh);
+	Eric	Gratta	(University of Pittsburgh);
+	Alexandros	Labrinidis	(University of Pittsburgh);
+	Adam	Lee	(University of Pittsburgh);
+	Panos	Chrysanthis	(University of Pittsburgh);
+<li>A SQL Debugger Built from Spare Parts<br/>	Benjamin	Dietrich	(Universität Tübingen);
+	Torsten	Grust	(Universität Tübingen);
+<li>The Flatter, the Better<br/>	Alexander	Ulrich	(Universität Tübingen);
+	Torsten	Grust	(Universität Tübingen);
+<li>Demonstrating Data Near Here""<br/>	V.M.	Megler	(Portland State University);
+	David	Maier	(Portland State University);
+<li>Exploratory Keyword Search with Interactive Input<br/>	Zhifeng	Bao	(RMIT University);
+	Yong	Zeng	(National University of Singapore);
+	H. V.	Jagadish	(School of Computing);
+	Tok Wang	Ling	(National University of Singapore);
+<li>D2WORM: A Management Infrastructure for Distributed Data-centric Workflows<br/>	Martin	Jergler	(Technische Universität München);
+	Mohammad	Sadoghi	(IBM);
+	Hans-Arno	Jacobsen	(Technische Universität München);
+<li>Slider: an Efficient Incremental Reasoner<br/>	Jules	Chevalier	(Université Jean Monnet);
+	Julien	Subercaze	(Université Jean Monnet);
+	Christophe	Gravier	(Université Jean Monnet);
+	Frédérique	Laforest	(Université Jean Monnet);
+<li>QE3D: Interactive Visualization and Exploration of Complex, Distributed Query Plans<br/>	Daniel	Scheibli	(SAP SE);
+	Christian	Dinse	(SAP SE);
+	Alexander	Boehm	(SAP SE);
+<li>WANalytics: Geo-Distributed Analytics for a Data Intensive World<br/>	Ashish	Vulimiri	(UIUC);
+	Carlo	Curino	(Microsoft);
+	Philip	Godfrey	(UIUC);
+	Thomas	Jungblut	(Microsoft);
+	Konstantinos	Karanasos	(Microsoft);
+	Jitendra	Padhye	(Microsoft);
+	George	Varghese	(Microsoft);
+<li>DataXFormer: An Interactive Data Transformation Tool<br/>	John	Morcos	(University of Waterloo);
+	Ziawasch	Abedjan	(CSAIL MIT);
+	Ihab Francis	Ilyas	(University of Waterloo);
+	Mourad	Ouzzani	(Qatar Computing Research Institute);
+	Paolo	Papotti	(Qatar Computing Research Institute);
+	Michael	Stonebraker	(MIT CSAIL);
+<li>FTT: a System for Finding and Tracking Tourists in Public Transport Services<br/>	Huayu	Wu	(Institute for Infocomm Research);
+	Jo-Anne	Tan	(Institute for Infocomm Research);
+	Wee Siong	Ng	(Institute for Infocomm Research);
+	Mingqiang	Xue	(Institute for Infocomm Research);
+	Wei	Chen	(Institute for Infocomm Research);
+<li>SharkDB:An In-Memory Storage System for Massive Trajectory Data<br/>	Haozhou	Wang	(The University of Queensland);
+	Kai	Zheng	(The University of Queensland);
+	Xiaofang	Zhou	(The University of Queensland);
+	Shazia	Sadiq	(The University of Queensland);
+<li>Ringo: Interactive Graph Analytics on Big-Memory Machines<br/>	Yonathan	Perez	(Stanford University);
+	Rok	Sosic	(Stanford University);
+	Arijit	Banerjee	(Stanford University);
+	Rohan	Puttagunta	(Stanford University);
+	Martin	Raison	(Stanford University);
+	Pararth	Shah	(Stanford University);
+	Jure	Leskovec	(Stanford University);
+<li>NL2CM: A Natural Language Interface to Crowd Mining<br/>	Yael	Amsterdamer	(Tel Aviv University);
+	Anna	Kukliansky	(Tel Aviv University);
+	Tova	Milo	(Tel Aviv University);
+<li>Quality-Driven Continuous Query Execution over Out-of-Order Data Streams<br/>	Yuanzhen	Ji	(SAP SE);
+	Hongjin	Zhou	(SAP SE);
+	Zbigniew	Jerzak	(SAP SE);
+	Anisoara	Nica	(SAP SE);
+	Gregor	Hackenbroich	(SAP SE);
+	Christof	Fetzer	(Technische Universitaet Dresden);
+<li>Optimistic Recovery for Iterative Dataflows in Action<br/>	Sergey	Dudoladov	(Technische Universität Berlin);
+	Chen	Xu	(Technische Universität Berlin);
+	Sebastian	Schelter	(Technische Universität Berlin);
+	Asterios	Katsifodimos	(Technische Universität Berlin);
+	Stephan	Ewen	(Data Artisans GmbH);
+	Kostas	Tzoumas	(Data Artisans GmbH);
+	Volker	Markl	(Technische Universität Berlin);
+<li>STORM: Spatio-Temporal Online Reasoning and Management of Large Spatio-Temporal Data<br/>	Robert	Christensen	(University of Utah);
+	Feifei	Li	(University of Utah);
+	Lu	Wang	(Hong Kong University of Science and Technology);
+	Ke	Yi	(Hong Kong);
+	Jun	Tang	(University of Utah);
+	Natalee	Villa	(University of Utah);
+<li>PAXQuery: Parallel Analytical XML Processing<br/>	Jesús	Camacho-Rodríguez	(Hortonworks Inc.);
+	Dario	Colazzo	(Universite? Paris-Dauphine);
+	Ioana	Manolescu	(INRIA & Université Paris-Sud);
+	Juan	Naranjo	(INRIA & Université Paris-Sud);
+<li>MoDisSENSE: A Distributed Spatio-Temporal and Textual Processing Platform for Social Networking Services<br/>	Ioannis	Mytilinis	(National Technical University of Athens);
+	Ioannis	Giannakopoulos	(National Technical University of Athens);
+	Ioannis	Konstantinou	(National Technical University of Athens);
+	Katerina	Doka	(National Technical University of Athens);
+	Dimitrios	Tsitsigkos	(IMIS, RC Athena);
+	Manolis	Terrovitis	(IMIS, RC Athena);
+	Lampros	Giampouras	(Athens Technology Center S.A);
+	Nectarios	Koziris	(National Technical University of Athens);
+<li>A Secure Search Engine for the Personal Cloud<br/>	Saliha	Lallali	(INRIA Rocquencourt);
+	Nicolas	Anciaux	(INRIA Rocquencourt);
+	Iulian	Sandu Popa	(INRIA Rocquencourt);
+	Philippe	Pucheral	(INRIA Rocquencourt);
+<li>IReS: Intelligent, Multi-Engine Resource Scheduler for Big Data Analytics Workflows<br/>	Katerina	Doka	(National Technical University of Athens);
+	Nikolaos	Papailiou	(National Technical University of Athens);
+	Dimitrios	Tsoumakos	(Ionian University);
+	Christos	Mantas	(National Technical University of Athens);
+	Nectarios	Koziris	(National Technical University of Athens);
+<li>Just can't get enough - Synthesizing Big Data<br/>	Tilmann	Rabl	(University of Toronto);
+	Manuel	Danisch	(bankmark);
+	Michael	Frank	(bankmark);
+	Sebastian	Schindler	(bankmark);
+	Hans-Arno	Jacobsen	(University of Toronto);
+<li>DocRicher: An Automatic Annotation System for Text Documents Using Social Media<br/>	Qiang	Hu	(SeSaMe Centre);
+	Qi	Liu	(School of Computing);
+	Xiaoli	Wang	(SeSaMe Centre);
+	Anthony	Tung	(School of Computing);
+	Shubham	Goyal	(SeSaMe Centre);
+	Jisong	Yang	(SeSaMe Centre);
+<li>A Demonstration of Rubato DB: A Highly Scalable NewSQL Database System for OLTP and Big Data Applications<br/>	Li-Yan	Yuan	(University of Alberta);
+	Lengdong	Wu	(University of Alberta);
+	Jia-Huai	You	(Computing Science);
+	Yan	Chi	(Shanghai Shifang Software Ltd);
+<li>G-OLA: Generalized On-Line Aggregation for Interactive Analysis on Big Data<br/>	Kai	Zeng	(University of California, Berkeley);
+	Sameer	Agarwal	(Databricks Inc.);
+	Ankur	Dave	(University of California, Berkeley);
+	Michael	Armbrust	(Databricks Inc.);
+	Ion	Stoica	(University of California, Berkeley);</li>
+
+</ul>
+
+</div>
+
+</div> 
+<!--endMainContent --> 
+		
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2015 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

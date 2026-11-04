@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2015 ACM SIGMOD/PODS Conference: Melbourne, Australia - Visa</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/melbourne/1.jpg'
+
+theImages[1] = 'images/melbourne/2.jpg'
+
+theImages[2] = 'images/melbourne/3.jpg'
+
+theImages[3] = 'images/melbourne/4.jpg'
+
+theImages[4] = 'images/melbourne/5.jpg'
+
+theImages[5] = 'images/melbourne/6.jpg'
+
+theImages[6] = 'images/melbourne/7.jpg'
+
+theImages[7] = 'images/melbourne/8.jpg'
+
+
+theImageDescriptions[0] = 'Overview of Melbourne'
+
+theImageDescriptions[1] = 'Overview of Melbourne'
+
+theImageDescriptions[2] = 'Overview of Melbourne'
+
+theImageDescriptions[3] = 'Overview of Melbourne'
+
+theImageDescriptions[4] = 'Overview of Melbourne'
+
+theImageDescriptions[5] = 'Overview of Melbourne'
+
+theImageDescriptions[6] = 'Overview of Melbourne'
+
+theImageDescriptions[7] = 'Overview of Melbourne'
+
+theImageURLs[0] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[1] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[2] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[3] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[4] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[5] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[6] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+theImageURLs[7] = 'https://www.melbourne.vic.gov.au/Pages/default.aspx'
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter_melb.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2015, Melbourne, Victoria, Australia" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/logo_sigmod_slc.jpg" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+
+<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="https://iceaustralia.eventsair.com/sigmodpods2015/registration" title="Registration" target="_blank">Registration</a></li>
+  
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_tutorial_pc.shtml" title="Tutorial Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewer">SIGMOD External Reviewers</a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>  
+  <li><a href="org_sigmod_workshops.shtml"  title="Workshops">Affiliated Workshops</a></li>
+  
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+<!--
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+-->
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li> 
+
+</ul>
+ 
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <!-- temporarily REMOVED  <li><a href="students.shtml"
+    title="Students" target="_blank">For Students</a></li> -->
+	<li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Venue and Accommodations</a></li>
+	<li><a href="http://db.in.tum.de/sigmod15contest/">ACM SIGMOD 2015 Programming Contest</a></li>
+    <!-- <li><a href="http://regonline.com/sigmod2012" title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li> 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitmelbourne.com/" title="Visitor Information">Visit Melbourne</a></li>
+  <!--  <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+--> 
+     <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+  
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program </a></li>
+
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Michael I. Jordan (University of California, Berkeley, USA)">
+Keynote: Michael I. Jordan (University of California, Berkeley, USA) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Graham Cormode (University of Warwick, UK)">Tutorial 1: Graham Cormode (University of Warwick, UK)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Todd J. Green (LogicBlox, USA)">Tutorial 2: Todd J. Green (LogicBlox, USA)</a></li>
+ <!--<li><a href="awards_pods.shtml">Awards</a></li> -->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+<!--  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+-->
+<li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="sigmod_industry_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+<li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+<li><a href="sigmod_tutorial_list.shtml" title="Tutorial Papers">Tutorial Papers</a></li>
+<li><p><a href="keynote_1.shtml">Keynote 1:
+  Jignesh Patel (University of Wisconsin)</a></p></li>
+<li><p><a href="keynote_2.shtml">Keynote 2:
+   Laura Haas (IBM)</a></p></li>
+<li><a href="program_sigmod.shtml#panel">SIGMOD Panel</a></li>
+<!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li><div id="sidebar">
+
+
+-->
+
+
+</div>
+
+
+
+			
+<div id="maincontent">
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+lang=EN-AU style='font-size:16.0pt;font-family:"Calibri","sans-serif"'>Visa
+Information for Travel to Australia</span></b></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Do I require a visa?</span></b></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>ALL visitors to
+Australia must have a valid visa to travel to and enter Australia – except for New
+Zealand passport holders who will normally be granted a Special Category visa
+on arrival, provided they meet health and character requirements.</span></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>Visa options </span></b></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>If you are planning
+to visit Australia for a business event such as a conference, meeting or
+seminar, you need to apply for a business visitor visa. The passport, which you
+hold, determines whether you can apply online, or if you need to lodge a
+paper-based application. The following information will help you identify the
+right visa and application process applicable to you.</span></p>
+
+<p class=MsoNormal style='margin-top:18.0pt;margin-right:1.15pt;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;text-justify:inter-ideograph;
+text-autospace:none'><b><span style='font-size:14.0pt;font-family:"Calibri","sans-serif";
+color:black'>[1] eVisitor – Online Applications</span></b></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>See: </span></b><a
+href="http://www.immi.gov.au/e_visa/evisitor.htm"><b><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>www.immi.gov.au/e_visa/evisitor.htm</span></b></a></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>European Union (EU)
+passport holders, and some other European passport holders, are eligible to
+apply individually online for an eVisitor visa to travel to and enter
+Australia. For a conference event, the most appropriate visa is the eVisitor
+(Business stream) visa. Applications for eVisitor visas are free. Passport
+holders from the following countries can apply for an eVisitor visa online. </span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=400
+ style='margin-left:9.0pt;border-collapse:collapse;border:none'>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Andorra </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>France </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Lithuania </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Republic of San Marino </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Austria </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Germany </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Luxembourg </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Slovak Republic </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Belgium </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Greece </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Malta </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Slovenia </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Bulgaria </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Hungary </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Monaco </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Spain </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Cyprus </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Iceland </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>The Netherlands </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Sweden </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Czech Republic </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Ireland </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Norway </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Switzerland </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Denmark </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Italy </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Poland </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>United Kingdom – British Citizen </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Estonia </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Latvia </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Portugal </span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Vatican City </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Finland</span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Liechtenstein</span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>Romania</span></p>
+  </td>
+  <td>
+  <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
+  text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif";
+  color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:1.0pt;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;text-justify:inter-ideograph;
+text-autospace:none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>A
+separate online eVisitor (Tourist stream) application is required for each
+family member who holds a passport from an eligible country and wishes to
+travel with you to Australia, including children under the age of 18 who are
+included on your passport.</span></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>See: </span></b><a
+href="http://www.immi.gov.au/e_visa/evisitor.htm"><b><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>www.immi.gov.au/e_visa/evisitor.htm</span></b></a></p>
+
+<p class=Default style='margin-top:18.0pt;margin-right:1.15pt;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+style='font-size:14.0pt;font-family:"Calibri","sans-serif"'>[2] Electronic
+Travel Authority (ETA) – Online Applications </span></b></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-autospace:
+none'><b><span style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>See:
+</span></b><a href="http://www.eta.immi.gov.au/"><b><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>www.eta.immi.gov.au/</span></b></a></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-autospace:
+none'><span style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Passport
+holders from a number of countries are eligible to apply for an Electronic
+Travel Authority (ETA) to travel to and enter Australia. For a conference
+event, the most appropriate ETA is the ETA (Business Entrant) (Subclass 977). </span><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif";color:black'>There
+is no visa application charge for ETA applications lodged online but a service
+fee of AUD$20 is charged for use of the ETA website. &nbsp;Passport holders
+from the following countries can apply for an ETA online. </span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=400
+ style='margin-left:9.0pt;border-collapse:collapse;border:none'>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Brunei </span></p>
+  </td>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Malaysia </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Canada </span></p>
+  </td>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Singapore </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Hong Kong
+  (Special Administrative Region) * </span></p>
+  </td>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>South Korea </span></p>
+  </td>
+ </tr>
+ <tr style='height:6.65pt'>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Japan </span></p>
+  </td>
+  <td>
+  <p class=Default style='text-align:justify;text-justify:inter-ideograph'><span
+  style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>United States of
+  America </span></p>
+  </td>
+ </tr>
+</table>
+
+
+<p class=Default style='margin-top:6.0pt;margin-right:1.0pt;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Each family member
+who holds a passport from an ETA eligible country and wants to travel with you
+to Australia must apply for their own ETA. This includes children under the age
+of 18 who are included on your passport. The most appropriate ETA for
+accompanying family members is the ETA (Visitor) (Subclass 976). Further
+information on the visitor ETA can be found on the website: </span><a
+href="http://www.immi.gov.au/visitors/tourist/976/"><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>www.immi.gov.au/visitors/tourist/976/</span></a></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-autospace:
+none'><b><span style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>See:
+</span></b><a href="http://www.eta.immi.gov.au/"><b><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>www.eta.immi.gov.au/</span></b></a></p>
+
+
+
+
+<p class=MsoNormal style='margin-top:18.0pt;margin-right:0cm;margin-bottom:
+6.0pt;margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><b><span
+lang=EN-AU style='font-size:14.0pt;font-family:"Calibri","sans-serif"'>[3] </span></b><b><span
+style='font-size:14.0pt;font-family:"Calibri","sans-serif"'>Business (Short
+Stay) visa (Subclass 456) — Paper-based applications</span></b></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:1.0pt;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>All other passport
+holders, not listed above, need to submit a paper-based application for a
+Business (Short Stay) visa (Subclass 456). </span></p>
+
+<p class=default style='margin-top:6.0pt;margin-right:0in;margin-bottom:5.0pt;
+margin-left:.0in;text-align:justify'><span style='font-size:10.0pt;font-family:
+"Calibri","sans-serif"'>More information on this visa is available on the
+website. </span></p>
+
+<p class=default style='margin-top:6.0pt;margin-right:0in;margin-bottom:5.0pt;
+margin-left:.0in;text-align:justify'><b><span style='font-size:10.0pt;
+font-family:"Calibri","sans-serif"'>See: </span></b><a
+href="http://www.immi.gov.au/skilled/business/456/"><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>www.immi.gov.au/skilled/business/456/</span></a></p>
+
+<p class=default style='margin-top:6.0pt;margin-right:0in;margin-bottom:5.0pt;
+margin-left:.0in;text-align:justify'><span class=GramE><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'>To find the nearest Australian visa
+office to your current place of residence.</span></span><span style='font-size:
+10.0pt;font-family:"Calibri","sans-serif"'> </span></p>
+
+<p class=default style='margin-top:5.0pt;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.0in;text-align:justify'><b><span style='font-size:10.0pt;
+font-family:"Calibri","sans-serif"'>See: </span></b><a
+href="http://www.immi.gov.au/contacts/overseas/index.htm"><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>www.immi.gov.au/contacts/overseas/index.htm</span></a></p>
+
+<p class=Default style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>This visa application
+can also include family members wanting to travel with you to Australia such as
+spouse and dependent children.</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>We
+strongly encourage you to begin the application process as soon as possible.</span></p>
+
+<h2 style='margin-top:18.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph'><span lang=EN-AU
+style='font-size:14.0pt;font-family:"Calibri","sans-serif"'>If you require a
+letter for your visa application:</span></h2>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>In some
+cases, it will be necessary for you to obtain a letter from us stating that you
+will be attending the 2015 ACM SIGMOD/PODS Conference. The process for
+requesting a visa letter is as follows:</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:18.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Register
+for the conference.</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:18.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Send your
+request for a visa letter via email to </span><a
+href="mailto:sigmodpods2015reg@iceaustralia.com"><span lang=EN-AU
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>sigmodpods2015reg@iceaustralia.com</span></a><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>. Please
+include the following information: </span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Full name
+as it appears in your passport: Last Name, First and Middle Names</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Gender</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Email
+address</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Telephone
+number</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Detailed
+postal address</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Country
+of Passport; Passport Number; Passport Expiry Date</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Current
+country of residence</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Date of
+Birth</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Will you
+be presenting at the conference? If so, the paper or session you will be
+presenting.</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:54.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Courier New"'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>Proposed
+visit dates to Australia</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:18.0pt;text-align:justify;text-justify:inter-ideograph;text-indent:
+-18.0pt'><span lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>We will email
+the letter as a PDF usually within 5 business days.</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;text-align:justify;text-justify:inter-ideograph'><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>We are
+only able to generate visa letters for paid attendees and organising committee
+members, so it is important that you register for the conference before
+requesting a visa letter. If you have any questions, please </span><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>contact </span><a
+href="mailto:sigmodpods2015reg@iceaustralia.com"><span lang=EN-AU
+style='font-size:10.0pt;font-family:"Calibri","sans-serif"'>sigmodpods2015reg@iceaustralia.com</span></a><span
+lang=EN-AU style='font-size:10.0pt;font-family:"Calibri","sans-serif"'> </span></p>
+
+</div>
+<!--endMainContent --> 
+		
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2015 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

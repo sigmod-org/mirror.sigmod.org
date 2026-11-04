@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2020 ACM SIGMOD/PODS Conference: Portland, OR, USA - Student Research Competition</title>
+
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/oregon/oldtown-1.jpg'
+
+theImages[1] = 'images/oregon/downtown.jpg'
+
+theImages[2] = 'images/oregon/LanSuGarden.jpg'
+
+theImages[3] = 'images/oregon/JapaneseGarden.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Old Town'
+
+theImageDescriptions[1] = 'Downtown, Portland'
+
+theImageDescriptions[2] = 'Lan Su Garden'
+
+theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.travelportland.com/'
+
+theImageURLs[1] = 'https://www.travelportland.com/'
+
+theImageURLs[2] = 'https://www.travelportland.com/'
+
+theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooterPortland.png" alt="June 14 - June 19, 2020, Portland, Oregon, USA" width="742"/>');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+</head>
+<body>
+<!-- <div id="masthead" style="height:auto"><img src="images/2020-SIGMOD-WebBanner.png" alt="top banner" width="750"/></div> -->
+
+<!-- <div style="font-size:0.8em;text-align:center;color: #485b81;font-weight: bold;"><p style="margin:0">ACM SIGMOD/PODS International Conference on Management of Data&nbsp&nbsp&nbsp&nbsp June 14 - June 19, 2020&nbsp&nbsp&nbsp Portland, OR, USA</p>
+</div> <br> June 14 - June 19, 2020   Portland, OR, USA-->
+
+
+
+
+
+<div id="logoACMSIGMOD" style="margin:0px;height:84px"><a href="index.shtml">
+
+<img src="images/2020Sigmod-LOGO.png" alt="ACM SIGMOD City, Country, Year" height="85" /></a></div>
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+
+<div id="wrap">
+
+<!-- the ssi code needs to stay here - do not delete or move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+ <li><a href="report.pdf" title="Experience Report">Experience Report</a></li>
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="online-webpage.shtml" title="Full Conference Program Now Available"><font color="red">Full Conference Program Now Available</font></a></li>
+    <li><a href="covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>
+    <li><a href="http://www.cvent.com/d/yhqjj1" title="Registration">Registration</a></li>
+	<li><a href="grants.shtml" title="Students">Student Travel Award <font color="red">(canceled) </font></a></li>
+	<li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Airport & Transportation</a></li>
+
+
+	<!--	<li><a href="info-coming-soon" title="Banquet">Banquet</a></li>
+	<li><a href="info-coming-soon.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="info-coming-soon.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+<!-- the ssi code needs to stay here - do not delete move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="online-webpage.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_tutorials.shtml" title="Invited Tutorials">Invited Tutorials</a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="online-webpage.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="online-webpage.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="sigmod_awards.shtml" title="Awards">Awards</a></li>
+ <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/leaders.html" title="Programming Contest">Programming Contest</a></li>
+ <li><a href="social/sigmod_social_event.shtml" title="Social Events">Social Events</a></li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2020">Tweets by sigmod2020</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+<div id="maincontent">
+<h1>ACM SIGMOD 2020 Student Research Competition</h1>
+
+<p>
+  SIGMOD 2020 will host the second <a style="color: #CC6600; text-decoration: none;"href="http://src.acm.org/">ACM Student Research Competition</a> (SRC), sponsored by Microsoft. This competition offers undergraduate and graduate students a unique forum to experience the research world, present their research results to conference attendees, and compete for prizes. Such competitions have been held at many other SIG-sponsored conferences, such as <a style="color: #CC6600; text-decoration: none;"href="http://s2016.siggraph.org/acm-student-research-competition"> SIGGRAPH</a>, <a style="color: #CC6600; text-decoration: none;"href="http://www.cs.ucdavis.edu/fse2016/calls/student-research-competition/">FSE</a>, <a style="color: #CC6600; text-decoration: none;"href="http://www.cs.ucsb.edu/~benh/pldi-2016/pldi-2016-SRC.html">PLDI</a>, and <a style="color: #CC6600; text-decoration: none;"href="https://www.sigmobile.org/mobicom/2016/src.php">MobiCom</a>.
+</p>
+
+<p>
+The competition will have separate undergraduate and graduate categories, and consist of three rounds:
+	<ul>
+		<li>A research abstract submission</li>
+		<li>A poster presentation</li>
+		<li>A research talk</li>
+	</ul>
+</p>
+
+<p>
+The abstract submission will be done online before the conference. A PC will review the submissions and invite selected students to attend SIGMOD 2020 to present a poster. A panel of judges will then review the posters and select students to give a research talk on the next day where the final winners will be determined. Three winners from each category will be chosen, with the grand winner of each category will advance to the 
+<a style="color: #CC6600; text-decoration: none;"href="https://src.acm.org/"> ACM-wide competition</a>
+</p>
+
+
+<h2>Student Posters</h2>
+<p> <a href="http://eugenewu.net/sigmodsrc20.html">Click here </a> to see the 18 student posters that will be presented during SIGMOD. </p>
+
+
+<h2>Important Dates</h2>
+<ul>
+<li>Abstract submission: 5pm Pacific Standard Time, Nov 25, 2019 <a style="color: #CC6600; text-decoration: none;"href="https://cmt3.research.microsoft.com/SIGMODSRC2020"> (submission site) </a></li>
+<li>Notification: Dec 10th, 2019 </li>
+<li>Second round: TBD, to be held at the conference </li>
+<li> Third round: TBD, to be held at the conference </li>
+</ul>
+
+
+<h2>Prizes</h2>
+<p>
+The top three winners in each category (undergraduate and graduate) will be recognized during the conference and will receive prizes of US$500, US$300, and US$200, respectively. The top three winners in each category also receive an award medal and a one-year complimentary ACM student membership with a subscription to ACM's Digital Library.
+</p>
+
+<p>
+The first-place winners of each category will be invited to compete with winners from other conferences in the <a style="color: #CC6600; text-decoration: none;"href="https://src.acm.org/">ACM Student Research Competition Grand Finals</a>.
+</p>
+
+<p>
+All students who are invited to join the second round of the competition (attending SIGMOD) will receive a travel reimbursement up to $500, courtesy of the ACM.
+</p>
+
+
+<h2>The Competition</h2>
+<p>
+<strong><i style="color: #485b81">First Round: Abstract Submission</i></strong>
+</p>
+
+<p>
+Submit a 2-page abstract online. The 2-page limit includes text, appendices, and figures. References do not count against the page limit and can expand into subsequent pages. The abstract should be written in English using the <a style="color: #CC6600; text-decoration: none;"href="https://www.acm.org/publications/proceedings-template"> ACM template</a>. The abstract should address a topic that is relevant to the <a style="color: #CC6600; text-decoration: none;"href="http://sigmod2017.org/sigmod-general-call-for-contributions/"> SIGMOD/PODS community</a> and include the following:
+	<ul>
+		<li><strong>Problem and Motivation</strong>: Clearly state the problem being addressed and explain the reasons for seeking a solution to this problem.</li>
+		<li><strong>Background and Related Work</strong>: Describe the pertinent background necessary to appreciate the work. Include references to the literature where appropriate, and briefly explain where your work departs from that done by others.</li>
+		<li><strong>Approach and Uniqueness</strong>: Describe your approach in attacking the problem and clearly state how your approach is novel.</li>
+		<li><strong>Results and Contributions</strong>: Clearly show how the results of your work contribute to computer science and explain the significance of those results.</li>
+	</ul>
+</p>
+
+<p>
+Make sure you submit your abstract in PDF format by <strong>5PM Pacific Time, November 25, 2019</strong> on the <a style="color: #CC6600; text-decoration: none;"href="https://cmt3.research.microsoft.com/SIGMODSRC2020">submission website</a>. Please read the FAQ below before you submit.
+</p>
+
+
+<p>
+<strong><i style="color: #485b81">Second Round: Poster Presentation</i></strong>
+</p>
+
+<p>
+The SRC PC will select a number of students from the abstract to advance to the second round. The second round of the competition will take place at the SIGMOD 2020 conference and will be a poster session. This is your opportunity to present your research to conference attendees and leading experts in data management, including the SRC committee.
+</p>
+
+<p>
+Judges will review the posters and speak to participants about their research. The judges will evaluate the research (quality, novelty, and significance) and the presentation of the research (poster, discussion) and select students to advance to the third round of the competition.
+</p>
+
+
+<p>
+<strong><i style="color: #485b81">Third Round: Research Talk</i></strong>
+</p>
+
+<p>
+The judges will select students from the second round to give a short (10 min max) public presentation of their research. After each presentation, there will be a short question and answer session.
+</p>
+
+<p>
+Evaluations are based on the presenter's knowledge of his/her research area, contribution of the research, and the quality of the oral and visual presentation. At most three winners will be chosen in each category, undergraduate and graduate, and receive prize.
+</p>
+
+
+<p>
+<strong><i style="color: #485b81">Grand Finals</i></strong>
+</p>
+
+<p>
+The first-place winner in each category (undergraduate and graduate) from the SRC will advance to the SRC Grand Finals. A different panel of judges evaluates the winners of all SRCs held during the calendar year against each other via the web. Three undergraduates and three graduates will be chosen as the SRC Grand Finals winners. They are invited, along with their advisors, to the annual ACM Awards Banquet (aka Turing Awards ceremony, among other things), where they receive formal recognition.
+</p>
+
+
+<h2>Who is eligible?</h2>
+<p>
+<ul>
+		<li>Current student status, either graduate or undergraduate, at the time of the abstract submission.</li>
+		<li>All participants should be current <a style="color: #CC6600; text-decoration: none;"href="http://www.acm.org/membership/join/">ACM student members</a>.</li>
+		<li>Supervisors of the work may not be listed as co-authors; students must submit a single-authored version of your work for the competition. While multiple students can co-author a single submission, If the work is collaborative with others and/or part of a larger group project, the abstract should make clear what the student's role was and should focus on that portion of the work.</li>
+		<li>Submissions must be original research that is not already published at another conference or journal (i.e., please don't submit your dissertation summary as your abstract). One of the goals of the SRC is to give students feedback on ongoing, unpublished work.</li>
+		<li>See this website for <a style="color: #CC6600; text-decoration: none;"href="http://src.acm.org/participate">full eligibility information</a>.</li>
+	</ul>
+</p>
+
+<p>
+For further questions please contact the organizers.
+</p>
+
+
+<h2>Program Committee</h2> 
+<p>
+Yongjoo Park, University of Illinois at Urbana-Champaign<br>
+Ippokratis Pandis, Amazon Web Services<br>
+Silu Huang, Microsoft<br>
+Xiangyao Yu, University of Wisconsin, Madison<br>
+Bolin Ding, Data Analytics and Intelligence Lab, Alibaba Group<br>
+Joy Arulraj, Georgia Tech<br>
+Vasia Kalavri, Boston University<br>
+Holger Pirk, University College London<br>
+John Paparrizos, University of Chicago<br>
+Paris Koutris, University of Wisconsin, Madison<br>
+Xi He, University of Waterloo<br>
+Eugene Wu, Columbia University<br>
+</p>
+
+<h2>Frequently Asked Questions</h2>
+<p>
+<i>How does the SRC differ from the SIGMOD programming contest?<br></br></i>
+The programming contest targets student teams who are interested in solving coding problems. The SRC aims to encourage research contributions from student researchers at both undergraduate and graduate levels.
+</p>
+
+<p>
+<i>What about the undergraduate poster competition?<br></br></i>
+There won't be a separate undergraduate poster competition this year.
+</p>
+
+<p>
+<i>Can students submit in teams?<br></br></i>
+Team projects will be accepted from Undergraduates. One person should be designated by the team to make the oral presentation, and only one person will receive the travel stipend per Undergraduate project. Only individual research is accepted from Graduate (Masters or PhD program) students: group research projects will not be considered. However, if an individual is part of a group research project and wants to participate in an SRC, they can only present their part of the research. Only they will receive the travel stipend and monetary award (should they win).
+</p>
+
+<p>
+<i>Can we submit the same project as in our SIGMOD 2nd round submissions / demo submissions / some other paper that is currently under submission?<br></br></i>
+Unfortunately not. The SRC does count as a presentation venue, and submitting the same work as will violate <a href="calls_papers_sigmod_research.shtml#submissionpolicy"> SIGMOD's duplicate submission policy</a>.
+</p>
+
+<p>
+I already competed in another SRC this year, can I still participate?<br></br></i>
+You can only participate in one SRC per year. See <a style="color: #CC6600; text-decoration: none;"href="http://src.acm.org/participate"> this website</a> for further information.
+<p>
+
+<p>
+For further questions please contact <a href="mailto:sigmodsrc.chairs@gmail.com">the organizers</a>.
+</p>
+
+
+</div>
+<!--endMainContent -->
+
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+</div>
+<!-- end of wrap -->
+
+</body>
+</html>
+

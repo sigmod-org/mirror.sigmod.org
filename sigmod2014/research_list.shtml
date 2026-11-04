@@ -1,0 +1,1183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2014 ACM SIGMOD/PODS Conference: Snowbird, Utah, USA - 
+SIGMOD Accepted Research Papers</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/utah/022-3-0138_jpegs_slc.jpg'
+
+theImages[1] = 'images/utah/Snowbird_SummerTram_A.jpg'
+
+theImages[2] = 'images/utah/022-3-0254_jpegs_Zion_national_park.jpg'
+
+theImages[3] = 'images/utah/022-3-0005_jpegs_art_event.jpg'
+
+theImages[4] = 'images/utah/022-3-0126_jpegs_slcskyline.jpg'
+
+theImages[5] = 'images/utah/Snowbird_CliffLodge_Summer_E.jpg'
+
+theImages[6] = 'images/utah/022-3-0187_jpegs_interior_snowbird.jpg'
+
+theImages[7] = 'images/utah/022-3-0111_jpegs_temple_square.jpg'
+
+theImages[8] = 'images/utah/022-3-0442_jpegs_trax_light_rail.jpg'
+
+
+theImageDescriptions[0] = 'Salt Lake Valley, Buildings at Daytime with mountains in the background, Credit to Adam Barker'
+
+theImageDescriptions[1] = 'Snowbird Tram, Credit to Adam Barker'
+
+theImageDescriptions[2] = 'Zion National Park, Credit to Douglas Pulsipher'
+
+theImageDescriptions[3] = 'The Utah Arts Festival at Library Square, Credit to Dana Sohm'
+
+theImageDescriptions[4] = 'Salt Lake City Skyline, Credit to Douglas Pulsipher'
+
+theImageDescriptions[5] = 'Exterior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[6] = 'Interior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[7] = 'Temple Square at Christmas, Credit to Steve Greenwood'
+
+theImageDescriptions[8] = 'TRAX light-rail, Credit to Steve Greenwood'
+
+theImageURLs[0] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[1] = 'http://www.snowbird.com/summer/activities/tram/'
+
+theImageURLs[2] = 'http://www.nps.gov/zion/index.htm'
+
+theImageURLs[3] = 'http://uaf.org/'
+
+theImageURLs[4] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[5] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[6] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[7] = 'http://en.wikipedia.org/wiki/Temple_Square'
+
+theImageURLs[8] = 'http://en.wikipedia.org/wiki/TRAX_(light_rail)'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2014, Salt Lake City, Utah, USA" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/sigmod14-logo.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+ <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+   <li><a href="https://www.regonline.com/acmsigmodpods2014" title="Registration" target="_blank">Registration</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+ 
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li> 
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodation and Transportation</a></li>
+    
+    <!-- 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitsaltlake.com/" title="Visitor Information">Visit Salt Lake City</a></li>
+    <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Leonid Libkin">
+Keynote: Leonid Libkin (University of Edinburgh) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Peter J. Haas ">Tutorial 1: Peter J. Haas (IBM Almaden Research Center)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Benny Kimelfeld">Tutorial 2: Benny Kimelfeld (LogicBlox)</a></li>
+<!--  <li><a href="awards_pods.shtml">Awards</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+ <li><a href="keynote_1.shtml" title="Eric Sedlar" >Keynote 1:
+      Eric Sedlar (Oracle Labs)</a></li>
+
+  <li><a href="keynote_2.shtml" title="Maurice Herlihy" >Keynote 2:
+   Maurice Herlihy (Brown University)</a></li>
+   <!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations
+   </a></li> -->
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Papers</a></li>
+  <!--  <li><a href="awards_sigmod.shtml">Awards</a></li> -->
+</ul>
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+			
+<div id="maincontent">
+<h1>SIGMOD 2014: Accepted Research Papers</h1>
+
+				
+<div>
+  
+<ul>
+  <li>
+AutoPlait: Automatic Mining of Co-evolving Time Sequences <br/>
+Yasuko Matsubara, Kumamoto University; Yasushi Sakurai, Kumamoto
+  University; Christos Faloutsos, Carnegie Mellon University
+  </li>
+<li>
+Resource-Oriented Approximation for Frequent Itemset Mining from Bursty Data Streams<br/>
+Yoshitaka Yamamoto, University of Yamanashi; Koji Iwanuma, University of Yamanashi; Shoshi Fukuda, University of Yamanashi
+  </li>
+<li>
+
+
+On Complexity and Optimization of Expensive Queries in Complex Event Processing<br/>
+
+Haopeng Zhang, UMass Amherst; Yanlei Diao, UMass Amherst; Neil Immerman, UMass Amherst
+  </li>
+<li>
+
+Complex Event Analytics: Online Aggregation of Stream Sequence Patterns<br/>
+
+Yingmei Qi, Google Inc; Lei Cao, Worcester Polytechnic Institute; Medhabi Ray, Worcester Polytechnic Institute; Elke Rundensteiner, Worcester Polytechnic Institute
+  </li>
+<li>
+	
+
+Explainable Security for Relational Databases<br/>
+
+Gabriel Bender, Cornell University; Lucja Kot, Cornell University; Johannes Gehrke, Cornell University
+
+  </li>
+<li>
+
+PrivBayes: Private Data Release via Bayesian Networks<br/>
+
+Jun Zhang, Nanyang Technological University; Graham Cormode, University of Warwick; Cecilia Procopiuc, AT&T Labs Research; Divesh Srivastava, AT&T Labs Research; Xiaokui Xiao, Nanyang Technological University
+
+  </li>
+<li>
+
+PriView: Practical Differentially Private Release of Marginal Contingency Tables<br/>
+
+Wahbeh Qardaji, Purdue University; Weining Yang, Purdue University; Ninghui Li, Purdue University
+
+  </li>
+<li>
+
+Blowfish Privacy: Tuning Privacy-Utility Trade-offs using Policies<br/>
+
+Xi He, Duke University; Ashwin Machanavajjhala, Duke University; Bolin Ding, Microsoft Research
+
+  </li>
+<li>	
+
+PLANET: Making Progress with Commit Processing in Unpredictable Environments<br/>
+
+Gene Pang, UC Berkeley; Tim Kraska, Brown University; Michael Franklin, UC Berkeley; Alan Fekete, University of Sydney
+  </li>
+<li>
+
+
+Lazy Evaluation of Transactions in Database Systems<br/>
+
+Jose Faleiro, Yale University; Alexander Thomson, Google Inc; Daniel Abadi, Yale University
+
+  </li>
+<li>
+
+Scalable Atomic Visibility with RAMP Transactions<br/>
+
+Peter Bailis, UC Berkeley; Alan Fekete, University of Sydney; Joseph Hellerstein, UC Berkeley; Ali Ghodsi, UC Berkeley; Ion Stoica, UC Berkeley
+
+  </li>
+<li>
+
+JECB: a Join-Extension, Code-Based Approach to OLTP Data Partitioning<br/>
+
+Khai Tran, University of Wisconsin Madison; Jeffrey Naughton, University of Wisconsin Madison; Bruhathi Sundarmurthy, University of Wisconsin Madison; Dimitris Tsirogiannis, University of Wisconsin Madison
+
+  </li>
+<li>	
+
+Parallel Data Analysis Directly on Scientific File Formats<br/>
+
+Spyros Blanas, Ohio State University; John Wu, Lawrence Berkeley National Lab; Suren Byna, Lawrence Berkeley National Lab; Bin Dong, Lawrence Berkeley National Lab; Arie Shoshani, Lawrence Berkeley National Lab
+
+  </li>
+<li>
+
+The PH-Tree - A Space-Efficient Storage Structure and Multi-Dimensional Index<br/>
+
+Tilmann Zaschke, ETH Zurich; Christoph Zimmerli, ETH Zurich; Moira Norrie, ETH Zurich
+
+  </li>
+<li>
+
+Incremental Elasticity For Array Databases<br/>
+
+Jennie Duggan, MIT; Michael Stonebraker, MIT
+
+  </li>
+<li>
+
+Efficient Summarization Framework for Multi-Attribute Uncertain Data<br/>
+
+Jie Xu, UC Irvine; Dmitri V. Kalashnikov, UC Irvine; Sharad Mehrotra, UC Irvine
+
+  </li>
+<li>
+
+Towards Indexing Functions: Answering Scalar Product Queries<br/>
+
+Arijit Khan, ETH Zurich; Pouya Yanki, ETH Zurich; Bojana Dimcheva, ETH Zurich; Donald Kossmann, ETH Zurich
+
+
+  </li>
+<li>
+LINVIEW: Incremental View Maintenance for Complex Analytical Queries<br/>
+
+Milos Nikolic, EPFL; Mohammed ElSeidy, EPFL; Christoph Koch, EPFL
+
+  </li>
+<li>
+
+Materialization Optimizations for Feature Selection Workloads<br/>
+
+Ce Zhang, University of Wisconsin Madison; Arun Kumar, University of Wisconsin Madison; Christopher Re, Stanford University
+
+  </li>
+<li>
+
+The Analytical Bootstrap: a New Method for Fast Error Estimation in Approximate Query Processing<br/>
+
+  Kai Zeng, UCLA; Shi Gao, UCLA; Barzan Mozafari, University of Michigan; Carlo Zaniolo, UCLA
+
+  </li>
+<li>
+
+Patience is a Virtue: Revisiting Merge and Sort on Modern Processors<br/>
+
+Badrish Chandramouli, Microsoft Research; Jonathan Goldstein, Microsoft Research
+
+  </li>
+<li>
+
+Morsel-Driven Parallelism: A NUMA-Aware Query Evaluation Framework for the Many-Core Age<br/>
+
+Viktor Leis, TU Munchen; Peter Boncz, CWI; Alfons Kemper, TU Munchen; Thomas Neumann, TU Munchen
+
+  </li>
+<li>
+
+A Comprehensive Study of Main-Memory Partitioning and its Application to Large-Scale Comparison and Radix-Sort<br/>
+
+Orestis Polychroniou, Columbia University; Kenneth Ross, Columbia University
+
+
+  </li>
+<li>
+An Application-Specific Instruction Set for Accelerating Set-Oriented Database Primitives<br/>
+
+Oliver Arnold, TU Dresden; Sebastian Haas, TU Dresden; Gerhard Fettweis, TU Dresden; Benjamin Schlegel, TU Dresden; Thomas Kissinger, TU Dresden; Wolfgang Lehner, TU Dresden
+
+  </li>
+<li>	
+
+Scalable Big Graph Processing in MapReduce<br/>
+
+Lu Qin, University of Technology Sydney; Jeffrey Yu, Chinese University of Hong Kong; Lijun Chang, University of New South Wales; Hong Cheng, Chinese University of Hong Kong; Chengqi Zhang, University of Technology Sydney; Xuemin Lin, University of New South Wales
+
+  </li>
+<li>
+
+Anti-Combining for MapReduce<br/>
+
+Alper Okcan, Northeastern University; Mirek Riedewald, Northeastern University
+
+
+  </li>
+<li>
+Opportunistic Physical Design for Big Data Analytics<br/>
+
+Jeff LeFevre, UC Santa Cruz; Jagan Sankaranarayanan, NEC Labs America; Hakan Hacigumus, NEC Labs America; Junichi Tatemura, NEC Labs America; Neoklis Polyzotis, UC Santa Cruz; Michael Carey, UC Irvine
+  </li>
+<li>
+
+
+Stratified-Sampling over Social Networks Using MapReduce<br/>
+
+Roy Levin, IBM Haifa Research Lab; Yaron Kanza, Jacobs Technion-Cornell Innovation Institute, Cornell Tech
+
+  </li>
+<li>	
+
+Characterizing and Selecting Fresh Data Sources<br/>
+
+Theodoros Rekatsinas, University of Maryland; Xin Dong, Google Inc; Divesh Srivastava, AT&T Labs Research
+
+  </li>
+<li>
+
+Sloth: Being Lazy is a Virtue (When Issuing Database Queries)<br/>
+
+Alvin Cheung, MIT; Sam Madden, MIT; Armando Solar-Lezama, MIT
+
+
+  </li>
+<li>
+Dynamically Optimizing Queries for Large Scale Data Platforms<br/>
+Konstantinos Karanasos, IBM Almaden Research Center; Andrey Balmin, GraphSQL; Marcel Kutsch, Apple Inc.; Fatma Ozcan, IBM Almaden Research Center; Vuk Ercegovac, Google, Inc.; Chunyang Xia, IBM; Jesse Jackson, IBM
+  </li>
+<li>
+
+A Software-Defined Networking based Approach for Performance Management of Analytical Queries on Distributed Data Stores<br/>
+
+Pengcheng Xiong, NEC Labs America; Hakan Hacigumus, NEC Labs America; Jeffrey Naughton, University of Wisconsin Madison
+
+  </li>
+<li>	
+
+Online Optimization and Fair Costing for Dynamic Data Sharing in a Cloud Data Market<br/>
+
+Ziyang Liu, NEC Labs America; Hakan Hacigumus, NEC Labs America
+  </li>
+<li>
+
+
+A Comparison of Platforms for Implementing and Running Very Large Scale Machine Learning Algorithms<br/>
+
+Zhuhua Cai, Rice University; Zekai Gao, Rice University; Shangyu Luo, Rice University; Luis Perez, Rice University; Zografoula Vagena, LogicBlox Inc; Christopher Jermaine, Rice University
+
+  </li>
+<li>
+
+Re-evaluating Designs for Multi-Tenant OLTP Workloads on SSD-based I/O Subsystems<br/>
+
+Ning Zhang, Rocket Fuel Inc.; Junichi Tatemura, NEC Labs America; Jignesh Patel, University of Wisconsin Madison; Hakan Hacigumus, NEC Labs America
+
+  </li>
+<li>
+
+Secure Query Processing with Data Interoperability in a Cloud Database Environment<br/>
+
+Wai Kit Wong, Hang Seng Management College; Ben Kao, University of Hong Kong; David Wai Lok Cheung, University of Hong Kong; Rongbin Li, University of Hong Kong; Siu Ming Yiu, University of Hong Kong
+
+  </li>
+<li>
+
+HYDRA: Large-scale Social Identity Linkage via Heterogeneous Behavior Modeling<br/>
+
+Siyuan Liu, Carnegie Mellon University; Shuhui Wang, Chinese Academy of Sciences; Feida Zhu, Singapore Management University; Jinbo Zhang, Peking University; Ramayya Krishnan, Carnegie Mellon University
+
+  </li>
+<li>
+
+In Search of Influential Event Organizers in Online Social Networks  <br/>
+Kaiyu Feng, Nanyang Technological University; Gao Cong, Nanyang Technological University; Sourav Bhowmick, Nanyang Technological University; Shuai Ma, Beihang University
+  
+  </li>
+<li>
+
+Influence Maximization: Near-Optimal Time Complexity Meets Practical Efficiency<br/>
+
+Youze Tang, Nanyang Technological University; Xiaokui Xiao, Nanyang Technological University; Yanchen Shi, Nanyang Technological University
+
+  </li>
+<li>
+
+Efficient Location-Aware Influence Maximization<br/>
+
+Guoliang Li, Tsinghua University; Shuo Chen, Tsinghua University; Jianhua Feng, Tsinghua University; Kian-Lee Tan, National University of Singapore; Wan-Syan Li, SAP
+
+  </li>
+<li>
+
+Tracking Set Correlations at Large Scale<br/>
+
+Foteini Alvanaki, Saarland University; Sebastian Michel, Saarland University
+
+  </li>
+<li>
+
+Aggregate Estimation Over a Microblog Platform<br/>
+
+Saravanan Thirumuruganathan, University of Texas at Arlington; Nan Zhang, George Washington University; Vagelis Hristidis, UC Riverside; Gautam Das, University of Texas at Arlington
+
+  </li>
+<li>
+
+Tripartite Graph Clustering for Dynamic Sentiment Analysis on Social Media<br/>
+
+Linhong Zhu, University of Southern California; Aram Galstyan, University of Southern California; James Cheng, Chinese University of Hong Kong; Kristina Lerman, University of Southern California
+
+  </li>
+<li>
+
+A Temporal Context-Aware Model for User Behavior Modeling in Social Media Systems<br/>
+
+Hongzhi Yin, Peking University; Bin Cui, Peking University; Ling Chen, University of Technology, Sydney; Zhiting Hu, Peking University; Zi Huang, University of Queensland
+
+  </li>
+<li>
+
+Querying K-Truss Community in Large and Dynamic Graphs<br/>
+
+Xin Huang, Chinese University of Hong Kong; Hong Cheng, Chinese University of Hong Kong; Lu Qin, University of Technology, Sydney; Wentao Tian, Chinese University of Hong Kong; Jeffrey Xu Yu, Chinese University of Hong Kong
+
+  </li>
+<li>
+
+Reachability Queries on Large Dynamic Graphs: A Total Order Approach<br/>
+
+Andy Diwen Zhu, NTU Singapore; Wenqing Lin, NTU Singapore; Sibo Wang, NTU Singapore; Xiaokui Xiao, Nanyang Technological University
+
+  </li>
+<li>
+
+EAGr: Supporting Continuous Ego-centric Aggregation Queries on Large Dynamic Graphs<br/>
+
+Jayanta Mondal, University of Maryland; Amol Deshpande, University of Mayland
+
+
+  </li>
+<li>
+Localizing Anomalous Changes in Time-evolving Graphs<br/>
+
+Sricharan Kumar, Palo Alto Research Center; Kamalika Das, UARC NASA Ames Research Center
+
+  </li>
+<li>
+
+CrowdFill: Collecting Structured Data from the Crowd<br/>
+
+Hyunjung Park, Stanford University; Jennifer Widom, Stanford University
+
+  </li>
+<li>
+
+OASSIS: Query Driven Crowd Mining<br/>
+
+Yael Amsterdamer, Tel Aviv University; Susan Davidson, University of Pennsylvania; Tova Milo, Tel Aviv University; Slava Novgorodov, Tel Aviv University; Amit Somech, Tel Aviv University
+
+  </li>
+<li>
+
+Corleone: Hands-Off Crowdsourcing for Entity Matching<br/>
+
+Chaitanya Gokhale, University of Wisconsin Madison; Sanjib Das, University of Wisconsin Madison; AnHai Doan, University of Wisconsin Madison; Jeffrey Naughton, University of Wisconsin Madison; Narasimhan Rampalli, @WalmartLabs; Jude Shavlik, University of Wisconsin Madison; Jerry Zhu, University of Wisconsin Madison
+
+
+  </li>
+<li>
+Descriptive and Prescriptive Data Cleaning<br/>
+Anup Chalamalla, University of Waterloo; Ihab Ilyas, University of Waterloo; Mourad Ouzzani, Qatar Computing Research Institute; Paolo Papotti, Qatar Computing Research Institute
+
+  </li>
+<li>
+
+Towards Dependable Data Repairing with Fixing Rules<br/>
+
+Jiannan Wang, UC Berkeley; Nan Tang, Qatar Computing Research Institute
+
+  </li>
+<li>
+
+A Sample-and-Clean Framework for Fast and Accurate Query Processing on Dirty Data<br/>
+
+Jiannan Wang, UC Berkeley; Sanjay Krishnan, UC Berkeley; Michael
+  Franklin, UC Berkeley; Ken Goldberg, UC Berkeley; Tim Kraska, Brown
+  University; Tova Milo, Tel Aviv University
+
+  </li>
+<li>
+
+Fusing Data with Correlations<br/>
+
+Ravali Pochampally, University of Massachusetts Amherst; Anish Das Sarma, Troo.Ly Inc; Xin Dong, Google Inc; Alexandra Meliou, University of Massachusetts Amherst; Divesh Srivastava, AT&T Labs Research
+
+  </li>
+<li>
+
+Density-based Place Clustering in Geo-Social Networks<br/>
+
+Jieming Shi, University of Hong Kong; Nikos Mamoulis, University of Hong Kong; Dingming Wu, University of Hong Kong; David Cheung, University of Hong Kong
+
+  </li>
+<li>
+
+Hypersphere Dominance: An Optimal Approach<br/>
+
+Cheng Long, Hong Kong University of Science and Technology; Raymond Chi-Wing Wong, Hong Kong University of Science and Technology; Bin Zhang, Hong Kong University of Science and Technology; Min Xie, Hong Kong University of Science and Technology
+
+  </li>
+<li>
+
+Efficient Algorithms for Optimal Location Queries in Road Networks<br/>
+
+Zitong Chen, ; Yubao Liu, Sun Yat-Sen University; Raymond Chi-Wing Wong, Hong Kong University of Science and Technology; Jiamin Xiong, ; Ganglin Mai, ; Cheng Long, Hong Kong University of Science and Technology
+
+  </li>
+<li>
+
+Robust Set Reconciliation<br/>
+
+Di Chen, Hong Kong University of Science and Technology; Christian Konrad, Reykjavik University; Ke Yi, Hong Kong University of Science and Technology; Wei Yu, Aarhus University; Qin Zhang, Indiana University Bloomington
+
+  </li>
+<li>
+
+The Pursuit of a Good Possible World: Extracting Representative Instances of Uncertain Graphs<br/>
+
+Panos Parchas, Hong Kong University of Science and Technology; Francesco Gullo, Yahoo Labs; Dimitris Papadias, Hong Kong University of Science and Technology; Francesco Bonchi, Yahoo Labs
+
+  </li>
+<li>
+
+Navigating the Maze of Graph Analytics Frameworks using Massive Graph Datasets<br/>
+
+Nadathur Satish, Intel Labs; Narayanan Sundaram, Intel Labs; Mostofa Patwary, Intel Labs; Jiwon Seo, Stanford University; Jongsoo Park, Intel Labs; Muhammad Hassaan, Intel Labs; Shubho Sengupta, Intel Labs; Zhaoming Yin, Georgia Tech; Pradeep Dubey, Intel Labs
+  </li>
+<li>
+
+
+Local Search of Communities in Large Graphs<br/>
+
+Wanyun Cui, Fudan University; Yanghua Xiao, Fudan University; Haixun Wang, Google Research; Wei Wang, Fudan University
+
+  </li>
+<li>
+
+Mining Statistically Significant Connected Subgraphs in Vertex Labeled Graphs<br/>
+
+Akhil Arora, Indian Institute of Technology, Kanpur; Mayank Sachan, Indian Institute of Technology, Kanpur; Arnab Bhattacharya, Indian Institute of Technology, Kanpur
+  </li>
+<li>
+
+
+TriAD: A Distributed Shared-Nothing RDF Engine based on Asynchronous Message Passing<br/>
+
+Sairam Gurajada, MPI Informatics; Stephan Seufert, MPI Informatics; Iris Miliaraki, MPI Informatics; Martin Theobald, University of Antwerp
+
+  </li>
+<li>
+
+Querying Big Graphs within Bounded Resources<br/>
+
+Wenfei Fan, University of Edinburgh; Xin Wang, Southwest Jiaotong University; Yinghui Wu, UC Santa Barbara
+
+  </li>
+<li>
+
+Natural Language Question Answering over RDF<br/>
+
+Lei Zou, Peking University; Ruizhe Huang, Peking University; Haixun Wang, Microsoft
+Research Asia; Jeffrey Xu Yu, Chinese University of Hong Kong; Wenqiang He, Peking University; Dongyan Zhao, Peking University
+
+   </li>
+<li>
+
+Scalable Similarity Search for SimRank<br/>
+
+Mitsuru Kusumoto, Preferred Infrastructure Inc; Takanori Maehara, National Institute of Informatics Tokyo; Ken-ichi Kawarabayashi, National Institute of Informatics Tokyo
+
+  </li>
+<li>
+
+Efficient Cohesive Subgraphs Detection in Parallel<br/>
+
+Yingxia Shao, Peking University; Lei Chen, Hong Kong University of Science and Technology; Bin Cui, Peking University
+
+  </li>
+<li>
+
+Parallel Subgraph Listing in a Large-Scale Graph<br/>
+
+Yingxia Shao, Peking University; Bin Cui, Peking University; Lei Chen, Hong Kong University of Science and Technology; Lin Ma, Peking University; Junjie Yao, Peking University; Ning Xu, Peking University
+
+  </li>
+<li>
+
+OPT: A New Framework for Overlapped and Parallel Triangulation in Large-scale Graphs<br/>
+
+Jinha Kim, Pohang University of Science and Technology (POSTECH); Wook-Shin Han Pohang University of Science and Technology (POSTECH); Sangyeon Lee, Pohang University of Science and Technology (POSTECH); Kyungyeol Park, Pohang University of Science and Technology (POSTECH); Hwanjo Yu, Pohang University of Science and Technology (POSTECH)
+
+  </li>
+<li>
+
+Indexing for Interactive Exploration of Big Data Series<br/>
+
+Kostas Zoumpatianos, University of Trento; Stratos Idreos, Harvard University; Themis Palpanas, University of Trento
+
+  </li>
+<li>
+
+Histograms as a Side Effect of Data Movement for Big Data<br/>
+
+Zsolt Istvan, ETH Zurich; Louis Woods, ETH Zurich; Gustavo Alonso, ETH Zurich
+
+  </li>
+<li>
+
+A Formal Approach to Finding Explanations for Database Queries<br/>
+
+Sudeepa Roy, University of Washington; Dan Suciu, University of Washington
+
+  </li>
+<li>
+
+MISO: Souping Up Big Data Query Processing with a Multistore System<br/>
+
+Jeff LeFevre, UC Santa Cruz; Jagan Sankaranarayanan, NEC Labs America; Hakan Hacigumus, NEC Labs America; Junichi Tatemura, NEC Labs America; Neoklis Polyzotis, UC Santa Cruz; Michael Carey, UC Irvine
+
+  </li>
+<li>	
+
+Which Concepts Are Worth Extracting?<br/>
+
+Arash Termehchy, Oregon State University; Ali Vakilian, MIT; Yodsawalai Chodpathumwan, University of Illinois at Urbana-Champaign; Marianne Winslett, University of Illinois at Urbana-Champaign
+
+  </li>
+<li>
+
+Querying Virtual Hierarchies using Virtual Prefix-Based Numbers<br/>
+
+Curtis Dyreson, Utah State University; Sourav Bhowmick, Nanyang Technological University; Ryan Grapp, Utah State University
+
+  </li>
+<li>
+
+NLyze: Interactive Programming by Natural Language for SpreadSheet Data Analysis and Manipulation<br/>
+
+Sumit Gulwani, Microsoft Research; Mark Marron, Microsoft Research
+
+  </li>
+<li>
+
+Sinew: a SQL System for Unified Analytics of Multi-structured Data<br/>
+
+Daniel Tahara, Yale University; Thaddeus Diamond, Hadapt; Daniel Abadi, Yale University
+
+  </li>
+<li>
+
+Overlap Interval Partition Join<br/>
+
+Anton Dignos, University of Zurich; Michael Bohlen, University of Zurich; Johann Gamper, Free University of Bozen-Bolzano
+
+  </li>
+<li>
+
+Similarity Joins for Uncertain Strings<br/>
+
+Manish Patil, Louisiana State University; Rahul Shah, Louisiana State University
+
+  </li>
+<li>
+
+Track Join: Distributed Joins with Minimal Network Traffic<br/>
+
+Orestis Polychroniou, Columbia University; Rajkumar Sen, Oracle Corporation; Kenneth Ross, Columbia University
+
+  </li>
+<li>
+
+On-the-Fly Token Similarity Joins in Relational Databases<br/>
+
+Nikolaus Augsten, University of Salzburg; Armando Miraglia, VU University Amsterdam; Thomas Neumann, TU Munchen; Alfons Kemper, TU Munchen
+
+  </li>
+<li>
+
+Knowing When You're Wrong: Building Fast and Reliable Approximate Query Processing Systems<br/>
+
+Sameer Agarwal, UC Berkeley; Henry Milner, UC Berkeley; Ariel Kleiner, UC Berkeley; Ameet Talwalkar, UC Berkeley; Michael Jordan, UC Berkeley; Sam Madden, MIT; Barzan Mozafari, University of Michigan; Ion Stoica, UC Berkeley
+
+  </li>
+<li>
+
+Discovering Queries based on Example Tuples<br/>
+
+Yanyan Shen, National University of Singapore; Kaushik Chakrabarti, Microsoft Research; Surajit Chaudhuri, Microsoft Research; Bolin Ding, Microsoft Research; Lev Novik, Microsoft
+
+  </li>
+<li>
+
+Interactive Data Exploration Using Semantic Windows<br/>
+
+Alexander Kalinin, Brown University; Ugur Cetintemel, Brown University; Stan Zdonik, Brown University
+
+  </li>
+<li>
+
+Explore-by-Example: An Automatic Query Steering Framework for Interactive Data Exploration<br/>
+
+Kyriaki Dimitriadou, Brandeis University; Olga Papaemmanouil, Brandeis University; Yanlei Diao, University of Massachusetts Amherst
+
+  </li>
+<li>
+
+Modeling Entity Evolution for Temporal Record Matching<br/>
+
+Yueh-Hsuan Chiang, University of Wisconsin Madison; AnHai Doan, University of Wisconsin Madison; Jeffrey Naughton, University of Wisconsin Madison
+
+  </li>
+<li>
+
+Resolving Conflicts in Heterogeneous Data by Truth Discovery and Source Reliability Estimation<br/>
+
+Qi Li, SUNY Buffalo; Yaliang Li, SUNY Buffalo; Jing Gao, SUNY Buffalo; Bo Zhao, Microsoft Research; Wei Fan, Huawei Noah’s Ark Lab; Jiawei Han, University of Illinois
+
+  </li>
+<li>
+
+A Probabilistic Model for Linking Named Entities in Web Text with Heterogeneous Information Networks<br/>
+
+Wei Shen, Tsinghua University; Jiawei Han, UIUC; Jianyong Wang, Tsinghua University
+  </li>
+<li>
+
+
+Matching Heterogeneous Event Data<br/>
+
+Xiaochen Zhu, Tsinghua University; Shaoxu Song, Tsinghua University; Xiang Lian, University of Texas - Pan American; Jianmin Wang, Tsinghua University; Lei Zou, Peking University
+
+  </li>
+<li>
+
+Complete Yet Practical Search for Minimal Query Reformulations Under Constraints<br/>
+
+Ioana Ileana, Telecom Paris Tech; Bogdan Cautis, University of Paris-Sud; Alin Deutsch, UC San Diego; Yannis Katsis, UC San Diego
+
+  </li>
+<li>
+
+Query Shredding: Efficient Relational Evaluation of Nested Queries<br/>
+
+Sam Lindley, University of Edinburgh; James Cheney, University of Edinburgh; Philip Wadler, University of Edinburgh
+
+  </li>
+<li>
+
+Plan Bouquets: Query Processing without Selectivity Estimation<br/>
+
+Anshuman Dutt, Indian Institute of Science; Jayant Haritsa, Indian Institute of Science
+
+  </li>
+<li>
+
+Schema-free SQL<br/>
+
+Fei Li, University of Michigan; Tianyin Pan, University of Michigan; H. V. Jagadish, University of Michigan
+
+  </li>
+<li>
+
+Towards Unified Ad-hoc Data Processing<br/>
+
+Xiaogang Shi, Peking University; Bin Cui, Peking University; Gillian Dobbie, University of Auckland; Beng Chin Ooi, National University of Singapore
+
+  </li>
+<li>
+
+Partial Results in Database Systems<br/>
+
+Willis Lang, Microsoft Gray Systems Lab; Rimma Nehme, Microsoft Gray Systems Lab; Eric Robinson, Microsoft Gray Systems Lab; Jeffrey Naughton, University of Wisconsin-Madison
+
+  </li>
+<li>
+
+Parallel In-Situ Data Processing with Speculative Loading<br/>
+
+Yu Cheng, UC Merced; Florin Rusu, UC Merced
+
+  </li>
+<li>
+
+Approximation Schemes for Many-Objective Query Optimization<br/>
+
+Immanuel Trummer, EPFL; Christoph Koch, EPFL
+
+  </li>
+<li>
+
+H2O: A Hands-Free Adaptive Store<br/>
+
+Ioannis Alagiannis, EPFL; Stratos Idreos, Harvard University; Anastasia Ailamaki, EPFL
+
+  </li>
+<li>
+
+Fine-grained Blocking for Aggressive Data Skipping<br/>
+
+Liwen Sun, UC Berkeley; Michael Franklin, UC Berkeley; Sanjay Krishnan, UC Berkeley; Reynold Xin, UC Berkeley
+
+  </li>
+<li>
+
+DSH: Data Sensitive Hashing for High-Dimensional k-NN Search<br/>
+
+Jinyang Gao, National University of Singapore; H. V. Jagadish, University of Michigan; Wei Lu, National University of Singapore; Beng Chin Ooi, National University of Singapore
+
+  </li>
+<li>	
+
+Fast and Unified Local Search for Random Walk Based K-Nearest-Neighbor Query in Large Graphs<br/>
+
+Yubao Wu, Case Western Reserve University; Ruoming Jin, Kent State University; Xiang Zhang, Case Western Reserve University
+
+  </li>
+<li>
+
+Global Immutable Region Computation<br/>
+
+Jilian Zhang, Singapore Management University; Kyriakos Mouratidis, Singapore Management University; HweeHwa Pang, Singapore Management University
+
+  </li>
+<li>
+
+Answering Top-k Representative Queries on Graph Databases<br/>
+
+Sayan Ranu, IIT Madras; Minh Hoang, UCSB; Ambuj Singh, UCSB
+
+  </li>
+<li>	
+
+Knowledge Expansion over Probabilistic Knowledge Bases<br/>
+
+Yang Chen, University of Florida; Daisy Zhe Wang, University of Florida
+
+  </li>
+<li>
+
+InsightNotes: Summary-Based Annotation Management in Relational Databases<br/>
+
+Dongqing Xiao, Worcester Polytechnic Institute; Mohamed Eltabakh, Worcester Polytechnic Institute
+
+  </li>
+<li>
+
+A Pivotal Prefix Based Filtering Algorithm for String Similarity Search<br/>
+
+Dong Deng, Tsinghua University; Guoliang Li, Tsinghua University; Jianhua Feng, Tsinghua University
+</li>
+</ul>
+</div> 
+
+
+
+<!--endMainContent --> 
+</div>		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2014 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+===
+=== Call for papers:
+===
+=== Workshop on Reliable Data Services and Systems (RDSS) 2014
+=== June 23rd, Collocated with SIGMOD 2014 at Snowbird, Utah, USA
+=== 
+=== http://www.sigmod2014.org/rdss/
+===
+
+=== Motivation and Scope ===
+As Cloud Computing becomes more pervasive, existing database management systems (DBMS) are offered as cloud data services, and new cloud data services are emerging. New data services cater to new web-scale workloads and Big Data. The cost of testing database systems has been traditionally a large part of the total development cost.  Building reliable data services, testing, benchmarking and monitoring quality of service in a production environment is at least an equally challenging and costly undertaking. There is a need for novel and revolutionary ideas for the current situation to improve in the future.
+
+The Reliable Data Services & Systems Workshop (RDSS) replaces the Workshop on Testing Database Systems. Similarly to DBTest, RDSS aims to expose to the academic community the challenges faced by industry practitioners related to building and testing reliable data services. 
+The long term goal is to devise new techniques that reduce the cost and time to build, test and tune data services so that vendors can spend more time and energy on actual innovations. We see the challenges in building and testing data services as a superset of what practitioners face in traditional DBMS testing. RDSS’s goal is to is shift the focus of the conversation and research ideas to data services while remaining open to the areas of interest covered by DBTest in the past.
+
+The participants of this workshop will be from both industry and academia. In addition to novel techniques, the workshop will present war stories from the various service vendors in order to define and better understand the problem space. 
+
+
+=== Topics of Interest ===
+  - Testing and resilience in service-oriented architectures
+  - Testing issues in multi-tenant database systems and cloud database systems
+  - Testing issues in large-scale analytics systems (e.g., Hadoop)
+  - Testing the reliability and availability of database services and systems
+  - Metrics for quality of service, elasticity, scale, predictability and workload performance
+  - Metrics and validation techniques related to service level agreements
+  - Designs, algorithms and techniques that improve the reliability and testability of data services 
+  - Testing the efficiency of adaptive policies and components
+  - Testing data services, database systems, and database applications
+  - Generation of test artifacts (e.g., test data, test queries)
+  - Maximizing code coverage of database systems/services/applications
+  - Improving the user experience of data services and systems
+  - Testing and designing systems that are robust to estimation inaccuracies
+  - Identifying performance bottlenecks
+  - Robust query processing
+  - Security and vulnerability testing
+  - War stories and vision papers
+
+=== Important Dates ===
+  Paper Submission: April 5, 2014 
+  Notification of acceptance: April 21, 2014
+  Camera-ready due: April 30, 2014 
+  Workshop: June 23, 2014  
+
+== Paper Submission ===
+  Guidelines at: http://www.sigmod2014.org/rdss/PaperSubmission.htm
+
+=== Organization ===
+  Leo Giakoumakis, Microsoft Corporation, USA (leogia@microsoft.com)
+  Donald Kossmann, ETH Zürich, Switzerland (kossmann@inf.ethz.ch)
+  Swami Sivasubramanian, Amazon, USA (swami@amazon.com)
+
+=== Program Commitee ===
+  Ashraf Aboulnaga, Waterloo, Canada
+  Hakan Hacigumus, NEC, USA
+  Johannes Klein, Microsoft, USA
+  Kian-Lee Tan,  NUS, Singapore
+  Kiran Reddy, Amazon, USA 
+  Martin Kersten, CWI
+  Neoklis Polyzotis, Google, USA
+  Norman May, SAP AG, Germany
+  Spyros Voulgaris VU, Netherlands

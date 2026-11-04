@@ -1,0 +1,643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2014 ACM SIGMOD/PODS Conference: Snowbird, Utah, USA - Conference Program:  PODS Sessions</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/utah/022-3-0138_jpegs_slc.jpg'
+
+theImages[1] = 'images/utah/Snowbird_SummerTram_A.jpg'
+
+theImages[2] = 'images/utah/022-3-0254_jpegs_Zion_national_park.jpg'
+
+theImages[3] = 'images/utah/022-3-0005_jpegs_art_event.jpg'
+
+theImages[4] = 'images/utah/022-3-0126_jpegs_slcskyline.jpg'
+
+theImages[5] = 'images/utah/Snowbird_CliffLodge_Summer_E.jpg'
+
+theImages[6] = 'images/utah/022-3-0187_jpegs_interior_snowbird.jpg'
+
+theImages[7] = 'images/utah/022-3-0111_jpegs_temple_square.jpg'
+
+theImages[8] = 'images/utah/022-3-0442_jpegs_trax_light_rail.jpg'
+
+
+theImageDescriptions[0] = 'Salt Lake Valley, Buildings at Daytime with mountains in the background, Credit to Adam Barker'
+
+theImageDescriptions[1] = 'Snowbird Tram, Credit to Adam Barker'
+
+theImageDescriptions[2] = 'Zion National Park, Credit to Douglas Pulsipher'
+
+theImageDescriptions[3] = 'The Utah Arts Festival at Library Square, Credit to Dana Sohm'
+
+theImageDescriptions[4] = 'Salt Lake City Skyline, Credit to Douglas Pulsipher'
+
+theImageDescriptions[5] = 'Exterior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[6] = 'Interior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[7] = 'Temple Square at Christmas, Credit to Steve Greenwood'
+
+theImageDescriptions[8] = 'TRAX light-rail, Credit to Steve Greenwood'
+
+theImageURLs[0] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[1] = 'http://www.snowbird.com/summer/activities/tram/'
+
+theImageURLs[2] = 'http://www.nps.gov/zion/index.htm'
+
+theImageURLs[3] = 'http://uaf.org/'
+
+theImageURLs[4] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[5] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[6] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[7] = 'http://en.wikipedia.org/wiki/Temple_Square'
+
+theImageURLs[8] = 'http://en.wikipedia.org/wiki/TRAX_(light_rail)'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2014, Salt Lake City, Utah, USA" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/sigmod14-logo.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+ <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+   <li><a href="https://www.regonline.com/acmsigmodpods2014" title="Registration" target="_blank">Registration</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+ 
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li> 
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodation and Transportation</a></li>
+    
+    <!-- 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitsaltlake.com/" title="Visitor Information">Visit Salt Lake City</a></li>
+    <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Leonid Libkin">
+Keynote: Leonid Libkin (University of Edinburgh) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Peter J. Haas ">Tutorial 1: Peter J. Haas (IBM Almaden Research Center)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Benny Kimelfeld">Tutorial 2: Benny Kimelfeld (LogicBlox)</a></li>
+<!--  <li><a href="awards_pods.shtml">Awards</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+ <li><a href="keynote_1.shtml" title="Eric Sedlar" >Keynote 1:
+      Eric Sedlar (Oracle Labs)</a></li>
+
+  <li><a href="keynote_2.shtml" title="Maurice Herlihy" >Keynote 2:
+   Maurice Herlihy (Brown University)</a></li>
+   <!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations
+   </a></li> -->
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Papers</a></li>
+  <!--  <li><a href="awards_sigmod.shtml">Awards</a></li> -->
+</ul>
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+			
+			<div id="maincontent">
+				  <h1>Conference Program:  PODS Sessions</h1>
+	
+
+
+<p>This page describes the complete PODS Conference program.
+			  Please use the following links to skip to
+			  the sessions of interest:
+<ul>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#keynote">Keynote Talk</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;"
+			  href="#research">Research Sessions</a>
+  <li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#tutorial">Tutorials</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;"
+			  href="#poster">Poster Session</a>   
+</ul>
+<p>
+<h1><strong><a name="keynote" id="keynote"></a>Opening and PODS Keynote</strong></h1>
+<h3>Incomplete Data: What Went Wrong, and How to Fix it</h3>
+<p>Monday 8:30-9:45<br/>
+<span class="location">Location: Ballroom</span><br/>
+<span class="hashtag">Hashtag: #pods14 #keynote</span><br/>
+Leonid Libkin, University of Edinburgh <br />
+Session Chair: Richard Hull (IBM T.J. Watson Research Center)<br />
+</p>
+
+<h1><a name="research" id="research"></a>RESEARCH SESSIONS </h1> 
+<h3><a name="pods1"></a>Session 1: Web Queries and Big Data</h3>
+<p>Monday 10:15-12:15 <br/>
+<span class="location">Location: Ballroom</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R1Px</span><br/>
+Session Chair: Serge Abiteboul (INRIA Saclay)
+						
+<ul>						
+<li>						
+<strong>	  Expressive Languages for Querying the Semantic Web	</strong><br/>	   Marcelo Arenas, Pontificia Universidad Cat&oacute;lica de Chile; Georg Gottlob, University of Oxford; Andreas Pieris, University of Oxford
+<li><strong>	  Expressiveness of Guarded Existential Rule Languages</strong><br/>
+  Georg Gottlob, University of Oxford; Sebastian Rudolph, Technische Universit&auml;t Dresden; Mantas Šimkus, Vienna University of Technology
+<li><strong>	 Containment and Equivalence of Well-Designed SPARQL
+  </strong><br/>  Reinhard Pichler, Vienna University of Technology;
+  Sebastian Skritek, Vienna University of Technology
+  <li><strong>	 On Scale Independence for Querying Big Data  </strong><br/>  Wenfei Fan, University of Edinburgh and Beihang University; Floris Geerts, University of Antwerp; Leonid Libkin, University of Edinburgh
+ 
+ </ul>
+</p>
+
+<h3><a name="pods2"></a> Session 2: PODS Award Session</h3>
+<p>
+Monday 13:45-14:45 <br/>
+<span class="location">Location: Ballroom</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R2Px</span><br/>
+Session Chair: Richard Hull (IBM T.J. Watson Research Center)
+
+<ul>
+<li>
+  <strong>Alberto O. Mendelzon Test-of-Time Award:</strong>
+
+ <br style="margin-bottom: 2ex;"/>
+
+ <strong>Composing Schema Mappings: Second-Order Dependencies to the
+Rescue</strong>
+ <br/>
+ Ronald Fagin, IBM Almaden Research Center;
+ Phokion G. Kolaitis, University of California Santa Cruz &amp; IBM
+Almaden Research Center;
+ Lucian Popa, IBM Almaden Research Center;
+ Wang-Chiew Tan, University of California Santa Cruz
+
+ <br style="margin-bottom: 2ex;"/>
+
+ <strong>and</strong>
+
+ <br style="margin-bottom: 2ex;"/>
+
+ <strong>Foundations of Semantic Web Databases</strong>
+ <br/>
+ Claudio Guti&eacute;rrez, Universidad de Chile; Carlos A. Hurtado,
+Microsystem; Alberto O. Mendelzon
+</li>
+
+<li><strong>	Best Paper Award: Weaker Forms of Monotonicity for Declarative Networking: A More Fine-grained Answer to the CALM-conjecture 	</strong><br />	Tom J. Ameloot, Hasselt University and transnational University of Limburg; Bas Ketsman, Hasselt University and transnational University of Limburg; Frank Neven, Hasselt University and transnational University of Limburg; Daniel Zinn, LogicBlox, Inc.
+</ul>						
+</p>
+
+<h3><a name="pods3"></a>Session 3: PODS Tutorial 1 </h3>
+<p>Monday 15:00-16:10 <br/>
+<span class="location">Location: Ballroom</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R3P1</span><br/>
+Session Chair: Jan van den Bussche (Hasselt University and Transnational University of
+Limburg)
+
+<ul>  
+<li><strong> Tutorial 1: Model-Data Ecosystems:
+   Challenges, Tools, and Trends </strong><br/>
+Peter J. Haas, IBM Almaden Research Center
+</ul>
+  
+<h3><a name="pods4"></a>Session 4: 
+Sketching and Sampling</h3>
+<p>
+Monday 16:45-18:15 <br/>
+<span class="location">Location: Ballroom</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R4Px</span><br/>
+Session Chair: Yufei Tao (Chinese University of Hong Kong)
+
+<ul>  
+<li><strong> All-Distances Sketches, Revisited: HIP Estimators for Massive Graphs Analysis </strong><br/>
+Edith Cohen, Microsoft Research
+<li><strong> Composable Core-sets for Diversity and Coverage Maximization  </strong><br/>
+Piotr Indyk, Massachusetts Institute of Technology; Sepideh Mahabadi, Massachusetts Institute of Technology; Mohammad Mahdian, Google, Inc.; Vahab S. Mirrokni, Google, Inc.
+<li><strong>Is Min-Wise Hashing Optimal for Summarizing Set Intersection?  </strong><br/>
+Rasmus Pagh, IT University of Copenhagen; Morten St&ouml;ckel, IT University of Copenhagen; David P. Woodruff, IBM Almaden Research Center 
+</ul>						
+</p>						
+
+
+<h3>	<a name="pods5"></a> Session 5: Enumeration, Counting, and Probabilities </h3>
+<p>
+Tuesday 10:30-12:10<br/>
+<span class="location">Location: Maybird</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R5Px</span><br/>
+Session Chair: Dan Suciu (University of Washington)
+						
+<ul>				
+<li><strong>Enumerating Answers to First-Order Queries
+  over Databases of Low Degree	</strong><br />
+  Arnaud Durand, CNRS and ENS Cachan; Nicole Schweikardt, Goethe-Universit&auml;t Frankfurt; Luc Segoufin, INRIA and ENS Cachan
+<li><strong>Counting Solutions to Conjunctive Queries: Structural and
+  Hybrid Tractability </strong><br/>
+  Gianluigi Greco, University of Calabria; Francesco Scarcello, University of Calabria
+<li><strong>	  A Dichotomy for Nonrepeating Queries with
+  Negation in Probabilistic Databases 	</strong><br />
+  Robert Fink, University of Oxford; Dan Olteanu, University of Oxford and LogicBlox, Inc.
+
+</ul>						
+</p>		
+
+<h3><a name="pods6"></a> Session 6:  Tutorial Session 2</h3>
+<p>Tuesday 13:30-15:10<br/>
+<span class="location">Location: Maybird</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R6Px</span><br/>
+Session Chair: Pablo Barcel&oacute; (Universidad de Chile)
+						
+<ul>					
+<li><strong> Tutorial 2: Database Principles in Information Extraction  </strong><br />
+  Benny Kimelfeld, LogicBlox, Inc.
+<li><strong> Regular paper: Cleaning Inconsistencies in Information
+  Extraction via Prioritized Repairs </strong><br />
+  Ronald Fagin, IBM Almaden Research Center; Benny Kimelfeld, LogicBlox, Inc; Frederick Reiss, IBM Almaden Research Center; Stijn Vansummeren, Universit&eacute; Libre de Bruxelles
+ </ul>
+</p>
+
+ 
+<h3>	<a name="pods7"></a> Session 7:  Classics</h3>
+<p>Tuesday 15:40-17:20<br/>
+<span class="location">Location: Maybird</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R7Px</span><br/>
+Session Chair: Nicole Schweikardt (Goethe University Frankfurt)
+<ul>
+<li><strong>Nested Dependencies: Structure and Reasoning	</strong><br />Phokion G. Kolaitis, University of California Santa Cruz and IBM Almaden Research Center; Reinhard Pichler, Vienna University of Technology; Emanuel Sallinger, Vienna University of Technology; Vadim Savenkov, Vienna University of Technology
+<li><strong>	Does Query Evaluation Tractability Help Query Containment? 	</strong><br />Pablo Barcel&oacute;, University of Chile; Miguel Romero, University of Chile; Moshe Y. Vardi, Rice University
+<li><strong>	Generating Low-cost Plans from Proofs 	</strong><br />Michael Benedikt, University of Oxford; Balder ten Cate, LogicBlox, Inc.; Efthymia Tsamoura, University of Oxford
+</ul>						
+</p>
+
+
+<h3>	<a name="pods8"></a>Session 8:  Computing Joins  </h3>
+<p>Wednesday 10:30-12:10<br/>
+ <span class="location">Location: Maybird </span><br/>
+<span class="hashtag">Hashtag: #pods14 #R8Px</span><br/>
+ Session Chair: Tony Tan (Hasselt University)
+<ul>						
+						
+<li><strong>	Skew in Parallel Query Processing  </strong><br /> Paul Beame, University of Washington; Paraschos Koutris, University of Washington; Dan Suciu, University of Washington
+<li><strong>	The Input/Output Complexity of Triangle Enumeration </strong><br /> Rasmus Pagh, IT University of Copenhagen; Francesco Silvestri, University of Padova
+<li><strong>	Beyond Worst-case Analysis for Joins with Minesweeper </strong><br /> Hung Q. Ngo, University at Buffalo, SUNY; Dung T. Nguyen, University at Buffalo, SUNY; Christopher R&eacute;, Stanford University; Atri Rudra, University at Buffalo, SUNY
+</ul>
+</p>
+
+<h3><a name="pods9"></a> Session 9: Data Structures and Range Queries</h3>
+<p>Wednesday 15:00-17:10<br/>
+<span class="location">Location: Maybird</span><br/>
+<span class="hashtag">Hashtag: #pods14 #R9Px</span><br/>
+Session Chair: Martin Grohe (RWTH Aachen University)
+						
+<ul>
+<li><strong>	Independent Range Sampling </strong><br /> Xiaocheng Hu, Chinese University of Hong Kong; Miao Qiao, Chinese University of Hong Kong; Yufei Tao, Chinese University of Hong Kong
+<li><strong>	A Dynamic I/O-Efficient Structure for One-Dimensional Top-k Range Reporting </strong><br /> Yufei Tao, Chinese University of Hong Kong
+<li><strong>	Categorical Range Maxima Queries </strong><br /> Manish Patil, Louisiana State University; Sharma V. Thankachan, University of Waterloo; Rahul Shah, Louisiana State University; Yakov Nekrich, University of Waterloo; Jeffrey Scott Vitter, The University of Kansas
+<li><strong>	Cost-Oblivious Storage Reallocation </strong><br /> Michael A. Bender, Stony Brook University; Martín Farach-Colton, Rutgers University; S&aacute;ndor P. Fekete, TU Braunschweig; Jeremy T. Fineman, Georgetown University; Seth Gilbert, National University of Singapore
+</ul>
+</p>
+
+
+<h1><a name="tutorial" id="tutorial"></a>TUTORIAL SESSIONS </h1> 
+ <ul>
+  <li><strong>Tutorial 1:Model-Data Ecosystems:
+   Challenges, Tools, and Trends </strong><br/>
+  Monday 15:00-16:10 <br/>
+  <span class="location">Location: Ballroom</span><br/>
+  <span class="hashtag">Hashtag: #pods14 #R3P1</span><br/>
+  Peter J. Haas, IBM Almaden Research Center
+  <li><strong> Tutorial 2: Database Principles in Information Extraction  </strong><br />
+  Tuesday 13:30-15:10<br/>
+  <span class="location">Location: Maybird</span><br/>
+	<span class="hashtag">Hashtag: #pods14 #R7P1</span><br/>
+	Benny Kimelfeld, LogicBlox, Inc.
+ </ul>
+
+
+ <h1><a name="pods" id="poster"></a>POSTER SESSION </h1>
+ <p>Tuesday 20:15- </br>
+<span class="location">Location: The Event Tent</span></br>
+<span class="hashtag">Hashtag: #sigmod14 #pods14 #rp2</span></br>
+<ul>
+<li><strong>PODS/SIGMOD Research Plenary Poster Session</strong><br />
+
+  Papers from all PODS Sessions and from SIGMOD Sessions Research 10 to 18, Research 24 to 28, and Industry 3 and 4. 
+ </ul>
+</p>
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2014 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

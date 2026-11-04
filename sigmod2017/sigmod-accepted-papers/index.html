@@ -1,0 +1,1444 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!--[if IE]>
+        <meta name="X-UA-Compatible" content="IE=edge" >
+        <![endif]-->
+        <title>SIGMOD accepted papers &laquo;  SIGMOD/PODS 2017</title>
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/ie8.css" />
+        <![endif]-->
+        <!--[if lte IE 7]>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/bootstrap-ie7.css" />
+        <style type="text/css">
+            .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.input-group,.row,.content{
+                box-sizing:border-box;behavior:url(http://sigmod2017.org/wp-content/themes/Tyler/js/boxsizing.htc)
+            }
+        </style>
+        <link rel="stylesheet" href="../wp-content/themes/Tyler/css/ie7.css" />
+        <![endif]-->
+        <!-- HTML5 Shim, Respond.js and PIE.htc IE8 support of HTML5 elements, media queries and CSS3 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <style type="text/css">
+            .speakers .speaker .speaker-inner, .speakers .photo img, .connect, .sessions .session .speaker img,
+            .connect .links a:hover:before, .sessions .session .session-inner, .location .explore, .location .map,
+            .articles article .image, .facebook .fb-event, .facebook .fb-view, .twitter .view, .twitter .tweet,
+            .sidebar .widget_latest_comments li a,.sidebar h2, .articles article .image, .comments-area h2,
+            .commentlist .comment .comment-content,.commentlist .comment .comment-content:after,
+            .timecounter, input[type=text], textarea, .landing .box, h1 img.img-circle {
+                behavior: url("http://sigmod2017.org/wp-content/themes/Tyler/js/pie/PIE.htc");
+            }
+        </style>
+        <![endif]-->
+        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/sigmod2017.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=1c31560d246502a7fe2c533aebd31644"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://sigmod2017.org/wp-content/plugins/captcha/css/front_end_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://sigmod2017.org/wp-includes/css/dashicons.min.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_mobile_style-css'  href='http://sigmod2017.org/wp-content/plugins/captcha/css/mobile_style.css?ver=4.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-google-font-css'  href='//fonts.googleapis.com/css?family=Ubuntu%3A300%2C400%2C500%2C700&#038;ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-bootstrap-css'  href='../wp-content/themes/Tyler/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-blueimp-gallery-css'  href='../wp-content/themes/Tyler/css/blueimp-gallery.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-jquery-scrollpane-css'  href='../wp-content/themes/Tyler/css/jquery.scrollpane.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-icons-css'  href='../wp-content/themes/Tyler/css/icon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-layout-css'  href='../wp-content/themes/Tyler/css/layout.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-layout-mobile-css'  href='../wp-content/themes/Tyler/css/layout-mobile.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tyler-style-css'  href='http://sigmod2017.org/wp-content/themes/Tyler/style.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<link rel='stylesheet' id='london-scheme-css'  href='http://sigmod2017.org/wp-content/themes/Tyler/css/schemes/london/layout.css?ver=1c31560d246502a7fe2c533aebd31644' type='text/css' media='all' />
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='../wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sigmod2017.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="./" />
+<link rel='shortlink' href='../' />
+<link rel="alternate" type="application/json+oembed" href="http://sigmod2017.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsigmod2017.org%2Fsigmod-accepted-papers%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://sigmod2017.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsigmod2017.org%2Fsigmod-accepted-papers%2F&#038;format=xml" />
+
+    <script type="text/javascript">
+
+        var ajaxurl = 'http://sigmod2017.org/datalearnstofly/admin-ajax.php';
+        var pois = [{"poi_address":"<strong>The Cinema<\/strong><br\/>Renoir Cinema, London","poi_latitude":"51.5112139","poi_longitude":"-0.1198244","poi_title":"The Cinema"},{"poi_address":"<strong>The Restaurant<\/strong><br\/>The Restaurant, London","poi_latitude":"51.4965633","poi_longitude":"-0.175881","poi_title":"The Restaurant"},{"poi_address":"<strong>The Hotel<\/strong><br\/>The Hotel, London","poi_latitude":"51.5066791","poi_longitude":"-0.1523359","poi_title":"The Hotel"},{"poi_address":"<strong>Camden Town<\/strong><br\/>Camden Town, London","poi_latitude":"51.5390111","poi_longitude":"-0.1425553","poi_title":"Camden Town"},{"poi_address":"<strong>O2<\/strong><br\/>O2, London","poi_latitude":"51.5171878","poi_longitude":"-0.1168787","poi_title":"O2"},{"poi_address":"<strong>Oxford Square<\/strong><br\/>Oxford Square, London","poi_latitude":"51.5154787","poi_longitude":"-0.16747","poi_title":"Oxford Square"},{"poi_address":"<strong>Hyde Park<\/strong><br\/>Hyde Park, London","poi_latitude":"51.5072682","poi_longitude":"-0.1657303","poi_title":"Hyde Park"},{"poi_address":"<strong>Trafalgar Square<\/strong><br\/>Trafalgar Square, London","poi_latitude":"51.5080391","poi_longitude":"-0.1280693","poi_title":"Trafalgar Square"},{"poi_address":"<strong>Brick Lane<\/strong><br\/>Brick Lane, London","poi_latitude":"51.5214253","poi_longitude":"-0.0717604","poi_title":"Brick Lane"},{"poi_address":"<strong>Westminster Abbey<\/strong><br\/>Westminster Abbey","poi_latitude":"51.4995308","poi_longitude":"-0.1284551","poi_title":"Westminster Abbey"},{"poi_address":"<strong>Big Ben<\/strong><br\/>Big Ben","poi_latitude":"51.5007046","poi_longitude":"-0.1245748","poi_title":"Big Ben"},{"poi_address":"<strong>Parliament<\/strong><br\/>The Parliament, London","poi_latitude":"51.4995281","poi_longitude":"-0.125076","poi_title":"Parliament"},{"poi_address":"<strong>Tower Bridge<\/strong><br\/>tower bridge, london","poi_latitude":"51.5041846","poi_longitude":"-0.0763221","poi_title":"Tower Bridge"},{"poi_address":"<strong>The London Eye<\/strong><br\/>the london eye","poi_latitude":"51.5034001","poi_longitude":"-0.1195192","poi_title":"The London Eye"}];
+        var poi_marker = 'http://sigmod2017.org/wp-content/themes/Tyler/images/schemes/london/icon-map-pointer.png';
+        var contact_missingfield_error = "Sorry! You've entered an invalid email.";
+        var contact_wrongemail_error = "This field must be filled out.";
+    </script><meta name="twitter:partner" content="tfwp" /><style type="text/css"></style>
+<meta name="twitter:card" content="summary" /><meta name="twitter:title" content="SIGMOD accepted papers" />
+    </head>
+    <body class="page-template-default page page-id-839">
+        <header class="nav transition">
+            <a href="../" id="logo">
+                <img src="../wp-content/uploads/2017/04/SIGMOD_PODS_logo_2017.jpg" alt="Logo SIGMOD/PODS 2017" title="SIGMOD/PODS 2017" />
+            </a>
+            <nav class="navbar" role="navigation">
+                <!-- mobile navigation -->
+                <div class="navbar-header visible-sm visible-xs">
+                    <button type="button" class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target="#tyler-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="icon-header"></i>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse text-fit" id="tyler-navigation">
+                    <div class="menu-sigmod-container"><ul id="menu-primary" class="transition"><li id="menu-item-258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-258"><a href="../">Home</a></li>
+<li id="menu-item-1137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1137"><a href="../schedule-overview/">Schedule</a>
+<ul class="sub-menu">
+	<li id="menu-item-1371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1371"><a href="../schedule-overview/">Schedule</a></li>
+	<li id="menu-item-1369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1369"><a href="../live/">Live streaming</a></li>
+	<li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="../video/">Talk videos</a></li>
+</ul>
+</li>
+<li id="menu-item-856" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-856"><a href="#">SIGMOD</a>
+<ul class="sub-menu">
+	<li id="menu-item-929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-929"><a href="../sigmod-program/">SIGMOD program</a></li>
+	<li id="menu-item-861" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-839 current_page_item menu-item-861"><a href="./">SIGMOD proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-857"><a href="#">PODS</a>
+<ul class="sub-menu">
+	<li id="menu-item-889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-889"><a href="../pods-program/">PODS program</a></li>
+	<li id="menu-item-860" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-860"><a href="../pods-accepted-papers/">PODS proceedings</a></li>
+</ul>
+</li>
+<li id="menu-item-356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-356"><a href="#">Call for contributions</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="../deadlines/">Important Dates</a></li>
+	<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="../sigmod-general-call-for-contributions/">SIGMOD general call for contributions</a></li>
+	<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="../sigmod-call-for-research-papers/">SIGMOD call for research papers</a></li>
+	<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="../pods-general-call-for-contributions/">PODS general call for contributions</a></li>
+	<li id="menu-item-677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="../sigmod-call-for-industrial-track-papers/">SIGMOD Call for Industrial Track Papers</a></li>
+	<li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680"><a href="../sigmod-call-for-tutorial-proposals/">SIGMOD Call for tutorial proposals</a></li>
+	<li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="../sigmod-call-for-demonstration-proposals/">SIGMOD Call for demonstration proposals</a></li>
+	<li id="menu-item-554" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-554"><a href="../sigmod-call-for-workshop-proposals/">SIGMOD call for workshop proposals</a></li>
+	<li id="menu-item-683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683"><a href="../student-research-competition/">SIGMOD student research competition (ACM SRC)</a></li>
+</ul>
+</li>
+<li id="menu-item-278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-278"><a href="#">Organization</a>
+<ul class="sub-menu">
+	<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a href="../conference-officers/">Conference Officers</a></li>
+	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="../sigmod-program-committee/">SIGMOD PC</a></li>
+	<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="../pods-pc/">PODS PC</a></li>
+	<li id="menu-item-652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-652"><a href="../demonstrations/">SIGMOD demo PC</a></li>
+	<li id="menu-item-676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-676"><a href="../sigmod-industry-pc/">SIGMOD industry PC</a></li>
+	<li id="menu-item-701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-701"><a href="../tutorials/">SIGMOD tutorial PC</a></li>
+	<li id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="../student-research-competition/">SIGMOD ACM SRC PC</a></li>
+	<li id="menu-item-585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-585"><a href="#">Conference volunteers</a></li>
+	<li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="../sponsoring/">Sponsor opportunities</a></li>
+	<li id="menu-item-588" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-588"><a href="http://sigmod2016.org/">SIGMOD 2016</a></li>
+	<li id="menu-item-587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-587"><a href="http://sigmod.org/">ACM Sigmod Online</a></li>
+</ul>
+</li>
+<li id="menu-item-579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-579"><a href="#">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-1116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1116"><a href="../pods-program/#gems">Gems of PODS</a></li>
+	<li id="menu-item-784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-784"><a href="../programming-contest/">Programming Contest</a></li>
+	<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659"><a href="../workshops/">Workshops</a></li>
+	<li id="menu-item-678" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-678"><a href="../new-researcher-symposium/">New Researcher Symposium</a></li>
+	<li id="menu-item-679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679"><a href="../tutorials/">SIGMOD Tutorials</a></li>
+	<li id="menu-item-787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-787"><a href="../student-research-competition/">SIGMOD Student Research Competition</a></li>
+</ul>
+</li>
+<li id="menu-item-593" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-593"><a href="#">Participating             </a>
+<ul class="sub-menu">
+	<li id="menu-item-910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-910"><a href="https://www.regonline.com/sigmodpods2017">Registration</a></li>
+	<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="../attending-the-conference/">Attending the conference</a></li>
+	<li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="../banquet/">Banquet</a></li>
+	<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="../accomodations/">Accomodations</a></li>
+	<li id="menu-item-792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-792"><a href="../visa-information/">Visa information</a></li>
+	<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="../student-travel-awards/">Student Travel Awards</a></li>
+	<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="../conference-venue/">Conference Venue</a></li>
+	<li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812"><a href="../restaurants-attractions/">Restaurants &#038; Attractions</a></li>
+	<li id="menu-item-813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813"><a href="../transportation/">Transportation</a></li>
+	<li id="menu-item-1330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1330"><a href="https://drive.google.com/file/d/0BwMzqILSnejkUi1OQVQ2S0FfVWc/view?usp=sharing">Conference booklet (60 MB PDF)</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+            </nav>
+        </header>        <div class="heading">
+        <div class="container">
+            <h1>SIGMOD accepted papers</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                                
+<style type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+.DLcitLink {
+	margin-left:20px;
+	}	
+.DLtitleLink {
+	margin-left:20px;
+	}	
+.DLotherLink {
+	margin-left:0px;
+	}		
+</style>
+
+
+
+
+<div id="DLtoc">
+<div id="DLheader">
+<h1>SIGMOD '17- Proceedings of the 2017 ACM International Conference on Management of Data</h1>
+<a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="//dl.acm.org/citation.cfm?id=3035918"><img class="DLlogo" src="//dl.acm.org/img/dllogo.png" alt="Digital Library logo" width="30" height="30" />Full Citation in the ACM Digital Library</a>
+
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote Session - Grand Challenges in Data Management: Transactions</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37608">The Next 700 Transaction Processing Engines</a>
+<ul class="DLauthors">
+ 	<li class="nameList Last">Anastasia Ailamaki</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37609">What Are We Doing With Our Lives?: Nobody Cares About Our Concurrency Control Research</a>
+<ul class="DLauthors">
+ 	<li class="nameList Last">Andrew Pavlo</li>
+</ul>
+<h2>SESSION: SIGMOD Session 1. Concurrency (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37600">ACIDRain: Concurrency-Related Attacks on Database-Backed Web Applications</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Todd Warszawski</li>
+ 	<li class="nameList Last">Peter Bailis</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37601">Cicada: Dependably Fast Multi-Core In-Memory Transactions</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Hyeontaek Lim</li>
+ 	<li class="nameList">Michael Kaminsky</li>
+ 	<li class="nameList Last">David G. Andersen</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37602">BatchDB: Efficient Isolated Execution of Hybrid OLTP+OLAP Workloads for Interactive Applications</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Darko Makreshanski</li>
+ 	<li class="nameList">Jana Giceva</li>
+ 	<li class="nameList">Claude Barthels</li>
+ 	<li class="nameList Last">Gustavo Alonso</li>
+</ul>
+<h2>SESSION: SIGMOD Session 2. Storage and Distribution (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37603">Azure Data Lake Store: A Hyperscale Distributed File Service for Big Data Analytics</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Raghu Ramakrishnan</li>
+ 	<li class="nameList">Baskar Sridharan</li>
+ 	<li class="nameList">John R. Douceur</li>
+ 	<li class="nameList">Pavan Kasturi</li>
+ 	<li class="nameList">Balaji Krishnamachari-Sampath</li>
+ 	<li class="nameList">Karthick Krishnamoorthy</li>
+ 	<li class="nameList">Peng Li</li>
+ 	<li class="nameList">Mitica Manu</li>
+ 	<li class="nameList">Spiro Michaylov</li>
+ 	<li class="nameList">Rogério Ramos</li>
+ 	<li class="nameList">Neil Sharman</li>
+ 	<li class="nameList">Zee Xu</li>
+ 	<li class="nameList">Youssef Barakat</li>
+ 	<li class="nameList">Chris Douglas</li>
+ 	<li class="nameList">Richard Draves</li>
+ 	<li class="nameList">Shrikant S. Naidu</li>
+ 	<li class="nameList">Shankar Shastry</li>
+ 	<li class="nameList">Atul Sikaria</li>
+ 	<li class="nameList">Simon Sun</li>
+ 	<li class="nameList Last">Ramarathnam Venkatesan</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37604">OctopusFS: A Distributed File System with Tiered Storage Management</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Elena Kakoulli</li>
+ 	<li class="nameList Last">Herodotos Herodotou</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37615">Monkey: Optimal Navigable Key-Value Store</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Niv Dayan</li>
+ 	<li class="nameList">Manos Athanassoulis</li>
+ 	<li class="nameList Last">Stratos Idreos</li>
+</ul>
+<h2>SESSION: SIGMOD Session 3. Streams</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37616">Enabling Signal Processing over Data Streams</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Milos Nikolic</li>
+ 	<li class="nameList">Badrish Chandramouli</li>
+ 	<li class="nameList Last">Jonathan Goldstein</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37617">Complete Event Trend Detection in High-Rate Event Streams</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Olga Poppe</li>
+ 	<li class="nameList">Chuan Lei</li>
+ 	<li class="nameList">Salah Ahmed</li>
+ 	<li class="nameList Last">Elke A. Rundensteiner</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37618">LittleTable: A Time-Series Database and Its Uses</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Sean Rhea</li>
+ 	<li class="nameList">Eric Wang</li>
+ 	<li class="nameList">Edmund Wong</li>
+ 	<li class="nameList">Ethan Atkins</li>
+ 	<li class="nameList Last">Nat Storer</li>
+</ul>
+<h2>SESSION: SIGMOD Session 4. Versions and Incremental Maintenance</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37619">Incremental View Maintenance over Array Data</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Weijie Zhao</li>
+ 	<li class="nameList">Florin Rusu</li>
+ 	<li class="nameList">Bin Dong</li>
+ 	<li class="nameList">Kesheng Wu</li>
+ 	<li class="nameList Last">Peter Nugent</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37610">Incremental Graph Computations: Doable and Undoable</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Wenfei Fan</li>
+ 	<li class="nameList">Chunming Hu</li>
+ 	<li class="nameList Last">Chao Tian</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37611">DEX: Query Execution in a Delta-based Storage System</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Amit Chavan</li>
+ 	<li class="nameList Last">Amol Deshpande</li>
+</ul>
+<h2>SESSION: SIGMOD Session 5. Parallel and Distributed Query Processing (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37612">Massively Parallel Processing of Whole Genome Sequence Data: An In-Depth Performance Study</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Abhishek Roy</li>
+ 	<li class="nameList">Yanlei Diao</li>
+ 	<li class="nameList">Uday Evani</li>
+ 	<li class="nameList">Avinash Abhyankar</li>
+ 	<li class="nameList">Clinton Howarth</li>
+ 	<li class="nameList">Rémi Le Priol</li>
+ 	<li class="nameList Last">Toby Bloom</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37613">Distributed Provenance Compression</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Chen Chen</li>
+ 	<li class="nameList">Harshal Tushar Lehri</li>
+ 	<li class="nameList">Lay Kuan Loh</li>
+ 	<li class="nameList">Anupam Alur</li>
+ 	<li class="nameList">Limin Jia</li>
+ 	<li class="nameList">Boon Thau Loo</li>
+ 	<li class="nameList Last">Wenchao Zhou</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37614">ROBUS: Fair Cache Allocation for Data-parallel Workloads</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Mayuresh Kunjir</li>
+ 	<li class="nameList">Brandon Fain</li>
+ 	<li class="nameList">Kamesh Munagala</li>
+ 	<li class="nameList Last">Shivnath Babu</li>
+</ul>
+<h2>SESSION: SIGMOD Session 6. Concurrency (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37625">Transaction Repair for Multi-Version Concurrency Control</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Mohammad Dashti</li>
+ 	<li class="nameList">Sachin Basil John</li>
+ 	<li class="nameList">Amir Shaikhha</li>
+ 	<li class="nameList Last">Christoph Koch</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37626">Concerto: A High Concurrency Key-Value Store with Integrity</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Arvind Arasu</li>
+ 	<li class="nameList">Ken Eguro</li>
+ 	<li class="nameList">Raghav Kaushik</li>
+ 	<li class="nameList">Donald Kossmann</li>
+ 	<li class="nameList">Pingfan Meng</li>
+ 	<li class="nameList">Vineet Pandey</li>
+ 	<li class="nameList Last">Ravi Ramamurthy</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37627">Fast Failure Recovery for Main-Memory DBMSs on Multicores</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yingjun Wu</li>
+ 	<li class="nameList">Wentian Guo</li>
+ 	<li class="nameList">Chee-Yong Chan</li>
+ 	<li class="nameList Last">Kian-Lee Tan</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37628">Bringing Modular Concurrency Control to the Next Level</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Chunzhi Su</li>
+ 	<li class="nameList">Natacha Crooks</li>
+ 	<li class="nameList">Cong Ding</li>
+ 	<li class="nameList">Lorenzo Alvisi</li>
+ 	<li class="nameList Last">Chao Xie</li>
+</ul>
+<h2>SESSION: SIGMOD Session 7. Storage and Distribution (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37629">Wide Table Layout Optimization based on Column Ordering and Duplication</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Haoqiong Bian</li>
+ 	<li class="nameList">Ying Yan</li>
+ 	<li class="nameList">Wenbo Tao</li>
+ 	<li class="nameList">Liang Jeff Chen</li>
+ 	<li class="nameList">Yueguo Chen</li>
+ 	<li class="nameList">Xiaoyong Du</li>
+ 	<li class="nameList Last">Thomas Moscibroda</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37620">Query Centric Partitioning and Allocation for Partially Replicated Database Systems</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Tilmann Rabl</li>
+ 	<li class="nameList Last">Hans-Arno Jacobsen</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37621">Spanner: Becoming a SQL System</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">David F. Bacon</li>
+ 	<li class="nameList">Nathan Bales</li>
+ 	<li class="nameList">Nico Bruno</li>
+ 	<li class="nameList">Brian F. Cooper</li>
+ 	<li class="nameList">Adam Dickinson</li>
+ 	<li class="nameList">Andrew Fikes</li>
+ 	<li class="nameList">Campbell Fraser</li>
+ 	<li class="nameList">Andrey Gubarev</li>
+ 	<li class="nameList">Milind Joshi</li>
+ 	<li class="nameList">Eugene Kogan</li>
+ 	<li class="nameList">Alexander Lloyd</li>
+ 	<li class="nameList">Sergey Melnik</li>
+ 	<li class="nameList">Rajesh Rao</li>
+ 	<li class="nameList">David Shue</li>
+ 	<li class="nameList">Christopher Taylor</li>
+ 	<li class="nameList">Marcel van der Holst</li>
+ 	<li class="nameList Last">Dale Woodford</li>
+</ul>
+<h2>SESSION: SIGMOD Session 8. Tree &amp; Graph Processing (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37622">Landmark Indexing for Evaluation of Label-Constrained Reachability Queries</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Lucien D.J. Valstar</li>
+ 	<li class="nameList">George H.L. Fletcher</li>
+ 	<li class="nameList Last">Yuichi Yoshida</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37623">Efficient Ad-Hoc Graph Inference and Matching in Biological Databases</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Xiang Lian</li>
+ 	<li class="nameList Last">Dongchul Kim</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37624">DAG Reduction: Fast Answering Reachability Queries</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Junfeng Zhou</li>
+ 	<li class="nameList">Shijie Zhou</li>
+ 	<li class="nameList">Jeffrey Xu Yu</li>
+ 	<li class="nameList">Hao Wei</li>
+ 	<li class="nameList">Ziyang Chen</li>
+ 	<li class="nameList Last">Xian Tang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37635">Flexible and Feasible Support Measures for Mining Frequent Patterns in Large Labeled Graphs</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jinghan Meng</li>
+ 	<li class="nameList Last">Yi-cheng Tu</li>
+</ul>
+<h2>SESSION: SIGMOD Session 9. New Hardware</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37636">Accelerating Pattern Matching Queries in Hybrid CPU-FPGA Architectures</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">David Sidler</li>
+ 	<li class="nameList">Zsolt István</li>
+ 	<li class="nameList">Muhsen Owaida</li>
+ 	<li class="nameList Last">Gustavo Alonso</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37637">A Memory Bandwidth-Efficient Hybrid Radix Sort on GPUs</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Elias Stehle</li>
+ 	<li class="nameList Last">Hans-Arno Jacobsen</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37638">FPGA-based Data Partitioning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Kaan Kara</li>
+ 	<li class="nameList">Jana Giceva</li>
+ 	<li class="nameList Last">Gustavo Alonso</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37639">Template Skycube Algorithms for Heterogeneous Parallelism on Multicore and GPU Architectures</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Kenneth S. Bøgh</li>
+ 	<li class="nameList">Sean Chester</li>
+ 	<li class="nameList">Darius Šidlauskas</li>
+ 	<li class="nameList Last">Ira Assent</li>
+</ul>
+<h2>SESSION: SIGMOD Session 10. Parallel and Distributed Query Processing (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37630">Heterogeneity-aware Distributed Parameter Servers</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jiawei Jiang</li>
+ 	<li class="nameList">Bin Cui</li>
+ 	<li class="nameList">Ce Zhang</li>
+ 	<li class="nameList Last">Lele Yu</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37631">Distributed Algorithms on Exact Personalized PageRank</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Tao Guo</li>
+ 	<li class="nameList">Xin Cao</li>
+ 	<li class="nameList">Gao Cong</li>
+ 	<li class="nameList">Jiaheng Lu</li>
+ 	<li class="nameList Last">Xuemin Lin</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37632">Parallelizing Sequential Graph Computations</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Wenfei Fan</li>
+ 	<li class="nameList">Jingbo Xu</li>
+ 	<li class="nameList">Yinghui Wu</li>
+ 	<li class="nameList">Wenyuan Yu</li>
+ 	<li class="nameList">Jiaxin Jiang</li>
+ 	<li class="nameList">Zeyu Zheng</li>
+ 	<li class="nameList">Bohan Zhang</li>
+ 	<li class="nameList">Yang Cao</li>
+ 	<li class="nameList Last">Chao Tian</li>
+</ul>
+<h2>SESSION: Keynote Session - Grand Challenges in Data Management: Approximate Query Processing</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37633">Approximate Query Processing: No Silver Bullet</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Surajit Chaudhuri</li>
+ 	<li class="nameList">Bolin Ding</li>
+ 	<li class="nameList Last">Srikanth Kandula</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37634">Approximate Query Engines: Commercial Challenges and Research Opportunities</a>
+<ul class="DLauthors">
+ 	<li class="nameList Last">Barzan Mozafari</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37645">Approximate Query Processing for Interactive Data Science</a>
+<ul class="DLauthors">
+ 	<li class="nameList Last">Tim Kraska</li>
+</ul>
+<h2>SESSION: SIGMOD Session 11. Interactive Data Exploration and AQP (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37646">Controlling False Discoveries During Interactive Data Exploration</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zheguang Zhao</li>
+ 	<li class="nameList">Lorenzo De Stefani</li>
+ 	<li class="nameList">Emanuel Zgraggen</li>
+ 	<li class="nameList">Carsten Binnig</li>
+ 	<li class="nameList">Eli Upfal</li>
+ 	<li class="nameList Last">Tim Kraska</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37647">MacroBase: Prioritizing Attention in Fast Data</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Peter Bailis</li>
+ 	<li class="nameList">Edward Gan</li>
+ 	<li class="nameList">Samuel Madden</li>
+ 	<li class="nameList">Deepak Narayanan</li>
+ 	<li class="nameList">Kexin Rong</li>
+ 	<li class="nameList Last">Sahaana Suri</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37648">Data Canopy: Accelerating Exploratory Statistical Analysis</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Abdul Wasay</li>
+ 	<li class="nameList">Xinding Wei</li>
+ 	<li class="nameList">Niv Dayan</li>
+ 	<li class="nameList Last">Stratos Idreos</li>
+</ul>
+<h2>SESSION: SIGMOD Session 12. Beliefs, Conflicts, Knowledge</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37649">Beta Probabilistic Databases: A Scalable Approach to Belief Updating and Parameter Learning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Niccolo' Meneghetti</li>
+ 	<li class="nameList">Oliver Kennedy</li>
+ 	<li class="nameList Last">Wolfgang Gatterbauer</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37640">Database Learning: Toward a Database that Becomes Smarter Every Time</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yongjoo Park</li>
+ 	<li class="nameList">Ahmad Shahab Tajik</li>
+ 	<li class="nameList">Michael Cafarella</li>
+ 	<li class="nameList Last">Barzan Mozafari</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37641">Staging User Feedback toward Rapid Conflict Resolution in Data Fusion</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Romila Pradhan</li>
+ 	<li class="nameList">Siarhei Bykau</li>
+ 	<li class="nameList Last">Sunil Prabhakar</li>
+</ul>
+<h2>SESSION: SIGMOD Session 13. Influence in Social Networks</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37642">Discovering Your Selling Points: Personalized Social Influential Tags Exploration</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yuchen Li</li>
+ 	<li class="nameList">Ju Fan</li>
+ 	<li class="nameList">Dongxiang Zhang</li>
+ 	<li class="nameList Last">Kian-Lee Tan</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37643">Coarsening Massive Influence Networks for Scalable Diffusion Analysis</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Naoto Ohsaka</li>
+ 	<li class="nameList">Tomohiro Sonobe</li>
+ 	<li class="nameList">Sumio Fujita</li>
+ 	<li class="nameList Last">Ken-ichi Kawarabayashi</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37644">Debunking the Myths of Influence Maximization: An In-Depth Benchmarking Study</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Akhil Arora</li>
+ 	<li class="nameList">Sainyam Galhotra</li>
+ 	<li class="nameList Last">Sayan Ranu</li>
+</ul>
+<h2>SESSION: SIGMOD Session 14. Mappings, Transformations, Pricing</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37755">Interactive Mapping Specification with Exemplar Tuples</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Angela Bonifati</li>
+ 	<li class="nameList">Ugo Comignani</li>
+ 	<li class="nameList">Emmanuel Coquery</li>
+ 	<li class="nameList Last">Romuald Thion</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37756">Foofah: Transforming Data By Example</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zhongjun Jin</li>
+ 	<li class="nameList">Michael R. Anderson</li>
+ 	<li class="nameList">Michael Cafarella</li>
+ 	<li class="nameList Last">H. V. Jagadish</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37757">QIRANA: A Framework for Scalable Query Pricing</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Shaleen Deep</li>
+ 	<li class="nameList Last">Paraschos Koutris</li>
+</ul>
+<h2>SESSION: SIGMOD Session 15. Optimization and Performance (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37758">Access Path Selection in Main-Memory Optimized Data Systems: Should I Scan or Should I Probe?</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Michael S. Kester</li>
+ 	<li class="nameList">Manos Athanassoulis</li>
+ 	<li class="nameList Last">Stratos Idreos</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37759">Optimization of Disjunctive Predicates for Main Memory Column Stores</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Fisnik Kastrati</li>
+ 	<li class="nameList Last">Guido Moerkotte</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37750">A Top-Down Approach to Achieving Performance Predictability in Database Systems</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jiamin Huang</li>
+ 	<li class="nameList">Barzan Mozafari</li>
+ 	<li class="nameList">Grant Schoenebeck</li>
+ 	<li class="nameList Last">Thomas F. Wenisch</li>
+</ul>
+<h2>SESSION: SIGMOD Session 16. Interactive Data Exploration and AQP (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37751">Two-Level Sampling for Join Size Estimation</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yu Chen</li>
+ 	<li class="nameList Last">Ke Yi</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37752">A General-Purpose Counting Filter: Making Every Bit Count</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Prashant Pandey</li>
+ 	<li class="nameList">Michael A. Bender</li>
+ 	<li class="nameList">Rob Johnson</li>
+ 	<li class="nameList Last">Rob Patro</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37753">BePI: Fast and Memory-Efficient Method for Billion-Scale Random Walk with Restart</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jinhong Jung</li>
+ 	<li class="nameList">Namyong Park</li>
+ 	<li class="nameList">Sael Lee</li>
+ 	<li class="nameList Last">U Kang</li>
+</ul>
+<h2>SESSION: SIGMOD Session 17. User Preferences</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37754">Determining the Impact Regions of Competing Options in Preference Space</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Bo Tang</li>
+ 	<li class="nameList">Kyriakos Mouratidis</li>
+ 	<li class="nameList Last">Man Lung Yiu</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37765">Efficient Computation of Regret-ratio Minimizing Set: A Compact Maxima Representative</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Abolfazl Asudeh</li>
+ 	<li class="nameList">Azade Nazi</li>
+ 	<li class="nameList">Nan Zhang</li>
+ 	<li class="nameList Last">Gautam Das</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37766">FEXIPRO: Fast and Exact Inner Product Retrieval in Recommender Systems</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Hui Li</li>
+ 	<li class="nameList">Tsz Nam Chan</li>
+ 	<li class="nameList">Man Lung Yiu</li>
+ 	<li class="nameList Last">Nikos Mamoulis</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37767">Feedback-Aware Social Event-Participant Arrangement</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jieying She</li>
+ 	<li class="nameList">Yongxin Tong</li>
+ 	<li class="nameList">Lei Chen</li>
+ 	<li class="nameList Last">Tianshu Song</li>
+</ul>
+<h2>SESSION: SIGMOD Session 18. Tree &amp; Graph Processing (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37768">Exploiting Common Patterns for Tree-Structured Data</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zhiyi Wang</li>
+ 	<li class="nameList Last">Shimin Chen</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37769">Extracting and Analyzing Hidden Graphs from Relational Databases</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Konstantinos Xirogiannopoulos</li>
+ 	<li class="nameList Last">Amol Deshpande</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37760">TrillionG: A Trillion-scale Synthetic Graph Generator using a Recursive Vector Model</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Himchan Park</li>
+ 	<li class="nameList Last">Min-Soo Kim</li>
+</ul>
+<h2>SESSION: SIGMOD Session 19. Machine Learning</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37761">Schema Independent Relational Learning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jose Picado</li>
+ 	<li class="nameList">Arash Termehchy</li>
+ 	<li class="nameList">Alan Fern</li>
+ 	<li class="nameList Last">Parisa Ataei</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37762">Scalable Kernel Density Classification via Threshold-Based Pruning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Edward Gan</li>
+ 	<li class="nameList Last">Peter Bailis</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37763">The BUDS Language for Distributed Bayesian Machine Learning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zekai J. Gao</li>
+ 	<li class="nameList">Shangyu Luo</li>
+ 	<li class="nameList">Luis L. Perez</li>
+ 	<li class="nameList Last">Chris Jermaine</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37764">A Cost-based Optimizer for Gradient Descent Optimization</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zoi Kaoudi</li>
+ 	<li class="nameList">Jorge-Arnulfo Quiane-Ruiz</li>
+ 	<li class="nameList">Saravanan Thirumuruganathan</li>
+ 	<li class="nameList">Sanjay Chawla</li>
+ 	<li class="nameList Last">Divy Agrawal</li>
+</ul>
+<h2>SESSION: SIGMOD Session 20. Optimization and Performance (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37775">An Experimental Study of Bitmap Compression vs. Inverted List Compression</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Jianguo Wang</li>
+ 	<li class="nameList">Chunbin Lin</li>
+ 	<li class="nameList">Yannis Papakonstantinou</li>
+ 	<li class="nameList Last">Steven Swanson</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37776">Automatic Database Management System Tuning Through Large-scale Machine Learning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Dana Van Aken</li>
+ 	<li class="nameList">Andrew Pavlo</li>
+ 	<li class="nameList">Geoffrey J. Gordon</li>
+ 	<li class="nameList Last">Bohan Zhang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37777">Solving the Join Ordering Problem via Mixed Integer Linear Programming</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Immanuel Trummer</li>
+ 	<li class="nameList Last">Christoph Koch</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37778">Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Alexandre Verbitski</li>
+ 	<li class="nameList">Anurag Gupta</li>
+ 	<li class="nameList">Debanjan Saha</li>
+ 	<li class="nameList">Murali Brahmadesam</li>
+ 	<li class="nameList">Kamal Gupta</li>
+ 	<li class="nameList">Raman Mittal</li>
+ 	<li class="nameList">Sailesh Krishnamurthy</li>
+ 	<li class="nameList">Sandor Maurice</li>
+ 	<li class="nameList">Tengiz Kharatishvili</li>
+ 	<li class="nameList Last">Xiaofeng Bao</li>
+</ul>
+<h2>SESSION: SIGMOD Session 21. Encryption</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37779">Fast Searchable Encryption With Tunable Locality</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ioannis Demertzis</li>
+ 	<li class="nameList Last">Charalampos Papamanthou</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37770">Cryptanalysis of Comparable Encryption in SIGMOD'16</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Caleb Horst</li>
+ 	<li class="nameList">Ryo Kikuchi</li>
+ 	<li class="nameList Last">Keita Xagawa</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37771">BLOCKBENCH: A Framework for Analyzing Private Blockchains</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Tien Tuan Anh Dinh</li>
+ 	<li class="nameList">Ji Wang</li>
+ 	<li class="nameList">Gang Chen</li>
+ 	<li class="nameList">Rui Liu</li>
+ 	<li class="nameList">Beng Chin Ooi</li>
+ 	<li class="nameList Last">Kian-Lee Tan</li>
+</ul>
+<h2>SESSION: SIGMOD Session 22. Cleaning, Versioning, Fusion (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37772">Living in Parallel Realities: Co-Existing Schema Versions with a Bidirectional Database Evolution Language</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Kai Herrmann</li>
+ 	<li class="nameList">Hannes Voigt</li>
+ 	<li class="nameList">Andreas Behrend</li>
+ 	<li class="nameList">Jonas Rausch</li>
+ 	<li class="nameList Last">Wolfgang Lehner</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37773">Synthesizing Mapping Relationships Using Table Corpus</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yue Wang</li>
+ 	<li class="nameList Last">Yeye He</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37774">Waldo: An Adaptive Human Interface for Crowd Entity Resolution</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Vasilis Verroios</li>
+ 	<li class="nameList">Hector Garcia-Molina</li>
+ 	<li class="nameList Last">Yannis Papakonstantinou</li>
+</ul>
+<h2>SESSION: SIGMOD Session 23. Tree &amp; Graph Processing (3)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37785">ZipG: A Memory-efficient Graph Store for Interactive Queries</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Anurag Khandelwal</li>
+ 	<li class="nameList">Zongheng Yang</li>
+ 	<li class="nameList">Evan Ye</li>
+ 	<li class="nameList">Rachit Agarwal</li>
+ 	<li class="nameList Last">Ion Stoica</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37786">All-in-One: Graph Processing in RDBMSs Revisited</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Kangfei Zhao</li>
+ 	<li class="nameList Last">Jeffrey Xu Yu</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37787">Computing A Near-Maximum Independent Set in Linear Time by Reducing-Peeling</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Lijun Chang</li>
+ 	<li class="nameList">Wei Li</li>
+ 	<li class="nameList Last">Wenjie Zhang</li>
+</ul>
+<h2>SESSION: SIGMOD Session 24. Spatial and Multidimensional Data (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37788">Utility-Aware Ridesharing on Road Networks</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Peng Cheng</li>
+ 	<li class="nameList">Hao Xin</li>
+ 	<li class="nameList Last">Lei Chen</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37789">Distance Oracle on Terrain Surface</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Victor Junqiu Wei</li>
+ 	<li class="nameList">Raymond Chi-Wing Wong</li>
+ 	<li class="nameList">Cheng Long</li>
+ 	<li class="nameList Last">David M. Mount</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37780">Efficient Computation of Top-k Frequent Terms over Spatio-temporal Ranges</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Pritom Ahmed</li>
+ 	<li class="nameList">Mahbub Hasan</li>
+ 	<li class="nameList">Abhijith Kashyap</li>
+ 	<li class="nameList">Vagelis Hristidis</li>
+ 	<li class="nameList Last">Vassilis J. Tsotras</li>
+</ul>
+<h2>SESSION: SIGMOD Session 25. Optimization and Main Memory (1)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37781">Optimizing Iceberg Queries with Complex Joins</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Brett Walenz</li>
+ 	<li class="nameList">Sudeepa Roy</li>
+ 	<li class="nameList Last">Jun Yang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37782">The Dynamic Yannakakis Algorithm: Compact and Efficient Query Processing Under Updates</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Muhammad Idris</li>
+ 	<li class="nameList">Martin Ugarte</li>
+ 	<li class="nameList Last">Stijn Vansummeren</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37783">Revisiting Reuse in Main Memory Database Systems</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Kayhan Dursun</li>
+ 	<li class="nameList">Carsten Binnig</li>
+ 	<li class="nameList">Ugur Cetintemel</li>
+ 	<li class="nameList Last">TIm Kraska</li>
+</ul>
+<h2>SESSION: SIGMOD Session 26. Privacy</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37784">Pufferfish Privacy Mechanisms for Correlated Data</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Shuang Song</li>
+ 	<li class="nameList">Yizhen Wang</li>
+ 	<li class="nameList Last">Kamalika Chaudhuri</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37795">Bolt-on Differential Privacy for Scalable Stochastic Gradient Descent-based Analytics</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Xi Wu</li>
+ 	<li class="nameList">Fengan Li</li>
+ 	<li class="nameList">Arun Kumar</li>
+ 	<li class="nameList">Kamalika Chaudhuri</li>
+ 	<li class="nameList">Somesh Jha</li>
+ 	<li class="nameList Last">Jeffrey Naughton</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37796">Pythia: Data Dependent Differentially Private Algorithm Selection</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ios Kotsogiannis</li>
+ 	<li class="nameList">Ashwin Machanavajjhala</li>
+ 	<li class="nameList">Michael Hay</li>
+ 	<li class="nameList Last">Gerome Miklau</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37797">Utility Cost of Formal Privacy for Releasing National Employer-Employee Statistics</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Samuel Haney</li>
+ 	<li class="nameList">Ashwin Machanavajjhala</li>
+ 	<li class="nameList">John M. Abowd</li>
+ 	<li class="nameList">Matthew Graham</li>
+ 	<li class="nameList">Mark Kutzbach</li>
+ 	<li class="nameList Last">Lars Vilhuber</li>
+</ul>
+<h2>SESSION: SIGMOD Session 27. Cleaning, Versioning, Fusion (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37798">Online Deduplication for Databases</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Lianghong Xu</li>
+ 	<li class="nameList">Andrew Pavlo</li>
+ 	<li class="nameList">Sudipta Sengupta</li>
+ 	<li class="nameList Last">Gregory R. Ganger</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37799">QFix: Diagnosing Errors through Query Histories</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Xiaolan Wang</li>
+ 	<li class="nameList">Alexandra Meliou</li>
+ 	<li class="nameList Last">Eugene Wu</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37790">UGuide: User-Guided Discovery of FD-Detectable Errors</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Saravanan Thirumuruganathan</li>
+ 	<li class="nameList">Laure Berti-Equille</li>
+ 	<li class="nameList">Mourad Ouzzani</li>
+ 	<li class="nameList">Jorge-Arnulfo Quiane-Ruiz</li>
+ 	<li class="nameList Last">Nan Tang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37791">SLiMFast: Guaranteed Results for Data Fusion and Source Reliability</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Theodoros Rekatsinas</li>
+ 	<li class="nameList">Manas Joglekar</li>
+ 	<li class="nameList">Hector Garcia-Molina</li>
+ 	<li class="nameList">Aditya Parameswaran</li>
+ 	<li class="nameList Last">Christopher Ré</li>
+</ul>
+<h2>SESSION: SIGMOD Session 28. Crowdsourcing</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37792">Crowdsourced Top-k Queries by Confidence-Aware Pairwise Judgments</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ngai Meng Kou</li>
+ 	<li class="nameList">Yan Li</li>
+ 	<li class="nameList">Hao Wang</li>
+ 	<li class="nameList">Leong Hou U.</li>
+ 	<li class="nameList Last">Zhiguo Gong</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37793">Falcon: Scaling Up Hands-Off Crowdsourced Entity Matching to Build Cloud Services</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Sanjib Das</li>
+ 	<li class="nameList">Paul Suganthan G.C.</li>
+ 	<li class="nameList">AnHai Doan</li>
+ 	<li class="nameList">Jeffrey F. Naughton</li>
+ 	<li class="nameList">Ganesh Krishnan</li>
+ 	<li class="nameList">Rohit Deep</li>
+ 	<li class="nameList">Esteban Arcaute</li>
+ 	<li class="nameList">Vijay Raghavendra</li>
+ 	<li class="nameList Last">Youngchoon Park</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37794">CrowdDQS: Dynamic Question Selection in Crowdsourcing Systems</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Asif R. Khan</li>
+ 	<li class="nameList Last">Hector Garcia-Molina</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37705">CDB: Optimizing Queries with Crowd-Based Selections and Joins</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Guoliang Li</li>
+ 	<li class="nameList">Chengliang Chai</li>
+ 	<li class="nameList">Ju Fan</li>
+ 	<li class="nameList">Xueping Weng</li>
+ 	<li class="nameList">Jian Li</li>
+ 	<li class="nameList">Yudian Zheng</li>
+ 	<li class="nameList">Yuanbing Li</li>
+ 	<li class="nameList">Xiang Yu</li>
+ 	<li class="nameList">Xiaohang Zhang</li>
+ 	<li class="nameList Last">Haitao Yuan</li>
+</ul>
+<h2>SESSION: SIGMOD Session 29. Spatial and Multidimensional Data (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37706">Scaling Locally Linear Embedding</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yasuhiro Fujiwara</li>
+ 	<li class="nameList">Naoki Marumo</li>
+ 	<li class="nameList">Mathieu Blondel</li>
+ 	<li class="nameList">Koh Takeuchi</li>
+ 	<li class="nameList">Hideaki Kim</li>
+ 	<li class="nameList">Tomoharu Iwata</li>
+ 	<li class="nameList Last">Naonori Ueda</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37707">Dynamic Density Based Clustering</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Junhao Gan</li>
+ 	<li class="nameList Last">Yufei Tao</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37708">Extracting Top-K Insights from Multi-dimensional Data</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Bo Tang</li>
+ 	<li class="nameList">Shi Han</li>
+ 	<li class="nameList">Man Lung Yiu</li>
+ 	<li class="nameList">Rui Ding</li>
+ 	<li class="nameList Last">Dongmei Zhang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37709">QUILTS: Multidimensional Data Partitioning Framework Based on Query-Aware and Skew-Tolerant Space-Filling Curves</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Shoji Nishimura</li>
+ 	<li class="nameList Last">Haruo Yokota</li>
+</ul>
+<h2>SESSION: SIGMOD Session 30. Optimization and Main Memory (2)</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37700">Leveraging Re-costing for Online Optimization of Parameterized Queries with Guarantees</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Anshuman Dutt</li>
+ 	<li class="nameList">Vivek Narasayya</li>
+ 	<li class="nameList Last">Surajit Chaudhuri</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37701">Handling Environments in a Nested Relational Algebra with Combinators and an Implementation in a Verified Query Compiler</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Joshua S. Auerbach</li>
+ 	<li class="nameList">Martin Hirzel</li>
+ 	<li class="nameList">Louis Mandel</li>
+ 	<li class="nameList">Avraham Shinnar</li>
+ 	<li class="nameList Last">Jérôme Siméon</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37702">From In-Place Updates to In-Place Appends: Revisiting Out-of-Place Updates on Flash</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Sergey Hardock</li>
+ 	<li class="nameList">Ilia Petrov</li>
+ 	<li class="nameList">Robert Gottstein</li>
+ 	<li class="nameList Last">Alejandro Buchmann</li>
+</ul>
+<h2>DEMONSTRATION SESSION: Demonstrations</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37703">Visual Graph Query Construction and Refinement</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Robert Pienta</li>
+ 	<li class="nameList">Fred Hohman</li>
+ 	<li class="nameList">Acar Tamersoy</li>
+ 	<li class="nameList">Alex Endert</li>
+ 	<li class="nameList">Shamkant Navathe</li>
+ 	<li class="nameList">Hanghang Tong</li>
+ 	<li class="nameList Last">Duen Horng Chau</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37704">Demonstration of the Cosette Automated SQL Prover</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Shumo Chu</li>
+ 	<li class="nameList">Daniel Li</li>
+ 	<li class="nameList">Chenglong Wang</li>
+ 	<li class="nameList">Alvin Cheung</li>
+ 	<li class="nameList Last">Dan Suciu</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37715">Interactive Time Series Analytics Powered by ONEX</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Rodica Neamtu</li>
+ 	<li class="nameList">Ramoza Ahsan</li>
+ 	<li class="nameList">Charles Lovering</li>
+ 	<li class="nameList">Cuong Nguyen</li>
+ 	<li class="nameList">Elke Rundensteiner</li>
+ 	<li class="nameList Last">Gabor Sarkozy</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37716">The VADA Architecture for Cost-Effective Data Wrangling</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Nikolaos Konstantinou</li>
+ 	<li class="nameList">Martin Koehler</li>
+ 	<li class="nameList">Edward Abel</li>
+ 	<li class="nameList">Cristina Civili</li>
+ 	<li class="nameList">Bernd Neumayr</li>
+ 	<li class="nameList">Emanuel Sallinger</li>
+ 	<li class="nameList">Alvaro A.A. Fernandes</li>
+ 	<li class="nameList">Georg Gottlob</li>
+ 	<li class="nameList">John A. Keane</li>
+ 	<li class="nameList">Leonid Libkin</li>
+ 	<li class="nameList Last">Norman W. Paton</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37717">A Demonstration of Lusail: Querying Linked Data at Scale</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Essam Mansour</li>
+ 	<li class="nameList">Ibrahim Abdelaziz</li>
+ 	<li class="nameList">Mourad Ouzzani</li>
+ 	<li class="nameList">Ashraf Aboulnaga</li>
+ 	<li class="nameList Last">Panos Kalnis</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37718">Foofah: A Programming-By-Example System for Synthesizing Data Transformation Programs</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zhongjun Jin</li>
+ 	<li class="nameList">Michael R. Anderson</li>
+ 	<li class="nameList">Michael Cafarella</li>
+ 	<li class="nameList Last">H. V. Jagadish</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37719">Virtualized Network Service Topology Exploration Using Nepal</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Pramod Jamkhedkar</li>
+ 	<li class="nameList">Theodore Johnson</li>
+ 	<li class="nameList">Yaron Kanza</li>
+ 	<li class="nameList">Aman Shaikh</li>
+ 	<li class="nameList">N.K. Shankarnarayanan</li>
+ 	<li class="nameList">Vladislav Shkapenyuk</li>
+ 	<li class="nameList Last">Gordon Woodhull</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37710">VisualCloud Demonstration: A DBMS for Virtual Reality</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Brandon Haynes</li>
+ 	<li class="nameList">Artem Minyaylov</li>
+ 	<li class="nameList">Magdalena Balazinska</li>
+ 	<li class="nameList">Luis Ceze</li>
+ 	<li class="nameList Last">Alvin Cheung</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37711">The Best of Both Worlds: Big Data Programming with Both Productivity and Performance</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Fan Yang</li>
+ 	<li class="nameList">Yuzhen Huang</li>
+ 	<li class="nameList">Yunjian Zhao</li>
+ 	<li class="nameList">Jinfeng Li</li>
+ 	<li class="nameList">Guanxian Jiang</li>
+ 	<li class="nameList Last">James Cheng</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37712">In-Browser Interactive SQL Analytics with Afterburner</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Kareem El Gebaly</li>
+ 	<li class="nameList Last">Jimmy Lin</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37713">Debugging Big Data Analytics in Spark with <i>BigDebug</i></a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Muhammad Ali Gulzar</li>
+ 	<li class="nameList">Matteo Interlandi</li>
+ 	<li class="nameList">Tyson Condie</li>
+ 	<li class="nameList Last">Miryung Kim</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37714">Interactive Query Synthesis from Input-Output Examples</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Chenglong Wang</li>
+ 	<li class="nameList">Alvin Cheung</li>
+ 	<li class="nameList Last">Rastislav Bodik</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37725">Generating Concise Entity Matching Rules</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Rohit Singh</li>
+ 	<li class="nameList">Vamsi Meduri</li>
+ 	<li class="nameList">Ahmed Elmagarmid</li>
+ 	<li class="nameList">Samuel Madden</li>
+ 	<li class="nameList">Paolo Papotti</li>
+ 	<li class="nameList">Jorge-Arnulfo Quiané-Ruiz</li>
+ 	<li class="nameList">Armando Solar-Lezama</li>
+ 	<li class="nameList Last">Nan Tang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37726">A Demo of the Data Civilizer System</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Raul Castro Fernandez</li>
+ 	<li class="nameList">Dong Deng</li>
+ 	<li class="nameList">Essam Mansour</li>
+ 	<li class="nameList">Abdulhakim A. Qahtan</li>
+ 	<li class="nameList">Wenbo Tao</li>
+ 	<li class="nameList">Ziawasch Abedjan</li>
+ 	<li class="nameList">Ahmed Elmagarmid</li>
+ 	<li class="nameList">Ihab F. Ilyas</li>
+ 	<li class="nameList">Samuel Madden</li>
+ 	<li class="nameList">Mourad Ouzzani</li>
+ 	<li class="nameList">Michael Stonebraker</li>
+ 	<li class="nameList Last">Nan Tang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37727">Querying and Exploring Polygamous Relationships in Urban Spatio-Temporal Data Sets</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yeuk-Yin Chan</li>
+ 	<li class="nameList">Fernando Chirigati</li>
+ 	<li class="nameList">Harish Doraiswamy</li>
+ 	<li class="nameList">Cláudio T. Silva</li>
+ 	<li class="nameList Last">Juliana Freire</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37728">Graph Data Mining with Arabesque</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Eslam Hussein</li>
+ 	<li class="nameList">Abdurrahman Ghanem</li>
+ 	<li class="nameList">Vinicius Vitor dos Santos Dias</li>
+ 	<li class="nameList">Carlos H.C. Teixeira</li>
+ 	<li class="nameList">Ghadeer AbuOda</li>
+ 	<li class="nameList">Marco Serafini</li>
+ 	<li class="nameList">Georgos Siganos</li>
+ 	<li class="nameList">Gianmarco De Francisci Morales</li>
+ 	<li class="nameList">Ashraf Aboulnaga</li>
+ 	<li class="nameList Last">Mohammed Zaki</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37729">Alpine: Efficient In-Situ Data Exploration in the Presence of Updates</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Antonios Anagnostou</li>
+ 	<li class="nameList">Matthaios Olma</li>
+ 	<li class="nameList Last">Anastasia Ailamaki</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37720">OrpheusDB: A Lightweight Approach to Relational Dataset Versioning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Liqi Xu</li>
+ 	<li class="nameList">Silu Huang</li>
+ 	<li class="nameList">Sili Hui</li>
+ 	<li class="nameList">Aaron J. Elmore</li>
+ 	<li class="nameList Last">Aditya Parameswaran</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37721">doppioDB: A Hardware Accelerated Database</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">David Sidler</li>
+ 	<li class="nameList">Zsolt Istvan</li>
+ 	<li class="nameList">Muhsen Owaida</li>
+ 	<li class="nameList">Kaan Kara</li>
+ 	<li class="nameList Last">Gustavo Alonso</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37722">DBridge: Translating Imperative Code to SQL</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">K. Venkatesh Emani</li>
+ 	<li class="nameList">Tejas Deshpande</li>
+ 	<li class="nameList">Karthik Ramachandra</li>
+ 	<li class="nameList Last">S. Sudarshan</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37723">BEAS: Bounded Evaluation of SQL Queries</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yang Cao</li>
+ 	<li class="nameList">Wenfei Fan</li>
+ 	<li class="nameList">Yanghao Wang</li>
+ 	<li class="nameList">Tengfei Yuan</li>
+ 	<li class="nameList">Yanchao Li</li>
+ 	<li class="nameList Last">Laura Yu Chen</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37724">Safe Visual Data Exploration</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Zheguang Zhao</li>
+ 	<li class="nameList">Emanuel Zgraggen</li>
+ 	<li class="nameList">Lorenzo De Stefani</li>
+ 	<li class="nameList">Carsten Binnig</li>
+ 	<li class="nameList">Eli Upfal</li>
+ 	<li class="nameList Last">Tim Kraska</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37735">Optimizing Data-Intensive Applications Automatically By Leveraging Parallel Data Processing Frameworks</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Maaz Bin Safeer Ahmad</li>
+ 	<li class="nameList Last">Alvin Cheung</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37736">DIAS: Differentially Private Interactive Algorithm Selection using Pythia</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ios Kotsogiannis</li>
+ 	<li class="nameList">Michael Hay</li>
+ 	<li class="nameList">Ashwin Machanavajjhala</li>
+ 	<li class="nameList">Gerome Miklau</li>
+ 	<li class="nameList Last">Margaret Orr</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37737">Snorkel: Fast Training Set Generation for Information Extraction</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Alexander J. Ratner</li>
+ 	<li class="nameList">Stephen H. Bach</li>
+ 	<li class="nameList">Henry R. Ehrenberg</li>
+ 	<li class="nameList Last">Chris Ré</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37738">Synthesizing Extraction Rules from User Examples with SEER</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Maeda F. Hanafi</li>
+ 	<li class="nameList">Azza Abouzied</li>
+ 	<li class="nameList">Laura Chiticariu</li>
+ 	<li class="nameList Last">Yunyao Li</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37739">Scout: A GPU-Aware System for Interactive Spatio-temporal Data Visualization</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Harshada Chavan</li>
+ 	<li class="nameList Last">Mohamed F. Mokbel</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37730">Graphflow: An Active Graph Database</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Chathura Kankanamge</li>
+ 	<li class="nameList">Siddhartha Sahu</li>
+ 	<li class="nameList">Amine Mhedbhi</li>
+ 	<li class="nameList">Jeremy Chen</li>
+ 	<li class="nameList Last">Semih Salihoglu</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37731">Demonstration: MacroBase, A Fast Data Analysis Engine</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Peter Bailis</li>
+ 	<li class="nameList">Edward Gan</li>
+ 	<li class="nameList">Kexin Rong</li>
+ 	<li class="nameList Last">Sahaana Suri</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37732">Q*cert: A Platform for Implementing and Verifying Query Compilers</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Joshua S. Auerbach</li>
+ 	<li class="nameList">Martin Hirzel</li>
+ 	<li class="nameList">Louis Mandel</li>
+ 	<li class="nameList">Avraham Shinnar</li>
+ 	<li class="nameList Last">Jérôme Siméon</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37733">A Demonstration of Interactive Analysis of Performance Measurements with Viska</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Helga Gudmundsdottir</li>
+ 	<li class="nameList">Babak Salimi</li>
+ 	<li class="nameList">Magdalena Balazinska</li>
+ 	<li class="nameList">Dan R.K. Ports</li>
+ 	<li class="nameList Last">Dan Suciu</li>
+</ul>
+<h2>TUTORIAL SESSION: Tutorials</h2>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37734">Crowdsourced Data Management: Overview and Challenges</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Guoliang Li</li>
+ 	<li class="nameList">Yudian Zheng</li>
+ 	<li class="nameList">Ju Fan</li>
+ 	<li class="nameList">Jiannan Wang</li>
+ 	<li class="nameList Last">Reynold Cheng</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37745">Data Management in Machine Learning: Challenges, Techniques, and Systems</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Arun Kumar</li>
+ 	<li class="nameList">Matthias Boehm</li>
+ 	<li class="nameList Last">Jun Yang</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37746">Data Management Challenges in Production Machine Learning</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Neoklis Polyzotis</li>
+ 	<li class="nameList">Sudip Roy</li>
+ 	<li class="nameList">Steven Euijong Whang</li>
+ 	<li class="nameList Last">Martin Zinkevich</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37747">Differential Privacy in the Wild: A Tutorial on Current Practices &amp; Open Challenges</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ashwin Machanavajjhala</li>
+ 	<li class="nameList">Xi He</li>
+ 	<li class="nameList Last">Michael Hay</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37748">Graph Querying Meets HCI: State of the Art and Future Directions</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Sourav S. Bhowmick</li>
+ 	<li class="nameList">Byron Choi</li>
+ 	<li class="nameList Last">Chengkai Li</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37749">Graph Exploration: From Users to Large Graphs</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Davide Mottin</li>
+ 	<li class="nameList Last">Emmanuel Müller</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37740">Building Structured Databases of Factual Knowledge from Massive Text Corpora</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Xiang Ren</li>
+ 	<li class="nameList">Meng Jiang</li>
+ 	<li class="nameList">Jingbo Shang</li>
+ 	<li class="nameList Last">Jiawei Han</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37741">Data Profiling: A Tutorial</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ziawasch Abedjan</li>
+ 	<li class="nameList">Lukasz Golab</li>
+ 	<li class="nameList Last">Felix Naumann</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37742">How to Build a Non-Volatile Memory Database Management System</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Joy Arulraj</li>
+ 	<li class="nameList Last">Andrew Pavlo</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37743">Data Structure Engineering For Byte-Addressable Non-Volatile Memory</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ismail Oukid</li>
+ 	<li class="nameList Last">Wolfgang Lehner</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37744">Natural Language Data Management and Interfaces: Recent Development and Open Challenges</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Yunyao Li</li>
+ 	<li class="nameList Last">Davood Rafiei</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37855">Hybrid Transactional/Analytical Processing: A Survey</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Fatma Özcan</li>
+ 	<li class="nameList">Yuanyuan Tian</li>
+ 	<li class="nameList Last">Pinar Tözün</li>
+</ul>
+<a class="DLtitleLink" title="Get the Full Text from the ACM Digital Library" href="//dl.acm.org/authorize?N37856">Query Processing Techniques for Big Spatial-Keyword Data</a>
+<ul class="DLauthors">
+ 	<li class="nameList First">Ahmed Mahmood</li>
+ 	<li class="nameList Last">Walid G. Aref</li>
+</ul>
+</div>
+</div>
+
+                
+<div id="comments" class="comments-area">
+
+
+	
+
+    <hr/>
+	
+</div><!-- #comments .comments-area -->            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <div class="row row-sm">
+                    </div>
+    </div>
+    <div class="credits">
+                <div class="footer-tyler-event pbs">
+        	Powered by <a href="http://eventmanagerblog.com/event-wordpress-theme-tyler">Powered by Tyler by Showthemes</a>
+        </div>
+    </div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72897406-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type='text/javascript' src='../wp-content/themes/Tyler/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/blueimp-gallery.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/jquery.mousewheel.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/jquery.jscrollpane.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/Tyler/js/main.js'></script>
+<script type='text/javascript' src='http://sigmod2017.org/wp-includes/js/comment-reply.min.js?ver=1c31560d246502a7fe2c533aebd31644'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js'></script>
+
+<!-- SCROLL UP BTN -->
+<a href="#" id="scroll-up">UP</a>
+
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<!-- backdrop -->
+<div id="backdrop"></div>
+
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1538927447 -->

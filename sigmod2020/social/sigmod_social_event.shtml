@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2020 ACM SIGMOD/PODS Conference: Portland, OR, USA - New Researchers Symposium</title>
+
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = '../images/oregon/oldtown-1.jpg'
+
+theImages[1] = '../images/oregon/downtown.jpg'
+
+theImages[2] = '../images/oregon/LanSuGarden.jpg'
+
+theImages[3] = '../images/oregon/JapaneseGarden.jpg'
+
+//theImages[4] = '../images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Old Town'
+
+theImageDescriptions[1] = 'Downtown, Portland'
+
+theImageDescriptions[2] = 'Lan Su Garden'
+
+theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'https://www.travelportland.com/'
+
+theImageURLs[1] = 'https://www.travelportland.com/'
+
+theImageURLs[2] = 'https://www.travelportland.com/'
+
+theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="../images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+//document.write('<img src="../images/imagefooterHouston.png" alt="June 14 - June 19, 2020, Portland, Oregon, USA" width="742" height="33" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+<div id="logoACMSIGMOD"><a href="../index.shtml">
+
+<img src="../images/sigmod18-logo.png" alt="ACM SIGMOD City, Country, Year" width="170" height="50" /></a><br>
+June 14 - June 19, 2020   Portland, OR, USA</div> 
+
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="../images/logo_sigmod_pods_top_new.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+
+<div id="wrap">
+
+<!-- the ssi code needs to stay here - do not delete or move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="../index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="../rss.xml"><img src="../images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="../news.shtml" title="News and Site Updates"> &nbsp; News</a> </li>
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="../org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="../org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="../org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="../org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="../org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="../org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="../org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+   <!--
+  <li><a href="../info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="../info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="../info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="../http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="../sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+  <li><a href="../sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</a></li>
+  <li><a href="../sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</a></li>
+  <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</a></li>
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+    <li><a href="../covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>
+    <li><a href="http://www.cvent.com/d/yhqjj1" title="Registration">Registration</a></li>
+	<li><a href="../grants.shtml" title="Students">Student Travel Award <font color="red">(canceled) </font></a></li>
+	<li><a href="../visa.shtml" title="Visa">Visa Information</a></li>
+	<li><a href="../accommodations.shtml" title="Accommodations">Accommodations</a></li>
+	<li><a href="venue.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="../info-coming-soon.shtml" title="Transportation">Airport & Transportation</a></li>
+
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+<!-- the ssi code needs to stay here - do not delete move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="../calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="../calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="../info-coming-soon.shtml" title="Program Overview" >Program Overview</a></li>
+<li><a href="../info-coming-soon.shtml" title="Detailed Program">Detailed Program</a></li>
+<li><a href="../pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="../pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="../pods_tutorials.shtml" title="Invited Tutorials">Invited Tutorials</a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <li><a href="../info-coming-soon.shtml" title="Program Overview" >Program Overview</a></li>
+  <li><a href="../info-coming-soon.shtml" title="Program">Detailed Program</a></li>
+ <li><a href="../sigmod_research_list.shtml" title="Research Papers">Research Papers</a></li>
+ <li><a href="../sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+ <li><a href="../sigmod_tutorials.shtml" title="Tutorials">Tutorials</a></li>
+ <li><a href="../sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</a></li>
+ <li><a href="../sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</a></li>
+ <li><a href="../sigmod_awards.shtml" title="Awards">Awards</a></li>
+ <li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/leaders.html" title="Programming Contest">Programming Contest</a></li>
+ <li><a href="sigmod_social_event.shtml" title="Social Events">Social Events</a></li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+
+</ul>
+
+
+<br />
+
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<a class="twitter-timeline" href="https://twitter.com/sigmod2020">Tweets by sigmod2020</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+    <div id="maincontent">
+        <h1>SIGMOD/PODS 2020 Social and Networking Events</h1>
+
+        <p>This year SIGMOD/PODS features a rich set of social events, including a retirement party and the search for the next social media chair, a "women in DB" networking event, and many "Zoomside Chats" that provide unique opportunities for junior researchers to talk with leading researchers in the field about a wide range of topics, such as life in academia, career advice, going from research to products, and more. There are also "Research Zoomtables" where experts gather to discuss recent advances on a particular topic, such as data provenance, data matching, and spatial data management. These events are open to all attendees. </p>
+
+
+<p style="color:red;"> <strong> The zoom links of social events can be found <a href="https://www.sigmod2020online.org/social/">here</a>. </strong></p>
+
+        <h3 style="color:blue;">Tuesday June 16 Events</h3>
+<p><u>2:40 - 3:00 pm PDT</u>  <strong>Research Zoomtable on Data Provenance  </strong> 
+</br>
+Session chair: Wolfgang Gatterbauer </br>
+<font color="red">Following research session 5 on Data Provenance</font>, leading researchers discuss the latest advance in this field with the audience (discussion maybe continued beyond 3:00 pm PDT in a separate Zoom space). 
+</p>
+
+
+<p><u>3:00 - 3:30 pm PDT</u>  <strong>Zoomside Chat with Jian Pei (Simon Fraser University, Canada) </strong>  
+</br>
+<strong>""As a "junior senior", the fun of not being right at the core of database research" </strong>
+</br>
+<p>Come talk with Jian if you want <font color="blue">career advice moving from junior to "junior senior" stages, or working not right at the core of database research </font>.
+</br>
+</br>
+Jian Pei has been researching the boundaries among databases, data mining, and information retrieval.  He published some papers in database venues that have been later well cited by non-database areas. After 20+ years of research in the general areas of data science and engineering, he self-proclaimed himself "senior", or "junior senior" more precisely, but still keeps wandering randomly crossing several areas, including databases. He is teaching at Simon Fraser University, Canada, most of the time, but also enjoys guest shows in industry. </p>
+
+<p><u>3:30 - 4:30 pm PDT</u>  <strong>C. Mohan Retirement Party (and the Search for the Next Social Media Chair) </strong>
+</br>
+Session chair: Fatma Ozcan (IBM Almaden)</br>
+Come celebrate Mohan's long and influential career at IBM, which is synonymous with the rise of RDBMS, and say goodbye to him. Everyone is welcome. Virtual alcohol and appetizers will be served. </p>
+
+
+<h3 style="color:blue;">Wednesday June 17 Events</h3>
+<p><u>7:00 - 8:00 am PDT</u>  <strong>Zoomside Chat with Karthik Ramachandra  (Microsoft Research India) </strong> 
+</br>
+Come talk with Karthik about <font color="blue"> database systems research opportunities in India, journey of ideas from research to products, or ask him anything  </font>. 
+</br>
+</br>
+Karthik Ramachandra currently heads the Microsoft SQL Server and Azure SQL Database R&D Organization in India. Prior to this he was a researcher at Microsoft Research India and Microsoft Gray Systems Lab, Madison WI. He holds a Ph.D from IIT Bombay, India, where his doctoral thesis won an honorable mention for the 2015 ACM SIGMOD Jim Gray Doctoral Dissertation Award and the IIT Bombay Excellence in Ph.D Research Award 2015. </p>
+
+<p><u>11:40 - 12:00 pm PDT</u>  <strong>Research Zoomtable on Data Matching </strong>
+</br>
+Session chair: Mourad Ouzzani</br>
+Leading researchers discuss the latest advance in this field with the audience (discussion may be continued beyond 12:00 pm PDT in a separate Zoom space). </p>
+
+<p><u>3:00 - 4:00 pm PDT</u>  <strong>Women in DB: Experiences and Perspectives </strong>
+</br>
+Session chairs: Alexandra Meliou (University of Massachusetts-Amherst) and Yuanyuan Tian (IBM)</br>
+Come share experience and offer advice to junior researchers and also to network and socialize! More information <a href="SIGMOD2020WomenInDB.pdf">here</a>.</p>
+
+<p style="color:red">(Note that Wednesday afternoon 1:30 pm to 3:30 pm SIGMOD research/industry/demo sessions will end by 3 pm.)</p>
+
+<p><u>3:30 - 4:30 pm PDT</u>  <strong>Zoomside Chat with Tamer &Oumlzsu (University of Waterloo, Canada) </strong> 
+</br>
+Come ask Tamer <font color="blue"> anything about life in academia </font>. 
+</br>
+</br>
+M. Tamer &Oumlzsu is a University Professor in the Cheriton School of Computer Science at the University of Waterloo where he also holds a Cheriton Faculty Fellowship. Before Waterloo, he spent 16 years at the University of Alberta. His research is on distributed data management and the management of non-conventional data. He is a Fellow of the Royal Society of Canada, American Association for the Advancement of Science, ACM and IEEE, an elected member of Academy of Science of Turkey and a member of Sigma Xi. He is the recipient of the CS-Can/Info-Can (Canadian Computer Science Society) Lifetime Achievement Award, ACM SIGMOD Test-of-Time Award, and ACM SIGMOD Contributions Award.
+</p>
+
+
+<p><u>3:30 - 4:30 pm PDT</u>  <strong>Zoomside Chat with Raymond Chi-Wing Wong (Hong Kong University of Science and Technology)</strong> 
+</br>
+<strong> "Experience Sharing: How to Conduct Research" </strong>
+</br>
+</br>
+Raymond Chi-Wing Wong is an Associate Professor in Computer Science and Engineering (CSE) of The Hong Kong University of Science and Technology (HKUST). He is currently the associate director of the Data Science & Technology (DSCT) program. He was the director of the Risk Management and Business Intelligence (RMBI) program (from 2017 to 2019), the director of the Computer Engineering (CPEG) program (from 2014 to 2016) and the associate director of the Computer Engineering (CPEG) program (from 2012 to 2014). He received 29 awards. He published 12 SIGMOD papers, 13 VLDB papers and 11 ICDE papers.
+</p>
+
+<p><u>3:00 - 4:00 pm PDT</u>  <strong>Research Zoomtable on "Transitioning Research to Practice: The NSF Convergence Accelerator and Open Knowledge Network" </strong> 
+</br>
+Session chairs: Chengkai Li (University of Texas at Arlington), Yinghui Wu (Case Western Reserve University), and Jun Yang (Duke University)
+</br>
+We will discuss NSF's Convergence Accelerator program and a few projects in its inaugural cohort on the topic of "Track A: Open Knowledge Network" and the upcoming "Track D: AI-Driven Innovation via Data and Model Sharing". Speakers of brief presentations include Chaitanya Baru (NSF), Sergio Baranzini (UCSF, "Precision Medicine"), Xinyue Ye (NJIT, "Spatial Decision Support"), and Chengkai Li (UTA, "Credible Open Knowledge Network"), followed by informal discussions.  
+</p>
+
+<h3 style="color:blue;">Thursday June 18 Events</h3>
+<p><u>10:00 - 10:30 am PDT:</u> <strong>Zoomside Chat with Carsten Binnig (TU Darmstadt, Germany) </strong>
+</br>
+<strong>"Should I stay or should I go now ... a personal view on our community" </strong></br>
+Come talk with Carsten about <font color="blue"> academia vs industry, database vs other communities, and when to stay with current research topics and when it is worth trying out something new </font>. 
+</br>
+</br>
+Carsten Binnig is a Full Professor in the Computer Science Department at at TU Darmstadt and an Adjunct Associate Professor in the Computer Science department at Brown University. Carsten received his PhD at the University of Heidelberg in 2008. Afterwards, he spent time as a postdoctoral researcher in the Systems Group at ETH Zurich and at SAP working on in-memory databases. Currently, his research focus is on the design of data management systems for modern hardware as well as modern workloads such as interactive data exploration and machine learning. He has recently been awarded a Google Faculty Award and a VLDB Best Demo Award for his research.
+</p>
+
+<p><u>10:00 - 10:30 am PDT:</u>  <strong>Zoomside Chat with Avigdor Gal (Technion University, Israel) </strong>
+</br>
+Come chat with Avi about <font color="blue"> how to avoid perishing while conducting interdisciplinary research, and ask him about anything </font>.
+</br>
+</br>
+Avigdor Gal is A Full Professor of Data Science with Technion -- Israel Institute of Technology. His research focuses on data integration, business process management, cyber-physical systems and Internet-of-Things, with applications in multiple fields including smart cities and food IoT. He published more than 170 research papers in leading journals (e.g., Journal of the ACM, ACM Transactions of Database Systems, IEEE Transactions on Knowledge and Data Engineering, Information Systems, and JAIR) and conferences (e.g., SIGMOD, VLDB, ICDE, AAAI, IJCAI, BPM, and DEBS) and served as a program and general chair of BPM and DEBS. Avigdor is the author of the "Uncertain Schema Matching" book.
+</p>
+
+
+<p><u>2:40 - 3:00 pm PDT</u> <strong> Research Zoomtable on Spatial Data Management </strong>
+</br>
+Session chairs: Da Yan and Mohamed Mokbel</br>
+Leading researchers discuss the latest advance in this field with the audience (discussion may be continued beyond 3:00 pm PDT in a separate Zoom link).</p>
+
+    </div>
+</div>
+</body>
+</html>

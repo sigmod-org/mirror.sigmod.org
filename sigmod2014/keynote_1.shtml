@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2014 ACM SIGMOD/PODS Conference: Snowbird, Utah, USA -
+SIGMOD Keynote 2</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/utah/022-3-0138_jpegs_slc.jpg'
+
+theImages[1] = 'images/utah/Snowbird_SummerTram_A.jpg'
+
+theImages[2] = 'images/utah/022-3-0254_jpegs_Zion_national_park.jpg'
+
+theImages[3] = 'images/utah/022-3-0005_jpegs_art_event.jpg'
+
+theImages[4] = 'images/utah/022-3-0126_jpegs_slcskyline.jpg'
+
+theImages[5] = 'images/utah/Snowbird_CliffLodge_Summer_E.jpg'
+
+theImages[6] = 'images/utah/022-3-0187_jpegs_interior_snowbird.jpg'
+
+theImages[7] = 'images/utah/022-3-0111_jpegs_temple_square.jpg'
+
+theImages[8] = 'images/utah/022-3-0442_jpegs_trax_light_rail.jpg'
+
+
+theImageDescriptions[0] = 'Salt Lake Valley, Buildings at Daytime with mountains in the background, Credit to Adam Barker'
+
+theImageDescriptions[1] = 'Snowbird Tram, Credit to Adam Barker'
+
+theImageDescriptions[2] = 'Zion National Park, Credit to Douglas Pulsipher'
+
+theImageDescriptions[3] = 'The Utah Arts Festival at Library Square, Credit to Dana Sohm'
+
+theImageDescriptions[4] = 'Salt Lake City Skyline, Credit to Douglas Pulsipher'
+
+theImageDescriptions[5] = 'Exterior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[6] = 'Interior of the Cliff Lodge at Snowbird'
+
+theImageDescriptions[7] = 'Temple Square at Christmas, Credit to Steve Greenwood'
+
+theImageDescriptions[8] = 'TRAX light-rail, Credit to Steve Greenwood'
+
+theImageURLs[0] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[1] = 'http://www.snowbird.com/summer/activities/tram/'
+
+theImageURLs[2] = 'http://www.nps.gov/zion/index.htm'
+
+theImageURLs[3] = 'http://uaf.org/'
+
+theImageURLs[4] = 'http://www.visitsaltlake.com/'
+
+theImageURLs[5] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[6] = 'http://www.snowbird.com/lodging/theclifflodge/'
+
+theImageURLs[7] = 'http://en.wikipedia.org/wiki/Temple_Square'
+
+theImageURLs[8] = 'http://en.wikipedia.org/wiki/TRAX_(light_rail)'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2014, Salt Lake City, Utah, USA" width="742" height="30" />');
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+<div id="logoACMSIGMOD"><a href="index.shtml">
+  <img src="images/sigmod14-logo.png" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+ <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+   <li><a href="https://www.regonline.com/acmsigmodpods2014" title="Registration" target="_blank">Registration</a></li>
+  <!-- Huiping temporarily commented out some items -->
+  <!--
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>-->
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+ <!-- Huiping temporarily commented out some items -->
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+ 
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_external_reviewer.shtml" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li> 
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml"
+  title="Workshops">Affiliated Workshops</a></li>
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li> 
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <!-- temporarily REMOVED <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li> -->
+    <li><a href="grants3.shtml" title="Students" >Student Travel Award</a></li>
+    
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodation and Transportation</a></li>
+    
+    <!-- 
+    <li><a href="explore.shtml" title="Explore Utah">Explore Utah</a></li>-->
+
+    <li><a href="http://www.visitsaltlake.com/" title="Visitor Information">Visit Salt Lake City</a></li>
+    <li><a href="http://www.snowbird.com/" title="Conference Venue">Visit Snowbird</a></li>
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Leonid Libkin">
+Keynote: Leonid Libkin (University of Edinburgh) </a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2:Peter J. Haas ">Tutorial 1: Peter J. Haas (IBM Almaden Research Center)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Benny Kimelfeld">Tutorial 2: Benny Kimelfeld (LogicBlox)</a></li>
+<!--  <li><a href="awards_pods.shtml">Awards</a></li>-->
+</ul>
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research
+  Papers</a></li>
+ <li><a href="keynote_1.shtml" title="Eric Sedlar" >Keynote 1:
+      Eric Sedlar (Oracle Labs)</a></li>
+
+  <li><a href="keynote_2.shtml" title="Maurice Herlihy" >Keynote 2:
+   Maurice Herlihy (Brown University)</a></li>
+   <!--
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations
+   </a></li> -->
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Papers</a></li>
+  <!--  <li><a href="awards_sigmod.shtml">Awards</a></li> -->
+</ul>
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+			
+			<div id="maincontent">
+				  <h1>SIGMOD Keynote Talk 1</h1>
+
+
+
+<a name="keynote"/></a>
+<h2>How I Learned to Stop Worrying and Love Compilers<h2>
+
+<h3>Eric Sedlar (Oracle Labs)</h3>
+
+<h3>Abstract</h3>
+<p>
+The modern platforms that we want to use to manage our data are far more complex to program efficiently than the machines we used in the past. Every computer we run on is a massively parallel machine with many architectural "surprises" for programmers who are unaware of the way the underlying hardware architecture works. A simple way to think about this is that optimal programs must specify how & where the data should move, not just what computations should be performed and in what order. Architecture-oblivious software that leaves the decisions about data movement to a low-level coherence protocol is becoming much less efficient, relatively speaking. 
+</p>
+<p>
+After an extended flirtation with using imperative programming frameworks such as Map-Reduce and NoSQL, many people are returning back to declarative languages like SQL, where the language compiler & runtime are free to make most of the data movement decisions for the programmer. Another way to think about a SQL compiler is that it includes an "algorithm picker" and the runtime includes libraries of useful algorithm implementations (which contain the data movement specifications). This talk will discuss the needs and opportunities for expanding the domain of algorithm-picking languages like SQL. Doing so will require integration with managed-language runtime compilers (e.g. Java or Javascript compilers) that are integrated with the SQL compiler not just to provide efficiency gains during query execution, but also to use managed language runtime profiling to help in algorithm selection as well as assembly-level compilation decisions.
+
+
+</p>
+
+			  <h3>Bio</h3>
+<p>
+ <img src="images/Ericpicture.jpeg" width="80px" hspace="6" align="left">
+<Strong>Eric Sedlar</strong> <!-- Eric Sedlar - Vice President and -->
+			  <!-- Technical Director Oracle Labs -->
+
+Eric Sedlar is Vice President and Technical Director of Oracle Labs
+(formerly Sun Labs). This position entails figuring out how to
+transfer research results from Labs research into Oracle products &
+services, as well as setting overall technical direction for new
+research projects in Oracle Labs. Eric manages over 160 fulltime
+researchers working on over a dozen separate research areas. <br/>
+
+Eric's own research interests are in domain-specific languages and acceleration of database operations both via new hardware and using JIT compilation.<br/>
+
+Previously, he led the effort for XML-native storage inside Oracle, starting with Oracle 9iR2. Eric has held various architecture and development management positions at Oracle since starting there in 1990. He holds over 68 patents, and has served on standards organizations for Oracle in the W3C and IETF. He co-authored the Best Paper at SIGMOD 2010 on architecture-sensitive search trees.
+</p>
+
+
+
+<!--endMainContent --> 
+</div>		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+	    <div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+	      <!--
+	      <a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+	      -->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="https://www.facebook.com/SIGMOD2014 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

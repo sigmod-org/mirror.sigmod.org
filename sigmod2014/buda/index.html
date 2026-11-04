@@ -1,0 +1,871 @@
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>BUDA 2014 Workshop on Big Uncertain Data</title>
+		<style type="text/css">
+body {margin: 5%;width: 90%; font-family: Cambria;}
+table.menu td {
+	padding-right: 1.8em;
+        padding-left: 0px;
+        padding-top: 3px;
+        font-family:Calibri;
+}
+table.menu td a{
+   text-decoration:none;
+   color: #191970;
+   font-weight:bold;   
+}
+
+table.menu td {
+text-align:right;
+}
+a.person, span.person {
+   text-decoration:none;
+   color: #000066 ;
+   font-size: 12.0pt;
+   font-family: Cambria;
+   //font-weight:bold;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul li li {
+   list-style: square outside;
+}
+
+li {
+   margin-top:0.1em;
+}
+
+ul {
+   padding-left:1.5em;
+   margin-left:0;
+   margin-top:0.5em;
+}
+
+ul.parul li {
+   margin-bottom:1em;
+}
+
+.parul strong {
+  color: #000066;
+}
+
+
+hr {
+    padding:0;
+    margin:0;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #111, #333, #ddd); 
+    background-image:    -moz-linear-gradient(left, #111, #333, #ddd); 
+    background-image:     -ms-linear-gradient(left, #111, #333, #ddd); 
+    background-image:      -o-linear-gradient(left, #111, #333, #ddd); 
+}
+
+h3 {
+  color: #4F81BD;
+  margin-bottom: 0em;
+  //margin-top:2em;
+  font-family: verdana;
+  font-style: italic;
+}
+
+h4 {
+  margin-bottom:0em;
+  padding-bottom:0;
+  magin-top:1em;
+  //font-weight: normal;
+  //font-family: arial;
+  //font-style: italic;
+}
+
+span.pauthors{
+color: #006;
+}
+
+span.ptitle{
+ font-style: italic;
+}
+
+p,li {
+  text-align:justify;
+}
+
+a {
+cursor:pointer;
+}
+
+a.s {
+color:blue;
+cursor:pointer;
+margin-left:0.5em;
+color: #404040 ;
+}
+
+
+p.abstract, p.talkabstract {
+margin:0.2em;
+margin-left:0em;
+//background:#FFFFCC;
+font-family:Georgia, serif;
+color: #404040 ;
+padding-top:0.5em;
+}
+
+p.abstract {
+cursor:pointer;
+}
+
+span.speaker {
+color:blue;
+font-size:110%;
+}
+
+span.talktitle {
+font-weight:bold;
+//font-style:italic;
+font-family: Cambria;
+font-size:110%;
+}
+
+p.bio {
+font-size:90%;
+font-family:arial;
+margin-top:0.5em;
+}
+
+ul.invited li {
+margin-bottom:1.5em;
+}
+
+p.abstract {
+display:none;
+border-left: solid grey 1px;
+padding:0.5em;
+}
+
+table.c15{
+margin-top:1em;
+margin-right:auto;
+border-collapse:collapse;
+margin-left:12pt;
+border-top:1pt solid;
+border-bottom:1pt solid
+}
+
+
+.countbox {
+//display:inline;
+//position:relative;
+//left:2em;
+//top:-3em;
+margin-top:1em;
+//font-family:Georgia, serif;
+//font-weight:bold;
+color:#900000 ;
+//font-size:110%;
+}
+
+.c2{border-bottom-width:0pt;border-top-style:solid;width:66.8pt;border-right-style:solid;padding:5pt
+5pt 5pt
+5pt;border-bottom-color:#000000;border-top-width:0pt;border-bottom-style:solid;vertical-align:top;border-top-color:#000000;border-left-color:#000000;border-right-color:#000000;border-left-style:solid;border-right-width:0pt;border-left-width:0pt}
+
+div.main {
+position:absolute;
+left:9em;
+top:0em;
+border-left:solid 1px #BBBBBB;
+padding-left:1em;
+//bottom:1em;
+//min-height:100%;
+}
+
+table.menu {
+position:absolute;
+top:1em;
+}
+
+
+</style>
+
+<script type="text/javascript">
+function hide(n) {
+    document.getElementById("a"+n).style.display="none";
+    document.getElementById("s"+n).style.display="inline";
+}
+function show(n) {
+    document.getElementById("a"+n).style.display="block";
+    document.getElementById("s"+n).style.display="none";
+}
+
+
+function showSection() {
+    sec = window.location.search.replace("?","");
+    if (sec=="") {
+       sec = "background";
+    }
+    //alert(sec);
+    //currentSection.style.display="none";
+    currentSection = document.getElementById(sec)
+    currentSection.style.display="block";
+}
+
+
+dateFuture1 = new Date(2014,5,22,13,30,0);
+
+function GetCount(ddate,iid){
+
+	dateNow = new Date();	//grab current date
+	amount = ddate.getTime() - dateNow.getTime();	//calc milliseconds between dates
+	delete dateNow;
+
+	// if time is already past
+	if(amount < 0){
+		document.getElementById(iid).innerHTML="Now!";
+	}
+	// else date is still good
+	else{
+		days=0;hours=0;mins=0;out="";
+
+		amount = Math.floor(amount/1000);//kill the "milliseconds" so just secs
+
+		days=Math.floor(amount/86400);//days
+		amount=amount%86400;
+
+		hours=Math.floor(amount/3600);//hours
+		amount=amount%3600;
+
+		mins=Math.floor(amount/60);//minutes
+		amount=amount%60;
+
+		if(days != 0){out += days +" "+((days==1)?"day":"days")+", ";}
+		if(hours != 0){out += hours +" "+((hours==1)?"hour":"hours")+", ";}
+		out += mins +" "+((mins==1)?"min":"mins")+", ";
+		out = out.substr(0,out.length-2);
+		document.getElementById(iid).innerHTML=out;
+
+		setTimeout(function(){GetCount(ddate,iid)}, 1000);
+	}
+}
+
+
+window.onload=function(){
+	//GetCount(dateFuture1, 'countbox1');       
+        showSection();
+        //currentSection = document.getElementById('background');
+	//you can add additional countdowns here (just make sure you create dateFuture2 and countbox2 etc for each)
+};
+
+
+
+
+</script>
+
+	</head>
+	<body>
+
+<div style="margin: 0em">
+  <img src="buda.png" alt="Big Uncertain Data (BUDA)"/>
+</div>  
+
+		<p style="margin: 0em">
+			<span style="color: rgb(128, 128, 128);font-style: italic; letter-spacing: 1px;">First
+  international workshop on Big Uncertain Data (BUDA 2014)</span></p>
+
+                <p style="margin: 0em; color: rgb(128, 128, 128)">June 22<sup>nd</sup>, 2014 &ndash;
+                Snowbird, Utah, USA <!--(<span class="countbox" id="countbox1"></span>)--></p>
+
+
+
+		<p  style="margin-top: 1em; margin-bottom:1em; letter-spacing:0.75pt;">
+			In conjunction with <a href="../">SIGMOD/PODS 2014</a></p>
+
+		<hr/>
+
+<div style="position:relative">
+  
+		<table class="menu" style="margin-bottom:4em;">
+			<tbody>				
+				<tr><td><a href="?background">Home</a></td></tr>				
+				<tr><td><a href="?program">Program</a></td></tr>
+				<tr><td><a href="?invited">Invited Talks</a></td></tr>
+				<tr><td><a href="?papers">Accepted Papers</a></td></tr>
+				<tr><td><a href="?pc">Organization</a></td></tr>
+				<tr><td><a href="?dates">Important Dates</a></td></tr>
+				<tr><td><a href="?submission">Paper Submission</a></td></tr>
+			</tbody>
+		</table>
+
+		
+		<div class="main">
+		
+		<div id="background" style="display:none">
+		<h3>BUDA 2014</h3>
+		<p>
+			Modern social and technological trends result in an enormous increase in the amount of accessible data, with a significant portion of the resources being massive and having inherent imprecision and uncertainty. Such data, often referred to as &ldquo;Big Data,&rdquo; typically features substantial social and/or business value if become amenable to computing machinery. Towards that, Computer Science has made a significant progress over the years. The Artificial Intelligence (AI) community has established principled and well-practiced methodologies to model, explore, and learn realistic knowledge within imprecise and uncertain environments. The Database (DB) community has established fundamental concepts and machinery for the management of data, with focus on scaling to high volumes and intensive access. Albeit the complementary focuses, these two communities share key features and often tackle similar challenges. But until recently, research in them has progressed independently with limited collaboration. It is then evident that time has come to integrate the efforts of the two towards unified concepts and methodologies that share the benefits of both worlds.</p>
+		
+		<p>
+			This workshop aims to bring together researchers and practitioner from the AI community and the DB community, in order to highlight relevant state of the art research, and to capture opportunities of collaboration and mutual enhancement. The organizers believe that research achievements from both communities provide a significant ground to benefit from such an assembly. Examples include AI concepts such as Markov Logic, lifted inference, and learning/mining of relational data, and DB concepts such as probabilistic databases, query optimization and descriptive complexity. With the synergy between the two communities, the hope is for this workshop to serve as a stepping stone towards the realization of the value in Big Data.</p>
+		  </div>
+
+
+
+ <div id="invited" style="display:none"> <h3><a name="invited">Invited
+		  Talks</a></h3> <ul class="invited"> <li> <span
+		  class="speaker">Dan Olteanu</span>: <span
+		  class="talktitle">Probabilistic Databases are Dead,
+		  Long Live Probabilistic Databases!</span> <p
+		   class="talkabstract">In this talk I will give a
+		  brief account to probabilistic databases with a
+		  strong bias towards the SPROUT project at Oxford.
+		  After a fruitful decade that brought a good
+		  understanding of probabilistic data models and
+		  efficient query evaluation, the attention of our
+		  community to this area is diminishing. Nevertheless,
+		  there is new excitement at the horizon! This comes
+		  in several flavors, some of which I will highlight
+		  in the talk: Cross-fertilization with PL work on
+		  probabilistic programming for expressing computation
+		  beyond queries and with AI inference engines for
+		  probabilistic data integration; also, the
+		  availability of ever-larger probabilistic Web data
+		  repositories such as Google Knowledge Vault.</p>
+
+		    <p class="bio"> Dan Olteanu is an Associate
+		  Professor in the Department of Computer Science at
+		  the University of Oxford and Fellow of St Cross
+		  College.  He is currently spending his sabbatical as
+		  Computer Scientist at LogicBlox and as Visiting
+		  Associate Professor at UC Berkeley. His research
+		  interests are in databases and he contributed to XML
+		  query processing, incomplete information and
+		  probabilistic databases, and more recently to
+		  factorized databases and an industry-strength
+		  datalog engine. He is a co-author of the book
+		  "Probabilistic Databases" (2011). Olteanu has served
+		  in over 50 programme committees of international
+		  venues, as associate editor for PVLDB'13 and since
+		  2013 for IEEE TKDE, as PC chair for BNCOD'13, and
+		  will serve as track chair for ICDE'15 and group
+		  leader for SIGMOD'15.  </p> </li>
+
+     <li> <span class="speaker">Guy van den Broeck</span>: <a href="buda14-tutorial.pdf"><span
+     class="talktitle">Lifted Inference in Statistical Relational
+     Models</span> (mini-tutorial)</a> [<a href="buda14-tutorial.pdf">pdf</a>]
+
+     <p class="talkabstract">Statistical relational models combine
+     aspects of first-order logic, databases and probabilistic
+     graphical models, enabling them to represent complex logical and
+     probabilistic relations between large numbers of objects. But
+     this level of expressivity comes at a price: inference (i.e.,
+     drawing conclusions on the probability of events) becomes highly
+     intractable. Nevertheless, relational models of real-life
+     applications often exhibit a high level of symmetry (i.e.,
+     substructures that are modeled in a similar manner). Lifted
+     inference is the art of exploiting that symmetry towards
+     efficient inference.  The first part of this tutorial describes
+     the basic ideas underlying lifted inference algorithms, why they
+     work, and how they are fundamentally different from other
+     probabilistic reasoning algorithms. The second part is a brief
+     overview of theory and applications. Lifted inference theory
+     looks at tractable classes of models, and at different notions of
+     symmetry and exchangeability. Practical applications of lifted
+     inference are in approximate reasoning and machine learning.</p>
+
+     <p class="bio">Guy Van den Broeck obtained his
+     Ph.D. in Computer Science from KU Leuven, Belgium, in 2013. He
+     was a postdoctoral researcher in the automated reasoning lab at
+     the University of California, Los Angeles in 2014. He currently
+     works as a postdoctoral researcher at KU Leuven and is supported
+     by the Research Foundation-Flanders.  His research interests are
+     in artificial intelligence, machine learning, logical and
+     probabilistic automated reasoning and statistical relational
+     learning. His work was awarded the Alcatel-Lucent Innovation
+     Award in 2009 and the ILP Turing Theory Prize (best student
+     paper) in 2011. He is co-organizing the 4th International
+     Workshop on Statistical Relational AI (StarAI) at AAAI 2014 and
+     has served on the (senior) program committee of top-level
+     conferences, including IJCAI, AAAI, ECML/PKDD, ECAI, KR, ILP, and
+     as a reviewer for AI Journal, Machine Learning Journal, and
+     Journal of Machine Learning Research.</p>
+
+     </li>
+
+     <li>
+     <span class="speaker">Lise Getoor</span>:
+     <span class="talktitle">Unifying AI & DB Perspectives on Structured Probabilistic Models</span>
+     
+     <p class="talkabstract"> Machine learning and database approaches
+     to structured probabilistic models share many commonalities, yet
+     exhibit certain important differences.  Machine learning methods
+     focus on learning probabilistic models from (certain) data and
+     efficient inference, whereas probabilistic database approaches
+     focus on storing and efficiently querying uncertain data.
+     Nonetheless, the structured probabilistic models that both use
+     are often (almost) identical.  In this talk, I'll present an
+     introduction to both perspectives, and then describe some of our
+     recent work that attempts to bridge the gap.  </p>
+
+     <p class="bio"> Lise Getoor is a professor in the Computer
+     Science Department at UC Santa Cruz.  Her primary research
+     interests are in machine learning and reasoning with uncertainty,
+     applied to graphs and structured data. She has eight best paper
+     and best student paper awards, an NSF Career Award, and is an
+     Association for the Advancement of Artificial Intelligence (AAAI)
+     Fellow.  </p>
+
+     </li>
+     
+     <ul>
+       </div>
+   
+
+       <div id="program" style="display:none">
+	<h3><a name="program">Program</a></h3>
+<h4><span>Sunday, June 22<sup>nd</sup>, 2014, 1:30 pm.</h4>
+
+<table class="c15" cellpadding="0" cellspacing="0"><tbody>
+
+  <tr
+  class="c5"><td class="c2"><p class="c11"><span class="c0">1:30 -
+  1:40</span></p></td><td class="c9"><p class="c1"><span
+  class="c0">Workshop kickoff</span></p></td></tr>
+
+  <tr class="c5"><td
+  class="c2"><p class="c11"><span class="c0">1:40 -
+  2:40</span></p></td><td class="c9"><p class="c1"><a href="?invited"><span
+  class="c0">Invited talk by <strong>Dan Olteanu</strong></span></a></p></td></tr>
+
+   <tr
+  class="c5"><td class="c2"><p class="c11"><span class="c0">2:40 -
+  3:00</span></p></td><td class="c9"><p class="c1"><a href="?papers"><span
+  class="c0">Spotlight presentations for technical and vision
+  contributions</span><a/></p></td></tr>
+
+   <tr
+  class="c5"><td class="c2"><p class="c11"><span class="c0">3:00 -
+  3:30</span></p></td><td class="c9"><p class="c1"><a href="?papers"><span
+  class="c0">Break &amp; poster session</span></a></p></td></tr>
+
+  <tr class="c5"><td class="c2">
+    <p class="c11"><span class="c0">3:30 -
+  4:20</span></p></td><td class="c9"><p class="c1"><a href="?invited"><span><a href="buda14-tutorial.pdf"> Mini-tutorial</a>
+  by </span><strong>Guy van den Broeck</strong></a> [<a href="buda14-tutorial.pdf">pdf</a>]</p></td></tr>
+
+  <tr class="c5"><td
+  class="c2"><p class="c11"><span class="c0">4:20 -
+  5:20</span></p></td><td class="c9"><p class="c1"><a href="?invited"><span
+  class="c0">Invited talk by <strong>Lise Getoor</strong></span></a></p></td></tr>
+
+</tbody></table><p
+   class="c4"><span></span></p>
+
+</div>
+
+		<!--
+		<h3>
+			<a name="format">Workshop Format</a></h3>
+		<p>
+			The workshop will be a half-day workshop centered around the following highlights:</p>
+		<ul>
+			<li>
+				Invited speakers:
+				<ul>
+					<li>
+						<a href="http://www.cs.umd.edu/~getoor" class="person">Lise Getoor</a> (<a href="http://www.ucsc.edu">University of California, Santa Cruz</a>)</li>
+					<li>
+						<a href="http://www.cs.ox.ac.uk/dan.olteanu/" class="person">Dan Olteanu</a> (<a href="http://www.ox.ac.uk">University of Oxford</a>)</li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				Invited mini-tutorial:
+				<ul>
+					<li>
+						<a href="http://www.guyvdb.eu" class="person">Guy van den Broeck</a> (<a href="http://www.ucla.edu">University of California, Los Angeles</a>) on statistical relational learning and lifted inference.</li>
+				</ul>
+			</li>
+		</ul>
+		<p>
+			The workshop will conclude with a number of poster spotlights and a poster session.</p>
+		<p>
+			 </p>
+
+		-->
+		<div id="papers"  style="display:none">
+		<h3>
+			<a name="papers">Accepted Papers</a></h3>
+
+		<ul class="parul">
+		  <li><h4>Technical Papers:</h4>
+		  <ul>
+		    
+		   <li><span class="pauthors">Silviu Maniu, Reynold
+		    Cheng and Pierre Senellart:</span> <span
+		    class="ptitle"><a href="papers/p1.pdf">ProbTree: A Query-Efficient
+		    Representation of Probabilistic Graphs</a></span>
+		    <a class="s" id="s1" onclick="show(1)">[Abstract]</a>
+		    <p  onclick="hide(1)" class="abstract" id="a1">		    
+		    Information in many applications, such as mobile wireless systems, social networks, and road networks, is captured by graphs, in many cases uncertain. We study the problem of querying a probabilistic graph; in particular, we examine “source-to-target” queries, such as computing the shortest path between two vertices. Evaluating ST-queries over probabilistic graphs is #P-hard, as it requires examining an exponential number of “possible worlds”. Existing solutions to the ST-query problem, which sample possible worlds, have two downsides: (i) many samples are needed for reasonable accuracy, and (ii) a possible world can be very large. To tackle these issues, we study the ProbTree, a data structure that stores a succinct representation of the probabilistic graph. Existing ST-query solutions are executed on top of this structure, with the number of samples and possible world sizes reduced.    </p>		   
+		    </li>
+
+
+		     <li><span class="pauthors">Sushovan De, Yuheng
+		    Hu, Yi Chen and Subbarao Kambhampati:</span> <span
+		    class="ptitle"><a href="papers/p2.pdf">BayesWipe: A Multimodal System for
+		    Data Cleaning and Consistent Query Answering on
+		    Structured Data</a> </span>
+
+		    <a class="s" id="s2" onclick="show(2)">[Abstract]</a>
+		    <p  onclick="hide(2)" class="abstract" id="a2">
+Recent efforts in data cleaning have focused exclusively on problems like data 
+deduplication, record matching, and data standardization; none of these focus 
+on fixing incorrect attribute values in tuples. Correcting values in tuples is 
+typically performed by a minimum cost repair of tuples that violate static 
+constraints like CFDs (which have to be provided by domain experts, or learned 
+from a clean sample of the database). In this paper, we provide a method for 
+correcting individual attribute values in a structured database using a 
+Bayesian generative model and a statistical error model learned from the noisy 
+database directly. We thus avoid the necessity for a domain expert or master 
+data. We also show how to efficiently perform consistent query answering using 
+this model over a dirty database, in case write permissions to the database 
+are unavailable. We evaluate our methods over both synthetic and real data.
+		    </p>
+		    </li>
+
+		     <li><span class="pauthors">Eric Gribkoff, Guy Van den Broeck and Dan Suciu:</span> <span
+		    class="ptitle"><a href="papers/p3.pdf">The Most Probable Database Problem</a></span>
+
+		    <a class="s" id="s3" onclick="show(3)">[Abstract]</a>
+		    <p  onclick="hide(3)" class="abstract" id="a3">This paper proposes a novel inference task for probabilistic databases: the most probable database (MPD) problem. The MPD is the most probable deterministic database where a given query or constraint is true. We highlight two distinctive applications, in database repair of key and dependency constraints, and in finding most probable explanations in statistical relational learning.
+The MPD problem raises new theoretical questions, such as the possibility of a dichotomy theorem for MPD, classifying queries as being either PTIME or NP-hard. We show that such a dichotomy would diverge from dichotomies for other inference tasks. We then prove a dichotomy for queries that represent unary functional dependency constraints. Finally, we discuss symmetric probabilities and the opportunities for lifted inference.</p>
+		    </li>
+
+		    
+
+		     <li><span class="pauthors">Jose Picado, Arash Termehchy and Alan Fern:</span> <span
+		    class="ptitle"><a href="papers/p4.pdf">Schema Independence of Relational Learning Algorithms</a></span>
+
+		    <a class="s" id="s4" onclick="show(4)">[Abstract]</a>
+		    <p  onclick="hide(4)" class="abstract" id="a4">Learning novel and useful relations between entities
+in structured data sets, such as relational databases, is an important problem 
+with many applications in data management and machine learning.
+It is well established that the same data set may be represented under 
+different schemas due to various reasons, such as efficiency, data quality, and usability.
+Further, the schema of a database may evolve over time. 
+In this paper, we argue that relational learning algorithms 
+should be <i>schema independent</i>, i.e.
+they should return basically the same results across various schemas
+of the same data set. Schema independent relational learning algorithms
+require less manual tuning and are easier to use over real-world data sets. 
+We formally define and explore this property for different types of relational 
+learning algorithms. Our formalization provides a method
+to measure the amount of schema independence for a relational learning
+algorithm. We analyze the schema independece of some popular
+relational learning algorihtms both theoretically and empirically.
+Our results indicate that these algorithms 
+are not generally schema independent and will deliver 
+different results and accuracies or require different amount of training data
+over different schemas for the same data set.</p>
+		    </li>
+		    
+
+
+		  </ul>
+
+		<li><h4>Position/Vision Papers:</h4>
+		  <ul>
+
+		    
+		     <li><span class="pauthors">Leopoldo Bertossi and Babak Salimi:</span> <span
+		    class="ptitle"><a href="papers/p5.pdf">Unifying Causality, Diagnosis, Repairs and View-Updates in Databases</a></span>
+
+		    <a class="s" id="s5" onclick="show(5)">[Abstract]</a>
+		    <p  onclick="hide(5)" class="abstract" id="a5">In this work we establish and point out connections between 
+the notion of query-answer causality in databases and 
+database repairs, model-based diagnosis in its consistency-based 
+and abductive versions, and database updates through 
+views. The mutual relationships among these areas of data 
+management and knowledge representation shed light on 
+each of them and help to share notions and results they have 
+in common. In one way or another, these are all approaches 
+to uncertainty management, which becomes even more relevant 
+in the context of big data that have to be made sense 
+of.</p>
+		    </li>		    
+		    
+		    
+		  </ul>
+		</li>
+
+		<li><h4>Highlights on Published Work:</h4>
+		  <ul>
+
+		    <li><span class="pauthors">Serge Abiteboul and
+		    Daniel Deutch:</span> <span
+		    class="ptitle"><a href="papers/p6.pdf">Managing Uncertainty and Conflicts
+		    in a Distributed World</a></span>
+
+		    <a class="s" id="s6" onclick="show(6)">[Abstract]</a>
+		    <p  onclick="hide(6)" class="abstract" id="a6">We consider a distributed setting where peers in a network exchange 
+information, and apply reasoning to derive further information. We 
+note that uncertainty is common in such setting. Peers may have 
+disagreements and state or infer conflicting facts. Peers can settle 
+conflicts by choosing between contradicting base or inferred facts, 
+which introduces a first cause of uncertainty. Then, there is an 
+inherent uncertainty introduced by the asynchronous environment: the 
+order in which messages are sent and received, as well as the order of 
+applying reasoning steps, are both uncertain. 
+
+In this short paper, we consider the problem of modeling the 
+dynamics of such networks, accounting for uncertainty. We briefly 
+recall a proposal for the management of uncertainty, namely datalog-fd. We consider extending it to the distributed datalog 
+dialect Webdamlog recently introduced. We 
+mention preliminary results.</p>
+		    </li>
+
+
+		    <li><span class="pauthors">Eric Gribkoff, Guy Van
+		    den Broeck and Dan Suciu:</span> <span
+		    class="ptitle"><a href="papers/p7.pdf">Understanding the Complexity of
+		    Lifted Inference and Asymmetric Weighted Model
+		    Counting</a></span>
+
+		     <a class="s" id="s7" onclick="show(7)">[Abstract]</a>
+		    <p  onclick="hide(7)" class="abstract" id="a7">We highlight our work on lifted inference for the asymmetric Weighted First-Order Model Counting problem (WFOMC), which counts the assignments that satisfy a given sentence in first-order logic. This work is at the intersection of probabilistic databases and statistical relational learning. First, we discuss how adding negation can lower the query complexity, and describe the essential element (resolution) necessary to extend a previous algorithm for positive queries to handle queries with negation. Second, we highlight the difficulties with extending the dichotomy result for positive queries to include negation. We outline how we overcame these difficulties to establish a novel dichotomy for a non-trivial fragment of first-order CNF sentences with negation. Finally, we discuss directions for future work.</p>
+
+		    </li>
+		    
+		     <li><span class="pauthors">Peter Haas and Chris Jermaine:</span> <span
+		    class="ptitle"><a href="papers/p8.pdf">MCDB and SimSQL: Scalable Stochastic Analysis within the Database</a></span>
+
+		     <a class="s" id="s8" onclick="show(8)">[Abstract]</a>
+		    <p  onclick="hide(8)" class="abstract" id="a8">This short paper highlights published work on the MCDB database system as
+well as its successor, SimSQL. These database systems are designed from the
+ground up to support stochastic analytics; that is, data analysis
+performed with the aid of stochastic simulations.</p>
+		    </li>
+
+		     <li><span class="pauthors"> Mathias Niepert and Guy Van Den Broeck:</span> <span
+		    class="ptitle"><a href="papers/p9.pdf">Tractability through Exchangeability: A New Perspective on Efficient Probabilistic Inference</a></span>
+
+		    <a class="s" id="s9" onclick="show(9)">[Abstract]</a>
+		    <p  onclick="hide(9)" class="abstract" id="a9">Exchangeability is a central notion in statistics and probability theory. The assumption that an infinite sequence of data points is exchangeable is at the core of Bayesian statistics. However, finite exchangeability as a statistical property that renders probabilistic inference tractable is less well-understood. We develop a theory of finite exchangeability and its relation to tractable probabilistic inference. The theory is complementary to that of independence and conditional independence. We show that tractable inference in probabilistic models with high treewidth and millions of variables can be explained with the notion of finite (partial) exchangeability. We also show that existing lifted inference algorithms implicitly utilize a combination of conditional independence and partial exchangeability.</p>
+		    </li>
+		   
+		     <li><span class="pauthors">Dan Olteanu and Sebastiaan van Schaik:</span> <span
+		    class="ptitle"><a href="papers/p10.pdf">ENFrame = (Programs + Queries) / Probabilistic Data</a></span>
+
+		    <a class="s" id="s10" onclick="show(10)">[Abstract]</a>
+		    <p  onclick="hide(10)" class="abstract" id="a10">This paper overviews ENFrame, a framework for processing probabilistic data. In addition to relational query processing supported by existing probabilistic database management systems, ENFrame allows programming with loops, assignments, list comprehension, and aggregates to encode complex tasks such as clustering and classification of data retrieved via queries from probabilistic databases.
+We explain the design choices behind ENFrame, some distilled from the wealth of work on probabilistic databases and some new. We also highlight a few challenges lying ahead.</p>
+		    </li>
+
+
+		  </ul>
+		</li>
+		<li><h4>Late-Breaking Papers:</h4>
+		  <ul>
+		    
+		     <li><span class="pauthors">Anja Gruenheid, Besmira Nushi and Donald Kossmann:</span> <span
+		    class="ptitle"><a href="papers/p11.pdf">Cost-Efficient Querying Strategies for the Crowd</a></span>
+
+		    <a class="s" id="s11" onclick="show(11)">[Abstract]</a>
+		    <p  onclick="hide(11)" class="abstract" id="a11">To enhance data processing, crowdsourcing is a mechanism that has evolved recently and has been picked up by companies that refine large amounts of data through so-called crowd workers. Generally, there are two challenges to crowdsourcing: First, the crowd is an uncertain input source because a worker not necessarily knows the right answer or simply answers wrongly. Second, crowdsourcing comes at a monetary cost. As a result, finding ways to minimize the number of times the crowd is accessed is an essential line of work to make crowdsourcing a realistic option in the context of big data. To address these problems, crowd querying strategies have been devised which determine the task order and budget spent per worker task. Existing querying strategies focus on either improving certainty in the current result or optimizing the information gain by resolving the most uncertain parts of the dataset first. In this work, we first compare and evaluate both strategies after which we combine their core ideas into a hybrid querying strategy. We then show experimentally that it is a robust and cost-efficient alternative for querying the crowd.</p>
+		    </li>
+
+		    
+		  </ul>
+		</li>
+	
+
+		
+		
+	      </ul>
+
+		</div>
+		
+		
+
+		<div id="pc"  style="display:none">
+		<h3>
+			<a name="pc"/>Organizing Committee</h3>
+		<h4>
+			Program Co-Chairs:</h4>
+		<ul>
+			<li><span class="person">Kristian Kersting</span> (Technical University of Dortmund, Fraunhofer IAIS)</li>
+			<li><span class="person">Benny Kimelfeld</span> (LogicBlox)</li>
+		</ul>
+
+		<h4>Publicity and General Arrangements:</h4>
+		<ul>
+		  <li><span class="person">André Hernich</span> (University of Liverpool, UK)</li>
+		</ul>
+		
+		<h4>
+			Program Committee:</h4>
+		<ul>
+			<li><span class="person">
+				Serge Abiteboul</span> (INRIA-Saclay)</li>
+			<li><span class="person">
+				Foto Afrati</span> (National Technical University of Athens)</li>
+			<li><span class="person">
+				Bogdan Cautis</span> (University of Paris-Sud)</li>
+			<li><span class="person">
+				Sara Cohen</span> (The Hebrew University)</li>
+			<li><span class="person">
+				James Cussens</span> (University of York)</li>
+			<li><span class="person">
+				Jesse Davis</span> (KU Leuven)</li>
+			<li><span class="person">
+				Luc De Raedt</span> (Katholieke Universiteit Leuven)</li>
+			<li><span class="person">
+				Amol Deshpande</span> (University of Maryland at College Park)</li>
+			<li><span class="person">
+				Daniel Deutch</span> (Tel Aviv University)</li>
+			<li><span class="person">
+				Wenfei Fan</span> (University of Edinburgh)</li>
+			<li><span class="person">Rainer	Gemulla</span> (MPI)</li>
+			<li><span class="person">
+				Vibhav Gogate</span> (The University of Texas at Dallas)</li>
+			<li><span class="person">
+				Fabian Hadiji</span> (Technical University of Dortmund) </li>
+			<li><span class="person">
+				Christopher Jermaine</span> (Rice University)</li>
+			<li><span class="person">
+				Kristian Kersting</span> (Technical University of Dortmund, Fraunhofer IAIS)</li>
+			<li><span class="person">
+				Roni Khardon</span> (Tufts University)</li>
+			<li><span class="person">
+				Benny Kimelfeld</span> (LogicBlox)</li>
+			<li><span class="person">
+				Daniel Lowd</span> (University of Oregon)</li>		
+			<li><span class="person">
+				Martin Mladenov</span> (Technical University of Dortmund, Fraunhofer IAIS)</li>
+			<li><span class="person">
+				Sriraam	Natarajan</span> (Indiana University)</li>
+			<li><span class="person">
+				Mathias Niepert</span> (University of Washington)</li>				
+			<li><span class="person">
+				Dan Olteanu</span> (Oxford University)</li>
+			<li><span class="person">
+				Hoifung Poon</span> (Microsoft Research)</li>
+			<li><span class="person">
+				Christopher R&eacute;</span> (Stanford University)</li>
+			<li><span class="person">
+				Oliver Schulte</span> (Simon Fraser University)</li>
+			<li><span class="person">
+				Pierre Senellart</span> (Institut Mines&ndash;T&eacute;l&eacute;com; T&eacute;l&eacute;com ParisTech; CNRS LTCI)</li>
+			<li><span class="person">
+				Dan Suciu</span> (University of Washington)</li>
+			<li><span class="person">
+				Guy Van Den Broeck</span> (UCLA)</li>
+			<li><span class="person">
+				Maurice Van Keulen</span> (University of Twente)</li>
+		</ul>
+		
+		</div>
+
+		<div id="dates"  style="display:none">
+		
+		<h3>
+		<a name="dates"/>Important Dates</h3>
+		<ul>
+		  
+		  <li>Submission: March 28<sup>th</sup>, 2014.</li>
+		  
+		  <li>Notification: April 30<sup>th</sup>, 2014.</li>
+		  
+		  <li>Submission of late-breaking papers: April
+		  23<sup>rd</sup>, 2014.</li>
+
+		  <li>Notification for late-breaking papers: May 4<sup>th</sup>, 2014.</li>
+
+		  <li>Camera-ready submission: May 14<sup>th</sup>,
+		2014.</li>
+		
+		  <li>Workshop: June 22<sup>nd</sup>, 2014.</li>
+		</ul>
+		<p>
+		</p>
+		</div>
+
+		<div id="submission"  style="display:none">
+		<h3>
+			<a name="submission"/>Paper Submission</h3>
+		<p>
+			Those interested in attending the workshop can
+			submit papers of the following kinds, relating
+			to the topic of the workshop as described
+			above.</p>
+
+		<ul class="parul">
+		  
+			<li><strong>A technical paper</strong> (<a
+			 href="http://www.acm.org/sigs/publications/proceedings-templates">ACM
+			SIG style</a>, 6 pages maximum including
+			references). A paper of this kind should
+			include novel, previously unpublished
+			technical results.  Accepted technical papers
+			will be presented in both a spotlight talk and
+			a poster during the workshop.</li>
+			
+			<li><strong>A position, outrageous-idea or
+			vision paper</strong> (<a
+			 href="http://www.acm.org/sigs/publications/proceedings-templates">ACM
+			SIG style</a>, 2 pages maximum). Accepted
+			papers of this kind will also be presented in
+			both a spotlight talk and a poster during the
+			workshop.</li>
+			
+			<li><strong>Highlights on published
+			work</strong> (<a
+			 href="http://www.acm.org/sigs/publications/proceedings-templates">ACM
+			SIG style</a>, 2 pages maximum including
+			references). Papers of this kind outline work
+			of the authors that has already been published
+			in other venues, and highlight the relevant
+			future directions. The purpose of these papers
+			is to publicise the author's work. Accepted
+			papers of this kind will also be presented
+			only in a poster during the workshop. </li>
+
+		       <li><strong>A late-breaking paper</strong> (<a
+			 href="http://www.acm.org/sigs/publications/proceedings-templates">ACM
+			SIG style</a>, 3 pages maximum including
+			references). Papers of this kind can be
+			submitted later than the other kinds of papers
+			(as specified below). The purpose of
+			late-breaking papers is to provide workshop
+			attendees with information about research that
+			was initiated, enhanced, improved, or
+			completed after the ordinary
+			submission. Accepted papers of this kind will
+			also be presented only in a poster during the
+			workshop.</li>
+		
+		</ul>
+
+		<p>Submissions should have their type mentioned within
+		(e.g., as a title footnote). Submitted papers should
+		be in PDF format, via <a
+		 href="https://www.easychair.org/conferences/?conf=buda2014">EasyChair</a>. All
+		submitted papers will be carefully peer-reviewed by
+		multiple reviewers. The organizers will publish the
+		accepted papers only in the workshop's website, and
+		these papers will not count as a formal
+		publication.</p>
+
+		</div>
+		
+		</div></div>		
+		
+
+		
+</body>
+</html>
