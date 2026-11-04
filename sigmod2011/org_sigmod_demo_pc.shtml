@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - Organization: SIGMOD Demonstration Track Program Committee</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+			  <h3>Welcome</h3>
+<ul class="navbar">
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+	<li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  </ul>
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="calls_papers_sigmod_research_repeatability.shtml#RepeatabilityPC" title="Program Committee">Repeatability PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Supporters</a></li>
+</ul>
+<h3>Links</h3>
+<ul class="navbar">
+      <li><a href="stream.shtml" title="Web Streaming and Other Media">Web Streaming and Other Media</a></li>
+      <li><a href="affiliatedconfs.shtml" title="Affliated Conferences & Workshops">Affiliated Conferences &amp; Workshops</a></li>
+      <li><a href="exhibitors.shtml" title="Exhibitor Information">Exhibitor Information</a></li>
+      <li><a href="http://www.breathtakingathens.com/" title="Visitor Information" target="_blank">Visit Athens</a></li>
+      <li><a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/index.html" title="Previous Conferences" target="_blank">Previous Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+      <li><a href="http://bit.ly/sigmod2011" title="SIGMOD 2011 Proceedings" target="_blank">SIGMOD 2011 Proceedings</a></li>
+      <li><a href="http://bit.ly/pods2011" title="PODS 2011 Proceedings" target="_blank">PODS 2011 Proceedings</a></li>
+      <li><a href="http://www.sigmod.org/2012/" title="SIGMOD/PODS 2012" target="_blank">SIGMOD/PODS 2012</a></li>
+</ul>
+
+			</div>
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+			<div id="sidebarRight">
+
+			
+<!-- yannis: substituted by following sections =====================
+<h3>Conference Program</h3>
+<ul class="navbar">
+  <li><a href="program_full.shtml">Full Program</a></li>
+  <li><a href="program_sigmod.shtml">SIGMOD Sessions</a></li>
+  <li><a href="program_pods.shtml">PODS Sessions</a></li>
+  <li><a href="program_ugrad_posters.shtml">SIGMOD Undergrad Posters</a></li> 
+</ul>
+<h3>For Attendees </h3>
+<ul class="navbar">
+	<li><a href="http://www.regmaster.com/conf/sigmod2009.html"><strong>Registration!!!</strong></a></li>
+	<li><a href="delegates_conference_venue.shtml"><strong>Venue &amp; Hotel Info</strong></a></li>
+  <li><a href="delegates_transportation.shtml">Transportation</a></li>
+	<li><a href="delegates_workshops.shtml">Workshops</a></li>
+    <li><a href="delegates_contact_us.shtml">Contact Us  </a></li>
+    <li><a href="delegates_visa.shtml">Visa Information</a></li>
+    <li><a href="delegates_travel_grants.shtml">Student Travel Grants</a></li>
+    <li><a href="delegates_banquet.shtml">Banquet Details</a></li>
+</ul>
+========================================== -->
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_sigmod.shtml" title="SIGMOD Program">SIGMOD Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="keynote_1.shtml" title="Keynote 1: Hamilton">Keynote 1: J. Hamilton</a><li>
+	<li><a href="keynote_2.shtml" title="Keynote 2: Ailamaki">Keynote 2: A. Ailamaki</a><li>
+	<li><a href="keynotes_indust.shtml" title="Industry Keynotes">Industry Keynotes</a></li>
+	<li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+	<li><a href="ind_list.shtml" title="Industry Papers">Industry Papers</a></li>
+	<li><a href="demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+	<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+	<li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+    <li><a href="awards_sigmod.shtml" title="Awards">Awards</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_pods.shtml" title="PODS Program">PODS Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="pods_invited.shtml#keynote" title="Keynote: T. Milo">Keynote: T. Milo</a></li>
+	<li><a href="pods_invited.shtml#tutorial1" title="Tutorial 1: S. Muthukrishnan">Tutorial 1: S. Muthukrishnan</a></li>
+	<li><a href="pods_invited.shtml#tutorial2" title="Tutorial 2: M. Arenas and J. Perez">Tutorial 2: M. Arenas and J. Perez</a></li>
+	<li><a href="pods_list.shtml" title="PODS Research Papers">Research Papers</a></li>
+	<li><a href="pods_invited.shtml" title="PODS Invited Talks">Invited Talks</a></li>
+    <li><a href="awards_sigmod.shtml#pods" title="Awards">Awards</a></li>
+	<li><a href="pods_anniversary.shtml" title="PODS 30th Anniversary">30th Anniversary</a></li>
+</ul>
+
+
+<h3 class="navheading">For Attendees</h3>
+<ul class="navbar">
+	<li><a href="https://regmaster3.com/2011conf/SIGMOD11/register.php" title="Registration">Registration</a></li>
+	<li><a href="banquet.shtml" title="Conference Banquet">Conference Banquet</a></li>
+	<li><a href="conferencehotel.shtml" title="Conference Hotel">Conference Hotel</a></li>
+	<li><a href="conferencehotel.shtml#additional" title="Accommodation">Accommodation</a></li>
+	<li><a href="travelinfo.shtml" title="Travel Instructions">Travel Info</a></li>	
+	<li><a href="visitorinformation.shtml" title="Visitor Information">Visitor Information</a></li>
+	<li><a href="delegates_visa.shtml">Visa Information</a></li>
+	<li><a href="studenttravelgrants.shtml">Student Travel Grants</a></li>
+	<li><a href="studentgrants.shtml">East Europe Grants</a></li>
+</ul>
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+    <ul class="navbar">
+      <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates and Submission</a></li>
+	  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+	  
+<!-- yannis: the rest have been moved to calls.shtml for aesthetics -->
+
+    </ul>
+
+			</div>
+
+
+			
+			<div id="maincontent">
+				  
+				  <h1> Organization: SIGMOD Demo Program Committee</h1>
+
+<p> 
+<strong>Chair</strong><br /> 
+Chris Jermaine (Rice University)
+</p> 
+
+<p><strong>Committee Members </strong><br/> 
+Mike Carafella (University of Michigan)<br/>
+Bill Howe (University of Washington)<br/>
+Yicheng Tu (University of South Florida)<br/>
+Shuigeng Zhou (Fudan University)<br/>
+Dan Kifer (Penn State)<br/>
+Yanif Ahmad (Johns Hopkins University)<br/>
+Suman Nath (Microsoft)<br/>
+Shivnath Babu (Duke University)<br/>
+Gerome Miklau (University of Massachusetts)<br/>
+Prasenjit Mitra (Penn State)<br/>
+Xifeng Yan (University of California, Santa Barbara)<br/>
+Nikos Mamoulis (The University of Hong Kong)<br/>
+Adam Silberstein (Yahoo!)<br/>
+FeiFei Li (Florida State)<br/>
+Subi Arumugam (University of Florida)<br/>
+Vagelis Hristidis (Florida International University)<br/>
+Dong Xin (Microsoft)<br/>
+Chris Re (University of Wisconsin)<br/>
+Hakan Ferhatosmanoglu (The Ohio State University)<br/>
+Jianliang Xu (Hong Kong Baptist University)<br/>
+Donghui Zhang (Microsoft)<br/>
+Curtis Dyreson (Utah State University)<br/>
+Vuk Ercegovac (IBM Almaden)<br/>
+Dan Olteanu (Oxford University)<br/>
+Murat Kantarcioglu (University of Texas, Dallas)<br/>
+Ken Salem (University of Waterloo)<br/>
+Mingxi Wu (Oracle)<br/>
+Fei Xu (Microsoft)<br/>
+Florin Rusu (University of California, Merced)<br/>
+Li Xiong (Emory University)<br/>
+Olga Papaemmanouil (Brandeis University)<br/>
+Mirek Riedewald (Northeastern University)<br/>
+Carlos Ordonez (University of Houston)<br/>
+Foula Vagena (Rice University)<br/>
+Dimitris Sacharidis (IMIS Institute/&quot;Athena&quot; R.C.)<br/>
+</p>
+
+  </div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

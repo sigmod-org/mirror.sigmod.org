@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA - Explore</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+			
+<div id="maincontent">
+				
+<h1>Explore Scottsdale and Arizona</h1>
+
+
+<hr>
+<p> <strong>Conference Venue:</strong>
+The 2012 ACM SIGMOD/PODS Conference will be held in the city of
+Scottsdale, Arizona, USA at the <a style="color:rgb(204,102,0);text-decoration:none" href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp" target="_blank">Hyatt
+Regency Scottsdale Resort and Spa at Gainey Ranch</a>. Among others,
+the amenities of this 27-acre hotel resort includes
+<ul>
+	<li>
+		
+			<span>a 2.5 </span><span>acre "water playground" consisting of ten swimming pools, three-</span><span>story water</span><span> slide, sand beach, whirlpool spa and two poolside bars,</span>
+
+	</li>
+	<li>
+		
+			<span>the Spa </span><span>Avania</span><span>, with outdoor </span><span>heated mineral </span><span>pool, state </span><span>of the art exercise facility, </span><span>steam </span><span>and </span><span>sauna,</span>
+
+	</li>
+	<li>
+		
+			<span>jogging </span><span>paths and bicycling trails with </span><span><span></span></span><span>onsite bicycles,</span>
+	</li>
+	<li>
+		
+
+			<span>27-holes </span><span>at the </span><span></span><span> <a style="color:rgb(204,102,0);text-decoration:none" href="http://www.clubcorp.com/Clubs/Gainey-Ranch-Golf-Club" target="_blank"> Gainey Ranch Golf Club </a> adjacent to the </span><span>resort, and</span>
+	</li>
+	<li>
+	
+			<span>four </span><span>lighted tennis courts. </span>
+
+	</li>
+</ul>
+</p>
+<hr><p> <strong>Scottsdale:</strong> In the heart of the Sonoran
+Desert,
+<a style="color:#cc6600;text-decoration:none" href="http://www.scottsdalecvb.com/" target="_blank">
+Scottsdale
+</a> welcomes you with the energy of a sophisticated
+city on the move, the charm and hospitality of days gone by, and a
+breathtaking landscape that will inspire you to vacation-induced
+bliss. Amng others, the city of Scottsdale has been declared
+<ul>
+<li>6th most popular travel spot in the US (Travel Leaders, 2010),</li>
+<li>4th best place to play golf in the world (Golf World, 2008),</li>
+<li>top-25 art destination in the US (American Style, 2010),</li>
+<li>top-100 best places to live (CNN Money, 2010) (RelocateAmerica, 2010),</li>
+<li>top-50 bike-friendly community (Bicycling Magazine, 2010),</li>
+<li>top-100 best communities for young people (America&#39;s promise, 2010),</li>
+<li>best place to raise kids (Sunset, 2011),</li>
+<li>best city for babies (Parents, 2010), and</li>
+<li>top-10 city for families (Parents, 2010).</li>
+</ul>
+
+</p>
+<hr>
+<p> <strong>Points of Interest in the Phoenix Metropolitan Area:</strong>
+<ul>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.dbg.org" target="_blank">
+Desert Botanical Garden
+</a>
+For more than 70 years, the Desert Botanical Garden has been teaching
+and inspiring visitors from the local community and around the world,
+providing research, exhibits and more designed to help us understand,
+protect and preserve the desert&#39;s natural beauty.  Today, the garden
+features 50,000+ plant displays showcased in beautiful outdoor
+exhibits.  With approximately fifty acres under cultivation, something
+is always blooming at the Desert Botanical Garden.
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.phoenixzoo.org/" target="_blank"> Phoenix Zoo
+</a>
+Voted one of the nation&#39;s top 5 zoos for kids, the Phoenix Zoo is home
+to more than 1,300 animals including 200 endangered species and
+participates in 37 Species Survival Plans (SSPs) to breed and maintain
+endangered species populations in captivity.
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://phoenixsymphony.org/" target="_blank"> Phoenix Symphony
+</a>
+Based in Phoenix Symphony Hall (opened in 1972, renovated in 2005, and
+seating 2,312), the 76-member ensemble is Arizona&#39;s only full-time,
+professional orchestra. The orchestra offers 275 concerts and
+presentations in an annual season running from September to May.
+Events in the second half of May 2012 include <a style="color:#cc6600;text-decoration:none" href="http://tickets.phoenixsymphony.org/single/eventDetail.aspx?p=5072" target="_blank">
+Concierto de Aranjuez
+</a> and <a style="color:#cc6600;text-decoration:none" href="http://tickets.phoenixsymphony.org/single/eventDetail.aspx?p=5104" target="_blank">Cirque de la Symphonie</a>.
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.azscience.org/" target="_blank"> Arizona Science Center
+</a> Arizona Science Center offers educational fun for the whole
+family, from pre-K to gray! From family-friendly presentations to
+hands-on gallery programs, get your hands on science!
+</li>
+
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://phoenix.about.com/cs/sports/a/AZDbacks01_2.htm" target="_blank"> Arizona
+Diamondbacks</a> In their first five seasons, the Diamondbacks won
+three division titles, a National League pennant, and a World Series
+championship in 2001. You can check them out at the
+<a style="color:#cc6600;text-decoration:none" href="http://azchasefield.com/" target="_blank">
+Chase
+Field<a> located in downtown Phoenix.
+</a></a></li>
+
+
+
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.heard.org/" target="_blank"> Heard Museum
+</a> The Heard Museum actively collects American Indian fine art, and
+a variety of paintings, drawings, prints, photography and sculpture
+can be found throughout the museum&#39;s galleries and grounds. Dedicated
+to the sensitive and accurate portrayal of Native arts and cultures,
+the Heard is an institution that successfully combines the stories of
+American Indian people from a personal perspective with the beauty of
+art. Partnerships with American Indian artists and tribal
+communities provide visitors with a distinctive perspective about the
+art and cultures of Native people, especially those from the
+Southwest.
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.franklloydwright.org/web/Tours.html" target="_blank">
+                Taliesin West
+</a>
+               Frank Lloyd Wright began building this desert masterpiece in 1937 as his personal winter home, studio, and architectural campus. Located on the beautiful Sonoran desert in the foothills of the McDowell Mountains in northeast Scottsdale, the site offers a broad range of guided public tours.  Visitors experience firsthand Wright&#39;s brilliant ability to integrate indoor and outdoor spaces.
+
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://azstateparks.com/Parks/LODU/index.html" target="_blank">
+                Lost Dutchman State Park
+
+</a>
+Superstition Mountain and the Dutchman&#39;s Lost Mine are synonymous with Arizona lost mine lore.
+Lost Dutchman State Park is home to the <a style="color:#cc6600;text-decoration:none" href="http://superstitionmountainmuseum.org/" target="_blank"> Lost Dutchman Museum</a> and  the <a style="color:#cc6600;text-decoration:none" href="http://www.goldfieldghosttown.com/" target="_blank"> Goldfield
+                Ghost Town</a>.</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.arcosanti.org/" target="_blank"> Arcosanti
+</a>
+An experimental town in the desert of Arizona, built to embody Paolo
+Soleri&#39;s concept of arcology - the fusion of architecture with
+ecology.  Arcosanti is an urban laboratory focused on pursuing lean
+alternatives to urban sprawl through innovative design with
+environmental accountability.
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://www.scottsdalecvb.com/scottsdale/old-town/" target="_blank"> Old Town Scottsdale
+</a> Take a walk through the historic Old Town Scottsdale and get a flavor of the old west. Wooden sidewalks and rustic traditions are preserved as you tie your horse to each shop&#39;s hitching post. Browse the many quaint stores that line the streets of Old Town and you&#39;ll find a mix of traditional Western-wear retailers, Southwestern specialty shops and tasty treats.
+</li>
+
+<li><a style="color:#cc6600;text-decoration:none" href="http://greasewoodflat.net/" target="_blank"> Greasewood Flat
+</a> The original stagecoach stop between Fort McDowell and Phoenix,
+the Greasewood Flat bar is housed in a 120+-year-old bunkhouse.
+Greasewood Flat (which serves hearty burgers and some wicked
+libations) and the nearby Reata Pass Steakhouse are located at an
+elevation 2000 feet above the valley floorm making the night air 10
+degrees cooler.
+</li>
+</ul>
+
+<p>
+In addition, many parks have been established to preserve the desert
+landscape in areas that would otherwise quickly be developed with
+commercial and residential zoning. Aside from the Desert Botanical
+Garden listed above, the most noteworthy park is
+<a style="color:#cc6600;text-decoration:none" href="http://phoenix.gov/parks/trails/locations/south/index.html" target="_blank">
+South Mountain Park</a>,
+the world&#39;s largest municipal park with 16,500 acres (67 km2); others
+include
+<a style="color:#cc6600;text-decoration:none" href="http://en.wikipedia.org/wiki/Camelback_Mountain" target="_blank">
+Camelback Mountain</a>,
+<a style="color:#cc6600;text-decoration:none" href="http://en.wikipedia.org/wiki/Sunnyslope_Mountain" target="_blank">
+Sunnyslope Mountain</a>, also known as &quot;S&quot;
+Mountain, and
+<a style="color:#cc6600;text-decoration:none" href="http://phoenix.about.com/cs/sports/a/piestewapeak01.htm" target="_blank">
+                Piestewa Peak</a>,
+                which boasts dozens of miles of trails to enjoy the
+                glory of the Sonoran Desert in relative solitude.
+<a style="color:#cc6600;text-decoration:none" href="http://phoenix.gov/parks/encanto.html" target="_blank"> Encanto Park</a>, named one of the &quot;Top 12 Best
+City Parks in America!&quot; by the Forbes Magazine, is the city&#39;s largest
+and primary urban park, and lies just northwest of downtown Phoenix.
+<a style="color:#cc6600;text-decoration:none" href="http://phoenix.gov/recreation/rec/parks/preserves/locations/papago/index.html" target="_blank">
+Papago Park</a> in east
+Phoenix is home to both the Desert Botanical Garden and the Phoenix
+Zoo, as well as a few golf courses.
+</p>
+
+<hr>
+<p> <strong>Outdoor Adventures:</strong>
+Explore Arizona in a variety of ways and locations - in the Phoenix area, the
+enchanting red rocks of Sedona, or the majestic Grand Canyon. The sky&#39;s the
+limit - literally! Adventures include hot air balloon rides, hiking, scenic
+tours, and more. You may check the
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/" target="_blank">
+360 Adventures Web site
+</a>
+ for more details on some exciting tours.<ul>
+<li>    Tours available in the Phoenix metropolitan area in the morning and afternoon for a duration of about 2 hours include
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/air-tours/" target="_blank">
+ hot air balloon rides</a>,
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/ground-tours/" target="_blank">
+horseback riding</a>,
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/arizona-mountain-biking/" target="_blank">  mountain biking</a>,
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/arizona-hiking/" target="_blank">  hiking</a>,
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/water-tours/" target="_blank">
+kayaking</a>, and
+<a style="color:#cc6600;text-decoration:none" href="http://www.360-adventures.com/ground-tours/" target="_blank">Hummer and ATV tours</a>.</li>
+<li>    <a style="color:#cc6600;text-decoration:none" href="http://www.visitsedona.com/" target="_blank">Sedona</a> tours depart in the morning for a duration of about 10 hours and include scenic, hiking and mountain biking.</li>
+<li>    <a style="color:#cc6600;text-decoration:none" href="http://www.nps.gov/grca/index.htm" target="_blank">Grand Canyon </a>tours depart in the morning for a duration of about 12 hours and include scenic and hiking tours.</li>
+<li>    Explore <a style="color:#cc6600;text-decoration:none" href="http://www.lakepowell.com/" target="_blank"> Lake Powell </a> and <a style="color:#cc6600;text-decoration:none" href="http://en.wikipedia.org/wiki/Antelope_Canyon" target="_blank">  Antelope Canyon </a> at Page if you have two or three
+days, which offer unique scenery and a most-photographed spot in the
+American Southwest.</li>
+<li>    Enjoy the  <a style="color:#cc6600;text-decoration:none" href="http://www.nps.gov/pefo/index.htm" target="_blank">  Petrified Forest National Park </a> for globally significant Late Triassic fossils and  <a style="color:#cc6600;text-decoration:none" href="http://en.wikipedia.org/wiki/Painted_Desert,_Arizona" target="_blank">  Painted Desert </a> if you have two or three days.</li>
+
+<li>    Admire the gigantic saguaros at the <a style="color:#cc6600;text-decoration:none" href="http://www.nps.gov/sagu/index.htm" target="_blank"> Saguaro National Park <a/> at Tucson for
+a day trip.</li>
+</ul>
+<p>
+360 Adventures offers some of the above tours and&nbsp; requires online scheduling of your outdoor adventures 7 days in advance for availability. Mention the ACM SIGMOD conference on your reservation under Special Requests to be grouped with conference attendees when possible and to get a potential group discount. (Some tour vendors are providing discounts for conference attendees in groups of 10 or more.) Also note on the online reservation whether you want a morning or afternoon time for the local tours. After submission of the online reservation, you must call 360 Adventures to secure the reservation with a credit card, which will be charged 72 hours before the adventure per the cancellation policy.  360 Adventures is also on site at the conference hotel - Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch.  </p>
+
+ </div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

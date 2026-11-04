@@ -1,0 +1,517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - SIGMOD Awards</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+			  <h3>Welcome</h3>
+<ul class="navbar">
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+	<li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  </ul>
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="calls_papers_sigmod_research_repeatability.shtml#RepeatabilityPC" title="Program Committee">Repeatability PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Supporters</a></li>
+</ul>
+<h3>Links</h3>
+<ul class="navbar">
+      <li><a href="stream.shtml" title="Web Streaming and Other Media">Web Streaming and Other Media</a></li>
+      <li><a href="affiliatedconfs.shtml" title="Affliated Conferences & Workshops">Affiliated Conferences &amp; Workshops</a></li>
+      <li><a href="exhibitors.shtml" title="Exhibitor Information">Exhibitor Information</a></li>
+      <li><a href="http://www.breathtakingathens.com/" title="Visitor Information" target="_blank">Visit Athens</a></li>
+      <li><a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/index.html" title="Previous Conferences" target="_blank">Previous Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+      <li><a href="http://bit.ly/sigmod2011" title="SIGMOD 2011 Proceedings" target="_blank">SIGMOD 2011 Proceedings</a></li>
+      <li><a href="http://bit.ly/pods2011" title="PODS 2011 Proceedings" target="_blank">PODS 2011 Proceedings</a></li>
+      <li><a href="http://www.sigmod.org/2012/" title="SIGMOD/PODS 2012" target="_blank">SIGMOD/PODS 2012</a></li>
+</ul>
+
+			</div>
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+			<div id="sidebarRight">
+
+			
+<!-- yannis: substituted by following sections =====================
+<h3>Conference Program</h3>
+<ul class="navbar">
+  <li><a href="program_full.shtml">Full Program</a></li>
+  <li><a href="program_sigmod.shtml">SIGMOD Sessions</a></li>
+  <li><a href="program_pods.shtml">PODS Sessions</a></li>
+  <li><a href="program_ugrad_posters.shtml">SIGMOD Undergrad Posters</a></li> 
+</ul>
+<h3>For Attendees </h3>
+<ul class="navbar">
+	<li><a href="http://www.regmaster.com/conf/sigmod2009.html"><strong>Registration!!!</strong></a></li>
+	<li><a href="delegates_conference_venue.shtml"><strong>Venue &amp; Hotel Info</strong></a></li>
+  <li><a href="delegates_transportation.shtml">Transportation</a></li>
+	<li><a href="delegates_workshops.shtml">Workshops</a></li>
+    <li><a href="delegates_contact_us.shtml">Contact Us  </a></li>
+    <li><a href="delegates_visa.shtml">Visa Information</a></li>
+    <li><a href="delegates_travel_grants.shtml">Student Travel Grants</a></li>
+    <li><a href="delegates_banquet.shtml">Banquet Details</a></li>
+</ul>
+========================================== -->
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_sigmod.shtml" title="SIGMOD Program">SIGMOD Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="keynote_1.shtml" title="Keynote 1: Hamilton">Keynote 1: J. Hamilton</a><li>
+	<li><a href="keynote_2.shtml" title="Keynote 2: Ailamaki">Keynote 2: A. Ailamaki</a><li>
+	<li><a href="keynotes_indust.shtml" title="Industry Keynotes">Industry Keynotes</a></li>
+	<li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+	<li><a href="ind_list.shtml" title="Industry Papers">Industry Papers</a></li>
+	<li><a href="demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+	<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+	<li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+    <li><a href="awards_sigmod.shtml" title="Awards">Awards</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_pods.shtml" title="PODS Program">PODS Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="pods_invited.shtml#keynote" title="Keynote: T. Milo">Keynote: T. Milo</a></li>
+	<li><a href="pods_invited.shtml#tutorial1" title="Tutorial 1: S. Muthukrishnan">Tutorial 1: S. Muthukrishnan</a></li>
+	<li><a href="pods_invited.shtml#tutorial2" title="Tutorial 2: M. Arenas and J. Perez">Tutorial 2: M. Arenas and J. Perez</a></li>
+	<li><a href="pods_list.shtml" title="PODS Research Papers">Research Papers</a></li>
+	<li><a href="pods_invited.shtml" title="PODS Invited Talks">Invited Talks</a></li>
+    <li><a href="awards_sigmod.shtml#pods" title="Awards">Awards</a></li>
+	<li><a href="pods_anniversary.shtml" title="PODS 30th Anniversary">30th Anniversary</a></li>
+</ul>
+
+
+<h3 class="navheading">For Attendees</h3>
+<ul class="navbar">
+	<li><a href="https://regmaster3.com/2011conf/SIGMOD11/register.php" title="Registration">Registration</a></li>
+	<li><a href="banquet.shtml" title="Conference Banquet">Conference Banquet</a></li>
+	<li><a href="conferencehotel.shtml" title="Conference Hotel">Conference Hotel</a></li>
+	<li><a href="conferencehotel.shtml#additional" title="Accommodation">Accommodation</a></li>
+	<li><a href="travelinfo.shtml" title="Travel Instructions">Travel Info</a></li>	
+	<li><a href="visitorinformation.shtml" title="Visitor Information">Visitor Information</a></li>
+	<li><a href="delegates_visa.shtml">Visa Information</a></li>
+	<li><a href="studenttravelgrants.shtml">Student Travel Grants</a></li>
+	<li><a href="studentgrants.shtml">East Europe Grants</a></li>
+</ul>
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+    <ul class="navbar">
+      <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates and Submission</a></li>
+	  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+	  
+<!-- yannis: the rest have been moved to calls.shtml for aesthetics -->
+
+    </ul>
+
+			</div>
+
+
+
+			
+			<div id="maincontent">
+				  <h1>SIGMOD Awards</h1>
+
+				  
+<h2>SIGMOD Contributions Award</h2>
+<p>
+For significant service to the database community, through research leadership and academic mentoring
+</p>
+<p>
+<strong>Gerhard Weikum (Max-Planck-Institut fur Informatik)</strong>
+</p>
+<p>
+<strong>Gerhard Weikum</strong> is a Scientific Director at the Max Planck Institute for Informatics in Saarbruecken, Germany, 
+where he is leading the department on databases and information systems. Earlier he held positions at Saarland 
+University in Saarbruecken, Germany, at ETH Zurich, Switzerland, at MCC in Austin, Texas, and he was a 
+visiting senior researcher at Microsoft Research in Redmond, Washington. He graduated from the University 
+of Darmstadt, Germany. Gerhard Weikum's research spans transactional and distributed systems, self-tuning 
+database systems, DB&amp;IR integration, and automatic knowledge harvesting from Web and text sources. 
+He co-authored a comprehensive textbook on transactional systems, received the VLDB 10-Year Award for his 
+work on automatic DB tuning, and is one of the creators of the Yago knowledge base. Gerhard Weikum is an 
+ACM Fellow, a Fellow of the German Computer Society,  and a member of the German Academy of Science and 
+Engineering.  He has served on various editorial boards, including Communications of the ACM, 
+and as program committee chair of conferences like ACM SIGMOD, Data Engineering, and CIDR. From 2003 
+through 2009 he was president of the VLDB Endowment.
+</p>
+
+
+<h2>SIGMOD Test-of-Time Award</h2>
+<p>
+<strong>Optimizing Queries Using Materialized Views: A Practical, Scalable Solution</strong>
+<br />
+This paper presents a new technique for rewriting queries using materialized views that has 
+influenced the design of query optimizers in at least two commercial database systems.
+</p>
+<p>
+<strong>Jonathan Goldstein (Microsoft Research) and Per-Ake Larson (Microsoft Research)</strong>
+</p>
+<p>
+<strong>Jonathan Goldstein</strong> is a Principal Developer at Microsoft. His primary research interests are streaming, 
+query processing, and optimization. During his 12 years at Microsoft, he has worked on query 
+optimization (with Paul Larson), audio fingerprinting (with John Platt and Chris Burges), and 
+cofounded (with Roger Barga) and then led the CEDR streaming research project, which became 
+Microsoft StreamInsight, which is what he currently works on. Jonathan received his Ph.D. 
+in 1999 from the University of Wisconsin.
+<br/>
+<strong>Paul Larson</strong> is a Principal Researcher at Microsoft Research. His primary research 
+interests are query optimization, query processing and design of database systems on modern hardware. 
+Prior to joining Microsoft Research, he was a Professor in the Department of Computer Science at the 
+University of Waterloo, Canada, for 15 years. Paul received his Ph.D. in 1976 from ?bo Akademi University 
+in Finland. He is a Fellow of the ACM.
+</p>
+
+
+<h2>SIGMOD Best Paper Award</h2>
+<p>
+<strong>Entangled Queries: Enabling Declarative Data-Driven Coordination</strong> 
+</p>
+<p>
+<strong>Nitin Gupta (Cornell University), Lucja Kot (Cornell University), Sudip Roy (Cornell University), Gabriel 
+Bender (Cornell University), Johannes Gehrke (Cornell University), Christoph Koch (EPFL)
+</strong>
+</p>
+
+
+<h2>Edgar F. Codd Innovations Award</h2>
+<p>
+<strong>Experiences with Problem #9</strong>
+<br />
+For seminal contributions to research that led to practical tools for automated physical database design
+</p>
+<p>
+<strong>Surajit Chaudhuri (Microsoft Research)</strong>
+</p>
+<p>
+<strong>Surajit Chaudhuri</strong> is a Principal Researcher and the Research Area Manager overseeing data 
+management research activities at Microsoft Research, Redmond. His areas of interest include self-tuning 
+technology for databases, query optimization, data cleaning, and multi-tenant database systems. Working with 
+his colleagues in Microsoft Research and the Microsoft SQL Server team, he helped incorporate the Index 
+Tuning Wizard--and subsequently Database Engine Tuning Advisor--into Microsoft SQL Server. He initiated a 
+project on data cleaning at Microsoft Research whose technology now ships in Microsoft SQL Server Integration 
+Services. He also led the development of CMT, a conference management web service hosted by Microsoft Research 
+since 1999 for the academic community. Surajit is an ACM Fellow, received the ACM SIGMOD Contributions Award in 
+2004 and received the VLDB 10-Year Best Paper Award in 2007. He is currently a member of the VLDB Endowment 
+Board and the ACM SIGMOD Advisory Board. He was the Program Committee Chair for ACM SIGMOD 2006 and a Co-Chair 
+of ACM SIGKDD 1999, and has served on the editorial boards of ACM TODS and IEEE TKDE. Surajit received his Ph.D. 
+from Stanford University and B.Tech. from the Indian Institute of Technology, Kharagpur.
+</p>
+
+
+<h2>2011 SIGMOD Jim Gray Doctoral Dissertation Award</h2>
+<p>
+<strong>Database Cracking: Towards Auto-tuning Database Kernels</strong>
+<br />
+Idreos' dissertation proposes database cracking, a new paradigm for selecting and building indexes. 
+Instead of deciding a-priori which indexes to build based on an anticipated query workload, the 
+dissertation explores the idea of deferring such index construction until it becomes relevant for 
+query processing, thus automating the difficult problem of physical database design. The dissertation 
+is remarkable for its breadth, depth, and thorough implementation of the ideas in the open-source 
+MonetDB database system.
+</p>
+<p>
+<strong>Stratos Idreos (Centrum Wiskunde &amp; Informatica)</strong>
+</p>
+<p>
+<strong>Stratos Idreos</strong> holds a tenure track senior researcher position with CWI, the 
+Dutch National Research Center for Mathematics and Computer Science. The main focus of his 
+research is on adaptive query processing and database architectures, mainly in the context of 
+column-stores. He also works on stream processing, distributed query processing and scientific databases. 
+Stratos obtained his PhD from CWI and University of Amsterdam.In the past he has also been with the 
+Technical University of Crete, Greece, and held research internship positions with Microsoft 
+Research, Redmond,  with EPFL, Switzerland and with IBM Almaden.
+</p>
+
+
+<h2>SIGMOD Jim Gray Doctoral Dissertation Honorable Mention</h2>
+<p>
+<strong>Collaborative Data Sharing with Mappings and Provenance</strong> 
+</p>
+<p>
+<strong>Todd Green (University of Pennsylvania)</strong>
+</p>
+
+
+<h2>SIGMOD Jim Gray Doctoral Dissertation Honorable Mention</h2>
+<p>
+<strong>On-line Index Selection for Physical Database Tuning</strong> 
+</p>
+<p>
+<strong>Karl Schnaitter (University of California - Santa Cruz)</strong>
+</p>
+
+
+
+		<a name="pods"></a>
+				  <h1>PODS Awards</h1>
+
+
+<h2>PODS Best Paper Award</h2>
+<p>
+<strong>Data Exchange beyond Complete Data</strong>
+</p>
+<p>
+<strong>Marcelo Arenas (PUC Chile), Jorge Perez (Universidad de Chile), Juan L. Reutter (University of Edinburgh)</strong>
+</p>
+<p>
+<strong>Marcelo Arenas</strong> is an Associate Professor at the Department of Computer Science at the Pontificia 
+Universidad Catolica de Chile. He received his PhD from the University of Toronto in 2005. His research 
+interests are in different aspects of database theory, such as expressive power of query languages, 
+database semantics, inconsistency handling, database design, XML databases, data exchange, metadata management 
+and database aspects of the Semantic Web. He has received an IBM Ph.D. Fellowship (2004), four best paper 
+awards (PODS 2003, PODS 2005, ISWC 2006 and ICDT 2010) and an ACM-SIGMOD Dissertation Award Honorable 
+Mention in 2006 for his Ph.D dissertation &quot;Design Principles for XML Data&quot;. He has served on multiple 
+program committees, and since 2009 he has been participating as an invited expert in the World Wide Web Consortium.
+<br />
+<strong>Jorge Perez</strong> received a B.Sc. degree in Computer Engineering (2003), a M.Sc. degree in Computer Science (2004), 
+and a Ph.D. degree in Computer Science (2011) from the P. Universidad Catolica de Chile. He is currently affiliated 
+with the Computer Science Department at Universidad de Chile. His research interests include data exchange and 
+integration, schema mapping management, and the application of database tools and techniques to the Semantic Web. 
+Perez has received a Microsoft Research Ph.D. Fellowship (2009-2010), and three best paper awards 
+(ISWC 2006, ESWC 2007, PODS 2011) for his work on database aspects of the Semantic Web, and on extensions of data exchange.
+<br />
+<strong>Juan Reutter</strong> received a Licenciate degree in Engineering Sciences (2007) and an M.Sc. degree in 
+Computer Science (2009) from P. Universidad Catolica de Chile. He is currently a Ph.D. student at Edinburgh University 
+under the supervision of Prof. Leonid Libkin. His research interest include data exchange and integration, schema 
+mapping management, incomplete information and graph databases.
+</p>
+
+
+<h2>Alberto O. Mendelzon Test-of-Time PODS Award</h2>
+<p>
+<strong>Optimal Aggregation Algorithms for Middleware</strong>
+<br />
+The paper investigates a very important problem that originates in multimedia databases: Given a set of 
+objects with grades (rankings) on many attributes, find the objects with the best overall combined grades under 
+some monotone combining function such as min or average. The paper presents a very simple algorithm, called 
+Threshold Algorithm, and proves that it is essentially optimal (in finding the best overall grades) for all 
+monotone functions and over every database. Furthermore, the algorithm only requires a small constant-size 
+buffer. The paper also gives adaptation of the algorithm for situations such as no random accesses. The 
+Threshold Algorithm has been used in a wide range of applications where the problem naturally occurs, from 
+databases with traditional and non-traditional types of data (music, video, text, uncertain data, etc.) to 
+social networks, sensor networks, etc. The paper is among the most highly cited papers in PODS 2001, and perhaps 
+all time. The paper has clearly had a major influence on the database and other research communities. Hence, 
+the committee found it to be entirely worthy of this award.
+</p>
+<p>
+<strong>Ronald Fagin (IBM Almaden Research Center), Amnon Lotem (University of Maryland-College Park), 
+Moni Naor (Weizmann Institute of Science)</strong>
+</p>
+<p>
+<strong>Ronald Fagin</strong> is Manager of the Foundations of Computer Science group at the IBM Almaden Research 
+Center, and is a member of the IBM Academy of Technology.  He has won an IBM Corporate Award, eight IBM Outstanding 
+Innovation Awards, an IBM Outstanding Technical Achievement Award, and two IBM key patent awards. He has published 
+well over 100 papers, and has co-authored a book on "Reasoning about Knowledge".  He has served on more than 30 
+conference program committees, including  serving as Program Committee Chair of four different conferences. He 
+received his B.A. in mathematics from Dartmouth College, and his Ph.D. in mathematics from the University of 
+California at Berkeley.  He was named a Fellow of IEEE for "contributions to finite-model theory and to relational 
+database theory".  He was named a Fellow of ACM for "creating the field of finite model theory and for fundamental 
+research in relational database theory and in reasoning about knowledge".  He was named a Fellow of AAAS 
+(American Association for the Advancement of Science), for "fundamental contributions to computational complexity 
+theory, database theory, and the theory of multi-agent systems".  He was named Docteur Honoris Causa by the University 
+of Paris, and a "Highly Cited Researcher" by ISI (the Institute for Scientific Information).  He has won Best 
+Paper awards at the 1985 International Joint Conference on Artificial Intelligence, the 2001 ACM Symposium on 
+Principles of Database Systems, and the 2010 International Conference on Database Theory.  He won a 2011 IEEE 
+Technical Achievement Award "for pioneering contributions to the theory of rank and score aggregation".  
+He was the winner of the 2004 ACM SIGMOD Edgar F. Codd Innovations Award, a lifetime achievement award in databases, 
+for "fundamental contributions to database theory". In 2011, he won the IEEE Technical Achievement 
+Award &quot;for pioneering contributions to the theory of rank and score aggregation&quot;.
+<br />
+<strong>Amnon Lotem</strong> is the CTO of Skybox Security, a network security company based in San Jose, California. 
+He has guided the company's research in cyber security solutions and is responsible for development of Skybox's 
+patents, both awarded and pending. He has also led the company's development of core algorithms for attack simulation, 
+risk analysis, and network compliance. His research interest is in AI planning, computer networks modeling, 
+and cyber attack simulation. Amnon received his M.Sc. in Computer Science from Tel-Aviv University, and his Ph.D. 
+in Computer Science from the University of Maryland, College Park. He has won Best Paper award at the 2001 ACM 
+Symposium on Principles of Database Systems.
+<br />
+<strong>Moni Naor</strong> is an Israeli computer scientist, currently a professor at the Weizmann Institute 
+of Science. Naor received his Ph.D. in 1989 at the University of California, Berkeley. His adviser was Manuel 
+Blum. He works in various fields of computer science, mainly the foundations of cryptography. He is especially 
+notable for creating non-malleable cryptography, Visual cryptography (with Adi Shamir), and suggesting various 
+methods for verifying that users of a computer system are human (leading to the notion of CAPTCHA).
+</p>
+
+
+
+
+<!--endMainContent --> 
+</div>		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

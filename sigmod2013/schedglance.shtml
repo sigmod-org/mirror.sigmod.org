@@ -1,0 +1,2766 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The 2013 ACM SIGMOD/PODS Conference: New York, New York, USA
+      - Schedule</title>
+    <style type="text/css" media="screen">
+#logoFentonMalloy {
+        text-align: right;
+        clear: both;
+        margin-top: 20px;
+
+}
+table.day{
+font-family: Sans-Serif;
+border-width: 0px;
+border-spacing: 1px;
+border-color: black;
+width: 430pt;            
+}
+table.day td {
+line-height: 110%;
+border-width: 1px 1px 1px 1px;
+padding: 2px 0px 2px 0px;
+border-style: dotted;
+border-color: gray gray gray gray;
+background-color: white;
+text-align: center;
+vertical-align: middle;
+}
+table.day td.header{
+font-size: 130%;
+font-weight: bold;
+padding: 8px;
+background-color: #383838;
+color: white;           
+}
+table.day td.keynote{
+background-color: #f4cae4;
+color: black;           
+}
+table.day td.time{
+width: 6%;          
+}
+table.day td.nosession{
+background-color:   #F0F0F0 ;
+color:  #989898; 
+width: 5%;           
+}
+table.day td.lunch{
+background-color: #C0C0C0;
+color: black;           
+}
+table.day td.pods{
+background-color: #cdebc6;
+}
+table.day td.sigmod{
+background-color: #c6d9f1;          
+}
+table.day td.tutorial{
+background-color: #d9d9d9;
+}
+table.day td.workshop{
+background-color: #8dd3c7;          
+}
+table.day td.reception{
+background-color: #ffccaa; <!-- #fb8072; -->         
+}
+table.day td.industrial{
+background-color: #ffffb3;           
+}       
+table.day td.demo{
+background-color: #e6f5c9;                  
+}
+table.day td.business{
+background-color: #ffc000;                  
+}  
+table.day td.welcome{
+background-color: #fdcdac;                  
+}
+table.day td.inv{
+background-color: #fde9d9;                  
+}
+li.program_item{
+margin-bottom: 5px;
+line-height: 1.3em;
+}
+h3.session{
+margin-bottom: 0px;
+padding-top:10px;
+padding-bottom:1px;
+padding-left: 10px;
+line-height: 1em;
+}
+p.chair{
+color: #006697;
+padding-left: 10px;
+margin-top:-1px;
+}
+
+</style>
+    <link href="sigmod_css.css" rel="stylesheet" type="text/css"
+      media="screen">
+    <script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+theImages[1] = 'images/ny/skyline_bw.jpg'
+
+theImages[2] = 'images/ny/sunset.jpg'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+theImageDescriptions[1] = 'NYC Skyline'
+
+theImageDescriptions[2] = 'NYC Building at Sunset'
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[2] = 'http://en.wikipedia.org/wiki/New_York_City'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+  </head>
+  <body>
+    
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+    <!--<div id="masthead"><img src="images/ny/nyc-small.png" alt="top banner" width="742" height="330" /></div>-->
+    <div id="wrap">
+      <!-- the ssi code needs to stay here - do not delete or move -->
+      <div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<li><a href="http://www.regonline.com/2013sigmodpods"><b>Registration</b></a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc1.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+<!--
+
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="affiliated_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+    <li><a href="accommodation.shtml" title="Travel and Accommodations">Travel and Accommodations</a></li>
+    <li><a href="docs/local_info.pdf" title="Local Information">Explore NYC</a></li>
+<!--
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+-->
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> 
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+      <!-- the ssi code needs to stay here - do not delete move -->
+      <div id="maincontent">
+        <!--<div id="programcontent"> --> <a name="top" id="top"></a>
+        <h1>SIGMOD/PODS 2013 Program Overview</h1>
+        <p>&nbsp;&nbsp;&nbsp; <strong>Registration Hours:</strong> </p>
+        <ul>
+          <li>Sunday: 8:00am - 8:30pm, 6.01 (Manhattan)<br>
+          </li>
+          <li>Monday: 8:00am - 9:15pm, 6.01 (Manhattan)<br>
+          </li>
+          <li>Tuesday: 8:00am - 5:00pm, 3.02<br>
+          </li>
+          <li>Wednesday: 8:00am - 5:30pm, 3.02</li>
+          <li>Thursday: 8:00am - 5:00pm, 3.02<br>
+          </li>
+        </ul>
+        <p>&nbsp;&nbsp;&nbsp;<strong>Conference Days:</strong> <a
+            style="color: rgb(204, 102, 0); text-decoration: none;"
+            href="#sunday">Sunday</a> | <a style="color: rgb(204, 102,
+            0); text-decoration: none;" href="#monday">Monday</a> | <a
+            style="color: rgb(204, 102, 0); text-decoration: none;"
+            href="#tuesday">Tuesday</a> | <a style="color: rgb(204,
+            102, 0); text-decoration: none;" href="#wednesday">Wednesday</a>
+          | <a style="color: rgb(204, 102, 0); text-decoration: none;"
+            href="#thursday">Thursday</a> </p>
+        <p> </p>
+        <div style="margin-left: 5px;"> <a name="sunday"> </a>
+          <table class="day" height="571" width="577">
+            <tbody>
+              <tr>
+                <td class="header" colspan="10">
+                  <p align="center"><strong>SUNDAY AT A GLANCE<br>
+                      JUNE 23, 2013</strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">8:00am-9:00am</p>
+                </td>
+                <td colspan="9" width="62">
+                  <p align="center"><strong>Breakfast </strong><strong>(not
+
+
+
+
+
+
+
+
+
+
+
+
+                      provided by conference)</strong> </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">9:00am-10:30am</p>
+                </td>
+                <td class="workshop" width="52"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://datagroup.cs.utah.edu/mobide13/"> <strong>MobiDE
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  3.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/sweetworkshop2013/"><strong>SWEET
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  3.04</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://event.cwi.nl/grades2013/"><strong>GRADES
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  3.11</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.cse.ust.hk/sigmod-phdwks/index.html"><strong>Ph.D.
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  3.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.danac.org/"><strong>DanaC 1</strong>
+                  </a><br>
+                  4.11 Times Sq.</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/dbsocial13/"><strong>DBSocial
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  4.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://webdb2013.lille.inria.fr/"><strong>WebDB
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  4.04/4.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://pamir.dia.uniroma3.it:8080/SWIM2013/Home.html"><strong>SWIM
+
+
+
+
+
+
+
+
+                      1 </strong></a><br>
+                  4.02<br>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">10:30am-10:45am</p>
+                </td>
+                <td colspan="9" width="62"><strong>Coffee Break
+                    (@3rd/4th)</strong><br>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">10:45am-12:15pm</p>
+                </td>
+                <td class="workshop" width="52"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://datagroup.cs.utah.edu/mobide13/"> <strong>MobiDE
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  3.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/sweetworkshop2013/"><strong>SWEET
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  3.04<br>
+                  <b>ends@12:45</b><br>
+                </td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://event.cwi.nl/grades2013/"><strong>GRADES
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  3.11</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.cse.ust.hk/sigmod-phdwks/index.html"><strong>Ph.D.
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  3.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.danac.org/"><strong>DanaC 2&nbsp;</strong>
+                  </a><br>
+                  4.11 Times Sq.</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/dbsocial13/"><strong>DBSocial
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  4.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://webdb2013.lille.inria.fr/"><strong>WebDB
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  4.04/4.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://pamir.dia.uniroma3.it:8080/SWIM2013/Home.html"><strong>SWIM
+
+
+
+
+
+
+
+
+                      2 </strong></a><br>
+                  4.02</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">12:15pm-1:45pm</p>
+                </td>
+                <td colspan="9" width="62">
+                  <p align="center"><strong>Lunch </strong><strong>(not
+                      provided by conference)</strong> </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">1:45pm-3:15pm</p>
+                </td>
+                <td class="workshop" width="52"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://datagroup.cs.utah.edu/mobide13/"> <strong>MobiDE
+
+
+
+
+
+
+
+
+                      3 </strong></a><br>
+                  3.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/dynetmm13/"><strong>DyNetMM
+
+
+
+
+
+
+
+
+                      3 </strong></a><br>
+                  3.04</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://event.cwi.nl/grades2013/"><strong>GRADES
+
+
+
+
+
+
+
+
+                      3</strong> </a><br>
+                  3.11</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.cse.ust.hk/sigmod-phdwks/index.html"><strong>Ph.D.
+
+
+
+
+
+
+
+
+                      3</strong></a> <br>
+                  3.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.danac.org/"><strong>DanaC 3</strong>
+                  </a><br>
+                  4.11 Times Sq.</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/dbsocial13/"><strong>DBSocial
+
+
+
+
+
+
+
+
+                      3</strong></a><br>
+                  4.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://webdb2013.lille.inria.fr/"><strong>WebDB
+
+
+
+
+
+
+
+
+                      3</strong></a><br>
+                  4.04/4.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://pamir.dia.uniroma3.it:8080/SWIM2013/Home.html"><strong>SWIM
+
+
+
+
+
+
+
+
+                      3</strong></a><br>
+                  4.02</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">3:15pm-3:30pm</p>
+                </td>
+                <td colspan="9" width="62"><strong>Coffee Break</strong>
+                  <strong> (@3rd/4th)</strong> </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">3:30pm-5:00pm</p>
+                </td>
+                <td width="52"> <br>
+                </td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/dynetmm13/"><strong>DyNetMM
+
+
+
+
+
+
+
+
+                      4 </strong></a><br>
+                  3.04</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://event.cwi.nl/grades2013/"><strong>GRADES
+
+
+
+
+
+
+
+
+                      4 </strong></a><br>
+                  3.11</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.cse.ust.hk/sigmod-phdwks/index.html"><strong>Ph.D.
+
+
+
+
+
+
+
+
+                      4 </strong></a><br>
+                  3.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://www.danac.org/"><strong>DanaC 4</strong>
+                  </a><br>
+                  4.11 Times Sq.</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="https://sites.google.com/site/dbsocial13/"><strong>DBSocial
+
+
+
+
+
+
+
+
+                      4 </strong></a><br>
+                  4.03</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://webdb2013.lille.inria.fr/"><strong>WebDB
+
+
+
+
+
+
+
+
+                      4 </strong></a><br>
+                  4.04/4.05</td>
+                <td class="workshop" width="52"><a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="http://pamir.dia.uniroma3.it:8080/SWIM2013/Home.html"><strong>SWIM
+
+
+
+
+
+
+
+
+                      4 </strong></a><br>
+                  4.02</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">5:00pm-6:00pm</p>
+                </td>
+                <td colspan="9" width="62"><strong>Dinner (not provided
+                    by conference)</strong><br>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">6:00pm-8:30pm</p>
+                </td>
+                <td colspan="9" class="sigmod" width="62"> <strong><a
+                      href="http://www.sigmod.org/2013/ctcbd.shtml">PODS
+                      Colloquium</a></strong><br>
+                  Times Square</td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">8:30pm-10:00pm</p>
+                </td>
+                <td colspan="9" class="reception" width="62"> <strong>PODS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Welcome Reception</strong><br>
+                  Gallery 8</td>
+              </tr>
+            </tbody>
+          </table>
+          <p align="left"> <a style="color: rgb(204, 102, 0);"
+              href="#top">top</a></p>
+          <a name="monday"> </a>
+          <table class="day" width="550">
+            <tbody>
+              <tr>
+                <td class="header" colspan="9">
+                  <p align="center"><strong>MONDAY AT A GLANCE<br>
+                      JUNE 24, 2013 </strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="75">
+                  <p align="center">7:30am-8:30am</p>
+                </td>
+                <td colspan="8" width="437">
+                  <p align="center"><strong>Continental Breakfast</strong>
+                    <br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">8:30am-10:00am</p>
+                </td>
+                <td colspan="8" class="keynote" width="437">
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="pods_invited.shtml#keynote"><strong>Plenary
+                        PODS Keynote &amp; Welcome</strong></a><br>
+                    Diego Calvanese<br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">10:00am-10:30am</p>
+                </td>
+                <td colspan="8" width="437">
+                  <p align="center"><strong>Coffee Break</strong> <br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">10:30am-12:00pm</p>
+                </td>
+                <td class="pods" colspan="4" width="70">
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="program_pods.shtml#pods1"><strong>PODS
+                        Session 1</strong></a><br>
+                    Gallery 8<br>
+                    <meta charset="utf-8">
+                    [<b>10:15am-12:15pm</b>]<br>
+                  </p>
+                </td>
+                <td class="workshop" colspan="2" width="62"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://www.cs.utoronto.ca/damon2013/"><strong>DaMoN</strong></a><br>
+                  4.11 (Times Sq.)<br>
+                </td>
+                <td class="workshop" colspan="2" width="59"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://dbtest2013.soe.ucsc.edu/"><strong>DBTest</strong></a><br>
+                  4.04/4.05</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">12:00pm-1:15pm</p>
+                </td>
+                <td colspan="8" width="437">
+                  <p align="center"><strong>Lunch </strong><strong>(not
+                      provided by conference)</strong> </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">1:15pm-2:45pm</p>
+                </td>
+                <td class="pods" colspan="4" width="70"><br>
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="program_pods.shtml#pods2"><strong>PODS
+                        Session 2 </strong></a><br>
+                    Gallery 8<br>
+                    [<b>starts @ 1:30pm</b>]<br>
+                  </p>
+                </td>
+                <td class="workshop" colspan="2" width="62"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://www.cs.utoronto.ca/damon2013/"><strong>DaMoN</strong></a><br>
+                  4.11 (Times Sq.)</td>
+                <td class="workshop" colspan="2" width="59"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://dbtest2013.soe.ucsc.edu/"><strong>DBTest</strong></a><br>
+                  4.04/4.05</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">2:45pm-3:15pm</p>
+                </td>
+                <td colspan="8" width="437">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">3:15pm-4:45pm</p>
+                </td>
+                <td class="pods" colspan="4" width="70">
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="program_pods.shtml#pods3"><strong>PODS
+                        Session 3</strong> </a><br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+                <td class="workshop" colspan="2" width="62"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://www.cs.utoronto.ca/damon2013/"><strong>DaMoN</strong></a><br>
+                  4.11 (Times Sq.)</td>
+                <td class="workshop" colspan="2" width="59"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://dbtest2013.soe.ucsc.edu/"><strong>DBTest</strong></a><br>
+                  4.04/4.05</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">4:45pm-5:15pm</p>
+                </td>
+                <td colspan="8" width="437">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">5:15pm-6:45pm</p>
+                </td>
+                <td class="pods" colspan="4" width="70">
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="program_pods.shtml#pods4"><strong>PODS
+                        Session 4</strong> </a><br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+                <td class="workshop" colspan="2" width="62"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://www.cs.utoronto.ca/damon2013/"><strong>DaMoN</strong></a><br>
+                  4.11 (Times Sq.)</td>
+                <td class="workshop" colspan="2" width="59"><a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="http://dbtest2013.soe.ucsc.edu/"><strong>DBTest</strong></a><br>
+                  4.04/4.05</td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">6:45pm-8:15pm</p>
+                </td>
+                <td colspan="9" width="62"><strong>Dinner (not provided
+                    by conference)</strong><br>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">8:15pm-9:15pm</p>
+                </td>
+                <td colspan="8" class="business" width="437">
+                  <p align="center"><strong>PODS Business Meeting</strong><br>
+                    4.11 (Times Square)<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">9:00pm-10:30pm</p>
+                </td>
+                <td colspan="8" class="reception" width="437">
+                  <p align="center"><strong>SIGMOD Welcome Reception</strong><br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p align="left"><a style="color: rgb(204, 102, 0);"
+              href="#top">top</a></p>
+          <p> <a name="tuesday"> </a> </p>
+          <table class="day" height="690" width="581">
+            <tbody>
+              <tr>
+                <td class="header" colspan="9">
+                  <p align="center"><strong>TUESDAY AT A GLANCE<br>
+                      JUNE 25, 2013 </strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">7:30am-8:30am</p>
+                </td>
+                <td colspan="8" width="62"><strong><br>
+                    Continental Breakfast</strong><br>
+                  Hudson<br>
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">8:30am-10:00am</p>
+                </td>
+                <td colspan="7" class="keynote" width="437">
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="./program_sigmod.shtml#keynote"><strong>Plenary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        SIGMOD Keynote &amp; Welcome</strong></a><br>
+                    Alex Nazaruk and Michael Rauchman<br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">10:00am-10:30am</p>
+                </td>
+                <td colspan="7" width="437">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center"> 10:30am-12:00am </p>
+                </td>
+                <td class="pods" width="80"> <a style="color: rgb(204,
+                    102, 0);text-decoration: none;"
+                    href="program_pods.shtml#pods5"><strong>PODS<br>
+                      Session 5 </strong></a><br>
+                  3.04/3.05<br>
+                </td>
+                <td class="sigmod" width="80"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res1"><strong>SIGMOD
+                      Research 1</strong></a><br>
+                  3.11<br>
+                </td>
+                <td class="sigmod" width="80"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res2"><strong>SIGMOD
+                      Research 2</strong></a><br>
+                  4.04/4.05<br>
+                </td>
+                <td class="sigmod" width="80"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res3"><strong>SIGMOD
+                      Research 3</strong></a><br>
+                  4.11 (Times Sq.)<br>
+                </td>
+                <td class="tutorial" width="80"> <a style="color:
+                    rgb(204, 102, 0);text-decoration: none;"
+                    href="./program_sigmod.shtml#tutorial1"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      Tutorial 1</strong></a><br>
+                  4.02/4.03<br>
+                </td>
+                <td class="industrial" width="80"> <a style="color:
+                    rgb(204, 102, 0);text-decoration: none;"
+                    href="program_sigmod.shtml#industry1"><strong>SIGMOD
+                      <br>
+                      Industry 1<br>
+                    </strong></a> Hudson<br>
+                </td>
+                <td class="demo" width="80"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="program_sigmod.shtml#demo1"><strong>SIGMOD
+                      Demo 1</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">12:00pm-1:30pm</p>
+                </td>
+                <td colspan="7" width="437">
+                  <p align="center"><strong>Lunch</strong><br>
+                    2nd Floor and Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">1:30pm-3:00pm</p>
+                </td>
+                <td class="pods" width="30"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="program_pods.shtml#pods6"><strong>PODS<br>
+                      Session 6</strong></a><br>
+                  3.04/3.05<br>
+                </td>
+                <td class="sigmod" width="62"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res4"><strong>SIGMOD<br>
+                      Research 4</strong></a><br>
+                  3.11<br>
+                </td>
+                <td class="sigmod" width="78"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res5"><strong>SIGMOD
+                      Research 5</strong></a><br>
+                  4.04/4.05<br>
+                </td>
+                <td class="sigmod" width="78"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res6"><strong>SIGMOD
+                      Research 6</strong></a><br>
+                  4.11 (Times Sq.)<br>
+                </td>
+                <td class="tutorial" width="59"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#tutorial2"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+                      Tutorial 2a</strong></a><br>
+                  4.02/4.03 </td>
+                <td class="industrial" width="61">
+                  <p align="center"><a style="color: rgb(204, 102,
+                      0);text-decoration: none;"
+                      href="./program_sigmod.shtml#ind2"><strong>SIGMOD
+                        Industry 2</strong></a><br>
+                    Hudson<br>
+                  </p>
+                </td>
+                <td class="demo" width="67"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#demo2"><strong>SIGMOD
+                      Demo 2</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">3:00pm-3:30pm</p>
+                </td>
+                <td colspan="7" width="437">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">3:30pm-5:00pm</p>
+                </td>
+                <td class="pods" width="30"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="program_pods.shtml#pods7"><strong>PODS <br>
+                      Session 7</strong></a><br>
+                  3.04/3.05<br>
+                </td>
+                <td class="sigmod" colspan="1" width="62"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="program_sigmod.shtml#res7"><strong>SIGMOD<br>
+                      Research 7</strong></a><br>
+                  3.11<br>
+                </td>
+                <td class="sigmod" colspan="1" width="62"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="program_sigmod.shtml#res9"><strong>SIGMOD<br>
+                      Research 9</strong></a><br>
+                  Gallery 8<br>
+                </td>
+                <td class="sigmod" width="78"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res8"><strong>SIGMOD
+                      Research 8</strong></a><br>
+                  4.11 (Times Sq.)<br>
+                </td>
+                <td class="tutorial" width="59"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#tutorial2"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+                      Tutorial 2b</strong></a><br>
+                  4.02/4.03 </td>
+                <td class="industrial" width="61"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#ind3"><strong>SIGMOD
+                      Industry 3</strong></a><br>
+                  Hudson<br>
+                </td>
+                <td class="demo" width="67"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#demo3"><strong>SIGMOD
+                      Demo 3</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">5:00pm-6:30pm</p>
+                </td>
+                <td colspan="7" width="437">
+                  <p align="center"><strong>Dinner&nbsp;</strong><strong>(not
+provided
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      by conference)</strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">6:30pm-9:00pm</p>
+                </td>
+                <td class="pods" colspan="3" width="75">
+                  <p align="center"> <strong>PODS Mini-Workshop</strong><br>
+                    3.04/3.05<br>
+                  </p>
+                </td>
+                <td colspan="2" class="sigmod" width="75">
+                  <p align="center"> <strong>Programming Contest</strong><br>
+                    6.01 (Manhattan)<br>
+                  </p>
+                </td>
+                <td colspan="2" class="sigmod" width="75">
+                  <p align="center"> <strong>New Researcher Symposium</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">8:30pm-10:00pm
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                  </p>
+                </td>
+                <td colspan="7" class="reception" width="437">
+                  <p align="center"><strong>Microsoft Reception &amp;
+                      Undergrad Research</strong><br>
+                    Gallery 8<br>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p align="left"><a style="color: rgb(204, 102, 0);"
+              href="#top">top</a></p>
+          <a name="wednesday"> </a>
+          <table class="day" width="550">
+            <tbody>
+              <tr>
+                <td class="header" colspan="8">
+                  <p align="center"><strong>WEDNESDAY AT A GLANCE<br>
+                      JUNE 26, 2013 </strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="75">
+                  <p align="center">7:30am-8:30am</p>
+                </td>
+                <td colspan="8" width="437">
+                  <p align="center"><strong>Continental Breakfast</strong><br>
+                    Gallery 8 </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="75">
+                  <p align="center">8:30am-10:00am</p>
+                </td>
+                <td colspan="7" class="keynote" width="473">
+                  <p align="center"><strong>Plenary Research Session
+                      (posters for SIGMOD/PODS/Industrial papers)</strong><br>
+                    7th/Manhattan </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">10:00am-10:30am</p>
+                </td>
+                <td colspan="7" width="473">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">10:30am-12:00pm </p>
+                </td>
+                <td class="pods" width="72">
+                  <p align="center"><a style="color: rgb(204, 102, 0);
+                      text-decoration: none;"
+                      href="./program_pods.shtml#pods8"><strong>PODS <br>
+                        Session 8</strong></a><br>
+                    3.04/3.05<br>
+                  </p>
+                </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res10"><strong>SIGMOD <br>
+                      Research 10</strong></a><br>
+                  3.11<br>
+                </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res11"><strong>SIGMOD <br>
+                      Research 11</strong></a><br>
+                  4.04/4.05<br>
+                </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res12"><strong>SIGMOD <br>
+                      Research 12</strong></a><br>
+                  4.11<br>
+                  &nbsp;(Times Sq.)<br>
+                </td>
+                <td class="tutorial" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#tutorial3"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Tutorial 3a</strong></a><br>
+                  4.02/4.03 <br>
+                </td>
+                <td class="industrial" width="61"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#ind4"><strong>SIGMOD
+                      Industry 4</strong></a><br>
+                  Hudson<br>
+                </td>
+                <td class="demo" width="72"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#demo4"><strong>SIGMOD <br>
+                      Demo 4</strong></a><br>
+                  6.01<br>
+                  (Manhattan)<br>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">12:00pm-1:15pm</p>
+                </td>
+                <td colspan="7" width="473"><strong>Lunch</strong><br>
+                  2nd Floor and Gallery 8</td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">1:15pm-3:30pm</p>
+                </td>
+                <td class="business" colspan="7" width="473">
+                  <p align="center"><strong>Plenary SIGMOD Business
+                      Meeting &amp; Awards Talks</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">3:30pm-4:00pm</p>
+                </td>
+                <td colspan="7" width="475">
+                  <p align="center"><strong>Coffee Break<br>
+                    </strong>Hudson </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">4:00pm-5:30pm</p>
+                </td>
+                <td class="pods" width="67"> <a style="color: rgb(204,
+                    102, 0);text-decoration: none;"
+                    href="./program_pods.shtml#pods9"><strong>PODS <br>
+                      Session 9</strong></a><br>
+                  3.04/3.05<br>
+                  <b>[ends@6pm]</b><br>
+                </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res13"><strong>SIGMOD <br>
+                      Research 13</strong></a><br>
+                  3.11<br>
+                </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res15"><strong>SIGMOD <br>
+                      Research 15</strong></a><br>
+                  Gallery 8<br>
+                </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res12"><strong>SIGMOD <br>
+                      Research 14</strong></a><br>
+                  4.11 <br>
+                  (Times Sq.)<br>
+                </td>
+                <td class="tutorial" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#tutorial3"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Tutorial 3b</strong></a><br>
+                  4.02/4.03 <br>
+                </td>
+                <td class="demo" width="72"> <a style="color: rgb(204,
+                    102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#demo1"><strong>SIGMOD <br>
+                      Demo 1R</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+                <td class="sigmod" width="72"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#panel"><strong>SIGMOD <br>
+                      Panel</strong></a><br>
+                  Hudson<br>
+                </td>
+              </tr>
+              <tr>
+                <td width="34">
+                  <p align="center">5:30pm-8:00pm</p>
+                </td>
+                <td colspan="7" class="center" width="473">
+                  <p align="center"><strong>Dinner&nbsp;</strong><strong>(not
+provided
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      by conference)</strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" width="34">
+                  <p align="center">7:15pm-8:00pm</p>
+                </td>
+                <td colspan="7" class="center" width="473">
+                  <p align="center"><strong>Drinks</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="1" width="34">
+                  <p align="center">8:00pm-10:30pm</p>
+                </td>
+                <td colspan="7" class="reception" width="473">
+                  <p align="center"><strong>SIGMOD Entertainment Event</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p align="left"><a style="color: rgb(204, 102, 0);"
+              href="#top">top</a></p>
+          <br>
+          <a name="thursday"> </a>
+          <table class="day" width="550">
+            <tbody>
+              <tr>
+                <td class="header" colspan="7">
+                  <p align="center"><strong> THURSDAY AT A GLANCE<br>
+                      JUNE 27, 2013</strong></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30">
+                  <p align="center">7:30am-8:30am</p>
+                </td>
+                <td colspan="9" width="62"><strong>Continental Breakfast</strong><br>
+                  Hudson<br>
+                </td>
+              </tr>
+              <tr>
+                <td width="75">
+                  <p align="center">8:30am-10:00am</p>
+                </td>
+                <td colspan="6" class="keynote" width="439">
+                  <p align="center"> <a style="color: rgb(204, 102,
+                      0);text-decoration: none;"
+                      href="./program_sigmod.shtml#keynote"><strong>Plenary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        SIGMOD Keynote</strong></a><br>
+                    Paul Yaron<br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="33">
+                  <p align="center">10:00am-10:30am</p>
+                </td>
+                <td colspan="6" width="439">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="33">
+                  <p align="center">10:30am-12:00pm</p>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res16"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 16</strong></a><br>
+                  3.04/3.05 </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res17"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 17</strong></a><br>
+                  &nbsp;3.11<br>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res18"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 18</strong></a><br>
+                  4.11 <br>
+                  (Times Sq.)<br>
+                </td>
+                <td class="industrial" width="61"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#ind5"><strong>SIGMOD
+                      Industry 5</strong></a><br>
+                  Hudson<br>
+                </td>
+                <td colspan="1" class="tutorial" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#tutorial4"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Tutorial 4</strong></a><br>
+                  4.02/4.03<br>
+                </td>
+                <td colspan="1" class="demo" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#demo2"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Demo 2R</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+              </tr>
+              <tr>
+                <td width="33">
+                  <p align="center">12:00pm-1:30pm</p>
+                </td>
+                <td colspan="6" width="202">
+                  <p align="center"><strong>Lunch (not provided by
+                      conference)</strong><br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="33">
+                  <p align="center">1:30pm-3:00pm</p>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res19"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 19 </strong></a><br>
+                  3.04/3.05 </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res20"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 20 </strong></a><br>
+                  &nbsp;3.11<br>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res21"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 21</strong></a><br>
+                  4.11 <br>
+                  (Times Sq.)<br>
+                </td>
+                <td class="sigmod" width="61"> <a style="color:
+                    rgb(204, 102, 0); text-decoration: none;"
+                    href="./program_sigmod.shtml#res22"><strong>SIGMOD
+                      Research 22</strong></a><br>
+                  Hudson<br>
+                </td>
+                <td colspan="1" class="tutorial" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#tutorial5"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Tutorial 5</strong></a><br>
+                  4.02/4.03<br>
+                </td>
+                <td colspan="1" class="demo" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#demo3"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Demo 3R</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+              </tr>
+              <tr>
+                <td width="33">
+                  <p align="center">3:00pm-3:30pm</p>
+                </td>
+                <td colspan="6" width="439">
+                  <p align="center"><strong>Coffee Break</strong><br>
+                    Hudson<br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td width="33">
+                  <p align="center">3:30pm-5:00pm</p>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res23"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 23 </strong></a><br>
+                  3.04/3.05 </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res24"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 24 </strong></a><br>
+                  3.11<br>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res26"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 26</strong></a><br>
+                  4.11 <br>
+                  (Times Sq.)<br>
+                  <b>[ends@4:30p]</b><br>
+                </td>
+                <td colspan="1" class="sigmod" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#res25"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Research 25</strong></a><br>
+                  4.04/4.05<br>
+                  <b>[ends@4:30p]</b><br>
+                </td>
+                <td colspan="1" class="tutorial" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#tutorial6"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Tutorial 6</strong></a><br>
+                  4.02/4.03<br>
+                </td>
+                <td colspan="1" class="demo" width="79"> <a
+                    style="color: rgb(204, 102, 0); text-decoration:
+                    none;" href="./program_sigmod.shtml#demo4"><strong>SIGMOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      <br>
+                      Demo 4R</strong></a><br>
+                  6.01<br>
+                  (Manhattan) </td>
+              </tr>
+            </tbody>
+          </table>
+          <p align="left"> <a style="color: rgb(204, 102, 0);"
+              href="#top">top</a></p>
+          <br>
+        </div>
+        <!--endMainContent -->
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+    <!-- footer -->
+    <title></title>
+  </head>
+  <body>
+    <div id="footer"> <img src="images/bottom_logos_2012a.png">
+      <table border="0" width="740">
+        <tbody>
+          <tr>
+            <td width="138">
+              <div align="center"><img src="images/sigmod-logo.png"
+                  alt="" hspace="10" vspace="10" width="80"></div>
+            </td>
+            <!-- <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td> -->
+            <td width="465">&nbsp;</td>
+            <td width="155"><a href="http://www.acm.org"><img
+                  src="images/acm.png" alt="ACM"
+                  longdesc="http://www.acm.org" width="160"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="images/bottom_logos_2012b.jpg">
+      <!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        --> </div>
+    <!-- end of wrap -->
+    <p> </p>
+    <div id="credits"> <a href="about.shtml">Credits</a>
+      <table align="center">
+        <tbody>
+          <tr>
+          </tr>
+          <tr valign="center">
+            <td>Follow us:</td>
+            <td><a href="https://www.facebook.com/AcmSigmod2013"><img
+                  src="images/facebook-icon.png"></a></td>
+            <td> <a href="http://twitter.com/acmsigmod2013"><img
+                  src="images/twitter-icon.png"></a></td>
+            <td> <a
+                href="https://plus.google.com/u/0/communities/102395415671629698034"><img
+                  src="images/google-plus.gif" height="35" width="35"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+ </div>
+    </div>
+  </body>
+</html>

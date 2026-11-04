@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2013 ACM SIGMOD/PODS Conference: New York, New York, USA - Calls for Submissions</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+        text-align: right;
+        clear: both;
+        margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+theImages[1] = 'images/ny/skyline_bw.jpg'
+
+theImages[2] = 'images/ny/sunset.jpg'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+theImageDescriptions[1] = 'NYC Skyline'
+
+theImageDescriptions[2] = 'NYC Building at Sunset'
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[2] = 'http://en.wikipedia.org/wiki/New_York_City'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--    <div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+
+<div id="wrap">
+
+<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<li><a href="http://www.regonline.com/2013sigmodpods"><b>Registration</b></a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc1.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+<!--
+
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="affiliated_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+    <li><a href="accommodation.shtml" title="Travel and Accommodations">Travel and Accommodations</a></li>
+    <li><a href="docs/local_info.pdf" title="Local Information">Explore NYC</a></li>
+<!--
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+-->
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> 
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  <!-- <li><a href="guidelines.shtml" title="SIGMOD Submission Guidelines">SIGMOD Submission Guidelines</a></li>
+  <li><a href="guidelines-pods.shtml" title="PODS Submission Guidelines">PODS Submission Guidelines</a></li>
+  <li><a href="camera-ready.shtml" title="Camera Ready Instructions"<b>Camera Ready Instructions</b></a></li> -->
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_pods.shtml" title="Program">Program</a></li>
+  <li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="pods_invited.shtml#keynote" title="Pods Keynote">
+  Keynote: Diego Calvanese (Free University of Bozen-Bolzano)</a></li>
+  <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 1: Piotr Indyk">Tutorial 1: Piotr Indyk (MIT)</a></li> 
+  <li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 2: Pablo Barcel&oacute;">Tutorial 2: Pablo Barcel&oacute; (University of Chile)</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+<!--
+  <li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+  <li><p>Keynote 1: 
+      </p></li>
+  <li><p>Keynote 2: 
+  </p>
+  </li>
+-->
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="keynote_1.shtml">Keynote 1: Alex Nazaruk &amp Michael Rauchman (Middle Lake Partners, LLC)</a> 
+      </li>
+  <li><a href="keynote_2.shtml">Keynote 2: Paul Yaron (J. P. Morgan Chase)</a></li>
+  <li><a href="sigmod_panel.shtml" title="Sigmod Panel">Sigmod Panel</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="ind_list.shtml" title="Industrial Presentations">Industrial Presentations</a></li>
+</ul>
+
+<h3 class="navheading"><a href="http://confer.csail.mit.edu/" title="Confer: Conference Scheduling">Confer: Conference Scheduling</a></h3>
+</div>
+
+
+
+
+                        <div id="maincontent">
+
+                                <h2>Paper Submission Guidelines SIGMOD 2013</h2>
+
+<h3>Conflicts of Interest</h3>
+
+<p>During submission of a research paper, the submission site will request
+information about conflicts of interest of the paper's authors with program
+committee (PC) members. It is the full responsibility of all authors of a paper
+to identify all and only their potential conflict-of-interest PC members,
+according to the following definition: </p>
+
+<p>A paper author has a conflict of interest with a PC member when and only
+when one or more of the following conditions <b>holds</b>: </p>
+
+<ul>
+ <li>The PC member is a co-author of the paper.</li>
+ <li>The PC member has been a co-worker in the same company or university within the past two years.</li>
+ <li>The PC member has been a collaborator within the past two years.</li>
+ <li>The PC member is or was the author's primary thesis advisor, no matter how long ago.</li>
+ <li>The author is or was the PC member's primary thesis advisor, no matter how long ago.</li>
+ <li>The PC member is a relative or close personal friend of the author.</li>
+</ul>
+<p>Papers with incorrect or incomplete conflict of interest information as
+of the submission closing time are subject to immediate rejection.</p>
+
+
+<h3>Duplicate Submissions and Novelty Requirements</h3>
+
+<p>A research paper submitted to SIGMOD 2013 cannot be under review for any
+other publishing forum or presentation venue, including conferences, workshops,
+and journals, during the time it is being considered for SIGMOD. Furthermore,
+after you submit a research paper to SIGMOD, you must await the response from SIGMOD
+and only resubmit elsewhere if your paper is rejected--or withdrawn at your
+request--from SIGMOD. This restriction applies to identical papers as well as
+to papers with a substantial overlap in scientific content and results.</p>
+
+<p>Every research paper submitted to SIGMOD 2013 must present substantial novel
+research not described in any prior publication. In this context, a <i>prior
+publication</i> is (a) a paper of five pages or more presented, or accepted for
+presentation, at a refereed conference or workshop with proceedings; or (b) an
+article published, or accepted for publication, in a refereed journal. If a
+SIGMOD 2013 submission has overlap with a prior publication, the submission
+must cite the prior publication, along with all other relevant published work,
+following the guidelines in the <b>Anonymity Requirements for Double-Blind
+Reviewing</b> section below.</p>
+
+<p><i>Any violation of this policy will result in the immediate rejection of
+the submission, as well as in notification to the members of the SIGMOD
+Executive Committee, the members of the SIGMOD PC, and the editors or chairs of
+any other forums involved.</i> </p>
+
+<h3>Length, File Type, and Formatting</h3>
+
+<p><b>Length:</b> All submitted research papers must be formatted according to
+the instructions below, and must be no more than <b>12 pages</b> in length.
+This page limit includes all parts of the paper: title, abstract, body,
+bibliography, and appendices. </p>
+
+<p><b>File type:</b> Each research paper is to be submitted as a single PDF
+file, formatted for 8.5&quot; x 11&quot; paper and no more than 5 MB in file
+size. (Larger files will be rejected by the submission site)
+Submitted papers must print without difficulty on a variety of printers, using <a
+href="http://get.adobe.com/reader/">
+Adobe Acrobat Reader</a>. It is the
+responsibility of the authors to ensure that their submitted PDF file will
+print easily on simple default configurations. </p>
+
+<p><b>Formatting:</b> Research papers must follow the ACM Proceedings Format,
+using one of the templates provided at <a
+href="http://www.acm.org/sigs/pubs/proceed/template.html"><span
+style='color:#CC6600;text-decoration:none;text-underline:none'>http://www.acm.org/sigs/pubs/proceed/template.html</span></a>
+for Word and LaTeX (version 2e). (For LaTeX, both Option 1 and Option 2 are acceptable.) The font
+size, margins, inter-column spacing, and line spacing
+in the templates must be kept unchanged. </p>
+
+<p><i>Any submitted paper violating the length, file type, or formatting
+requirements will be rejected without review. </i></p>
+
+<h3>Anonymity Requirements for Double-Blind Reviewing</h3>
+
+<p>Every research paper submitted to SIGMOD 2013 will undergo a
+&quot;double-blind&quot; reviewing process: the PC members and referees who
+review the paper will not know the identity of the authors. To ensure anonymity
+of authorship, authors must prepare their manuscript as follows: </p>
+
+<ul>
+<li>Authors' names
+     and affiliations must not appear on the title page or elsewhere in the
+     paper.</li>
+<li>Funding sources
+     must not be acknowledged on the title page or elsewhere in the paper.</li>
+<li>Research group
+     members, or other colleagues or collaborators, must not be acknowledged
+     anywhere in the paper.</li>
+<li>The paper's file
+     name must not identify the authors of the paper. It is strongly suggested
+     that the submitted file be named with the assigned submission number. For
+     example, if your assigned paper number is 352, then name your submission
+     file 352.pdf.</li>
+<li>Source file
+     naming must also be done with care, to avoid identifying the authors' name
+     in the paper's associated metadata. For example, if your name is Jane
+     Smith and you submit a PDF file generated from a .dvi file called Jane-Smith.dvi, your authorship could be inferred by
+     looking into the PDF file.</li>
+</ul>
+
+<p>You must also use care in referring to related past work, particularly your
+own, in the paper. For example, if you are Jane Smith, the following text gives
+away the authorship of the submitted paper: </p>
+
+<p>
+In our previous work [1, 2], we
+presented two algorithms for ... In this paper, we build on that work by ... 
+</p>
+
+<p><b>Bibliography</b>
+<br/>
+<i>[1] Jane Smith, &quot;A Simple Algorithm for ...,&quot;
+Proceedings of ACM SIGMOD 1997, pp. 1 - 10. <br/>[2] Jane Smith, &quot;A More
+Complicated Algorithm for ...,&quot; Proceedings of
+ACM SIGMOD 1998, pp. 34 - 44.<br/> </i></p>
+
+<p>The solution is to reference your past work in the third person (just as you
+would any other piece of work that is related to the submitted paper). This
+allows you to set the context for the submitted paper, while at the same time
+preserving anonymity: </p>
+
+<p><i>
+In previous work [1, 2], algorithms
+were presented for ... In this paper, we build on that work by ... </i>
+</p>
+
+<p><b>
+Bibliography
+</b>
+<br/>
+<i>[1] Jane Smith, &quot;A Simple Algorithm for ...,&quot;
+Proceedings of ACM SIGMOD 1997, pp. 1 - 10.<br/> [2] Jane Smith, &quot;A More
+Complicated Algorithm for ...,&quot; Proceedings of
+ACM SIGMOD 1998, pp. 34 - 44.<br/> </i></p>
+
+<p>Despite the anonymity requirements, you should still include all relevant
+work of your own in the references, using the above style; omitting them could
+potentially reveal your identity by negation. However, self-references should
+be limited to the essential ones, and extended versions of the submitted paper
+(e.g., technical reports or URLs for downloadable versions) must not be
+referenced. </p>
+
+<p>Common sense and careful writing can go a long way toward preserving
+anonymity without diminishing the quality or impact of a paper. The goal is to
+preserve anonymity while still allowing the reader to fully grasp the context
+(related past work, including your own) of the submitted paper. In past years
+this goal has been achieved successfully by hundreds of papers. </p>
+
+<p><i>It is the responsibility of authors to do <b>their</b>
+very best to preserve anonymity. Papers that do not follow the guidelines here,
+or otherwise potentially reveal the identity of the authors, are subject to
+immediate rejection. </i></p>
+
+</div>
+</div>
+<!--endMainContent -->
+<!-- footer -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+    <!-- footer -->
+    <title></title>
+  </head>
+  <body>
+    <div id="footer"> <img src="images/bottom_logos_2012a.png">
+      <table border="0" width="740">
+        <tbody>
+          <tr>
+            <td width="138">
+              <div align="center"><img src="images/sigmod-logo.png"
+                  alt="" hspace="10" vspace="10" width="80"></div>
+            </td>
+            <!-- <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td> -->
+            <td width="465">&nbsp;</td>
+            <td width="155"><a href="http://www.acm.org"><img
+                  src="images/acm.png" alt="ACM"
+                  longdesc="http://www.acm.org" width="160"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="images/bottom_logos_2012b.jpg">
+      <!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        --> </div>
+    <!-- end of wrap -->
+    <p> </p>
+    <div id="credits"> <a href="about.shtml">Credits</a>
+      <table align="center">
+        <tbody>
+          <tr>
+          </tr>
+          <tr valign="center">
+            <td>Follow us:</td>
+            <td><a href="https://www.facebook.com/AcmSigmod2013"><img
+                  src="images/facebook-icon.png"></a></td>
+            <td> <a href="http://twitter.com/acmsigmod2013"><img
+                  src="images/twitter-icon.png"></a></td>
+            <td> <a
+                href="https://plus.google.com/u/0/communities/102395415671629698034"><img
+                  src="images/google-plus.gif" height="35" width="35"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+</body>
+</html>
+
+

@@ -1,0 +1,725 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA - Conference Program:  PODS Sessions</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+			
+			<div id="maincontent">
+				  <h1>Conference Program:  PODS Sessions</h1>
+	
+
+
+<p>This page describes the complete PODS Conference program.
+			  Please use the following links to skip to
+			  the sessions of interest:
+<ul>
+<li><a style="color: rgb(204, 102, 0);text-decoration: none;" href="#keynote">Keynote Talk</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;"
+			  href="#research">Research Sessions</a>
+  <li><a style="color: rgb(204, 102,0);text-decoration: none;" href="#tutorial">Tutorials</a>
+<li><a style="color: rgb(204, 102,0);text-decoration: none;"
+			  href="#poster">Poster Session</a>
+</ul>
+<p>
+<h1><strong><a name="keynote" id="keynote"></a>KEYNOTE TALK</strong></h1>
+<h3>What Next? A Half-Dozen Data Management Research Goals for Big Data and Cloud</h3>
+<p>Monday, 8:30-9:45<br/>
+<span class="location">Location: Arizona Ballroom I-VIII</span><br/>
+<span class="hashtag">Hashtag: #pods12 #keynote</span><br/>
+Surajit Chaudhuri (Microsoft Research)<br />
+Session Chair: Maurizio Lenzerini (University of Rome La Sapienza)<br />
+</p>
+
+<h1><a name="research" id="research"></a>RESEARCH SESSIONS </h1> 
+<h3><a name="pods1"></a>Session 1: Streaming</h3>
+<p>
+Monday, 10:15-11:45 <br/>
+<span class="location">Location: Arizona Ballroom V-VIII</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R1Px</span><br/>
+Session Chair: Milan Vojnovic (Microsoft Research, Cambridge)
+						
+<ul>						
+<li>						
+<strong>	  Graph Sketches: Sparsification, Spanners, and
+  Subgraphs	</strong><br/>	   Kook Jin Ahn, University of Pennsylvania; Sudipto Guha, University of Pennsylvania; Andrew McGregor, University of Massachusetts, Amherst
+<li><strong>	  Approximating and Testing k-Histogram Distributions in Sub-linear Time</strong><br/>
+  Piotr Indyk, MIT; Reut Levi, Tel Aviv University; Ronitt Rubinfeld, MIT
+<li><strong>	  Mergeable Summaries</strong><br/>  Pankaj
+  Agarwal, Duke University; Graham Cormode, AT&T Labs-Research;
+  Zengfeng Huang, The Hong Kong University of Science and Technology;
+  Jeff Phillips, University of Utah; Zhewei Wei, The Hong Kong
+  University of Science and Technology; Ke Yi, The Hong Kong
+  University of Science and Technology
+ </ul>
+</p>
+
+<h3><a name="pods2"></a> Session 2: Awards Session</h3>
+<p>
+Monday, 13:15-14:30 <br/>
+<span class="location">Location: Arizona Ballroom V-VIII</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R2Px</span><br/>
+Session Chair:  Richard Hull (IBM T. J. Watson Research Center)
+
+<ul>
+<li>
+<strong>	The ACM PODS Alberto O. Mendelzon Test-of-Time Award:
+  Containment and Equivalence for an XPath Fragment	</strong><br
+  />	Gerome Miklau, University of Massachusetts, Amherst; Dan
+  Suciu, University of Washington
+						
+<li><strong>	Best Paper Award: Worst-case Optimal Join Algorithms	</strong><br />	Hung Q. Ngo, University at Buffalo, SUNY; Ely Porat, Bar-Ilan University; Christopher R&#233;, University of Wisconsin-Madison; Atri Rudra, University at Buffalo, SUNY 
+
+<li><strong>	Regular Paper: Deterministic Regular Expressions in Linear Time	</strong><br />	Benoit Groz, INRIA and University of Lille; Sebastian Maneth, NICTA and UNSW; Slawek Staworko, INRIA and University of Lille
+</ul>						
+</p>
+
+<h3><a name="pods3"></a>Session 3: 
+Tutorial Session 1</h3>
+<p>
+Monday, 14:45-15:45 <br/>
+<span class="location">Location: Arizona Ballroom V-VIII</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R3P1</span><br/>
+Session Chair:  Phokion Kolaitis (University of California, Santa
+Cruz and IBM Almaden Research Center)
+
+<ul>  
+<li><strong>Tutorial 1: Linguistic Foundations for Bidirectional
+  Transformations</strong><br/>
+  Benjamin C. Pierce, University of Pennsylvania
+</ul>						
+</p>						
+
+
+<h3>	<a name="pods4"></a> Session 4: Privacy and Semantic Web </h3>
+<p>
+Monday, 16:15-18:15<br/>
+<span class="location">Location: Arizona Ballroom V-VIII</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R4Px</span><br/>
+Session Chair: Pierre Senellart (T&eacute;l&eacute;com ParisTech)
+						
+<ul>				
+<li><strong>	   The Power of the Dinur-Nissim Algorithm: Breaking Privacy of Statistical and Graph Databases	</strong><br />	   Krzysztof Choromanski, Columbia University; Tal Malkin, Columbia University
+
+<li><strong>	   A Rigorous and Customizable Framework for Privacy	</strong><br />	   Daniel Kifer, Penn State University; Ashwin Machanavajjhala, Yahoo! Research
+
+
+<li><strong>	  Static Analysis and Optimization of Semantic Web
+  Queries	</strong><br />	   Andr&#233;s Letelier, PUC Chile;
+  Jorge P&#233;rez, Universidad de Chile; Reinhard Pichler, Technische
+  Universit&#228;t Wien; Sebastian Skritek, Technische Universit&#228;t
+  Wien
+  
+<li><strong>	   The Complexity of Evaluating Path Expressions in SPARQL	</strong><br />	   Katja Losemann, Universit&#228;t Bayreuth; Wim Martens, Universit&#228;t Bayreuth		
+</ul>						
+</p>		
+				
+<h3>	<a name="pods5"></a> Session 5:               	Range Queries</h3>
+<p>
+Tuesday, 
+10:30-12:00 <br/>
+<span class="location">Location: Arizona Ballroom I-III</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R5Px</span><br/>
+Session Chair: Srikanta Tirthapura (Iowa State)	
+<ul>
+<li><strong>	Space-Efficient Range Reporting for Categorical Data	</strong><br />	Yakov Nekrich, Universidad de Chile		
+						
+						
+<li><strong>Dynamic Top-K Range Reporting in External Memory	</strong><br />	Cheng Sheng, Chinese University of Hong Kong; Yufei Tao, Korea Advanced Institute of Science and Technology		
+						
+						
+<li><strong>	Indexability of 2D Range Search Revisited: Constant
+  Redundancy and Weak Indivisibility	</strong><br />	Yufei Tao, Chinese University of Hong Kong
+</ul>						
+</p>
+
+<h3><a name="pods6"></a> Session 6:  Tutorial Session 2</h3>
+<p>
+Tuesday, 13:30-15:00<br/>
+<span class="location">Location: Arizona Ballroom II-III</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R6Px</span><br/>
+Session Chair: David Woodruff (IBM Almaden Research Center)
+						
+<ul>					
+<li><strong> Tutorial 2: Approximate Computation and Implicit
+  Regularization for Very Large-scale Data Analysis </strong><br />
+  Michael W. Mahoney, Stanford University
+<li><strong>	Regular Paper: Max-Sum Diversification, Monotone Submodular Functions and Dynamic Updates	</strong><br />	Allan
+  Borodin, University of Toronto; Hyun Chul Lee, LinkedIn Corporation;
+  Yuli Ye, University of Toronto
+ </ul>
+						
+</p>						
+<h3>	<a name="pods7"></a>Session 7:  	Views
+and Data Exchange  </h3>
+<p>
+ Tuesday, 16:45-18:15<br/>
+ <span class="location">Location: Arizona Ballroom I-III</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R7Px</span><br/>
+ Session Chair:  Jan Paredaens (University of Antwerp)
+<ul>						
+						
+						
+<li><strong>Query-Based Data Pricing	</strong><br />	Paraschos
+  Koutris, University of Washington; Prasang Upadhyaya, University of
+  Washington; Magdalena Balazinska, University of Washington; Bill
+  Howe, University of Washington; Dan Suciu, University of Washington
+  						
+<li><strong>Local Transformations and Conjunctive-Query Equivalence
+  </strong><br />	Ronald Fagin, IBM Almaden Research Center;
+  Phokion G. Kolaitis, University of California, Santa Cruz and IBM
+  Almaden Research Center
+  
+<li><strong>A Dichotomy in the Complexity of Deletion Propagation with
+  Functional Dependencies	</strong><br />	Benny Kimelfeld, IBM
+  Almaden Research Center
+</ul>
+						
+</p>						
+<h3><a name="pods8"></a> Session 8: 
+Indexing</h3>
+<p>
+Wednesday, 10:30-12:00<br/>
+<span class="location">Location: Arizona Ballroom I-III</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R8Px</span><br/>
+Session Chair:  Yakov Nekrich (University of Bonn)
+						
+<ul>						
+<li><strong>	The Wavelet Trie: Maintaining an Indexed Sequence of
+  Strings in Compressed Space	</strong><br />	Roberto Grossi,
+  Universit&#224; di Pisa; Giuseppe Ottaviano, Universit&#224; di Pisa						
+<li><strong>	On the Optimality of Clustering Properties of Space
+  Filling Curves	</strong><br />	Pan Xu, Iowa State University;
+  Srikanta Tirthapura, Iowa State University
+  
+						
+						
+<li><strong>	Nearest-Neighbor Searching Under Uncertainty
+  </strong><br />	Pankaj K. Agarwal, Duke University; Alon
+  Efrat, The University of Arizona; Swaminathan Sankararaman, Duke
+  University; Wuzhou Zhang, Duke University 
+</ul>
+								
+						
+						
+</p>						
+<h3><a name="pods9"></a> Session 9:	Query
+Languages  </h3>
+<p>
+Wednesday, 14:00-15:30<br/>
+<span class="location">Location: Arizona Ballroom I-III</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R9Px</span><br/>
+Session Chair:  Daniel Kifer (Penn State University)	
+						
+						
+<ul>						
+<li><strong>	Classification of Annotation Semirings over Query Containment	</strong><br />	Egor V. Kostylev, University of
+  Edinburgh; Juan L. Reutter, University of Edinburgh; Andr&#225;s
+  Z. Salamon, University of Edinburgh
+  						
+<li><strong>	Efficient Approximations of Conjunctive Queries
+  </strong><br />	Pablo Barcel&#243;, Universidad de Chile;
+  Leonid Libkin, University of Edinburgh; Miguel Romero, Universidad
+  de Chile
+<li><strong>	On the Complexity of Package Recommendation Problems
+  </strong><br />	Ting Deng, Beihang University; Wenfei Fan,
+  University of Edinburgh; Floris Geerts, University of Antwerp
+  </ul>
+  						
+</p>
+  
+<h3><a name="pods10"></a> Session 10: 
+Streaming and Aggregation</h3>
+<p>
+ Wednesday, 16:00-18:00<br/>
+ <span class="location">Location: Arizona Ballroom I-III</span><br/>
+<span class="hashtag">Hashtag: #pods12 #R10Px</span><br/>
+Session Chair:  Yufei Tao (Chinese University of Hong Kong)
+  
+<ul>						
+<li><strong>	Space-Efficient Estimation of Statistics over
+  Sub-Sampled Streams	</strong><br />	Andrew McGregor, University of
+  Massachusetts, Amherst; A. Pavan, Iowa State University; Srikanta
+  Tirthapura, Iowa State University; David Woodruff, IBM Almaden
+  Research Center
+  
+<li><strong>	Rectangle-Efficient Aggregation in Spatial Data Streams	</strong><br />	Srikanta Tirthapura, Iowa State University; David Woodruff, IBM Almaden Research Center
+<li><strong>	Randomized Algorithms for Tracking Distributed Count, Frequencies, and Ranks	</strong><br />	Zengfeng Huang, Hong Kong University of Science and Technology; Ke Yi, Hong Kong University of Science and Technology; Qin Zhang, Aarhus University
+<li><strong>	Continuous Distributed Counting for Non-monotonic Streams	</strong><br />	Zhenming Liu, Harvard University;
+  Bozidar Radunovic, Microsoft Research; Milan Vojnovic, Microsoft
+  Research
+</ul>						
+</p>						
+							
+<h1><a name="tutorial" id="tutorial"></a>TUTORIAL SESSIONS </h1> 
+ <ul>
+  <li><strong>Tutorial 1: Linguistic Foundations for Bidirectional
+  Transformations</strong><br/>
+  Monday, 14:45-15:45 <br/>
+  <span class="location">Location: Arizona Ballroom V-VIII</span><br/>
+  <span class="hashtag">Hashtag: #pods12 #R3P1</span><br/>
+  Benjamin C. Pierce, University of Pennsylvania
+  <li><strong> Tutorial 2: Approximate Computation and Implicit
+  Regularization for Very Large-scale Data Analysis </strong><br />
+  Tuesday, 13:30-15:00<br/>
+  <span class="location">Location: Arizona Ballroom II-III</span><br/>
+	<span class="hashtag">Hashtag: #pods12 #R6Px</span><br/>
+	Michael W. Mahoney, Stanford University
+ </ul>
+
+
+ <h1><a name="pods" id="poster"></a>POSTER SESSION </h1>
+ <p>
+ Tuesday, 15:00-16:30</br>
+<span class="location">Location: Vaquero Ballroom B-C</span></br>
+<span class="hashtag">Hashtag: #sigmod12 #pods12 #rp1</span></br>
+<ul>
+<li><strong>PODS/SIGMOD Research Plenary Poster Session</strong><br />
+
+  Papers from all PODS Sessions and from SIGMOD Sessions Research 1 to 7
+ </ul>
+</p>
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

@@ -1,0 +1,1272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - Program: Overview</title>
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+
+		table.day{
+			font-family: Sans-Serif;
+			border-width: 0px;
+			border-spacing: 1px;
+			border-color: black;
+			width: 550pt;            
+		}
+		table.day td {
+			line-height: 110%;
+			border-width: 1px 1px 1px 1px;
+			padding: 2px 0px 2px 0px;
+			border-style: dotted;
+			border-color: gray gray gray gray;
+			background-color: white;
+			text-align: center;
+			vertical-align: middle;
+		}
+		table.day td.header{
+			font-size: 130%;
+			font-weight: bold;
+			padding: 8px;
+			background-color: #383838;
+			color: white;           
+		}
+		table.day td.keynote{
+			background-color: #f4cae4;
+			color: black;           
+		}
+		table.day td.time{
+			width: 6%;          
+		}
+		table.day td.nosession{
+			background-color:   #F0F0F0 ;
+			color:  #989898; 
+			width: 5%;           
+		}
+		table.day td.lunch{
+			background-color: #C0C0C0;
+			color: black;           
+		}
+		table.day td.pods{
+			background-color: #cdebc6;
+		}
+		table.day td.sigmod{
+			background-color: #c6d9f1;          
+		}
+		table.day td.tutorial{
+			background-color: #d9d9d9;
+		}
+		table.day td.workshop{
+			background-color: #8dd3c7;          
+		}  
+		table.day td.reception{
+			background-color: #fb8072;          
+		}
+		table.day td.industrial{
+			background-color: #ffffb3;           
+		}       
+		table.day td.demo{
+			background-color: #e6f5c9;                  
+		}
+		table.day td.business{
+			background-color: #ffc000;                  
+		}  
+		table.day td.welcome{
+			background-color: #fdcdac;                  
+		}
+		table.day td.inv{
+			background-color: #fde9d9;                  
+		}
+		li.program_item{
+			margin-bottom: 5px;
+			line-height: 1.3em;
+		}
+		h3.session{
+			margin-bottom: 0px;
+			padding-top:10px;
+			padding-bottom:1px;
+			padding-left: 10px;
+			line-height: 1em;
+		}
+		p.chair{
+			color: #006697;
+			padding-left: 10px;			
+			margin-top:-1px;
+		}
+
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+
+
+
+</head>
+<body>
+
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+
+<br />
+<a name="top" id="top"></a>
+				  <h1>SIGMOD/PODS 2011 Program Overview</h1>
+
+<p>				  
+<a href="index.shtml">Back to homepage</a>
+</p><br/>
+
+<strong>Registration Hours:</strong>
+<ul>
+<li>Sunday: 7:30-18:00</li>
+<li>Monday: 7:30 - 16:00</li>
+<li>Tuesday: 7:30 - 16:00</li>
+<li>Wednesday: 8:00 - 16:00</li>
+<li>Thursday: 8:00 - 12:00</li>
+</ul>
+			  
+
+<p align=""><strong>Conference Days:</strong> <a href="#sunday">Sunday</a>
+| <a href="#monday">Monday</a> | <a href="#tuesday">Tuesday</a> | <a href="#wednesday">Wednesday</a> | <a href="#thursday">Thursday</a>
+</p>
+
+<p>
+All SIGMOD research sessions which are 90 minutes long will have 4
+papers.<br />
+The 120 minutes long sessions on Tuesday afternoon will have 5 papers.
+</p> 
+
+
+<p> </p>
+
+
+<div align="center">
+
+
+<div style="margin-left: 5px;"><!-- SUNDAY, JUNE 6, 2010 --> <a name="sunday"> </a>
+<table class="day" width="550">
+  <tbody>
+    <tr>
+      <td class="header" colspan="5">
+      <p align="center"><strong>SUNDAY AT A GLANCE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(JUNE 12, 2011)</strong></p>
+      </td>
+    </tr>
+<!--
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Continental Breakfast<br /> 
+      (Cosmopolitan CD Foyer)</p></td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="33"><p align="center">8:30-10:00</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://webdb2011.org/">WebDB</a><br />(Cosmopolitan C)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://keys2011.uni-bonn.de/">KEYS</a><br />(Cosmopolitan D)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://www.softnet.tuc.gr/mobide10/">MobiDE</a><br />(Discovery A)</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://wands2011.doc.ic.ac.uk/">WANDS</a><br /> 
+      (Discovery B)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">10:00-10:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Coffee Break<br /> 
+      (Cosmopolitan CD Foyer)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">10:30-12:00</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://webdb2011.org/">WebDB</a><br />(Cosmopolitan C)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://keys2011.uni-bonn.de/">KEYS</a><br />(Cosmopolitan D)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://www.softnet.tuc.gr/mobide10/">MobiDE</a><br />(Discovery A)</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://wands2011.doc.ic.ac.uk/">WANDS</a><br /> 
+      (Discovery B)</p></td> 
+  </tr> 
+
+
+
+  <tr> 
+    <td width="33"><p align="center">12:00-13:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Lunch Provided<br />(Cosmopolitan AB)</p></td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="33"><p align="center">13:30-15:00</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://webdb2011.org/">WebDB</a><br />(Cosmopolitan C)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://keys2011.uni-bonn.de/">KEYS</a><br />(Cosmopolitan D)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://www.softnet.tuc.gr/mobide10/">MobiDE</a><br />(Discovery A)</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://wands2011.doc.ic.ac.uk/">WANDS</a><br /> 
+      (Discovery B)</p></td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="33"><p align="center">15:00-15:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Coffee Break<br /> 
+      (Cosmopolitan CD Foyer)</p></td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="33"><p align="center">15:30-17:00</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://webdb2011.org/">WebDB</a><br />(Cosmopolitan C)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://keys2011.uni-bonn.de/">KEYS</a><br />(Cosmopolitan D)</p></td> 
+    <td width="118" colspan="1" class="tutorial"><p align="center"><a href="http://www.softnet.tuc.gr/mobide10/">MobiDE</a><br />(Discovery A)</p></td> 
+    <td width="118" class="tutorial"><p align="center"><a href="http://wands2011.doc.ic.ac.uk/">WANDS</a><br /> 
+      (Discovery B)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">18:00-21:00</p></td> 
+    <td width="439" colspan="10" class="reception"><p align="center"><strong>PODS Reception</strong><br/>(Cosmopolitan AB)</p></td> 
+  </tr>
+  -->
+  </tbody>
+</table>
+
+<table class="day" width="550">
+  <tbody>
+ 
+  
+  <tr>
+    <td width="68">
+    <p align="center">8:00-9:00</p>
+    </td>
+    <td colspan="5" width="62">Continental Breakfast<br/>(Olympia Foyer)</td> 
+  </tr>
+  
+  <tr>
+    <td width="34">
+    <p align="center">9:00-10:30</p>
+    </td>
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">MobiDE Workshop</a><br/>(Olympia A)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">WebDB Workshop</a><br/>(Olympia B)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">NetDB Workshop</a><br/>(Vergina)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">DBSocial Workshop</a><br/>(Pella)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">SWIM Workshop</a><br/>(Mycenae)</td> 
+  </tr>
+ 
+ 
+ 
+  <tr>
+    <td width="34">
+    <p align="center">10:30-11:00</p>
+    </td>
+    <td colspan="5" width="62">Coffee Break</br>(Olympia Foyer)</td> 
+  </tr>
+  
+  <tr>
+    <td width="34">
+    <p align="center">11:00-12:30</p>
+    </td>
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">MobiDE Workshop</a><br/>(Olympia A)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">WebDB Workshop</a><br/>(Olympia B)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">NetDB Workshop</a><br/>(Vergina)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">DBSocial Workshop</a><br/>(Pella)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">SWIM Workshop</a><br/>(Mycenae)</td> 
+  </tr>
+
+  
+  
+  <tr>
+    <td width="34">
+    <p align="center">12:30-14:00</p>
+    </td>
+    <td colspan="5" width="62">Lunch Provided for all the Workshops of the day participants<br/>(Amalia)</td> 
+  </tr>
+  
+  <tr>
+    <td width="34">
+    <p align="center">14:00-15:30</p>
+    </td>
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">MobiDE Workshop</a><br/>(Olympia A)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">WebDB Workshop</a><br/>(Olympia B)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">NetDB Workshop</a><br/>(Vergina)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">DBSocial Workshop</a><br/>(Pella)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">SWIM Workshop</a><br/>(Mycenae)</td> 
+  </tr>
+
+  
+  
+  <tr>
+    <td width="34">
+    <p align="center">15:30-16:00</p>
+    </td>
+    <td colspan="5" width="62">Coffee Break<br/>(Olympia Foyer)</td> 
+  </tr>
+  
+  <tr>
+    <td width="34">
+    <p align="center">16:00-17:00</p>
+    </td>
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">MobiDE Workshop</a><br/>(Olympia A)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">WebDB Workshop</a><br/>(Olympia B)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">NetDB Workshop</a><br/>(Vergina)</td> 
+    <td class="workshop" width="59"><a href="affiliatedconfs.shtml">DBSocial Workshop</a><br/>(Pella)</td> 
+    <td class="workshop" width="62"><a href="affiliatedconfs.shtml">SWIM Workshop</a><br/>(Mycenae)</td> 
+  </tr>
+
+  <tr>
+    <td width="34">
+    <p align="center">17:00-17:30</p>
+    </td>
+    <td colspan="5" width="62">Open</td> 
+  </tr>
+
+  
+    <tr>
+      <td width="34">
+      <p align="center">17:30-20:00</p>
+      </td>
+      <td colspan="5" class="reception" width="437">
+      <p align="center"><a href="http://www.sigmod2011.org/pods_anniversary.shtml"><strong>PODS
+30th Anniversary Colloquium</strong></a><br/>(Horizon)
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">20:00-22:00</p>
+      </td>
+      <td colspan="5" class="reception" width="437">
+      <p align="center"><strong>PODS Reception</strong><br/>(Roof Garden)
+      </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<a href="#top">top</a>
+<br />
+
+<!-- MONDAY, JUNE 13, 2011-------------------------------------------------------------->
+<a name="monday"> </a>
+<table class="day" width="550">
+  <tbody>
+    <tr>
+      <td class="header" colspan="9">
+      <p align="center"><strong>MONDAY AT A GLANCE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (JUNE 13, 2011) </strong></p>
+      </td>
+    </tr>
+  <tr> 
+    <td width="88"><p align="center">8:00-8:30</p></td> 
+    <td colspan="8" width="437"><p align="center">Continental Breakfast<br/>(Olympia Foyer)<br />
+</p></td> 
+  </tr> 
+
+    <tr> 
+    <td width="34"><p align="center">8:45-9:00</p></td> 
+    <td colspan="8" class="welcome" width="437"><p align="center"><strong>PODS Opening</strong><br/>(Olympia)<br />
+</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">9:00-10:00</p></td> 
+    <td colspan="8" class="keynote" width="437"><p align="center"><a href="program_pods.shtml#pods1">PODS Session 1: Keynote</a><br />(Olympia)<br/>
+</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">10:00-10:30</p></td> 
+    <td colspan="8" width="437"><p align="center">Coffee Break<br/>(Olympia Foyer)<br />
+</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">10:30-12:00</p></td> 
+    <td class="pods" colspan="4" width="70"><p align="center"><a href="program_pods.shtml#pods2">PODS Session 2</a><br/>(Olympia)<br />
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a href="affiliatedconfs.shtml">DaMoN Workshop</a><br/>(Pella)
+</td> 
+    <td class="workshop" colspan="2" width="59"><a href="affiliatedconfs.shtml">DBTest Workshop</a><br/>(Mycenae)
+</td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">12:00-13:30</p></td> 
+    <td colspan="8" width="437"><p align="center">Lunch Provided for DaMoN and DBTest Participants only<br/>(Amalia)</p></td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">13:30-15:00</p></td> 
+    <td class="pods" colspan="4" width="70"><br />
+<p align="center"><a href="program_pods.shtml#pods3">PODS Session 3 </a><br />
+Awards Presentation<br />(Olympia)
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a href="affiliatedconfs.shtml">DaMoN Workshop</a><br/>(Pella)
+</td> 
+    <td class="workshop" colspan="2" width="59"><a href="affiliatedconfs.shtml">DBTest Workshop</a><br/>(Mycenae)
+</td> 
+  </tr> 
+
+
+
+  <tr> 
+    <td width="34"><p align="center">15:00-15:30</p></td> 
+    <td colspan="8" width="437"><p align="center">Coffee Break<br/>(Olympia Foyer)</p></td> 
+  </tr> 
+
+
+
+  <tr> 
+    <td width="34"><p align="center">15:30-17:00</p></td> 
+    <td class="pods" colspan="4" width="70"><p align="center"><a href="program_pods.shtml#pods4">PODS Session 4 </a><br/>(Olympia)<br />
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a href="affiliatedconfs.shtml">DaMoN Workshop</a><br/>(Pella)<br />
+</td> 
+    <td class="workshop" colspan="2" width="59"><a href="affiliatedconfs.shtml">DBTest Workshop</a><br/>(Mycenae)<br />
+</td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">17:00-17:30</p></td> 
+    <td colspan="8" width="437"><p align="center">Coffee Break<br/>(Olympia Foyer)<br />
+</p></td> 
+  </tr> 
+
+  
+ 
+  <tr> 
+    <td width="34"><p align="center">17:30-19:00</p></td> 
+    <td colspan="4" width="70"><p align="center"></td> 
+    <td colspan="2" class="workshop" width="62"><a href="affiliatedconfs.shtml">DaMoN Workshop</a><br/>(Pella)</td>
+    <td colspan="2" class="workshop" width="59"><a href="affiliatedconfs.shtml">DBTest Workshop</a><br/>(Mycenae)</td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">19:00-20:00</p></td> 
+    <td colspan="8" class="business" width="437"><p align="center"><strong>PODS Business Meeting</strong><br />
+	(Olympia)<br />
+</p></td> 
+  </tr> 
+ 
+    
+
+    <tr>
+      <td width="34">
+      <p align="center">20:00-22:30</p>
+      </td>
+      <td colspan="8" class="reception" width="437">
+      <p align="center"><strong><a href="program_sigmod.shtml#posters">SIGMOD Reception, Undergraduate
+Poster Competition, and Graduate Poster Session</a></strong><br/>(Roof Garden)<br />
+      </p>
+      </td>
+    </tr>
+<!--
+  <tr> 
+    <td width="34"><p align="center">21:00-23:00</p></td> 
+    <td width="437" colspan="8" class="welcome"><p align="center"><strong>PODS Business Meeting</strong><br /> 
+      (Cosmopolitan CD)</p></td> 
+  </tr> 
+
+-->
+  </tbody>
+</table>
+<a name="monday"> </a><a href="#top">top</a>
+<br />
+<!-- TUESDAY, JUNE 14, 2011 -------------------------------------------------------------->
+<a name="tuesday"> </a>
+<table class="day" width="550">
+  <tbody>
+    <tr>
+      <td class="header" colspan="8">
+      <p align="center"><strong>TUESDAY AT A GLANCE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (JUNE 14, 2011) </strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="78">
+      <p align="center">8:00-8:45</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center">Continental Breakfast<br/>(Olympia Foyer)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">8:45-9:00</p>
+      </td>
+      <td colspan="7" class="welcome" width="437">
+      <p align="center"><strong>SIGMOD Opening</strong><br/>(Olympia)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">9:00-10:00</p>
+      </td>
+      <td colspan="7" class="keynote" width="437">
+      <p align="center"><a href="./program_sigmod.shtml#keynote">SIGMOD
+Keynote 1</a><br/>(Olympia)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center">Coffee Break<br/>(Olympia Foyer)</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">10:30-12:00</p>
+      </td>
+      <td class="pods" width="70">
+      <p align="center"><a href="program_pods.shtml#pods5">PODS
+Session 5 </a><br/>(Horizon)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#res1">SIGMOD
+Res. 1</a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="59">
+      <p align="center"><a href="./program_sigmod.shtml#res2">SIGMOD
+Res. 2</a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#res3">SIGMOD
+Res. 3</a><br/>(Vergina)<br />
+      </p>
+      </td>
+      <td class="tutorial" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial1">SIGMOD
+Tutorial 1 (part 1)</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td class="industrial" width="61">
+      <p align="center"><a href="./program_sigmod.shtml#ind1">Industry Keynote 1 <br />and<br />SIGMOD
+Industry 1</a><br/>(Pella)<br />
+      </p>
+      </td>
+      <td class="demo" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#demoA">SIGMOD
+Demo A</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">12:00-13:30</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center">Lunch Provided<br/>(Ilissos/Amalia)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">13:30-15:00</p>
+      </td>
+      <td class="pods" width="70">
+      <p align="center"><a href="program_pods.shtml#pods6">PODS
+Session 6</a><br/>(Horizon)<br />
+</p>
+      </td>
+      <td class="sigmod" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#res4">SIGMOD
+Res. 4</a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="59">
+      <p align="center"><a href="./program_sigmod.shtml#res5">SIGMOD
+Res. 5</a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#res6">SIGMOD
+Res. 6</a><br/>(Vergina)<br />
+      </p>
+      </td>
+      <td class="tutorial" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial1">SIGMOD
+Tutorial 1 (part 2)</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td class="industrial" width="61">
+      <p align="center"><a href="./program_sigmod.shtml#ind2">SIGMOD
+Industry 2</a><br/>(Pella)<br />
+      </p>
+      </td>
+      <td class="demo" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#demoB">SIGMOD
+Demo B</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">15:00-15:30</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center">Coffee Break<br/>(Olympia Foyer &amp; Mezzanine Floor)</p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td rowspan="1" width="34">
+      <p align="center">15:30-16:30</p>
+      </td>
+      <td rowspan="1" class="pods" width="70">
+      <p align="center"><a href="program_pods.shtml#pods7">PODS
+Session 7: Tutorial 1</a><br/>(Horizon)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="sigmod" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#res7">SIGMOD
+Res. 7</a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="sigmod" width="59">
+      <p align="center"><a href="./program_sigmod.shtml#res8">SIGMOD
+Res. 8</a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="sigmod" width="59">
+      <p align="center"><a href="./program_sigmod.shtml#res9">SIGMOD
+Res. 9</a><br/>(Vergina)<br />
+      </p>
+      </td>
+<!-- <td rowspan="2"></td>--> <td rowspan="2" class="tutorial" width="62">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial2">SIGMOD
+Tutorial 2</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td rowspan="2" width="79">
+      </td>
+      <td rowspan="2" class="demo" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#demoC">SIGMOD
+Demo C</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+	<tr>
+	  <td width="34"><p align="center">16:30-17:30</p></td>
+	  <td></td>
+	</tr>
+	
+    <tr>
+      <td width="34">
+      <p align="center">17:30-18:00</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center">Open<br/></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">18:00-20:30</p>
+      </td>
+      <td colspan="7" class="reception" width="437">
+      <p align="center"><strong><a href="http://www.cs.wisc.edu/~chrisre/SIGMOD11-NRS.html">
+	  New Researchers Symposium</a></strong><br/>
+	  (Olympia)<br />
+  </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">20:30-23:00</p>
+      </td>
+      <td colspan="7" class="business" width="437">
+      <p align="center"><strong>Microsoft Reception</strong><br/>(Olympia Foyer)<br />
+      </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<a name="tuesday"> </a><a href="#top">top</a>
+<br />
+<!-- WEDNESDAY, JUNE 15, 2011 --> <a name="wednesday"> </a>
+<table class="day" width="550">
+  <tbody>
+    <tr>
+      <td class="header" colspan="8">
+      <p align="center"><strong>WEDNESDAY AT A GLANCE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (JUNE 15, 2011) </strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="75">
+      <p align="center">8:00-8:30</p>
+      </td>
+      <td colspan="7" width="475">
+      <p align="center">Continental Breakfast<br/>(Olympia Foyer)<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td rowspan="1" width="75">
+      <p align="center">8:30-9:00</p>
+      </td>
+      <td rowspan="1" width="67">
+      </td>
+      <td rowspan="2" class="sigmod" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#res10">SIGMOD <br />
+Res. 10</a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="sigmod" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#res11">SIGMOD <br />
+Res. 11</a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="sigmod" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#res12">SIGMOD <br />
+Res. 12</a><br/>(Vergina)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="tutorial" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial3">SIGMOD
+      <br />
+Tutorial 3</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="industrial" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#ind3">SIGMOD <br />
+Industry 3</a><br/>(Pella)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="demo" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#demoD">SIGMOD <br />
+Demo D</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+	<tr>
+	  <td align="center">9:00-10:00</td>
+      <td class="pods" width="67">
+      <p align="center"><a href="program_pods.shtml#pods8">PODS
+Session 8: Tutorial 2</a><br/>(Horizon)<br />
+      </a></p>
+      </td>
+	</tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td colspan="7" width="439">
+      <p align="center">Coffee Break<br/>(Olympia Foyer &amp; Mezzanine Floor)</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="75">
+      <p align="center">10:30-12:00</p>
+      </td>
+      <td class="pods" width="67">
+      <p align="center"><a href="program_pods.shtml#pods9">PODS
+Session 9</a><br/>(Horizon)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#res13">SIGMOD <br />
+Res. 13</a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#res14">SIGMOD <br />
+Res. 14</a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#res15">SIGMOD <br />
+Res. 15</a><br/>(Vergina)<br />
+      </p>
+      </td>
+      <td class="tutorial" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial4">SIGMOD
+      <br />
+Tutorial 4</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td class="industrial" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#ind4">Industry Keynote 2<br />and<br /> SIGMOD 
+Industry 4</a><br/>(Pella)<br />
+      </p>
+      </td>
+      <td class="demo" width="67">
+      <p align="center"><a href="./program_sigmod.shtml#demoB">SIGMOD <br />
+Demo B</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="75">
+      <p align="center">12:00-13:30</p>
+      </td>
+      <td colspan="7" width="475">
+      <p align="center">Lunch Provided<br/>(Ilissos/Amalia)
+      <br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="75">
+      <p align="center">13:30-14:00</p>
+      </td>
+      <td colspan="7" class="business" width="475">
+      <p align="center"><strong>SIGMOD Business Meeting</strong><br/>(Olympia)
+      <br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="75">
+      <p align="center">14:00-15:45</p>
+      </td>
+      <td colspan="7" class="reception" width="475">
+      <p align="center"><strong>SIGMOD Awards Presentations</strong><br/>(Olympia)</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="33">
+      <p align="center">15:45-16:00</p>
+      </td>
+      <td colspan="7" width="439">
+      <p align="center">Coffee Break<br/>(Olympia Foyer)<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td rowspan="1" width="33">
+      <p align="center">16:00-17:00</p>
+      </td>
+      <td rowspan="1" class="pods" width="65">
+      <p align="center"><a href="program_pods.shtml#pods10">PODS
+Session 10</a><br/>(Horizon)<br />
+</p>
+      </td>
+      <td rowspan="2" class="sigmod" colspan="5" width="60">
+      <p align="center"><a href="./program_sigmod.shtml#plenary">SIGMOD
+Research Plenary I</a><br/>(Ilissos)<br />
+      </p>
+      </td>
+      <td rowspan="2" class="demo" width="53">
+      <p align="center"><a href="./program_sigmod.shtml#demoA">SIGMOD <br />
+Demo A</a><br/>(Mycenae)</p>
+      </td>
+    </tr>
+	<tr>
+	  <td width="33"><p align="center">17:00-18:00</p></td>
+	  <td></td>
+	</tr>
+
+    <tr>
+      <td width="33">
+      <p align="center">18:00-20:00</p>
+      </td>
+      <td colspan="7" width="439">
+      <p align="center">Open<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="33">
+      <p align="center">20:00-23:59</p>
+      </td>
+      <td colspan="7" class="reception" width="439">
+      <p align="center"><strong>Conference Banquet</strong><br/>(Island)<br />
+      </p>
+      </td>
+    </tr>
+	
+  </tbody>
+</table>
+<a name="wednesday"> </a><a href="#top">top</a>
+<br />
+<!-- THURSDAY, JUNE 16, 2011 --> <a name="thursday"> </a>
+<table class="day" width="550">
+  <tbody>
+  
+    <tr>
+      <td class="header" colspan="8">
+      <p align="center"><strong> THURSDAY AT A GLANCE
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(JUNE 16, 2011)</strong></p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="88">
+      <p align="center">8:00-8:45</p>
+      </td>
+      <td colspan="7" width="439">
+      <p align="center">Continental Breakfast<br/>(Olympia Foyer)<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">8:45-10:00</p>
+      </td>
+      <td colspan="7" class="keynote" width="439">
+      <p align="center"><a href="./program_sigmod.shtml#keynote">Demo awards and SIGMOD
+Keynote 2 </a><br/>(Olympia)<br />
+      </p>
+      </td>
+    </tr>
+    
+	<tr>
+      <td width="33">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td colspan="7" width="439">
+      <p align="center">Coffee Break<br/>(Olympia Foyer)<br />
+      </p>
+      </td>
+    </tr>
+    
+	<tr>
+      <td width="33">
+      <p align="center">10:30-12:00</p>
+      </td>
+      <td class="sigmod" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#res16">SIGMOD <br />
+Res. 16</a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#res17">SIGMOD <br />
+Res. 17</a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td class="sigmod" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#res18">SIGMOD <br />
+Res. 18</a><br/>(Vergina)<br />
+      </p>
+      </td>
+      <td class="tutorial" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial5">SIGMOD
+      <br />
+Tutorial 5</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td class="inv" width="61" colspan="2">
+      <p align="center"><a href="./program_sigmod.shtml#invited1">Panel
+1</a><br/>(Horizon)<br />
+      </p>
+      </td>
+      <td class="demo" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#demoD">SIGMOD <br />
+Demo D</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">12:00-13:30</p>
+      </td>
+      <td colspan="7" width="202">
+      <p align="center">Lunch Break (on your own)<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">13:30-15:00</p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#res19">SIGMOD <br />
+Res. 19 </a><br/>(Olympia A)<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#res20">SIGMOD <br />
+Res. 20 </a><br/>(Olympia B)<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#res21">SIGMOD <br />
+Res. 21</a><br/>(Vergina)<br />
+      </p>
+      </td>
+      <td colspan="1" class="tutorial" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#tutorial6">SIGMOD
+      <br />
+Tutorial 6</a><br/>(Athens View)<br />
+      </p>
+      </td>
+      <td class="industrial" width="67" colspan="2">
+      <p align="center"><a href="./program_sigmod.shtml#ind5">SIGMOD
+Industry 5</a><br/>(Pella)<br />
+      </p>
+      </td>
+      <td class="demo" width="79">
+      <p align="center"><a href="./program_sigmod.shtml#demoC">SIGMOD <br />
+Demo C</a><br/>(Mycenae)<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">15:00-15:30</p>
+      </td>
+      <td colspan="7" width="439">
+      <p align="center">Coffee Break<br/>(Olympia Foyer)</p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">15:30-17:30</p>
+      </td>
+      <td colspan="7" class="sigmod" width="72">
+      <p align="center"><a href="./program_sigmod.shtml#plenary">SIGMOD
+      <br />
+Research Plenary II</a><br/>(Ilissos)<br />
+      </p>
+      </td>
+    </tr>
+<!--
+    <tr>
+      <td width="33">
+      <p align="center">17:30-17:45</p>
+      </td>
+      <td colspan="6" width="67">
+      <p align="center">Open
+      <br />
+      </p>
+      </td>
+    </tr>
+-->
+  </tbody>
+</table>
+<a href="#top">top</a>
+<br />
+
+<!-- FRIDAY, JUNE 11, 2011 --> <a name="friday"><!--
+<table class="day" width="550"> 
+  <tr> 
+    <td class="header" colspan="5"><p align="center"></a><strong> FRIDAY AT A GLANCE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(JUNE 11, 2011)</strong></p></td> 
+  </tr> 
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Continental Breakfast<br /> 
+      (Cosmopolitan CD Foyer)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">8:30-10:00</p></td> 
+    <td class="tutorial" colspan="2"><p align="center"><a href="http://research.microsoft.com/en-us/um/redmond/events/socc2011/">SOCC</a><br />(Cosmopolitan CD)</p></td> 
+    <td class="tutorial" width="118"><p align="center"><a href="http://www.cs.ubc.ca/~rap/dbme/">Mentoring Workshop</a><br />(Discovery)</p></td> 
+    <td class="tutorial" width="118"><p align="center"><a href="http://www.dcc.ufmg.br/idar2011">IDAR</a><br />(Vision)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">10:00-10:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Coffee Break (Cosmopolitan CD Foyer)</p></td> 
+  </tr>
+
+  <tr> 
+    <td width="33"><p align="center">10:30-12:00</p></td> 
+    <td class="tutorial" colspan="2"><p align="center"><a href="http://research.microsoft.com/en-us/um/redmond/events/socc2011/">SOCC</a><br />(Cosmopolitan CD)</p></td> 
+    <td class="tutorial"><p align="center"><a href="http://www.cs.ubc.ca/~rap/dbme/">Mentoring Workshop</a><br />(Discovery)</p></td> 
+    <td class="tutorial"><p align="center"><a href="http://www.dcc.ufmg.br/idar2011">IDAR</a><br />(Vision)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">12:00-13:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Lunch Break<br />(Cosmopolitan AB)</p></td> 
+  </tr>
+
+  <tr> 
+    <td width="33"><p align="center">13:30-15:00</p></td> 
+    <td class="tutorial" colspan="2"><p align="center"><a href="http://research.microsoft.com/en-us/um/redmond/events/socc2011/">SOCC</a><br />(Cosmopolitan CD)</p></td> 
+    <td class="tutorial"><p align="center"><a href="http://www.cs.ubc.ca/~rap/dbme/">Mentoring Workshop</a><br />(Discovery)</p></td> 
+    <td class="tutorial"><p align="center"><a href="http://www.dcc.ufmg.br/idar2011">IDAR</a><br />(Vision)</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="33"><p align="center">15:00-15:30</p></td> 
+    <td width="439" colspan="4"><p align="center">Coffee Break (Cosmopolitan CD Foyer)</p></td> 
+  </tr>
+
+  <tr> 
+    <td width="33"><p align="center">15:30-17:00</p></td> 
+    <td class="tutorial" colspan="2"><p align="center"><a href="http://research.microsoft.com/en-us/um/redmond/events/socc2011/">SOCC</a><br />(Cosmopolitan CD)</p></td> 
+    <td class="tutorial"><p align="center"><a href="http://www.cs.ubc.ca/~rap/dbme/">Mentoring Workshop</a><br />(Discovery)</p></td> 
+    <td class="tutorial"><p align="center"><a href="http://www.dcc.ufmg.br/idar2011">IDAR</a><br />(Vision)</p></td> 
+  </tr> 
+</table> 
+<a href="#top">top</a>
+--> 
+
+<br />
+</a></div>
+
+<a name="friday"><!-- div for main content (program content?) --><!--endMainContent --><!-- div for wrap --><!-- footer --><!-- footer --><!-- end of wrap --> </a>
+
+
+</div>
+
+
+<p>				  
+<a href="index.shtml">Back to homepage</a>
+</p>
+<br />
+
+
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

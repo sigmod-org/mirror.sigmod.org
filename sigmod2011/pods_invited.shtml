@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - PODS Keynote and Invited Tutorials</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+			  <h3>Welcome</h3>
+<ul class="navbar">
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+	<li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  </ul>
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="calls_papers_sigmod_research_repeatability.shtml#RepeatabilityPC" title="Program Committee">Repeatability PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Supporters</a></li>
+</ul>
+<h3>Links</h3>
+<ul class="navbar">
+      <li><a href="stream.shtml" title="Web Streaming and Other Media">Web Streaming and Other Media</a></li>
+      <li><a href="affiliatedconfs.shtml" title="Affliated Conferences & Workshops">Affiliated Conferences &amp; Workshops</a></li>
+      <li><a href="exhibitors.shtml" title="Exhibitor Information">Exhibitor Information</a></li>
+      <li><a href="http://www.breathtakingathens.com/" title="Visitor Information" target="_blank">Visit Athens</a></li>
+      <li><a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/index.html" title="Previous Conferences" target="_blank">Previous Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+      <li><a href="http://bit.ly/sigmod2011" title="SIGMOD 2011 Proceedings" target="_blank">SIGMOD 2011 Proceedings</a></li>
+      <li><a href="http://bit.ly/pods2011" title="PODS 2011 Proceedings" target="_blank">PODS 2011 Proceedings</a></li>
+      <li><a href="http://www.sigmod.org/2012/" title="SIGMOD/PODS 2012" target="_blank">SIGMOD/PODS 2012</a></li>
+</ul>
+
+			</div>
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+			<div id="sidebarRight">
+
+			
+<!-- yannis: substituted by following sections =====================
+<h3>Conference Program</h3>
+<ul class="navbar">
+  <li><a href="program_full.shtml">Full Program</a></li>
+  <li><a href="program_sigmod.shtml">SIGMOD Sessions</a></li>
+  <li><a href="program_pods.shtml">PODS Sessions</a></li>
+  <li><a href="program_ugrad_posters.shtml">SIGMOD Undergrad Posters</a></li> 
+</ul>
+<h3>For Attendees </h3>
+<ul class="navbar">
+	<li><a href="http://www.regmaster.com/conf/sigmod2009.html"><strong>Registration!!!</strong></a></li>
+	<li><a href="delegates_conference_venue.shtml"><strong>Venue &amp; Hotel Info</strong></a></li>
+  <li><a href="delegates_transportation.shtml">Transportation</a></li>
+	<li><a href="delegates_workshops.shtml">Workshops</a></li>
+    <li><a href="delegates_contact_us.shtml">Contact Us  </a></li>
+    <li><a href="delegates_visa.shtml">Visa Information</a></li>
+    <li><a href="delegates_travel_grants.shtml">Student Travel Grants</a></li>
+    <li><a href="delegates_banquet.shtml">Banquet Details</a></li>
+</ul>
+========================================== -->
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_sigmod.shtml" title="SIGMOD Program">SIGMOD Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="keynote_1.shtml" title="Keynote 1: Hamilton">Keynote 1: J. Hamilton</a><li>
+	<li><a href="keynote_2.shtml" title="Keynote 2: Ailamaki">Keynote 2: A. Ailamaki</a><li>
+	<li><a href="keynotes_indust.shtml" title="Industry Keynotes">Industry Keynotes</a></li>
+	<li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+	<li><a href="ind_list.shtml" title="Industry Papers">Industry Papers</a></li>
+	<li><a href="demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+	<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+	<li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+    <li><a href="awards_sigmod.shtml" title="Awards">Awards</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_pods.shtml" title="PODS Program">PODS Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="pods_invited.shtml#keynote" title="Keynote: T. Milo">Keynote: T. Milo</a></li>
+	<li><a href="pods_invited.shtml#tutorial1" title="Tutorial 1: S. Muthukrishnan">Tutorial 1: S. Muthukrishnan</a></li>
+	<li><a href="pods_invited.shtml#tutorial2" title="Tutorial 2: M. Arenas and J. Perez">Tutorial 2: M. Arenas and J. Perez</a></li>
+	<li><a href="pods_list.shtml" title="PODS Research Papers">Research Papers</a></li>
+	<li><a href="pods_invited.shtml" title="PODS Invited Talks">Invited Talks</a></li>
+    <li><a href="awards_sigmod.shtml#pods" title="Awards">Awards</a></li>
+	<li><a href="pods_anniversary.shtml" title="PODS 30th Anniversary">30th Anniversary</a></li>
+</ul>
+
+
+<h3 class="navheading">For Attendees</h3>
+<ul class="navbar">
+	<li><a href="https://regmaster3.com/2011conf/SIGMOD11/register.php" title="Registration">Registration</a></li>
+	<li><a href="banquet.shtml" title="Conference Banquet">Conference Banquet</a></li>
+	<li><a href="conferencehotel.shtml" title="Conference Hotel">Conference Hotel</a></li>
+	<li><a href="conferencehotel.shtml#additional" title="Accommodation">Accommodation</a></li>
+	<li><a href="travelinfo.shtml" title="Travel Instructions">Travel Info</a></li>	
+	<li><a href="visitorinformation.shtml" title="Visitor Information">Visitor Information</a></li>
+	<li><a href="delegates_visa.shtml">Visa Information</a></li>
+	<li><a href="studenttravelgrants.shtml">Student Travel Grants</a></li>
+	<li><a href="studentgrants.shtml">East Europe Grants</a></li>
+</ul>
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+    <ul class="navbar">
+      <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates and Submission</a></li>
+	  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+	  
+<!-- yannis: the rest have been moved to calls.shtml for aesthetics -->
+
+    </ul>
+
+			</div>
+
+
+
+			
+			<div id="maincontent">
+				  <h1>PODS Keynote and Invited Tutorials</h1>
+
+
+
+<a name="keynote"/>
+<h2>Keynote</h2>
+
+<h3>A Quest for Beauty and Wealth (or, Business Processes for Database Researchers)</h3>
+<p>Tova Milo, Tel Aviv University</p>
+
+<h3>Abstract</h3>
+<p>
+While classic data management focuses on the data itself, research on Business Processes considers also the context in 
+which this data is generated and manipulated, namely the processes, the users, and the goals that this data serves. 
+This allows the analysts a better perspective of the organizational needs centered around the data. As such, this 
+research is of fundamental importance.
+</p>
+<p>
+Much of the success of database systems in the last decade is due to the beauty and elegance of the relational model 
+and its declarative query languages, combined with a rich spectrum of underlying evaluation and optimization techniques, 
+and efficient implementations. This, in turn, has lead to an economic wealth for both the users and vendors of database 
+systems. Similar beauty and wealth are sought for in the context of Business Processes. Much like the case for 
+traditional database research, elegant modeling and rich underlying technology are likely to bring economic wealth 
+for the Business Process owners and their users; both can benefit from easy formulation and analysis of the processes. 
+While there have been many important advances in this research in recent years, there is still much to be desired: 
+specifically, there have been many works that focus on the processes behavior (flow), and many that focus on its data, 
+but only very few works have dealt with both. We will discuss here the important advantages of a holistic flow-and-data 
+framework for Business Processes, the progress towards such a framework, and highlight the current gaps and research 
+directions.
+</p>
+
+<h3>Bio</h3>
+<p>
+Tova Milo received her Ph.D. degrees in Computer Science from theHebrew University, Jerusalem, in 1992. After graduating 
+she workedat the INRIA research institute in Paris and at University ofToronto and returned to Israel in 1995, joining the 
+School of Computer Science at Tel Aviv university where she is now a full Professor. Her research focuses on advanced database 
+applicationssuch as data integration, XML and semi-structured information,Web-based applications and Business Processes, 
+studying both theoretical and practical aspects. Tova served as the Program Chairof several international conferences, 
+including PODS, ICDT, VLDB, XSym, and WebDB. She is a member of the VLDB Endowment and the ICDT
+executive board and is an editor of TODS, the VLDB Journal and the Logical Methods in Computer Science Journal. 
+She has received grants from the Israel Science Foundation, the US-Israel Binational Science
+Foundation, the Israeli and French Ministry of Science and theEuropean Union, and is a recipient of the 
+2010 ACM PODS Alberto O.Mendelzon Test-of-Time Award.
+</p>
+<p>
+<img height="100" src="images/Milo.png">
+</p>
+<br />
+
+
+
+<a name="tutorial1"/><h2>Invited Tutorial 1</h2>
+
+<h3>Theory of Data Stream Computing: Where to Go</h3>
+<p>S. Muthukrishnan, Rutgers University</p>
+
+<h3>Abstract</h3>
+<p>
+Computing power has been growing steadily, just as communication rate and memory size. Simultaneously our ability to create 
+data has been growing phenomenally and therefore the need to analyze it. We now have examples of massive data streams that are
+</p>
+<ul>
+<li>created in far higher rate than we can capture and store in memory economically,</li>
+<li>gathered in far more quantity than can be transported to central databases without overwhelming the communication 
+infrastructure, and</li>
+<li>arrives far faster than we can compute with them in a sophisticated way.</li>
+</ul>
+<p>
+This phenomenon has challenged how we store, communicate and compute with data. Theories developed over past 50 years have 
+relied on full capture, storage and communication of data. Instead, what we need for managing modern massive data streams 
+are new methods built around working with less. The past 10 years have seen new theories emerge in computing (data stream 
+algorithms), communication (compressed sensing), databases (data stream management systems) and other areas to address the 
+challenges of massive data streams. Still, lot remains open and new applications of massive data streams have emerged recently. 
+We present an overview of these challenges.
+</p>
+
+<h3>Bio</h3>
+<p>
+S. (Muthu) Muthukrishnan is a Professor in Rutgers Univ. with research interest in databases and algorithms, 
+recently on data stream management and in algorithms for Internet ad systems. This tutorial is based on more 
+than a decade of work on data stream management.
+</p>
+<p>
+<img height="100" src="images/Muthu.png">
+</p>
+<br />
+
+
+
+<a name="tutorial2"/><h2>Invited Tutorial 2</h2>
+
+<h3>Querying Semantic Web Data with SPARQL: State of the Art and Research Perspectives</h3>
+<p>Marcelo Arenas, Pontificia Universidad Catolica de Chile <br />
+Jorge Perez, Universidad de Chile
+</p>
+
+<h3>Abstract</h3>
+<p>
+The Semantic Web is the initiative of the W3C to make information on
+the Web readable not only by humans but also by machines. RDF is the
+data model for Semantic Web data, and SPARQL is the standard query
+language for this data model. In the last ten years, we have witnessed
+a constant growth in the amount of RDF data available on the Web,
+which have motivated the theoretical study of some fundamental aspects
+of SPARQL and the development of efficient mechanisms for implementing
+this query language.
+</p>
+<p>
+Some of the distinctive features of RDF have made the study and
+implementation of SPARQL challenging . First, as opposed to usual
+database applications, the semantics of RDF is open world, making RDF
+databases inherently incomplete. Thus, one usually obtains partial
+answers when querying RDF with SPARQL, and the possibility of adding
+optional information if present is a crucial feature of SPARQL.
+Second, RDF databases have a graph structure and are interlinked, thus
+making graph navigational capabilities a necessary component of
+SPARQL. Last, but not least, SPARQL has to work at Web-scale!
+</p>
+<p>
+RDF and SPARQL have attracted interest from the database community.
+However, we think that this community has much more to say about these
+technologies, and, in particular, about the fundamental database
+problems that need to be solved in order to
+provide solid foundations for the development of these technologies.
+In this tutorial, we will survey some of the main results about the
+theory of RDF and SPARQL, putting emphasis on some research
+opportunities for the database community.
+</p>
+
+<h3>Bio</h3>
+<p>
+Marcelo Arenas is an Associate Professor at the Department of Computer Science at 
+the Pontificia Universidad Catolica de Chile. He received his PhD from the University of 
+Toronto in 2005. His research interests are in different aspects of database theory, such as 
+expressive power of query languages, database semantics, inconsistency handling, database 
+design, XML databases, data exchange, metadata management and database aspects of the Semantic Web. 
+He has received an IBM Ph.D. Fellowship (2004), four best paper awards (PODS 2003, PODS 2005, 
+ISWC 2006 and ICDT 2010) and an ACM-SIGMOD Dissertation Award Honorable Mention in 2006 for his 
+Ph.D dissertation "Design Principles for XML Data". He has served on multiple program committees, 
+and since 2009 he has been participating as an invited expert in the World Wide Web Consortium.
+</p>
+<p>
+<img height="100" src="images/Arenas.png">
+</p>
+<br />
+
+<p>
+Jorge Perez received a B.Sc. degree in Computer Engineering (2003), a M.Sc. degree in Computer 
+Science (2004), and a Ph.D. degree in Computer Science (2011) from the P. Universidad Catolica de Chile. 
+He is currently affiliated with the Computer Science Department at Universidad de Chile. His research interests 
+include data exchange and integration, schema mapping management, and the application of database tools 
+and techniques to the Semantic Web. P?rez has received a Microsoft Research Ph.D. Fellowship (2009-2010), 
+and three best paper awards (ISWC 2006, ESWC 2007, PODS 2011) for his work on database aspects of the 
+Semantic Web, and on extensions of data exchange.
+</p>
+<p>
+<img height="100" src="images/Perez.png">
+</p>
+<br />
+
+
+<!--endMainContent --> 
+</div>		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

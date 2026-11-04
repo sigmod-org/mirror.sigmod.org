@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://www.sigmod2011.org/news.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA -
+FAQ for Sponsors and Exhibitors</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+theImages[1] = 'images/ny/skyline_bw.jpg'
+
+theImages[2] = 'images/ny/sunset.jpg'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+theImageDescriptions[1] = 'NYC Skyline'
+
+theImageDescriptions[2] = 'NYC Building at Sunset'
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[2] = 'http://en.wikipedia.org/wiki/New_York_City'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<li><a href="http://www.regonline.com/2013sigmodpods"><b>Registration</b></a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc1.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+<!--
+
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="affiliated_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+    <li><a href="accommodation.shtml" title="Travel and Accommodations">Travel and Accommodations</a></li>
+    <li><a href="docs/local_info.pdf" title="Local Information">Explore NYC</a></li>
+<!--
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+-->
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> 
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  <!-- <li><a href="guidelines.shtml" title="SIGMOD Submission Guidelines">SIGMOD Submission Guidelines</a></li>
+  <li><a href="guidelines-pods.shtml" title="PODS Submission Guidelines">PODS Submission Guidelines</a></li>
+  <li><a href="camera-ready.shtml" title="Camera Ready Instructions"<b>Camera Ready Instructions</b></a></li> -->
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_pods.shtml" title="Program">Program</a></li>
+  <li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="pods_invited.shtml#keynote" title="Pods Keynote">
+  Keynote: Diego Calvanese (Free University of Bozen-Bolzano)</a></li>
+  <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 1: Piotr Indyk">Tutorial 1: Piotr Indyk (MIT)</a></li> 
+  <li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 2: Pablo Barcel&oacute;">Tutorial 2: Pablo Barcel&oacute; (University of Chile)</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+<!--
+  <li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+  <li><p>Keynote 1: 
+      </p></li>
+  <li><p>Keynote 2: 
+  </p>
+  </li>
+-->
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="keynote_1.shtml">Keynote 1: Alex Nazaruk &amp Michael Rauchman (Middle Lake Partners, LLC)</a> 
+      </li>
+  <li><a href="keynote_2.shtml">Keynote 2: Paul Yaron (J. P. Morgan Chase)</a></li>
+  <li><a href="sigmod_panel.shtml" title="Sigmod Panel">Sigmod Panel</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="ind_list.shtml" title="Industrial Presentations">Industrial Presentations</a></li>
+</ul>
+
+<h3 class="navheading"><a href="http://confer.csail.mit.edu/" title="Confer: Conference Scheduling">Confer: Conference Scheduling</a></h3>
+</div>
+
+
+
+
+			
+<div id="maincontent">
+			 
+
+<h1>FAQ for Sponsors and Exhibitors</h1>
+
+  
+<ul>
+<li> What are deadlines?<br/>
+
+ By April 20th:
+  <ul>
+ <li> Please send the advertisement that will appear in the program
+booklet to SIGMOD Proceedings Chair: Ariel
+Fuxman (arielf@microsoft.com).
+
+ <li> Please email SIGMOD Exhibit Chairs Berthold Reinwald
+(reinwald@almaden.ibm.com) and Wen-Syan Li (wen-syan.li@sap.com) about
+your
+    <ul>
+        <li>     Commitment to participate in the exhibition
+        <li>     Request an exhibition table
+        <li>     The number of  free registrations you need
+    </ul>
+<li>  Please send your commitment about <b>each</b> recruiting event to SIGMOD
+Mentorship Chairs: Feifei Li (lifeifei@cs.utah.edu), Nan Zhang
+(nzhang10@gwu.edu).
+</ul>
+
+By May 5th:
+<ul>
+<li> Please email Berthold Reinwald  (reinwald@almaden.ibm.com) and
+Wen-Syan Li (wen-syan.li@sap.com) if you have any print material that
+you want to include in the registration package.
+</ul>
+
+By May 11th:
+<ul>
+<li> If a sponsor has material to be included in the conference bags for
+ conference attendees (estimated 600 attendees),
+  - Please mail them to
+the following address,
+and have them received by May 11.<br/>
+
+ - Please send the collateral to the following address, to be received by
+May 11 (Friday), 2012, and we will put them to the conference
+  bags.<br/>
+  <br/>
+
+ACM SIGMOD/PODS 2012 <br/>
+Prof. Suzanne Dietrich <br/>
+HYATT REGENCY SCOTTSDALE RESORT & SPA <br/>
+AT GAINEY RANCH <br/>
+7500 E. Doubletree Ranch Road <br/>
+Scottsdale, AZ 85258 <br/>
+ (480) 444-1234             -- hotel phone number
+</ul>
+  
+<li> What are specification of company supplied banners?<br/>
+A sponsor can supply banner(s) to be displayed in the conference based
+on the sponsorship document. We'd like to request the same standard
+across the board, in order to have a uniform look.<br/><br/>
+
+- Diamond sponsor: 39'' width (84-5/8 height), 2 banners <br/>
+- Platinum sponsor: 33'' width (84-5/8'' height), 2 banners <br/>
+- Gold sponsor: 22-1/2'' width (59-1/16'' height), 1 banner <br/>
+- Silver sponsor: 8-1/2'' width (20-1/16'' height), 1 banner <br/><br/>
+
+- Platinum publisher/exhibitor: 33'' width (84-5/8'' height), 1 banner <br/>
+- Gold publisher/exhibitor: 22-1/2'' width (59-1/16'' height), 1 banner <br/>
+- Silver publisher: 8-1/2'' width (20-1/16'' height), 1 banner <br/><br/>
+
+One possible vendor for banner is <br/>
+<a style="color: #CC6600; text-decoration: none;" 
+href="http://www.dpsbanners.com/products/13/banner-stands-retractable-trade-show/">
+http://www.dpsbanners.com/products/13/banner-stands-retractable-trade-show/
+</a>
+whose banner sizes are consistent with the above guideline:
+<a style="color: #CC6600; text-decoration: none;" href="http://www.dpsbanners.com/prodimages/BannerBug-BannerStand-Info.pdf">
+http://www.dpsbanners.com/prodimages/BannerBug-BannerStand-Info.pdf
+</a>.<br/><br/>
+
+A sponsor may also bring a table cloth with logo.
+
+<li> What are the sizes for exhibition tables?<br/>
+- Diamond sponsors: 2 tables of 6' x 18"<br/>
+- Platinum sponsors/exhibitors/publishers: 6' x 30"<br/>
+- Gold sponsors/exhibitors/publishers: 8' x 18"<br/>
+- Silver sponsors/publishers: 6' x 18"<br/>
+
+
+<li> What can be included for a sponsor in the program booklet (A5 size
+5.83" x 8.27", color)?<br/>
+- Diamond/Platinum sponsor: full page advertisement in program <br/>
+- Gold sponsor: half page advertisement in program <br/>
+- Silver sponsor:  quarter-page advertisement in program <br/><br/>
+
+- Platinum publishers/exhibitors: quarter page advertisement in program <br/>
+- Gold publishers/exhibitors: quarter page advertisement in program <br/>
+
+<li> Are there any wifi during the conference?<br/>
+-Yes
+
+
+<li> What the recruiting events  (open for Diamond, Platinum, Gold Sponsors) are?<br/>
+- We will have two recruiting events!<br/>
+<ul>
+<li>May 21 (Monday) evening, during the SIGMOD reception, qualified
+sponsors will interact with conference attendees in a social setting
+about career opportunities.
+<li>
+May 22 (Tuesday) 16:45-18:15pm, there will be a "SIGMOD Information
+Session on Careers in Industry" where qualified sponsors will give a
+short presentation to attendees. To increase participation, we
+scheduled this event such that there is no regular SIGMOD research
+sessions in parallel. 
+</ul>
+<li> What is the exhibition time?<br/>
+- The conference is May 21 to May 24, each day starts 8:00am and runs
+till 6:00pm or so. Sponsors are also welcome to start the exhibition
+on May 20 (workshop day) starting from 8:00am.
+
+
+<li> Is everyone coming to the conference required a registration?<br/>
+- Yes, except one additional "support staff registration" is allowed per
+sponsor. The "support staff registration" can be used for staff
+person who stay with the sponsor's exhibition table, but donot attend
+conference sessions or events.
+
+
+<li> How does a sponsor claim the complimentary registrations and support
+staff registration?<br/>
+- To claim a sponsor's complementary conference registration,
+please choose "Sponsor"  in "Program Selection". To claim a support
+staff registration, please choose "Sponsor Support Staff" in "Program
+Selection". Both require a sponsor-specific access code that you have
+received from our sponsorship chair: Vasilis Vassalos
+(vasilis@gmail.com). If you have not received it yet, please send your
+inquires to Vasilis.
+
+</ul>
+<p>We look forward to seeing you soon in Scottsdale!</p>
+
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+    <!-- footer -->
+    <title></title>
+  </head>
+  <body>
+    <div id="footer"> <img src="images/bottom_logos_2012a.png">
+      <table border="0" width="740">
+        <tbody>
+          <tr>
+            <td width="138">
+              <div align="center"><img src="images/sigmod-logo.png"
+                  alt="" hspace="10" vspace="10" width="80"></div>
+            </td>
+            <!-- <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td> -->
+            <td width="465">&nbsp;</td>
+            <td width="155"><a href="http://www.acm.org"><img
+                  src="images/acm.png" alt="ACM"
+                  longdesc="http://www.acm.org" width="160"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="images/bottom_logos_2012b.jpg">
+      <!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        --> </div>
+    <!-- end of wrap -->
+    <p> </p>
+    <div id="credits"> <a href="about.shtml">Credits</a>
+      <table align="center">
+        <tbody>
+          <tr>
+          </tr>
+          <tr valign="center">
+            <td>Follow us:</td>
+            <td><a href="https://www.facebook.com/AcmSigmod2013"><img
+                  src="images/facebook-icon.png"></a></td>
+            <td> <a href="http://twitter.com/acmsigmod2013"><img
+                  src="images/twitter-icon.png"></a></td>
+            <td> <a
+                href="https://plus.google.com/u/0/communities/102395415671629698034"><img
+                  src="images/google-plus.gif" height="35" width="35"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+
+
+
+</div></body></html>

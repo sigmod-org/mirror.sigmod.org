@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - News and Site Updates</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+			  <h3>Welcome</h3>
+<ul class="navbar">
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+	<li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  </ul>
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="calls_papers_sigmod_research_repeatability.shtml#RepeatabilityPC" title="Program Committee">Repeatability PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Supporters</a></li>
+</ul>
+<h3>Links</h3>
+<ul class="navbar">
+      <li><a href="stream.shtml" title="Web Streaming and Other Media">Web Streaming and Other Media</a></li>
+      <li><a href="affiliatedconfs.shtml" title="Affliated Conferences & Workshops">Affiliated Conferences &amp; Workshops</a></li>
+      <li><a href="exhibitors.shtml" title="Exhibitor Information">Exhibitor Information</a></li>
+      <li><a href="http://www.breathtakingathens.com/" title="Visitor Information" target="_blank">Visit Athens</a></li>
+      <li><a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/index.html" title="Previous Conferences" target="_blank">Previous Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+      <li><a href="http://bit.ly/sigmod2011" title="SIGMOD 2011 Proceedings" target="_blank">SIGMOD 2011 Proceedings</a></li>
+      <li><a href="http://bit.ly/pods2011" title="PODS 2011 Proceedings" target="_blank">PODS 2011 Proceedings</a></li>
+      <li><a href="http://www.sigmod.org/2012/" title="SIGMOD/PODS 2012" target="_blank">SIGMOD/PODS 2012</a></li>
+</ul>
+
+			</div>
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+			<div id="sidebarRight">
+
+			
+<!-- yannis: substituted by following sections =====================
+<h3>Conference Program</h3>
+<ul class="navbar">
+  <li><a href="program_full.shtml">Full Program</a></li>
+  <li><a href="program_sigmod.shtml">SIGMOD Sessions</a></li>
+  <li><a href="program_pods.shtml">PODS Sessions</a></li>
+  <li><a href="program_ugrad_posters.shtml">SIGMOD Undergrad Posters</a></li> 
+</ul>
+<h3>For Attendees </h3>
+<ul class="navbar">
+	<li><a href="http://www.regmaster.com/conf/sigmod2009.html"><strong>Registration!!!</strong></a></li>
+	<li><a href="delegates_conference_venue.shtml"><strong>Venue &amp; Hotel Info</strong></a></li>
+  <li><a href="delegates_transportation.shtml">Transportation</a></li>
+	<li><a href="delegates_workshops.shtml">Workshops</a></li>
+    <li><a href="delegates_contact_us.shtml">Contact Us  </a></li>
+    <li><a href="delegates_visa.shtml">Visa Information</a></li>
+    <li><a href="delegates_travel_grants.shtml">Student Travel Grants</a></li>
+    <li><a href="delegates_banquet.shtml">Banquet Details</a></li>
+</ul>
+========================================== -->
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_sigmod.shtml" title="SIGMOD Program">SIGMOD Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="keynote_1.shtml" title="Keynote 1: Hamilton">Keynote 1: J. Hamilton</a><li>
+	<li><a href="keynote_2.shtml" title="Keynote 2: Ailamaki">Keynote 2: A. Ailamaki</a><li>
+	<li><a href="keynotes_indust.shtml" title="Industry Keynotes">Industry Keynotes</a></li>
+	<li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+	<li><a href="ind_list.shtml" title="Industry Papers">Industry Papers</a></li>
+	<li><a href="demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+	<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+	<li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+    <li><a href="awards_sigmod.shtml" title="Awards">Awards</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_pods.shtml" title="PODS Program">PODS Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="pods_invited.shtml#keynote" title="Keynote: T. Milo">Keynote: T. Milo</a></li>
+	<li><a href="pods_invited.shtml#tutorial1" title="Tutorial 1: S. Muthukrishnan">Tutorial 1: S. Muthukrishnan</a></li>
+	<li><a href="pods_invited.shtml#tutorial2" title="Tutorial 2: M. Arenas and J. Perez">Tutorial 2: M. Arenas and J. Perez</a></li>
+	<li><a href="pods_list.shtml" title="PODS Research Papers">Research Papers</a></li>
+	<li><a href="pods_invited.shtml" title="PODS Invited Talks">Invited Talks</a></li>
+    <li><a href="awards_sigmod.shtml#pods" title="Awards">Awards</a></li>
+	<li><a href="pods_anniversary.shtml" title="PODS 30th Anniversary">30th Anniversary</a></li>
+</ul>
+
+
+<h3 class="navheading">For Attendees</h3>
+<ul class="navbar">
+	<li><a href="https://regmaster3.com/2011conf/SIGMOD11/register.php" title="Registration">Registration</a></li>
+	<li><a href="banquet.shtml" title="Conference Banquet">Conference Banquet</a></li>
+	<li><a href="conferencehotel.shtml" title="Conference Hotel">Conference Hotel</a></li>
+	<li><a href="conferencehotel.shtml#additional" title="Accommodation">Accommodation</a></li>
+	<li><a href="travelinfo.shtml" title="Travel Instructions">Travel Info</a></li>	
+	<li><a href="visitorinformation.shtml" title="Visitor Information">Visitor Information</a></li>
+	<li><a href="delegates_visa.shtml">Visa Information</a></li>
+	<li><a href="studenttravelgrants.shtml">Student Travel Grants</a></li>
+	<li><a href="studentgrants.shtml">East Europe Grants</a></li>
+</ul>
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+    <ul class="navbar">
+      <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates and Submission</a></li>
+	  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+	  
+<!-- yannis: the rest have been moved to calls.shtml for aesthetics -->
+
+    </ul>
+
+			</div>
+
+
+			
+			<div id="maincontent">
+				  <h1>News and Site Updates</h1>
+	
+<ul>
+<li>The <strong>ACM SIGMOD/PODS Conference 2012</strong> will be held in the city of Scottsdale, Arizona, USA on May 20-25, 2012. See <a href="http://www.sigmod.org/2012/">http://www.sigmod.org/2012/</a>.</li>
+<li>October 12, 2011: <a href="demo_list.shtml">Best Demonstration Paper</a> announced on the website.</li>
+<li>June 14, 2011: SIGMOD 2011 proceedings available online in the ACM DL at <a href="http://bit.ly/sigmod2011">http://bit.ly/sigmod2011</a> (need to be member to access).</li>
+<li>June 14, 2011: PODS 2011 proceedings available online in the ACM DL at <a href="http://bit.ly/pods2011">http://bit.ly/pods2011</a> (need to be member to access).</li>
+<li>June 14, 2011: <a href="program_sigmod.shtml">Links to paper IDs</a> added, pointing to Twitter paper discussions.</li>
+<li>June 13, 2011: SIGMOD 2011 <a href="printableprogram.shtml">banner</a> is available for download.</li>
+<li>June 13, 2011: IDs added to <a href="program_sigmod.shtml">papers</a> to facilitate discussion in Twitter.</li>
+<li>June 13, 2011: Instruction on <a href="stream.shtml">how to use Twitter</a> for discussing the Conference papers.</li>
+<li>June 13, 2011: Minor <a href="printableprogram.shtml#updates">update</a> to the Conference program.</li>
+<li>June 9, 2011: Video <a href="stream.shtml">streaming and media information</a> is available.</li>
+<li>June 9, 2011: Updated <a href="travelinfo.shtml">travel information</a> to the Conference area.</li>
+<li>June 7, 2011: The conference hotel is now <strong>fully booked</strong>. Please see information for <a href="conferencehotel.shtml#additional">additional hotels</a> in the area.</li>
+<li>June 7, 2011: SIGMOD/PODS 2011 <a href="awards_sigmod.shtml">awards</a> announced.</li>
+<li>June 2, 2011: Details about the <a href="http://www.cs.wisc.edu/~chrisre/SIGMOD11-NRS.html">New Researchers Symposium</a> announced.</li>
+<li>June 2, 2011: Updates to the <a href="schedglance.shtml">on-line schedule</a>, and the <a href="printableprogram.shtml">printable booklet</a>.</li>
+<li>May 25, 2011: Free Wi-Fi will be available at the <a href="conferencehotel.shtml">Conference Hotel</a> in all rooms offered to SIGMOD participants.</li>
+<li>May 23, 2011: Minor updates to the <a href="schedglance.shtml">schedule</a>.</li>
+<li>May 18, 2011: <a href="schedglance.shtml">Schedule at a glance</a> added.</li>
+<li>May 18, 2011: The final printable <a href="printableprogram.shtml">SIGMOD/PODS 2011 program</a> (in PDF) is now available.</li>
+<li>May 18, 2011: The <a href="program_sigmod.shtml">SIGMOD 2011 program</a> is now available.</li>
+<li>May 18, 2011: The <a href="program_pods.shtml">PODS 2011 program</a> is now available.</li>
+<li>May 9, 2011: Want to share a room at the conference hotel? Check the <a href="room_sharing.shtml">room sharing information</a>.</li>
+<li>May 8, 2011: <strong>Reminder: Sigmod early <a href="https://regmaster3.com/2011conf/SIGMOD11/register.php"> registration</a> ends on May 16th and <a href="https://regmaster3.com/2011conf/SIGMOD11/register.php"> online registration</a> ends on May 30th. Early <a href="http://www.sigmod2011.org/conferencehotel.shtml"> hotel registration</a> extended to May 30.</strong></li>
+<li>May 4, 2011: <a href="studentgrants.shtml">Travel grants for students from Eastern Europe</a> countries, due <strong>May 9th</strong>.</li>
+<li>May 4, 2011: When attending SIGMOD, <a href="roomblock.shtml">please consider staying at the official conference hotel</a>.</li>
+<li>May 4, 2011:  An new version of the SIGMOD/PODS 2011 <a href="printableprogram.shtml">draft program</a> is available.</li>
+<li>May 3, 2011:  An (incomplete) <a href="printableprogram.shtml">draft program</a> for SIGMOD/PODS 2011 is available.</li>
+<li>May 3, 2011:  <a href="travelinfo.shtml">Travel</a> and <a href="visitorinformation.shtml">visitor's information</a> added.</li>
+<li>May 3, 2011:  SIGMOD keynote <a href="keynote_1.shtml">talk 1</a> and <a href="keynote_2.shtml">talk 2</a> announced.</li>
+<li>May 3, 2011:  <a href="ugposter_list.shtml">Undergraduate posters</a> announced.</li>
+<li>April 28, 2011:  Travel <a href="studenttravelgrants.shtml">grants for students</a> due May 9th.</li>
+<li>April 27, 2011:  PODS <a href="pods_invited.shtml">Keynote and Invited Tutorials</a> announced.</li>
+<li>April 19, 2011:  In-cooperation workshop added in the <a href="affiliatedconfs.shtml">workshops</a> page.</li>
+<li>April 18, 2011:  <a href="keynotes_indust.shtml">Industry keynotes</a> announced.</li>
+<li>April 18, 2011:  PODS <a href="./docs/PODS-30th-anniversary.pdf">30th anniversary leaflet</a> updated.</li>
+<li>April 18, 2011:  List of accepted <a href="ind_list.shtml">industry papers</a> announced.</li>
+<li>April 18, 2011:  <a href="affiliatedconfs.shtml">Workshops</a> and <a href="org_sponsors.shtml">supporters</a> pages updated.</li>
+<li>April 6, 2011:  <a href="exhibitors.shtml">Call For Industrial Exhibitors</a> announced.</li>
+<li>April 5, 2011:  Information about the <a href="banquet.shtml">Conference Banquet</a> has been announced.</li>
+<li>March 28, 2011:  PODS special event announcement: <a href="pods_anniversary.shtml">30th anniversary</a> (Sunday, June 12).</li>
+<li>March 23, 2011:  <a href="https://regmaster3.com/2011conf/SIGMOD11/register.php">Registration</a> is now open.</li>
+<li>March 9, 2011:  List of <a href="pods_list.shtml">PODS accepted papers</a> is now available.</li>
+<li>March 8, 2011:  Initial list of <a href="org_sponsors.shtml">sponsors</a> has been added.</li>
+<li>February 22, 2011:  List of <a href="demo_list.shtml">SIGMOD accepted demos</a> is now available.</li>
+<li>February 21, 2011:  List of <a href="research_list.shtml">SIGMOD accepted papers</a> is now available.</li>
+<li>February 21, 2011:  <a href="delegates_visa.shtml">VISA information</a> for attendees is now available.</li>
+<li>February 18, 2011:  TaPP - <a href="http://www.usenix.org/events/tapp11/">Theory and Practice of Provenance</a> workshop organized in Crete after SIGMOD.</li>
+<li>February 17, 2011:  Complete <a href="http://www.sheridanprinting.com/typedept/sigmod-pods.htm">instructions</a> for preparing the camera-ready version of SIGMOD and PODS accepted papers.</li>
+<li>February 16, 2011:  Final <a href="calls_papers_important_dates.shtml">SIGMOD camera-ready papers due on</a> <b>Thursday March 31 9am EDT</b>.</li>
+<li>February 8, 2011:  The deadline for submitting an abstract to the <a href="calls_papers_sigmod_undergrad_poster.shtml">research poster competition</a> has been extended to <b>Monday, February 14, 2011, 5PM, PST</b>.</li>
+<li>February 8, 2011:  Information about the <a href="conferencehotel.shtml">Conference Hotel</a> is available.</li>
+<li>February 1, 2011:  Information about the SIGMOD 2011 <a href="http://db.csail.mit.edu/sigmod11contest/">Programming Contest</a> is now available.</li>
+<li>January 24, 2011:  Accepted <a href="tut_list.shtml">tutorials</a> and tutorial speakers announced.</li>
+<li>January 17, 2011:  Author feedback <a href="calls_papers_important_dates.shtml">dates</a> announced.</li>
+<li>October 27, 2010:  SIGMOD approved <a href="affiliatedconfs.shtml">Workshops</a> announced.</li>
+<li>October 19, 2010:  SIGMOD <a href="org_sigmod_pc.shtml">Program Committee</a> updated.</li>
+<li>October 13, 2010:  SIGMOD <a href="calls_papers_important_dates.shtml">submission site</a> will be open from October 18th, 2010.</li>
+<li>October 8, 2010:  Details on SIGMOD <a href="calls_papers_sigmod_research_repeatability.shtml">experimental repeatability</a> announced.</li>
+<li>October 7, 2010:  SIGMOD and PODS <a href="calls_papers_important_dates.shtml">submission instructions</a> announced.</li>
+<li>September 28, 2010:  SIGMOD <a href="calls_papers_sigmod_industrial.shtml">Call for Industrial Presentations</a> is available.</li>
+<li>September 28, 2010:  SIGMOD <a href="org_sigmod_demo_pc.shtml">Demo PC</a> added.</li>
+<li>September 20, 2010:  SIGMOD <a href="org_sigmod_pc.shtml">Program Committee</a> added.</li>
+<li>September 20, 2010:  SIGMOD <a href="calls_papers_sigmod_demo.shtml">Demo proposals CFP</a> is available.</li>
+<li>September 8, 2010:  SIGMOD Call for <a href="calls_papers_sigmod_undergrad_poster.shtml">Undergraduate Research Poster Competition</a> is available.</li>
+<li>August 25, 2010:  <a href="calls_papers_sigmod_workshop.shtml">SIGMOD Call for Workshop proposals</a> is available.</li>
+<li>August 24, 2010:  <a href="calls_papers_sigmod_tutorial.shtml">SIGMOD Call for Tutorials</a> is available.</li>
+<li>August 4, 2010:  <a href="docs/sigmod2011cfp.pdf">SIGMOD Call for Papers</a> is available.</li>
+<li>July 22, 2010:  <a href="docs/pods2011cfp.pdf">PODS Call for Papers</a> is available.</li>
+<li>June 4, 2010:  SIGMOD 2011 Web site is on-line.</li>
+
+<!-- yannis06-10: updates of previous sigmod 2010 - to be removed=====================
+
+<li>May 6, 2010:  When attending SIGMOD, <a href="roomblock.shtml">please consider staying at the official conference hotel</a>.</li>
+
+<li>May 4, 2010:  Reminder:  The early <a href="https://regmaster3.com/2010conf/MOD10/register.php">registration</a> deadline has been extended to May 15.</li>
+<li>April 29, 2010:  <a href="studenttravelgrants.shtml">Student travel grant</a> information has been posted.</li>
+<li>April 29, 2010:  The early registration deadline has been extended to May 15.</li>
+
+<li>April 13, 2010:  A <a href="schedglance.shtml">preliminary schedule</a> has been posted.</li>
+
+<li>April 13, 2010:  <strong>Reminder:  Sigmod <a href="https://regmaster3.com/2010conf/MOD10/register.php">early registration</a> ends on May 7th and <a href="https://regmaster3.com/2010conf/MOD10/register.php">online registration</a> ends on May 28th.  <a href="http://sigmod2010.org/conferencehotel.shtml">Early hotel registration</a> ends on May 15.</strong></li>
+
+<li>April 2, 2010:  Sigmod early registration ends on May 7th and online registration ends on May 28th.</li>
+
+<li>March 31, 2010:  <a href="https://regmaster3.com/2010conf/MOD10/register.php">Registration link</a> is up.</li>
+
+<li>March 15, 2010:  Added additional <a href="visitorinformation.shtml">vistor information</a> to the site.</li>
+
+<li>March 15, 2010:  Information on the <a href="banquet.shtml">conference banquet</a> been posted.</li>
+
+<li>March 11, 2010:  Accepted <a href="pods_list.shtml">PODS papers</a> have been posted.</li>
+
+<li>March 11, 2010:  Accepted <a href="ugposter_list.shtml">Undergraduate Posters</a> have been posted.</li>
+
+<li>March 11, 2010:  The link for U.S. visa information on the <a href="http://sigmod2010.org/delegates_visa.shtml">visa information page</a> has been updated.</li>
+
+<li>March 2, 2010:  <a href="http://sigmod2010.org/tut_list.shtml">Accepted tutorials</a> and a <a href="http://sigmod2010.org/sigmod2010schedule_030210.pdf">preliminary schedule-at-a-glance</a> have been posted.</li>
+
+<li>March 1, 2010:  <a href="http://sigmod2010.org/delegates_visa.shtml">Visa information</a> for international visitors has been posted.
+</li>
+
+<li>February 28, 2010:  Preliminary lists of accepted <a href="http://sigmod2010.org/research_list.shtml">research track</a>, <a href="http://sigmod2010.org/ind_list.shtml">industry track</a>, and <a href="http://sigmod2010.org/demo_list.shtml">demo track</A> papers have been posted.
+</li>
+
+<li>February 19, 2010:  Formatting instructions for final (camera ready) papers have been posted on the <a href="http://sigmod2010.org/sigmod_formatting.shtml">Paper Formatting Instructions</a> Web page.
+</li>
+
+<li>February 19, 2010:  The Workshop list has been updated with the <a href="http://event.cwi.nl/damon2010">Workshop on Data Management on Modern Hardware URL</a>.
+</li>
+
+<li>February 16, 2010:  The Workshop list has been updated with the <a href="http://www.cs.ubc.ca/~rap/dbme/">Database Mentoring Workshop URL</a>.
+</li>
+
+<li>February 11, 2010:  Information for those interested in <a href="exhibitors.shtml">exhibiting</a> has been posted.
+</li>
+
+<li>February 3, 2010:  The deadline for <a href="calls_papers_sigmod_undergrad_poster.shtml">undergraduate student posters</a> has been moved for February 20.
+</li>
+
+<li>January 17, 2010:  <a href="affiliatedconfs.shtml">Affiliated conference information</a> has been updated.
+</li>
+
+<li>January 7, 2010:  <a href="conferencehotel.shtml">Conference hotel information</a> and <a href="visitorinfo.shtml">visitor information</a> have been updated.
+</li>
+
+<li>December 14, 2009:  Accepted Workshops have been listed in the <a href="http://sigmod2010.org/affiliatedconfs.shtml">Affiliated Conferences and Workshops</a> page.</li>
+
+<li>December 2, 2009:  Updated the PODS <a href="http://sigmod2010.org/calls_papers_important_dates.shtml">submission deadlines</a> with times of day.</li>
+
+<li>November 13, 2009:  Added an <a href="http://sigmod2010.org/affiliatedconfs.shtml">Affiliated Conferences & Workshops</a> page under Links.</li>
+
+<li>October 28, 2009:  The <a href="http://sigmod2010.org/calls_papers_important_dates.shtml">SIGMOD abstract and manuscript submission times</a> have been set to 11:30PM PST on the respective dates.</li>
+
+<li>October 28, 2009:  The <a href="calls_papers_sigmod_research_repeatability.shtml">SIGMOD Repeatability Requirements</a> have been posted.  Also, a link to the <a href="http://dbweb.enst.fr/events/sigmod10contest/">Programming Contest</a> has been updated.</li>
+
+<li>October 18, 2009:  The <a href="calls_papers_sigmod_workshop.shtml">Call for Workshop Proposals</a> Web page has been updated.</li>
+
+<li>October 14, 2009:  The PODS submission site has been added to the <a href="calls_papers_important_dates.shtml">important dates</a> Web page has been updated.</li>
+
+<li>October 13, 2009:  The <a href="calls_papers_sigmod_industrial.shtml">SIGMOD Industrial Track CFP</a> page has been updated.</li>
+
+<li>October 4, 2009:  Added <a href="http://sigmod2010.org/calls_papers_sigmod_research_note.shtml">SIGMOD Conference Program Note</a> page has been added.</li>
+
+<li>September 1, 2009:  The <a href="org_sigmod_industry_pc.shtml">SIGMOD Industry Track Program Committee</a> page has been updated.</li>
+
+<li>August 24, 2009:  The <a href="org_sigmod_demo_pc.shtml">Demo Track Program Committee</a> page has been updated.</li>
+
+<li>August 20, 2009:  The <a href="org_conference_officers.shtml">Conference Officers</a> and <a href="org_sigmod_pc.shtml">SIGMOD Program Committee</a> pages have been updated.</li>
+
+<li>August 4, 2009:  The <a href="calls_papers_sigmod_demo.shtml">Call for Demos</a>, <a href="calls_papers_pods_research.shtml">PODS Call for Papers</a>, and <a href="about.shtml">Credits</a> pages have been updated.</li>
+
+========================================== -->
+
+</ul>
+
+  </div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

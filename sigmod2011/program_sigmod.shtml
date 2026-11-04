@@ -1,0 +1,995 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - Conference Program:  SIGMOD Sessions</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+			  <h3>Welcome</h3>
+<ul class="navbar">
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+	<li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  </ul>
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="calls_papers_sigmod_research_repeatability.shtml#RepeatabilityPC" title="Program Committee">Repeatability PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Supporters</a></li>
+</ul>
+<h3>Links</h3>
+<ul class="navbar">
+      <li><a href="stream.shtml" title="Web Streaming and Other Media">Web Streaming and Other Media</a></li>
+      <li><a href="affiliatedconfs.shtml" title="Affliated Conferences & Workshops">Affiliated Conferences &amp; Workshops</a></li>
+      <li><a href="exhibitors.shtml" title="Exhibitor Information">Exhibitor Information</a></li>
+      <li><a href="http://www.breathtakingathens.com/" title="Visitor Information" target="_blank">Visit Athens</a></li>
+      <li><a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/index.html" title="Previous Conferences" target="_blank">Previous Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+      <li><a href="http://bit.ly/sigmod2011" title="SIGMOD 2011 Proceedings" target="_blank">SIGMOD 2011 Proceedings</a></li>
+      <li><a href="http://bit.ly/pods2011" title="PODS 2011 Proceedings" target="_blank">PODS 2011 Proceedings</a></li>
+      <li><a href="http://www.sigmod.org/2012/" title="SIGMOD/PODS 2012" target="_blank">SIGMOD/PODS 2012</a></li>
+</ul>
+
+			</div>
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+			<div id="sidebarRight">
+
+			
+<!-- yannis: substituted by following sections =====================
+<h3>Conference Program</h3>
+<ul class="navbar">
+  <li><a href="program_full.shtml">Full Program</a></li>
+  <li><a href="program_sigmod.shtml">SIGMOD Sessions</a></li>
+  <li><a href="program_pods.shtml">PODS Sessions</a></li>
+  <li><a href="program_ugrad_posters.shtml">SIGMOD Undergrad Posters</a></li> 
+</ul>
+<h3>For Attendees </h3>
+<ul class="navbar">
+	<li><a href="http://www.regmaster.com/conf/sigmod2009.html"><strong>Registration!!!</strong></a></li>
+	<li><a href="delegates_conference_venue.shtml"><strong>Venue &amp; Hotel Info</strong></a></li>
+  <li><a href="delegates_transportation.shtml">Transportation</a></li>
+	<li><a href="delegates_workshops.shtml">Workshops</a></li>
+    <li><a href="delegates_contact_us.shtml">Contact Us  </a></li>
+    <li><a href="delegates_visa.shtml">Visa Information</a></li>
+    <li><a href="delegates_travel_grants.shtml">Student Travel Grants</a></li>
+    <li><a href="delegates_banquet.shtml">Banquet Details</a></li>
+</ul>
+========================================== -->
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_sigmod.shtml" title="SIGMOD Program">SIGMOD Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="keynote_1.shtml" title="Keynote 1: Hamilton">Keynote 1: J. Hamilton</a><li>
+	<li><a href="keynote_2.shtml" title="Keynote 2: Ailamaki">Keynote 2: A. Ailamaki</a><li>
+	<li><a href="keynotes_indust.shtml" title="Industry Keynotes">Industry Keynotes</a></li>
+	<li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+	<li><a href="ind_list.shtml" title="Industry Papers">Industry Papers</a></li>
+	<li><a href="demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+	<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+	<li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+    <li><a href="awards_sigmod.shtml" title="Awards">Awards</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_pods.shtml" title="PODS Program">PODS Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="pods_invited.shtml#keynote" title="Keynote: T. Milo">Keynote: T. Milo</a></li>
+	<li><a href="pods_invited.shtml#tutorial1" title="Tutorial 1: S. Muthukrishnan">Tutorial 1: S. Muthukrishnan</a></li>
+	<li><a href="pods_invited.shtml#tutorial2" title="Tutorial 2: M. Arenas and J. Perez">Tutorial 2: M. Arenas and J. Perez</a></li>
+	<li><a href="pods_list.shtml" title="PODS Research Papers">Research Papers</a></li>
+	<li><a href="pods_invited.shtml" title="PODS Invited Talks">Invited Talks</a></li>
+    <li><a href="awards_sigmod.shtml#pods" title="Awards">Awards</a></li>
+	<li><a href="pods_anniversary.shtml" title="PODS 30th Anniversary">30th Anniversary</a></li>
+</ul>
+
+
+<h3 class="navheading">For Attendees</h3>
+<ul class="navbar">
+	<li><a href="https://regmaster3.com/2011conf/SIGMOD11/register.php" title="Registration">Registration</a></li>
+	<li><a href="banquet.shtml" title="Conference Banquet">Conference Banquet</a></li>
+	<li><a href="conferencehotel.shtml" title="Conference Hotel">Conference Hotel</a></li>
+	<li><a href="conferencehotel.shtml#additional" title="Accommodation">Accommodation</a></li>
+	<li><a href="travelinfo.shtml" title="Travel Instructions">Travel Info</a></li>	
+	<li><a href="visitorinformation.shtml" title="Visitor Information">Visitor Information</a></li>
+	<li><a href="delegates_visa.shtml">Visa Information</a></li>
+	<li><a href="studenttravelgrants.shtml">Student Travel Grants</a></li>
+	<li><a href="studentgrants.shtml">East Europe Grants</a></li>
+</ul>
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+    <ul class="navbar">
+      <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates and Submission</a></li>
+	  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+	  
+<!-- yannis: the rest have been moved to calls.shtml for aesthetics -->
+
+    </ul>
+
+			</div>
+
+
+			
+			<div id="maincontent">
+				  <h1>Conference Program: SIGMOD Sessions</h1> 
+
+<p>
+This page describes the complete SIGMOD Conference program. 
+Each paper title is followed by an identifier (in square brackets) for discussing the paper in Twitter. 
+The identifier is a link to the Twitter discussion (complete <a href="stream.shtml">instructions here</a>). 
+Please use the following links to skip to the sessions of interest:
+				  <ul>
+				  <li><a href="#research">Research Sessions</a> 
+				  <li><a href="#tutorial">Tutorials</a> 
+				  <li><a href="#industrial">Industrial Sessions</a> 
+				  <li><a href="#demo">Demonstrations</a> 
+				  <li><a href="#keynote">Keynote Talks</a> 
+				  <li><a href="#invited">Panel Sessions</a> 
+				  <li><a href="#plenary">Research Plenary Sessions</a> 
+				  <li><a href="#posters">Posters</a> 
+				  </ul> 
+</p> 
+				  
+				  
+				  
+				  <h1><strong><a name="research" id="research"></a>SIGMOD RESEARCH SESSIONS</strong></h1> 
+
+<p>
+<strong><u> Research 1: Databases on New Hardware <a name="res1" id="res1"></a></u></strong><br />
+Session Chair: Yanlei Diao<br />
+1. <strong>LazyFTL: A Page-level Flash Translation Layer Optimized for NAND Flash Memory</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R1P1">[#sigmod2011 #R1P1]</a><br />
+Dongzhe Ma (Tsinghua University); Jianhua Feng (Tsinghua University); Guoliang Li (Tsinghua University)<br />
+2. <strong>Operation-Aware Buffer Management in Flash-based Systems</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R1P2">[#sigmod2011 #R1P2]</a><br />
+Yanfei Lv (Peking University); Bin Cui (Pku); Bingsheng He (Nanyang Technological Universi); Xuexuan Chen (Peking University)<br />
+3. <strong>SkimpyStash: RAM Space Skimpy Key-Value Store on Flash-based Storage</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R1P3">[#sigmod2011 #R1P3]</a><br />
+Biplob Debnath (EMC Corporation); Sudipta Sengupta (Microsoft Research); Jin Li (Microsoft Research)<br />
+4. <strong>Design and Evaluation of Main Memory Hash Join Algorithms for Multi-core CPUs </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R1P4">[#sigmod2011 #R1P4]</a><br />
+Spyros Blanas (Univ. of Wisconsin); Yinan Li (Univ. of Wisconsin); Jignesh Patel (Univ. of Wisconsin)<br />
+</p>
+
+<p>
+<strong><u> Research 2: Query Processing and Optimization <a name="res2" id="res2"></a></u></strong><br />
+Session Chair: Christoph Freytag<br />
+1. <strong>Query Optimization Techniques for Partitioned Tables</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R2P1">[#sigmod2011 #R2P1]</a><br />
+Herodotos Herodotou (Duke University); Nedyalko Borisov (Duke University); Shivnath Babu (Duke University) <br />
+2. <strong>CrowdDB: Answering Queries with Crowdsourcing</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R2P2">[#sigmod2011 #R2P2]</a><br />
+Michael Franklin (UC Berkeley); Donald Kossmann (ETH Zurich); Tim Kraska (UC Berkeley); Sukriti Ramesh (ETH Zurich); Reynold Xin (UC Berkeley)<br />
+3. <strong>Skyline Query Processing over Joins</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R2P3">[#sigmod2011 #R2P3]</a><br />
+Akrivi Vlachou (NTNU); Christos Doulkeridis (NTNU); Neoklis Polyzotis (UC - Santa Cruz) <br />
+4. <strong>Efficient Parallel Skyline Processing using Hyperplane Projections</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R2P4">[#sigmod2011 #R2P4]</a><br />
+Henning Koehler (University of Queensland); Jing Yang; Xiaofang Zhou (University of Queensland)<br />
+</p>
+
+<p>
+<strong><u> Research 3: Schema Mapping and Data Integration <a name="res3" id="res3"></a></u></strong><br />
+Session Chair: Eric Simon<br />
+1. <strong>Automatic Discovery of Attributes in Relational Databases</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R3P1">[#sigmod2011 #R3P1]</a><br />
+Meihui Zhang (National University of Singapore); Marios Hadjieleftheriou (AT&amp;T Labs - Research); Beng Chin Ooi (National University of Singapore); Cecilia Procopiuc (AT&amp;T Labs - Research); Divesh Srivastava (AT&amp;T Labs - Research) <br />
+2. <strong>Scalable Query Rewriting: A Graph-Based Approach</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R3P2">[#sigmod2011 #R3P2]</a><br />
+George Konstantinidis (ISI/USC); Jose Luis Ambite (ISI/USC)<br />
+3. <strong>Leveraging Query Logs for Schema Mapping Generation in U-MAP</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R3P3">[#sigmod2011 #R3P3]</a><br />
+Hazem Elmeleegy (Purdue University); Ahmed Elmagarmid (Qatar Computing Research Institute); Jaewoo Lee (Purdue University)<br />
+4. <strong>Designing and Refining Schema Mappings via Data Examples</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R3P4">[#sigmod2011 #R3P4]</a><br />
+Bogdan Alexe (UC Santa Cruz); Balder ten Cate (UC Santa Cruz); Phokion Kolaitis (UC Santa Cruz); Wang-Chiew Tan (IBM Research - Almaden and UC Santa Cruz)<br />
+</p>
+
+<p>
+<strong><u> Research 4: Data on the Web<a name="res4" id="res4"></a></u></strong><br />
+Session Chair: Luna Dong<br />
+1. <strong>Apples and Oranges: A Comparison of RDF Benchmarks and Real RDF Datasets</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R4P1">[#sigmod2011 #R4P1]</a><br />
+Songyun Duan (IBM Research - Thomas J. Watson Research Ctr.), Anastasios Kementsietsidis  (IBM T.J. Watson), Kavitha Srinivas (IBM T. J. Watson), Octavian Udrea  (IBM T. J. Watson)<br />
+2. <strong>Efficient Query Answering in Probabilistic RDF Graphs</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R4P2">[#sigmod2011 #R4P2]</a><br />
+Xiang Lian (HKUST), Lei Chen (Hong Kong University of Science and Technology)<br />
+3. <strong>Facet Discovery for Structured Web Search: A Query-log Mining Approach</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R4P3">[#sigmod2011 #R4P3]</a><br />
+Jeffrey Pound (University of Waterloo), Stelios Paparizos (Microsoft Research), Panayiotis Tsaparas<br />
+4. <strong>Schema-As-You-Go: On Probabilistic Tagging and Querying of Wide Tables</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R4P4">[#sigmod2011 #R4P4]</a><br />
+Meiyu Lu (NUS), Bing Tian Dai (NUS), Anthony Tung, Divyakant Agrawal (UC Santa Barbara)<br />
+</p>
+
+<p>
+<strong><u> Research 5: Data Privacy and Security <a name="res5" id="res5"></a></u></strong><br />
+Session Chair: Kristin LeFevre <br />
+1. <strong>No Free Lunch in Data Privacy</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R5P1">[#sigmod2011 #R5P1]</a><br />
+Daniel Kifer (Penn State), Ashwin Machanavajjhala (Yahoo) <br />
+2. <strong>TrustedDB: A Trusted Hardware based Database with Privacy and Data Confidentiality</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R5P2">[#sigmod2011 #R5P2]</a><br />
+Sumeet Bajaj (Stony Brook University), Radu Sion (Stony Brook University) <br />
+3. <strong>Differentially Private Data Cubes: Optimizing Noise Sources and Consistency</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R5P3">[#sigmod2011 #R5P3]</a><br />
+Bolin Ding (UIUC), Marianne Winslett (UIUC), Jiawei Han (UIUC); Zhenhui Li (UIUC) <br />
+4. <strong>iReduct: Differential Privacy with Reduced Relative Errors</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R5P4">[#sigmod2011 #R5P4]</a><br />
+Xiaokui Xiao (Nanyang Technological Univ), Gabriel Bender (Cornell University), Michael Hay (Cornell University), Johannes Gehrke (Cornell University) <br />
+</p>
+
+<p>
+<strong><u> Research 6: Data Consistency and Parallel DB <a name="res6" id="res6"></a></u></strong><br />
+Session Chair: Tim Kraska<br />
+1. <strong>Fast Checkpoint Recovery Algorithms for Frequently Consistent Applications</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R6P1">[#sigmod2011 #R6P1]</a><br />
+Tuan Cao (Cornell University), Marcos Vaz Salles (Cornell University), Benjamin Sowell (Cornell University), Yao Yue (Cornell University), Johannes Gehrke (Cornell University), Alan Demers (Cornell University), Walker White (Cornell University)<br />
+2. <strong>A Latency and Fault-Tolerance Optimizer for Online Parallel Query Plans</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R6P2">[#sigmod2011 #R6P2]</a><br />
+Prasang Upadhyaya (University of Washington), YongChul Kwon (University of Washington), Magdalena Balazinska (University of Washington)<br />
+3. <strong>ArrayStore: A Storage Manager for Complex Parallel Array Processing</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R6P3">[#sigmod2011 #R6P3]</a><br />
+Emad Soroush (Univ. of Washington), Magdalena Balazinska (Univ. of Washington), Daniel Wang (SLAC)<br />
+4. <strong>Warding off the Dangers of Data Corruption with Amulet</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R6P4">[#sigmod2011 #R6P4]</a><br />
+Nedyalko Borisov (Duke University), Shivnath Babu (Duke University), Nagapramod Mandagere (IBM Almaden Research Center), Sandeep Uttamchandani (IBM Almaden Research Center)<br />
+</p>
+
+<p>
+<strong><u> Research 7: Service Oriented Computing, Data Management in the Cloud <a name="res7" id="res7"></a></u></strong><br />
+Session Chair: Ashraf Aboulnaga <br />
+1. <strong>Schedule Optimization for Data Processing Flows on the Cloud </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R7P1">[#sigmod2011 #R7P1]</a><br />
+Herald Kllapi (University Of Athens), Eva Sitaridi (University of Athens), Manolis Tsangaris (University of Athens), Yannis Ioannidis (University of Athens)<br />
+2. <strong>Zephyr: Live Migration in Shared Nothing Databases for Elastic Cloud Platforms </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R7P2">[#sigmod2011 #R7P2]</a><br />
+Aaron Elmore (UC Santa Barbara), Sudipto Das (UC Santa Barbara), Divyakant Agrawal (UC Santa Barbara), Amr El Abbadi (UC Santa Barbara)<br />
+3. <strong>Workload-Aware Database Monitoring and Consolidation </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R7P3">[#sigmod2011 #R7P3]</a><br />
+Carlo Curino (MIT), Evan Jones (MIT), Sam Madden (MIT), Hari Balakrishnan (MIT)<br />
+4. <strong>Predicting Cost Amortization for Query Services </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R7P4">[#sigmod2011 #R7P4]</a><br />
+Verena Kantere (Cyprus University of Technology), Debabrata Dash (ArcSight), Georgios Gratsias (ELCA Informatique SA), Anastasia Ailamaki (EPFL)<br />
+5. <strong>Performance Prediction for Concurrent Database Workloads </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R7P5">[#sigmod2011 #R7P5]</a><br />
+Jennie Duggan (Brown University), Ugur Cetintemel (Brown University), Olga Papaemmanouil (Brandeis University), Eli Upfal (Brown University)<br />
+</p>
+
+<p>
+<strong><u> Research 8: Spatial and Temporal Data Management <a name="res8" id="res8"></a></u></strong><br />
+Session Chair: Lei Chen<br />
+1. <strong>Reverse Spatial and Textual k Nearest Neighbor Search</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R8P1">[#sigmod2011 #R8P1]</a><br />
+Jiaheng Lu (Renmin University of China), Ying Lu (Renmin University of China), Gao Cong (Nanyang Technological University)<br />
+2. <strong>Location-Aware Type Ahead Search on Spatial Databases : Semantics and Efficiency</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R8P2">[#sigmod2011 #R8P2]</a><br />
+Senjuti Basu Roy (UT Arlington), Kaushik Chakrabarti (Microsoft Research)<br />
+3. <strong>Collective Spatial Keyword Querying</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R8P3">[#sigmod2011 #R8P3]</a><br />
+Xin Cao (Singapore NTU), Gao Cong (Nanyang Technological University), Christian Jensen (Aarhus University), Beng Chin Ooi (National University of Singapore)<br />
+4. <strong>Finding Semantics in Time Series</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R8P4">[#sigmod2011 #R8P4]</a><br />
+Peng Wang (Fudan University), Haixun Wang (Microsoft), Wei Wang (Fudan University)<br />
+5. <strong>Querying Contract Databases Based on Temporal Behavior</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R8P5">[#sigmod2011 #R8P5]</a><br />
+Elio Damaggio (UCSD); Alin Deutsch (UCSD); Dayou Zhou (UCSD)<br />
+</p>
+
+<p>
+<strong><u> Research 9: Shortest Paths and Sequence Data<a name="res9" id="res9"></a></u></strong><br />
+Session Chair: Amelie Marian <br />
+1. <strong>Neighborhood-Privacy Protected Shortest Distance Computing in Cloud</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R9P1">[#sigmod2011 #R9P1]</a><br />
+Jun Gao (Peking University), Jeffrey Xu Yu (The Chinese University of Hong Kong), Ruoming Jin (Kent State University), Jiashuai Zhou, Tengjiao Wang, Dongqing Yang<br />
+2. <strong>On k-skip Shortest Paths</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R9P2">[#sigmod2011 #R9P2]</a><br />
+Yufei Tao (Chinese Univ. of Hong Kong), Cheng Sheng (The Chinese University of Hong Kong), JIan Pei (Simon Fraser Univ.)<br />
+3. <strong>Finding Shortest Path on Land Surface</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R9P3">[#sigmod2011 #R9P3]</a><br />
+Lian Liu (HKUST); Raymond Chi-Wing Wong (The Hong Kong University of Sc)<br />
+4. <strong>WHAM: A High-throughput Sequence Alignment Method</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R9P4">[#sigmod2011 #R9P4]</a><br />
+Yinan Li (Univ. of Wisconsin), Allison Terrell (Univ. of Wisconsin), Jignesh Patel (Univ. of Wisconsin)<br />
+5. <strong>A New Approach for Processing Ranked Subsequence Matching Based on Ranked Union</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R9P5">[#sigmod2011 #R9P5]</a><br />
+Wook-Shin Han (Kyungpook National University), Jinsoo Lee (Kyungpook National University), Yang-Sae Moon, Seung-won Hwang, Hwanjo Yu (POSTECH)<br />
+</p>
+
+<p>
+<strong><u> Research 10: Data Provenance, Workflow and Cleaning <a name="res10" id="res10"></a></u></strong><br />
+Session Chair: Tasos Kementsietsidis <br />
+1. <strong>Interaction between Record Matching and Data Repairing</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R10P1">[#sigmod2011 #R10P1]</a><br />
+Wenfei Fan (University of Edinburgh), Jianzhong Li (Harbin Institute of Technology), Shuai Ma (Beihang University), Nan Tang (University of Edinburgh), Wenyuan Yu (University of Edinburgh)<br />
+2. <strong>We Challenge You to Certify Your Updates</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R10P2">[#sigmod2011 #R10P2]</a><br />
+Su Chen (National University of Singapore), Xin Luna Dong (AT&amp;T Labs-Research), Laks V.S. Lakshmanan (University of British Columbia), Divesh Srivastava (AT&amp;T Labs-Research)<br />
+3. <strong>Labeling Recursive Workflow Executions On-the-Fly</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R10P3">[#sigmod2011 #R10P3]</a><br />
+Zhuowei Bao (University of Pennsylvania), Susan B. Davidson (University of Pennsylvania), Tova Milo (Tel Aviv University)<br />
+4. <strong>Tracing Data Errors with View-Conditioned Causality</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R10P4">[#sigmod2011 #R10P4]</a><br />
+Alexandra Meliou (University of Washington), Wolfgang Gatterbauer (University of Washington), Suman Nath (Microsoft Research), Dan Suciu (University of Washington)<br />
+</p>
+
+<p>
+<strong><u> Research 11: Information Extraction <a name="res11" id="res11"></a></u></strong><br />
+Session Chair: Malu Castellanos<br />
+1. <strong>Hybrid In-Database Inference for Declarative Information Extraction</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R11P1">[#sigmod2011 #R11P1]</a><br />
+Daisy Zhe Wang (University of California, Berkeley), Michael J. Franklin (University of California, Berkeley), Minos Garofalakis (Technical University of Crete), Joseph M. Hellerstein (University of California, Berkeley), Michael L. Wick (University of Massachusetts, Amherst)<br />
+2. <strong>Faerie: Efficient Filtering Algorithms for Approximate Dictionary-based Entity Extraction</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R11P2">[#sigmod2011 #R11P2]</a><br />
+Guoliang Li (Tsinghua University), Dong Deng (Tsinghua University), Jianhua Feng (Tsinghua University)<br />
+3. <strong>Joint Unsupervised Structure Discovery and Information Extraction</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R11P3">[#sigmod2011 #R11P3]</a><br />
+Eli Cortez (Universidade Federal do Amazonas), Daniel Oliveira (Universidade Federal do Amazonas), Altigran S. da Silva (Universidade Federal do Amazonas), Edleno S. de Moura (Universidade Federal do Amazonas), Alberto H. F. Laender (Universidade Federal de Minas Gerais)<br />
+4. <strong>Attribute Domain Discovery for Hidden Web Databases</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R11P4">[#sigmod2011 #R11P4]</a><br />
+Xin Jin (George Washington University), Nan Zhang (George Washington University), Gautam Das (University of Texas at Arlington)<br />
+</p>
+
+<p>
+<strong><u> Research 12: Keyword Search and Ranked Queries <a name="res12" id="res12"></a></u></strong><br />
+Session Chair: Boris Glavic <br />
+1. <strong>Keyword Search over Relational Databases:  A Metadata Approach</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R12P1">[#sigmod2011 #R12P1]</a><br />
+Sonia Bergamaschi (University of Modena and Reggio Emilia, Italy), Elton Domnori (University of Modena and Reggio Emilia, Italy), Francesco Guerra (University of Modena and Reggio Emilia, Italy), Raquel Trillo Lado (University of Zaragoza,), Yannis Velegrakis (University of Trento)<br />
+2. <strong>Sharing Work in Keyword Search over Databases</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R12P2">[#sigmod2011 #R12P2]</a><br />
+Marie Jacob (University Of Pennsylvania), Zachary Ives (University Of Pennsylvania)<br />
+3. <strong>Nearest Keyword Search in XML Documents</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R12P3">[#sigmod2011 #R12P3]</a><br />
+Yufei Tao (Chinese University of Hong Kong), Stavros Papadopoulos (Chinese University of Hong Kong), Cheng Sheng (Chinese University of Hong Kong), Kostas Stefanidis (Chinese University of Hong Kong)<br />
+4. <strong>Efficient and Generic Evaluation of Ranked Queries</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R12P4">[#sigmod2011 #R12P4]</a><br />
+Wen Jin (Independent Consultant), Jignesh M Patel (University of Wisconsin--Madison)<br />
+</p>
+
+<p>
+<strong><u> Research 13: Streams and Complex Event Processing <a name="res13" id="res13"></a></u></strong><br />
+Session Chair: Themis Palpanas<br />
+1. <strong>Changing Flights in Mid-air: A Model for Safely Modifying Continuous Queries</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R13P1">[#sigmod2011 #R13P1]</a><br />
+Kyumars Sheykh Esmaili (Systems Group), Tahmineh Sanamrad (ETH Zurich), Peter M Fischer (ETH Zurich), Nesime Tatbul (ETH Zurich)<br />
+2. <strong>How Soccer Players Would Do Stream Joins</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R13P2">[#sigmod2011 #R13P2]</a><br />
+Jens Teubner (ETH Zurich), Rene Mueller (IBM Almaden)<br />
+3. <strong>BE-Tree: An Index Structure to Efficiently Match Boolean Expressions over High-dimensional Discrete Space</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R13P3">[#sigmod2011 #R13P3]</a><br />
+Mohammad Sadoghi (University of Toronto), Hans-Arno Jacobsen (University of Toronto)<br />
+4. <strong>TI: An Efficient Indexing Mechanism for Real-Time Search on Tweets</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R13P4">[#sigmod2011 #R13P4]</a><br />
+Chun Chen (Zhejiang University), Feng Li (National University of Singapore), Beng Chin Ooi (National University of Singapore), Sai Wu (National University of Singapore)<br />
+</p>
+
+<p>
+<strong><u> Research 14: Query Processing<a name="res14" id="res14"></a></u></strong><br />
+Session Chair: Alexandra Meliou<br />
+1. <strong>More Efficient Datalog Queries: Subsumptive Tabling Beats Magic Sets</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R14P1">[#sigmod2011 #R14P1]</a><br />
+K. Tuncay Tekle (LogicBlox), Yanhong A. Liu (State University of New York at Stony Brook)<br />
+2. <strong>(Best Paper) Entangled Queries: Enabling Declarative Data-Driven Coordination</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R14P2">[#sigmod2011 #R14P2]</a><br />
+Nitin Gupta (Cornell University), Lucja Kot (Cornell University), Sudip Roy (Cornell University), Gabriel Bender (Cornell University), Johannes Gehrke (Cornell University), Christoph Koch (EPFL)<br />
+3. <strong>Data Generation using Declarative Constraints</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R14P3">[#sigmod2011 #R14P3]</a><br />
+Arvind Arasu (Microsoft Research), Raghav Kaushik (Microsoft Research), Jian Li (University of Maryland)<br />
+4. <strong>Efficient Auditing For Complex SQL queries</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R14P4">[#sigmod2011 #R14P4]</a><br />
+Raghav Kaushik (Microsoft Research), Ravi Ramamurthy (Microsoft Corporation)<br />
+</p>
+
+<p>
+<strong><u> Research 15: Data Mining<a name="res15" id="res15"></a></u></strong><br />
+Session Chair: Julia Stoyanovich<br />
+1. <strong>Exact Indexing for Support Vector Machines</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R15P1">[#sigmod2011 #R15P1]</a><br />
+Hwanjo Yu (POSTECH (Pohang University of Science and Technology)), Ilhwan Ko (POSTECH (Pohang University of Science and Technology)), Youngdae Kim (POSTECH (Pohang University of Science and Technology)), Seungwon Hwang (POSTECH (Pohang University of Science and Technology)), Wook-Shin Han (Kyungpook National University)<br />
+2. <strong>Local Graph Sparsification for Scalable Clustering</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R15P2">[#sigmod2011 #R15P2]</a><br />
+Venu Satuluri (The Ohio State University), Srinivasan Parthasarathy (The Ohio State University), Yiye Ruan (The Ohio State University)<br />
+3. <strong>Advancing Data Clustering via Projective Clustering Ensembles</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R15P3">[#sigmod2011 #R15P3]</a><br />
+Francesco Gullo (University of Calabria), Carlotta Domeniconi (George Mason University), Andrea Tagarelli (University of Calabria)<br />
+4. <strong>Sampling Based Algorithms for Quantile Computation in Sensor Networks</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R15P4">[#sigmod2011 #R15P4]</a><br />
+Zengfeng Huang (Hong Kong University of Science and Technology), Lu Wang (Hong Kong University of Science and Technology), Ke Yi (Hong Kong University of Science and Technology), Yunhao Liu (Hong Kong University of Science and Technology)<br />
+</p>
+
+<p>
+<strong><u> Research 16: Information Retrieval<a name="res16" id="res16"></a></u></strong><br />
+Session Chair: Mirella Miro <br />
+1. <strong>Context-sensitive Ranking for Document Retrieval</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R16P1">[#sigmod2011 #R16P1]</a><br />
+Liang Jeff Chen (UC San Diego), Yannis Papakonstantinou (UC San Diego)<br />
+2. <strong>Score-Consistent Algebraic Optimization of Full-Text Search Queries with GRAFT</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R16P2">[#sigmod2011 #R16P2]</a><br />
+Nathan Bales (UC San Diego), Alin Deutsch (UC San Diego), Vasilis Vassalos (A.U.E.B)<br />
+3. <strong>Efficient Diversity-Aware Search</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R16P3">[#sigmod2011 #R16P3]</a><br />
+Albert Angel (University of Toronto), Nick Koudas (University of Toronto)<br />
+4. <strong>Mining a Search Engine's Corpus: Efficient Yet Unbiased Sampling and Aggregate Estimation</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R16P4">[#sigmod2011 #R16P4]</a><br />
+Mingyang Zhang (George Washington University), Nan Zhang (George Washington University), Gautam Das (University of Texas at Arlington)<br />
+</p>
+
+<p>
+<strong><u> Research 17: Probabilistic and Uncertain Databases <a name="res17" id="res17"></a></u></strong><br />
+Session Chair: Yannis Kotidis<br />
+1. <strong>Ranking with Uncertain Scoring Functions: Semantics and Sensitivity Measures </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R17P1">[#sigmod2011 #R17P1]</a><br />
+Mohamed A Soliman (Greenplum), Ihab F Ilyas (University of Waterloo), Davide Martinenghi (Politecnico di Milano), Marco Tagliasacchi (Politecnico di Milano)<br />
+2. <strong>Querying Uncertain Data with Aggregate Constraints </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R17P2">[#sigmod2011 #R17P2]</a><br />
+Mohan Yang (Shanghai Jiao Tong University), Haixun Wang (Microsoft Research Asia), Haiquan Chen (Auburn University), Wei-Shinn Ku (Auburn University)<br />
+3. <strong>Jigsaw: Efficient optimization over uncertain enterprise data </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R17P3">[#sigmod2011 #R17P3]</a><br />
+Oliver A Kennedy (EPFL), Suman Nath (Microsoft Research)<br />
+4. <strong>Sensitivity Analysis and Explanations for Robust Query Evaluation in Probabilistic Databases </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R17P4">[#sigmod2011 #R17P4]</a><br />
+Bhargav Kanagal (University of Maryland), Jian Li (University of Maryland), Amol Deshpande (University of Maryland)<br />
+</p>
+
+<p>
+<strong><u> Research 18: Scalable Data Analytics<a name="res18" id="res18"></a></u></strong><br />
+Session Chair: Daniel Abadi <br />
+1. <strong>Fast Personalized PageRank on MapReduce</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R18P1">[#sigmod2011 #R18P1]</a><br />
+Bahman Bahmani (Stanford University), Kaushik Chakrabarti (Microsoft Research), Dong Xin (Google Inc.)<br />
+2. <strong>Processing Theta-Joins using MapReduce</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R18P2">[#sigmod2011 #R18P2]</a><br />
+Alper Okcan (Northeastern University), Mirek Riedewald (Northeastern University)<br />
+3. <strong>Llama: Leveraging Columnar Storage for Scalable Join Processing in the MapReduce Framework</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R18P3">[#sigmod2011 #R18P3]</a><br />
+Yuting Lin (National University of Singapore), Divyakant Agrawal (University of California, Santa Barbara), Chun Chen (Zhejiang University), Beng Chin Ooi (National University of Singapore), Sai Wu (National University of Singapore) <br />
+4. <strong>A Platform for Scalable One-Pass Analytics using MapReduce</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R18P4">[#sigmod2011 #R18P4]</a><br />
+Boduo Li (University of Massachusetts Amherst), Edward Mazur (University of Massachusetts Amherst), Yanlei Diao (University of Massachusetts Amherst), Andrew McGregor (University of Massachusetts Amherst), Prashant Shenoy (University of Massachusetts Amherst)<br />
+</p>
+
+<p>
+<strong><u> Research 19: Graph Management <a name="res19" id="res19"></a></u></strong><br />
+Session Chair: T.J. Green <br />
+1. <strong>Neighborhood Based Fast Graph Search in Large Networks </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R19P1">[#sigmod2011 #R19P1]</a><br />
+Arijit Khan (University of California, Santa Barbara), Nan Li (University of California, Santa Barbara), Xifeng Yan (University of California, Santa Barbara), Ziyu Guan (University of California, Santa Barbara), Supriyo Chakraborty (University of California, Los Angeles), Shu Tao (IBM T. J. Watson Research Center)<br />
+2. <strong>A Memory Efficient Reachability Data Structure Through Bit Vector Compression </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R19P2">[#sigmod2011 #R19P2]</a><br />
+Sebastiaan J. van Schaik (University of Oxford &amp; Utrecht University), Oege de Moor (University of Oxford)<br />
+3. <strong>Incremental Graph Pattern Matching </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R19P3">[#sigmod2011 #R19P3]</a><br />
+Wenfei Fan (University of Edinburgh), Jianzhong Li (Harbin Institute of Technologies), Jizhou Luo (Harbin Institute of Technologies), Zijing Tan (Fudan University), Xin Wang (University of Edinburgh), Yinghui Wu (University of Edinburgh)<br />
+4. <strong>Assessing and Ranking Structural Correlations in Graphs </strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R19P4">[#sigmod2011 #R19P4]</a><br />
+Ziyu Guan (University of California), Jian Wu (Zhejiang University), Qing Zhang (TaoBao.com), Ambuj Singh (University of California), Xifeng Yan (University of California)<br />
+</p>
+
+<p>
+<strong><u> Research 20: OLAP and its Applications <a name="res20" id="res20"></a></u></strong><br />
+Session Chair: Meral Ozsoyoglu<br />
+1. <strong>Graph Cube: On Warehousing and OLAP Multidimensional Networks</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R20P1">[#sigmod2011 #R20P1]</a><br />
+Peixiang Zhao (University of Illinois at Urbana-Champaign), Xiaolei Li (Microsoft Corporation), Dong Xin (Google Inc.), Jiawei Han (University of Illinois at Urbana-Champaign)<br />
+2. <strong>MaSM: Efficient Online Updates in Data Warehouses</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R20P2">[#sigmod2011 #R20P2]</a><br />
+Manos Athanassoulis (Ecole Polytechnique Federale de Lausanne), Shimin Chen (Intel Labs), Anastasia Ailamaki (Ecole Polytechnique Federale de Lausanne), Phillip B. Gibbons (Intel Labs), Radu Stoica (Ecole Polytechnique Federale de Lausanne)<br />
+3. <strong>Latent OLAP: Data Cubes over Latent Variables</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R20P3">[#sigmod2011 #R20P3]</a><br />
+Deepak Agarwal (Yahoo! Research), Bee-Chung Chen (Yahoo! Research)<br />
+4. <strong>E-Cube: Multi-Dimensional Event Sequence Analysis Using Hierarchical Pattern Query Sharing</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R20P4">[#sigmod2011 #R20P4]</a><br />
+Mo Liu (Worcester Polytechnic Institute), Elke Rundensteiner (Worcester Polytechnic Institute), Kara Greenfield (Worcester Polytechnic Institute), Chetan Gupta (Hewlett-Packard Labs), Song Wang (Hewlett-Packard Labs), Ismail Ari (Ozyegin University), Abhay Mehta (Hewlett-Packard Labs)<br />
+</p>
+
+<p>
+<strong><u> Research 21: Similarity Search and Queries <a name="res21" id="res21"></a></u></strong><br />
+Session Chair: Verena Kantere <br />
+1. <strong>ATLAS: A Probabilistic Algorithm for High Dimensional Similarity Search</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R21P1">[#sigmod2011 #R21P1]</a><br />
+Jiaqi Zhai (Cornell University), Yin Lou (Cornell University), Johannes Gehrke (Cornell University) <br />
+2. <strong>Flexible Aggregate Similarity Search</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R21P2">[#sigmod2011 #R21P2]</a><br />
+Yang Li (Shanghai Jiao Tong University), Feifei Li (Florida State University), Ke Yi (Hong Kong University of Science and Technology), Bin Yao (Florida State University), Min Wang (HP Labs China)<br />
+3. <strong>Effective Data Co-Reduction for Multimedia Similarity Search</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R21P3">[#sigmod2011 #R21P3]</a><br />
+Zi Huang (The University of Queensland), Hengtao Shen (The University of Queensland), Jiajun Liu (The University of Queensland), Xiaofang Zhou (The University of Queensland) <br />
+4. <strong>Efficient Exact Edit Similarity Query Processing with the Asymmetric Signature Scheme</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23R21P4">[#sigmod2011 #R21P4]</a><br />
+Jianbin Qin (University of New South Wales), Wei Wang (University of New South Wales), Yifei Lu (University of New South Wales), Chuan Xiao (University of New South Wales), Xuemin Lin (University of New South Wales & East Normal China University)<br />
+</p>
+
+
+
+
+				  <h1><strong><a name="tutorial" id="tutorial"></a>SIGMOD TUTORIAL SESSIONS</strong></h1> 
+
+
+<p> 
+<STRONG><a name="tutorial1" id="tutorial1" />Tutorial 1: Learning Statistical Models from Relational Data (Parts 1 and 2)</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23tutorial1">[#sigmod2011 #tutorial1]</a><BR />	
+Lise Getoor (Univ. of Maryland); Lilyana Mihalkova (Univ. of Maryland)	<BR />	
+		
+<STRONG><a name="tutorial2" id="tutorial2" />Tutorial 2:  Datalog and Emerging Applications: An Interactive Tutorial </STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23tutorial2">[#sigmod2011 #tutorial2]</a><BR />	
+Shan Shan Huang (LogicBlox), Todd J. Green (UC Davis), Boon Thau Loo (Univ. of Pennsylvania)	<BR />
+
+<STRONG><a name="tutorial3" id="tutorial3" />Tutorial 3:  Privacy-aware Data Management in Information Networks	</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23tutorial3">[#sigmod2011 #tutorial3]</a><BR />	
+Michael Hay (Cornell University), Kun Liu (Yahoo! Labs), Gerome Miklau (University of Massachusetts Amherst), Jian Pei (Simon Fraser University), Evimaria Terzi (Boston University)	<BR />
+
+<STRONG><a name="tutorial4" id="tutorial4" />Tutorial 4:  Web Data Management	</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23tutorial4">[#sigmod2011 #tutorial4]</a><BR />	
+Michael J Cafarella (University of Michigan), Alon Y Halevy (Google, Inc.)	<BR />
+
+<STRONG><a name="tutorial5" id="tutorial5" />Tutorial 5:  Data Management over Flash Memory	</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23tutorial5">[#sigmod2011 #tutorial5]</a><BR />	
+Ioannis Koltsidas (IBM Research), Stratis D Viglas (University of Edinburgh)	<BR />
+
+<STRONG><a name="tutorial6" id="tutorial6" />Tutorial 6:  Large-Scale Copy Detection</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23tutorial6">[#sigmod2011 #tutorial6]</a><BR />	
+Xin Luna Dong (AT&amp;T Labs - Research), Divesh Srivastava (AT&amp;T Labs - Research)	<BR />
+</p> 
+
+
+
+
+				  <h1><strong><a name="industrial" id="industrial"></a>SIGMOD INDUSTRIAL SESSIONS</strong></h1> 
+
+				  
+<!----- yannis: keynotes inserted inside sessions --------
+<p><strong><u>Industry Keynotes<a name="indkey" id="indkey"></a></u></strong><br />
+<a href="keynotes_indust.shtml#ind_keyn_abott">Michael Abott (Twitter)</a><br />
+<a href="keynotes_indust.shtml#ind_keyn_campbell">Don Campbell (IBM): Technology and Trends for Smarter Business Analytics</a>
+</p>
+---------------------------------------------------------->
+
+<p><strong><u> Industrial Keynote and Session 1: Data Management for Feeds and Streams <a name="ind1" id="ind1"></a></u></strong><br />
+Session Chair: Raghu Ramakrishnan <br />
+1. <STRONG>Industry Keynote: <a href="keynotes_indust.shtml#ind_keyn_abott">Ashish Goel (Stanford University / Twitter): Data Management for Feeds</a></STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I1P1">[#sigmod2011 #I1P1]</a><br />
+2. <STRONG>Bistro Data Feed Management System </STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I1P2">[#sigmod2011 #I1P2]</a><BR />
+Vladislav Shkapenyuk (AT&amp;T Labs - Research), Theodore Johnson (AT&amp;T Labs - Research), Divesh Srivastava (AT&amp;T Labs - Research)	<br />
+</p>					
+
+<p><strong><u> Industrial Session 2: Applying Hadoop <a name="ind2" id="ind2"></a></u></strong><br />
+Session Chair: Nesime Tatbul<br />
+1. <STRONG>Apache Hadoop Goes Realtime at Facebook</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I2P1">[#sigmod2011 #I2P1]</a><BR />
+Dhruba Borthakur (facebook), Jonathan Gray (facebook), Joydeep Sen Sarma (facebook), Kannan Muthukkaruppan (facebook), Nicolas Spiegelberg (facebook), Hairong Kuang (facebook), Karthik Ranganathan (facebook), Dmytro Molkov (facebook), Aravind Menon (facebook), Samuel Rash (facebook), Rodrigo Schmidt (facebook), Amitanand Aiyer (facebook)<br />
+2. <STRONG>Nova: Continuous Pig/Hadoop Workflows</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I2P2">[#sigmod2011 #I2P2]</a><BR />
+Christopher Olston (Yahoo! Research), Greg Chiou (Yahoo!), Laukik Chitnis (Yahoo!), Francis Liu (Yahoo!), Yiping Han (Yahoo!), Mattias Larsson (Yahoo!), Andreas Neumann (Yahoo!), Vellanki B. N. Rao (Yahoo!), Vijayanand Sankarasubramanian (Yahoo!), Siddharth Seth (Yahoo!), Chao Tian (Yahoo!), Topher ZiCornell (Yahoo!), Xiaodan Wang (Johns Hopkins University)<br />
+3. <STRONG>A Hadoop Based Distributed Loading Approach to Parallel Data Warehouses</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I2P3">[#sigmod2011 #I2P3]</a><BR />
+Yu Xu (Teradata), Pekka Kostamaa (Teradata), Yan Qi (Teradata), Jian Wen (UC Riverside), Kevin Keliang Zhao (UC San Diego)<br />
+4. <STRONG>A Batch of PNUTS: Experiences Connecting Cloud Batch and Serving Systems</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I2P4">[#sigmod2011 #I2P4]</a><BR />
+Adam E Silberstein (Yahoo! Research), Russell Sears (Yahoo! Research), Wenchao Zhou (Univeristy of Pennsylvania), Brian Frank Cooper (Yahoo! Research)<br />
+</p>					
+
+<p><strong><u> Industrial Session 3: Support for Business Analytics and Warehousing <a name="ind3" id="ind3"></a></u></strong><br />
+Session Chair: Yannis Papakonstantinou <br />
+1. <STRONG>Emerging Trends in the Enterprise Data Analytics</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I3P1">[#sigmod2011 #I3P1]</a><BR />
+Fatma Ozcan (IBM), David Hoa (IBM), Kevin S. Beyer (IBM), Andrey Balmin (IBM), Chuan Jie Liu (IBM), Yu Li (IBM)<br />
+2. <STRONG>Efficient Processing of Data Warehousing Queries in a Split Execution Environment</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I3P2">[#sigmod2011 #I3P2]</a><BR />
+Kamil Bajda-Pawlikowski (Hadapt Inc. &amp; Yale University), Daniel J Abadi (Hadapt Inc. &amp; Yale University), Avi Silberschatz (Yale University), Erik Paulson (University of Wisconsin-Madison)<br />
+3. <STRONG>SQL Server Column Store Indexes</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I3P3">[#sigmod2011 #I3P3]</a><BR />
+Per-Ake Larson (Microsoft), Cipri Clinciu (Microsoft), Eric N Hanson (Microsoft), Artem Oks (Microsoft), Susan L Price (Microsoft), Srikumar Rangarajan (Microsoft), Aleksandras Surna (Microsoft), Qingqing Zhou (Microsoft)<br />
+4. <STRONG>An Analytic Data Engine for Visualization in Tableau</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I3P4">[#sigmod2011 #I3P4]</a><BR />
+Richard Wesley (Tableau Software), Matthew Eldridge (Tableau Software), Pawel T Terlecki (Tableau Software)<br />
+</p>
+
+<p><strong><u> Industrial Keynote and Session 4: Business Analytics <a name="ind4" id="ind4"></a></u></strong><br />
+Session Chair: Richard Hull <br />
+1. <STRONG>Industry Keynote: <a href="keynotes_indust.shtml#ind_keyn_campbell">Don Campbell (IBM): Technology and Trends for Smarter Business Analytics</a></STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I4P1">[#sigmod2011 #I4P1]</a><br />
+2. <STRONG>LCI: A Social Channel Analysis Platform for Live Customer Intelligence </STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I4P2">[#sigmod2011 #I4P2]</a><BR />
+Malu Castellanos (HP), Umeshwar Dayal (HP), Meichun Hsu (HP), Riddhiman Ghosh (HP), Mohamed Dekhil (HP), Yue Lu (UIUC), Lei Zhang (University of Illinois at Chicago)<br />
+</p>					
+
+<p><strong><u> Industrial Session 5: Dynamic Optimization and Unstructured Content <a name="ind5" id="ind5"></a></u></strong><br />
+Session Chair: Russell Sears <br />
+1. <STRONG>Turbocharging DBMS Buffer Pool Using SSDs</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I5P1">[#sigmod2011 #I5P1]</a><BR />
+Jaeyoung Do (University of Wisconsin-Madison), Donghui Zhang (Microsoft Jim Gray Systems Lab), Jignesh M Patel (University of Wisconsin-Madison), David J DeWitt (Microsoft Jim Gray Systems Lab), Jeffrey F Naughton (University of Wisconsin-Madison), Alan Halverson (Microsoft Jim Gray Systems Lab)<br />
+2. <STRONG>Online Reorganization in Read Optimized MMDBS</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I5P2">[#sigmod2011 #I5P2]</a><BR />
+Felix Beier (Ilmenau University of Technology), Knut Stolze (IBM Research Development), Kai-Uwe Sattler (Ilmenau University of Technology) <br />
+3. <STRONG>Automated Partitioning Design in Parallel Database Systems </STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I5P3">[#sigmod2011 #I5P3]</a><BR />
+Rimma Nehme (Microsoft Jim Gray Systems Lab), Nicolas Bruno (Microsoft)<br />
+4. <STRONG>Oracle Database Filesystem</STRONG> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23I5P4">[#sigmod2011 #I5P4]</a><BR />
+Krishna Kunchithapadam (Oracle Corporation), Wei Zhang (Oracle Corporation), Amit Ganesh (Oracle Corporation), Niloy Mukherjee (Oracle Corporation)<br />
+</p>					
+
+
+
+
+				  <h1><strong><a name="demo" id="demo"></a>SIGMOD DEMONSTRATION SESSIONS</strong></h1> 
+
+
+
+<p><strong><u> Demo A: Ranking, the Web and Social Media<a name="demoA" id="demoA"></a></u></strong><br />
+1. <strong>SkylineSearch: Semantic Ranking and Result Visualization for PubMed</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA1">[#sigmod2011 #demoA1]</a><br />
+Julia Stoyanovich (University of Pennsylvania), Mayur Lodha (Columbia University), William Mee (Columbia University), Kenneth A. Ross (Columbia University)<br />
+2. <strong>A Cross-Service Travel Engine for Trip Planning</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA2">[#sigmod2011 #demoA2]</a><br />
+Gang Chen (Zhejiang University), Chen Liu (National University of Singapore), Meiyu Lu (National University of Singapore), Beng Chin Ooi (National University of Singapore), Shanshan Ying (National University of Singapore), Anthony Tung (National University of Singapore), Dongxiang Zhang (National University of Singapore), Meihui Zhang (National University of Singapore)<br />
+3. <strong>BRRL: A Recovery Library for Main-Memory Applications in the Cloud</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA3">[#sigmod2011 #demoA3]</a><br />
+Tuan Cao (Cornell University), Benjamin Sowell (Cornell University), Marcos Vaz Salles (Cornell University), Alan Demers (Cornell University), Johannes Gehrke (Cornell University)<br />
+4. <strong>Tweets as Data: Demonstration of TweeQL and TwitInfo</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA4">[#sigmod2011 #demoA4]</a><br />
+Adam Marcus (MIT CSAIL), Michael S. Bernstein (MIT CSAIL), Osama Badar (MIT CSAIL), David R. Karger (MIT CSAIL), Samuel Madden (MIT CSAIL), Robert C. Miller (rcm@csail.mit.edu)<br />
+5. <strong>MOBIES: Mobile-Interface Enhancement Service for Hidden Web Database</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA5">[#sigmod2011 #demoA5]</a><br />
+Xin Jin (George Washington University), Aditya Mone (University of Texas at Arlington), Nan Zhang (George Washington University), Gautam Das (University of Texas at Arlington)<br />
+6. <strong>Search Computing: Multi-domain Search on Ranked Data</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA6">[#sigmod2011 #demoA6]</a><br />
+Alessandro Bozzon (Politecnico di Milano), Daniele Braga (Politecnico di Milano), Marco Brambilla (Politecnico di Milano), Stefano Ceri (Politecnico di Milano), Francesco Corcoglioniti (Politecnico di Milano), Piero Fraternali (Politecnico di Milano), Salvatore Vadacca (Politecnico di Milano)<br />
+7. <strong>EnBlogue -- Emergent Topic Detection in Web 2.0 Streams</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA7">[#sigmod2011 #demoA7]</a><br />
+Foteini Alvanaki (Saarland University), Michel Sebastian (Saarland University), Krithi Ramamritham (IIT Bombay), Gerhard Weikum (Max-Planck Institute Informatics)<br />
+8. <strong>NOAM: News Outlets Analysis and Monitoring System</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoA8">[#sigmod2011 #demoA8]</a><br />
+Ilias Flaounas (University of Bristol), Omar Ali (University of Bristol), Marco Turchi (European Commission), Tristan Snowsill (University of Bristol), Florent Nicart (Universite de Rouen), Tijl De Bie (University of Bristol), Nello Cristianini (University of Bristol)<br />
+</p>
+
+<p><strong><u> Demo B: Systems and Performance &amp; Programming Contest <a name="demoB" id="demoB"></a></u></strong><br />
+1. <strong>One-pass Data Mining Algorithms in a DBMS with UDFs</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB1">[#sigmod2011 #demoB1]</a><br />
+Carlos Ordonez (University of Houston), Sasi K Pitchaimalai (University of Houston)<br />
+2. <strong>Inspector Gadget: A Framework for Custom Monitoring and Debugging of Distributed Dataflows</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB2">[#sigmod2011 #demoB2]</a><br />
+Christopher Olston (Yahoo! Research), Benjamin Reed (Yahoo! Research)<br />
+3. <strong>RAFT at Work: Speeding-Up MapReduce Applications under Task and Node Failures</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB3">[#sigmod2011 #demoB3]</a><br />
+Jorge-Arnulfo Quiane-Ruiz (Saarland University), Christoph Pinkel (Saarland University), Jorg Schad (Saarland University), Jens Dittrich (Saarland University)<br />
+4. <strong>WattDB: An Energy-Proportional Cluster of Wimpy Nodes</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB4">[#sigmod2011 #demoB4]</a><br />
+Daniel Schall (TU Kaiserslautern), Volker Hudlet (TU Kaiserslautern)<br />
+5. <strong>WINACS: Construction and Analysis of Web-Based Computer Science Information Networks</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB5">[#sigmod2011 #demoB5]</a><br />
+Tim Weninger (University of Illinois Urbana-Champaign), Marina Danilevsky (University of Illinois Urbana-Champaign), Fabio Fumarola (Universita), Joshua Hailpern (University of Illinois Urbana-Champaign), Jiawei Han (University of Illinois Urbana-Champaign), Thomas J. Johnston (University of Illinois Urbana-Champaign), Surya Kallumadi (Kansas State University), Hyungsul Kim (University of Illinois Urbana-Champaign), Zhijin Li (University of Illinois Urbana-Champaign), David McCloskey (University of Illinois Urbana-Champaign), Yizhou Sun (University of Illinois Urbana-Champaign), Nathan E. TeGrotenhuis (Whitworth University), Chi Wang (University of Illinois Urbana-Champaign), Xiao Yu (University of Illinois Urbana-Champaign)<br />
+6. <strong>A Data-oriented Transaction Execution Engine and Supporting Tools</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB6">[#sigmod2011 #demoB6]</a><br />
+Ippokratis Pandis (Carnegie Mellon University), Pinar Tozun (Ecole Polytechnique Federale de Lausanne), Miguel Branco (Ecole Polytechnique Federale de Lausanne), Dimitris Karampinas (University of Patras), Danica Porobic (Ecole Polytechnique Federale de Lausanne), Ryan Johnson (University of Toronto), Anastasia Ailamaki (Ecole Polytechnique Federale de Lausanne)<br />
+7. <strong>iGraph in Action: Performance Analysis of Disk-Based Graph Indexing Techniques</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB7">[#sigmod2011 #demoB7]</a><br />
+Wook-Shin Han (Kyungpook National University), Minh-Duc Pham (Kyungpook National University), Jinsoo Lee (Kyungpook National University), Romans Kasperovics (Kyungpook National University), Jeffrey Xu Yu (Chinese University of Hong Kong)<br />
+8. <strong>StreamRec: A Real-Time Recommender System</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoB8">[#sigmod2011 #demoB8]</a><br />
+Badrish Chandramouli (Microsoft Research), Justin J Levandoski (University of Minnesota), Ahmed Eldawy (University of Minnesota), Mohamed F Mokbel (University of Minnesota)<br />
+</p>
+
+<p><strong><u> Demo C: Data Integration and Probabilistic Databases <a name="demoC" id="demoC"></a></u></strong><br />
+1. <strong>Pay-As-You-Go Mapping Selection in Dataspaces</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC1">[#sigmod2011 #demoC1]</a><br />
+Cornelia Hedeler (The University of Manchester), Khalid Belhajjame (The University of Manchester), Norman W Paton (The University of Manchester), Alvaro A A Fernandes (The University of Manchester), Suzanne M Embury (The University of Manchester), Lu Mao (The University of Manchester), Chenjuan Guo (The University of Manchester)<br />
+2. <strong>Exelixis: Evolving Ontology-Based Data Integration System</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC2">[#sigmod2011 #demoC2]</a><br />
+Haridimos Kondylakis (FORTH-ICS), Dimitris Plexousakis (FORTH-ICS)<br />
+3. <strong>U-MAP: A System for Usage-Based Schema Matching and Mapping</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC3">[#sigmod2011 #demoC3]</a><br />
+Hazem Elmeleegy (AT&amp;T Labs - Research), Jaewoo Lee (Purdue University), El Kindi Rezig (Purdue University), Mourad Ouzzani (Purdue University), Ahmed Elmagarmid (Qatar Computing Research Institute, Qatar Foundation)<br />
+4. <strong>The SystemT IDE: An Integrated Development Environment for Information Extraction Rules</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC4">[#sigmod2011 #demoC4]</a><br />
+Laura Chiticariu (IBM Research - Almaden), Vivian Chu (IBM research - Almaden), Sajib Dasgupta (IBM Research - Almaden), Thilo W Goetz (IBM Software - Germany), Howard Ho (IBM Research - Almaden), Rajasekar Krishnamurthy (IBM Research - Almaden), Alexander Lang (IBM Software - Germany), Yunyao Li (IBM Research - Almaden), Bin Liu (University of Michigan), Sriram Raghavan (IBM Research - India), Frederick R Reiss (IBM Research - Almaden), Shivakumar Vaithyanathan (IBM Research - Almaden), Huaiyu Zhu (IBM Research - Almaden)<br />
+5. <strong>ProApproX: A Lightweight Approximation Query Processor over Probabilistic Trees</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC5">[#sigmod2011 #demoC5]</a><br />
+Pierre Senellart (Institut Telecom; Telecom ParisTech), Asma Souihli (Institut Telecom; Telecom ParisTech)<br />
+6. <strong>SPROUT²: A Squared Query Engine for Uncertain Web Data</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC6">[#sigmod2011 #demoC6]</a><br />
+Robert Fink (University of Oxford), Andrew Hogue (Google Inc.), Dan Olteanu (University of Oxford), Swaroop Rath (University of Oxford)<br />
+7. <strong>Fuzzy Prophet: Parameter exploration in uncertain enterprise scenarios</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC7">[#sigmod2011 #demoC7]</a><br />
+Oliver A Kennedy (EPFL), Steve Lee (Microsoft Corporation), Charles Loboz (Microsoft Corporation), Slawek Smyl (Microsoft Corporation), Suman Nath (Microsoft Research)<br />
+8. <strong>LinkDB: A Probabilistic Linkage Database System</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoC8">[#sigmod2011 #demoC8]</a><br />
+Ekaterini Ioannou (Technical University of Crete), Wolfgang Nejdl (L3S Research Center), Claudia Niederee (L3S Research Center), Yannis Velegrakis (University of Trento)<br />
+</p>
+
+<p><strong><u> Demo D: User Support and Development Environments <a name="demoD" id="demoD"></a></u></strong><br />
+1. <strong>CONFLuEnCE: CONtinuous workFLow ExeCution Engine</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD1">[#sigmod2011 #demoD1]</a><br />
+Panayiotis Neophytou (University of Pittsburgh), Panos K. Chrysanthis (University of Pittsburgh), Alexandros Labrinidis (University of Pittsburgh)<br />
+2. <strong>Demonstration of Qurk: A Query Processor for HumanOperators</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD2">[#sigmod2011 #demoD2]</a><br />
+Adam Marcus (MIT CSAIL), Eugene Wu (MIT CSAIL), David R. Karger (MIT CSAIL), Samuel Madden (MIT CSAIL), Robert C. Miller (MIT CSAIL)<br />
+3. <strong>Automatic Example Queries for Ad Hoc Databases</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD3">[#sigmod2011 #demoD3]</a><br />
+Bill Howe (University of Washington), Garret Cole (University of Washington), Nodira Khoussainova (University of Washington), Leilani Battle (University of Washington)<br />
+4. <strong>NetTrails: A Declarative Platform for Maintaining and Querying Provenance in Distributed Systems</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD4">[#sigmod2011 #demoD4]</a><br />
+Wenchao Zhou (University of Pennsylvania), Qiong Fei (University of Pennsylvania), Shengzhi Sun (University of Pennsylvania), Tao Tao (University of Pennsylvania), Andreas Haeberlen (University of Pennsylvania), Zachary Ives (University of Pennsylvania), Boon Thau Loo (University of Pennsylvania), Micah Sherr (Georgetown University)<br />
+5. <strong>GBLENDER: Visual Subgraph Query Formulation Meets Query Processing</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD5">[#sigmod2011 #demoD5]</a><br />
+Changjiu Jin (Nanyang Technological University), Sourav S Bhowmick (Nanyang Technological University), Xiaokui Xiao (Nanyang Technological University), Byron Choi (Hong Kong Baptist University), Shuigeng Zhou (Fudan University)<br />
+6. <strong>Coordination through Querying in the Youtopia System</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD6">[#sigmod2011 #demoD6]</a><br />
+Nitin Gupta (Cornell University), Lucja Kot (Cornell University), Gabriel Bender (Cornell University), Sudip Roy (Cornell University), Johannes Gehrke (Cornell University), Christoph Koch (EPFL)<br />
+7. <strong>DBWiki: A Structured Wiki for Curated Data and Collaborative Data Management</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD7">[#sigmod2011 #demoD7]</a><br />
+Peter Buneman (University of Edinburgh), James Cheney (University of Edinburgh), Sam Lindley (University of Edinburgh), Heiko Muller (CSIRO)<br />
+8. <strong>Rapid Development of Web-Based Query Interfacesfor XML Datasets with QURSED</strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23demoD8">[#sigmod2011 #demoD8]</a><br />
+Abhijith Kashyap (SUNY at Buffalo), Michalis Petropoulos (SUNY at Buffalo)
+</p>
+
+
+				  <h1><strong><a name="keynote" id="keynote"></a>SIGMOD KEYNOTE TALKS</strong></h1> 
+
+
+
+<p>
+<strong><u><a href="keynote_1.shtml">Keynote 1:  Internet-Scale Storage</a></u></strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23keynote1">[#sigmod2011 #keynote1]</a><br />
+James Hamilton (Amazon Web Services)<br />
+Session Chair: Fatma Ozcan
+</p>
+
+<p>
+<strong><u><a href="keynote_2.shtml">Keynote 2:  Managing Scientific Data</a></strong></u> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23keynote2">[#sigmod2011 #keynote2]</a><br />
+Anastasia Ailamaki (EPFL)<br />
+Session Chair: Chris Jermaine
+</p>
+
+
+
+
+
+				<h1><strong><a name="invited" id="invited"></a>SIGMOD PANEL SESSIONS </strong></h1> 
+
+				
+<p>
+<strong><u><a name="invited1" id="invited1"></a>Data Management Issues in Health and Medical Informatics</u></strong> 
+<a href="https://twitter.com/#!/search/%23sigmod2011%20%23panel">[#sigmod2011 #panel]</a><br />
+Moderator: Tamer Ozsu (University of Waterloo)<br />
+<strong>Panelists:</strong><br />
+Allen Brown (Microsoft) <br />
+Helen Chen (Agfa Healthcare and University of Waterloo)<br />
+Asuman Dogac (SRDC Ltd)<br />
+Raymond Ng (UBC)<br />
+Joel Saltz (Emory University)<br />
+Wang Chiew Tan (IBM Research - Almaden and University of California - Santa-Cruz)<br />
+</p>
+
+
+
+
+
+				<h1><strong><a name="plenary" id="plenary"></a>SIGMOD RESEARCH PLENARY SESSIONS </strong></h1> 
+
+<p>
+Each paper will have access to a 1x2.5m poster stand 
+that can easily fit one A0 poster or multiple smaller printouts.
+</p>
+
+<p>
+<strong><u> Plenary Session I</u></strong><br /> 
+Posters of Research Papers from Sessions 11-21
+</p>
+
+<p>
+<strong><u> Plenary Session II</u></strong><br />
+Posters of Research Papers from Sessions 1-10
+</p>
+
+
+
+
+				<h1><strong><a name="posters" id="posters"></a>SIGMOD POSTERS </strong></h1> 
+
+				
+				
+<p><strong><u>Undergraduate Poster Competition <a name="postersA" id="postersA"></a></u></strong><br />
+<strong>Study of techniques for the indirect enhancement of training data in the training of neural networks used in re-ranking of web search results</strong><br />
+Panagiotis Parchas, School of Electrical and Computer Engineering, Department of Computer Science, National Technical University of Athens (NTUA), Greece<br />
+<strong>ATLAS: A Probabilistic Algorithm for High Dimensional Similarity Search </strong><br />
+Jiaqi Zhai, Cornell University, USA <br />
+<strong>Outsourced Computation Verification</strong><br />
+Roy Luo, University of California, Berkeley, USA<br />
+<strong>DYNAMO - Dynamic Web-Service Mashups</strong><br />
+Apostolos Nydriotis, ECE Department, Technical University of Crete, Greece<br />
+<strong>DEMA: Dynamic Clustering of Spatio-Temporal Dataset to Improve Indexing Performance</strong><br />
+Wook-Hee Kim, Electrical and Computer Engineering, Ulsan National Institute of Science and Technology, Korea<br />
+<strong>Link Prediction in Annotation Graphs using Graph Summarization</strong><br />
+Philip Anderson, Computer Science Department, University of Maryland, USA<br />
+</p>
+
+<p><strong><u>Graduate Posters Session <a name="postersB" id="postersB"></a></u></strong><br />
+<strong>Research on Moving Objects with Multimodal Transportation Modes</strong><br />
+Jianqiu Xu (FernUniversitat Hagen)<br />
+<strong>Database Forensics in the Service of Information Accountability</strong><br />
+Kyriacos E. Pavlou (The University of Arizona)<br />
+</p>
+
+
+
+  </div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

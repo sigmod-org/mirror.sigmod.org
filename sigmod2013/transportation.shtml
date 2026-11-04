@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://www.sigmod2011.org/news.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA  - Transportation</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+theImages[1] = 'images/ny/skyline_bw.jpg'
+
+theImages[2] = 'images/ny/sunset.jpg'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+theImageDescriptions[1] = 'NYC Skyline'
+
+theImageDescriptions[2] = 'NYC Building at Sunset'
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[2] = 'http://en.wikipedia.org/wiki/New_York_City'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<li><a href="http://www.regonline.com/2013sigmodpods"><b>Registration</b></a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc1.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+<!--
+
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="affiliated_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+    <li><a href="accommodation.shtml" title="Travel and Accommodations">Travel and Accommodations</a></li>
+    <li><a href="docs/local_info.pdf" title="Local Information">Explore NYC</a></li>
+<!--
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+-->
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> 
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  <!-- <li><a href="guidelines.shtml" title="SIGMOD Submission Guidelines">SIGMOD Submission Guidelines</a></li>
+  <li><a href="guidelines-pods.shtml" title="PODS Submission Guidelines">PODS Submission Guidelines</a></li>
+  <li><a href="camera-ready.shtml" title="Camera Ready Instructions"<b>Camera Ready Instructions</b></a></li> -->
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_pods.shtml" title="Program">Program</a></li>
+  <li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="pods_invited.shtml#keynote" title="Pods Keynote">
+  Keynote: Diego Calvanese (Free University of Bozen-Bolzano)</a></li>
+  <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 1: Piotr Indyk">Tutorial 1: Piotr Indyk (MIT)</a></li> 
+  <li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 2: Pablo Barcel&oacute;">Tutorial 2: Pablo Barcel&oacute; (University of Chile)</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+<!--
+  <li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+  <li><p>Keynote 1: 
+      </p></li>
+  <li><p>Keynote 2: 
+  </p>
+  </li>
+-->
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="keynote_1.shtml">Keynote 1: Alex Nazaruk &amp Michael Rauchman (Middle Lake Partners, LLC)</a> 
+      </li>
+  <li><a href="keynote_2.shtml">Keynote 2: Paul Yaron (J. P. Morgan Chase)</a></li>
+  <li><a href="sigmod_panel.shtml" title="Sigmod Panel">Sigmod Panel</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="ind_list.shtml" title="Industrial Presentations">Industrial Presentations</a></li>
+</ul>
+
+<h3 class="navheading"><a href="http://confer.csail.mit.edu/" title="Confer: Conference Scheduling">Confer: Conference Scheduling</a></h3>
+</div>
+
+
+
+
+			
+<div id="maincontent">
+	  <h1>Transportation</h1>
+
+
+<p>The 2012 ACM SIGMOD/PODS Conference will be held in the city of
+Scottsdale, Arizona, USA at the <a style="color: rgb(204, 102, 0);
+text-decoration: none;"
+href="https://resweb.passkey.com/go/MACH2012">Hyatt Regency Scottsdale
+Resort and Spa at Gainey Ranch</a>. Scottsdale is adjacent to Phoenix,
+the fifth most populated city in the United States and is serviced by
+the <a style="color: rgb(204, 102, 0); text-decoration: none;"
+href="http://skyharbor.com/"> Phoenix Sky Harbor International
+Airport (PHX)</a>.  Phoenix Sky Harbor, a hub of US Airways, serves more
+than 100,000 passengers, with 1,500 flights per day, and serves nearly
+40 million passengers every year. The following airlines have flights
+in and out of the  Phoenix Sky Harbor airport:
+<ul>
+<li>Aeromexico</li>
+<li>Air Canada</li>
+<li>AirTran Airways</li>
+<li>Alaska Airlines</li>
+<li>American Airlines</li>
+<li>British Airways</li>
+<li>Delta Air Lines</li>
+<li>Frontier Airlines</li>
+<li>Great Lakes Airlines</li>
+<li>Hawaiian Airlines</li>
+<li>JetBlue Airways</li>
+<li>Southwest Airlines</li>
+<li>Sun Country Airlines</li>
+<li>United Airlines</li>
+<li>US Airways</li>
+<li>WestJet</li>
+</ul>
+
+<p>Information about traveling to and from the Phoenix SkyHarbor
+International Airport (PHX) can be found at <a style="color: rgb(204,
+102, 0); text-decoration: none;"
+href="http://skyharbor.com/transportationparking/limosAndTaxis.html"
+target="_blank"> airport web site</a>. Detailed information about how
+to reach the conference venue can be found at the
+<a style="color: rgb(204, 102, 0); text-decoration: none;"
+href="http://scottsdale.hyatt.com/hyatt/hotels/services/transportation/index.jsp;jsessionid=445480508BF51890DF0DE04DED232BB7.atg08-prd-atg1">hotel
+web site</a>.  In this page, we summarize these alternative
+transportation options.  </p>
+
+
+<p><strong>Super Shuttle  &ndash;</strong><a style="color: rgb(204,
+102, 0); text-decoration: none;"
+href="http://www.supershuttle.com/en/PHXAirportShuttlePhoenix.html"
+target="_blank"> Super Shuttle </a>offers transportation between the
+airport and the hotel 24 hours a day. Upon arrival at the airport,
+look for the island marked Van Service outside of baggage claim. A
+uniformed Guest Service Representative will assist you with your
+arrangements to the hotel. No advance reservations are needed from the
+airport to the hotel; however, 24 hour advance notice is requested for
+return trips from the hotel to the airport. Super Shuttle costs $22
+per person, each way. Groups may reserve an entire shuttle for
+$80. Vans accommodate a maximum of seven people. For reservations,
+please call 800-730-9267</p>
+
+<p><strong>Transtyle Sedan and SUV Service &ndash; </strong>Transtyle
+offers 24-hour private chauffer driven services in sedans that can
+accommodate up to four passengers and luggage, and SUV&rsquo;s that
+can accommodate up to six passengers and luggage. Transtyle also
+offers Van&rsquo;s, Stretch Limousines, thirty two passenger Mini
+Buses, and full size fifty six passenger Motor Coach&rsquo;s. Advance
+reservations required. The service fees are as follows:</p>
+<p>&nbsp;&nbsp;&nbsp; $45, call upon arrival for your car to pick you up<br />
+&nbsp;&nbsp;&nbsp; $70 Meet and Greet Service - have a car waiting for you upon arrival<br />
+&nbsp;&nbsp;&nbsp; SUV Request is an additional $20</p>
+<p> Please call  800-410-5479 for reservations.</p>
+
+
+<p><strong>Taxis &ndash; </strong>The following three taxi companies have
+contracted with Sky Harbor Airport to provide service at established
+rates. These rates apply regardless of how many people in your party
+and how much luggage you are carrying. The hotel is approximately 18
+miles away from PHX, and the estimated taxi cost is approximately
+$40.&nbsp; For returns to the airport, please speak with the hotel
+Concierge.<br />  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;AAA/Yellow
+Cab: <span id="OBJ_PREFIX_DWT40" class="undefined">(480)
+888-8888</span> &nbsp;&nbsp;&nbsp;<span id="OBJ_PREFIX_DWT41"
+class="Object"><a style="color: rgb(204,
+102, 0); text-decoration: none;" target="_blank"
+href="http://www.aaayellowaz.com/">http://www.aaayellowaz.com/</a></span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apache
+Taxi: <span id="OBJ_PREFIX_DWT42" class="undefined">(480)
+557-7000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span id="OBJ_PREFIX_DWT43"
+class="Object"><a style="color: rgb(204,
+102, 0); text-decoration: none;" target="_blank"
+href="http://www.apachetaxi.com/">http://www.apachetaxi.com/</a></span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mayflower
+Cab: <span id="OBJ_PREFIX_DWT44" class="undefined">(602)
+955-1355</span></p>
+
+
+<p><strong>Hyatt Shopping Shuttle &ndash; </strong> As part of the resort
+fee (covered by the special conference rate),  the Hyatt reesort
+provides a 12-passenger van to take guests to the many shopping areas
+surrounding the hotel. The current schedule for departures is as
+follows:</p>
+<ul>
+    <li>10:00 a.m. - Shuttle South to Scottsdale Fashion Square, Fifth Ave Shops and Old Town Scottsdale</li>
+    <li>10:45 a.m. - Shuttle North to Kierland&nbsp;</li>
+    <li>12:00 p.m. - Shuttle South to Scottsdale Fashion Square, Fifth Ave Shops and Old Town Scottsdale</li>
+    <li>2:00 p.m. - Shuttle South to Scottsdale Fashion Square, Fifth Ave Shops and Old Town Scottsdale</li>
+    <li>2:45 p.m.* - Shuttle North to Kierland&nbsp;</li>
+    <li>4:00 p.m.* - Shuttle South to Scottsdale Fashion Square, Fifth Ave Shops and Old Town Scottsdale</li>
+</ul>
+<div>
+  <p>Guests  may return to the hotel on any of the shuttles, other
+  than those marked  with an *. Guests will need to arrange for their
+  own transportation  back to the Hyatt after 2:00p.m.&nbsp; Mon -
+  Sat</p></div>
+ 	
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+    <!-- footer -->
+    <title></title>
+  </head>
+  <body>
+    <div id="footer"> <img src="images/bottom_logos_2012a.png">
+      <table border="0" width="740">
+        <tbody>
+          <tr>
+            <td width="138">
+              <div align="center"><img src="images/sigmod-logo.png"
+                  alt="" hspace="10" vspace="10" width="80"></div>
+            </td>
+            <!-- <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td> -->
+            <td width="465">&nbsp;</td>
+            <td width="155"><a href="http://www.acm.org"><img
+                  src="images/acm.png" alt="ACM"
+                  longdesc="http://www.acm.org" width="160"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="images/bottom_logos_2012b.jpg">
+      <!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        --> </div>
+    <!-- end of wrap -->
+    <p> </p>
+    <div id="credits"> <a href="about.shtml">Credits</a>
+      <table align="center">
+        <tbody>
+          <tr>
+          </tr>
+          <tr valign="center">
+            <td>Follow us:</td>
+            <td><a href="https://www.facebook.com/AcmSigmod2013"><img
+                  src="images/facebook-icon.png"></a></td>
+            <td> <a href="http://twitter.com/acmsigmod2013"><img
+                  src="images/twitter-icon.png"></a></td>
+            <td> <a
+                href="https://plus.google.com/u/0/communities/102395415671629698034"><img
+                  src="images/google-plus.gif" height="35" width="35"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+
+
+
+</div></body></html>

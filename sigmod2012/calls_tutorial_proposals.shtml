@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA - Call for Tutorial Proposals</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+	
+<div id="wrap">
+			
+<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+
+			
+<div id="maincontent">
+				  <h1>SIGMOD 2012 CALL FOR TUTORIAL PROPOSALS</h1>
+
+<p>
+We solicit proposals for tutorials for presentation at the 2012 SIGMOD conference. Proposals must provide an in-depth survey of the chosen topic with the option of describing a particular piece of work in detail. A meaningful summary of open issues in the topic should be included.
+
+<p>
+Proposals must be no more than five pages, using an 11 pt or larger font for the body of the text of the proposal, and must include enough detail to provide a sense of both the scope of material to be covered and the depth to which it will be covered. Proposals should also indicate the tutorial length (typically 1.5 or 3 hours; if the tutorial can be either length, please be sure to identify which material is included for each length). Proposals should also identify any other venues in which all or part of the tutorial has been or will be presented, and explain how the current proposal differs from those other editions of the tutorial.
+Tutorial proposals must clearly identify the intended audience and any prerequisite knowledge for attendees. Proposals should include a brief (no more than 3 sentences) professional biography.
+
+
+<p>
+Tutorials may be taped and these videos, as well as the presentation slides, included in SIGMOD Digital Library (Anthology and Digital Symposium collection - DiSC). All accepted presenters will be required to sign the necessary permission forms to permit this distribution.
+
+<p>
+Please submit proposals by E-mail (in PDF format) to Alon Halevy (halevy [at] google.com) by <B>5PM PST on December 2nd, 2011</B>.
+
+<!--
+<p>
+Tutorial Chair
+<p>
+Alon Halevy (Google Research)
+-->
+
+</div>
+
+<!--endMainContent --> 
+		
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+</body>
+</html>

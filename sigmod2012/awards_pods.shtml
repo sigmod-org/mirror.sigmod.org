@@ -1,0 +1,583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA -
+Awards</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+			
+<div id="maincontent">
+<h1>PODS Awards</h1>
+<h2>PODS Best Paper Award</h2>
+<h3>Best Paper Award: Worst-Case Optimal Join Algorithms</h3>
+<p><b>Hung Q. Ngo, University at Buffalo, SUNY; Ely Porat, Bar-Ilan
+University; Christopher R&eacute;, University of Wisconsin-Madison; Atri
+Rudra, University at Buffalo, SUNY</b></p>
+
+<p>Efficient join processing is one of the most fundamental and
+  well-studied tasks in database research. In this work, we examine
+  algorithms for natural join queries over many relations and describe
+  a novel algorithm to process these queries optimally in terms of
+  worst-case data complexity. Our result builds on recent work by
+  Atserias, Grohe, and Marx, who gave bounds on the size of a full
+  conjunctive query in terms of the sizes of the individual relations
+  in the body of the query. These bounds, however, are not
+  constructive: they rely on Shearer's entropy inequality which is
+  information-theoretic. Thus, the previous results leave open the
+  question of whether there exist algorithms whose running time
+  achieve these optimal bounds. An answer to this question may be
+  interesting to database practice, as we show in this paper that any
+  project-join plan is polynomially slower than the optimal bound for
+  some queries. We construct an algorithm whose running time is
+  worst-case optimal for all natural join queries. Our result may be
+  of independent interest, as our algorithm also yields a constructive
+  proof of the general fractional cover bound by Atserias, Grohe, and
+  Marx without using Shearer's inequality. In addition, we show that
+  this bound is equivalent to a geometric inequality by Bollobs and
+  Thomason, one of whose special cases is the famous Loomis-Whitney
+  inequality. Hence, our results algorithmically prove these
+  inequalities as well. Finally, we discuss how our algorithm can be
+  used to compute a relaxed notion of joins.
+</p>
+<p>
+   <img src="images/awards/ngo_hung_portrait.jpg" width="50px" hspace="6" align="left">
+  <b>Hung Q. Ngo</b> is an Associate Professor at the Computer
+Science and Engineering department, State University of New York
+(SUNY) at Buffalo. He received a Ph.D. in Computer Science and an
+M.S. in Mathematics from the University of Minnesota, Twin Cities. His
+main research interests are in the theory of switching networks and
+algorithmic group testing.</p>
+
+<p>
+   <img src="images/awards/porat-ely-portrait.jpg" width="50px" hspace="6" align="left">
+<b>Ely Porat</b> is an Associate Professor at Bar-Ilan University. He
+received his Doctorate at Bar-Ilan University in 2000. Following that,
+he fulfilled his military service and, in parallel, worked as a
+faculty member at Bar- Ilan University. Porat spent the spring 2007
+semester as a Visiting Scientist in Google Mountain View. He is a
+consultor to Google in Tel Aviv, and holds positions as a visiting
+professor at the University of Michigan and at Tel Aviv University. </p>
+
+<p>
+   <img src="images/awards/re-christopher-portrait.jpg" width="50px" hspace="6" align="left">
+<b>Christopher (Chris) R&eacute;</b> is an assistant professor in the department of
+Computer Sciences at the University of Wisconsin-Madison. The goal of
+his work is to enable users and developers to build applications that
+more deeply understand and exploit data. Chris received his PhD from
+the University of Washington, Seattle under the supervision of Dan
+Suciu. For his PhD work in the area of probabilistic data management,
+Chris received the SIGMOD 2010 Jim Gray Dissertation Award. Chris
+received an NSF CAREER Award in 2011. </p>
+
+<p>
+<img src="images/awards/rudra-atri-portrait.jpg" width="50px" hspace="6" align="left">
+<b>Atri Rudra</b> is an Assistant Professor of Computer Science and
+Engineering at University at Buffalo, State University of New York,
+Buffalo. Atri received his Bachelor's degree from Indian Institute of
+Technology, Kharagpur, India in 2000 and his Ph.D. from University of
+Washington in 2007. From 2000-2002, he was a Research Staff Member at
+IBM India Research Lab, New Delhi, India. His research interests lie
+in theoretical computer science and in particular, theory of
+error-correcting codes, data stream and sub-linear algorithms, game
+theory and algorithmic mechanism design, approximation algorithms,
+computational complexity, finite field theory and applications. He is
+a recipient of an NSF CAREER award (2009), HP Labs Innovation Research
+Award (2010), ESA best paper award (2010) and the UB Exceptional
+Scholars - Young Investigator award (2011).</p>
+
+<h2>ACM PODS Alberto O. Mendelzon Test-of-Time Award 2012</h2>
+<h3>Containment and Equivalence for an XPath Fragment</h3>
+<p><b>Gerome Miklau, University of Massachusetts, Amherst; Dan Suciu,
+University of Washington</b></p>
+
+<p>The paper studied static analysis problems for XPath, a query
+language at the core of processing XML documents and XML document
+databases. The results of Miklau and Suciu shed light on the boundary
+between tractability and intractability for XPath query containment,
+since it was previously known that the containment problem was
+solvable in polynomial time for XPath queries in which any two of the
+three navigation axes of XPath are allowed. Both the paper in the PODS
+2002 proceedings and its subsequent full version in the Journal of the
+Association for Computing Machinery have received hundreds of
+citations each. Moreover, this work initiated a fruitful line of
+research on the static analysis of XML query languages that brought
+together researchers from database theory and automata theory.</p>
+
+<p>
+<img src="images/awards/miklau-gerome-portrait.jpg" width="50px" hspace="6" align="left">
+<b>Gerome Miklau</b> is an Associate Professor at the University of
+Massachusetts, Amherst. His primary research interest is the secure
+management of large-scale data. This includes evaluating threats to
+privacy in published data, devising techniques for the safe
+publication of social networks, network traces, and audit logs, as
+well as designing database management systems to implement security
+policies. He was awarded a Lilly Teaching Fellowship in 2011, an NSF
+CAREER Award in 2007, and he won the 2006 ACM SIGMOD Dissertation
+Award. He received his Ph.D. in Computer Science from the University
+of Washington in 2005. He earned Bachelor's degrees in Mathematics and
+in Rhetoric from the University of California, Berkeley, in 1995.
+</p>
+<p>
+<img src="images/awards/suciu-dan-portrait.jpg" width="50px" hspace="6" align="left">
+<b>Dan Suciu</b> is a Professor in Computer Science at the
+University of Washington. He received his Ph.D. from the University of
+Pennsylvania in 1995, was a principal member of the technical staff at
+AT&T Labs and joined the University of Washington in 2000. Suciu is
+conducting research in data management, with an emphasis on topics
+related to Big Data and data sharing, such as probabilistic data, data
+pricing, parallel data processing, data security. He is a co-author of
+two books Data on the Web: from Relations to Semistructured Data and
+XML, 1999, and Probabilistic Databases, 2011. He is a Fellow of the
+ACM, holds twelve US patents, received the 2000 ACM SIGMOD Best Paper
+Award, the 2010 PODS Ten Years
+Best paper award, and is a recipient of the NSF Career Award and of an
+Alfred P. Sloan Fellowship. Suciu serves on the VLDB Board of
+Trustees, and is an associate editor for the VLDB Journal, for ACM
+TOIS, and for Information Systems. Suciu's PhD students Gerome Miklau
+and Christopher Re received the ACM SIGMOD Best Dissertation Award in
+2006 and 2010 respectively, and Nilesh Dalvi was a runner up in
+2008.</p>
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+</body>
+</html>

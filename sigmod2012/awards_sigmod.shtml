@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA -
+SIGMOD Awards</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+			
+<div id="maincontent">
+
+<h1>SIGMOD Awards</h1>
+
+<h2>SIGMOD Contributions Award</h2>
+<p>
+For strengthening and humanizing the database community by originating
+			  and developing the "Distinguished Profile in
+			  Database Research" series.
+		  </p>
+<h3>Marianne Winslett  (University of Illinois)</h3>
+<p>
+  <img src="images/awards/winslett.jpg" width="50px" hspace="6" align="left">
+  <strong>Marianne Winslett </strong>has been a professor in the
+			  Department of Computer Science at the
+			  University of Illinois since 1987. She is an
+			  ACM Fellow and the recipient of a
+			  Presidential Young Investigator Award from
+			  the US National Science Foundation. She is
+			  the former vice-chair of ACM SIGMOD and has
+			  served on the editorial boards of
+			  
+ACM Transactions on the Web, ACM Transactions on Database Systems,
+			  IEEE Transactions on Knowledge and Data
+			  Engineering, ACM Transactions on Information
+			  and Systems Security, and the Very Large
+			  Data Bases Journal. She has received two
+			  best paper awards for research on managing
+			  regulatory compliance data (VLDB, SSS), one
+			  best paper award for research on analyzing
+			  browser extensions to detect security
+			  vulnerabilities (Usenix Security), and one
+			  for keyword search (ICDE). Her PhD is from
+			  Stanford University.</p>
+
+<h2>SIGMOD Test-of-Time Award</h2>
+<h3>Executing SQL over Encrypted Data in the Database-Service-Provider
+    Model </h3>
+<p>
+  <strong>Hakan Hacigumus, Bala Iyer, Chen Li, Sharad Mehrotra</strong></p>
+<p>This paper from the SIGMOD 2002 Conference remarkably anticipated the
+			  world of "Database as Service" which did
+			  come about and continues to grow in
+			  importance. To get a sense of how visionary
+			  the work was, consider that this paper was
+			  published in June 2002 (and thus accepted in
+			  Jan 2002), even a couple of months before
+			  Amazon EC2 and S3 services were launched (of
+			  course, Amazon RDS and SQL Azure came much
+			  later). The core of the paper focuses on the
+			  challenges of how to leverage cloud services
+			  while keeping some of the information (at
+			  the discretion of the enterprise/user)
+hidden from the service provider. Beyond the specific algorithmic
+details, the key contribution is the framework: (i) introduction of a
+mapping function, and (ii) query splitting logic to ensure how the
+work can be distributed across cloud and client when some information
+is encrypted. Is this framework used by enterprises today? As best as
+we can tell, the answer is perhaps no. But, is the framework
+interesting and has real possibilities of adoption and further impact
+and more follow-on by research community? Absolutely. In summary, this
+paper is one of the early papers to foresee the world of Database as
+Service (before any one of us were working on that problem). The
+specific technical focus was dealt with reasonable depth. The impact
+of the technical focus has not yet been seen by the industry but this
+paper has the possibility of inspiring much more follow-on
+work/thinking (beyond 140+ citations it already has in ACM Digital
+Library).</p>
+
+
+
+<p>
+<img src="images/awards/hakan.jpg" width="70px" hspace="6" align="left">
+<strong>Hakan Hacigumus</strong> is the head of Data Management Research at NEC Labs America. His current interests include datamanagement in the cloud, big data, data analytics, mobility, andservice oriented business models. Prior to NEC Labs, he was a researcher at IBM Almaden Research Center, where worked on a wide range of areas in data management and services research. He received his Ph.D. in Computer Science from the University of California, Irvine.
+</p>
+<p>
+<strong>
+<img src="images/awards/balaIyer.jpg" width="70px"  hspace="6" align="left">
+Balakrishna (Bala) Iyer</strong> works for IBM as a Distinguished Engineer for Database Technology. He earned his B.Tech from IIT -Bombay, MS and PhD degrees from Rice University. He has worked previously for Bell Labs, Murray Hill, NJ. Bala has made contributions to the field of database in the area of temporal data, database as a service compression, sorting, query processing, data mining, encoded vector representation and processing. Many of his innovation are used every day, having been
+incorporated in IBM's data management products like VSAM, IMS, DB2 and IBM Intelligent Miner, and products from other leading vendors. His work on the temporal data model led to the standardization of temporal function in SQL 2011.
+</p>
+<p>
+<img src="images/awards/chenli.jpg" width="50px"  hspace="6" align="left">
+<strong>Chen Li</strong> is an associate professor in the Department
+of Computer Science at the University of California, Irvine. He
+received his Ph.D.degree in Computer Science from Stanford University
+in 2001, and his M.S. and B.S. in Computer Science from Tsinghua
+University, China, in 1996 and 1994, respectively. He received a
+National Science Foundation CAREER Award in 2003 and many other NSF
+grants and industry gifts. He was once a part-time Visiting Research
+Scientist at Google.</p>
+
+<p>His research interests are in the fields of data management and
+information search, including text search, data-intensive computing,
+and data integration. He is the founder of Bimaple Technology Inc., a
+company providing powerful search for enterprises and developers.
+</p>
+<p>
+<img src="images/awards/sharad.jpg" width="50px"  hspace="6" align="left">
+<strong>Sharad	Mehrotra</strong>	is	a	Professor
+in	the School of Information and	Computer	Science at
+University of California, Irvine	and	founding
+Director	of	the	Center	for	Emergency
+Response Technologies (CERT) at UCI. From 2002-2009 he served as the
+Director and PI of the RESCUE project (Responding to Crisis and
+Unexpected Events) which, funded by NSF through its large ITR program,
+spanned 7 schools and consisted of 60 members. He is the recipient of
+Outstanding Graduate Student Mentor Award in 2005. Prior to joining
+UCI, he was a member of the faculty at University of Illinois, Urbana
+Champaign in the Department of Computer Science where he was the
+recipient of the C. W. Gear Outstanding Junior Faculty Award. Mehrotra
+has also served as a Scientist at Matsushita Information Technology
+Laboratory immediately after graduating with a Ph.D. from University
+of Texas at Austin (1988-1993).
+</p>
+<p>
+Mehrotra's research expertise is in data management and distributed
+systems areas in which he has made many pioneering contributions. Two
+such contributions include the concept of "database as a service" and
+"use of information retrieval techniques, particularly relevance
+feedback, in multimedia search". Mehrotra is a recipient of numerous
+best paper nominations and awards includingSIGMOD Best Paper award in
+2001 for a paper entitled "Locally Adaptive Dimensionality Reduction
+for Indexing Large Time Series Databases", and best paper award in
+DASFAA 2004 for the paper entitled "Efficient Execution of Aggregation
+Queries over Encrypted Databases". Another of his paper entitled 
+"Concurrency Control in Hierarchical Multidatabase System” was
+selected as best of VLDB 1994 submissions invited for the VLDB
+Journal. Mehrotra's recent research focuses on data quality,
+data privacy particularly in the context of cloud computing and sensor
+driven situational awareness systems.
+</p>
+<h2>SIGMOD Best Paper Award</h2>
+
+<h3>High-Performance Complex Event Processing over XML Streams</h3>
+<p><b>Barzan Mozafari, University of California, Los Angeles; Kai Zeng,
+University of California, Los Angeles; Carlo Zaniolo, University of
+California, Los Angeles</b></p>
+<p>
+Much research attention has been given to delivering high-performance systems that are capable of complex event processing (CEP) in a wide range of applications. However, many current CEP systems focus on processing efficiently data having a simple structure, and are otherwise limited in their ability to support efficiently complex continuous queries on structured or semi-structured information. However, XML streams represent a very popular form of data exchange, comprising large portions of social network and RSS feeds, financial records, configuration files, and similar applications requiring advanced CEP queries. In this paper, we present the XSeq language and system that support CEP on XML streams, via an extension of XPath that is both powerful and amenable to an efficient implementation. Specifically, the XSeq language extends XPath with natural operators to express sequential and Kleene-* patterns over XML streams, while remaining highly amenable to efficient implementation. XSeq is designed to take full advantage of recent advances in the field of automata on Visibly Pushdown Automata (VPA), where higher expressive power can be achieved without compromising efficiency (whereas the amenability to efficient implementation was not demonstrated in XPath extensions previously proposed).
+We illustrate XSeq's power for CEP applications through examples from different domains, and provide formal results on its expressiveness and complexity. Finally, we present several optimization techniques for XSeq queries. Our extensive experiments indicate that XSeq brings outstanding performance to CEP applications: two orders of magnitude improvement are obtained over the same queries executed in general-purpose XML engines.
+</p>
+
+<p>
+<img src="images/awards/mozafari.jpg" width="50px"  hspace="6" align="left">
+<b>Barzan Mozafari</b> is currently a Postdoc Associate at Massachusetts Institute of Technology. He earned his PhD in Computer Science from the University of California at Los Angeles, where he worked on scalable solutions for pattern discovery and detection from large volumes of data, meeting several system, language and algorithmic challenges. His research interests include distributed databases, machine learning, crowd- sourcing and cloud computing.</p>
+
+<p>
+<img src="images/awards/kaizeng_70px.jpg" width="50px"  hspace="6" align="left">
+<b>Kai Zeng</b> received the bachelor's degree in computer science
+from Zhejiang University, China, in 2009. He is currently working
+toward the PhD degree in database systems, under the supervision of
+Professor Carlo Zaniolo. He is also a research assistant. His research
+interests include query processing, pattern matching in data streams
+and massive data.</p>
+
+<p>
+
+<img src="images/awards/zaniolo.jpg" width="50px"  hspace="6" align="left">
+<b>Carlo Zaniolo</b> is a professor of Computer Science at UCLA where he occupies the N.E. Friedmann chair in Knowledge Science. His research interests include Data Stream Management Systems, Data Mining, Logic Based Languages, and Web Information Systems.
+</p>
+
+<h2>Edgar F. Codd Innovations Award</h2>
+<p>For innovative and highly significant contributions of enduring
+value to the development, understanding, or use of database systems
+and databases.</p>
+
+<p><b>Bruce Lindsay</b> has been a leader and inventor in many of the key
+systems initiatives in the data management field. As a member of the
+original System R team, the R* project, the Starburst project, and
+then several content management projects, Bruce has created
+fundamental technologies in a broad set of database areas, including
+core relational databases (authorization, high performance
+transactions, locking and deadlock detection), extensible databases
+(object management, type management, production rules for query
+processing), distributed databases (snapshots, distributed DDL,
+presumed commit, presumed abort, distributed query processing), and
+management of unstructured data (XML, novel indexing). He thinks
+broadly and has uncanny intuition for the system-level issues that has
+led to his innovations to have lasting impact on commercial database
+products.</p>
+
+<h2>SIGMOD Jim Gray Doctoral Dissertation Award</h2>
+<p>ACM SIGMOD is pleased to present the 2012 SIGMOD Jim Gray Doctoral
+Dissertation Award to F. Ryan Johnson. Johnson completed his
+dissertation titled "Scalable Storage Managers for the Multicore Era"
+at Carnegie Mellon University. Johnson's dissertation is a tour de
+force in identifying bottlenecks when scaling OLTP systems to many
+cores, proposing innovative solutions to each of them. The ideas in
+the thesis such as speculative lock inheritance, new techniques for
+combining log requests, and data-oriented transaction execution are
+highly innovative, and the work is remarkable for its breadth, depth,
+thorough implementation, and evaluation.</p>
+
+<p>
+<img src="images/awards/ryan.jpg" width="50px"  hspace="6" align="left">
+<b>Ryan Johnson</b> is an Assistant Professor at the University of Toronto
+specializing in systems aspects of database engines, particularly in
+the context of modern hardware. He graduated with M.S. and PhD degrees
+in Computer Engineering from Carnegie Mellon University in 2010, after
+completing a B.S. in Computer Engineering at Brigham Young University
+in 2004. In addition to his work with database systems, Johnson has
+interests in computer architecture, operating systems, compilers, and
+hardware design.
+</p>
+
+<h2>SIGMOD Jim Gray Doctoral Dissertation Honorable Mention</h2>
+<p>ACM SIGMOD is also pleased to recognize Bogdan Alexe for an
+Honorable Mention for the 2012 SIGMOD Jim Gray Doctoral Dissertation
+Award. Alexe completed his dissertation titled "Interactive and
+Modular Design of Schema Mappings" at the University of California,
+Santa Cruz. Alexe's dissertation makes substantial contributions to
+the important problem of designing schema mappings through novel
+principled algorithms and the first benchmark in this area.</p>
+
+<p>
+<img src="images/awards/photoBogdanAlexe.jpg" width="50px"  hspace="6" align="left">
+<b>Bogdan Alexe</b> is a researcher at IBM Research - Almaden. His work
+focuses on large scale entity resolution and integration. His past
+research covered topics in information integration, data exchange and
+schema mappings. Bogdan graduated with a Ph.D. from University of
+California at Santa Cruz, and an M.Sc. from Ecole
+Polytechnique/Telecom ParisTech, both in Computer Science.</p>
+
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+</body>
+</html>

@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The 2013 ACM SIGMOD/PODS Conference: New York, New York, USA
+      - Welcome</title>
+    <style type="text/css" media="screen">
+#logoFentonMalloy {
+        text-align: right;
+        clear: both;
+        margin-top: 20px;
+
+}
+</style>
+    <link href="sigmod_css.css" rel="stylesheet" type="text/css"
+      media="screen">
+    <script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+theImages[1] = 'images/ny/skyline_bw.jpg'
+
+theImages[2] = 'images/ny/sunset.jpg'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+theImageDescriptions[1] = 'NYC Skyline'
+
+theImageDescriptions[2] = 'NYC Building at Sunset'
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[2] = 'http://en.wikipedia.org/wiki/New_York_City'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+  </head>
+  <body>
+    
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+    <!--<div id="masthead"><img src="images/ny/nyc-small.png" alt="top banner" width="742" height="330" /></div>-->
+    <div id="wrap">
+      <!-- the ssi code needs to stay here - do not delete or move -->
+      <div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<li><a href="http://www.regonline.com/2013sigmodpods"><b>Registration</b></a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc1.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+<!--
+
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="affiliated_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+    <li><a href="accommodation.shtml" title="Travel and Accommodations">Travel and Accommodations</a></li>
+    <li><a href="docs/local_info.pdf" title="Local Information">Explore NYC</a></li>
+<!--
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+-->
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> 
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+      <!-- the ssi code needs to stay here - do not delete move -->
+      <div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  <!-- <li><a href="guidelines.shtml" title="SIGMOD Submission Guidelines">SIGMOD Submission Guidelines</a></li>
+  <li><a href="guidelines-pods.shtml" title="PODS Submission Guidelines">PODS Submission Guidelines</a></li>
+  <li><a href="camera-ready.shtml" title="Camera Ready Instructions"<b>Camera Ready Instructions</b></a></li> -->
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_pods.shtml" title="Program">Program</a></li>
+  <li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="pods_invited.shtml#keynote" title="Pods Keynote">
+  Keynote: Diego Calvanese (Free University of Bozen-Bolzano)</a></li>
+  <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 1: Piotr Indyk">Tutorial 1: Piotr Indyk (MIT)</a></li> 
+  <li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 2: Pablo Barcel&oacute;">Tutorial 2: Pablo Barcel&oacute; (University of Chile)</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+<!--
+  <li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+  <li><p>Keynote 1: 
+      </p></li>
+  <li><p>Keynote 2: 
+  </p>
+  </li>
+-->
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="keynote_1.shtml">Keynote 1: Alex Nazaruk &amp Michael Rauchman (Middle Lake Partners, LLC)</a> 
+      </li>
+  <li><a href="keynote_2.shtml">Keynote 2: Paul Yaron (J. P. Morgan Chase)</a></li>
+  <li><a href="sigmod_panel.shtml" title="Sigmod Panel">Sigmod Panel</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="ind_list.shtml" title="Industrial Presentations">Industrial Presentations</a></li>
+</ul>
+
+<h3 class="navheading"><a href="http://confer.csail.mit.edu/" title="Confer: Conference Scheduling">Confer: Conference Scheduling</a></h3>
+</div>
+
+
+      <div id="maincontent">
+        <h1>Conference Program: PODS Sessions</h1>
+        <p>This page describes the complete PODS Conference program.
+          Please use the following links to skip to the sessions of
+          interest: </p>
+        <ul>
+          <li><a style="color: rgb(204, 102, 0);text-decoration: none;"
+              href="#keynote">Keynote Talk</a> </li>
+          <li><a style="color: rgb(204, 102,0);text-decoration: none;"
+              href="#research">Research Sessions</a> </li>
+          <li><a style="color: rgb(204, 102,0);text-decoration: none;"
+              href="#tutorial">Tutorials</a></li>
+          <li><a href="#special">Special Events</a><br>
+          </li>
+        </ul>
+        <p> </p>
+        <h1><strong><a name="keynote" id="keynote"></a>KEYNOTE TALK</strong></h1>
+        <h3>Foundations of Data Aware Process Analysis: A Database
+          Theory Perspective</h3>
+        <p>Monday, 8:30am-10:00am<br>
+          <span class="location">Location: Gallery 8</span><br>
+          Diego Calvanese, Free University of Bozen-Bolzano; Giuseppe De
+          Giacomo, Sapienza University of Rome; Marco Montali, Free
+          University of Bozen-Bolzano<br>
+          Session Chair: Richard Hull (IBM T.J. Watson Research Center)<br>
+        </p>
+        <h1><a name="research" id="research"></a>RESEARCH SESSIONS </h1>
+        <h3><a name="pods1"></a>Session 1: Data Mining / Information
+          Retrieval</h3>
+        <p> Monday, 10:15am-12:15pm <br>
+          <span class="location">Location: </span><span
+            class="location">Gallery 8</span><br>
+          Session Chair: Frank Neven (Hasselt University) </p>
+        <ul>
+          <li><b>The Complexity of Mining Maximal Frequent Subgraphs</b><br>
+            Benny Kimelfeld, IBM Almaden Research Center; Phokion
+            Kolaitis, University of California Santa Cruz and IBM
+            Almaden Research Center</li>
+          <li><b>Deciding Monotone Duality and Identifying Frequent Item
+              Sets in Quadratic Logspace</b> <br>
+            Georg Gottlob, University of Oxford</li>
+          <li><b>Spanners: A Formal Framework for Information Extraction</b><br>
+            Ronald Fagin, IBM Almaden Research Center; Benny Kimelfeld,
+            IBM Almaden Research Center; Frederick Reiss, IBM Almaden
+            Research Center; Stijn Vansummeren, Universit&eacute; libre de
+            Bruxelles</li>
+          <li><b>Learning and Verifying Quantified Boolean Queries by
+              Example</b><br>
+            Azza Abouzied, Yale University; Dana Angluin, Yale
+            University;&nbsp; Christos Papadimitriou, University of
+            California, Berkeley; Joseph Hellerstein, University of
+            California, Berkeley; Avi Silberschatz, Yale University</li>
+        </ul>
+        <h3><a name="pods2"></a> Session 2: Awards Session</h3>
+        <p> Monday, 1:30pm-2:45pm <br>
+          <span class="location">Location: </span><span
+            class="location">Gallery 8</span><br>
+          Session Chair: Dirk Van Gucht (Indiana University) </p>
+        <ul>
+          <li><b>The ACM PODS Alberto O. Mendelzon Test-of-Time Award
+              2013: Revealing Information while Preserving Privacy</b><br>
+            Irit Dinur, Weizmann Institute of Science; Kobbi Nissim,
+            Ben-Gurion University<br>
+          </li>
+          <li><b>Best Paper Award: Verification of Database-driven
+              Systems via Amalgamation</b><br>
+            Miko&#322;aj Boja&#324;czyk, Warsaw University; Luc Segoufin, INRIA,
+            LSV, ENS-Cachan; Szymon Toru&#324;czyk, Warsaw University</li>
+          <li><b>Regular Paper: When is Na&iuml;ve Evaluation Possible?</b><br>
+            Am&eacute;lie Gheerbrant, University of Edinburgh; Leonid Libkin,
+            University of Edinburgh; Cristina Sirangelo, INRIA &amp;
+            CNRS, LSV, ENS-Cachan</li>
+        </ul>
+        <h3><a name="pods3"></a>Session 3: Tutorial Session 1</h3>
+        <p> Monday, 3:15pm-4:45pm <br>
+          <span class="location">Location: </span><span
+            class="location">Gallery 8</span><br>
+          Session Chair: Reinhard Pichler (Vienna University of
+          Technology)</p>
+        <ul>
+          <li><b>Invited Tutorial 1: Sketching via Hashing: from Heavy
+              Hitters to Compressed Sensing to Sparse Fourier Transform</b><br>
+            Piotr Indyk, MIT</li>
+          <li><b>Regular Paper: Collaborative Data-Driven Workflows:
+              Think Global, Act Local</b><br>
+            Serge Abiteboul, INRIA-Saclay; Victor Vianu, University of
+            California, San Diego</li>
+        </ul>
+        <h3> <a name="pods4"></a> Session 4: Indexing / Question
+          Answering</h3>
+        <p> Monday, 5:15pm-6:45pm<br>
+          <span class="location">Location: </span><span
+            class="location">Gallery 8</span><br>
+          Session Chair: Benny Kimelfeld (IBM Almaden Research Center)</p>
+        <ul>
+          <li><b>I/O-Efficient Planar Range Skyline and Attrition
+              Priority Queues</b><br>
+            Casper Kejlberg-Rasmussen, Aarhus University; Yufei Tao,
+            Chinese University of Hong Kong; Konstantinos Tsakalidis,
+            Hong Kong University of Science and Technology; Kostas
+            Tsichlas, Aristotle University of Thessaloniki; Jeonghun
+            Yoon, Korea Advanced Institute of Science and Technology</li>
+          <li><b>Nearest Neighbor Searching Under Uncertainty II</b><br>
+            Pankaj K. Agarwal, Duke University; Boris Aronov,
+            Polytechnic Institute of NYU; Sariel Har-Peled, University
+            of Illinois; Jeff M. Phillips, University of Utah; Ke Yi,
+            Hong Kong University of Science and Technology; Wuzhou
+            Zhang, Duke University</li>
+          <li><b>On the BDD/FC Conjecture</b><br>
+            Jerzy Marcinkowski, Wroc&#322;aw University; Tomasz Gogacz,
+            Wroc&#322;aw University</li>
+        </ul>
+        <h3> <a name="pods5"></a> Session 5: Query Processing /
+          Verification<br>
+        </h3>
+        <p> Tuesday, 10:30am-12:00pm <br>
+          <span class="location">Location: </span><span
+            class="location">3.04 &amp; 3.05</span><br>
+          Session Chair: Daniel Deutch (Ben-Gurion University)<br>
+        </p>
+        <ul>
+          <li><b>On the Expressive Power of Update Primitives</b><br>
+            Tom Ameloot, Hasselt University &amp; transnational
+            University of Limburg; Jan Van den Bussche, Hasselt
+            University &amp; transnational University of Limburg;
+            Emmanuel Waller, University of Paris-Sud</li>
+          <li><b>Flag &amp; Check: Data Access with Monadically Defined
+              Queries</b><br>
+            Sebastian Rudolph, Karlsruhe Institute of Technology; Markus
+            Kr&ouml;tzsch, University of Oxford</li>
+          <li><b>Verification of Relational Data-Centric Dynamic Systems
+              with External Services</b><br>
+            Babak Bagheri Hariri, Free University of Bozen-Bolzano;
+            Diego Calvanese, Free University of Bozen-Bolzano; Giuseppe
+            De Giacomo, Sapienza University of Rome; Alin Deutsch,
+            University of California San Diego; Marco Montali, Free
+            University of Bozen-Bolzano</li>
+        </ul>
+        <h3><a name="pods6"></a> Session 6: Tutorial Session 2</h3>
+        <p> Tuesday, 1:30pm-3:00pm<br>
+          <span class="location">Location: </span><span
+            class="location">3.04 &amp; 3.05</span><br>
+          Session Chair: Wenfei Fan (University of Edinburgh)
+          <meta charset="utf-8">
+        </p>
+        <ul>
+          <li><b>Tutorial 2: Querying Graph Databases</b><br>
+            Pablo Barcel&oacute;, University of Chile</li>
+          <li><b>Regular Paper: Charting the Tractability Frontier of
+              Certain Conjunctive Query Answering</b><br>
+            Jef Wijsen, University of Mons</li>
+        </ul>
+        <h3> <a name="pods7"></a>Session 7: RDF and Ontologies </h3>
+        <p> Tuesday, 3:30pm-5:00pm<br>
+          <span class="location">Location: </span><span
+            class="location">3.04 &amp; 3.05</span><br>
+          Session Chair: Diego Calvanese (Free University of
+          Bozen-Bolzano)<br>
+        </p>
+        <ul>
+          <li><b>TriAL for RDF: Adapting Graph Query Languages for RDF
+              Data</b><br>
+            Leonid Libkin, University of Edinburgh; Juan L. Reutter,
+            University of Edinburgh; Domagoj Vrgo&#269;, University of
+            Edinburgh</li>
+          <li><b>Ontology-based Data Access: A Study through Disjunctive
+              Datalog, CSP, and MMSNP</b><br>
+            Meghyn Bienvenu, CNRS University of Paris-Sud; Balder Ten
+            Cate, University of California Santa Cruz; Carsten Lutz;
+            University of Bremen; Frank Wolter, University of Liverpool</li>
+          <li><b>Well-Founded Semantics for Extended Datalog and
+              Ontological Reasoning</b><br>
+            Andr&eacute; Hernich, The Humboldt University of Berlin; Clemens
+            Kupke, University of Oxford; Thomas Lukasiewicz, University
+            of Oxford; Georg Gottlob, University of Oxford</li>
+        </ul>
+        <h3><a name="pods8"></a> Session 8: Graphs and XML Processing</h3>
+        <p> Wednesday, 10:30-12:00<br>
+          <span class="location">Location: </span><span
+            class="location">3.04 &amp; 3.05</span><br>
+          Session Chair: Wim Martens (University of Bayreuth)</p>
+        <ul>
+          <li><b>Semantic Acyclicity on Graph Databases</b><br>
+            Pablo Barcel&oacute;, University of Chile; Miguel Romero,
+            University of Chile; Moshe Vardi, Rice University</li>
+          <li><b>On XPath with Transitive Axes and Data Tests</b><br>
+            Diego Figueira, University of Edinburgh</li>
+          <li><b>A Trichotomy for Regular Simple Path Queries on Graphs</b><br>
+            Guillaume Bagan, INRIA Lille Nord Europe; Angela Bonifati,
+            Lille 1 University &amp; INRIA;&nbsp; Benoit Groz, Tel Aviv
+            University</li>
+        </ul>
+        <h3><a name="pods9"></a> Session 9: Query Languages</h3>
+        <p> Wednesday, 4:00pm-6:00pm<br>
+          <span class="location">Location: </span><span
+            class="location">3.04 &amp; 3.05</span><br>
+          Session Chair: Marcelo Arenas (Pontifical Catholic University
+          of Chile)<br>
+        </p>
+        <ul>
+          <li><b>Communication Steps for Parallel Query Processing</b><br>
+            Paul Beame, University of Washington; Paraschos Koutris,
+            University of Washington; Dan Suciu, University of
+            Washington</li>
+          <li><b>A Dichotomy in the Intensional Expressive Power of
+              Nested Relational Calculi augmented with Aggregate
+              Functions and a Powerset Operator</b><br>
+            Limsoon Wong, National University of Singapore</li>
+          <li><b>Enumeration of First-Order Queries on Classes of
+              Structures With Bounded Expansion</b><br>
+            Wojciech Kazana, INRIA, LSV, ENS-Cachan; Luc Segoufin,
+            INRIA, LSV, ENS-Cachan</li>
+          <li><b>The Fine Classification of Conjunctive Queries and
+              Parameterized Logarithmic Space Complexity</b><br>
+            Hubie Chen, The University of the Basque Country and
+            Ikerbasque; Moritz Mueller, University of Vienna</li>
+        </ul>
+        <h1><a name="tutorial" id="tutorial"></a>TUTORIAL SESSIONS </h1>
+        <ul>
+          <li><strong>Tutorial 1: </strong><b>Sketching via Hashing:
+              from Heavy Hitters to Compressed Sensing to Sparse Fourier
+              Transform</b><br>
+            Monday, 2:45pm-3:45pm <br>
+            <span class="location">Location: </span><span
+              class="location">Gallery 8</span><br>
+            Piotr Indyk, MIT<br>
+          </li>
+          <li><strong>Tutorial 2: </strong><b>Querying Graph Databases</b><br>
+            Tuesday, 1:30pm-3:00pm<br>
+            <span class="location">Location: </span><span
+              class="location">3.04 &amp; 3.05</span><br>
+            Pablo Barcel&oacute;, University of Chile</li>
+        </ul>
+        <h1><a name="special" id="special"></a>SPECIAL EVENTS</h1>
+        <ul>
+          <a name="podscoll" id="podscoll"></a>
+          <li><strong>PODS Colloquium on Theory Challenges in Big Data </strong><br>
+            Sunday, 6:00pm-8:30pm <br>
+            <span class="location">Location: </span><span
+              class="location">4.11 (Times Square)</span><br>
+            <a href="http://www.sigmod.org/2013/ctcbd.shtml">Details</a></li>
+          <li><strong>Reflections on PODS </strong><br>
+            Tuesday, 6:30pm-9:00pm<br>
+            <span class="location">Location: </span><span
+              class="location">3.04 &amp; 3.05</span><br>
+            <a href="http://www.sigmod.org/2013/pods_reflections.shtml">Details</a></li>
+        </ul>
+        <br>
+      </div>
+      <!--endMainContent -->
+      <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+    <!-- footer -->
+    <title></title>
+  </head>
+  <body>
+    <div id="footer"> <img src="images/bottom_logos_2012a.png">
+      <table border="0" width="740">
+        <tbody>
+          <tr>
+            <td width="138">
+              <div align="center"><img src="images/sigmod-logo.png"
+                  alt="" hspace="10" vspace="10" width="80"></div>
+            </td>
+            <!-- <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td> -->
+            <td width="465">&nbsp;</td>
+            <td width="155"><a href="http://www.acm.org"><img
+                  src="images/acm.png" alt="ACM"
+                  longdesc="http://www.acm.org" width="160"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="images/bottom_logos_2012b.jpg">
+      <!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        --> </div>
+    <!-- end of wrap -->
+    <p> </p>
+    <div id="credits"> <a href="about.shtml">Credits</a>
+      <table align="center">
+        <tbody>
+          <tr>
+          </tr>
+          <tr valign="center">
+            <td>Follow us:</td>
+            <td><a href="https://www.facebook.com/AcmSigmod2013"><img
+                  src="images/facebook-icon.png"></a></td>
+            <td> <a href="http://twitter.com/acmsigmod2013"><img
+                  src="images/twitter-icon.png"></a></td>
+            <td> <a
+                href="https://plus.google.com/u/0/communities/102395415671629698034"><img
+                  src="images/google-plus.gif" height="35" width="35"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+ </div>
+  </body>
+</html>

@@ -1,0 +1,1447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA - Program: Overview</title>
+
+
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+              table.day{
+			font-family: Sans-Serif;
+			border-width: 0px;
+			border-spacing: 1px;
+			border-color: black;
+			width: 430pt;            
+		}
+		table.day td {
+			line-height: 110%;
+			border-width: 1px 1px 1px 1px;
+			padding: 2px 0px 2px 0px;
+			border-style: dotted;
+			border-color: gray gray gray gray;
+			background-color: white;
+			text-align: center;
+			vertical-align: middle;
+		}
+		table.day td.header{
+			font-size: 130%;
+			font-weight: bold;
+			padding: 8px;
+			background-color: #383838;
+			color: white;           
+		}
+		table.day td.keynote{
+			background-color: #f4cae4;
+			color: black;           
+		}
+		table.day td.time{
+			width: 6%;          
+		}
+		table.day td.nosession{
+			background-color:   #F0F0F0 ;
+			color:  #989898; 
+			width: 5%;           
+		}
+		table.day td.lunch{
+			background-color: #C0C0C0;
+			color: black;           
+		}
+		table.day td.pods{
+			background-color: #cdebc6;
+		}
+		table.day td.sigmod{
+			background-color: #c6d9f1;          
+		}
+		table.day td.tutorial{
+			background-color: #d9d9d9;
+		}
+		table.day td.workshop{
+			background-color: #8dd3c7;          
+		}
+		table.day td.reception{
+			background-color: #ffccaa; <!-- #fb8072; -->         
+		}
+		table.day td.industrial{
+			background-color: #ffffb3;           
+		}       
+		table.day td.demo{
+			background-color: #e6f5c9;                  
+		}
+		table.day td.business{
+			background-color: #ffc000;                  
+		}  
+		table.day td.welcome{
+			background-color: #fdcdac;                  
+		}
+		table.day td.inv{
+			background-color: #fde9d9;                  
+		}
+		li.program_item{
+			margin-bottom: 5px;
+			line-height: 1.3em;
+		}
+		h3.session{
+			margin-bottom: 0px;
+			padding-top:10px;
+			padding-bottom:1px;
+			padding-left: 10px;
+			line-height: 1em;
+		}
+		p.chair{
+			color: #006697;
+			padding-left: 10px;			
+			margin-top:-1px;
+		}
+
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+<div id="wrap">
+			
+		<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="programcontent"> 
+
+<a name="top" id="top"></a>
+<h1>SIGMOD/PODS 2012 Program Overview</h1>
+<!--
+<p>				  
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="index.shtml">Back to homepage</a>
+</p><br/>
+-->
+<p>&nbsp;&nbsp;&nbsp;
+<strong>Registration Hours:</strong>
+<ul>
+<li>Sunday: 7:30 - 18:00 </li>
+<li>Monday: 7:30 - 19:00 </li>
+<li>Tuesday: 7:30 - 18:30 </li>
+<li>Wednesday: 8:00 - 16:00 </li>
+<li>Thursday: 8:00 - 12:00 </li>
+</ul>
+</p>
+
+<p >&nbsp;&nbsp;&nbsp;<strong>Conference Days:</strong> 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#sunday">Sunday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#monday">Monday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#tuesday">Tuesday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#wednesday">Wednesday</a> | 
+<a style="color: rgb(204, 102, 0); text-decoration: none;" href="#thursday">Thursday</a>
+</p>
+
+
+<p> </p>
+
+
+<div style="margin-left: 5px;">
+<a name="sunday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="10">
+      <p align="center"><strong>SUNDAY AT A GLANCE<br/>MAY 20, 2012</strong></p>
+      </td>
+    </tr>
+  <tr>
+    <td width="30"><p align="center">8:00-8:30</p></td>
+    <td colspan="9" width="62"><strong>Continental Breakfast</strong><br/>Arizona, Vaquero, and South Foyers</td> 
+  </tr>
+  
+  <tr>
+    <td width="30">
+    <p align="center">8:30-10:00</p>
+    </td>
+    
+    <td class="workshop" width="52">
+     <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://db.uwaterloo.ca/PhD2012/">
+   <strong>Ph.D. Symp.</strong></a><br/>Dunes A-B</p></td>
+   
+    <td class="workshop" width="52">
+    <a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://www.cs.ubc.ca/%7Erap/dbme2012/">
+    <strong>DB Me</strong></a><br/>Arizona VIII</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="https://sites.google.com/site/dbsocial12"><strong>DBSocial</strong></a><br/>Arizona II</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://research.ihost.com/iiweb12/index.html">IIWeb
+    </a><br/>Arizona VII</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://datasearch.ruc.edu.cn/keys2012/"><strong>KEYS</strong></a><br/>Arizona VI</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pages.cs.brandeis.edu/%7Emobide12/"><strong>MobiDE</strong>
+    </a><br/>Arizona I</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://sites.google.com/site/sweetworkshop2012"><strong>SWEET</strong></a><br/>Arizona V</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pamir.dia.uniroma3.it:8080/SWIM2012/"><strong>SWIM</strong></a><br/>Arizona III</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://db.disi.unitn.eu/pages/WebDB2012/"><strong>WebDB</strong></a><br/>Arizona IV</td>
+  </tr>
+
+ <tr>
+    <td width="30">
+    <p align="center">10:00-10:30</p>
+    </td>
+    <td colspan="9" width="62"><strong>Coffee Break</strong></br>Arizona, South and West Foyers</td> 
+  </tr>
+
+
+  <tr>
+    <td width="30">
+    <p align="center">10:30-12:00</p>
+    </td>
+
+    <td class="workshop" width="52">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://db.uwaterloo.ca/PhD2012/">
+   <strong>Ph.D. Symp.</strong></a><br/>Dunes A-B</p></td>
+    <td class="workshop" width="52">
+    <a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://www.cs.ubc.ca/%7Erap/dbme2012/">
+    <strong>DB Me</strong></a><br/>Arizona VIII</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="https://sites.google.com/site/dbsocial12"><strong>DBSocial</strong></a><br/>Arizona II</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://research.ihost.com/iiweb12/index.html"><strong>IIWeb</strong></a><br/>Arizona VII</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://datasearch.ruc.edu.cn/keys2012/"><strong>KEYS</strong></a><br/>Arizona VI</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pages.cs.brandeis.edu/%7Emobide12/"><strong>MobiDE</strong></a><br/>Arizona I</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://sites.google.com/site/sweetworkshop2012"><strong>SWEET</strong></a><br/>Arizona V</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pamir.dia.uniroma3.it:8080/SWIM2012/"><strong>SWIM</strong></a><br/>Arizona III</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://db.disi.unitn.eu/pages/WebDB2012/"><strong>WebDB</strong></a><br/>Arizona IV</td>
+ </tr>
+
+  
+ <tr>
+    <td width="30">
+    <p align="center">12:00-13:30</p>
+    </td>
+    <td colspan="9" width="62"><strong>Lunch Provided for Sunday Workshop Participants</strong> <br/>Vaquero E-F</td> 
+  </tr>
+
+  <tr>
+    <td width="30">
+    <p align="center">13:30-15:00</p>
+    </td>
+    <td class="workshop" width="52">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://db.uwaterloo.ca/PhD2012/">
+   <strong>Ph.D. Symp.</strong></a><br/>Dunes A-B</p></td>
+    <td class="workshop" width="52">
+      <p align="center">
+    <a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://www.cs.ubc.ca/%7Erap/dbme2012/">
+    <strong>DB Me</strong></a><br/>Arizona VIII</p></td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="https://sites.google.com/site/dbsocial12"><strong>DBSocial</strong></a><br/>Arizona II</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://research.ihost.com/iiweb12/index.html"><strong>IIWeb</strong></a><br/>Arizona VII</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://datasearch.ruc.edu.cn/keys2012/"><strong>KEYS</strong></a><br/>Arizona VI</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pages.cs.brandeis.edu/%7Emobide12/"><strong>MobiDE</strong></a><br/>Arizona I</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://sites.google.com/site/sweetworkshop2012"><strong>SWEET<strong></a><br/>Arizona V</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pamir.dia.uniroma3.it:8080/SWIM2012/"><strong>SWIM<strong></a><br/>Arizona III</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://db.disi.unitn.eu/pages/WebDB2012/"><strong>WebDB<strong></a><br/>Arizona IV</td>
+ </tr>
+
+  <tr>
+    <td width="30">
+    <p align="center">15:00-15:30</p>
+    </td>
+    <td colspan="9" width="62"><strong>Coffee Break</strong><br/>Arizona, South and West Foyers</td> 
+  </tr>
+
+
+  <tr>
+    <td width="30">
+    <p align="center">15:30-17:00</p>
+    </td>
+    <td class="workshop" width="52"><p align="center"><a style="color: rgb(204, 102, 0);
+    text-decoration: none;" href="http://db.uwaterloo.ca/PhD2012/">
+   <strong>Ph.D. Symp.</strong></a><br/>Dunes A-B</p></td>
+    <td class="workshop" width="52">
+    <a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://www.cs.ubc.ca/%7Erap/dbme2012/">
+    <strong>DB Me</strong></a><br/>Arizona VIII</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="https://sites.google.com/site/dbsocial12"><strong>DBSocial</strong></a><br/>Arizona II</td> 
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://research.ihost.com/iiweb12/index.html"><strong>IIWeb</strong></a><br/>Arizona VII</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://datasearch.ruc.edu.cn/keys2012/"><strong>KEYS</strong></a><br/>Arizona VI</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pages.cs.brandeis.edu/%7Emobide12/"><strong>MobiDE</strong></a><br/>Arizona I</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://sites.google.com/site/sweetworkshop2012"><strong>SWEET<strong></a><br/>Arizona V</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://pamir.dia.uniroma3.it:8080/SWIM2012/"><strong>SWIM<strong></a><br/>Arizona III</td>
+    <td class="workshop" width="52"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://db.disi.unitn.eu/pages/WebDB2012/"><strong>WebDB<strong></a><br/>Arizona IV</td>
+  </tr>
+
+   <tr>
+    <td width="34">
+    <p align="center">18:00-20:00</p>
+    </td>
+    <td colspan="9" class="reception" width="62">
+      <strong>PODS Welcome Reception</strong><br/>
+      Arizona I-V and Desert Garden</td> 
+  </tr>
+
+</table>
+
+<p align="left"> <a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+
+
+<a name="monday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="9">
+      <p align="center"><strong>MONDAY AT A GLANCE<br/>MAY 21, 2012 </strong></p>
+      </td>
+    </tr>
+  <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+    <td colspan="8" width="437"><p align="center"><strong>Continental Breakfast</strong>
+    <br/>Arizona, Vaquero, and South Foyers<br />
+    </td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">8:30-9:45</p></td> 
+    <td colspan="8" class="keynote" width="437"><p align="center"><a
+    style="color: rgb(204, 102, 0); text-decoration: none;"
+    href="pods_invited.shtml#keynote"><strong>PODS Opening and Keynote
+    Address</strong></a><br />
+     Surajit Chaudhuri<br/>Arizona I-VIII<br/>
+</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">9:45-10:15</p></td> 
+    <td colspan="8" width="437"><p align="center"><strong>Coffee Break</strong><br/>
+    Arizona, South and West Foyers<br />
+</p></td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">10:15-11:45</p></td> 
+    <td class="pods" colspan="4" width="70"><p align="center"><a
+    style="color: rgb(204, 102, 0); text-decoration: none;"
+    href="program_pods.shtml#pods1"><strong>PODS Session
+    1</strong></a><br/>Arizona V-VIII<br />
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://fusion.hpl.hp.com/damon2012"><strong>DaMoN</strong></a><br/>Arizona I-III
+</td> 
+    <td class="workshop" colspan="2" width="59"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://dbtest2012.comp.polyu.edu.hk/"><strong>DBTest</strong></a><br/>Arizona IV
+</td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">11:45-13:15</p></td> 
+    <td colspan="8" width="437"><p align="center"><strong>Lunch Provided for DaMoN and DBTest Participants</strong><br/>
+    Vaquero E-F</p></td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">13:15-14:30</p></td> 
+    <td class="pods" colspan="4" width="70"><br />
+<p align="center"><a style="color: rgb(204, 102, 0); text-decoration:
+    none;" href="program_pods.shtml#pods2"><strong>PODS Session 2 </strong></a><br
+    />Arizona V-VIII
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://fusion.hpl.hp.com/damon2012"><strong>DaMoN</strong></a><br/>Arizona I-III
+</td> 
+    <td class="workshop" colspan="2" width="59"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://dbtest2012.comp.polyu.edu.hk/"><strong>DBTest</strong></a><br/>Arizona IV
+</td> 
+  </tr> 
+
+  <tr> 
+    <td width="34"><p align="center">14:30-14:45</p></td> 
+    <td colspan="8" width="437"><p align="center"><strong>Coffee Break</strong><br/>
+    Arizona, South and West Foyers</p></td> 
+  </tr> 
+ <tr> 
+    <td width="34"><p align="center">14:45-15:45</p></td> 
+    <td class="pods" colspan="4" width="70"><p align="center"><a
+    style="color: rgb(204, 102, 0); text-decoration: none;"
+    href="program_pods.shtml#pods3"><strong>PODS Session 3</strong>
+    </a><br/>Arizona V-VIII<br />
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://fusion.hpl.hp.com/damon2012"><strong>DaMoN</strong></a><br/>Arizona I-III
+</td> 
+    <td class="workshop" colspan="2" width="59"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://dbtest2012.comp.polyu.edu.hk/"><strong>DBTest</strong></a><br/>Arizona IV
+</td> 
+  </tr> 
+
+
+  <tr> 
+    <td width="34"><p align="center">15:45-16:15</p></td> 
+    <td colspan="8" width="437"><p align="center"><strong>Coffee Break</strong><br/>(Arizona, South and West Foyers)<br />
+</p></td> 
+  </tr> 
+
+  
+ 
+  <tr> 
+    <td width="34"><p align="center">16:15-18:15</p></td> 
+    <td class="pods" colspan="4" width="70"><p align="center"><a
+    style="color: rgb(204, 102, 0); text-decoration: none;"
+    href="program_pods.shtml#pods4"><strong>PODS Session 4</strong>
+    </a><br/>Arizona V-VIII<br />
+</p></td> 
+    <td class="workshop" colspan="2" width="62"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://fusion.hpl.hp.com/damon2012"><strong>DaMoN</strong></a><br/>Arizona I-III
+</td> 
+    <td class="workshop" colspan="2" width="59"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="http://dbtest2012.comp.polyu.edu.hk/"><strong>DBTest</strong></a><br/>Arizona IV
+</td> 
+  </tr> 
+
+<tr> 
+    <td width="34"><p align="center">18:30-19:30</p></td> 
+    <td colspan="8" class="business" width="437"><p align="center"><strong>PODS Business Meeting</strong><br />
+	Arizona I-III<br />
+</p></td> 
+  </tr> 
+
+    <tr>
+      <td width="34">
+      <p align="center">19:00-21:30</p>
+      </td>
+      <td colspan="8" class="reception" width="437">
+      <p align="center"><strong>SIGMOD Welcome Reception<br/>
+	<a style="color: rgb(204, 102,
+	0);text-decoration: none;"
+	href="./program_sigmod.shtml#undergraduate">SIGMOD
+      Undergraduate Research Poster Competition</a>
+	<br/>
+	SIGMOD Informal Sponsor/Student Event</strong><br/>Terrace Court<br />
+     </p>
+      </td>
+    </tr>
+    
+</table>
+<p align="left"><a style="color: rgb(204, 102, 0);" href="#top">top</a><p/>
+
+<a name="tuesday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="8">
+      <p align="center"><strong>TUESDAY AT A GLANCE<br/>MAY 22, 2012 </strong></p>
+      </td>
+    </tr>
+    
+  <tr>
+    <td width="34"><p align="center">8:00-8:30</p></td>
+    <td colspan="9" width="62"><strong>Continental Breakfast</strong><br/>
+    Arizona, Vaquero, and South Foyers</td> 
+  </tr>
+
+    <tr>
+      <td width="75">
+      <p align="center">8:30-10:00</p>
+      </td>
+      <td width="437" colspan="7" class="keynote" >
+      <p align="center"><a style="color: rgb(204, 102,
+	0);text-decoration: none;"
+	href="./program_sigmod.shtml#keynote"><strong>SIGMOD Keynote Talk 
+      1</strong></a><br/>
+	Pat Hanrahan<br/>
+	Arizona I-VIII<br />
+      </p>
+      </td>
+    </tr>
+
+    
+    <tr>
+      <td width="34">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td width="437" colspan="7">
+      <p align="center"><strong>Coffee Break</strong><br/>Arizona, Vaquero, South, and West Foyers</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="34"><p align="center">10:30-12:00</p></td>
+
+      <td class="pods" width="72">
+      <p align="center"><a style="color: rgb(204, 102,
+	0);text-decoration: none;"
+	href="program_pods.shtml#pods5"><strong>PODS</br> Session 5 </strong></a>Arizona I-III<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="72">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;"
+      href="./program_sigmod.shtml#res1"><strong>SIGMOD Research 1</strong></a><br/>Arizona V<br />
+      </p>
+      </td>
+      
+      <td class="sigmod" width="72">
+      <p align="center">
+	<a style="color: rgb(204, 102, 0); text-decoration: none;"
+      href="./program_sigmod.shtml#res2"><strong>SIGMOD Research 2</strong></a><br/>Arroyo CDE<br />
+      </p>
+      </td>
+      
+      <td class="industrial" width="72">
+      <p align="center"><a style="color: rgb(204, 102,
+      0);text-decoration: none;"
+      href="./program_sigmod.shtml#ind1"><strong>SIGMOD Industry 1</strong></a><br/>Arizona VI-VIII<br/>
+      </p>
+      </td>
+      
+      <td class="demo" width="72">
+      <p align="center"><a style="color: rgb(204, 102,
+      0);text-decoration: none;"
+      href="./program_sigmod.shtml#demoa"><strong>SIGMOD <br>Demo Group A</br></strong></a>
+      Vaquero A<br />
+      </p>
+      </td>
+      <td class="tutorial" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+	text-decoration: none;"
+	href="./program_sigmod.shtml#tutorial1"><strong>SIGMOD
+	Tutorial 1</strong></a><br/>Arizona IV<br />
+      </p>
+      </td>
+      
+      <td width="72" class="center" >
+      <p align="center"></p>
+      </td>
+   </tr>
+
+    <tr>
+      <td width="34">
+      <p align="center">12:00-13:30</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center"><strong>Lunch by SAP</strong> <br/>Vaquero D-G<br />
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">13:30-15:00</p>
+      </td>
+      <td class="pods" width="30">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="program_pods.shtml#pods6"><strong>PODS</br>
+Session 6</strong></a><br/>Arizona II-III<br />
+</p>
+      </td>
+      <td class="sigmod" width="62">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#res3"><strong>SIGMOD</br>
+Research 3</strong></a><br/>Arizona V<br />
+      </p>
+      </td>
+      <td class="sigmod" width="59">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;"
+      href="./program_sigmod.shtml#res4"><strong>SIGMOD<br/>
+	Research 4</strong></a><br/>Arroyo CDE<br />
+      </p>
+      </td>
+     <td class="industrial" width="61">
+      <p align="center"><a style="color: rgb(204, 102, 0);text-decoration: none;" 
+      href="./program_sigmod.shtml#ind2"><strong>SIGMOD
+Industry 2</strong></a><br/>Arizona VI-VIII<br />
+      </p>
+      </td>
+      <td class="demo" width="67">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#demob"><strong>SIGMOD
+Demo Group B</strong></a><br/>Vaquero A<br />
+      </p>
+      </td>
+      <td class="tutorial" width="62">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;"
+      href="./program_sigmod.shtml#tutorial2"><strong>SIGMOD
+Tutorial 2</strong></a><br/>Arizona IV<br />
+      </p>
+      </td>
+
+      <td class="sigmod" width="62">
+      <p align="center">
+	<strong>SIGMOD Programming
+      Contest: Finalist Presentations and Panel</strong><br/>Arizona I<br
+      />
+	
+      </p>
+      </td>
+    </tr>
+    	
+    <tr>
+      <td rowspan="1" width="34">
+      <p align="center">15:00-16:30</p>
+      </td>
+      <td colspan="7" class="sigmod" width="437">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#plenaryposter">
+      <strong>PODS/SIGMOD Research Plenary Poster Session</a> + Coffee</strong><br/>Vaquero B-C<br />
+      
+      
+      </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="34">
+      <p align="center">16:30-16:45</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center"><strong>Coffee Break</strong><br/>Arizona, Vaquero, South, and West Foyers</p>
+      </td>
+    </tr>
+
+	
+    <tr>
+      <td width="34">
+      <p align="center">16:45-18:15</p>
+      </td>
+      <td class="pods" width="30">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="program_pods.shtml#pods7"><strong>PODS
+      </br>Session 7</strong></a><br/>Arizona I-III<br />
+	
+</p>
+      </td>
+      <td class="sigmod" colspan="2" width="62">
+      <p align="center"><strong>SIGMOD
+      Information Session on Careers in
+      Industry</strong><br/>Vaquero E-G<br />
+	
+      </p>
+      </td>
+    <td class="industrial" width="61">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#ind3"><strong>SIGMOD
+Industry 3</strong></a><br/>Arizona VI-VIII<br />
+      </p>
+      </td>
+      <td class="demo" width="67">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#democ"><strong>SIGMOD
+Demo Group C</strong></a><br/>Vaquero A<br />
+      </p>
+      </td>
+      <td class="tutorial" width="62">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;"
+      href="./program_sigmod.shtml#tutorial3"><strong>SIGMOD Tutorial 3</strong></a><br/>Arizona IV<br />
+      </p>
+	<td class="center"></td>
+      </td>
+  </tr>
+
+    <tr>
+      <td width="34">
+      <p align="center">18:15-18:30</p>
+      </td>
+      <td colspan="7" width="437">
+      <p align="center"><strong>Coffee Break</strong><br/>West Foyer</p>
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="34">
+      <p align="center">18:30-21:00</p>
+      </td>
+      <td colspan="7" class="sigmod" width="437">
+      <p align="center">
+	  <a style="color: rgb(204, 102,
+	0);text-decoration: none;"
+	href="./program_sigmod.shtml#research_symp"> <strong>SIGMOD New Researcher Symposium</strong></a><br/>
+	  Arizona I-IV<br />
+  </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="34">
+      <p align="center">21:00-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </td>
+      <td colspan="7" class="reception" width="437">
+      <p align="center"><strong>Microsoft Reception</strong><br/>Arizona V-VIII<br />
+      </p>
+      </td>
+    </tr>
+</table>
+
+<p align="left"><a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+
+<a name="wednesday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="7">
+      <p align="center"><strong>WEDNESDAY AT A GLANCE<br/>MAY 23, 2012 </strong></p>
+      </td>
+    </tr>
+    <tr> 
+    <td width="75"><p align="center">8:00-8:30</p></td> 
+    <td colspan="8" width="437"><p align="center"><strong>Continental Breakfast</strong><br/>
+    Arizona, Vaquero, and South Foyers<br />
+    </td> 
+  </tr> 
+    
+    <tr>
+      <td width="75">
+      <p align="center">8:30-10:00</p>
+      </td>
+      <td colspan="6" class="keynote" width="473">
+      <p align="center">
+	<a style="color: rgb(204, 102,
+	0);text-decoration: none;"
+	href="./program_sigmod.shtml#keynote"><strong>SIGMOD Keynote Talk 2</strong></a><br/>
+	Amin Vahdat<br/>
+	Arizona I-VIII<br />
+      </p>
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="34">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td colspan="6" width="473">
+      <p align="center"><strong>Coffee Break</strong><br/>Arizona, Vaquero, South, and West Foyers<br />
+      </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="34">
+      <p align="center">10:30-12:00</p>
+      </td>
+     <td class="pods" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_pods.shtml#pods8"><strong>PODS <br />
+Session 8</strong></a><br/>Arizona I-III<br />
+      </p>
+      </td>
+     <td class="sigmod" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;"
+      href="./program_sigmod.shtml#res5"><strong>SIGMOD <br />
+Research 5</strong></a><br/>Vaquero A<br />
+      </p>
+      </td>
+     <td class="sigmod" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#res6"><strong>SIGMOD <br />
+Research 6</strong></a><br/>Arizona V<br />
+      </p>
+      </td>
+     <td class="sigmod" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#res7"><strong>SIGMOD <br />
+Research 7</strong></a><br/>Arroyo CDE<br />
+      </p>
+      </td>
+     <td class="industrial" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#ind4"><strong>SIGMOD <br />
+Industry 4</strong></a><br/>Arizona VI-VIII<br />
+      </p>
+      </td>
+
+      <td class="tutorial" width="72">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#tutorial4"><strong>SIGMOD
+      <br />Tutorial 4</strong></a><br/>Arizona IV<br />
+      </p>
+      </td>
+   </tr>
+
+  
+   <tr>
+      <td width="34">
+      <p align="center">12:00-14:00</p>
+      </td>
+      <td colspan="6" width="473">
+      <p align="center"><strong>Lunch Provided <br/>SIGMOD Business Meeting</strong><br/>
+      Vaquero D-G</p>
+      </td>
+   </tr>
+
+
+    <tr>
+      <td width="34">
+      <p align="center">14:00-15:30</p>
+      </td>
+      <td class="pods" width="67">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="program_pods.shtml#pods9"><strong>PODS<br/>
+Session 9</strong></a><br/>Arizona I-III<br />
+      </p>
+      </td>
+      <td class="sigmod" colspan="5" width="67">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#plenaryposter">
+      <strong>SIGMOD Plenary Session: Poster Session for Workshop Papers</strong></a><br/>
+      Vaquero B-C<br />
+      </p>
+      </td>
+      </td>
+  </tr>
+
+    <tr>
+      <td width="34">
+      <p align="center">15:30-16:00</p>
+      </td>
+      <td colspan="6" width="475">
+      <p align="center"><strong>Coffee Break</strong><br/>Arizona, South, and West Foyers
+      <br />
+      </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="34">
+      <p align="center">16:00-17:30</p>
+      </td>
+     <td class="pods" width="67">
+      <p align="center"><a style="color: rgb(204, 102, 0);text-decoration: none;" 
+      href="./program_pods.shtml#pods10"><strong>PODS <br />
+Session 10</strong></a><br/>Arizona I-III<br />
+      </p>
+      </td>
+	   <td class="sigmod" colspan="5" width="67">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#plenary"><strong>SIGMOD
+      Plenary Session: Perspectives on Big
+      Data</strong></a><br/>
+	  Donald Kossmann, Kristen LeFevre, Sam Madden, Anand Rajaraman<br/>
+	     Arizona IV-VIII<br/>
+      </p>
+      </td>
+      </td>
+  </tr>
+  
+    <tr>
+      <td width="34">
+      <p align="center">17:30-18:00</p>
+      </td>
+      <td colspan="1" class="pods" width="90">
+      <p align="center"><a style="color: rgb(204, 102,
+      0);text-decoration: none;"
+      href="./program_pods.shtml#pods10"><strong>PODS </br>Session 10
+      (cont.)</strong></a></a></p>
+	
+      </td>
+      <td colspan="5" class="center" width="473">
+      <p align="center"></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" width="34">
+      <p align="center">18:00-18:30</p>
+      </td>
+      <td colspan="6" class="reception" width="473">
+      <p align="center"><strong>Departure to banquet site </strong><br/>
+	Buses start departing at 18:00 <br />
+      </p>
+      </td>
+    </tr>
+
+        <tr>
+      <td width="34">
+      <p align="center">18:30-22:30</p>
+      </td>
+      <td colspan="6" class="reception" width="473">
+      <p align="center"><strong>Conference Banquet</strong><br/>Desert Foothills<br/>
+      </p>
+      </td>
+    </tr>
+
+</table>
+
+<p align="left"><a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+<br />
+<a name="thursday"> </a>
+<table class="day" width="550">
+   <tr>
+      <td class="header" colspan="7">
+      <p align="center"><strong> THURSDAY AT A GLANCE<br/>MAY 24, 2012</strong></p>
+      </td>
+    </tr>
+<tr>
+    <td width="30"><p align="center">8:00-8:30</p></td>
+    <td colspan="9" width="62"><strong>Continental Breakfast</strong><br/>
+    Arizona, Vaquero, and South Foyers</td> 
+  </tr>
+  
+   <tr>
+      <td width="75">
+      <p align="center">8:30-10:00</p>
+      </td>
+      <td colspan="6" class="keynote" width="439">
+      <p align="center"><strong>SIGMOD Award Talks</strong> </br>(Innovations, Contributions, Test of Time, Dissertation, announcement of Best Demo Award winner) <br/>Arizona I-VIII<br />
+      </p>
+      </td>
+    </tr>
+    
+    <tr>
+      <td width="33">
+      <p align="center">10:00-10:30</p>
+      </td>
+      <td colspan="6" width="439">
+      <p align="center"><strong>Coffee Break</strong><br/>Arizona, Vaquero, South, and West Foyers<br />
+      </p>
+      </td>
+    </tr>
+    
+	<tr>
+      <td width="33">
+      <p align="center">10:30-12:00</p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" 
+      href="./program_sigmod.shtml#res8"><strong>SIGMOD <br />
+	Research 8</strong></a><br/>Arizona I-III<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;"
+      href="./program_sigmod.shtml#res9"><strong>SIGMOD <br />
+	Research 9</strong></a><br/>Arizona V<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#res10"><strong>SIGMOD <br />
+Research 10</strong></a><br/>Vaquero E<br />
+      </p>
+      </td>
+      <td colspan="1" class="industrial" width="61">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#ind5"><strong>SIGMOD <br />
+Industry 5</strong></a><br/>Arizona VI-VIII<br />
+      </p>
+      </td>
+     <td colspan="1" class="demo" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#demob"><strong>SIGMOD <br />
+Demo Group B</strong></a><br/>Vaquero A<br />
+      </p>
+      </td>
+      <td colspan="1" class="tutorial" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;"
+      href="./program_sigmod.shtml#tutorial5"><strong>SIGMOD
+      <br />Tutorial 5</strong></a><br/>Arizona IV<br />
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">12:00-13:30</p>
+      </td>
+      <td colspan="6" width="202">
+      <p align="center"><strong>Lunch (not provided by conference)<br />
+	  Student/Researcher Vis-&agrave;-Vis Meeting </strong>(by invitation only, Vaquero F-G)
+      </p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">13:30-15:00</p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#res11"><strong>SIGMOD <br />
+Research 11 </strong></a><br/>Arizona I-III<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="./program_sigmod.shtml#res12"><strong>SIGMOD <br />
+Research 12 </strong></a><br/>Arizona V<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="./program_sigmod.shtml#res13"><strong>SIGMOD <br />
+Research 13</strong></a><br/>Vaquero E<br />
+      </p>
+      </td>
+      <td colspan="1" class="industrial" width="67" colspan="2">
+      <p align="center"><a style="color: rgb(204, 102, 0); 
+      text-decoration: none;" href="./program_sigmod.shtml#ind6"><strong>SIGMOD
+Industry 6</strong></a><br/>Arizona VI-VIII<br />
+      </p>
+      </td>
+     <td colspan="1" class="demo" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="./program_sigmod.shtml#democ"><strong>SIGMOD <br />
+Demo Group C</strong></a><br/>Vaquero A<br />
+      </p>
+      </td>
+
+      <td colspan="1" class="tutorial" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="./program_sigmod.shtml#tutorial6"><strong>SIGMOD
+      <br /> Tutorial 6</strong></a><br/>Arizona IV<br />
+      </p>
+      </td>
+   </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">15:00-16:30</p>
+      </td>
+      <td colspan="6" class="sigmod" width="439">
+      <p align="center"><a style="color: rgb(204, 102, 0); text-decoration: none;" 
+      href="./program_sigmod.shtml#plenaryposter"><strong>SIGMOD Research Plenary Poster Session</a> 
+      + Coffee</strong><br/>Vaquero B-C</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="33">
+      <p align="center">16:30-16:45</p>
+      </td>
+      <td colspan="6" width="439">
+      <p align="center"><strong>Coffee Break</strong><br/>Arizona, Vaquero, South, and West Foyers</p>
+      </td>
+    </tr>
+	
+    <tr>
+      <td width="33">
+      <p align="center">16:45-18:15</p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#res14"><strong>SIGMOD <br />
+Research 14 </strong></a><br/>Arizona I-III<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#res15"><strong>SIGMOD <br />
+Research 15 </strong></a><br/>Arizona V<br />
+      </p>
+      </td>
+      <td colspan="1" class="sigmod" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+      text-decoration: none;" href="./program_sigmod.shtml#res16"><strong>SIGMOD <br />
+Research 16</strong></a><br/>Arizona VI-VIII<br />
+      </p>
+      </td>
+      <td colspan="1" class="center" width="67" colspan="2">
+      <p align="center">
+      </p>
+      </td>
+     <td colspan="1" class="demo" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="./program_sigmod.shtml#demoa"><strong>SIGMOD <br />
+Demo Group A</strong></a><br/>Vaquero A<br />
+      </p>
+      </td>
+      <td colspan="1" class="tutorial" width="79">
+      <p align="center"><a style="color: rgb(204, 102, 0);
+text-decoration: none;" href="./program_sigmod.shtml#tutorial7"><strong>SIGMOD
+      <br /> Tutorial 7</strong></a><br/>Arizona IV<br />
+      </p>
+      </td>
+    </tr>
+
+</table>
+<p align="left"> <a style="color: rgb(204, 102, 0);" href="#top">top</a></p>
+<br />
+
+<a name="friday">
+
+</div>
+</div><!--endProgramMainContent -->
+<!-- div for wrap -->
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+<!-- footer -->
+</div><!-- end of wrap --> </a>
+
+<!--
+<p>				  
+<a style="color: rgb(204, 102, 0);
+a style="color: rgb(204, 102, 0); text-decoration: none;" href="index.shtml">Back to homepage</a>
+</p>
+<br />-->
+
+
+
+
+
+</body>
+</html>

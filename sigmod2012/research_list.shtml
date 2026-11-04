@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA -
+SIGMOD Accepted Research Papers</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+
+			
+<div id="maincontent">
+<h1>SIGMOD 2012: Accepted Research Papers</h1>
+
+				
+<div>
+  
+<ul>
+  <li>
+Sample-Driven Schema Mapping, Li Qian, University of Michigan, Ann
+Arbor; Michael Cafarella, University of Michigan, Ann Arbor; H. V.
+Jagadish, University of Michigan, Ann Arbor
+  </li>
+  <li>
+Optimal Top-k Generation of Attribute Combinations Based on Ranked
+Lists, Jiaheng Lu, Renmin University of China; Pierre Senellart,
+T&eacute;l&eacute;com ParisTech; Chunbin Lin, Renmin University of China; Xiaoyong
+Du, Renmin University of China; Shan Wang, Renmin University of China;
+Xinxing Chen, Renmin University of China
+  </li>
+  <li>
+Skew-Aware Automatic Database Partitioning in Shared-Nothing, Parallel
+  OLTP Systems, Andrew Pavlo, Brown University; Carlo Curino,
+Yahoo! Research; Stan Zdonik, Brown University
+  </li>
+  <li>
+Aggregate Suppression for Enterprise Search Engines, Mingyang Zhang,
+George Washington University; Nan Zhang, George Washington University;
+Gautam Das, University of Texas at Arlington
+  </li>
+  <li>
+Top-k Bounded Diversification, Piero Fraternali, Politecnico di Milano;
+Davide Martinenghi, Politecnico di Milano; Marco Tagliasacchi,
+Politecnico di Milano
+  </li>
+  <li>
+Towards Effective Partition Management for Large Graphs, Shengqi Yang,
+University of California, Santa Barbara; Xifeng Yan, University of
+California, Santa Barbara; Bo Zong, University of California, Santa
+Barbara; Arijit Khan, University of California, Santa Barbara
+  </li>
+  <li>
+Probase: A Probabilistic Taxonomy for Text Understanding, Wentao Wu,
+University of Wisconsin-Madison; Hongsong Li, Microsoft Research Asia;
+Haixun Wang, Microsoft Research Asia; Kenny Zhu, Shanghai Jiao Tong
+University
+  </li>
+  <li>
+Interactive Regret Minimization, Danupon Nanongkai, University of
+Vienna; Ashwin Lall, Denison University; Atish Das Sarma, Google
+Research; Kazuhisa Makino, University of Tokyo
+  </li>
+  <li>
+Prediction-Based Geometric Monitoring over Distributed Data Streams,
+Nikos Giatrakos, University of Piraeus; Antonios Deligiannakis,
+Technical University of Crete; Minos Garofalakis, Technical University
+of Crete; Izchak Sharfman, Technion
+  </li>
+  <li>
+Holistic Optimization by Prefetching Query Results, Karthik
+Ramachandra, IIT Bombay; S. Sudarshan, IIT Bombay
+  </li>
+  <li>
+Efficient Processing of Distance Queries in Large Graphs: A Vertex
+Cover Approach, James Cheng, Nanyang Technological University; Yiping
+Ke, Institute of High Performance Computing, Singapore; Shumo Chu, Nanyang
+Technological University; Carter Cheng, Nanyang Technological
+University
+  </li>
+  <li>
+MCJoin: A Memory-Constrained Join for Column-Based Main-Memory
+Databases, Steven Begley, La Trobe University; Zhen He, La Trobe
+University; Yi-Ping Phoebe Chen, La Trobe University
+  </li>
+  <li>
+Skimmer: Rapid Scrolling of Relational Query Results, Manish Singh,
+University of Michigan, Ann Arbor; Arnab Nandi, University of Michigan,
+Ann Arbor; H. V. Jagadish, University of Michigan, Ann Arbor
+  </li>
+  <li>
+Temporal Alignment, Anton Dign&ouml;s, University of Z&uuml;rich; Michael B&ouml;hlen,
+University of Z&uuml;rich; Johann Gamper, Free University of Bozen-Bolzano
+  </li>
+  <li>
+Materialized View Selection for XQuery Workloads, Asterios
+Katsifodimos, INRIA Saclay and Universit&eacute; Paris XI; Ioana Manolescu,
+INRIA Saclay; Vasilis Vassalos, Athens University of Economics and
+Business
+  </li>
+  <li>
+Efficient External-Memory Bisimulation on DAGs, Jelle Hellings,
+UHasselt; George Fletcher, TU/e; Herman Haverkort, TU/e
+  </li>
+  <li>
+CrowdScreen: Algorithms for Filtering Data with Humans, Aditya
+Parameswaran, Stanford University; H&eacute;ctor Garc&iacute;a-Molina, Stanford
+University; Hyunjung Park, Stanford University; Neoklis Polyzotis,
+University of California, Santa Cruz; Aditya Ramesh, Stanford
+University; Jennifer Widom, Stanford University
+  </li>
+  <li>
+So Who Won? Dynamic Max Discovery with the Crowd, Stephen Guo, Stanford
+University; Aditya Parameswaran, Stanford University; H&eacute;ctor
+Garc&iacute;a-Molina, Stanford University
+  </li>
+  <li>
+Authenticating Location-Based Services without Compromising Location
+Privacy, Haibo Hu, HKBU; Jianliang Xu, HKBU; Ziwei Yang, HKBU
+  </li>
+  <li>
+Online Windowed Subsequence Matching over Probabilistic Sequences,
+Tingjian Ge, University of Massachusetts, Lowell; Zheng Li, University
+of Kentucky
+  </li>
+  <li>
+Divergent Physical Design Tuning, Jeff LeFevre, University of
+California, Santa Cruz; Mariano Consens, University of Toronto; Kleoni
+Ioannidou, University of California, Santa Cruz; Neoklis Polyzotis,
+University of California, Santa Cruz
+  </li>
+  <li>
+SCARAB: Scaling Reachability Computation on Large Graphs, Ruoming Jin,
+Kent State University; Ning Ruan, Kent State University; Saikat Dey,
+Kent State University; Jeffrey Xu Yu, The Chinese University of Hong
+Kong
+  </li>
+  <li>
+A Highway-Centric Labeling Approach for Answering Distance Queries on
+Large Graphs, Ruoming Jin, Kent State University; Ning Ruan, Kent State
+University; Yang Xiang, Ohio State University; Victor Lee, Kent State
+University
+  </li>
+  <li>
+Entity Augmentation and Attribute Discovery by Holistic Matching with
+Web Tables, Mohamed Yakout, Purdue University; Kris Ganjam, Microsoft
+Research; Kaushik Chakrabarti, Microsoft Research; Surajit Chaudhuri,
+Microsoft Research
+  </li>
+  <li>
+A Model-Based Approach to Attributed Graph Clustering, Zhiqiang Xu,
+Nanyang Technological University; Yiping Ke, Institute of High Performance Computing, Singapore; Yi Wang, National University of Singapore; Hong Cheng, The
+Chinese University of Hong Kong; James Cheng, Nanyang Technological
+University
+  </li>
+  <li>
+Can we Beat the Prefix Filtering? An Adaptive Framework for Similarity
+Join and Search, Jiannan Wang, Tsinghua University; Guoliang Li,
+Tsinghua University; Jianhua Feng, Tsinghua University
+  </li>
+  <li>
+Scalable Processing of Continuous Top-k Queries under User Preferences,
+Albert Yu, Duke University; Pankaj Agarwal, Duke University; Jun Yang,
+Duke University
+  </li>
+  <li>
+Efficient Spatial Sampling of Large Geographical Tables, Anish Das
+Sarma, Google; Hongrae Lee, Google; Hector Gonzalez, Google Research;
+Jayant Madhavan, Google Research; Alon Halevy, Google Research
+  </li>
+  <li>
+Skeleton Automata for FPGAs: Reconfiguring without Reconstructing, Jens
+Teubner, ETH Z&uuml;rich; Louis Woods, ETH Z&uuml;rich; Chongling Nie, ETH Z&uuml;rich
+  </li>
+  <li>
+Effective Caching of Shortest Paths for Location-Based Services, Man
+Lung Yiu, Hong Kong Polytechnic University; Jeppe Thomsen, Hong Kong
+Polytechnic University; Christian Jensen, Aarhus University
+  </li>
+  <li>
+Parallel Main-Memory Indexing for Moving-Object Query and Update
+Workloads, Darius Sidlauskas, Aalborg University; Simonas Saltenis,
+Aalborg University; Christian Jensen, Aarhus University
+  </li>
+  <li>
+Locality-Sensitive Hashing Scheme Based on Dynamic Collision Counting,
+Junho Gan, Sun Yat-Sen University; Jianlin Feng, Sun Yat-Sen
+University; Qiong Fang, HKUST; Wilfred Ng, HKUST
+  </li>
+  <li>
+Local Structure and Determinism in Probabilistic Databases, Theodoros
+Rekatsinas, University of Maryland; Amol Deshpande, University of
+Maryland; Lise Getoor, University of Maryland
+  </li>
+  <li>
+TreeSpan: Efficiently Computing Similarity All-Matching, Gaoping Zhu,
+University of New South Wales; Xuemin Lin, University of New South
+Wales; Ke Zhu, University of New South Wales; Wenjie Zhang, University
+of New South Wales; Jeffrey Xu Yu, The Chinese University of Hong Kong
+  </li>
+   <li>
+Calvin: Fast Distributed Transactions for Partitioned Database Systems, Alexander Thomson, Yale University; Thaddeus Diamond, Yale University; Shu-Chun Weng, Yale University; Kun Ren, Yale University; Philip Shao, Yale University; Daniel J. Abadi, Yale University
+  </li>
+  <li>
+Query Preserving Graph Compression, Wenfei Fan, University of
+Edinburgh; Xin Wang, University of Edinburgh; Yinghui Wu, University of
+Edinburgh
+  </li>
+  <li>
+NoDB: Efficient Query Execution on Raw Data Files, Ioannis Alagiannis,
+EPFL; Renata Borovica, EPFL; Miguel Branco, EPFL; Stratos Idreos, CWI;
+Anastasia Ailamaki, EPFL
+  </li>
+  <li>
+Advanced Partitioning Techniques for Massively Distributed Computation,
+Jingren Zhou, Microsoft; Nico Bruno, Microsoft; Wei Lin, Microsoft
+  </li>
+  <li>
+MASKIT: Privately Releasing User Context Streams for Personalized
+Mobile Applications, Michaela Goetz, Cornell University; Suman Nath,
+Microsoft Research; Johannes Gehrke, Cornell University
+  </li>
+  <li>
+Managing Large Dynamic Graphs Efficiently, Jayanta Mondal, University
+of Maryland; Amol Deshpande, University of Maryland
+  </li>
+  <li>
+SkewTune: Mitigating Skew in MapReduce Applications, YongChul Kwon,
+University of Washington; Magdalena Balazinska, University of
+Washington; Bill Howe, University of Washington; Jerome Rolia, HP Labs
+  </li>
+  <li>
+High-Performance Complex Event Processing over XML Streams, Barzan
+Mozafari, MIT; Kai Zeng, University of California, Los Angeles; Carlo
+Zaniolo, University of California, Los Angeles
+  </li>
+  <li>
+Towards a Unified Architecture for in-RDBMS Analytics, Xixuan Feng,
+University of Wisconsin-Madison; Arun Kumar, University of
+Wisconsin-Madison; Ben Recht, University of Wisconsin-Madison;
+Christopher R&eacute;, University of Wisconsin-Madison
+  </li>
+  <li>
+Declarative Error Management for Robust Data-Intensive Applications,
+Carl-Christian Kanne, IBM Almaden Research Center; Vuk Ercegovac, IBM
+Almaden Research Center
+  </li>
+  <li>
+Optimizing Index for Taxonomy Keyword Search, Bolin Ding, University of
+Illinois at Urbana Champaign; Haixun Wang, Microsoft Research Asia;
+Ruoming Jin, Kent State University; Jiawei Han, University of Illinois
+at Urbana Champaign; Zhongyuan Wang, Microsoft Research Asia
+  </li>
+  <li>
+A General Purpose Log Structure Merge Tree, Russell Sears, Yahoo!
+Research; Raghu Ramakrishnan, Yahoo! Research
+  </li>
+  <li>
+GUPT: Privacy Preserving Data Analysis Made Easy, Prashanth Mohan,
+University of California, Berkeley; Abhradeep Thakurta, Pennsylvania
+State University; Elaine Shi, University of California, Berkeley; Dawn
+Song, University of California, Berkeley; David Culler, University of
+California, Berkeley
+  </li>
+  <li>Tiresias: The Database Oracle for How-To Queries, Alexandra
+Meliou, University of Washington; Dan Suciu, University of Washington
+  </li>
+</ul>
+</div> 
+
+
+
+<!--endMainContent --> 
+</div>		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

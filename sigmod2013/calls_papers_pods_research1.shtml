@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2013 ACM SIGMOD/PODS Conference: New York, New York, USA - Call for Papers: SIGMOD Research</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+        text-align: right;
+        clear: both;
+        margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+//theImages[1] = 'images/az/landscape2.png'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+//theImageDescriptions[1] = 'Sonoran Desert'
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+//theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+        
+<!--    <div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->
+        
+<div id="wrap">
+                        
+<!-- the ssi code needs to stay here - do not delete or move -->
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+<!--
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+<!--
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> -->
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+<!-- the ssi code needs to stay here - do not delete move -->
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+<!--
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 1: Michael Mahoney">Tutorial 1: Michael Mahoney (Stanford University)</a></li> 
+ <li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 2: Benjamin Pierce (University of Pennsylvania)</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+      <a href="http://graphics.stanford.edu/~hanrahan/"
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <a href="http://cseweb.ucsd.edu/~vahdat/"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml" title="Industrial Presentations">Industrial Presentations</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="workshop_program.shtml" title="Workshop Program">Workshops Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+			
+<div id="maincontent">
+<h1>PODS 2013 CALL FOR RESEARCH PAPERS</h1>
+
+<p>
+The PODS symposium series, held in conjunction with the SIGMOD conference series, provides a premier annual forum for the communication of new advances in the theoretical foundations of data management, traditional or non-traditional (see <A style="color: #CC6600; text-decoration: none;" HREF="http://www.sigmod.org/the-pods-pages">http://www.sigmod.org/the-pods-pages</A>). For the 32nd edition, original research papers providing new insights in the specification, design, or implementation of data-management tools are called for.   
+</p>
+
+<h3>Topics of Interest</h3>
+<p>
+Topics that fit the interests of the symposium include the following: 
+</p>
+
+<p>
+<ul>
+<li>big data, alternative query languages, data support for analytics
+<li>query languages for semi-structured data (including XML and RDF)
+<li>search query languages (including techniques from information retrieval)
+<li>dynamic aspects of databases (updates, views, approximate query answering)
+<li>incompleteness, inconsistency, and uncertainty in databases
+<li>schema and query extraction
+<li>data integration; data exchange
+<li>provenance; workflows, data-centric Business Process Management
+<li>metadata management; meta-querying
+<li>constraints (specification, reasoning, mining, constraint databases)
+<li>privacy and security
+<li>Web services; automatic verification of database-driven systems
+<li>model theory, logics, algebras and computational complexity
+<li>data modeling; data structures and algorithms for data management
+<li>design, semantics, and optimization of query and database languages
+<li>domain-specific databases (multi-media, scientific, spatial, temporal, text)
+</ul>
+</p>
+
+<p>
+In addition, we especially welcome papers addressing <I>emerging database environments and applications</I>. An External Review Committee will assist in reviewing papers in several multi-disciplinary areas of particular interest to this edition of PODS -- the areas of interest and names of External Review Committee members are listed futher below.
+
+<h3>Organization</h3>
+<p><strong>Program Chair</strong> <br/>
+Wenfei Fan (University of Edinburgh, UK) </br/>
+
+<p><strong>Program Committee</strong> <br/>
+Marcelo Arenas (PUC, Chile) <br/>
+Leo Bertossi (Carleton University, Canada)  <br/>
+Diego Calvanese (Free University of Bozen-Bolzano, Italy)  <br/>
+Alin Deutsch (UC San Diego, USA) <br/>
+Daniel Deutch (Ben Gurion University, Israel)  <br/>
+Wenfei Fan (University of Edinburgh, UK) <br/>
+Floris Geerts (University of Antwerp, Belgium)  <br/>
+Maurizio Lenzerini (Rome La Sapienza, Italy) <br/>
+Benny Kimelfeld (IBM Research - Almaden, USA) <br/>
+Wim Martens (University of Bayreuth, Germany) <br/>
+Andrew McGregor (University of Massachusetts, USA) <br/>
+Frank McSherry (Microsoft Research, USA) <br/>
+Frank Neven (Hasselt University, Belgium) <br/>
+Jorge Perez (University of Chile, Chile) <br/>
+Reinhard Pichler (Technische University Wien, Austria) <br/>
+Francesco Scarcello (University of Calabria, Italy) <br/>
+Nicole Schweikardt (Frankfurt University, Germany) <br/>
+Thomas Schwentick (TU Dortmund University, Germany) <br/>
+Peter Widmayer (ETH, Switzerland) <br/>
+Ryan Williams (Stanford University, USA) <br/>
+David Woodruff (IBM Research - Almaden, USA)
+
+<p><strong>PODS General Chair</strong> <br/>
+Richard (Rick) Hull (IBM T.J. Watson Research, USA) <br/>
+
+<p><strong>Proceedings & Publicity Chair</strong> <br/>
+Flors Geerts (University of Antwerp, Belgium) </br/>
+
+
+<h3>External Review Committee and additional Areas of Interest</h3>
+
+<p>
+<I><strong>Cloud Computing and Next-generation Distributed Query Processing</strong></I>  <br/>
+Pierre Fraigniaud (Paris 7, France) <br/>
+Jignesh M. Patel (University of Wisconsin, USA) <br/>
+Sergei Vassilvitskii (Google Research, USA) <br/>
+Milan Vojnovic (Microsoft Research, UK) <br/>
+
+<p>
+<I><strong>Privacy</strong></I> <br/>
+Michael Hay (Cornell University, USA) <br/>
+Nina Mishra (Microsoft Research, USA) <br/> 
+Kobbi Nissim (Ben-Gurion University, Israel) <br/>
+Aaron Roth (University of Pennsylvania, USA) <br/>
+Adam Smith (Penn State Univesity, USA) <br/>
+Mukund Sundararajan (Google Research, USA) <br/>
+
+<p>
+<I><strong>Mining and Learning of Data Models and Queries</strong></I> <br/>
+Pauli Miettinen (Max Planck Institute, Germany)<br/>
+Evimaria Terzi (Boston University, USA) <br/>
+Panayiotis Tsaparas (University Ioannina, Greece) <br/>
+
+<p>
+<I><strong>Recommendation Systems and Social Networks</strong></I> <br/>
+Gautam Das (University Texas at Arlington, USA) <br/>
+Joseph A. Konstan (University Minnesota, USA) <br/>
+
+<p>
+<I><strong>Semantic, Linked, Networked, and Crowdsourced Data</strong></I> <br/>
+Pascal Hitzler (Wright State University, USA) <br/> 
+David R. Karger (MIT, USA) <br/>
+Boris Motik (University of Oxford, UK) <br/>
+Neoklis (Alkis) Polyzotis (UC Santa Cruz, USA) <br/> 
+Axel Polleres (Siemens, Austria)
+
+
+<h3>Submission Guidelines</h3>
+<p>
+Submitted papers should be at most twelve pages, including
+bibliography, using reasonable page layout and font size of at least
+10pt. (Note that the SIGMOD style is 9pt and is therefore not
+permitted. Instead, we recommend the following alternate 10pt style
+file: <a style="color: #CC6600; text-decoration: none;"
+href="http://conferences.sigcomm.org/imc/2009/sig-alternate-10pt.cls">
+http://conferences.sigcomm.org/imc/2009/sig-alternate-10pt.cls</a>).
+Additional details may be included in an appendix, which, however,
+will be read at the discretion of the PC. Papers longer than twelve
+pages (excluding the appendix) or in font size smaller than 10pt risk
+rejection without consideration of their merits.
+
+The submission process will be through the easychair website:
+ <A style="color:
+#CC6600; text-decoration: none;"
+HREF="http://www.easychair.org/conferences/?conf=pods2013">http://www.easychair.org/conferences/?conf=pods2013</a>
+</p>
+
+<p>Note that, unlike the SIGMOD conference, PODS does not use double-blind reviewing, and therefore PODS submissions should have the names and affiliations of authors listed on the paper.
+
+<p>The results must be unpublished and not submitted elsewhere, including the formal proceedings of other symposia or workshops. Authors of an accepted paper will be expected to sign copyright release forms, and one author is expected to present it at the conference.
+
+<h3>Important Dates</h3>
+<p>
+		<strong>November 28, 2012, 5pm Pacific Standard Time</strong>: Research paper abstracts due<br />
+		<strong>December 5, 2012, 5pm Pacific Standard Time</strong>: Research paper submissions due<br />
+		<strong>February 25, 2013</strong>: Notification of acceptance<br/>
+</p>
+
+<h3>Awards</h3>
+<p><strong>Best Paper Award</strong>: An award will be given to the best submission, as judged by the PC.</p>
+
+<p><strong>Best Student Paper Award</strong>:
+ There will also be an award for the best 
+submission, as judged by the PC, written by a student or exclusively 
+by students. An author is considered as a student if at the time of 
+submission, the author is enrolled in a program at a university or 
+institution leading to a doctoral/master's/bachelor's degree.
+
+
+The PC reserves the right to give both awards to the same paper, 
+not to give an award, or to split an award among several papers. 
+Papers authored or co-authored by PC members are not eligible
+for an award.
+</div>
+<!--endMainContent --> 
+                
+<!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <!--<td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>-->
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table align="center">
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<tr valign="center">
+<td>Follow us:</td>
+<td><a href="https://www.facebook.com/AcmSigmod2013"><img src="images/facebook-icon.png"></a></td>
+<td> <a href="http://twitter.com/acmsigmod2013"><img src="images/twitter-icon.png"></a></td>
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

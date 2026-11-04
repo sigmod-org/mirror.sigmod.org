@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - Call for Papers: SIGMOD Research</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<!--#include virtual="headcode.html"-->
+<body>
+	
+<!--#include virtual="header.html"-->
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>
+-->	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<!--#include virtual="leftnav.html"-->
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<!--#include virtual="rightnav.html"-->
+
+			
+			<div id="maincontent">
+				  <h1>Call for Papers: SIGMOD Research</h1>
+
+<p>
+The annual ACM SIGMOD conference is a leading international forum for database researchers, practitioners, developers, 
+and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences. 
+We invite the submission of original research contributions. We encourage submissions relating to all aspects of 
+data management defined broadly, and particularly encourage work on topics of emerging interest in the research and 
+development communities.
+</p>
+
+<h3>Topics of Interest</h3>
+
+<p>General areas of interests include, but are not limited to the following topics:
+<ul>
+<li>
+New data management architectures, distributed data management (e.g., data stream management, P2P, replication, and cloud)
+</li>
+<li>
+Data management applications (e.g., Web services and mashups, social networks scientific databases, sensor networks, decision-making and analytics)
+</li>
+<li>
+Data models and languages (e.g., semi-structured, probabilistic, multi-media, temporal, spatial)
+</li>
+<li>
+Data-centric workflow and process management
+</li>
+<li>
+Data integration, meta-data management, data quality, data cleaning
+</li>
+<li>
+Performance, scalability and dependability of information systems
+</li>
+<li>
+Benchmarking and experimental methodology
+</li>
+<li>
+Other aspects of modern information systems such as data security, data privacy, personalization, user interfaces, etc.
+</li>
+</ul>
+
+<h3>Submission Guidelines</h3>
+<p>
+All aspects of the submission and notification process will be handled electronically. 
+Submissions must adhere to the paper <a href="sigmod_formatting.shtml">formatting instructions</a>.
+<br />
+Double-blind reviewing: As has become the tradition for SIGMOD, research papers will be judged for quality and relevance through double-blind reviewing, 
+where the identities of the authors are withheld from the reviewers.  Thus, author names and affiliation must not appear in the paper, and bibliographic 
+references must be adjusted to preserve author anonymity.
+</p>
+<p>
+<a href="calls_papers_important_dates.shtml">Submission instructions</a>.
+</p>
+
+
+<h3>SIGMOD CfP</h3>
+<p><a href="docs/sigmod2011cfp.pdf">SIGMOD call for papers in PDF format.</a></p>
+
+
+  </div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<!--#include virtual="footer.html"-->
+
+</body>
+</html>

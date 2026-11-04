@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2011 ACM SIGMOD/PODS Conference: Athens, Greece - Accepted Research Papers</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+var theImageDescriptions = new Array() // do not change this
+var theImageURLs = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array.
+
+theImages[0] = 'images/Acropolis_742.jpg'
+theImages[1] = 'images/AcropolisMuseum1_742.jpg'
+theImages[2] = 'images/AcropolisMuseum2_742.jpg'
+theImages[3] = 'images/Byzantine_742.jpg'
+theImages[4] = 'images/CycladicMuseum_742.jpg'
+theImages[5] = 'images/Epidavros_742.jpg'
+theImages[6] = 'images/Hrodeio_742.jpg'
+theImages[7] = 'images/Hydra_742.jpg'
+theImages[8] = 'images/Kallimarmaro_742.jpg'
+theImages[9] = 'images/Mouseio1_742.jpg'
+theImages[10] = 'images/Mouseio2_742.jpg'
+theImages[11] = 'images/OakaAgora_742.jpg'
+theImages[12] = 'images/Parliament_742.jpg'
+theImages[13] = 'images/Sounio_742.jpg'
+
+theImageDescriptions[0] = 'The Parthenon - cc Photo by Titanas'
+theImageDescriptions[1] = 'The Acropolis Museum'
+theImageDescriptions[2] = 'The Acropolis Museum - Photo by Thanassis Gentimis'
+theImageDescriptions[3] = 'Byzantine & Christian Museum'
+theImageDescriptions[4] = 'Museum Of Cycladic Art - Photo by Maria Siorba'
+theImageDescriptions[5] = 'Ancient theater of Epidavros - cc Photo by Hbarrison'
+theImageDescriptions[6] = 'Odeion of Herodes Atticus'
+theImageDescriptions[7] = 'Island of Hydra - cc Photo by Rosino'
+theImageDescriptions[8] = 'Panathenaic Stadium'
+theImageDescriptions[9] = 'National Archaeological Museum of Athens - cc Photo by MPD01605'
+theImageDescriptions[10] = 'National Archaeological Museum of Athens - cc Photo by inyucho'
+theImageDescriptions[11] = 'Olympic Athletic Center of Athens - cc Photo by hermenpaca'
+theImageDescriptions[12] = 'The Greek Parliament'
+theImageDescriptions[13] = 'Temple of Poseidon - Cape Sounion'
+
+theImageURLs[0] = 'http://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384'
+theImageURLs[1] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[2] = 'http://www.theacropolismuseum.gr/'
+theImageURLs[3] = 'http://www.byzantinemuseum.gr/en/'
+theImageURLs[4] = 'http://www.cycladic.gr/'
+theImageURLs[5] = 'http://www.breathtakingathens.com/node/5000120'
+theImageURLs[6] = 'http://www.breathtakingathens.com/node/5000128'
+theImageURLs[7] = 'http://www.breathtakingathens.com/node/5000115'
+theImageURLs[8] = 'http://www.breathtakingathens.com/node/5000198'
+theImageURLs[9] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[10] = 'http://www.namuseum.gr/wellcome-en.html'
+theImageURLs[11] = 'http://www.oaka.com.gr/default.asp'
+theImageURLs[12] = 'http://www.hellenicparliament.gr/'
+theImageURLs[13] = 'http://odysseus.culture.gr/h/3/eh355.jsp?obj_id=2390'
+
+// do not edit anything below this line
+
+//var j = 0
+var p = theImages.length;
+//var preBuffer = new Array()
+//for (i = 0; i < p; i++){
+//   preBuffer[i] = new Image()
+//   preBuffer[i].src = theImages[i]
+//}
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+
+//document.write('<div id="masthead"><img src="images/Sounio_742.jpg" alt="top banner" width="742" height="330" /></div>');
+
+document.write('<div id="masthead">');
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+document.write('<img src="images/imagefooter.jpg" alt="SIGMOD/PODS, June 12-16, 2011, Athens, Greece" width="742" height="30" />');
+
+document.write('</div>');
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+}
+
+//  End -->
+</script>
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city.gif" alt="ACM SIGMOD Athens, Greece, 2011" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+			  <h3>Welcome</h3>
+<ul class="navbar">
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+	<li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  </ul>
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="calls_papers_sigmod_research_repeatability.shtml#RepeatabilityPC" title="Program Committee">Repeatability PC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sponsors.shtml" title="Sponsors">Supporters</a></li>
+</ul>
+<h3>Links</h3>
+<ul class="navbar">
+      <li><a href="stream.shtml" title="Web Streaming and Other Media">Web Streaming and Other Media</a></li>
+      <li><a href="affiliatedconfs.shtml" title="Affliated Conferences & Workshops">Affiliated Conferences &amp; Workshops</a></li>
+      <li><a href="exhibitors.shtml" title="Exhibitor Information">Exhibitor Information</a></li>
+      <li><a href="http://www.breathtakingathens.com/" title="Visitor Information" target="_blank">Visit Athens</a></li>
+      <li><a href="http://www.informatik.uni-trier.de/~ley/db/conf/sigmod/index.html" title="Previous Conferences" target="_blank">Previous Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+      <li><a href="http://bit.ly/sigmod2011" title="SIGMOD 2011 Proceedings" target="_blank">SIGMOD 2011 Proceedings</a></li>
+      <li><a href="http://bit.ly/pods2011" title="PODS 2011 Proceedings" target="_blank">PODS 2011 Proceedings</a></li>
+      <li><a href="http://www.sigmod.org/2012/" title="SIGMOD/PODS 2012" target="_blank">SIGMOD/PODS 2012</a></li>
+</ul>
+
+			</div>
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+			<div id="sidebarRight">
+
+			
+<!-- yannis: substituted by following sections =====================
+<h3>Conference Program</h3>
+<ul class="navbar">
+  <li><a href="program_full.shtml">Full Program</a></li>
+  <li><a href="program_sigmod.shtml">SIGMOD Sessions</a></li>
+  <li><a href="program_pods.shtml">PODS Sessions</a></li>
+  <li><a href="program_ugrad_posters.shtml">SIGMOD Undergrad Posters</a></li> 
+</ul>
+<h3>For Attendees </h3>
+<ul class="navbar">
+	<li><a href="http://www.regmaster.com/conf/sigmod2009.html"><strong>Registration!!!</strong></a></li>
+	<li><a href="delegates_conference_venue.shtml"><strong>Venue &amp; Hotel Info</strong></a></li>
+  <li><a href="delegates_transportation.shtml">Transportation</a></li>
+	<li><a href="delegates_workshops.shtml">Workshops</a></li>
+    <li><a href="delegates_contact_us.shtml">Contact Us  </a></li>
+    <li><a href="delegates_visa.shtml">Visa Information</a></li>
+    <li><a href="delegates_travel_grants.shtml">Student Travel Grants</a></li>
+    <li><a href="delegates_banquet.shtml">Banquet Details</a></li>
+</ul>
+========================================== -->
+
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_sigmod.shtml" title="SIGMOD Program">SIGMOD Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="keynote_1.shtml" title="Keynote 1: Hamilton">Keynote 1: J. Hamilton</a><li>
+	<li><a href="keynote_2.shtml" title="Keynote 2: Ailamaki">Keynote 2: A. Ailamaki</a><li>
+	<li><a href="keynotes_indust.shtml" title="Industry Keynotes">Industry Keynotes</a></li>
+	<li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+	<li><a href="ind_list.shtml" title="Industry Papers">Industry Papers</a></li>
+	<li><a href="demo_list.shtml" title="Demo Papers">Demo Papers</a></li>
+	<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+	<li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+    <li><a href="awards_sigmod.shtml" title="Awards">Awards</a></li>
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+	<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+	<li><a href="program_pods.shtml" title="PODS Program">PODS Program</a></li>
+	<li><a href="printableprogram.shtml" title="Printable Program">-Printable Version</a></li>
+	<li><a href="pods_invited.shtml#keynote" title="Keynote: T. Milo">Keynote: T. Milo</a></li>
+	<li><a href="pods_invited.shtml#tutorial1" title="Tutorial 1: S. Muthukrishnan">Tutorial 1: S. Muthukrishnan</a></li>
+	<li><a href="pods_invited.shtml#tutorial2" title="Tutorial 2: M. Arenas and J. Perez">Tutorial 2: M. Arenas and J. Perez</a></li>
+	<li><a href="pods_list.shtml" title="PODS Research Papers">Research Papers</a></li>
+	<li><a href="pods_invited.shtml" title="PODS Invited Talks">Invited Talks</a></li>
+    <li><a href="awards_sigmod.shtml#pods" title="Awards">Awards</a></li>
+	<li><a href="pods_anniversary.shtml" title="PODS 30th Anniversary">30th Anniversary</a></li>
+</ul>
+
+
+<h3 class="navheading">For Attendees</h3>
+<ul class="navbar">
+	<li><a href="https://regmaster3.com/2011conf/SIGMOD11/register.php" title="Registration">Registration</a></li>
+	<li><a href="banquet.shtml" title="Conference Banquet">Conference Banquet</a></li>
+	<li><a href="conferencehotel.shtml" title="Conference Hotel">Conference Hotel</a></li>
+	<li><a href="conferencehotel.shtml#additional" title="Accommodation">Accommodation</a></li>
+	<li><a href="travelinfo.shtml" title="Travel Instructions">Travel Info</a></li>	
+	<li><a href="visitorinformation.shtml" title="Visitor Information">Visitor Information</a></li>
+	<li><a href="delegates_visa.shtml">Visa Information</a></li>
+	<li><a href="studenttravelgrants.shtml">Student Travel Grants</a></li>
+	<li><a href="studentgrants.shtml">East Europe Grants</a></li>
+</ul>
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+    <ul class="navbar">
+      <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates and Submission</a></li>
+	  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+	  
+<!-- yannis: the rest have been moved to calls.shtml for aesthetics -->
+
+    </ul>
+
+			</div>
+
+
+
+			
+			<div id="maincontent">
+				  <h1>SIGMOD - Accepted Research Papers</h1>
+
+
+<p>
+
+   <strong>
+    No Free Lunch in Data Privacy</strong><br />
+    Daniel Kifer*, Penn State; Ashwin Machanavajjhala, Yahoo<br />
+   <br />
+   <strong>
+    A New Approach for Processing Ranked Subsequence Matching Based on Ranked Union</strong><br />
+    Wook-Shin Han*, Kyungpook National University; Jinsoo Lee, Kyungpook National University; Yang-Sae Moon, ; Seung-won Hwang, ; Hwanjo Yu, POSTECH<br />
+   <br />
+   <strong>
+    Automatic Discovery of Attributes in Relational Databases</strong><br />
+    Meihui Zhang, National University of Singapore; Marios Hadjieleftheriou*, AT&amp;T Labs - Research; Beng Chin Ooi, National University of Singapore; Cecilia Procopiuc, AT&amp;T Labs - Research; Divesh Srivastava, AT&amp;T Labs - Research<br />
+   <br />
+   <strong>
+    Exact Indexing for Support Vector Machines</strong><br />
+    Hwanjo Yu*, POSTECH; Ilhwan Ko, POSTECH; Youngdae Kim, POSTECH; Seung-won Hwang, ; Wook-Shin Han, Kyungpook National University<br />
+   <br />
+   <strong>
+    SkimpyStash: RAM Space Skimpy Key-Value Store on Flash-based Storage</strong><br />
+    Biplob Debnath*, EMC Corporation; Sudipta Sengupta, Microsoft Research, Redmond, USA; Jin Li, Microsoft Research, Redmond, USA<br />
+   <br />
+   <strong>
+    Local Graph Sparsification for Scalable Clustering</strong><br />
+    Venu Satuluri*, The Ohio State Univeristy; Srinivasan  Parthasarathy, The Ohio State University; Yiye Ruan, The Ohio State University<br />
+   <br />
+   <strong>
+    BE-Tree: An Index Structure to Efficiently Match Boolean Expressions over High-dimensional Discrete Space</strong><br />
+    Mohammad Sadoghi*, University of Toronto; Hans-Arno  Jacobsen, University of Toronto<br />
+   <br />
+   <strong>
+    Efficient Parallel Skyline Processing using Hyperplane Projections</strong><br />
+    Henning Koehler*, University of Queensland; Jing Yang, ; Xiaofang Zhou, University of Queensland<br />
+   <br />
+   <strong>
+    Latent OLAP: Data Cubes over Latent Variables</strong><br />
+    Bee-Chung Chen*, Yahoo! Research; Deepak Agarwal, Yahoo! Research<br />
+   <br />
+   <strong>
+    How Soccer Players Would Do Stream Joins</strong><br />
+    Jens Teubner*, ETH Zurich; Rene Mueller, IBM Almaden<br />
+   <br />
+   <strong>
+    Ranking with Uncertain Scoring Functions: Semantics and Sensitivity Measures</strong><br />
+    Mohamed Soliman*, University of Waterloo; Ihab Ilyas, University of Waterloo ; Davide Martinenghi, Politecnico di Milano; Marco Tagliasacchi, Politecnico di Milano <br />
+   <br />
+   <strong>
+    Querying Uncertain Data with Aggregate Constraints</strong><br />
+    Mohan Yang*, www.fang.com; Haixun Wang, ; Haiquan Chen, Auburn University; Wei-Shinn Ku, <br />
+   <br />
+   <strong>
+    Collaborative Tagging for Effective Storage and Retrieval of Web 2.0 Data</strong><br />
+    Meiyu Lu, NUS; Bing Tian Dai*, National Univ of Singapore; Anthny Tung, ; Divyakant Agrawal, UC Santa Barbara<br />
+   <br />
+   <strong>
+    TI: An Efficient Indexing Mechanism for Real-Time Search on Tweets</strong><br />
+    Chun Chen, College of Computer Science, Zhejiang University; Feng Li, National University of Singapo; Beng Chin Ooi, National University of Singapore; Sai Wu*, National Univ. of Singapore<br />
+   <br />
+   <strong>
+    E-Cube: Multi-Dimensional Event Sequence Analysis Using Hierarchical Pattern Query Sharing</strong><br />
+    Mo Liu*, Worcester Polytechnic Institut; Elke Rundensteiner, Worcester Polytechnic Institute; Kara Greenfield, Worcester Polytechnic Institute; Chetan Gupta, HP; Song Wang, HP; Abhay  Mehta, HP; Ismail Ari, Ozyegin University<br />
+   <br />
+   <strong>
+    Fast Personalized PageRank on MapReduce</strong><br />
+    Bahman Bahmani, Stanford University; Kaushik Chakrabarti, Microsoft Research; Dong Xin*, Google<br />
+   <br />
+   <strong>
+    Efficient Diversity-Aware Search</strong><br />
+    Albert Angel*, University of Toronto; Nick Koudas, University of Toronto<br />
+   <br />
+   <strong>
+    Keyword Search over Relational Databases: a Metadata Approach</strong><br />
+    sonia Bergamaschi, ; Elton Domnori, Universita di Modena e RE; Francesco Guerra, Universita di Modena e RE; Raquel Trillo Lado, University of Zaragoza; Yannis Velegrakis*, University of Trento<br />
+   <br />
+   <strong>
+    MaSM: Efficient Online Updates in Data Warehouses</strong><br />
+    Manos Athanassoulis*, EPFL; Shimin Chen, Intel Labs Pittsburgh; Phillip Gibbons, Intel; Anastasia Ailamaki, EPFL; Radu Stoica, EPFL<br />
+   <br />
+   <strong>
+    Changing Flights in Mid-air: A Model for Safely Modifying Continuous Queries</strong><br />
+    Kyumars Sheykh Esmaili, ETH Zurich; Tahmineh Sanamrad, ETH Zurich; Peter Fischer*, ETH Zurich; Nesime Tatbul, ETH Zurich<br />
+   <br />
+   <strong>
+    Entangled queries: enabling declarative data-driven coordination</strong><br />
+    Nitin Gupta, ; Lucja Kot*, Cornell University; Sudip Roy, ; Gabriel Bender, Cornell University; Johannes Gehrke, ; Christoph Koch, <br />
+   <br />
+   <strong>
+    Labeling Recursive Workflow Executions On-the-Fly</strong><br />
+    Zhuowei Bao*, University of Pennsylvania; Susan Davidson, University of Pennsylvania; Tova Milo, Tel Aviv University<br />
+   <br />
+   <strong>
+    Processing Theta-Joins using MapReduce</strong><br />
+    Alper Okcan, Northeastern University; Mirek Riedewald*, Northeastern University<br />
+   <br />
+   <strong>
+    Efficient Query Answering in Probabilistic RDF Graphs</strong><br />
+    Xiang Lian*, HKUST; Lei Chen, Hong Kong University of Science and Technology<br />
+   <br />
+   <strong>
+    Querying contract databases based on temporal behavior</strong><br />
+    Elio Damaggio*, UCSD; Alin Deutsch, UCSD; Dayou Zhou, UCSD<br />
+   <br />
+   <strong>
+    Score-Consistent Algebraic Optimization of Full-Text Search Queries with GRAFT</strong><br />
+    Nathan Bales*, UC San Diego; Alin Deutsch, UCSD; Vasilis Vassalos, AUEB<br />
+   <br />
+   <strong>
+    Mining a Search Engine&rsquo;s Corpus: Efficient Yet Unbiased Sampling and Aggregate Estimation</strong><br />
+    Mingyang Zhang*, The George Washington University; Nan Zhang, The George Washington University; Gautam Das, University of Texas at Arlington<br />
+   <br />
+   <strong>
+    Zephyr: Live Migration in Shared Nothing Databases for Elastic Cloud Platforms</strong><br />
+    Aaron Elmore, UC Santa Barbara; Sudipto Das*, UC Santa Barbara; Divyakant Agrawal, UC Santa Barbara; Amr El Abbadi, UC Santa Barbara<br />
+   <br />
+   <strong>
+    Schedule Optimization for Data Processing Flows on the Cloud</strong><br />
+    Herald Kllapi*, University Of Athens; Eva Sitaridi, University of Athens; Manolis Tsangaris, University of Athens; Yannis Ioannidis, University of Athens<br />
+   <br />
+   <strong>
+    Operation-Aware Buffer Management in Flash-based Systems</strong><br />
+    Yanfei Lv*, Peking University; Bin Cui, Pku; Bingsheng He, Nanyang Technological Universi; Xuexuan Chen, Peking University<br />
+   <br />
+   <strong>
+    LazyFTL: A Page-level Flash Translation Layer Optimized for NAND Flash Memory</strong><br />
+    Dongzhe Ma*, Tsinghua University; Jianhua Feng, Tsinghua University; Guoliang Li, Tsinghua University<br />
+   <br />
+   <strong>
+    Reverse Spatial and Textual k Nearest Neighbors Search</strong><br />
+    Jiaheng Lu, DEKE, Renmin University of China; Ying Lu*, Renmin University of China; Gao Cong, Nanyang Technological University<br />
+   <br />
+   <strong>
+    We Challenge You to Certify Your Updates</strong><br />
+    Su Chen, NUS; Xin Luna Dong, AT&amp;T Labs - Research; Laks VS Lakshmanan, ; Divesh Srivastava*, AT&amp;T Labs - Research<br />
+   <br />
+   <strong>
+    Neighborhood Based Fast Graph Search in Large Networks</strong><br />
+    Arijit Khan*, UCSB; Xifeng Yan, UCSB; Ziyu Guan, UCSB; Nan Li, UCSB; Supriyo Chakraborty, UCLA; Shu Tao, IBM<br />
+   <br />
+   <strong>
+    CrowdDB: Answering Queries with Crowdsourcing</strong><br />
+    Michael Franklin, UC Berkeley; Donald Kossmann, ETH Zürich; Tim Kraska*, UC Berkeley; Sukriti Ramesh, ETH Zurich; Reynold Xin, UC Berkeley<br />
+   <br />
+   <strong>
+    Assessing and Ranking Structural Correlations in Graphs</strong><br />
+    Ziyu Guan*, UCSB; Jian Wu, Zhejiang University; Zheng Yun, Taobao.com; Ambuj Singh, UC - Santa Barbara; Xifeng Yan, UCSB<br />
+   <br />
+   <strong>
+    Llama: Leveraging Columnar Storage for Scalable Join Processing in the MapReduce Framework</strong><br />
+    Yuting Lin*, NUS; Divyakant Agrawal, UC Santa Barbara; Chun Chen, College of Computer Science, Zhejiang University; Beng Chin Ooi, National University of Singapore; Sai Wu, National Univ. of Singapore<br />
+   <br />
+   <strong>
+    Efficient Auditing For Complex SQL Queries</strong><br />
+    Raghav Kaushik, Microsoft Research; Ravishankar Ramamurthy*, Microsoft Research<br />
+   <br />
+   <strong>
+    Faerie: Efficient Filtering Algorithms for Approximate Dictionary-based Entity Extraction</strong><br />
+    Guoliang Li*, Tsinghua University; Dong Deng, Tsinghua University; Jianhua Feng, Tsinghua University<br />
+   <br />
+   <strong>
+    Interaction between Record Matching and Data Repairing</strong><br />
+    Wenfei Fan, University of Edinburgh; Jianzhong Li, Harbin Institute of Technology; Shuai Ma, Beihang University, China; Nan Tang, University of Edinburgh; Wenyuan Yu*, University of Edinburgh<br />
+   <br />
+   <strong>
+    A memory efficient reachability data structure through bit vector compression</strong><br />
+    Sebastiaan van Schaik*, University of Oxford; Oege de Moor, University of Oxford Computing Laboratory<br />
+   <br />
+   <strong>
+    Incremental Graph Pattern Matching</strong><br />
+    Wenfei Fan, University of Edinburgh; Jianzhong Li, Harbin Institute of Technology; Jizhou Luo, Harbin Institute of Technology; Zijing Tan, ; Xin Wang, University of Edinburgh; Yinghui Wu*, University of Edinburgh<br />
+   <br />
+   <strong>
+    WHAM: A High-throughput Sequence Alignment Method</strong><br />
+    Yinan Li*, University of Wisconsin; Allison Terrell, University of Wisconsin; Jignesh Patel, University of Wisconsin<br />
+   <br />
+   <strong>
+    Design and Evaluation of Main Memory Hash Join Algorithms for Multi-core CPUs</strong><br />
+    Spyros Blanas, University of Wisconsin; Yinan Li*, University of Wisconsin; Jignesh Patel, University of Wisconsin<br />
+   <br />
+   <strong>
+    Performance prediction for concurrent database workloads</strong><br />
+    Jennie Duggan*, Brown University; Ugur Cetintemel, Brown University; Olga Papaemmanouil, Brandeis University; Eli Upfal, Brown University<br />
+   <br />
+   <strong>
+    Query Optimization Techniques for Partitioned Tables</strong><br />
+    Herodotos Herodotou*, Duke University; Nedyalko Borisov, Duke University; Shivnath Babu, Duke University<br />
+   <br />
+   <strong>
+    TrustedDB: A Trusted Hardware Based Database with Privacy and Data Confidentiality</strong><br />
+    Sumeet Bajaj*, Stony Brook University; Radu Sion, Stony Brook University<br />
+   <br />
+   <strong>
+    On k-skip shortest paths</strong><br />
+    Yufei Tao*, Chinese Univ. of Hong Kong; Cheng Sheng, The Chinese University of Hong Kong; JIan Pei, Simon Fraser Univ.<br />
+   <br />
+   <strong>
+    Apples and Oranges: A Comparison of RDF Benchmarks and Real RDF Datasets</strong><br />
+    Songyun Duan, IBM T. J. Watson; Anastasios Kementsietsidis*, IBM Research - Thomas J. Watson Research Ctr.; Kavitha Srinivas, IBM T. J. Watson; Octavian Udrea, IBM T.J. Watson<br />
+   <br />
+   <strong>
+    Location-Aware Type Ahead Search on Spatial Databases: Semantics and Efficiency</strong><br />
+    Senjuti Basu Roy*, UT Arlington; Kaushik Chakrabarti, Microsoft Research<br />
+   <br />
+   <strong>
+    Data Generation using Declarative Constraints</strong><br />
+    Arvind Arasu*, Microsoft Research; Raghav Kaushik, Microsoft Research; Jian Li, University of Maryland, College Park<br />
+   <br />
+   <strong>
+    Jigsaw: Efficient optimization over uncertain enterprise data</strong><br />
+    Oliver Kennedy*, Cornell University; Suman Nath, Microsoft<br />
+   <br />
+   <strong>
+    Fast Checkpoint Recovery Algorithms for Frequently Consistent Applications</strong><br />
+    Tuan Cao*, Cornell University; Marcos Vaz Salles, Cornell University; Benjamin Sowell, Cornell University; Yao Yue, Cornell University; Johannes Gehrke, ; Alan Demers  , Cornell University; Walker White, Cornell University<br />
+   <br />
+   <strong>
+    Tracing Data Errors with View-Conditioned Causality</strong><br />
+    Alexandra Meliou*, University of Washington; Wolfgang Gatterbauer, University of Washington; Suman Nath, Microsoft; Dan Suciu, University of Washington<br />
+   <br />
+   <strong>
+    Sharing work in Keyword Search over Databases</strong><br />
+    Marie Jacob*, University Of Pennsylvania; Zack Ives, University of Pennsylvania<br />
+   <br />
+   <strong>
+    Efficient Exact Edit Similarity Query Processing with Asymmetric Signature Schemes</strong><br />
+    Jianbin Qin*, University of New South Wales; Wei Wang, UNSW; Yifei Lu, UNSW; Chuan Xiao, UNSW; Xuemin Lin, UNSW<br />
+   <br />
+   <strong>
+    Effective Data Co-Reduction for Multimedia Similarity Search</strong><br />
+    Zi Huang, University of Queensland; Heng Tao Shen*, University of Queensland; Jiajun Liu, University of Queensland; Xiaofang Zhou, University of Queensland<br />
+   <br />
+   <strong>
+    Designing and Refining Schema Mappings via Data Examples</strong><br />
+    Bogdan Alexe, UC Santa Cruz; Balder ten Cate, UC Santa Cruz; Phokion Kolaitis, UC Santa Cruz; Wang-Chiew Tan*, IBM Research - Almaden and UC Santa Cruz<br />
+   <br />
+   <strong>
+    Warding off the Dangers of Data Corruption with Amulet</strong><br />
+    Nedyalko Borisov*, Duke University; Shivnath Babu, Duke University; Nagapramod Mandagere, IBM Almaden Research Center; Sandeep Uttamchandani, <br />
+   <br />
+   <strong>
+    Facet Discovery for Structured Web Search: A Query-log Mining Approach</strong><br />
+    Jeffrey Pound*, University of Waterloo; Stelios Paparizos, Microsoft Research; Panayiotis Tsaparas, <br />
+   <br />
+   <strong>
+    Hybrid In-Database Inference for Declarative Information Extraction</strong><br />
+    Daisy Zhe Wang*, UC Berkeley; Michael Franklin, UC Berkeley; Joseph Hellerstein, ; Minos Garofalakis, ; Michael Wick, <br />
+   <br />
+   <strong>
+    ATLAS: A Probabilistic Algorithm for High Dimensional Similarity Search</strong><br />
+    Jiaqi Zhai*, Cornell University; Yin Lou, Cornell University; Johannes Gehrke, <br />
+   <br />
+   <strong>
+    ArrayStore: A Storage Manager for  Complex Parallel Array Processing</strong><br />
+    Emad Soroush*, University of Washington; Magdalena Balazinska, University of Washington; Daniel Wang, SLAC<br />
+   <br />
+   <strong>
+    Flexible Aggregate Similarity Search</strong><br />
+    Yang Li, Shanghai Jiao Tong University; Feifei Li*, FSU; Ke Yi, HKUST; Bin Yao, Florida State University; Min Wang, HP Labs China<br />
+   <br />
+   <strong>
+    A Latency and Fault-Tolerance Optimizer for Online Parallel Query Processing</strong><br />
+    Prasang Upadhyaya*, University of Washington; YongChul Kwon, University of Washington; Magdalena Balazinska, University of Washington<br />
+   <br />
+   <strong>
+    Neighborhood-Privacy Protected Shortest Distance Computing in Cloud</strong><br />
+    Jun Gao*, Peking University; Jeffrey Xu Yu, The Chinese University of Hong Kong; Ruoming Jin, Kent State University; Jiashuai Zhou, ; Tengjiao Wang, ; dongqing Yang, <br />
+   <br />
+   <strong>
+    Context-sensitive Ranking for Document Retrieval</strong><br />
+    Liang Chen*, UCSD; Yannis Papakonstantinou, <br />
+   <br />
+   <strong>
+    Efficient and Generic Evaluation of Ranked Queries</strong><br />
+    Wen Jin*, ; Jignesh Patel, University of Wisconsin<br />
+   <br />
+   <strong>
+    Graph Cube: On Warehousing and OLAP Multidimensional Networks</strong><br />
+    Peixiang Zhao*, UIUC; Xiaolei Li, Microsoft Cooperation; Dong Xin, Google; Jiawei Han, UIUC<br />
+   <br />
+   <strong>
+    Sampling Based Algorithms for Quantile Computation in Sensor Networks</strong><br />
+    Zengfeng Huang, ; Lu Wang, ; Ke Yi*, HKUST; Yunhao Liu, <br />
+   <br />
+   <strong>
+    Leveraging Query Logs for Schema Mapping Generation in U-MAP</strong><br />
+    Hazem Elmeleegy*, Purdue University; Ahmed Elmagarmid, Qatar Computing Research Institute; Jaewoo Lee, Purdue University<br />
+   <br />
+   <strong>
+    Differentially Private Data Cubes: Optimizing Noise Sources and Consistency</strong><br />
+    Bolin Ding*, UIUC; Marianne Winslett, University of Illinois; Jiawei Han, UIUC; Zhenhui Li, UIUC<br />
+   <br />
+   <strong>
+    Finding Shortest Path on Land Surface</strong><br />
+    Lian Liu, HKUST; Raymond Chi-Wing Wong*, The Hong Kong University of Sc<br />
+   <br />
+   <strong>
+    Skyline Query Processing over Joins</strong><br />
+    Akrivi Vlachou*, NTNU; Christos Doulkeridis, NTNU; Neoklis Polyzotis, University of California, Santa Cruz<br />
+   <br />
+   <strong>
+    iReduct: Differential Privacy with Reduced Relative Errors</strong><br />
+    Xiaokui Xiao*, Nanyang Technological Univ; Gabriel Bender, Cornell University; Michael Hay, Cornell University; Johannes Gehrke, <br />
+   <br />
+   <strong>
+    Workload-Aware Database Monitoring and Consolidation</strong><br />
+    Carlo Curino*, Mit; Evan Jones, MIT; Sam Madden, MIT; Hari Balakrishnan, MIT<br />
+   <br />
+   <strong>
+    Finding Semantics in Time Series</strong><br />
+    Peng Wang*, Fudan University; Haixun Wang, ; Wei Wang, Fudan University<br />
+   <br />
+   <strong>
+    Attribute Domain Discovery for Hidden Web Databases</strong><br />
+    Xin Jin, The George Washington University; Nan Zhang*, The George Washington University; Gautam Das, University of Texas at Arlington<br />
+   <br />
+   <strong>
+    Collective Spatial Keyword Querying</strong><br />
+    Xin Cao*, Singapore NTU; Gao Cong, Nanyang Technological University; Christian Jensen, Aarhus University; Beng Chin Ooi, National University of Singapore<br />
+   <br />
+   <strong>
+    Nearest Keyword Search in XML Documents</strong><br />
+    Yufei Tao*, Chinese Univ. of Hong Kong; Stavros  Papadopoulos, Chinese Univ. of Hong Kong; Cheng Sheng, The Chinese University of Hong Kong; Kostas  Stefanidis, Chinese Univ. of Hong Kong<br />
+   <br />
+   <strong>
+    Sensitivity Analysis and Explanations for Robust Query Evaluation in Probabilistic Databases</strong><br />
+    Bhargav Kanagal*, University of Maryland; Jian Li, University of Maryland, College Park; Amol Deshpande, &quot;University of Maryland, College Park&quot;<br />
+   <br />
+   <strong>
+    Joint Unsupervised Structure Discovery and Information Extraction</strong><br />
+    Eli Custodio Vilarinho*, Federal University of Amazonas; Altigran da Silva, Federal University of Amazonas; Daniel Oliveira, Federal University of Amazonas; Edleno de Moura, Federal University of Amazonas; Alberto Laender, Federal University of Minas Gerais<br />
+   <br />
+   <strong>
+    Advancing Data Clustering via Projective Clustering Ensembles</strong><br />
+    Carlotta Domeniconi, George Mason University; Francesco Gullo*, DEIS, University of Calabria; Andrea Tagarelli, DEIS, University of Calabria<br />
+   <br />
+   <strong>
+    A Platform for Scalable One-pass Analytics using MapReduce</strong><br />
+    Boduo Li*, UMass Amherst; Edward Mazur, UMass Amherst; Yanlei Diao, &quot;University of Massachusetts, Amherst&quot;; Andrew McGregor, UMass Amherst; Prashant Shenoy, UMass Amherst<br />
+   <br />
+   <strong>
+    Scalable Query Rewriting: A Graph-Based Approach</strong><br />
+    George Konstantinidis*, ISI/USC; Jos&eacute; Luis Ambite, ISI/USC<br />
+   <br />
+   <strong>
+    Predicting cost amortization for query services</strong><br />
+    Verena Kantere*, Cyprus University of Technology; Debabrata Dash, ArcSight, an HP Company; Georgios Gratsias, ELCA Informatique SA; Anastasia Ailamaki, EPFL<br />
+   <br />
+   <strong>
+    More efficient Datalog queries: Subsumptive tabling beats magic sets</strong><br />
+    K. Tuncay Tekle*, SUNY Stony Brook; Yanhong A. Liu, SUNY Stony Brook<br />
+   <br />
+
+</p>
+
+
+
+<!--endMainContent --> 
+</div>		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+#myStyle {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+
+}
+</style>
+
+
+<!-- footer -->
+<div id="footer"><a href="http://www.imis.athena-innovation.gr/index.php?lang=en" target="_blank"><img src="images/bottom_logos_2011.gif" alt="Institute for the Management of Information Systems, Athens, Greece" width="742" height="96" /></a></div>
+</div>
+<!-- end of wrap -->
+
+
+<div id="credits"><a href="about.shtml">Credits</a></div>
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

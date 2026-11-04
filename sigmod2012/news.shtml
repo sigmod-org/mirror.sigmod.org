@@ -1,0 +1,638 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://www.sigmod2011.org/news.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>The 2012 ACM SIGMOD/PODS Conference: Scottsdale, Arizona, USA - News and Site Updates</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/az/caves1.png'
+
+theImages[1] = 'images/az/landscape2.png'
+
+theImages[2] = 'images/az/landscape3.png'
+
+theImages[3] = 'images/az/landscape6.png'
+
+theImages[4] = 'images/az/cactus.JPG'
+
+theImages[5] = 'images/az/cactus2.JPG'
+
+theImages[6] = 'images/az/wall.JPG'
+
+theImages[7] = 'images/az/pool.jpg'
+
+theImages[8] = 'images/az/golf.jpg'
+
+theImages[9] = 'images/az/sedona.jpg'
+
+theImages[10] = 'images/az/sedona3.jpg'
+
+
+theImageDescriptions[0] = 'Antelope Canyon'
+
+theImageDescriptions[1] = 'Sonoran Desert'
+
+theImageDescriptions[2] = 'Grand Canyon'
+
+theImageDescriptions[3] = 'Grand Canyon'
+
+theImageDescriptions[4] = 'Desert Botanical Garden'
+
+theImageDescriptions[5] = 'Saguaro National Park'
+
+theImageDescriptions[6] = 'Superstition Mountains'
+
+theImageDescriptions[7] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[8] = 'Hyatt Regency Scottsdale Resort and Spa at Gainey Ranch'
+
+theImageDescriptions[9] = 'Sedona'
+
+theImageDescriptions[10] = 'Sedona'
+
+
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Antelope_Canyon'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Sonoran_Desert'
+
+theImageURLs[2] = 'http://www.nps.gov/grca/index.htm'
+
+theImageURLs[3] = 'http://en.wikipedia.org/wiki/Grand_Canyon'
+
+theImageURLs[4] = 'http://www.dbg.org/'
+
+theImageURLs[5] = 'http://www.nps.gov/sagu/index.htm'
+
+theImageURLs[6] = 'http://en.wikipedia.org/wiki/Superstition_Mountains'
+
+theImageURLs[7] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp'
+
+theImageURLs[8] = 'http://www.scottsdale.hyatt.com/hyatt/hotels/activities/index.jsp'
+
+theImageURLs[9] = 'http://www.visitsedona.com/'
+
+theImageURLs[10] = 'http://www.gatewaytosedona.com/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, May 20-24, 2012, Scottsdale, Arizona, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+	
+
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_az.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+	
+	
+<div id="wrap">
+			
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+  <li><a href="docs/booklet-SIGMOD2012-final.pdf" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+  <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <li><a href="org_sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="stream.shtml" title="Students" target="_blank">Web Streaming and Social Media</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="accommodation.shtml" title="Accommodations">Accommodations</a></li>
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+      <!-- <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>-->
+
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li>
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+<li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+<li><a href="program_pods.shtml" title="Program">Program</a></li>
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+<!--<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>-->
+
+<li><a href="pods_invited.shtml#keynote" title="Keynote: Chaudhuri">
+Keynote: Surajit Chaudhuri (Microsoft Research)</a></li>
+ <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 2: Benjamin Pierce">Tutorial 1: Benjamin Pierce (University of Pennsylvania)</a></li>
+<li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 1: Michael Mahoney">Tutorial 2: Michael Mahoney
+  (Stanford University)</a></li>
+  <li><a href="awards_pods.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><p>Keynote 1:
+       <!-- "http://graphics.stanford.edu/~hanrahan/"--> 
+      <a href="keynote_1.shtml" 
+      title="Pat Hanrahan">Pat Hanrahan 
+      (Stanford University and Tableau Software)</a></p></li>
+  <li><p>Keynote 2:
+      <!--"http://cseweb.ucsd.edu/~vahdat/"-->
+      <a href="keynote_2.shtml"
+       title="Amin Vahdat">Amin Vahdat 
+       (University of California, San Diego and Google)</a></p></li>
+
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="sigmod_industrial_presentations.shtml"
+  title="Industrial Presentations">Industrial Presentations</a></li>
+    <li><a href="awards_sigmod.shtml">Awards</a></li>
+</ul>
+
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+
+<!-- don't need this stuff right now.  SELCUK
+<li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+<li><a href="ugposter_list.shtml" title="Undergraduate Posters">Undergraduate Posters</a></li>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+
+      <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+
+</ul>
+
+
+
+-->
+
+
+</div>
+
+
+
+
+			
+<div id="maincontent">
+  
+				  <h1>News and Site Updates</h1>
+  <!--
+  ref:
+  http://twitter.com/about/resources/widgets/widget_profile
+  -->
+ 
+<p>
+  <ul>
+  <li>May 16, 2012: During ACM SIGMOD/PODS 2012, we will use the social network hosted at the Hive Open Research Network <A style="color: #CC6600; text-decoration: none;" HREF="http://hive.asu.edu/sigmod12/">http://hive.asu.edu/sigmod12/</A> and its mobile apps for general communication and interactions.
+  <li>May 11, 2012: <A style="color: #CC6600; text-decoration: none;" HREF="http://www.sigmod.org/2012/stream.shtml">Information about the video streaming schedule</A> is now available. </li>
+      <li>May 2, 2012:
+  <a style="color: #CC6600; text-decoration: none;"
+    href="docs/booklet-SIGMOD2012-final.pdf"> PDF version of the program booklet </a> is now available.
+     <li>May 2, 2012: We invite the workshop authors who have
+    registered to the SIGMOD/PODS conference to present their works at
+    the new "SIGMOD Plenary Poster Session for Workshop Papers".  To
+    help with the planning, workshop authors who plan to present their
+    works at this event are invited to confirm their participation at
+    the <a style="color: #CC6600; text-decoration: none;"
+    href="https://www.surveymonkey.com/s/SIGMOD_Plenary_Session">
+    workshop authors survey site</a>, by May 8th.
+  </li>
+    <li>April 25, 2012: The schedule at a glance for SIGMOD/PODS 2012
+  is available at  <a style="color: rgb(204, 102, 0); text-decoration: none;"
+href="http://www.sigmod.org/2012/schedglance.shtml">http://www.sigmod.org/2012/schedglance.shtml</a>.
+    <li>April 25, 2012: The PODS program is available at
+    <a style="color: rgb(204, 102, 0); text-decoration: none;"
+href="http://www.sigmod.org/2012/program_pods.shtml">http://www.sigmod.org/2012/program_pods.shtml</a>.
+
+    <li>April 25, 2012: The SIGMOD program is available at
+    <a style="color: rgb(204, 102, 0); text-decoration: none;"
+href="http://www.sigmod.org/2012/program_sigmod.shtml">http://www.sigmod.org/2012/program_sigmod.shtml</a>.
+    <li>April 21, 2012: The Hyatt Regency is now booked close to its limit and the availability of
+the rooms fluctuate from day to day. For those of attendees who are having
+difficulty reserving rooms at Hyatt, we have made an arrangement with the
+<a style="color: rgb(204, 102, 0); text-decoration: none;"
+href="http://www.gaineysuiteshotel.com"> Gainey Suites Hotel</a>
+(at a 10 minute walking distance). To reserve a room at
+the Gainey Suites, please call (480) 922-6969 or (800) 970-4666 and give the
+code “SIGMOD/PODS 2012. </li>
+    <li>April 20, 2012: <B>IMPORTANT NOTE</B> - Paper assignments to the Plenary Poster Sessions have
+  been revised. Please check the revised program for the new assignments.
+    <li>April 20, 2012: A new FAQ page for sponsors, exhibitors, and
+  publishers is now available. </li>
+	<li>April 19, 2012: In response to requests from several workshops, early registration deadline is extended to <B>April 23rd (Monday) evening</B>.
+	<li> April 19, 2012: The room block at the conference hotel is about to be <B>sold out</B>. We are working
+on increasing the block size. We will give more information about this shortly.
+    <li> April 11, 2012: The workshops program is available at  
+     <a  style="color: rgb(204, 102, 0); text-decoration:
+   none;" href="http://www.sigmod.org/2012/workshop_program.shtml">
+    http://www.sigmod.org/2012/workshop_program.shtml</a>.
+    <li> April 7, 2012: We set up a new <a  style="color: rgb(204, 102, 0); text-decoration:
+   none;" href="http://www.facebook.com/SIGMOD.PODS.2012">
+   ACM SIGMOD/PODS 2012 Facebook community page </a>  to hear your
+   ideas and suggestions as we are getting ready for the
+   conference.
+
+    <li> April 7, 2012: You can use our new <a  style="color: rgb(204, 102, 0);
+   text-decoration: none;" href="http://www.facebook.com/SIGMOD.PODS.2012">
+   Facebook community page</a> for finding roommates for sharing hotel
+   accommodations.
+
+   <li> April 7, 2012: The transportation information for SIGMOD/PODS
+  2012 is available at
+    <a style="color: #CC6600; text-decoration:
+  none;" href="transportation.shtml">http://www.sigmod.org/2012/transportation.shtml</a>.
+    <li> April 6, 2012: SIGMOD and PODS preliminary programs are now
+  available.  
+  <li> April 5, 2012: The early registration date for the conference is <b>April 19, 2012</b>.
+  <li> March 30, 2012: Reminder: the cutoff date for the reduced-cost
+  hotel room reservations is <b>April 19, 2012</b>.
+  Reservation requests after that date will be honored subject to room
+  availability.
+  <li>March 28, 2012:  <a style="color: #CC6600; text-decoration:
+  none;" href="faqs.shtml">FAQ</a> is available.</li>
+
+  <li> March 15, 2012: The registration site for SIGMOD/PODS 2012 is
+  now online. To register, visit <a style="color: #CC6600; text-decoration:
+  none;" href="http://regonline.com/sigmod2012">http://regonline.com/sigmod2012</a>.
+  <li> March 6, 2012: Do you have a paper at SIGMOD 2012? Do you want the
+  official "Reproducible/Sharable" labels? See
+    <a style="color: #CC6600; text-decoration: none;"
+  href="reproducibility.shtml">http://www.sigmod.org/2012/reproducibility.shtml</a>.
+  <li> March 6, 2012: SIGMOD 2012 student travel scholarships announced. To apply, visit
+  <a style="color: #CC6600; text-decoration: none;"
+  href="grants3.shtml">http://www.sigmod.org/2012/grants3.shtml</a>.
+   <li>March 2, 2012: Hotel reservation site for SIGMOD/PODS 2012 is now online! Check
+  out 
+  <a style="color: #CC6600; text-decoration: none;"
+  href="accommodation.shtml">http://www.sigmod.org/2012/accommodation.shtml</a>.
+  <li> March 2, 2012:
+    Lists of accepted SIGMOD 2012 demonstrations (see <a style="color: #CC6600; text-decoration: none;"
+  href="demo_list.shtml">http://www.sigmod.org/2012/demo_list.shtml</a>)
+    and tutorials (see <a style="color: #CC6600; text-decoration: none;"
+  href="tut_list.shtml">http://www.sigmod.org/2012/tut_list.shtml</a>) are published.
+    <li>The ACM SIGMOD/PODS Conference 2012 will be held in the city
+  of Scottsdale, Arizona, USA on May 20-24, 2012. See <a style="color:
+  #CC6600; text-decoration: none;"
+  href="http://www.sigmod.org/2012/">http://www.sigmod.org/2012/</a>.</li>
+
+  <!--
+  <li> SIGMOD 2012 is on tweeter 
+  <a style="color: #CC6600; text-decoration: none;"
+  href="http://twitter.com/#!/sigmod12">SIGMOD 2012</a>
+  or <a style="color: #CC6600; text-decoration: none;"
+  href="http://twitter.com/#!/acmsigmod2012">ACM SIGMOD 2012</a>
+    -->
+
+</ul>
+
+
+<!-- BELOW not useful -------------->
+  <!--
+  <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 420,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: 'rgb(204, 102, 0)'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('sigmod12').start();
+</script>
+
+  <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 420,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('acmsigmod2012').start();
+</script> -->
+
+</div>
+<!--endMainContent --> 
+		
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+
+
+
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+      <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118"><div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div></td>
+            <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+	    <img src="images/bottom_logos_2012b.jpg" />
+<!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        -->
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress: 
+<a href="http://www.facebook.com/SIGMOD.PODS.2012 " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="http://profile.ak.fbcdn.net/hprofile-ak-snc4/174597_20531316728_2866555_n.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+  
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+var pageTracker = _gat._getTracker("UA-4368942-1");
+
+pageTracker._initData();
+
+pageTracker._trackPageview();
+
+</script>
+
+Ignore.  What is this?  WGY060809 -->
+
+
+
+</div></body></html>

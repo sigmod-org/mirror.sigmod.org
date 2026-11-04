@@ -1,0 +1,538 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://www.sigmod2011.org/news.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>The 2013 ACM SIGMOD/PODS Conference: New York, New York, USA - SIGMOD Keynote 2</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+        text-align: right;
+        clear: both;
+        margin-top: 20px;
+}
+</style>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+        text-align: right;
+        clear: both;
+        margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/ny/skyline.png'
+
+theImages[1] = 'images/ny/skyline_bw.jpg'
+
+theImages[2] = 'images/ny/sunset.jpg'
+
+theImageDescriptions[0] = 'NYC Skyline'
+
+theImageDescriptions[1] = 'NYC Skyline'
+
+theImageDescriptions[2] = 'NYC Building at Sunset'
+
+theImageURLs[0] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[1] = 'http://en.wikipedia.org/wiki/Architecture_of_New_York_City'
+
+theImageURLs[2] = 'http://en.wikipedia.org/wiki/New_York_City'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+
+
+
+
+document.write('<img src="images/imagefooter.jpg" alt="ACM SIGMOD/PODS, June 22-27, 2012, New York, New York, USA" width="742" height="30" />');
+
+
+
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+
+</head>
+  <body>
+    
+
+	
+	<div id="logoACMSIGMOD"><a href="index.shtml"><img src="images/logo_sigmod_city_ny.gif" alt="ACM SIGMOD City, Country, Year" width="270" height="65" /></a></div>
+<!--endlogoNeil -->
+	<div id="linksHomeContact"><img src="images/logo_sigmod_pods_top.gif" alt="sigmod pods logo" width="100" height="65" /></div>
+	<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+    <div id="wrap">
+      <!-- the ssi code needs to stay here - do not delete or move -->
+      <div id="sidebar">
+
+			  <h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+
+  <li><a href="news.shtml" title="News and Site Updates">News</a></li>
+<li><a href="http://www.regonline.com/2013sigmodpods"><b>Registration</b></a></li>
+<!--
+  <li><a href="faqs.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="faqs_sponsor_exhibitor.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a>
+-->  
+</ul>
+
+<h3 class="navheading">Organization</h3>
+
+<ul class="navbar">
+
+  <li><a href="org_conference_officers.shtml" title="Conference Officers">Conference Officers</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="org_pods_pc1.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+
+<!--
+
+
+  <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a>
+  
+  <li><a href="exhibitors.shtml" title="Exhibits">Industrial Exhibits</a></li>
+ 
+  <li><a href="org_sponsors.shtml" title="Sponsors">Sponsors/Supporters</a></li>
+-->
+</ul>
+
+<h3>Links</h3>
+
+<ul class="navbar">
+    <li><a href="affiliated_workshops.shtml" title="Workshops">Affiliated Workshops</a></li>
+    <li><a href="accommodation.shtml" title="Travel and Accommodations">Travel and Accommodations</a></li>
+    <li><a href="docs/local_info.pdf" title="Local Information">Explore NYC</a></li>
+<!--
+    <li><a href="http://regonline.com/sigmod2012"
+    title="Registration">Registration</a></li>
+    <li><a href="students.shtml" title="Students" target="_blank">For Students</a></li>
+    <li><a href="transportation.shtml" title="Transportation">Transportation</a></li>
+    <li><a href="explore.shtml" title="Explore Arizona">Explore Arizona</a></li>
+    <li><a href="http://www.scottsdalecvb.com/" title="Visitor Information">Visit Scottsdale</a></li>
+
+       <li><a
+      href="http://www.scottsdale.hyatt.com/hyatt/hotels/index.jsp"
+      title="Conference Venue">Conference Venue</a></li>
+-->
+      <li><a href="visa.shtml" title="Visa">Visa Information</a></li> 
+      <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+      <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+</ul>
+</div>
+
+
+      <!-- the ssi code needs to stay here - do not delete move -->
+      <div id="sidebarRight">
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+  <ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important
+  Dates and Submission">Important Dates</a></li>
+  <li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</a></li>
+  <!-- <li><a href="guidelines.shtml" title="SIGMOD Submission Guidelines">SIGMOD Submission Guidelines</a></li>
+  <li><a href="guidelines-pods.shtml" title="PODS Submission Guidelines">PODS Submission Guidelines</a></li>
+  <li><a href="camera-ready.shtml" title="Camera Ready Instructions"<b>Camera Ready Instructions</b></a></li> -->
+  </ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_pods.shtml" title="Program">Program</a></li>
+  <li><a href="pods_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="pods_invited.shtml#keynote" title="Pods Keynote">
+  Keynote: Diego Calvanese (Free University of Bozen-Bolzano)</a></li>
+  <li><a href="pods_invited.shtml#tutorial1"
+  title="Tutorial 1: Piotr Indyk">Tutorial 1: Piotr Indyk (MIT)</a></li> 
+  <li><a href="pods_invited.shtml#tutorial2"
+  title="Tutorial 2: Pablo Barcel&oacute;">Tutorial 2: Pablo Barcel&oacute; (University of Chile)</a></li>
+</ul>
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+<!--
+  <li><a href="docs/sigmod-pods-schedule.pdf" title="Program">Program</a></li>
+  <li><p>Keynote 1: 
+      </p></li>
+  <li><p>Keynote 2: 
+  </p>
+  </li>
+-->
+  <li><a href="schedglance.shtml" title="Schedule at a Glance">Schedule at a Glance</a></li>
+  <li><a href="program_sigmod.shtml" title="Program">Program</a></li>
+  <li><a href="keynote_1.shtml">Keynote 1: Alex Nazaruk &amp Michael Rauchman (Middle Lake Partners, LLC)</a> 
+      </li>
+  <li><a href="keynote_2.shtml">Keynote 2: Paul Yaron (J. P. Morgan Chase)</a></li>
+  <li><a href="sigmod_panel.shtml" title="Sigmod Panel">Sigmod Panel</a></li>
+  <li><a href="research_list.shtml" title="Research Papers">Research Papers</a></li>
+  <li><a href="demo_list.shtml" title="Demonstrations ">Demonstrations </a></li>
+  <li><a href="tut_list.shtml" title="Tutorials">Tutorials</a></li>
+  <li><a href="ind_list.shtml" title="Industrial Presentations">Industrial Presentations</a></li>
+</ul>
+
+<h3 class="navheading"><a href="http://confer.csail.mit.edu/" title="Confer: Conference Scheduling">Confer: Conference Scheduling</a></h3>
+</div>
+
+
+      <div id="maincontent">
+        <h1>PODS Invited Talks</h1>
+        <a name="keynote"></a>
+        <h2>Keynote</h2>
+        <h3>Foundations of Data Aware Process Analysis: A Database
+          Theory Perspective</h3>
+        <p>Diego Calvanese, Free University of Bozen-Bolzano (with
+          Giuseppe De Giacomo, Sapienza University of Rome; Marco
+          Montali, Free University of Bozen-Bolzano)</p>
+        <h3>Abstract</h3>
+        <p> We recall the research on foundations of data-aware
+          (business) processes that has been carried out in the database
+          theory community in the last three decades.&nbsp; We show that
+          this community has indeed developed over the years a
+          multi-faceted culture of combining static and dynamic aspects
+          of data management, which has recently culminated in a series
+          of significant lines of research addressing the foundations of
+          data-aware process analysis.&nbsp; We argue that it is this
+          community that should pursue further the investigation of the
+          fundamental issues underlying the dichotomy between data and
+          processes, which still persists in business process
+          management, and calls for a unifying, well-founded framework.<br>
+        </p>
+        <h3>Bio</h3>
+        <p> <img src="images/pods_keynote1_diego.png" width="50px" hspace="6" align="left"> 
+          <b>Diego Calvanese</b> is an associate professor at the
+          KRDB Research Centre for Knowledge and Data, Free University
+          of Bozen-Bolzano, Italy. His research spans from Knowledge
+          Representation in AI to Database theory, where he gave
+          significant contributions on foundational issues in the
+          management of data and knowledge. Specifically, he
+          investigated reasoning and query answering in expressive and
+          lightweight description logics, ontology based data access and
+          integration, conceptual data modeling, view-based query
+          processing over graph databases, service modeling and
+          synthesis, and more recently data-aware process verification.
+          He is actively involved in several national and European
+          research projects in the above areas, and he is the author of
+          more than 200 refereed publications, including ones in the
+          most prestigious journals and conferences in Databases and
+          Artificial Intelligence. He is currently a visiting researcher
+          at the Technical University of Vienna as Pauli Fellow of the
+          "Wolfgang Pauli Institute". </p>
+        <a name="panel"></a>
+        <h2>Panel</h2>
+        <h3>SIGMOD Panel: We are Drowning in a Sea of Least Publishable
+          Units (LPUs)</h3>
+        <p>Michael Stonebraker, Professor, MIT; David DeWitt, Technical
+          Fellow, Microsoft; Jeff Naughton, Professor, Univ. of
+          Wisconsin; Ihab Ilyas, Principal Scientist, QCRI and Associate
+          Professor, Univ. of Waterloo</p>
+        <h3>Abstract</h3>
+        <p> Our field is drowning in a sea of conference
+          submissions.&nbsp; We assert that the sheer number of papers
+          has begun to seriously hurt the quality of the work that the
+          field is doing and that the field is going to implode unless
+          we take action to remedy the situation. In order to improve
+          the quality of the papers being published we must reduce the
+          number being submitted. This will require a change in the
+          culture of our field where "more" is being equated to “better”
+          by both hiring and promotion committees. In this panel we will
+          explore some ideas for correcting the situation.<br>
+        </p>
+        <h3>Bios</h3>
+        <p><img src="images/sigmod_panel_dr.png" width="50px" hspace="6" align="left"> <b>Dr. Stonebraker </b>has been a pioneer of data base
+          research and technology for more than a quarter of a
+          century.&nbsp; He was the main architect of the INGRES
+          relational DBMS, and the object-relational DBMS,
+          POSTGRES.&nbsp; These prototypes were developed at the
+          University of California at Berkeley where Stonebraker was a
+          Professor of Computer Science for twenty five years.&nbsp;
+          More recently at M.I.T. he was a co-architect of the
+          Aurora/Borealis stream processing engine, the C-Store
+          column-oriented DBMS, and the H-Store transaction processing
+          engine.&nbsp;&nbsp; Currently, he is working on
+          science-oriented DBMSs, OLTP DBMSs, and scalable data
+          curation.&nbsp; He is the founder of five venture-capital
+          backed startups, which commercialized his prototypes.&nbsp;
+          Presently he serves as Chief Technology Officer of VoltDB and
+          Paradigm4, Inc.<br>
+          Professor Stonebraker is the author of scores of research
+          papers on data base technology, operating systems and the
+          architecture of system software services.&nbsp; He was awarded
+          the ACM System Software Award in 1992, for his work on
+          INGRES.&nbsp; Additionally, he was awarded the first annual
+          Innovation award by the ACM SIGMOD special interest group in
+          1994, and was elected to the National Academy of Engineering
+          in 1997.&nbsp; He was awarded the IEEE John Von Neumann award
+          in 2005, and is presently an Adjunct Professor of Computer
+          Science at M.I.T, where he is co-director of the new Intel
+          Science and Technology Center focused on big data.<br>
+        </p>
+        <p><img src="images/sigmod_panel_david.png" width="50px" hspace="6" align="left"><b>David DeWitt</b> was a faculty member in the Computer
+          Sciences Department at the University of Wisconsin-Madison
+          from 1976 until he joined Microsoft as a Technical Fellow in
+          March 2008.&nbsp;&nbsp; He served as department chair from
+          1999 to 2004.&nbsp;&nbsp; Dr. DeWitt is a member of the
+          National Academy of Engineering and a Fellow of the American
+          Academy of Arts and Sciences.&nbsp;&nbsp; His pioneering
+          contributions to the field of parallel database systems were
+          recognized by ACM with the 2009 Software Systems
+          award.&nbsp;&nbsp; Currently, he manages the Jim Gray Systems
+          Laboratory in Madison for Microsoft.<br>
+        </p>
+        <p><img src="images/sigmod_panel_jeff.png" width="50px" hspace="6" align="left"><b>Jeff Naughton</b> is John P. Morgridge Professor and Chair
+          of the Computer Sciences Department at the University of
+          Wisconsin-Madison. He received the National Science Foundation
+          Presidential Young Investigator Award, is an ACM Fellow, and
+          was a member of the GAMMA team that received the 2008 ACM
+          Software Systems Award. Professor Naughton has served as an
+          adviser or consultant to companies including Greenplum,
+          Microsoft, NEC, and Teradata.<br>
+        </p>
+        <p><img src="images/sigmod_panel_ihab.png" width="50px" hspace="6" align="left"><b>Ihab Ilyas</b> is a principal scientist at the Qatar
+          Computing Research Institute and an associate professor of
+          computer science at the University of Waterloo. He received
+          his PhD in computer science from Purdue University, West
+          Lafayette and his BSc and MSc in computer science from the
+          University of Alexandria. His main research is in the area of
+          database systems, with special interest in rank-aware query
+          processing, data quality, managing uncertain data, and
+          Information extraction. Ihab is an IBM CAS faculty fellow
+          since January 2006, a recipient of the Ontario Early
+          Researcher Award in 2008, and recently a co-founder of Data
+          Tamer, a new startup focusing on large scale data integration
+          and cleaning. <br>
+        </p>
+        <a name="tutorial1"></a>
+        <h2>Invited Tutorial 1</h2>
+        <h3>Sketching via Hashing: from Heavy Hitters to Compressed
+          Sensing to Sparse Fourier Transform</h3>
+        <p>Piotr Indyk, MIT</p>
+        <h3>Abstract</h3>
+        <p> Sketching via hashing is a popular and useful method for
+          processing large data sets. It has found applications for
+          diverse computational problems such as data stream algorithms,
+          compressive sensing, numerical linear algebra and sparse
+          Fourier transform. In this talk I will give an overview of the
+          method and its applications to the aforementioned areas.</p>
+        <h3>Bio</h3>
+        <p><img src="images/pods_tutorial1_piotr.png" width="50px" hspace="6" align="left"> <strong>Piotr Indyk </strong>is a Professor of Electrical
+          Engineering and Computer Science at MIT. He joined MIT in
+          2000, after earning PhD from Stanford University. Earlier, he
+          received Magister degree from Uniwersytet Warszawski in 1995.
+          Piotr's research interests lie in the design and analysis of
+          efficient algorithms. Specific interests include:
+          high-dimensional computational geometry, sketching and
+          streaming algorithms, sparse recovery and compressive sensing.
+          He has received the Sloan Fellowship (2003), the Packard
+          Fellowship (2003) and the MIT Faculty Research Innovation
+          Fellowship (2012). His work on sparse Fourier sampling has
+          been named to Technology Review "TR10" in 2012; his work on
+          locality-sensitive hashing has received the 2012 Kanellakis
+          Theory and Practice Award. He is an Associate Editor for the
+          IEEE Transactions on Signal Processing and SIAM Journal on
+          Computing.</p>
+        <a name="tutorial2"></a>
+        <h2>Invited Tutorial 2</h2>
+        <h3>Querying Graph Databases</h3>
+        <p>Pablo Barcel&oacute;, University of Chile</p>
+        <h3>Abstract</h3>
+        <p> Graph databases have gained renewed interest in the last
+          years, due to their applications in areas such as the Semantic
+          Web and Social Networks Analysis. We study the problem of
+          querying graph databases, and, in particular, the
+          expressiveness and complexity of evaluation for several
+          general-purpose navigational query languages, such as the
+          regular path queries and its extensions with conjunctions and
+          inverses. We distinguish between two semantics for these
+          languages. The first one, based on simple paths, easily leads
+          to intractability in data complexity, while the second one,
+          based on arbitrary paths, allows tractable evaluation for an
+          expressive family of languages. We also study two recent
+          extensions of these languages that have been motivated by
+          modern applications of graph databases. The first one allows
+          to treat paths as first-class citizens, while the second one
+          permits to express queries that combine the topology of the
+          graph with its underlying data.<br>
+        </p>
+        <h3>Bio</h3>
+        <p><img src="images/pods_tutorial2_pablo.png" width="50px" hspace="6" align="left"> <b>Pablo Barcel&oacute;</b> is an Assistant Professor in the
+          Department of Computer Science at the University of Chile. He
+          received his PhD from the University of Toronto in 2006. His
+          main research interest are in the areas of databases and logic
+          in computer science. He has written over 15 technical papers
+          and served on the program committees of the major database
+          conferences (ACM PODS,ICDT).</p>
+        <!--endMainContent --> </div>
+      <!-- footer -->
+      <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+
+	clear: both;
+
+	margin-top: 20px;
+
+
+
+	color: #866B64;
+
+	font-size: 0.7em;
+
+	width: 160px;
+
+	padding: 25px 0 25px 0;
+
+	margin: 0;
+
+
+
+}
+
+</style>
+    <!-- footer -->
+    <title></title>
+  </head>
+  <body>
+    <div id="footer"> <img src="images/bottom_logos_2012a.png">
+      <table border="0" width="740">
+        <tbody>
+          <tr>
+            <td width="138">
+              <div align="center"><img src="images/sigmod-logo.png"
+                  alt="" hspace="10" vspace="10" width="80"></div>
+            </td>
+            <!-- <td width="61"><a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a></td> -->
+            <td width="465">&nbsp;</td>
+            <td width="155"><a href="http://www.acm.org"><img
+                  src="images/acm.png" alt="ACM"
+                  longdesc="http://www.acm.org" width="160"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="images/bottom_logos_2012b.jpg">
+      <!--
+	    <p>&nbsp;</p>
+	    <p><a href="http://www.asu.edu/" target="_blank"><img src="images/bottom_logos_2012.gif" alt="Arizona State University and University of Arizona" width="742" height="96" /></a></p>
+        --> </div>
+    <!-- end of wrap -->
+    <p> </p>
+    <div id="credits"> <a href="about.shtml">Credits</a>
+      <table align="center">
+        <tbody>
+          <tr>
+          </tr>
+          <tr valign="center">
+            <td>Follow us:</td>
+            <td><a href="https://www.facebook.com/AcmSigmod2013"><img
+                  src="images/facebook-icon.png"></a></td>
+            <td> <a href="http://twitter.com/acmsigmod2013"><img
+                  src="images/twitter-icon.png"></a></td>
+            <td> <a
+                href="https://plus.google.com/u/0/communities/102395415671629698034"><img
+                  src="images/google-plus.gif" height="35" width="35"></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+ </div>
+  </body>
+</html>
