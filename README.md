@@ -1,11 +1,11 @@
-# sigmod-past-conf
+# mirror.sigmod.org
 
 Archived copies of past ACM SIGMOD/PODS conference websites, kept so they stay
 online after the conference sites themselves go away. The SIGMOD/PODS
 conferences page on [www.sigmod.org](https://www.sigmod.org/conferences/) links
 to these copies ("Local Mirror").
 
-Published on GitHub Pages at https://sigmod-org.github.io/sigmod-past-conf/.
+Published on GitHub Pages at https://sigmod-org.github.io/mirror.sigmod.org/.
 
 ## Layout
 
