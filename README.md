@@ -6,8 +6,8 @@ conferences page on [www.sigmod.org](https://www.sigmod.org/conferences/) links
 to these copies ("Local Mirror").
 
 Published on GitHub Pages at https://mirror.sigmod.org/ (custom domain set by the `CNAME`
-file, HTTPS enforced). Old addresses on www.sigmod.org (`/publications/pastconf/sigmodYYYY/…`,
-`/2012/…`, `/2013/…`) are forwarded here by the www.sigmod.org 404 page.
+file, HTTPS enforced). Old addresses on www.sigmod.org (`/publications/pastconf/sigmodYYYY/…`)
+are forwarded here by the www.sigmod.org 404 page.
 
 ## Layout
 
