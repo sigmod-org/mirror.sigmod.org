@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2021 ACM SIGMOD/PODS Conference: Xi'an, Shaanxi, China - SIGMOD Panel</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/Shaanxi/Daming-palace.jpg'
+
+theImages[1] = 'images/Shaanxi/Zhong Gu Lou.jpg'
+
+theImages[2] = 'images/Shaanxi/Terracotta1.jpg'
+
+//theImages[3] = 'images/Shaanxi/JapaneseGarden.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Daming Palace'
+
+theImageDescriptions[1] = 'Zhong Gu Lou'
+
+theImageDescriptions[2] = 'Terra Cotta Warriors'
+
+//theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'http://special.sxdaily.com.cn/160628/'
+
+theImageURLs[1] = 'http://special.sxdaily.com.cn/160628/'
+
+theImageURLs[2] = 'http://special.sxdaily.com.cn/160628/'
+
+//theImageURLs[3] = 'http://special.sxdaily.com.cn/160628/'
+
+//theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+document.write('<link href="sigmod_css.css?v=20201213" rel="stylesheet" type="text/css" media="screen" />')
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write("<img src='images/footer-virtual2.png' alt='XXXX XX - XXXX XX, 2021, Xi'an, Shaanxi, China' width='742'/>");
+document.write("<img src='images/Shaanxi/notice-1.jpg' alt='XXXX XX - XXXX XX, 2021, Xi'an, Shaanxi, China' width='742'/>");
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+<!-- <div id="masthead" style="height:auto"><img src="images/2020-SIGMOD-WebBanner.png" alt="top banner" width="750"/></div> -->
+
+<!-- <div style="font-size:0.8em;text-align:center;color: #485b81;font-weight: bold;"><p style="margin:0">ACM SIGMOD/PODS International Conference on Management of Data&nbsp&nbsp&nbsp&nbsp June 14 - June 19, 2020&nbsp&nbsp&nbsp Portland, OR, USA</p>
+</div> <br> June 14 - June 19, 2020   Portland, OR, USA-->
+
+
+
+<!-- <div id="logoACMSIGMOD" style="margin:0px;height:100px;float:left"><a href="index.shtml">
+<img src="images/Sigmod-Logo.jpg" alt="ACM SIGMOD City, Country, Year" height="100" style="float:left;"/></a>
+</div> -->
+<div id="logoACMSIGMOD2" style="margin:0px;height:100px;float:left"><a href="index.shtml">
+<img src="images/2021sigmod-logo1.jpg" alt="ACM SIGMOD City, Country, Year" height="100" style="float:left";/></a>
+</div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact" style="margin-top: 15px"><img src="sigmod-pods-logo.png" alt="sigmod pods logo" width="150" style="margin: 0px"/></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="http://reproducibility.sigmod.org/" title="Reproducibility">Reproducibility</a></li>
+  <li><a href="calls_papers_inclusion_and_diversity.shtml" title="Inclusion and Diversity">Inclusion and Diversity</font></a></li>
+  <li><a href="http://sigmod2020.org/rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates">&nbsp; News</font></a> </li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="http://reproducibility.sigmod.org/#Committee" title="Reproducibility Committee">SIGMOD RC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_volunteers.shtml" title="SIGMOD Volunteers" target="_blank">Conference Volunteers</a></li>
+   <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="local_events.shtml" title="Local Event">Local Event</font></a></li>
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</font></a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</font></a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</font></a></li>
+  <li><a href="https://dbgroup.ing.unimo.it/sigmod21contest/" title="ProgrammingContest">Programming Contest</font></a></li>
+  <!--<li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</font></a></li>-->
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+  <li><a href="sigmod_online_event_guide.shtml" title="Whova">Whova Instruction</font></a></li>
+  <!-- <li><a href="https://sigmod2021.events.whova.com" title="Whova">Whova Entrance</font></a></li> -->
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+  <!--<li><a href="http://sigmod2020.org/covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>-->
+  <!--<li><a href="http://www.cvent.com/d/yhqjj1" title="Registration"><font color="red">Registration</font></a></li>-->
+	<li><a href="registration.shtml" title="Registration">Registration</font></a></li>
+  <!--<li><a href="grants.shtml" title="Students">Student Travel Award </font></a></li>-->
+	<li><a href="visa.shtml" title="Visa">Visa Information</font></a></li>
+	<li><a href="local_events.shtml" title="Accommodations">Accommodations</font></a></li>
+	<li><a href="local_events.shtml" title="Venue">Conference Venue</font></a></li>
+	<li><a href="transportation.shtml" title="Transportation">Airport & Transportation</font></a></li>
+
+
+	<!--	<li><a href="info-coming-soon" title="Banquet">Banquet</a></li>
+	<li><a href="info-coming-soon.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="info-coming-soon.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <!-- <li><a href="sigmod_online_event_guide.shtml" title="Online Event Guide" style="color: red">Online Event Guide</font></a></li> -->
+ <li><a href="sigmod_conference_planning.shtml" title="Program Overview" style="color: red">Conference Planning</font></a></li>
+ <li><a href="officehour.pdf" title="Office Hour">Office Hour</font></a></li>
+ <li><a href="sigmod_DI_events.shtml" title="D&I-Themed Events">D&I-Themed Events</font></a></li>
+ <li><a href="program/program_overview.shtml" title="Program Overview" >Program Overview</font></a></li>
+ <li><a href="program/program_tuesday.shtml" title="Program">Detailed Program</font></a></li>
+ <li><a href="sigmod_best_papers.shtml" title="">Best Paper Awards</font></a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</font></a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</font></a></li>
+ <li><a href="sigmod_tutorial.shtml" title="Tutorials">Tutorials</font></a></li>
+  <!--<li><a href="sigmod_tutorials.shtml" title="Tutorials"><font color="red">Tutorials</font></a></li>-->
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</font></a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</font></a></li>
+ <li><a href="sigmod_panel.shtml" title="Panel Discussions">Panel Discussions</font></a></li>
+<!-- <li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</font></a></li>
+ <li><a href="info-coming-soon.shtml" title="Special Session">Special Session</font></a></li>-->
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="program/program_overview.shtml" title="Program Overview" >Program Overview</font></a></li>
+<li><a href="program/program_monday.shtml" title="Detailed Program">Detailed Program</font></a></li>
+<!--<li><a href="pods_list.shtml" title="Research Papers"><font color="red">Research Papers</font></a></li>-->
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</font></a></li>
+<!--<li><a href="pods_invited.shtml#keynote" title="Keynote">Keynote Talk</a></li>-->
+<li><a href="pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_tutorial.shtml" title="Invited Tutorials">Invited Tutorials</font></a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</font></a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</font></a></li>
+  <li><a href="calls_papers_sigmod_research.shtml" title="SIGMOD Calls for Submissions">SIGMOD Call for Research Papers</font></a></li>
+  <li><a href="calls_papers_pods_research.shtml" title="PODS Calls for Submissions">PODS Call for Research Papers</font></a></li>
+  <li><a href="calls_industrial_track_papers.shtml" title="SIGMOD Call for Industrial Track Papers">SIGMOD Call for Industrial Track Papers</font></a></li>
+  <li><a href="calls_workshop_proposals.shtml" title="SIGMOD Call for Workshop Proposals">SIGMOD Call for Workshop Proposals</font></a></li>
+  <li><a href="calls_tutorial_proposals.shtml" title="SIGMOD Call for Tutorial Proposals">SIGMOD Call for Tutorial Proposals</font></a></li>
+  <li><a href="calls_demo_proposals.shtml" title="SIGMOD Call for Demonstration Proposals">SIGMOD Call for Demonstration Proposals</font></a></li>
+  <li><a href="calls_panelists.shtml" title="SIGMOD Call for Panel Proposals">SIGMOD Call for Panel Proposals</font></a></li>
+  <!--<li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</font></a></li>-->
+</ul>
+
+
+<br />
+
+<!--<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">-->
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<!--<a class="twitter-timeline" href="https://twitter.com/sigmod2021">Tweets by sigmod2021</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>-->
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+
+<div id="maincontent">
+<h1>SIGMOD 2021: Panel Discussions</h1>
+
+
+
+<a name="panel1"/></a>
+<h3>Automation of Data Prep, ML, and Data Science: New Cure or Snake Oil?</h3>
+<h3>Organizer</h3>
+<p>Arun Kumar (University of California, San Diego)</p>
+<h3>Abstract</h3>
+<p>
+As machine learning (ML), artificial intelligence (AI), and Data Science grow in practical importance, a large part of the ML/AI software industry claims to have built tools and platforms to automate the entire workflow of ML. That includes vexing problems of data preparation (prep), studied intensively by the database (DB) community for decades, with basically no resolution so far. Such claims by the ML/AI industry face a stunning lack of scientific scrutiny from the DB and ML research worlds, largely due to the lack of meaningful, large, and objective benchmarks. As such tools rapidly gain adoption among enterprises and other customers, this panel will debate whether the new ML/AI industry is basically selling "snake oil" to such users, how to evolve away from the status quo by instituting meaningful new benchmarks, creating new partnerships between industry and academia for this, and other pressing questions in this important arena. We aim to spur vigorous conversations that will hopefully lead to genuine new cures for an age-old affliction in Data Science.
+</p>
+
+<h3>Comfired Panelists</h3>
+<ul>
+	<li><strong>Felix Naumann:</strong> He works on prep for file ingestion and has recently surveyed commercial data prep tools. Perspectives from his research and community organization; as PC co-chair for VLDB'21, along with Luna, he introduced the Benchmarks dimension to VLDB’s scope and started the Scalable Data Science Research category.</li>
+	<li><strong>Ihab Ilyas:</strong> He works on logic-based methods and ML methods for data prep and has product experience in enterprise data software. Perspectives from his research and his companies' customers.</li>
+	<li><strong>Joseph Hellerstein:</strong> He works on human-in-the-loop and program synthesis methods for data prep, has worked on platforms for enterprise ML (Apache MADlib), and has product experience in enterprise data software. Perspectives from his research and his company's customers.</li>
+	<li><strong>Sarah Catanzaro:</strong> She invests in and advises high-potential startups in machine intelligence, data management, and distributed systems. She has also defined data strategy and led data science teams at startups and in the defense/intelligence sector. Perspectives bridging the worlds of research and industry, including through investments in data/AI software startups and interactions with their customers.</li>
+	<li><strong>Xin Luna Dong:</strong> She works on ML/deep learning methods for data prep and has product experience in knowledge extraction, integration, cleaning, and mining across both Google and Amazon. Perspectives from her research and from major Web companies; as PC co-chair for VLDB'21, along with Felix, she introduced the Benchmarks dimension to VLDB’s scope and started the Scalable Data Science Research category.</li>
+</ul>
+
+<!--<h3>Bio</h3>
+<p>
+<img src="talks/kar2021b.jpg" width="100" hspace="6" align="left">
+<strong>Kenneth Ross</strong> is a Professor in the Computer Science Department at Columbia University in New York City. His research interests touch on various aspects of database systems, including query processing and architecture-sensitive database system design.  He also has an interest in computational biology, including the study of autoimmunity. Professor Ross received his PhD from Stanford University in 1991.  He has received several awards, including a Packard Foundation Fellowship, a Sloan Foundation Fellowship, and an NSF Young Investigator award.
+</p>-->
+<!--<p>
+<img src="keynotes/Alur.jpeg" width="100" height="100" hspace="6" align="left">
+
+<strong>Rajeev Alur</strong> is Zisman Family Professor of Computer and Information Science at University of Pennsylvania. He obtained his bachelor's degree  from IIT Kanpur and PhD  from Stanford University. His research is focused on formal methods for system design. He is a Fellow of the AAAS, a Fellow of the ACM, a Fellow of the IEEE, an Alfred P. Sloan Faculty Fellow, and a Simons Investigator. His research has won many awards including the inaugural Alonzo Church award for outstanding contributions to logic and computation. He is the author of the textbook Principles of Cyber-Physical Systems (MIT Press, 2015).
+</p>-->
+
+</br></br></br>
+
+<a name="panel2"/></a>
+<h3>Data Management to Social Science and Back in the Future of Work</h3>
+<h3>Organizers</h3>
+<p>Sihem Amer-Yahia (CNRS, Univ of Grenoble Alpes)</p> 
+<p>Senjuti Basu Roy (New Jersey Institute of Technology)</p>
+
+<h3>Abstract</h3>
+<p>
+How will we work, live, and thrive in the post-pandemic future? The rapid mushrooming of online job markets has been transforming the definition of work and workplaces. After the pandemic, as we "cope with the new normal", the future world of work may change forever and become predominantly virtual. This makes an unprecedented pool of talent available at our beck and calls to work on "gigs" that disband when the job is over; this also is the time of destabilization and changing nature of job security. As scientists, we have a big responsibility and a tremendous opportunity in shaping the Future of Work (FoW) post pandemic, by designing effective platforms that support productive employment, mitigate social costs, and provide an effective and safe learning environment.
+</p>
+<p>
+A research agenda for FoW must mobilize the participation of various scientific, regulatory and miscellaneous stakeholders [10]. We will ask the questions: what is the role of Data Management (DM) in shaping research on FoW? Is now a ripe time to get Economics, Labor Theory, Psychology of Work and AI to help put DM research and technology at the center of research on FoW? Are we at all interested? The panelists will debate two complementary views: A pessimistic view on whether FoW will tend to see humans as machines, robots, or low-level agents and use them in the service of broader AI goals vs. a more optimistic view, where AI and Social Science will help DM to develop technologies that empower humans for future workforce and workplaces.
+</p>
+
+<h3>Comfired Panelists</h3>
+<ul>
+	<li><strong>Lei Chen</strong> is a Chair Professor and the Director of HKUST Big Data Institute. Lei is a world expert in crowdsourcing-based data processing.</li>
+	<li><strong>Krishna Gummadi</strong> is a scientific director at the Max Planck Institute for Software Systems (MPI-SWS) in Germany. Krishna's research interests are in the measurement, analysis, design, and evaluation of complex Internet-scale systems. His work focus is on enhancing fairness and transparency of data-driven decision making in social computing systems.</li>
+	<li><strong>Saiph Savage</strong> is Director HCI Lab, WVU. She studies AI systems to help workers develop their digital skills to access better jobs and fight disinformation. Saiph was named one of the 35 Innovators under 35 by the MIT Technology Review for her civic tech research.</li>
+	<li><strong>Jaime Teevan</strong> is Chief Scientist for Microsoft's Experiences and Devices, and this past year coordinated the company’s research efforts to understand how people’s work practices have changed since the start of the pandemic: http://aka.ms/newfutureofwork.</li>
+	<li><strong>Koichiro Yoshida</strong> is the CEO of CrowdWorks (the largest crowdsourcing company in Japan, went to public in 2014). He will bring his expertise as a practitioner and a proponent of workers' rights in online marketplaces.</li>
+</ul>
+
+<!--<h3>Bio</h3>
+<p>
+<img src="talks/wangchiew.jpg" width="100" hspace="6" align="left">
+Wang-Chiew is a research scientist at Facebook AI. Prior to joining Facebook AI, she was at Megagon Labs where she led the research efforts on building advanced technologies to enhance search by experience. Prior to Megagon Labs, she was a Professor of Computer Science at University of California, Santa Cruz and also spent two years at IBM Research - Almaden. Her research interests include data integration and exchange, data provenance, and natural language processing. She is a co-recipient of the 2014 ACM PODS Alberto O. Mendelzon Test-of-Time Award, the 2018 ICDT Test-of-Time Award, and the 2020 Alonzo Church Award. She received the 2019 VLDB Women in Database Research Award and she is a Fellow of the ACM.
+</p>-->
+<!--
+<a name="keynote2"/></a>
+<h3>Keynote Speaker 2: Pedro Domingos (University of Washington)</h3>
+<h3>Machine Learning for Data Management: Problems and Solutions</h3>
+<h3>Abstract</h3>
+<p>
+Machine learning has made great strides in recent years, and its applications are spreading rapidly. Unfortunately, the standard machine learning formulation does not match well with data management problems. For example, most learning algorithms assume that the data is contained in a single table, and consists of i.i.d. (independent and identically distributed) samples. This leads to a proliferation of ad hoc solutions, slow development, and suboptimal results. Fortunately, a body of machine learning theory and practice is being developed that dispenses with such assumptions, and promises to make machine learning for data management much easier and more effective. In particular, representations like Markov logic, which includes many types of deep networks as special cases, allow us to define very rich probability distributions over non-i.i.d., multi-relational data.
+Despite their generality, learning the parameters of these models is still a convex optimization problem, allowing for efficient solution. Learning structure - in the case of Markov logic, a set of formulas in first-order logic - is intractable, as in more traditional representations, but can be done effectively using inductive logic programming techniques. Inference is performed using probabilistic generalizations of theorem proving, and takes linear time and space in tractable Markov logic, an object-oriented specialization of Markov logic.
+These techniques have led to state-of-the-art, principled solutions to problems like entity resolution, schema matching, ontology alignment, and information extraction. Using tractable Markov logic, we have extracted from the Web a probabilistic knowledge base with millions of objects and billions of parameters, which can be queried exactly in subsecond times using an RDBMS backend. With these foundations in place, we expect the pace of machine learning applications in data management to continue to accelerate in coming years.
+</p>
+
+
+<h3>Bio</h3>
+<p>
+ <img src="images/pedro.jpg" width="100" height="100" hspace="6" align="left">
+
+<strong>Pedro Domingos </strong> is a professor of computer science at the University of Washington and the author of The Master Algorithm, a bestselling introduction to machine learning for a broad audience. He is a winner of the SIGKDD Innovation Award, the highest honor in data science. He is a Fellow of the Association for the Advancement of Artificial Intelligence, and has received a Fulbright Scholarship, a Sloan Fellowship, the National Science Foundation's CAREER Award, and numerous best paper awards. His research spans a wide variety of topics in machine learning, artificial intelligence, and data science, including scaling learning algorithms to big data, maximizing word of mouth in social networks, unifying logic and probability, and deep learning.
+
+</p>
+
+-->
+
+<!--endMainContent -->
+</div>
+	  <!-- footer -->
+
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

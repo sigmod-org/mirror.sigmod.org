@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The 2021 ACM SIGMOD/PODS Conference: Xi'an, Shaanxi, China - Organization: PODS Program Committee</title>
+<style type="text/css" media="screen">
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+}
+</style>
+<link href="sigmod_css.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script language="JavaScript">
+
+
+
+<!-- This script and many more are available free online at -->
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+
+
+<!-- Begin
+
+// Set up the image files to be used.
+
+var theImages = new Array() // do not change this
+
+var theImageDescriptions = new Array() // do not change this
+
+var theImageURLs = new Array() // do not change this
+
+// To add more image files, continue with the
+
+// pattern below, adding to the array.
+
+
+
+theImages[0] = 'images/Shaanxi/Daming-palace.jpg'
+
+theImages[1] = 'images/Shaanxi/Zhong Gu Lou.jpg'
+
+theImages[2] = 'images/Shaanxi/Terracotta1.jpg'
+
+//theImages[3] = 'images/Shaanxi/JapaneseGarden.jpg'
+
+//theImages[4] = 'images/SanFrancisco/GoldenBridge2.jpg'
+
+
+theImageDescriptions[0] = 'Daming Palace'
+
+theImageDescriptions[1] = 'Zhong Gu Lou'
+
+theImageDescriptions[2] = 'Terra Cotta Warriors'
+
+//theImageDescriptions[3] = 'Japanese Garden'
+
+//theImageDescriptions[4] = 'Golden Gate Bridge'
+
+
+theImageURLs[0] = 'http://special.sxdaily.com.cn/160628/'
+
+theImageURLs[1] = 'http://special.sxdaily.com.cn/160628/'
+
+theImageURLs[2] = 'http://special.sxdaily.com.cn/160628/'
+
+//theImageURLs[3] = 'http://special.sxdaily.com.cn/160628/'
+
+//theImageURLs[3] = 'https://www.travelportland.com/'
+
+//theImageURLs[4] = 'http://www.goldengatebridge.org/'
+
+// do not edit anything below this line
+
+
+
+//var j = 0
+
+var p = theImages.length;
+
+//var preBuffer = new Array()
+
+//for (i = 0; i < p; i++){
+
+//   preBuffer[i] = new Image()
+
+//   preBuffer[i].src = theImages[i]
+
+//}
+
+var whichImage = Math.round(Math.random()*(p-1));
+
+
+function showImage(){
+
+
+//document.write('<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div>');
+
+
+document.write('<link href="sigmod_css.css?v=20201213" rel="stylesheet" type="text/css" media="screen" />')
+document.write('<div id="masthead">');
+
+document.write('<a href="' + theImageURLs[whichImage] + '" target="_blank"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="300" /></a>');
+
+document.write("<img src='images/footer-virtual2.png' alt='XXXX XX - XXXX XX, 2021, Xi'an, Shaanxi, China' width='742'/>");
+document.write("<img src='images/Shaanxi/notice-1.jpg' alt='XXXX XX - XXXX XX, 2021, Xi'an, Shaanxi, China' width='742'/>");
+document.write('</div>');
+
+
+
+
+
+//document.write('<div id="masthead"><img src="' + theImages[whichImage] + '" alt="' + theImageDescriptions[whichImage] + '" width="742" height="330" /></div>');
+
+
+
+}
+
+
+
+//  End -->
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+<!-- <div id="masthead" style="height:auto"><img src="images/2020-SIGMOD-WebBanner.png" alt="top banner" width="750"/></div> -->
+
+<!-- <div style="font-size:0.8em;text-align:center;color: #485b81;font-weight: bold;"><p style="margin:0">ACM SIGMOD/PODS International Conference on Management of Data&nbsp&nbsp&nbsp&nbsp June 14 - June 19, 2020&nbsp&nbsp&nbsp Portland, OR, USA</p>
+</div> <br> June 14 - June 19, 2020   Portland, OR, USA-->
+
+
+
+<!-- <div id="logoACMSIGMOD" style="margin:0px;height:100px;float:left"><a href="index.shtml">
+<img src="images/Sigmod-Logo.jpg" alt="ACM SIGMOD City, Country, Year" height="100" style="float:left;"/></a>
+</div> -->
+<div id="logoACMSIGMOD2" style="margin:0px;height:100px;float:left"><a href="index.shtml">
+<img src="images/2021sigmod-logo1.jpg" alt="ACM SIGMOD City, Country, Year" height="100" style="float:left";/></a>
+</div>
+<!--endlogoNeil -->
+
+<div id="linksHomeContact" style="margin-top: 15px"><img src="sigmod-pods-logo.png" alt="sigmod pods logo" width="150" style="margin: 0px"/></div>
+<!--linksHomeContactmastheadEnd -->
+
+<script language="JavaScript">
+
+showImage();
+
+</script>
+
+
+
+<!--	<div id="masthead"><img src="images/indy500_sigmod.jpg" alt="top banner" width="742" height="330" /></div> -->
+
+<div id="wrap">
+
+			<!-- the ssi code needs to stay here - do not delete or move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebar">
+
+<h3>Welcome</h3>
+
+<ul class="navbar">
+
+  <li><a href="index.shtml" title="Homepage">Homepage</a></li>
+  <li><a href="http://reproducibility.sigmod.org/" title="Reproducibility">Reproducibility</a></li>
+  <li><a href="calls_papers_inclusion_and_diversity.shtml" title="Inclusion and Diversity">Inclusion and Diversity</font></a></li>
+  <li><a href="http://sigmod2020.org/rss.xml"><img src="images/rss.jpg" align = "left" width="14" height="14" alt="rss"></img></a>  <a href="news.shtml" title="News and Site Updates">&nbsp; News</font></a> </li>
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Booklet">Conference Booklet</li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Attendees">FAQ-Attendees</a></li>
+  <li><a href="info-coming-soon.shtml" title="FAQ-Sponsors & Exhibitors">FAQ-Sponsors & Exhibitors</a></li>
+  -->
+
+  </ul>
+
+<h3 class="navheading">Organization</h3>
+<ul class="navbar">
+  <li><a href="org_conference_officers.shtml" title="Organization">Organization</a></li>
+  <li><a href="org_sigmod_pc.shtml" title="Program Committee">SIGMOD PC </a></li>
+  <li><a href="http://reproducibility.sigmod.org/#Committee" title="Reproducibility Committee">SIGMOD RC </a></li>
+  <li><a href="org_pods_pc.shtml" title="Program Committee">PODS PC </a></li>
+  <li><a href="org_sigmod_industry_pc.shtml" title="Program Committee">SIGMOD Industry PC </a></li>
+  <li><a href="org_sigmod_demo_pc.shtml" title="Program Committee">SIGMOD Demo PC </a></li>
+  <li><a href="org_sigmod_tutorials_pc.shtml" title="Program Committee">SIGMOD Tutorial PC </a></li>
+  <li><a href="org_sponsor_opportunities.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="org_volunteers.shtml" title="SIGMOD Volunteers" target="_blank">Conference Volunteers</a></li>
+   <!--
+  <li><a href="info-coming-soon.shtml" title="Conference Volunteers">Conference Volunteers </a></li>
+  <li><a href="info-coming-soon.shtml" title="SponsorOpportunities">Sponsor Opportunities</a></li>
+  <li><a href="info-coming-soon.shtml" title="Sponsors">Sponsors/Exhibitors</a></li>
+  <li><a href="http://www.sigmod.org/sigmod-pods-conferences" title="Past Conferences" target="_blank">Past Conferences</a></li>
+   -->
+  <li><a href="http://www.sigmod.org/" title="SIGMOD" target="_blank">ACM SIGMOD Online</a></li>
+
+
+<!--
+  <li><a href="" title="External Reviewers">SIGMOD
+  External Reviewers </a></li>
+-->
+ <!-- REMOVED <li><a href="org_publications.shtml" title="Publications">Publications </a></li>  -->
+
+  <!-- temporarily REMOVED <li><a href="reproducibility.shtml">SIGMOD Experimental
+  Reproducibility Effort</a> -->
+
+  <!-- <li><a href="exhibitors.shtml" title="Exhibits">Industrial
+  Exhibits</a></li> -->
+
+
+<br>
+</br>
+
+
+<h3>Special and Co-located Events</h3>
+<ul class="navbar">
+  <li><a href="local_events.shtml" title="Local Event">Local Event</font></a></li>
+  <li><a href="sigmod_workshops.shtml" title="Workshops">Affiliated Workshops</font></a></li>
+  <li><a href="sigmod_student_research_competition.shtml" title="ResearchCompetition">Student Research Competition</font></a></li>
+  <li><a href="sigmod_new_research_symposium.shtml" title="NewResearchers">New Researcher Symposium</font></a></li>
+  <li><a href="https://dbgroup.ing.unimo.it/sigmod21contest/" title="ProgrammingContest">Programming Contest</font></a></li>
+  <!--<li><a href="http://www.inf.uniroma3.it/db/sigmod2020contest/index.html" title="ProgrammingContest">Programming Contest</font></a></li>-->
+  <!--<li><a href="info-coming-soon.shtml" title="RonFaginEvent">Ron Fagin Event</a></li>-->
+</ul>
+
+
+<h3>Participant Information</h3>
+<ul class="navbar">
+  <li><a href="sigmod_online_event_guide.shtml" title="Whova">Whova Instruction</font></a></li>
+  <!-- <li><a href="https://sigmod2021.events.whova.com" title="Whova">Whova Entrance</font></a></li> -->
+    <!--<li><a href="info-coming-soon.shtml" title="Attending">Attending the Conference</a></li>-->
+  <!--<li><a href="http://sigmod2020.org/covid19.shtml" title="Coronavirus Updates"><font color="red">Coronavirus Updates</font></a></li>-->
+  <!--<li><a href="http://www.cvent.com/d/yhqjj1" title="Registration"><font color="red">Registration</font></a></li>-->
+	<li><a href="registration.shtml" title="Registration">Registration</font></a></li>
+  <!--<li><a href="grants.shtml" title="Students">Student Travel Award </font></a></li>-->
+	<li><a href="visa.shtml" title="Visa">Visa Information</font></a></li>
+	<li><a href="local_events.shtml" title="Accommodations">Accommodations</font></a></li>
+	<li><a href="local_events.shtml" title="Venue">Conference Venue</font></a></li>
+	<li><a href="transportation.shtml" title="Transportation">Airport & Transportation</font></a></li>
+
+
+	<!--	<li><a href="info-coming-soon" title="Banquet">Banquet</a></li>
+	<li><a href="info-coming-soon.shtml" title="Venue">Conference Venue</a></li>
+	<li><a href="info-coming-soon.shtml" title="Restaurants">Nearby Restaurants</a></li>
+	<li><a href="info-coming-soon.shtml" title="SanFrancisco">About San Francisco</a></li>
+	<li><a href="info-coming-soon.shtml" title="Transportation">Transportation</a></li>-->
+</ul>
+
+
+
+<!--
+<h3>Related events</h3>
+<ul class="navbar">
+      <li><a href="http://www.debs2016.org/" title="DEBS" target="_blank">DEBS 2016</a></li>
+      <li><a href="http://event.cwi.nl/grades/2016" title="GRADES" target="_blank">GRADES 2016</a></li>
+</ul>
+-->
+
+</div>
+
+		<!-- the ssi code needs to stay here - do not delete move -->
+<style type="text/css">
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.8;
+    }
+</style>
+
+<div id="sidebarRight">
+
+<h3 class="navheading">SIGMOD Program</h3>
+<ul class="navbar">
+ <!-- <li><a href="sigmod_online_event_guide.shtml" title="Online Event Guide" style="color: red">Online Event Guide</font></a></li> -->
+ <li><a href="sigmod_conference_planning.shtml" title="Program Overview" style="color: red">Conference Planning</font></a></li>
+ <li><a href="officehour.pdf" title="Office Hour">Office Hour</font></a></li>
+ <li><a href="sigmod_DI_events.shtml" title="D&I-Themed Events">D&I-Themed Events</font></a></li>
+ <li><a href="program/program_overview.shtml" title="Program Overview" >Program Overview</font></a></li>
+ <li><a href="program/program_tuesday.shtml" title="Program">Detailed Program</font></a></li>
+ <li><a href="sigmod_best_papers.shtml" title="">Best Paper Awards</font></a></li>
+ <li><a href="sigmod_research_list.shtml" title="Research Papers">Research Papers</font></a></li>
+ <li><a href="sigmod_demo_list.shtml" title="Demo Papers">Demo Papers</font></a></li>
+ <li><a href="sigmod_tutorial.shtml" title="Tutorials">Tutorials</font></a></li>
+  <!--<li><a href="sigmod_tutorials.shtml" title="Tutorials"><font color="red">Tutorials</font></a></li>-->
+ <li><a href="sigmod_industrial_list.shtml" title="Industrial Papers">Industrial Papers</font></a></li>
+ <li><a href="sigmod_keynote.shtml" title="Keynote Talks">Keynote Talks</font></a></li>
+ <li><a href="sigmod_panel.shtml" title="Panel Discussions">Panel Discussions</font></a></li>
+<!-- <li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</font></a></li>
+ <li><a href="info-coming-soon.shtml" title="Special Session">Special Session</font></a></li>-->
+  <!--
+  <li><a href="info-coming-soon.shtml" title="Undergraduate Competition">Undergraduate Competition Posters</a></li>
+  <li><a href="info-coming-soon.shtml" title="TODS Posters">TODS Posters</a></li>
+   -->
+</ul>
+
+
+<h3 class="navheading">PODS Program</h3>
+<ul class="navbar">
+<li><a href="program/program_overview.shtml" title="Program Overview" >Program Overview</font></a></li>
+<li><a href="program/program_monday.shtml" title="Detailed Program">Detailed Program</font></a></li>
+<!--<li><a href="pods_list.shtml" title="Research Papers"><font color="red">Research Papers</font></a></li>-->
+<li><a href="pods_list.shtml" title="Research Papers">Research Papers</font></a></li>
+<!--<li><a href="pods_invited.shtml#keynote" title="Keynote">Keynote Talk</a></li>-->
+<li><a href="pods_keynote.shtml" title="Keynote">Keynote Talk</a></li>
+<li><a href="pods_tutorial.shtml" title="Invited Tutorials">Invited Tutorials</font></a></li>
+<li><a href="pods_gems.shtml" title="Gems of PODS">Gems of PODS</font></a></li>
+<!--<li><a href="info-coming-soon.shtml" title="Award Talks">Award Talks</a></li>-->
+</ul>
+
+
+
+
+<h3 class="navheading">Calls For Submissions</h3>
+
+<!--
+<p><font color="red">&nbsp; &nbsp; Undergraduate poster<br /> &nbsp; &nbsp; competition deadline:<br /> &nbsp; &nbsp; March 15, 2016</font></p>
+-->
+
+<ul class="navbar">
+  <li><a href="calls_papers_important_dates.shtml" title="Important Dates and Submission">Important Dates</font></a></li>
+  <li><a href="calls_papers_sigmod_research.shtml" title="SIGMOD Calls for Submissions">SIGMOD Call for Research Papers</font></a></li>
+  <li><a href="calls_papers_pods_research.shtml" title="PODS Calls for Submissions">PODS Call for Research Papers</font></a></li>
+  <li><a href="calls_industrial_track_papers.shtml" title="SIGMOD Call for Industrial Track Papers">SIGMOD Call for Industrial Track Papers</font></a></li>
+  <li><a href="calls_workshop_proposals.shtml" title="SIGMOD Call for Workshop Proposals">SIGMOD Call for Workshop Proposals</font></a></li>
+  <li><a href="calls_tutorial_proposals.shtml" title="SIGMOD Call for Tutorial Proposals">SIGMOD Call for Tutorial Proposals</font></a></li>
+  <li><a href="calls_demo_proposals.shtml" title="SIGMOD Call for Demonstration Proposals">SIGMOD Call for Demonstration Proposals</font></a></li>
+  <li><a href="calls_panelists.shtml" title="SIGMOD Call for Panel Proposals">SIGMOD Call for Panel Proposals</font></a></li>
+  <!--<li><a href="calls.shtml" title="Calls for Submissions">Calls for Submissions</font></a></li>-->
+</ul>
+
+
+<br />
+
+<!--<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">-->
+<!-- <h1 class="widget-title">Follow me on Twitter</h1> -->
+<!--<a class="twitter-timeline" href="https://twitter.com/sigmod2021">Tweets by sigmod2021</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>!function(d,s,id){var
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</aside>-->
+
+<br /> <br />
+<!--
+<aside id="facebook-likebox-2" class="widget widget_facebook_likebox">
+<!-- <h2 class="widget-title"><a href="https://www.facebook.com/sigmod2016">SIGMOD 2015</a></h2> -->
+<!--<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/sigmod2016&#038;width=155&#038;height=350&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false"  scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 155px;  height: 302px; background: #fff"></iframe></aside>
+-->
+<br />
+
+<!--
+<aside id="twitter_timeline-2" class="widget widget_twitter_timeline">
+ <h1 class="widget-title">Follow me on Twitter</h1>
+<a class="twitter-timeline" data-widget-id="492844173880348673" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-chrome="noborders" width="225" height="400" lang="EN">My Tweets</a></aside>
+
+-->
+
+
+<!--
+<h3 class="navheading">Workshops Program</h3>
+<ul class="navbar">
+  <li><a href="schedglance.shtml" title="Schedule at a Glance" >Schedule at a Glance</a></li>
+  <li><a href="workshop_program.shtml" title="Workshop Program">Program</a></li>
+</ul>
+-->
+
+<!--  Chopped for aesthetics
+    <li><a href="pods_formatting.shtml" title="PODS Paper Formatting">PODS: Paper Formatting</a></li>
+    <li><a href="sigmod_formatting.shtml" title="SIGMOD Paper Formatting">SIGMOD: Paper Formatting</a></li>
+</ul>
+-->
+
+
+</div>
+
+
+
+
+<div id="maincontent">
+<h1> Organization: PODS Program Committee</h1>
+
+
+<p>
+<p>
+<strong>Chair</strong><br>
+
+Reinhard Pichler (TU Wien, Austria) <br>
+</p>
+<p>
+<strong>Program Committee Members</strong> <br>
+Mahmoud Abo Khamis	(Relational AI, USA) <br>
+Marcelo Arenas	(Pontificia Universidad Católica de Chile, Chile)<br>
+Sepehr Assadi	(Rutgers University, USA)<br>
+Marco Calautti	(University of Trento, Italy)<br>
+Hubie Chen	(Birkbeck, University of London, UK)<br>
+Edith Cohen	(Google Research, USA and Tel Aviv University, Israel)<br>
+Claire David (LIGM, University Gustave Eiffel, France)<br>
+Alin Deutsch	(University of California, San Diego, USA)<br>
+Diego Figueira	(LaBRI, CNRS & Univ Bordeaux, France)<br>
+Martin Grohe	(RWTH Aachen University, Germany)<br>
+Yazmin Angélica Ibáñez-García  (Cardiff University, UK)<br>
+Batya Kenig 	(University of Washington, USA)<br>
+Daniel Kifer	(Pennsylvania State University, USA)<br>
+Jerzy Marcinkowski	(University of Wrocław, Poland)<br>
+Frank Neven	(Hasselt University, Belgium)<br>
+Matthias Niewerth	(University of Bayreuth, Germany)<br>
+Rasmus Pagh	(IT University of Copenhagen, Denmark)<br>
+Liat Peterfreund	(CNRS, IRIF, Université de Paris, France)<br>
+Juan Reutter	(Pontificia Universidad Católica de Chile, Chile)<br>
+Thomas Schwentick	(TU Dortmund University, Germany)<br>
+Pierre Senellart	(ENS, PSL University, France)<br>
+Srikanta Tirthapura	(Apple Inc., and Iowa State University, USA)<br>
+Martín Ugarte	(Millennium Institute Foundational Research on Data, Chile)	<br>
+	
+</p>
+<p>
+<strong>PODS General Chair</strong> <br>
+Leonid Libkin	(University of Edinburgh, UK)
+<br>
+
+</p>
+<p>
+<strong>Proceedings Chair</strong> <br>
+
+Paolo Guagliardo (University of Edinburgh, UK)
+<br>
+</p>
+<p>
+<strong>Publicity Chair</strong> <br>
+
+Nofar Carmeli (Technion - Israel Institute of Technology, Israel)
+<br>
+</p>
+
+</div>
+
+
+<!--endMainContent -->
+
+	  <!-- footer -->
+<style type="text/css" media="screen">
+
+#myStyle {
+
+	text-align: right;
+	clear: both;
+	margin-top: 20px;
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+</style>
+
+
+	  <!-- footer -->
+
+	  <div id="footer">
+	    <img src="images/bottom_logos_2012a.png" />
+	    <table width="740" border="0">
+          <tr>
+            <td width="118">
+<!--
+<div align="center"><a href="http://www.asu.edu"><img src="images/asu.jpg" alt="Arizona State University" width="98" height="40" hspace="10" vspace="10" longdesc="http://www.asu.edu" /></a></div>
+-->
+</td>
+            <td width="61">
+<!--
+<a href="http://www.arizona.edu"><img src="images/ua.jpg" alt="University of Arizona" width="41" height="40" hspace="10" vspace="10" longdesc="http://www.arizona.edu" /></a>
+-->
+	    </td>
+            <td width="382">&nbsp;</td>
+            <td width="161"><a href="http://www.acm.org"><img src="images/acm.png" alt="ACM" width="160" height="56" longdesc="http://www.acm.org" /></a></td>
+          </tr>
+        </table>
+
+	    <img src="images/bottom_logos_2012b.jpg" />
+	  </div>
+</div>
+
+<!-- end of wrap -->
+
+
+<p>
+</p>
+<div id="credits">
+<table>
+<tr>
+	<a href="about.shtml">Credits</a>
+</tr>
+<br>
+<tr>
+Follow our progress:
+<a href="https://www.facebook.com/groups/sigmod/ " title="view our
+  facebook page" target="_blank"><IMG
+  SRC="images/facebook_f.jpg"
+  WIDTH="20" HEIGHT="20" BORDER="0" ALT="Facebook"></a>
+
+<a href=" https://twitter.com/acmsigmod2016 " title="view our
+  twitter page" target="_blank"><IMG
+  SRC="images/twitter-big.png"
+  WIDTH="25" HEIGHT="25" BORDER="0" ALT="Twitter"></a>
+
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+<!-- Ignore.  What is this?  WGY060809
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4368942-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+Ignore.  What is this?  WGY060809 -->
+
+
+</body>
+</html>

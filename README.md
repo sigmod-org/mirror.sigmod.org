@@ -23,6 +23,7 @@ sites work as they did.
 | `sigmod2011` | Wayback Machine copy of www.sigmod2011.org |
 | `sigmod2012`, `sigmod2013` | The copies at sigmod.org/2012/ and sigmod.org/2013/ |
 | `sigmod2014`–`sigmod2020` | Downloaded from the live www.sigmodYYYY.org sites |
+| `sigmod2021` | Wayback Machine copy of 2021.sigmod.org (latest good capture of each file; links to 2021.sigmod.org made relative; the program pages' theme files, from the defunct sigmod2020online.org, copied to `sigmod2021/program/sigmod2020online/`) |
 
 The files are kept as they were downloaded, with two exceptions: saved
 "Not Found" error pages were removed, and the 2019 site (Drupal) was saved with

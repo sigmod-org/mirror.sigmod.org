@@ -1,0 +1,369 @@
+/*
+CSS stylesheet for Sigmod
+*/
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 101%;
+	width: 742px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#masthead {
+	width: 742px;
+	height: 400px;
+	clear: both;
+}
+
+#masthead1 {
+	width: 742px;
+	height: 300px;
+	clear: both;
+}
+
+/* Getting rid of code below because it keeps me from making the masthead clickable.  Don't know why it's here.  WGY 061509.
+
+#masthead a, #masthead a:visited, #masthead a:active {
+	display: block;
+	height: 137px;
+	margin-left: -20000px;
+}
+
+*/
+
+/* added this to contain left nav, content area and right nav  - put a background on entire wrap to avoid putting borders everywhere */
+#wrap {
+	display: block;
+	width: 742px;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	background-image: url(images/bg_page_marianna.jpg);
+	background-repeat: repeat-y;
+}
+
+/* combined rules for both sidebars here and broke out differences below */
+#sidebar,
+#sidebarRight {
+	color: #866B64;
+	font-size: 0.7em;
+	width: 160px;
+	padding: 25px 0 25px 0;
+	margin: 0;
+}
+
+#sidebar {
+	float: left;
+	
+}
+
+#sidebarRight {
+	float: right;
+}
+
+/* since same style for both, amalgamated here */
+#sidebar h3,
+#sidebarRight h3 {
+	color: #485b81;
+	font-size: 1.1em;
+	margin: 0 0 8px 0;
+	padding: 3px 6px 3px 8px;
+}
+
+#sidebar p {
+	margin: 6px 0 12px 6px;
+}
+
+#maincontent {
+	font-size: 0.7em;
+	line-height: 1.5em;
+	padding: 25px 0 25px 0;
+	margin: 0;
+	margin-left: 160px;
+	width: 400px;
+}
+
+#programcontent {
+	font-size: 0.7em;
+	line-height: 1.5em;
+	padding: 25px 0 25px 0;
+	margin: 0;
+	margin-left: 160px;
+	width: 500px;
+}
+
+h1 {
+	font-size: 1.3em;
+	color: #485b81;
+	padding-left: 7px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 12px;
+	margin-left: 0;
+	border-bottom-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+
+#maincontent p {
+	margin: 6px 0 12px 0;
+	padding: 0 12px 0 20px;
+}
+
+#maincontent h2 {
+	color: #999999;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: normal;
+	padding-left: 10px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 5;
+	margin-left: 7px;
+}
+
+#maincontent a:link {
+	color: #333333;
+}
+#maincontent a:visited {
+	color: #0099CC;
+}
+#maincontent a:hover, #maincontent a:active, #maincontent a:focus {
+	color: #666666;
+}
+
+#maincontent span.location{
+    color: #8B4513;
+}
+
+#maincontent span.hashtag{
+    color: #00868B;
+}
+#maincontent li {
+	margin-left: 5px;
+	margin-bottom: 5pt;
+}
+
+
+
+
+#tagline {
+	clear: both;
+	height: 28px;
+	background: #ccc;
+}
+
+#tagline p {
+	margin:0;
+	display: none;
+}
+
+.picture {
+	float: right;
+	margin: 9px 0 20px 20px;
+	clear: both;
+}
+
+/* reworked lists for navigation */
+ul.navbar {
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.navbar li {
+	margin: 0 14px 0 14px;
+	padding: 0;
+	line-height: 1.5em;
+	border-bottom: 1px dotted #ccc;
+}
+
+ul.navbar li a, ul.navbar li a:link, ul.navbar li a:visited, ul.navbar li a:active {
+	display: block;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	color: #666666;
+	text-decoration: none;
+}
+
+/** Huiping added this to make the p and a look the same **/
+ul.navbar li p {
+	margin: 0;
+	padding: 0 10px 0 10px;
+	color: #666666;
+	text-decoration: none;
+}
+
+ul.navbar li a:hover {
+	display: block;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	color: #000000;
+}
+
+
+img {
+	border: 0;
+}
+
+
+#footer {
+	clear: both;
+	height: 96px;
+	width: 742px;
+}
+#footer a:link, #footer a:visited {
+	color: #675954;
+}
+#footer a:hover, #footer a:active, #footer a:focus {
+	color: #FFFFFF;
+}
+#logoACMSIGMOD{
+	margin-bottom: 19px;
+	width: 270px;
+	height: 65px;
+	float: left;
+}
+#maincontent p.dottedUnderline {
+	border-bottom: 1px dotted #ccc;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#footer img.logo {
+	float: right;
+}
+#linksHomeContact {
+	float: right;
+	color: #ab281c;
+	font-size: 0.65em;
+}
+#linksHomeContact  ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+	} 
+#linksHomeContact ul li {
+	margin-left: 0;
+	padding: 3px 15px;
+	border-left-width: thin;
+	border-left-style: dotted;
+	list-style: none;
+	display: inline;
+	border-left-color: #ab271c;
+	line-height: .5em;
+	}		
+#linksHomeContact ul li.first {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+}
+#linksHomeContact A:link {
+	COLOR: #ab271c;
+	text-decoration: none;
+}
+#linksHomeContact A:visited {
+	COLOR: #ab271c
+}
+#linksHomeContact A:hover {
+	COLOR: #006699;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+}
+#linksHomeContact A:active {
+	COLOR: #ab271c
+	} 
+#maincontent h3 {
+	color: #333;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: normal;
+	padding-left: 12px;
+}
+#maincontent ol {
+}
+#navTop {
+	background: url(images/back_navbar_top.jpg) center top no-repeat;
+	height: 13px;
+}
+#navTopMiddle {
+	background: url(images/back_navbar_middle.jpg) center top repeat-y;
+}
+
+#navTopBot {
+	background: url(images/back_navbar_bot.jpg) center bottom no-repeat;
+	height: 22px;
+}
+#mainTop {
+	background: url(images/back_main_top.jpg) center top no-repeat;
+	height: 13px;
+	width: 546px;
+}
+#mainTopMiddle {
+	background: url(images/back_main_mid.jpg) center top repeat-y;
+	width: 546px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#mainTopBot {
+	background: url(images/back_main_bot.jpg) center bottom no-repeat;
+	height: 31px;
+	width: 546px;
+	margin-top: -10px;
+}
+.accreditation {
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 1.4em;
+}
+
+#mainTopMiddle p {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+#contentwrapperZoomIn {
+	background: #fff;
+	width: 900px;
+	margin: 0 auto;
+}
+#contentsZoom {
+	float: left;
+	clear: both;
+}
+#mainTopMiddle ul {
+	margin: 1em;
+	padding: 0;
+	text-align: left;
+	text-indent: 0;
+}
+#mainTopMiddle li {
+}
+#mainTopMiddle table {
+	COLOR: #757575;
+	background-color: #eaeaea;
+	width: 95%;
+	border: 1px dotted #999;
+	margin-left: 15px;
+	float: none;
+	font-size: 0.8em;
+}
+
+#logoFentonMalloy {
+	text-align: right;
+	clear: both;
+}
+
+#credits {
+	color: #866B64;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+iframe[id^='twitter-widget-']{ width:155px !important;min-width: 100px !important;}
